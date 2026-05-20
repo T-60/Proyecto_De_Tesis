@@ -1,0 +1,272 @@
+\chapter{Estado del Arte}
+\label{cap:estado_arte}
+
+\section{Consideraciones Iniciales}
+
+En el presente capítulo se realiza una revisión exhaustiva de los trabajos relacionados con el análisis computacional, extracción de información y exploración visual de narrativas complejas en el contexto gubernamental y legal. Con el objetivo de establecer una base sólida de conocimiento, se han explorado diversas investigaciones que han abordado el problema desde diferentes perspectivas. Este capítulo se divide en tres enfoques principales: primero, los sistemas orientados a la extracción de información en documentos legales y gubernamentales; segundo, las herramientas de \textit{Visual Analytics} diseñadas para el análisis de texto y narrativas complejas temporales; y finalmente, las investigaciones centradas en el uso de Grandes Modelos de Lenguaje (\acs{LLM}) para el análisis documental y la mitigación de alucinaciones.
+
+\section{Sistemas de Extracción de Información en Documentos Gubernamentales y Legales}
+
+En esta sección describimos los trabajos que han aplicado técnicas de extracción de información, la gran parte de estas investigaciones intentan convertir documentos legales y gubernamentales en datos organizados.
+
+
+
+
+
+En \cite{zhong-etal-2020-nlp}, Zhong et al. presentan un estudio detallado sobre la Inteligencia Artificial Legal (LegalAI), enfocándose en cómo el procesamiento de lenguaje natural puede ayudar a analizar sentencias y contratos. El trabajo propone un enfoque híbrido que mezcla modelos de lenguaje como \ac{BERT}, adaptado específicamente al dominio legal con métodos estadísticos y reglas lógicas para ganar interpretabilidad. Un problema técnico que identifican es la limitación de los 512 tokens en modelos como \acs{BERT}, esto es crítico porque un expediente legal real puede superar las 50,000 palabras, lo que causa que el modelo pierda el contexto global y falle en tareas de predicción, como ocurrió en el benchmark C-LJP. Además, los autores señalan que estos modelos suelen funcionar como cajas negras, lo que genera problemas éticos y falta de confianza en los resultados. Aunque mencionan el uso interno de grafos para relacionar crímenes y penas, el sistema no ofrece ninguna interfaz de \textit{Visual Analytics} para el usuario. Esta carencia es un punto clave para nuestra investigación, ya que refuerza la necesidad de herramientas que no solo procesen el texto, sino que permitan explorar visualmente narrativas largas y razonamientos complejos que los modelos actuales, por su propia arquitectura, todavía no pueden resolver de forma transparente.
+
+
+
+
+
+
+
+
+En \cite{navas2022whenthefact} se presenta \textit{WhenTheFact}, una herramienta que integra la extracción legal con \textit{Visual Analytics} para identificar eventos y fechas en sentencias judiciales europeas. A diferencia de las propuestas basadas en modelos masivos, este sistema utiliza un pipeline de \ac{NLP} tradicional que combina \textit{CoreNLP} para el análisis sintáctico y \textit{FrameNet} para capturar la semántica de los verbos legales. El principal aporte visual es una interfaz interactiva en HTML que genera una línea de tiempo automática, permitiendo que el usuario navegue cronológicamente por los hechos del caso de forma secuencial. Sin embargo, el sistema tiene limitaciones importantes en la resolución de correferencias, lo que causa que muchas veces se extraigan pronombres en lugar de los nombres reales de los actores involucrados. Además, los autores señalan una fuerte dependencia de la estructura del documento original, si el formato del \ac{PDF} varía o es muy antiguo, la calidad de la extracción cae drásticamente. Este trabajo es un antecedente para nuestra investigación, ya que valida la utilidad de las líneas de tiempo para explorar narrativas, pero también expone cómo los métodos clásicos se quedan cortos ante problemas de coherencia y flexibilidad que los \acs{LLM} pueden resolver de forma más eficiente.
+
+
+
+
+
+
+
+
+
+
+
+
+En \cite{yao2022leven} se presenta \textit{LEVEN}, un dataset diseñado para la detección de eventos legales en juicios penales. La metodología que proponen utiliza modelos de lenguaje como \acs{BERT} y DMBERT, apoyados en herramientas de segmentación como JIEBA y el uso de \ac{SBERT} para calcular la similitud semántica entre 108 categorías de eventos predefinidos. Un punto crítico que mencionan los autores es el problema de \textit{long-tail}, donde el rendimiento del modelo (F1) cae drásticamente en eventos con pocas muestras de entrenamiento. Además, el sistema tiene dificultades para integrar el contexto de oraciones cruzadas,como por ejemplo, no logra distinguir si el evento llamar es un reporte policial o una comunicación privada si no identifica correctamente la entidad a la que se contacta. Aunque el trabajo muestra cómo encadenar eventos (como un accidente que deriva en fuga y muerte) permite reclasificar un delito de tráfico a homicidio, el enfoque es algorítmico y carece de una interfaz de exploración para el usuario. Esta limitación es clave para mi investigación, ya que LEVEN demuestra que la extracción automática por sí sola todavía genera muchos falsos positivos y confusiones semánticas. Nuestra propuesta de \textit{Visual Analytics} busca llenar ese vacío, permitiendo que un analista valide y navegue estas narrativas complejas que los modelos actuales todavía no procesan con total precisión.
+
+
+
+
+
+
+
+
+
+
+En \cite{shen2020hierarchical} se aborda el problema de la extracción jerárquica de eventos en documentos judiciales, proponiendo un modelo que busca estructurar automáticamente delitos y sentencias. La arquitectura utiliza \acs{BERT} para generar las representaciones vectoriales iniciales, pero añade un mecanismo de atención denominado \textit{pedal attention}. Este componente es clave porque permite conectar palabras que están semánticamente vinculadas pero muy alejadas en el texto, superando las limitaciones de las redes de grafos tradicionales que suelen fallar ante dependencias de larga distancia. Además, implementan un sistema de inferencia conjunta basado en matrices de probabilidad para asegurar que la estructura final del evento sea coherente y no se pierda la relación de causalidad entre un acto criminal y su resultado. El sistema no presenta una interfaz interactiva, pero utiliza mapas de calor (\textit{heatmaps}) para demostrar cómo el modelo distribuye la atención entre términos distantes. Esto resulta valioso para la interpretabilidad del sistema, permitiendo observar, por ejemplo, cómo se logra asociar correctamente una entidad con una acción específica en oraciones complejas. Sin embargo, el sistema aún presenta dificultades con la resolución de anáforas y ambigüedades cuando aparecen múltiples atributos en una sola frase. Este trabajo es un antecedente para nuestra investigación, ya que propone una forma robusta de estructurar eventos, pero refuerza la oportunidad de integrar estas capacidades en un sistema de \textit{Visual Analytics} que permita al usuario validar y explorar estas jerarquías de forma interactiva.
+
+
+
+
+
+
+
+
+
+
+
+
+En \cite{feng2022legal} se presenta \textit{EPM}, un modelo diseñado para la predicción de juicios legales que busca determinar el delito y la condena a partir de los hechos de un caso. Su arquitectura utiliza Legal-BERT y una capa \ac{CRF} para extraer eventos, pero lo que realmente lo diferencia es el uso de restricciones lógicas rígidas dentro de la función de pérdida. Esto evita que el sistema cometa errores absurdos, como asignar un cargo que no tiene coherencia legal con el artículo de ley detectado. Además, el modelo soluciona el problema del ruido textual, logrando que el sistema se enfoque en la acción principal e ignore palabras secundarias que suelen confundir a modelos más simples. A pesar de su efectividad técnica, EPM funciona como un modelo de backend sin ninguna capa de \textit{Visual Analytics}. Los autores demuestran que extraer eventos mejora significativamente la precisión del juicio, pero los resultados se entregan como etiquetas de texto sin una interfaz que permita entender el contexto. Este punto para nuestra investigación, valida que la extracción de eventos es fundamental para analizar documentos judiciales, pero al mismo tiempo se necesita un sistema de \textit{Visual Analytics} que permita al analista humano explorar y validar estas narrativas complejas en lugar de solo recibir una predicción automática.
+
+
+
+
+
+
+
+
+En \cite{xue2024leec} se introduce \textit{LEEC}, un dataset diseñado para la extracción de factores legales y extralegales (como datos demográficos) en documentos judiciales chinos. Para esta tarea, los autores evalúan tanto modelos tradicionales de extracción de eventos, como Doc2EDAG, frente a \acs{LLM} generales y especializados en el dominio legal. Un hallazgo crítico es la dificultad de los modelos para manejar documentos extensos debido a la limitación en la ventana de contexto, lo que provoca truncamientos y la pérdida de información clave. Además, el estudio reporta alucinaciones de formato donde los modelos fallan al generar salidas estructuradas en \ac{JSON} o confunden conceptos jurídicos básicos, por ejemplo, en el caso de un accidente de tránsito, GPT-3.5 no logró distinguir entre una compensación civil voluntaria y una multa penal. A pesar de la utilidad del dataset para estructurar información, la investigación no propone ningún componente de \textit{Visual Analytics}, limitándose a representaciones estáticas como gráficas de bosque para el análisis estadístico. Esta falta de una interfaz interactiva es un punto importante para nuestra investigación, ya que los errores detectados en la extracción de LEEC demuestran que no se puede confiar ciegamente en la automatización. Nuestra propuesta busca añadir esa capa visual que permita al usuario validar y navegar las narrativas complejas, mitigando los riesgos de alucinación o confusión semántica que los \acs{LLM} presentan.
+
+
+
+
+
+
+
+
+
+
+En \cite{joshi2023ucreat} se propone \textit{U-CREAT}, un sistema no supervisado para la recuperación de casos legales basado en la extracción de eventos. La metodología utiliza un \textit{pipeline} de procesamiento de lenguaje natural que emplea \textit{dependency parsing} mediante la librería \textit{spaCy} para transformar oraciones en grafos dirigidos, extrayendo tuplas de eventos compuestas por sujetos, verbos y objetos. Los autores descartan el uso de arquitecturas basadas en \textit{Transformers} como \acs{BERT} para la extracción final, debido a las limitaciones en el \textit{input token length} y el elevado tiempo de inferencia que penaliza el rendimiento en documentos legales extensos. En su lugar, el sistema utiliza modelos estadísticos como \ac{BM25} y similitud de Jaccard para medir la relevancia entre casos. A pesar de extraer con precisión acciones como \texttt{(statement, forward, police)}, el sistema falla al no capturar la naturaleza secuencial de la narrativa legal, al tratar los eventos de forma aislada, se pierde el flujo temporal y el orden cronológico de los hechos. Además, U-CREAT carece de una interfaz de \textit{Visual Analytics}, limitándose a gráficas estáticas de rendimiento (\textit{F1 Score}) y tiempo de inferencia. Esta falta de una capa de exploración visual interactiva es clave para nuestra investigación, ya que la incapacidad del modelo para reconstruir la secuencia de los hechos justifica nuestra propuesta que permita al analista validar y navegar la estructura espacio temporal de estas narrativas complejas.
+
+En \cite{pereira2023inacia} se presenta \textit{INACIA}, un sistema diseñado para automatizar el análisis de expedientes en tribunales de Brasil. A diferencia de un sistema de \textit{Visual Analytics}, este se enfoca en la parte operativa: procesar denuncias en \ac{PDF} y generar propuestas legales. Su arquitectura es un modelo híbrido que utiliza GPT-4 (con una ventana de 32k tokens) y un flujo \ac{RAG} que se apoya en motores de búsqueda como \acs{BM25} y el reranker \textit{NeuralSearchX}. Un punto interesante de su metodología es que para decisiones críticas, como el \textit{Periculum in mora}, no confían ciegamente en el modelo de lenguaje, sino que usan reglas fijas (\textit{hard-coded}) para validar datos exactos antes de redactar cualquier justificación. Sin embargo, el sistema todavía tiene fallas importantes. Los autores mencionan que su \textit{recall} es de apenas 40.1\%, lo que significa que el modelo omite mucha información que un humano sí consideraría. También se nota que el sistema se confunde al manejar documentos muy largos con leyes contradictorias, lo que genera alucinaciones. Un ejemplo de esto fue su desempeño con las licitaciones de IBAMA: aunque extrajo datos simples con un 100\% de precisión, falló en los razonamientos legales más complejos. Finalmente, es importante resaltar que INACIA no tiene una interfaz visual; todo se maneja por código o \acp{API}. Esta falta de una herramienta de exploración visual es justamente lo que justifica nuestra propuesta que busca que el usuario pueda navegar e interactuar con estas narrativas legales y no solo recibir el texto procesado.
+
+
+
+
+
+Si bien todos estos enfoques y sistemas demuestran una alta viabilidad técnica para extraer eventos, hitos y entidades en documentos oficiales, presentan una limitación compartida respecto a las necesidades de las auditorías gubernamentales: se centran exclusivamente en la automatización textual y algorítmica. Al carecer de un componente interactivo de \textit{Visual Analytics}, no permiten al analista validar de forma visual y espacial el origen de cada dato extraído, un requisito indispensable para generar confianza y trazabilidad.
+
+
+
+
+
+
+
+
+
+\section{Herramientas de \textit{Visual Analytics} para Texto y Narrativas Complejas}
+
+En esta sección exploramos las herramientas de \textit{Visual Analytics} que han sido diseñadas para el análisis de texto; la mayoría de estos trabajos buscan que el usuario no solo reciba datos extraídos, sino que pueda interactuar con la información. El objetivo de estos autores es permitir que los analistas descubran por sí mismos patrones o cambios en el tiempo, integrando técnicas de Procesamiento de Lenguaje Natural con interfaces visuales que facilitan la exploración de grandes volúmenes de documentos
+
+
+
+
+
+
+En \cite{knittel2021} presentan \textit{PyramidTags}, un sistema de \textit{Visual Analytics} para explorar grandes colecciones de noticias sin conocer el contenido de antemano. Este trabajo no usa \acs{LLM}, sino que se basa en un flujo estadístico que emplea \textit{tf-idf} para extraer etiquetas y el algoritmo de optimización por enjambre de partículas (\ac{PSO}) para acomodarlas en un mapa 2D. El posicionamiento se define mediante una función de energía que busca equilibrar el tiempo, la relevancia y evitar que las palabras se superpongan. Visualmente, el sistema usa una pirámide interactiva donde el eje horizontal indica cuándo ocurrió el evento y el vertical cuánto duró. Si bien la herramienta permite reconstruir historias reales, como que ocurrió con los reportes de la cumbre de Singapur en 2018, los autores identifican fallos importantes como los falsos amigos. Esto pasa porque el algoritmo agrupa términos que no tienen relación semántica solo porque aparecieron en fechas cercanas, como juntar noticias de funerales con escándalos mediáticos. Además, el diseño deja mucho espacio vacío y las etiquetas se solapan al interactuar con ellas. Estos problemas demuestran que los métodos estadísticos tienen un límite al no entender el contexto, lo que justifica el uso de \acs{LLM} en nuestra tesis para lograr una extracción de narrativas mucho más precisa.
+
+
+
+
+
+En \cite{krause2023} proponen un sistema de \textit{Visual Analytics} diseñado para identificar puntos de cambio en series de tiempo de grandes colecciones de texto. La arquitectura se basa en un modelo de \textit{Rolling \ac{LDA}} para extraer temas dinámicos y utiliza la similitud del coseno para detectar matemáticamente cuándo ocurre una disrupción en el vocabulario. El sistema ofrece un tablero con nubes de palabras adaptativas que incluyen \textit{scarfplots} y gráficos de barras tipo mariposa (\textit{butterfly charts}) para detallar qué términos provocaron el cambio estadístico. Si bien la herramienta fue eficaz detectando eventos abruptos, como la escasez de oxígeno en India o escándalos políticos puntuales durante la pandemia, los autores admiten fallos en el rastreo de conceptos dinámicos. El algoritmo, al ser estrictamente estadístico falla cuando una palabra clave aumenta su frecuencia de manera constante, ya que la métrica de similitud no está diseñada para procesar crecimientos prolongados. Esta limitación de los modelos tradicionales para entender progresiones complejas refuerza nuestra propuesta, donde el uso de Grandes Modelos de Lenguaje (\acs{LLM}) permite capturar la evolución narrativa y no solo matemática.
+
+
+
+
+
+
+
+
+
+
+En \cite{chen2019supporting} proponen un sistema de \textit{Visual Analytics} para la síntesis de historias basado en datos de redes sociales y componentes espacio temporales. Para el procesamiento no utiliza modelos de lenguaje, sino usa técnicas estadísticas como \textit{Latent Dirichlet Allocation} (\acs{LDA}) y algoritmos de reducción de dimensiones como t-SNE y \ac{MDS} para organizar los temas. El sistema ofrece una interfaz de vistas múltiples coordinadas que incluye flujos de palabras clave (\textit{keyword flow}), mapas geográficos y diseños anidados (\textit{nested layouts}) para navegar por la información en diferentes niveles. Sin embargo, los autores identifican fallos, por ejemplo, el modelo \acs{LDA} falla al procesar textos muy breves, como los tuits, porque no encuentra suficientes palabras significativas por documento. Esto los obligó a usar un parche en su investigación sobre el Brexit, teniendo que agrupar mensajes manualmente en mega documentos antes de poder analizarlos. Además, el sistema tiene dificultades para evitar la redundancia en los reportes y no logra mitigar los sesgos del analista que termina ignorando partes de la base de datos. Este trabajo nos sirve como antecedente porque valida la importancia de las interfaces interactivas para explorar historias, pero también que los métodos estadísticos tradicionales son muy limitados ante el lenguaje ruidoso. Esto justifica nuestra propuesta de usar \acs{LLM}, los cuales permiten capturar la semántica de forma más profunda y sin depender de agrupar manualmente los documentos.
+
+
+
+
+
+
+
+
+En \cite{rajabiyazdi2024textvista} proponen \textit{TextVista}, una herramienta de \textit{Visual Analytics}  diseñada para explorar patrones, sentimientos y entidades en grandes volúmenes de texto no estructurado con referencias temporales. La arquitectura del sistema es híbrida, utiliza modelos \textit{Transformers} como \acs{SBERT} para generar \textit{embeddings} semánticos y \acs{BERT} para la clasificación de sentimientos, además de una red Bi-LSTM-\acs{CRF} para el reconocimiento de entidades. Para la exploración visual, el sistema emplea una interfaz de vistas múltiples coordinadas que incluye un panel de frecuencias temporales, un dial de entidades radial y un gráfico de dispersión 2D generado mediante \ac{PCA} para visualizar el espacio semántico. Si bien la herramienta demostró su utilidad en pruebas reales permitiendo a los analistas identificar redes de \textit{bots} en temas de criptomonedas y desinformación, los autores reportan una falla crítica en la explicabilidad del modelo. Los usuarios manifestaron frustración al no comprender el razonamiento detrás del agrupamiento semántico, señalando que el sistema funciona como una caja negra que muestra la separación matemática de los datos pero no su lógica narrativa. Este antecedente es importante para nuestro trabajo, ya que valida el uso de arquitecturas basadas en \textit{Transformers} para el procesamiento de texto, pero también resalta la necesidad de mejorar la transparencia de los datos. Nuestra propuesta busca cubrir este vacío utilizando las capacidades de razonamiento de los \acs{LLM} para facilitar la interpretación de las narrativas complejas.
+
+
+
+
+
+
+
+
+
+En \cite{zhao2023contextwing} presentan \textit{ContextWing}, un sistema de \textit{Visual Analytics} diseñado para la comparación binaria y evolutiva de patrones secuenciales en flujos de datos de redes sociales. La metodología del sistema es híbrida, utiliza modelos basados en \textit{Transformers} como \acs{BERT} para el análisis de sentimiento y técnicas dinámicas como \textit{BERTopic}, combinando \ac{UMAP} y K-Means para asegurar la coherencia temporal de los temas en tiempo real. El componente visual es su metáfora de alas bilaterales, donde una palabra clave actúa como eje y el contexto anterior y posterior se despliega en capas simétricas para comparar la percepción entre dos entidades. Si bien la herramienta demostró su eficacia durante el debate presidencial de EE. UU. de 2020, detectando en minutos el cambio de narrativa desde temas económicos hacia discusiones sobre inmigración, los autores reconocen una limitación técnica importante: el diseño está restringido a comparaciones de pares (\textit{pair-wise}). Escalar este modelo a múltiples flujos de datos es un problema que volvería redundante la estructura visual. Además, la eficacia del sistema depende de que los datos sean heterogéneos, perdiendo utilidad en contextos donde los datos son muy similares entre sí. Esta limitación de comparar solo un par a la vez nos deja un vacío que queremos llenar. Nuestra propuesta usa \acs{LLM} para explorar varias historias y puntos de vista al mismo tiempo, dándonos mucha más libertad visual de la que permiten los gráficos tradicionales.
+
+
+
+
+
+
+
+En \cite{lacava2022} se presenta \textit{LawNet-Viz}, un sistema híbrido que integra el análisis de redes y modelos de lenguaje para la exploración de documentos legales. Su arquitectura emplea reglas sintácticas para identificar citas entre artículos y utiliza el modelo \textit{LamBERTa}, es un \acs{BERT} especializado en el dominio legal italiano para el cálculo de similitudes semánticas. El componente visual principal consiste en un grafo interactivo donde los artículos se representan como nodos y las aristas como referencias explícitcas, aplicando métricas de centralidad como \textit{PageRank} y \textit{Betweenness} para resaltar la relevancia de cada norma. La interfaz permite además una navegación por vecindarios de hasta dos saltos (\textit{2-hop}) para inspeccionar el contexto legal de cada artículo. Aunque el sistema logró mapear con éxito el Código Civil Italiano, los autores identifican limitaciones en la generalización del extractor, el cual depende de configuraciones manuales específicas y descarta las referencias externas al documento analizado. Asimismo, se reportan dificultades de \textit{few-shot learning} debido a la alta cantidad de clases que el modelo debe manejar. Este trabajo es un antecedente relevante porque valida la utilidad de los grafos en el dominio legal, pero evidencia que la dependencia de reglas rígidas limita la flexibilidad del análisis. Esto justifica nuestra propuesta de utilizar \acs{LLM} para una exploración de narrativas más contextual que no dependa de estructuras de extracción predefinidas para cada dominio.
+
+
+
+
+En \cite{resck_legalvis} proponen \textit{LegalVis}, un sistema de \textit{Visual Analytics} diseñado para explorar precedentes en documentos legales. La metodología es híbrida, utiliza reglas de extracción y un modelo de clasificación basado en \textit{\acs{TFIDF}} junto con una Máquina de Vectores de Soporte (\ac{SVM}). Durante las pruebas, los autores notaron que modelos más complejos como \textit{Longformer} rendían peor debido a la falta de preentrenamiento en el lenguaje legal específico del portugués. Visualmente, la herramienta usa un enfoque de vistas vinculadas que incluye gráficos temporales, mapas de similitud y un lector de documentos que usa el método LIME para dar interpretabilidad al modelo. Aunque el sistema logró identificar citas que las reglas clásicas ignoraban, tiene limitaciones de escala. Debido al desbalance de los datos, solo pudo procesar una pequeña parte de los precedentes disponibles y mostró fallas de precisión en contextos poco relacionados. Este trabajo es un antecedente para nuestra investigación, ya que confirma que el éxito de los \acs{LLM} en el área legal depende mucho de su especialización. Además, valida la necesidad de sistemas que superen los problemas de escala y desbalance mediante un razonamiento contextual más robusto.
+
+
+
+
+
+
+
+En \cite{yeh2025storyribbons} proponen \textit{Story Ribbons}, un sistema de \textit{Visual Analytics} que utiliza \acs{LLM} para estructurar y visualizar narrativas en textos literarios extensos. La arquitectura emplea un enfoque multimodelo, utiliza \textit{gpt-4o-mini} para la extracción de datos y \textit{claude-3-5-sonnet} para ejecutar bucles de corrección que consolidan elementos duplicados. Para mitigar las alucinaciones en las citas textuales, los autores implementaron una regla de validación de cadenas (\textit{exact string match}) que descarta cualquier texto generado que no coincida con la fuente original. El componente visual principal consiste en diagramas de cintas (\textit{ribbon plots}) donde el eje vertical es personalizable para rastrear sentimientos, ubicaciones o niveles de importancia de los personajes a lo largo del tiempo. Sin embargo, el estudio identifica limitaciones relacionadas con el manejo de contextos largos y la resolución de entidades, por ejemplo, el sistema falló al no reconocer que Polifemo y el Cíclope eran el mismo personaje en la Odisea. Además, se reportó que las síntesis literarias tienden a ser superficiales, perdiendo los matices psicológicos de los personajes. Esta investigación es un antecedente importante para nuestra investigación, ya que demuestra la potencia de los \acs{LLM} para estructurar historias. Esto refuerza nuestra propuesta de desarrollar un sistema de \textit{Visual Analytics} que logre una exploración más profunda y coherente mediante el uso de \acs{LLM} con mayor capacidad de razonamiento contextual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Uso de \texorpdfstring{\acs{LLM}}{LLMs} para Análisis Documental e Interacción de Datos}
+
+La irrupción de los Grandes Modelos de Lenguaje (\acs{LLM}) ha movido el foco del análisis documental desde tareas aisladas de extracción hacia flujos completos de comprensión, estructuración e interacción. En este eje, el aporte ya no es solo ``extraer mejor'', sino integrar razonamiento, consulta y validación en una misma cadena de trabajo.
+
+En \cite{ke2025document} presentan una revisión amplia sobre inteligencia documental basada en \acs{LLM}. Los autores explican que hoy el campo se está moviendo en tres líneas principales: uso de \textit{Retrieval-Augmented Generation} para responder con evidencia, manejo de contexto largo para trabajar con documentos extensos y ajuste fino para dominios específicos. El aporte más útil para esta tesis es que el problema ya no se entiende como ``extraer un campo con buena precisión'', sino como mantener coherencia, fidelidad y trazabilidad en todo el flujo de trabajo. También señalan una limitación importante: cuando el documento crece en tamaño, aumenta la dificultad para conservar contexto y verificar cada salida del modelo. Esto conecta directamente con nuestra propuesta, porque muestra que no basta con generar respuestas; también se necesita una capa de revisión para que el analista pueda comprobar de dónde sale cada resultado.
+
+En \cite{yue2023event} proponen un marco cooperativo con \acs{LLM} para generar vistas judiciales a partir de eventos extraídos en casos penales. La metodología divide el proceso en etapas: primero se identifican eventos clave del expediente (actores, acciones y relaciones), y luego esos eventos se usan para construir una narrativa judicial más ordenada y menos ambigua que el texto libre. El aporte es útil porque obliga al modelo a trabajar sobre una estructura intermedia y no solo sobre párrafos sueltos, lo que mejora la coherencia del resultado final. El problema es que la calidad de la salida depende mucho de la extracción inicial: si un evento se interpreta mal, ese error se arrastra a toda la narrativa. Un ejemplo que discuten es que, cuando se pierde la secuencia correcta entre hechos vinculados, la interpretación del caso puede cambiar de forma importante. Además, aunque el enfoque organiza mejor la información legal, sigue siendo principalmente textual y no ofrece una interfaz visual para auditar cada paso, que es justamente el vacío que nuestra propuesta de \acs{VA} busca cubrir.
+
+En \cite{wei2022} muestran que la técnica \textit{Chain-of-Thought} mejora el rendimiento de los \acs{LLM} cuando la tarea exige razonamiento paso a paso. La metodología consiste en guiar al modelo con ejemplos donde no solo se da la respuesta final, sino también el proceso intermedio que lleva a esa respuesta. En sus experimentos, reportan mejoras claras en tareas como GSM8K usando modelos grandes como PaLM 540B, lo que confirma que explicitar pasos ayuda a reducir errores en problemas complejos. Para el análisis documental, este aporte es valioso porque permite separar mejor la fase de interpretación de la fase de salida estructurada. Sin embargo, los autores también dejan ver una limitación: razonar en varios pasos no garantiza por sí solo que el contenido sea fiel a la fuente, ya que el modelo puede construir una cadena lógica convincente pero basada en premisas incorrectas. Por eso, en nuestro contexto, \textit{Chain-of-Thought} es útil como estrategia de procesamiento, pero necesita complementarse con mecanismos de verificación y revisión visual para validar cada conclusión antes de usarla en un entorno institucional.
+
+En \cite{zhong2017seq2sql} proponen \textit{Seq2SQL}, un modelo para traducir preguntas en lenguaje natural a consultas SQL ejecutables. La metodología combina una red neuronal con aprendizaje por refuerzo, donde el sistema no solo aprende la forma de la consulta, sino que también se optimiza usando el resultado de ejecución para reducir errores semánticos. En sus pruebas sobre WikiSQL, los autores muestran una mejora importante frente a enfoques anteriores, especialmente en exactitud de ejecución, lo que demuestra que validar contra la base de datos real ayuda a generar consultas más correctas. Este trabajo es relevante para nuestra tesis porque conecta directamente con la interacción entre lenguaje natural y datos estructurados. Aun así, también presenta una limitación: funciona mejor en consultas de complejidad moderada y en esquemas relativamente controlados, por lo que al crecer la complejidad del dominio aparecen más ambigüedades y fallos en la traducción. En otras palabras, \textit{Seq2SQL} resuelve bien la conversión inicial a SQL, pero todavía requiere apoyo adicional cuando se busca trazabilidad completa y validación en escenarios institucionales más exigentes.
+
+En \cite{ye2024dataframe} desarrollan un framework que usa \acs{LLM} para generar consultas Pandas sobre dataframes, con énfasis en privacidad: el modelo recibe solo los metadatos y nombres de columnas, no los datos reales. La metodología es simple pero efectiva: con esa información limitada, el modelo genera código Python que el usuario ejecuta localmente, evitando la exposición de información sensible. En sus evaluaciones, logran porcentajes altos de exactitud en datasets públicos como WikiSQL y UCI-DataFrameQA. El valor para esta tesis es que demuestra cómo permitir interacción con datos sin comprometer privacidad, algo crítico en contextos institucionales como la Contraloría. Sin embargo, el enfoque tiene una debilidad clara: si la estructura del dataframe es compleja o ambigua, el modelo también genera consultas ambiguas o incorrectas, porque no puede ver los datos para validar su interpretación. Un ejemplo que mencionan es que columnas con nombres crípticos o contextos no obvios frecuentemente producen consultas equivocadas. Por eso, nuestra propuesta de \acs{VA} se complementa bien con este tipo de herramientas: el usuario ejecuta una consulta generada, ve los resultados en el gráfico y puede revisar si la lógica fue correcta antes de usar esos datos en un reporte oficial.
+
+En \cite{dibia2023lida} presentan LIDA, un sistema que usa \acs{LLM} para automatizar la creación de visualizaciones a partir de datos tabulares. La metodología trabaja por etapas: primero resume el dataset, luego propone objetivos de análisis y finalmente genera o refina el código de la visualización según la intención del usuario. Este enfoque es importante porque reduce la barrera técnica para construir gráficos y acelera la exploración inicial de datos. Para nuestra tesis, su aporte principal es mostrar que un \acs{LLM} puede actuar como puente entre una pregunta en lenguaje natural y una salida visual concreta. Sin embargo, el propio enfoque deja una limitación clara: que el gráfico se vea bien no garantiza que la interpretación sea correcta ni que respete totalmente la fuente original. En la práctica, esto puede producir visualizaciones plausibles pero con decisiones de agregación o filtrado que el usuario no detecta a simple vista. Por eso, este tipo de sistemas necesita una capa de validación explícita, y ahí es donde nuestra propuesta de \acs{VA} aporta trazabilidad para revisar cómo se construyó cada resultado.
+
+En \cite{ji2023} presentan una revisión amplia sobre alucinaciones en generación de lenguaje natural y proponen una distinción útil entre alucinaciones intrínsecas y extrínsecas. La metodología del trabajo es de tipo survey: comparan tareas, métricas y causas del problema en distintos escenarios de uso de modelos generativos. El aporte clave para esta tesis es que ayuda a entender que no todos los errores tienen el mismo impacto: en las intrínsecas, el modelo contradice directamente la fuente, y en las extrínsecas produce contenido no verificable aunque suene convincente. Esta diferencia es muy importante en análisis documental, porque en ambos casos se compromete la confiabilidad del resultado final. Los autores también muestran que el problema no se resuelve solo con modelos más grandes, ya que la alucinación depende también del contexto, del prompt y de la forma en que se valida la salida. En nuestro caso, este trabajo refuerza la necesidad de combinar extracción automática con mecanismos de revisión humana, para detectar a tiempo información inventada o débilmente sustentada antes de que llegue a una decisión institucional.
+
+En \cite{hutchinson2024llm} analizan cómo integrar \acs{LLM} en flujos de \acs{VA} para apoyar tareas de exploración y toma de decisiones. La metodología del trabajo es de revisión y síntesis de oportunidades y riesgos: muestran dónde los modelos ayudan de verdad (por ejemplo, traducir preguntas en lenguaje natural a operaciones analíticas) y dónde todavía fallan (confiabilidad, explicabilidad y control del usuario). El aporte más valioso para esta tesis es que plantean al \acs{LLM} como asistente dentro del proceso analítico, no como reemplazo del analista. También remarcan una limitación práctica: cuando la interacción se vuelve muy automática, el usuario puede aceptar resultados plausibles sin revisar su sustento, lo que aumenta el riesgo de error en contextos sensibles. En ese sentido, el trabajo refuerza que la utilidad real aparece cuando la interfaz permite contrastar evidencia, iterar hipótesis y mantener trazabilidad de cada paso. Esa idea coincide con nuestra propuesta, porque buscamos que el analista conserve control sobre el proceso y pueda validar visualmente las salidas antes de convertirlas en insumo de auditoría.
+
+En \cite{ha2024confides} presentan ConFides, un sistema de \acs{VA} para analizar resultados de reconocimiento automático del habla y revisar qué tan confiables son las transcripciones. La metodología combina las salidas del modelo con puntajes de confianza y las lleva a una interfaz con vistas coordinadas, donde el usuario puede ver rápidamente qué partes del texto son más inciertas y necesitan revisión. El aporte principal es que no oculta la incertidumbre, sino que la vuelve visible para apoyar una validación humana más informada. Esto es valioso para esta tesis porque sigue la misma lógica que buscamos: usar modelos automáticos, pero con control del analista en cada paso crítico. Una limitación del enfoque es que depende de la calidad de esos puntajes de confianza; si están mal calibrados, la interfaz también puede guiar mal la revisión. Además, está centrado en transcripción de audio, así que su adaptación a expedientes documentales requiere ajustes en el tipo de evidencia mostrada. Aun así, su propuesta confirma que hacer visible la incertidumbre mejora la trazabilidad y reduce el riesgo de aceptar resultados automáticos sin verificación.
+
+\section{Consideraciones Finales}
+
+La revisión presentada en este capítulo permite identificar tres tendencias y una brecha compartida que motivan la propuesta de esta tesis.
+
+En la primera sección se analizaron sistemas de extracción de información en documentos legales y gubernamentales. Los enfoques basados en modelos como \acs{BERT} y técnicas de \ac{NLP} tradicional~\cite{zhong-etal-2020-nlp, navas2022whenthefact, yao2022leven, shen2020hierarchical, feng2022legal, joshi2023ucreat} logran extraer entidades y eventos con precisión aceptable, pero operan predominantemente a nivel de documento individual y dependen de configuraciones específicas por dominio. Los trabajos que incorporan \acs{LLM}~\cite{xue2024leec, pereira2023inacia} demuestran mayor flexibilidad, aunque reportan alucinaciones de formato y baja cobertura en razonamientos complejos. Ninguno de estos sistemas ofrece una interfaz de \textit{Visual Analytics} que permita al analista validar visualmente los resultados.
+
+En la segunda sección se revisaron herramientas de \ac{VA} para texto y narrativas. Los sistemas basados en métodos estadísticos como \acs{TFIDF}, \ac{LDA} o \ac{PSO}~\cite{knittel2021, krause2023, chen2019supporting} logran visualizar patrones temporales, pero fallan al capturar la semántica profunda del texto. Las herramientas que adoptan modelos \textit{Transformers}~\cite{rajabiyazdi2024textvista, zhao2023contextwing, lacava2022, resck_legalvis} mejoran la representación semántica, aunque reportan problemas de explicabilidad y limitaciones de escala. Story~Ribbons~\cite{yeh2025storyribbons} es el único sistema que combina \acs{LLM} con \ac{VA} para narrativas, pero está orientado a textos literarios y no aborda documentos institucionales fragmentados ni la dimensión geoespacial.
+
+En la tercera sección se examinó el uso de \acs{LLM} para análisis documental. Los trabajos revisados~\cite{ke2025document, yue2023event, wei2022, zhong2017seq2sql, ye2024dataframe, dibia2023lida} muestran que los \acs{LLM} permiten razonamiento encadenado, traducción de lenguaje natural a consultas estructuradas y generación automática de visualizaciones. Sin embargo, Ji~et~al.~\cite{ji2023} y Hutchinson~et~al.~\cite{hutchinson2024llm} advierten que la alucinación persiste como riesgo inherente y que la integración de \acs{LLM} en flujos de \ac{VA} requiere mecanismos explícitos de trazabilidad y control del analista. ConFides~\cite{ha2024confides} valida que hacer visible la incertidumbre del modelo mejora la confianza del usuario en el proceso de revisión.
+
+La Tabla~\ref{tab:comparativa_ea} sintetiza la comparación entre los sistemas revisados y nuestra propuesta. Se observa que ningún trabajo previo reúne simultáneamente las seis capacidades que esta tesis integra: extracción mediante \acs{LLM}, interfaz de \ac{VA} con vistas coordinadas, soporte multi-documento, trazabilidad al fragmento fuente, mitigación de alucinaciones y representación de la dimensión espacio-temporal.
+
+\begin{table}[htbp]
+\centering
+\caption{Comparación de los sistemas revisados. \checkmark{} = presente, $\circ$ = parcial, $\times$ = ausente. Columnas: \textbf{T}~=~Técnica (\textit{L}:~\acs{LLM}, \textit{B}:~\acs{BERT}/Transformers, \textit{E}:~Estadístico, \textit{R}:~Reglas/Tradicional, \textit{N}:~Red neuronal), \textbf{VA}~=~Visual Analytics, \textbf{MD}~=~Multi-documento, \textbf{Tz}~=~Trazabilidad, \textbf{MA}~=~Mitigación de alucinaciones, \textbf{ET}~=~Espacio-temporal.}
+\label{tab:comparativa_ea}
+\renewcommand{\arraystretch}{1.15}
+\footnotesize
+\begin{tabular}{@{}l l c c c c c c@{}}
+\toprule
+& \textbf{Trabajo} & \textbf{T} & \textbf{VA} & \textbf{MD} & \textbf{Tz} & \textbf{MA} & \textbf{ET} \\
+\midrule
+\multicolumn{8}{l}{\textit{Sistemas de extracción en documentos legales y gubernamentales}} \\
+\midrule
+1 & Zhong et al.~\cite{zhong-etal-2020-nlp}      & B & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+2 & WhenTheFact~\cite{navas2022whenthefact}       & R & \checkmark & $\times$ & $\times$ & $\times$ & \checkmark \\
+3 & LEVEN~\cite{yao2022leven}                     & B & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+4 & Shen et al.~\cite{shen2020hierarchical}       & B & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+5 & EPM~\cite{feng2022legal}                      & B & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+6 & LEEC~\cite{xue2024leec}                       & L & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+7 & U-CREAT~\cite{joshi2023ucreat}                & R & $\times$ & \checkmark & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+8 & INACIA~\cite{pereira2023inacia}               & L & $\times$ & \checkmark & $\times$ & $\circ$  & $\times$ \\
+\midrule
+\multicolumn{8}{l}{\textit{Herramientas de Visual Analytics para texto y narrativas}} \\
+\midrule
+9  & PyramidTags~\cite{knittel2021}               & E & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+\rowcolor{rowgray}
+10 & Krause et al.~\cite{krause2023}              & E & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+11 & Chen et al.~\cite{chen2019supporting}         & E & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+\rowcolor{rowgray}
+12 & TextVista~\cite{rajabiyazdi2024textvista}     & B & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+13 & ContextWing~\cite{zhao2023contextwing}        & B & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+\rowcolor{rowgray}
+14 & LawNet-Viz~\cite{lacava2022}                 & B & \checkmark & \checkmark & $\times$ & $\times$ & $\times$ \\
+15 & LegalVis~\cite{resck_legalvis}               & E & \checkmark & \checkmark & $\times$ & $\times$ & \checkmark \\
+\rowcolor{rowgray}
+16 & Story Ribbons~\cite{yeh2025storyribbons}     & L & \checkmark & \checkmark & $\circ$  & $\circ$  & \checkmark \\
+\midrule
+\multicolumn{8}{l}{\textit{Uso de LLMs para análisis documental e interacción}} \\
+\midrule
+17 & Yue et al.~\cite{yue2023event}               & L & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+18 & Seq2SQL~\cite{zhong2017seq2sql}               & N & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+19 & DataFrame QA~\cite{ye2024dataframe}           & L & $\times$ & $\times$ & $\times$ & $\times$ & $\times$ \\
+\rowcolor{rowgray}
+20 & LIDA~\cite{dibia2023lida}                     & L & \checkmark & $\times$ & $\times$ & $\times$ & $\times$ \\
+21 & ConFides~\cite{ha2024confides}                & N & \checkmark & \checkmark & \checkmark & $\times$ & $\times$ \\
+\midrule
+\rowcolor{rowgray}
+   & \textbf{Nuestra propuesta}                    & \textbf{L} & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La brecha que se observa en la tabla motiva directamente el diseño del sistema descrito en el siguiente capítulo. En él se detalla cómo la propuesta articula un pipeline de extracción basado en \acs{LLM} con corrección automática de inconsistencias, un mecanismo de trazabilidad que vincula cada dato con su fragmento de origen, y un conjunto de vistas interactivas coordinadas que integran las dimensiones temporal, geoespacial y narrativa de los procesos documentados.
+        
+

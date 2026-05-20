@@ -1,0 +1,678 @@
+%TODO
+%Italizar
+%revisar las referencias
+%revisar todo cuando acabe la propuesta
+%cambiar la imagen delas vistsas coordinadas
+%actualizar consideraciones iniciales
+%mas vis d tiempo
+%interaccion
+%explayarte en reducciones dimensionales
+%Sacar vector caracteristicas
+%LLMS escueto
+
+\chapter{Marco Teórico}
+\label{cap:marco_teorico}
+
+
+\section{Consideraciones Iniciales}
+Este capítulo presenta los conceptos teóricos que 
+fundamentan la propuesta. Se comienza con \ac{VA}, 
+su ciclo iterativo y el patrón de vistas coordinadas 
+que organiza la interfaz. Luego, se revisa la 
+visualización de procesos con dimensiones temporales 
+y espaciales, y cómo la trazabilidad permite verificar 
+los datos extraídos. Después se describen los 
+\acs{LLM}, su uso para extraer información estructurada 
+de texto, los problemas que esto implica y estrategias de mitigación. El capítulo 
+cierra presentando los documentos institucionales 
+fragmentados y el corpus 
+utilizado para evaluar el sistema.
+
+\section{\textit{Visual Analytics}}
+
+\ac{VA} se define como la ciencia del razonamiento 
+analítico facilitado por interfaces visuales 
+interactivas~\cite{thomas2005illuminating}. Su núcleo 
+es la integración del procesamiento automático con las 
+capacidades de razonamiento humano, de modo que el 
+analista participa activamente en el proceso de 
+análisis y no solo observa sus resultados~\cite{keim2008visual, 
+cui2019visual}.
+
+A partir del modelo de referencia de Keim ~\cite{keim2008visual}, el proceso opera como un 
+ciclo iterativo entre cuatro etapas interdependientes, 
+tal como se ilustra en la Figura~\ref{fig:keim_va}. 
+Primero, los datos crudos se transforman en estructuras 
+manejables mediante tareas de limpieza y normalización. 
+Luego toman dos vías simultáneas: la construcción de 
+modelos automáticos que extraen patrones, y el mapeo de 
+los resultados en representaciones visuales interactivas. 
+A partir de esas representaciones, el analista evalúa 
+los resultados, identifica patrones o anomalías y formula 
+nuevas hipótesis. El 
+conocimiento adquirido se reintegra al sistema mediante 
+ajustes en los parámetros de los modelos o en los filtros 
+de las vistas, reiniciando el ciclo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/CicloVA.pdf}
+\caption{Ciclo de \ac{VA}, mostrando la interacción continua 
+entre los datos, los modelos automáticos, las representaciones 
+visuales y el analista. Adaptado de~\cite{keim2008visual}.}
+\label{fig:keim_va}
+\end{figure}
+
+Sacha et al.~\cite{sacha2014} refinan este modelo 
+distinguiendo explícitamente dos componentes que operan 
+de forma complementaria. 
+El componente computacional comprende los datos, los 
+modelos analíticos y las visualizaciones generadas a 
+partir de ellos. El componente humano comprende el 
+proceso cognitivo del analista, que se estructura en 
+tres bucles de razonamiento anidados.
+
+El \textbf{bucle de exploración} (\textit{exploration loop}) 
+describe cómo el analista interactúa con el sistema 
+mediante acciones que producen hallazgos. Una acción 
+puede ser filtrar un subconjunto de datos, cambiar el 
+mapeo visual o ajustar los parámetros de un modelo. El 
+sistema responde a esa acción y el analista observa el 
+resultado, generando un hallazgo (\textit{finding}). Un 
+hallazgo es cualquier observación relevante que el 
+analista percibe en la visualización o en el modelo, 
+como un patrón inesperado, un valor atípico o la 
+ausencia de un dato esperado. Este bucle se repite de 
+forma rápida y constituye la base de toda exploración 
+interactiva.
+
+El \textbf{bucle de verificación} (\textit{verification loop}) 
+opera a un nivel superior. Cuando el analista interpreta 
+un hallazgo en el contexto del dominio del problema, 
+produce un \textit{insight}, una unidad de comprensión 
+que conecta la evidencia visual con el conocimiento 
+previo. Los \textit{insights} pueden confirmar o refutar 
+una hipótesis existente, o generar hipótesis nuevas que 
+requieran exploración adicional. Este bucle vincula lo 
+que el analista observa en la interfaz con lo que sabe 
+del dominio.
+
+El \textbf{bucle de generación de conocimiento} 
+(\textit{knowledge generation loop}) cierra el proceso. 
+Cuando el analista acumula suficiente evidencia para 
+confiar en un \textit{insight}, este se consolida como 
+conocimiento. Ese conocimiento nuevo puede a su vez 
+generar hipótesis adicionales, reiniciando el ciclo 
+completo. Sacha et al. enfatizan que el conocimiento 
+no se produce en el componente computacional ni en el 
+humano por separado, sino en la interacción entre 
+ambos~\cite{sacha2014}. El analista aporta juicio 
+contextual y razonamiento que los algoritmos no poseen, 
+mientras que los algoritmos procesan volúmenes de 
+información que el analista no podría revisar 
+manualmente. Esta complementariedad es la que 
+permite que \ac{VA} funcione como un marco de generación 
+de conocimiento.
+
+
+
+La distinción entre estos tres bucles resulta relevante 
+para el diseño de sistemas de \ac{VA} porque permite 
+evaluar qué niveles de razonamiento soporta cada 
+componente. Un sistema puede facilitar el 
+bucle de exploración ofreciendo visualizaciones 
+interactivas, pero si carece de mecanismos para que el 
+analista verifique la evidencia, el bucle de verificación 
+queda sin soporte. 
+
+
+
+
+
+\subsection{\textit{Visual Analytics} aplicado a documentos 
+textuales}
+\label{sec:va_texto}
+
+El procesamiento de información textual representa uno 
+de los mayores desafíos dentro de \ac{VA} debido a la 
+naturaleza no estructurada del lenguaje. 
+Thomas y Cook  ~\cite{thomas2005illuminating} señalan que 
+los documentos en texto libre requieren transformaciones 
+semánticas profundas para extraer unidades de significado 
+antes de poder ser representados visualmente o analizados 
+algorítmicamente. A diferencia de datos numéricos o 
+tabulares, donde las dimensiones del análisis están 
+definidas de antemano, en un documento textual las 
+entidades, las relaciones y la estructura temporal deben 
+ser identificadas y extraídas como paso previo a 
+cualquier representación visual. 
+Kucher y Kerren~\cite{kucher2015text} proponen una 
+taxonomía de técnicas de visualización de texto que 
+organiza este campo según la tarea analítica, el tipo 
+de dato y las propiedades de la representación visual. 
+Esta taxonomía permite situar cualquier sistema de 
+\ac{VA} para texto dentro de un espacio de diseño 
+definido por las decisiones que conectan el dato textual 
+con su forma visual.
+
+Cuando los documentos provienen de dominios donde las 
+decisiones tienen consecuencias institucionales, la 
+extracción automática enfrenta una exigencia adicional. 
+Los algoritmos que operan como cajas negras dificultan 
+que el experto humano pueda auditar y confiar en los 
+resultados. Hutchinson et al.~\cite{hutchinson2024llm} 
+advierten que para incorporar modelos de lenguaje dentro 
+de un entorno de \ac{VA}, sus respuestas deben estar 
+ancladas a los datos originales. Esta necesidad de 
+anclaje conecta directamente con el bucle de verificación 
+de Sacha et al.~\cite{sacha2014}, donde el analista 
+evalúa críticamente los hallazgos producidos por la 
+máquina para determinar si constituyen evidencia real o 
+un artefacto del procesamiento automático.
+
+\subsubsection{Trazabilidad y lectura \textit{in situ}}
+\label{sec:trazabilidad}
+
+La trazabilidad es el mecanismo que vincula cada 
+elemento visual de la interfaz con el fragmento 
+específico del documento del que fue extraído. En 
+términos del modelo de Sacha et al.~\cite{sacha2014}, 
+este mecanismo soporta el bucle de verificación al 
+permitir que el analista pase de un hallazgo visual a 
+la evidencia textual que lo sustenta. Sin este vínculo, 
+el analista solo puede aceptar o rechazar los resultados 
+del modelo sin poder evaluar su corrección.
+
+La lectura \textit{in situ} es la forma concreta en que 
+se materializa la trazabilidad en la interfaz. Consiste 
+en permitir que el analista, al seleccionar un dato en 
+cualquiera de las vistas, acceda al fragmento exacto 
+del documento original del que fue extraído, incluyendo 
+su contexto circundante y su ubicación en la página. 
+Este mecanismo permite un flujo de trabajo en el que 
+el analista transita entre la vista panorámica de los 
+datos y la lectura detallada del texto fuente sin 
+abandonar la interfaz~\cite{thomas2005illuminating}.
+
+
+
+
+
+
+
+\section{Visualización de Datos}
+\label{sec:tecnicas_vis}
+
+La extracción automática de información resulta 
+insuficiente si el usuario no puede interpretar los 
+resultados. La visualización de datos actúa como el 
+canal que transforma información abstracta en 
+representaciones gráficas, aprovechando la capacidad 
+perceptiva humana para revelar patrones que de otro 
+modo permanecerían ocultos en los 
+datos~\cite{ortigossa2025time}. Esta sección presenta 
+los principios de interacción, los patrones de 
+coordinación entre vistas y las técnicas de 
+representación que fundamentan el diseño de la 
+interfaz.
+
+
+\subsection{El Mantra de Shneiderman}
+\label{sec:shneiderman}
+
+El diseño de interfaces exploratorias se fundamenta en 
+el principio propuesto por 
+Shneiderman~\cite{shneiderman1996eyes}, conocido como 
+el Mantra de Búsqueda de Información Visual. Este 
+principio organiza la exploración en tres etapas 
+jerárquicas. En la primera, \textit{overview}, el 
+sistema presenta una perspectiva global del conjunto 
+de datos que permite al analista orientarse sin 
+saturación visual. En la segunda, \textit{zoom and 
+filter}, el analista aísla subconjuntos de interés 
+mediante controles interactivos, eliminando 
+dinámicamente la información irrelevante. En la 
+tercera, \textit{details-on-demand}, el analista 
+selecciona un elemento específico y accede a su 
+información completa. Este flujo descendente, de lo 
+general a lo particular, permite que el analista 
+construya progresivamente su comprensión del conjunto 
+de datos sin necesidad de examinar cada elemento 
+individualmente.
+
+
+\subsection{Vistas múltiples coordinadas}
+\label{sec:mcv}
+
+Cuando los datos poseen múltiples dimensiones, una sola 
+representación visual rara vez es suficiente para 
+explorarlos por completo. Las vistas múltiples coordinadas (\acs{MCV}, pos sus siglas en ingles) son un patrón de 
+diseño en el que dos o más representaciones visuales del 
+mismo conjunto de datos se presentan de forma simultánea, 
+y las acciones del usuario en una vista se propagan 
+automáticamente a las 
+demás~\cite{roberts2007state, baldonado2000guidelines}. 
+De este modo, cada vista puede especializarse en una 
+dimensión del análisis mientras la coordinación entre 
+ellas preserva el contexto compartido 
+(Figura~\ref{fig:brushing_linking}).
+
+El mecanismo fundamental de coordinación es la selección y vinculación interactiva 
+(\textit{brushing and linking})~\cite{becker1987brushing}. 
+Cuando el analista selecciona un elemento en una vista, 
+esa selección se transmite a todas las vistas vinculadas, 
+donde el mismo elemento queda resaltado en su 
+representación correspondiente. Un ejemplo de esto puede observarse en la 
+(Figura~\ref{fig:brushing_linking}). 
+Becker y Cleveland~\cite{becker1987brushing} definen 
+cuatro operaciones de \textit{brushing} (resaltado, 
+resaltado con sombra, eliminación y etiquetado) cuyo 
+efecto se propaga simultáneamente a todas las vistas. 
+Este mecanismo permite que el analista observe cómo se 
+manifiesta una misma entidad en distintas dimensiones 
+sin perder la referencia de qué elemento está analizando.
+
+% FIGURA: Adaptar de Becker & Cleveland 1987, Figure 1
+% Muestra scatterplots con brushing: seleccionar puntos 
+% en un scatterplot los resalta en los demás.
+% También puedes adaptar de Roberts 2007, Figure 1 
+% (Improvise) que muestra 6 vistas coordinadas.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]%
+{figs/improvise.png}
+\caption{Sistema Improvise mostrando seis vistas 
+coordinadas del mismo conjunto de datos. La selección 
+de elementos en una vista se propaga a las demás 
+mediante \textit{brushing and linking}. Imagen 
+extraída de~\cite{roberts2007state}.}
+\label{fig:brushing_linking}
+\end{figure}
+
+Además del \textit{brushing}, 
+Roberts~\cite{roberts2007state} identifica otros 
+mecanismos de coordinación entre vistas. La navegación 
+sincronizada permite que un cambio de zoom o 
+desplazamiento en una vista se replique en las demás. 
+El filtrado compartido permite que los criterios de 
+exclusión aplicados en una vista reduzcan el conjunto 
+visible en todas las vistas vinculadas. La combinación 
+de estos mecanismos permite al analista explorar 
+distintas facetas de los datos de forma fluida, 
+manteniendo la coherencia entre las representaciones.
+
+Desde una perspectiva computacional, la coordinación 
+entre vistas implica mantener un estado compartido de 
+selección y filtrado que se actualiza y propaga cada 
+vez que el usuario interactúa con cualquiera de las 
+vistas. 
+%North y Shneiderman~\cite{north2000snap}  formalizan este mecanismo utilizando el modelo relacional de datos, donde las relaciones entre registros de distintas tablas determinan qué elementos se vinculan entre vistas. Esta formalización permite definir la coordinación de forma independiente de las representaciones visuales específicas que se utilicen.
+
+Baldonado et al.~\cite{baldonado2000guidelines} 
+proponen directrices para el diseño de estos sistemas. 
+Entre ellas destacan el principio de diversidad, 
+que establece que las vistas deben usar representaciones 
+distintas para aportar perspectivas complementarias 
+sobre los mismos datos, y el principio de 
+parsimonia, que recomienda usar el menor número 
+de vistas necesario para cubrir las dimensiones del 
+análisis sin imponer una carga cognitiva excesiva al 
+usuario. Estos principios implican que cada vista 
+adicional debe justificarse por la perspectiva nueva 
+que aporta, y que la coordinación entre ellas debe 
+reducir, y no aumentar, el esfuerzo cognitivo del 
+analista.
+
+En el marco de \ac{VA}, las \acs{MCV} cumplen un rol 
+especialmente importante porque permiten sostener los 
+bucles de razonamiento descritos por 
+Sacha et al.~\cite{sacha2014} a través de múltiples 
+dimensiones de forma simultánea. El bucle de 
+exploración se beneficia porque el analista puede 
+generar hallazgos comparando lo que observa en una 
+vista con lo que aparece en otra. El bucle de 
+verificación se beneficia porque un dato sospechoso 
+en una vista puede contrastarse inmediatamente con 
+su representación en una vista diferente.
+
+\subsection{Representación de datos temporales}
+\label{sec:temporal}
+
+El tiempo posee una estructura semántica que lo 
+distingue de otras variables cuantitativas. 
+Aigner et al.~\cite{aigner2011visualization} proponen 
+una taxonomía que caracteriza los datos temporales 
+según tres propiedades. La escala define si el tiempo 
+se representa de forma ordinal (solo el orden importa) 
+o cuantitativa (las distancias entre instantes son 
+medibles). El alcance distingue entre datos puntuales, 
+que registran un instante, y datos basados en 
+intervalos, que poseen inicio y fin. El arreglo 
+describe si la progresión temporal es lineal o cíclica. 
+Estas propiedades determinan qué técnicas de 
+representación son adecuadas para cada tipo de dato 
+temporal. Ortigossa et al.~\cite{ortigossa2025time} 
+ofrecen una revisión amplia de técnicas de 
+visualización para series temporales, organizadas 
+según estas propiedades y según el tipo de tarea 
+analítica que soportan.
+
+\subsubsection{Gráficos de líneas}
+\label{sec:linechart}
+
+El gráfico de líneas es la forma más antigua de 
+representación de series temporales. 
+Playfair~\cite{playfair1786atlas} introdujo esta 
+técnica en 1786 para representar la evolución de las 
+exportaciones e importaciones de Inglaterra a lo largo 
+del siglo XVIII, mapeando el tiempo al eje horizontal 
+y los valores al eje vertical. Dos siglos después, 
+esta representación permanece esencialmente sin 
+cambios~\cite{tufte2001visual}. Cuando se superponen 
+múltiples series en el mismo espacio, el analista puede 
+comparar tendencias, identificar puntos de cruce y 
+detectar divergencias en la evolución de distintas 
+variables. Cleveland~\cite{cleveland1993visualizing} 
+establece principios perceptivos para la lectura 
+efectiva de estos gráficos, como la elección de la 
+relación de aspecto (\textit{aspect ratio}) para 
+facilitar la percepción de las pendientes. La principal 
+limitación del gráfico de líneas aparece cuando el 
+número de series crece, ya que la superposición 
+dificulta la lectura individual de cada una. La 
+Figura~\ref{fig:line_chart} ilustra la superposición 
+de tres series temporales sobre un eje común.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figs/line_chart.png}
+\caption{Gráfico de líneas mostrando la evolución 
+temporal de tres variables a lo largo de doce meses. 
+La superposición de series permite comparar tendencias 
+y detectar divergencias.}
+\label{fig:line_chart}
+\end{figure}
+
+\subsubsection{Diagramas de Gantt}
+\label{sec:gantt}
+
+Para datos basados en intervalos con arreglo lineal, 
+los diagramas de Gantt constituyen la representación 
+visual más adecuada~\cite{aigner2011visualization, 
+ortigossa2025time}. Desarrollado originalmente por 
+Henry Gantt a inicios del siglo 
+XX~\cite{wilson2003gantt}, este diagrama asocia cada 
+entidad a una fila horizontal y representa los 
+intervalos mediante barras cuya longitud es proporcional 
+a su duración. Esta técnica permite comparar 
+visualmente solapamientos entre fases, identificar 
+retrasos y evaluar la progresión relativa de múltiples 
+procesos sobre un eje temporal 
+común~\cite{aigner2011visualization}. La 
+Figura~\ref{fig:gantt_time} muestra cinco entidades 
+con intervalos de distinta duración y solapamiento.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/gantt_chart.png}
+\caption{Diagrama de Gantt mostrando los intervalos 
+temporales de cinco entidades. La longitud de cada 
+barra es proporcional a la duración del intervalo, 
+y la disposición en filas permite identificar 
+solapamientos y retrasos entre procesos paralelos. }
+\label{fig:gantt_time}
+\end{figure}
+
+\subsubsection{\textit{Streamgraph}}
+\label{sec:streamgraph}
+
+El \textit{streamgraph} es una variante del gráfico de 
+áreas apiladas en la que múltiples series temporales se 
+representan como flujos cuyo grosor varía en función del 
+valor de cada variable en cada punto del tiempo. 
+Havre et al.~\cite{havre2002themeriver} introdujeron 
+esta técnica con el nombre de ThemeRiver para 
+visualizar la evolución temática de grandes colecciones 
+de documentos. Cada tema se representa como una 
+corriente cuyo ancho refleja su frecuencia, y el 
+conjunto de corrientes forma un flujo continuo a lo 
+largo del eje temporal. Byron y 
+Wattenberg~\cite{byron2008stacked} formalizaron la 
+geometría del \textit{streamgraph}, proponiendo 
+algoritmos para optimizar la disposición de las capas 
+y minimizar la distorsión visual que surge al apilar 
+múltiples series.
+
+A diferencia del gráfico de líneas, que enfatiza los 
+valores individuales de cada serie, el 
+\textit{streamgraph} enfatiza las proporciones 
+relativas y la composición del total a lo largo del 
+tiempo~\cite{byron2008stacked}. Esto lo hace 
+especialmente útil cuando el analista necesita percibir 
+cómo cambia la distribución de un conjunto de variables 
+entre períodos. La Figura~\ref{fig:streamgraph} muestra 
+cómo cuatro variables compiten en proporción a lo 
+largo del tiempo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/streamgraph.png}
+\caption{\textit{Streamgraph} mostrando la evolución 
+de cuatro variables a lo largo del tiempo. El grosor 
+de cada flujo refleja el valor de la variable en cada 
+punto, y la disposición simétrica facilita la 
+percepción de las proporciones relativas entre 
+variables.}
+\label{fig:streamgraph}
+\end{figure}
+
+\subsubsection{Diagramas de Sankey}
+\label{sec:sankey}
+
+Mientras que el \textit{streamgraph} muestra cómo 
+cambia la composición de un conjunto a lo largo del 
+tiempo, el diagrama de Sankey muestra cómo fluyen 
+cantidades entre estados o categorías. Originalmente 
+concebido por el capitán irlandés Matthew 
+Sankey en 1898 para representar las pérdidas 
+energéticas de una máquina de 
+vapor~\cite{schmidt2008sankey}, este tipo de diagrama 
+utiliza nodos para representar estados y conexiones 
+cuyo ancho es proporcional a la cantidad que transita 
+entre ellos. Riehmann et al.~\cite{riehmann2005sankey} 
+proponen un sistema interactivo que soporta el flujo 
+de exploración de Shneiderman, ofreciendo una vista 
+general del grafo de flujos con la posibilidad de 
+hacer zoom y acceder a detalles bajo demanda.
+
+Cuando se incorpora la dimensión temporal, los nodos 
+se organizan en columnas que representan momentos 
+sucesivos, y los flujos entre columnas muestran las 
+transiciones entre estados de un momento al siguiente. 
+Esta disposición permite identificar qué transiciones 
+son frecuentes, dónde se concentran las pérdidas y 
+qué trayectorias siguen las entidades a lo largo del 
+proceso. La Figura~\ref{fig:sankey} ilustra este 
+esquema con tres estados distribuidos en tres momentos 
+sucesivos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{Tesis_CS_202203/figs/sankey_horizontal.png}
+\caption{Diagrama de Sankey temporal con tres estados 
+(A, B, C) en tres momentos sucesivos ($t_1$, $t_2$, 
+$t_3$). El ancho de cada flujo es proporcional a la 
+cantidad de entidades que transitan entre estados, 
+permitiendo identificar las trayectorias más 
+frecuentes.}
+\label{fig:sankey}
+\end{figure}
+
+\subsection{Representación geoespacial}
+\label{sec:geoespacial}
+
+Cuando los datos poseen una dimensión geográfica, las 
+técnicas de geovisualización permiten revelar patrones 
+espaciales que permanecen invisibles en representaciones 
+tabulares. Andrienko y Andrienko~\cite{andrienko2006exploratory} 
+establecen que el análisis exploratorio de datos 
+espaciales requiere técnicas capaces de representar 
+simultáneamente la distribución geográfica de los datos 
+y sus atributos temáticos, de modo que el analista pueda 
+percibir tanto dónde ocurren los fenómenos como cuál es 
+su magnitud.
+
+Las dos técnicas fundamentales de la cartografía temática 
+son los mapas coropléticos y los mapas de símbolos 
+proporcionales~\cite{slocum2014thematic}. Los mapas 
+coropléticos codifican valores agregados mediante la 
+variación de color o intensidad en regiones predefinidas, 
+lo que los hace adecuados para representar densidades, 
+tasas o proporciones cuya distribución sigue límites 
+administrativos. Los mapas de símbolos proporcionales 
+representan magnitudes mediante marcadores cuyo tamaño 
+varía según el valor asociado a cada ubicación, lo que 
+los hace preferibles cuando los datos corresponden a 
+conteos o totales asociados a puntos específicos. Ambas 
+técnicas pueden combinarse en un mismo mapa: las regiones 
+aportan el contexto geográfico mediante color, mientras 
+que los símbolos superpuestos comunican magnitudes 
+puntuales~\cite{slocum2014thematic}. A este tipo de 
+representación, que integra polígonos coloreados, 
+símbolos y etiquetas en una sola vista, se le denomina 
+mapa anotado.
+
+Cuando las entidades se distribuyen en múltiples niveles 
+administrativos, la agregación jerárquica permite 
+transitar entre escalas. En el nivel más amplio el mapa 
+muestra valores agregados por región. Al hacer zoom, los 
+agregados se descomponen en las unidades que los conforman, 
+revelando la distribución interna. Este mecanismo, conocido 
+como \textit{zoom semántico}, ajusta el nivel de detalle 
+de la representación según la escala de 
+visualización~\cite{andrienko2006exploratory}. La 
+Figura~\ref{fig:geo_zoom} ilustra este esquema en tres 
+niveles: nacional, regional y local.
+
+% FIGURA: Tres paneles horizontales mostrando zoom semántico
+% Panel 1 (nacional): mapa con regiones coloreadas
+% Panel 2 (regional): zoom a una región con símbolos proporcionales
+% Panel 3 (local): zoom a una ubicación con anotaciones de detalle
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/geo_zoom.png}
+\caption{Zoom semántico en tres niveles sobre un mapa 
+anotado. En el nivel nacional las regiones se colorean 
+según un valor agregado. Al hacer zoom a una región 
+aparecen símbolos proporcionales por entidad. En el 
+nivel local se muestran las anotaciones de detalle de 
+una entidad específica.}
+\label{fig:geo_zoom}
+\end{figure}
+
+La combinación del \textit{zoom semántico} con los 
+principios de Shneiderman permite implementar el flujo de \textit{overview}, 
+\textit{zoom and filter} y \textit{details-on-demand} 
+en la dimensión espacial. El nivel nacional corresponde 
+al \textit{overview}; la selección de una región activa 
+el \textit{zoom and filter}; y la selección de una 
+entidad específica despliega sus \textit{details-on-demand}. 
+Esta correspondencia entre los principios de interacción 
+y los niveles geográficos convierte al mapa anotado en 
+un punto de entrada natural para la exploración de 
+datos distribuidos geográficamente.
+
+\subsection{Reducción dimensional y proyección semántica}
+\label{sec:reduccion}
+
+Cuando cada entidad de un conjunto de datos se 
+describe mediante un vector de alta dimensión, la 
+comparación directa entre entidades resulta 
+cognitivamente inviable. Las técnicas de reducción 
+dimensional proyectan estos vectores en un espacio de 
+dos o tres dimensiones preservando, en la medida de lo 
+posible, las relaciones de proximidad del espacio 
+original. En la proyección resultante, las entidades 
+que son similares en el espacio de alta dimensión 
+aparecen cercanas en el plano, permitiendo al analista 
+identificar agrupaciones, valores atípicos y patrones 
+de similitud de forma visual.
+
+t-SNE (\textit{t-distributed Stochastic Neighbor 
+Embedding})~\cite{vandermaaten2008tsne} fue una de las 
+primeras técnicas en lograr proyecciones de alta calidad 
+para visualización, modelando las similitudes entre 
+puntos como distribuciones de probabilidad y 
+minimizando la divergencia entre las distribuciones 
+del espacio original y el proyectado. Sin embargo, 
+t-SNE presenta limitaciones en la preservación de la 
+estructura global de los datos y en su escalabilidad 
+a conjuntos de datos grandes.
+
+\acs{UMAP} (\textit{Uniform Manifold Approximation and 
+Projection})~\cite{mcinnes2018umap} aborda estas 
+limitaciones. Fundamentado en geometría riemanniana 
+y topología algebraica, \acs{UMAP} construye una 
+representación topológica difusa del espacio de alta 
+dimensión y optimiza su proyección en dimensiones 
+bajas minimizando la entropía cruzada entre ambas 
+representaciones. Comparado con t-SNE, \acs{UMAP} preserva 
+mejor la estructura global de los datos, escala a 
+conjuntos de datos significativamente más grandes y 
+no tiene restricciones computacionales sobre la 
+dimensión del espacio 
+proyectado~\cite{mcinnes2018umap}.
+
+Para que la reducción dimensional sea aplicable a 
+datos textuales, los documentos o fragmentos de texto 
+deben primero transformarse en vectores numéricos de 
+alta dimensión. Los modelos de 
+\textit{embeddings} textuales, como Sentence 
+Transformers~\cite{reimers2019sbert}, proyectan 
+oraciones o párrafos a un espacio vectorial denso en 
+el que la distancia entre vectores refleja la 
+similitud semántica entre los textos que representan. 
+La combinación de \textit{embeddings} textuales con 
+reducción dimensional mediante \acs{UMAP} permite visualizar 
+grandes conjuntos de documentos como nubes de puntos 
+en las que la proximidad espacial corresponde a la 
+similitud de contenido.
+
+
+
+
+\section{Procesamiento de Lenguaje Natural con \texorpdfstring{\acs{LLM}}{LLMs}}
+La extracción de datos en documentos legales requería programar reglas manuales o entrenar modelos con miles de ejemplos específicos \cite{zhong-etal-2020-nlp}. Esta técnica resulta inviable para procesar expedientes de control gubernamental, cuyas estructuras y narrativas varían constantemente. Frente a este obstáculo, la presente investigación adopta los Grandes Modelos de Lenguaje como motor de extracción, aprovechando su capacidad para procesar semántica compleja sin requerir un reentrenamiento masivo por cada nuevo tipo de documento.
+
+
+\subsection{Modelos y Extracción de Información}
+Los \acs{LLM} poseen la capacidad de realizar tareas de extracción semántica avanzada sin requerir un reentrenamiento masivo. Mediante la técnica de aprendizaje con pocos ejemplos (\textit{few-shot learning})\cite{brown2020}. 
+
+Para asegurar que la extracción de hitos, fechas y presupuestos mantenga una secuencia lógica, se emplea la estrategia de \textit{Prompting} denominada Cadena de Pensamiento (\textit{Chain-of-Thought}). Esta técnica induce al \acs{LLM} a descomponer un problema de análisis complejo en pasos de razonamiento intermedios antes de emitir una respuesta final, mejorando significativamente la fidelidad de la información extraída a partir de textos densos \cite{wei2022}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Tesis_CS_202203/chain_of_thought.png}
+\caption{Comparación entre el prompting estándar y el razonamiento por Cadena de Pensamiento, el cual muestra con claridad los pasos intermedios. Imagen extraída de \cite{wei2022}.}
+\label{fig:cot_prompting}
+\end{figure}
+
+
+
+\subsection{Alucinaciones y Trazabilidad}
+A pesar de su capacidad de razonamiento, la implementación de \acs{LLM} en entornos de alta responsabilidad enfrenta un riesgo crítico: las alucinaciones. \cite{ji2023} definen este fenómeno como la generación de contenido irreal que aparenta ser verdadero, clasificándolo en dos tipos: alucinaciones intrínsecas (cuando el texto generado contradice el documento fuente) y extrínsecas (cuando se genera información que no puede ser verificada en la fuente original). En una auditoría, alucinar la fecha , presupuesto o el lugar invalida por completo el análisis.
+
+Frente al riesgo de las alucinaciones, la extracción de información no puede operar como una caja negra. \cite{hutchinson2024llm} advierten que para confiar en un \acs{LLM} dentro de un entorno de \textit{Visual Analytics}, sus respuestas deben estar ancladas a los datos originales. En el trabajo diario de un auditor, esto se traduce en una necesidad: el sistema debe crear un enlace visual directo entre el dato extraído por la máquina y el párrafo exacto del expediente. De esta forma, el analista no asume automáticamente que el modelo tiene la razón, sino que utiliza la interfaz para auditar la fuente, corregir errores y validar que la información sea real.
+
+\subsection{Estructuración de Narrativas Complejas}
+El objetivo de extraer entidades, tiempos y atributos no es generar bases de datos aisladas, sino reconstruir una narrativa compleja. En el contexto de esta investigación, una narrativa compleja se define como la progresión cronológica y causal de eventos burocráticos distribuidos a través de múltiples documentos (informes, adendas, resoluciones). 
+
+Para modelar computacionalmente esta narrativa, el sistema extrae eventos. Un evento se define como una tupla estructurada que responde al qué, quién y cuándo de una acción documentada \cite{navas2022whenthefact, yao2022leven}. Al transformar el texto fragmentado en una secuencia de eventos, el \textit{Visual Analytics} logra mapear el flujo de la información. De esta forma, la interfaz revela visualmente cómo evolucionan los procesos y dónde se concentran las demoras, eliminando la necesidad de leer miles de documentos de forma secuencial.
+
+
+\section{Consideraciones Finales}
+El marco teórico desarrollado en este capítulo establece los pilares conceptuales para abordar el análisis de documentos gubernamentales. En primer lugar, se ha definido que el \textit{Visual Analytics} provee la arquitectura metodológica necesaria para mantener al analista humano en el centro del proceso de verificación. Paralelamente, las técnicas de visualización espaciotemporal y multidimensional proporcionan los mecanismos para representar la estructura cronológica y las métricas de las auditorías sin generar saturación visual.
+
+Por su parte, se estableció que los Grandes Modelos de Lenguaje actúan como el motor de extracción capaz de procesar la semántica del texto y estructurar las narrativas complejas. Sin embargo, su implementación en escenarios de alta responsabilidad exige mecanismos de trazabilidad visual para mitigar el riesgo de alucinaciones y garantizar la fidelidad de la información.
+
+En el siguiente capítulo se presentara el Estado del Arte. Se revisarán los trabajos enfocados en sistemas de extracción legal, herramientas visuales para texto y aplicaciones de los \acs{LLM}..

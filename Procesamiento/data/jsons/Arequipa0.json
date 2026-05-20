@@ -1,0 +1,4268 @@
+{
+  "file name" : "Arequipa0.pdf",
+  "number of pages" : 12,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20260429110913-05'00'",
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 500,
+    "page number" : 1,
+    "bounding box" : [ 196.704, 691.869, 398.296, 719.984 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 501,
+    "page number" : 1,
+    "bounding box" : [ 208.922, 678.398, 384.856, 690.726 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 502,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 133.172, 570.774, 463.049, 588.1 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GERENCIA REGIONAL DE CONTROL DE AREQUIPA"
+  }, {
+    "type" : "heading",
+    "id" : 503,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 156.386, 482.809, 434.949, 529.457 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE VISITA DE CONTROL N° 5727-2026-CG/GRAR-SVC"
+  }, {
+    "type" : "heading",
+    "id" : 504,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 102.628, 374.851, 492.372, 462.15 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VISITA DE CONTROL REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL - RENIEC AREQUIPA, AREQUIPA, AREQUIPA"
+  }, {
+    "type" : "heading",
+    "id" : 505,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 87.967, 315.375, 504.589, 359.524 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE IDENTIFICACIÓN QUE BRINDA LA OFICINA REGISTRAL DE AREQUIPA\""
+  }, {
+    "type" : "heading",
+    "id" : 506,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 225.949, 256.565, 367.829, 284.078 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ERIODO DE EVALUACION 0 AL 14 DE ABRIL DE 20°"
+  }, {
+    "type" : "heading",
+    "id" : 507,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 266.252, 224.472, 328.748, 238.812 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TOMO I DE I"
+  }, {
+    "type" : "heading",
+    "id" : 508,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 204.035, 193.137, 390.965, 209.028 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "AREQUIPA, 16 DE ABRIL DE 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 509,
+    "page number" : 1,
+    "bounding box" : [ 194.261, 118.571, 438.614, 127.283 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Decenio de la laualdad de Oportunidades para Mujeres y Hombres\""
+  }, {
+    "type" : "paragraph",
+    "id" : 510,
+    "page number" : 1,
+    "bounding box" : [ 207.7, 108.792, 423.953, 116.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Año de la Esperanza y el Fortalecimiento de la Democracia\""
+  }, {
+    "type" : "paragraph",
+    "id" : 512,
+    "page number" : 2,
+    "bounding box" : [ 147.834, 765.212, 283.45, 782.326 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORIA"
+  }, {
+    "type" : "paragraph",
+    "id" : 513,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 153.943, 757.878, 277.341, 765.363 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "•GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 514,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 199.148, 685.728, 394.63, 718.762 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE VISITA DE CONTROL N° 5727-2026-CG/GRAR-SVC"
+  }, {
+    "type" : "paragraph",
+    "id" : 515,
+    "page number" : 2,
+    "bounding box" : [ 90.411, 656.406, 505.811, 672.4 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE IDENTIFICACIÓN QUE BRINDA LA OFICINA REGISTRAL DE AREQUIPA\""
+  }, {
+    "type" : "heading",
+    "id" : 516,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 263.901, 600.19, 327.433, 622.193 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INDICE"
+  }, {
+    "type" : "table",
+    "id" : 517,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 2.811, 299.875, 510.294, 561.478 ],
+    "number of rows" : 11,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 537.696, 129.681, 561.478 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 537.696, 256.552, 561.478 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 537.696, 383.423, 561.478 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 537.696, 510.294, 561.478 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 400,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 537.696, 510.294, 561.478 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N° Pág."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 513.914, 129.681, 537.696 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 513.914, 256.552, 537.696 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 401,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 513.914, 256.552, 537.696 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 513.914, 383.423, 537.696 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 402,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 513.914, 383.423, 537.696 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "ORIGEN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 513.914, 510.294, 537.696 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 403,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 513.914, 510.294, 537.696 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 490.132, 129.681, 513.914 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 404,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 490.132, 129.681, 513.914 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "CONIALORA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 490.132, 256.552, 513.914 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 405,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 490.132, 256.552, 513.914 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "II."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 490.132, 383.423, 513.914 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 406,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 490.132, 383.423, 513.914 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "OBJETIVOS"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 490.132, 510.294, 513.914 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 407,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 490.132, 510.294, 513.914 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 466.349, 129.681, 490.132 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 408,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 466.349, 129.681, 490.132 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "V°B®"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 466.349, 256.552, 490.132 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 409,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 466.349, 256.552, 490.132 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "III."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 466.349, 383.423, 490.132 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 410,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 466.349, 383.423, 490.132 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "ALCANCE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 466.349, 510.294, 490.132 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 411,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 466.349, 510.294, 490.132 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 442.567, 129.681, 466.349 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 412,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 2.811, 442.567, 129.681, 466.349 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "•irmado digitalmente po LORES CORDERO Fan Marivel FAU 20131378972 soft nota: 16-042028 16:16:40-05:0 echa: 1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 442.567, 256.552, 466.349 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 413,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 442.567, 256.552, 466.349 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "IV."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 442.567, 383.423, 466.349 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 414,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 442.567, 383.423, 466.349 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "INFORMACIÓN RESPECTO DE LA ACTIVIDAD"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 442.567, 510.294, 466.349 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 415,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 442.567, 510.294, 466.349 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 418.785, 129.681, 442.567 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 418.785, 256.552, 442.567 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 416,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 418.785, 256.552, 442.567 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "V."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 418.785, 383.423, 442.567 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 417,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 418.785, 383.423, 442.567 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "SITUACIONES ADVERSAS"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 418.785, 510.294, 442.567 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 418,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 418.785, 510.294, 442.567 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "3"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 395.003, 129.681, 418.785 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 419,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 395.003, 129.681, 418.785 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "CONIALOREN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 395.003, 256.552, 418.785 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 420,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 395.003, 256.552, 418.785 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VI."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 395.003, 383.423, 418.785 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 421,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 395.003, 383.423, 418.785 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DOCUMENTACIÓN VINCULADA A LA ACTIVIDAD"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 395.003, 510.294, 418.785 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 422,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 395.003, 510.294, 418.785 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 371.221, 129.681, 395.003 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 423,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 371.221, 129.681, 395.003 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "V°B®"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 371.221, 256.552, 395.003 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 424,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 371.221, 256.552, 395.003 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VII."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 371.221, 383.423, 395.003 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 425,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 371.221, 383.423, 395.003 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 371.221, 510.294, 395.003 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 426,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 371.221, 510.294, 395.003 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 347.439, 129.681, 371.221 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 427,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 347.439, 129.681, 371.221 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 347.439, 256.552, 371.221 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 428,
+          "page number" : 2,
+          "bounding box" : [ 129.681, 347.439, 256.552, 371.221 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VIII."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 347.439, 383.423, 371.221 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 429,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 347.439, 383.423, 371.221 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "CONCLUSIÓN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 347.439, 510.294, 371.221 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 430,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 347.439, 510.294, 371.221 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 323.657, 129.681, 347.439 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 431,
+          "page number" : 2,
+          "bounding box" : [ 2.811, 323.657, 129.681, 347.439 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Рост: 0 206120-01.)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 323.657, 256.552, 347.439 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 323.657, 383.423, 347.439 ],
+        "row number" : 10,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 432,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 323.657, 383.423, 347.439 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "RECOMENDACIONES"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 323.657, 510.294, 347.439 ],
+        "row number" : 10,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 433,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 323.657, 510.294, 347.439 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 2.811, 299.875, 129.681, 323.657 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.681, 299.875, 256.552, 323.657 ],
+        "row number" : 11,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 256.552, 299.875, 383.423, 323.657 ],
+        "row number" : 11,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 434,
+          "page number" : 2,
+          "bounding box" : [ 256.552, 299.875, 383.423, 323.657 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "APÉNDICES"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 383.423, 299.875, 510.294, 323.657 ],
+        "row number" : 11,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 435,
+          "page number" : 2,
+          "bounding box" : [ 383.423, 299.875, 510.294, 323.657 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "9"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 519,
+    "page number" : 2,
+    "bounding box" : [ 26.879, 496.288, 54.979, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIALORA"
+  }, {
+    "type" : "paragraph",
+    "id" : 520,
+    "page number" : 2,
+    "bounding box" : [ 24.435, 481.619, 56.201, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 521,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 6.109, 463.15, 56.201, 468.173 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "•irmado digitalmente po"
+  }, {
+    "type" : "paragraph",
+    "id" : 522,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 458.394, 61.088, 464.506 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LORES CORDERO Fan"
+  }, {
+    "type" : "paragraph",
+    "id" : 524,
+    "page number" : 2,
+    "bounding box" : [ 2.444, 452.154, 64.754, 458.485 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marivel FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 523,
+    "page number" : 2,
+    "bounding box" : [ 2.444, 444.948, 13.439, 453.504 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 525,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 435.161, 80.637, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "nota: 16-042028 16:16:40-05:0"
+  }, {
+    "type" : "paragraph",
+    "id" : 526,
+    "page number" : 2,
+    "bounding box" : [ 7.331, 437.493, 23.214, 440.159 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "echa: 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 528,
+    "page number" : 2,
+    "bounding box" : [ 26.879, 391.163, 53.758, 402.164 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIALOREN"
+  }, {
+    "type" : "paragraph",
+    "id" : 529,
+    "page number" : 2,
+    "bounding box" : [ 25.657, 377.717, 56.201, 392.385 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 530,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 358.158, 59.867, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 531,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 353.193, 74.528, 358.191 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OVIEDO VASQUEZ Pedro Luis"
+  }, {
+    "type" : "paragraph",
+    "id" : 532,
+    "page number" : 2,
+    "bounding box" : [ 2.444, 348.379, 69.641, 352.194 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fernando FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 535,
+    "page number" : 2,
+    "bounding box" : [ 32.988, 278.703, 58.645, 286.038 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALOR(A"
+  }, {
+    "type" : "paragraph",
+    "id" : 534,
+    "page number" : 2,
+    "bounding box" : [ 29.322, 264.035, 64.754, 281.148 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®)"
+  }, {
+    "type" : "paragraph",
+    "id" : 536,
+    "page number" : 2,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 537,
+    "page number" : 2,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 538,
+    "page number" : 2,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 539,
+    "page number" : 2,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 541,
+    "page number" : 3,
+    "bounding box" : [ 134.394, 790.882, 276.119, 805.551 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORIA"
+  }, {
+    "type" : "paragraph",
+    "id" : 542,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 145.39, 779.881, 268.789, 788.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 543,
+    "page number" : 3,
+    "bounding box" : [ 467.936, 755.367, 511.92, 766.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 1 de 9"
+  }, {
+    "type" : "heading",
+    "id" : 544,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 199.148, 696.724, 394.63, 731.044 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE VISITA DE CONTROL N° 5727-2026-CG/GRAR-SVC"
+  }, {
+    "type" : "heading",
+    "id" : 545,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 90.411, 671.067, 505.811, 687.061 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE IDENTIFICACIÓN QUE BRINDA LA OFICINA REGISTRAL DE AREQUIPA\""
+  }, {
+    "type" : "heading",
+    "id" : 546,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 83.08, 644.196, 142.947, 657.642 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. ORIGEN"
+  }, {
+    "type" : "paragraph",
+    "id" : 547,
+    "page number" : 3,
+    "bounding box" : [ 103.85, 554.962, 510.727, 633.421 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "El presente informe se emite en mérito a lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República, mediante oficio n.° 000734-2026-CG/GRAR de 9 de abril de 2026, registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 02-L470-2026-090, en el marco de lo previsto en la Directiva n.° 013-2022-CG/NORM \"Servicio de Control Simultáneo\" aprobada mediante Resolución de Contraloría n.° 218-2022-CG publicada e 31 de mayo de 2022 y modificatorias."
+  }, {
+    "type" : "heading",
+    "id" : 548,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 83.031, 529.037, 158.878, 544.216 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "II. OBJETIVOS"
+  }, {
+    "type" : "paragraph",
+    "id" : 551,
+    "page number" : 3,
+    "bounding box" : [ 28.101, 497.51, 53.758, 506.067 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 552,
+    "page number" : 3,
+    "bounding box" : [ 25.657, 482.842, 54.979, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 554,
+    "page number" : 3,
+    "bounding box" : [ 2.444, 436.391, 78.193, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por FLORES CORD-RO Fant Marivel FAU 20131378972 soft otivo: Doy Visto Buer cha: 16-04-2026 16:16:40 - 05:0"
+  }, {
+    "type" : "heading",
+    "id" : 549,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 105.072, 506.067, 193.039, 518.291 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.1 Objetivo general"
+  }, {
+    "type" : "paragraph",
+    "id" : 553,
+    "page number" : 3,
+    "bounding box" : [ 117.29, 455.819, 510.735, 494.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Determinar si las actividades relacionadas con la atención al ciudadano en la entrega de DNI en la Oficina Registral de Arequipa se realizan en concordancia con la normativa y disposiciones internas aplicables."
+  }, {
+    "type" : "heading",
+    "id" : 555,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 105.072, 430.163, 204.035, 443.824 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.2 Objetivo especifico"
+  }, {
+    "type" : "paragraph",
+    "id" : 558,
+    "page number" : 3,
+    "bounding box" : [ 29.322, 392.385, 53.758, 402.164 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 559,
+    "page number" : 3,
+    "bounding box" : [ 25.657, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 556,
+    "page number" : 3,
+    "bounding box" : [ 117.29, 380.161, 510.698, 418.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Establecer si la Oficina Registral de Arequipa cuenta con la capacidad operativa y equipamiento informático necesarios para brindar la atención al ciudadano en la entrega de DNI conforme a la normativa y disposiciones internas aplicables."
+  }, {
+    "type" : "heading",
+    "id" : 561,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 83.08, 354.491, 151.499, 369.187 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "III. ALCANCE"
+  }, {
+    "type" : "paragraph",
+    "id" : 560,
+    "page number" : 3,
+    "bounding box" : [ 3.665, 358.158, 58.645, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 562,
+    "page number" : 3,
+    "bounding box" : [ 2.444, 331.202, 83.08, 358.395 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 Motivo: Doy Visto Bueno Fecha: 16-04-2026 17:28:20-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 563,
+    "page number" : 3,
+    "bounding box" : [ 103.85, 292.15, 510.698, 342.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La Visita de Control se desarrolló a la atención al ciudadano en la entrega de DNI en la Oficina Registral de Arequipa, la cual ha sido ejecutada del 10 al 14 de abril de 2026, en las instalaciones de dicha oficina registral sito en la calle Santo Domingo n.° 101 y 103, distrito de Arequipa, provincia y departamento de Arequipa."
+  }, {
+    "type" : "paragraph",
+    "id" : 565,
+    "page number" : 3,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 566,
+    "page number" : 3,
+    "bounding box" : [ 31.766, 263.895, 59.867, 278.703 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "heading",
+    "id" : 567,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 83.08, 267.561, 304.22, 279.926 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IV. INFORMACIÓN RESPECTO DE LA ACTIVIDAD"
+  }, {
+    "type" : "paragraph",
+    "id" : 568,
+    "page number" : 3,
+    "bounding box" : [ 8.552, 244.477, 64.754, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 570,
+    "page number" : 3,
+    "bounding box" : [ 9.774, 238.239, 69.641, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 571,
+    "page number" : 3,
+    "bounding box" : [ 9.774, 233.475, 75.749, 239.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 572,
+    "page number" : 3,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 573,
+    "page number" : 3,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 569,
+    "page number" : 3,
+    "bounding box" : [ 103.85, 191.914, 510.698, 254.256 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "El Registro Nacional de Identificación y Estado Civil, en adelante Reniec, tiene entre sus seis (6) Procesos Misionales, el PM01 Proceso de Identificación, el cual tiene como subproceso al PM01.01 Proceso de Identificación. Dicho proceso busca consolidar la calidad de sus servicios con enfoque territorial, accesible y pertinencia cultural de todos los peruanos y peruanas, con énfasis en la población más vulnerable."
+  }, {
+    "type" : "paragraph",
+    "id" : 574,
+    "page number" : 3,
+    "bounding box" : [ 103.85, 130.795, 510.698, 178.596 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "En tal sentido, la actividad del proceso materia de control corresponde a la atención al ciudadano en la entrega de Documento Nacional de Identidad (DNI) en la Oficina Registral de Arequipa, con el cual se busca otorgar y acreditar la identidad de las personas naturales en el Perú, que implica varias funciones claves, tales como:"
+  }, {
+    "type" : "paragraph",
+    "id" : 575,
+    "page number" : 3,
+    "bounding box" : [ 102.628, 90.298, 510.698, 116.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Orientación al ciudadano para su atención: El proceso inicia con la recepción del ciudadano y el otorgamiento de información u orientación respecto al tipo de atención por parte del Reniec."
+  }, {
+    "type" : "header",
+    "id" : 953,
+    "page number" : 4,
+    "bounding box" : [ 135.616, 789.66, 277.341, 807.996 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 960,
+      "page number" : 4,
+      "bounding box" : [ 135.616, 789.66, 277.341, 807.996 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 578,
+    "page number" : 4,
+    "bounding box" : [ 146.612, 781.024, 268.788, 788.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 579,
+    "page number" : 4,
+    "bounding box" : [ 469.158, 757.878, 510.698, 766.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 2 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 580,
+    "page number" : 4,
+    "bounding box" : [ 100.185, 666.069, 510.698, 742.039 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Atención para la entrega de DNI: Cuando el ciudadano acude a recoger su DNI, el registrador realiza la validación biométrica para confirmar que quien recibe el documento es efectivamente el titular o el declarante. En casos de renovación o rectificación, el registrador tiene la obligación de solicitar el DNI anterior y proceder a su inutilización mediante un corte triangular que abarque la fotografía, asegurando que el documento antiguo quede fuera de circulación. Posteriormente el ciudadano firma el ticket de recojo y recibe su nuevo DNI."
+  }, {
+    "type" : "paragraph",
+    "id" : 581,
+    "page number" : 4,
+    "bounding box" : [ 101.407, 605.038, 510.698, 654.074 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sistemas у equipos informáticos para la atención al ciudadano: Las oficinas registrales que brindan atención al ciudadano, por la naturaleza de los servicios que prestan, cuenta principalmente con el SIO, computadoras, impresoras y otros equipos necesarios para la entrega de los DNI."
+  }, {
+    "type" : "paragraph",
+    "id" : 584,
+    "page number" : 4,
+    "bounding box" : [ 29.322, 497.51, 53.758, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORCA"
+  }, {
+    "type" : "paragraph",
+    "id" : 586,
+    "page number" : 4,
+    "bounding box" : [ 26.879, 482.842, 53.758, 496.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 589,
+    "page number" : 4,
+    "bounding box" : [ 2.444, 444.948, 64.754, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por FLORES CORDERO Fany Marivel FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 591,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 437.493, 81.858, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno Fecha: 16-04-2026 16:16:40 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 596,
+    "page number" : 4,
+    "bounding box" : [ 28.101, 391.163, 53.758, 403.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIONA"
+  }, {
+    "type" : "paragraph",
+    "id" : 597,
+    "page number" : 4,
+    "bounding box" : [ 24.435, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 600,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 354.491, 73.306, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIeDO VASQUeL Peoro Lus"
+  }, {
+    "type" : "paragraph",
+    "id" : 602,
+    "page number" : 4,
+    "bounding box" : [ 2.444, 332.488, 81.858, 353.269 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fernando FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 16-04-2026 17:28·20 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 613,
+    "page number" : 4,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 612,
+    "page number" : 4,
+    "bounding box" : [ 31.766, 264.035, 59.867, 279.926 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 618,
+    "page number" : 4,
+    "bounding box" : [ 7.331, 244.477, 64.754, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 620,
+    "page number" : 4,
+    "bounding box" : [ 8.552, 238.239, 70.862, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 622,
+    "page number" : 4,
+    "bounding box" : [ 8.552, 233.475, 76.971, 239.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 625,
+    "page number" : 4,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 624,
+    "page number" : 4,
+    "bounding box" : [ 7.331, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 582,
+    "page number" : 4,
+    "bounding box" : [ 105.072, 518.152, 510.698, 590.433 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cabe indicar, que la Oficina Registral de Arequipa se encuentra bajo la jurisdicción de la Jefatura Regional 8 - Arequipa, unidad orgánica que depende de la Dirección de Servicios Registrales del Reniec. Asimismo, el horario de atención al ciudadano es de 08:45 a 16:45 horas, el mismo que de acuerdo a las disposiciones internas emitidas por la Alta Dirección del Reniec y en el marco de las Elecciones Generales 2026, fue extendido hasta el día de las elecciones; tal como se detalla a continuación:"
+  }, {
+    "type" : "paragraph",
+    "id" : 585,
+    "page number" : 4,
+    "bounding box" : [ 103.85, 491.398, 431.283, 502.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante el año 2026 hasta el viernes 3 de abril de 2026 de 08:45 a 16:45 horas"
+  }, {
+    "type" : "paragraph",
+    "id" : 587,
+    "page number" : 4,
+    "bounding box" : [ 103.85, 479.143, 310.329, 490.176 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Lunes 6 de abril de 2026 de 07:45 a 16:45 horas."
+  }, {
+    "type" : "paragraph",
+    "id" : 588,
+    "page number" : 4,
+    "bounding box" : [ 103.85, 466.815, 272.454, 477.952 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Martes 7 de abril de 7:45 a 11:59 horas."
+  }, {
+    "type" : "paragraph",
+    "id" : 590,
+    "page number" : 4,
+    "bounding box" : [ 105.072, 454.727, 278.563, 464.506 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Miércoles 8 de abril de 7:45 a 7:45 horas."
+  }, {
+    "type" : "paragraph",
+    "id" : 592,
+    "page number" : 4,
+    "bounding box" : [ 103.85, 440.058, 414.179, 452.282 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Jueves 9, viernes 10 y sábado 11 de abril de 2026 de 07:00 a 23:59 horas."
+  }, {
+    "type" : "paragraph",
+    "id" : 593,
+    "page number" : 4,
+    "bounding box" : [ 103.85, 427.83, 326.211, 440.159 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Domingo 12 de abril de 2026 de 08:45 a 16:45 horas."
+  }, {
+    "type" : "paragraph",
+    "id" : 594,
+    "page number" : 4,
+    "bounding box" : [ 105.072, 393.544, 510.698, 416.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cabe precisar que el horario extendido fue comunicado' a la ciudadanía; tal como se muestra a continuación:"
+  }, {
+    "type" : "paragraph",
+    "id" : 598,
+    "page number" : 4,
+    "bounding box" : [ 270.01, 371.519, 346.982, 382.606 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IMÁGENES N° 1 Y 2"
+  }, {
+    "type" : "heading",
+    "id" : 599,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 131.951, 359.381, 482.598, 371.605 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "PUBLICACIÓN DE HORARIOS RENIEC AMPLIADOS HASTA EL DÍA DE LAS ELECCIONES"
+  }, {
+    "type" : "paragraph",
+    "id" : 604,
+    "page number" : 4,
+    "bounding box" : [ 246.202, 323.204, 289.759, 343.178 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "12 de abril!"
+  }, {
+    "type" : "paragraph",
+    "id" : 606,
+    "page number" : 4,
+    "bounding box" : [ 255.349, 315.375, 284.671, 328.87 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Para ore"
+  }, {
+    "type" : "paragraph",
+    "id" : 609,
+    "page number" : 4,
+    "bounding box" : [ 117.29, 293.217, 262.68, 306.878 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "¡Atención OR Arequipa!"
+  }, {
+    "type" : "paragraph",
+    "id" : 614,
+    "page number" : 4,
+    "bounding box" : [ 118.511, 273.814, 218.696, 288.552 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Entrega de DNI"
+  }, {
+    "type" : "paragraph",
+    "id" : 616,
+    "page number" : 4,
+    "bounding box" : [ 118.511, 261.563, 180.821, 272.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "hasta las"
+  }, {
+    "type" : "paragraph",
+    "id" : 617,
+    "page number" : 4,
+    "bounding box" : [ 118.511, 239.572, 211.366, 257.923 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "11:59 p.m."
+  }, {
+    "type" : "paragraph",
+    "id" : 626,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 119.701, 219.843, 175.966, 229.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "• Jueves 9"
+  }, {
+    "type" : "list",
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 118.511, 196.804, 182.043, 217.584 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 118.511, 208.917, 182.043, 217.584 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "• Viernes 10",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 119.733, 196.804, 180.821, 206.585 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "• Sábado 11",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 631,
+    "page number" : 4,
+    "bounding box" : [ 129.507, 185.802, 171.047, 194.359 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "de abril"
+  }, {
+    "type" : "paragraph",
+    "id" : 603,
+    "page number" : 4,
+    "bounding box" : [ 455.719, 341.045, 471.602, 348.379 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "tos"
+  }, {
+    "type" : "paragraph",
+    "id" : 605,
+    "page number" : 4,
+    "bounding box" : [ 433.366, 316.31, 487.127, 340.542 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "12 de abril!"
+  }, {
+    "type" : "paragraph",
+    "id" : 607,
+    "page number" : 4,
+    "bounding box" : [ 448.388, 309.211, 481.376, 323.932 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "para cre"
+  }, {
+    "type" : "paragraph",
+    "id" : 608,
+    "page number" : 4,
+    "bounding box" : [ 310.329, 299.484, 409.292, 314.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "NO PARAMOS"
+  }, {
+    "type" : "paragraph",
+    "id" : 611,
+    "page number" : 4,
+    "bounding box" : [ 310.329, 281.148, 487.485, 295.883 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Recoge tu DNI para votar"
+  }, {
+    "type" : "paragraph",
+    "id" : 615,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 313.994, 266.48, 467.936, 278.703 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "• SÁBADO 11 Y DOMINGO 12"
+  }, {
+    "type" : "paragraph",
+    "id" : 619,
+    "page number" : 4,
+    "bounding box" : [ 316.437, 246.902, 360.421, 254.256 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "© Consulta las"
+  }, {
+    "type" : "paragraph",
+    "id" : 621,
+    "page number" : 4,
+    "bounding box" : [ 322.509, 241.842, 353.127, 248.334 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "oficinas y"
+  }, {
+    "type" : "paragraph",
+    "id" : 623,
+    "page number" : 4,
+    "bounding box" : [ 322.546, 235.906, 364.086, 243.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "horarios on ol"
+  }, {
+    "type" : "paragraph",
+    "id" : 628,
+    "page number" : 4,
+    "bounding box" : [ 322.546, 232.241, 359.199, 234.698 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ensee cola"
+  }, {
+    "type" : "paragraph",
+    "id" : 627,
+    "page number" : 4,
+    "bounding box" : [ 322.546, 223.696, 359.199, 231.031 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "publicación"
+  }, {
+    "type" : "paragraph",
+    "id" : 632,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 122.238, 267.567, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 1: Horario de atención del 9 al 11 de abril"
+  }, {
+    "type" : "paragraph",
+    "id" : 633,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 122.238, 267.567, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 1: Horario de atención del 9 al 11 de abril"
+  }, {
+    "type" : "paragraph",
+    "id" : 636,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 113.622, 274.897, 121.016 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: https://www.facebook.com/share/p/1CEtKfb9zj/"
+  }, {
+    "type" : "paragraph",
+    "id" : 637,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 113.622, 274.897, 121.016 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: https://www.facebook.com/share/p/1CEtKfb9zj/"
+  }, {
+    "type" : "paragraph",
+    "id" : 634,
+    "page number" : 4,
+    "bounding box" : [ 300.554, 122.238, 445.945, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 2: Horario de atención del 12 de abril."
+  }, {
+    "type" : "paragraph",
+    "id" : 635,
+    "page number" : 4,
+    "bounding box" : [ 300.554, 122.238, 445.945, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 2: Horario de atención del 12 de abril."
+  }, {
+    "type" : "paragraph",
+    "id" : 638,
+    "page number" : 4,
+    "bounding box" : [ 300.554, 112.459, 492.372, 121.016 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: https://docs.google.com/spreadsheets/d/1d_hK0xvz5n2gj"
+  }, {
+    "type" : "paragraph",
+    "id" : 639,
+    "page number" : 4,
+    "bounding box" : [ 300.554, 112.459, 492.372, 121.016 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: https://docs.google.com/spreadsheets/d/1d_hK0xvz5n2gj"
+  }, {
+    "type" : "paragraph",
+    "id" : 640,
+    "page number" : 4,
+    "bounding box" : [ 299.333, 102.68, 488.706, 112.459 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Qb7taPa7gTEbti3MIPC/edit?gid=1308340558#gid=1308340558"
+  }, {
+    "type" : "paragraph",
+    "id" : 641,
+    "page number" : 4,
+    "bounding box" : [ 299.333, 102.68, 488.706, 112.459 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Qb7taPa7gTEbti3MIPC/edit?gid=1308340558#gid=1308340558"
+  }, {
+    "type" : "paragraph",
+    "id" : 642,
+    "page number" : 4,
+    "bounding box" : [ 84.302, 72.121, 510.698, 88.012 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "En entrevistas: https://www.facebook.com/HBAnoticias/videos/arequipa-envivo-hbanoticias-conversamos-con-angel-maria-manrique-jefe-de-taofic/1948582549085639/"
+  }, {
+    "type" : "image",
+    "page number" : 5,
+    "bounding box" : [ 0.0, 0.0, 595.0, 841.0 ],
+    "source" : "Arequipa0_images/imageFile1.png"
+  }, {
+    "type" : "header",
+    "id" : 954,
+    "page number" : 5,
+    "bounding box" : [ 133.172, 781.024, 277.341, 807.996 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 961,
+      "page number" : 5,
+      "bounding box" : [ 133.172, 789.66, 277.341, 807.996 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 962,
+      "page number" : 5,
+      "bounding box" : [ 145.39, 781.024, 270.01, 789.687 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 646,
+    "page number" : 5,
+    "bounding box" : [ 469.073, 757.441, 510.784, 766.871 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 3 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 647,
+    "page number" : 5,
+    "bounding box" : [ 103.85, 705.315, 510.698, 743.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Los aspectos antes señalados han formado parte de la revisión muestral efectuada por la Comisión de Control durante el servicio de Visita de Control a la atención al ciudadano en la entrega de DNI por parte de la Oficina Registral de Arequipa."
+  }, {
+    "type" : "heading",
+    "id" : 648,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 84.302, 679.645, 221.14, 693.092 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V. SITUACIONES ADVERSAS"
+  }, {
+    "type" : "paragraph",
+    "id" : 649,
+    "page number" : 5,
+    "bounding box" : [ 105.072, 619.749, 510.698, 669.866 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "De la revisión y análisis efectuada a la entrega de DNI al ciudadano por parte de la Oficina Registral e Arequipa, en adelante \"Entidad\" se han identificado dos (2) situaciones adversas que afectan odrían afectar la continuidad del proceso, el resultado o el logro de los obietivos de los servicio brindados por el Reniec a través de la referida oficina registral, las cuales se exponen a continuación:"
+  }, {
+    "type" : "paragraph",
+    "id" : 650,
+    "page number" : 5,
+    "bounding box" : [ 105.072, 556.113, 510.698, 607.525 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LA ENTIDAD, PARA LA ATENCIÓN DE CIUDADANOS QUE SE ENCONTRABAN EN LOS EXTERIORES EMPLEÓ LA ENTREGA DE DECLARACIONES JURADAS SIN EL CONTROL DE CALIDAD RESPECTIVO, LO QUE PONDRÍA EN RIESGO LA TRANSPARENCIA, EL ORDEN DE ATENCIÓN Y PROPICIAR ESCENARIOS DE CORRUPCIÓN."
+  }, {
+    "type" : "heading",
+    "id" : 651,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 118.511, 530.456, 183.265, 541.516 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "a) Condición:"
+  }, {
+    "type" : "paragraph",
+    "id" : 652,
+    "page number" : 5,
+    "bounding box" : [ 133.172, 455.819, 510.698, 517.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "De la visita efectuada a la Oficina Registral de Arequipa el 9 y 10 de abril de 2026 se observó la entrega de \"Declaraciones juradas para la entrega\" de DNI Azul, DNEe o DNI Menor a los ciudadanos que se encontraban haciendo colas en los exteriores de la Entidad, los mismos que debían contar con sello y numeración?; sin embargo, de la revisión aleatoria se advirtió que no guardaban uniformidad conforme se muestra a continuación:"
+  }, {
+    "type" : "paragraph",
+    "id" : 654,
+    "page number" : 5,
+    "bounding box" : [ 29.322, 497.51, 53.758, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORCA"
+  }, {
+    "type" : "paragraph",
+    "id" : 655,
+    "page number" : 5,
+    "bounding box" : [ 25.657, 482.842, 53.758, 496.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VB"
+  }, {
+    "type" : "paragraph",
+    "id" : 656,
+    "page number" : 5,
+    "bounding box" : [ 2.444, 436.391, 83.08, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por FLORES CORD-RO Fant Marivel FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 16-04-2026 16:16:40-05:00"
+  }, {
+    "type" : "heading",
+    "id" : 657,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 167.382, 421.722, 475.267, 443.824 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IMÁGENES NºS 3 Y 4 DECLARACIONES JURADAS PARA LA ENTREGA SIN CONTROL DE CALIDAD"
+  }, {
+    "type" : "paragraph",
+    "id" : 661,
+    "page number" : 5,
+    "bounding box" : [ 189.374, 404.506, 271.232, 410.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "DECLARACION JUARADA PARA LA"
+  }, {
+    "type" : "paragraph",
+    "id" : 662,
+    "page number" : 5,
+    "bounding box" : [ 28.101, 392.385, 53.758, 398.497 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALOR/"
+  }, {
+    "type" : "paragraph",
+    "id" : 663,
+    "page number" : 5,
+    "bounding box" : [ 243.131, 392.385, 261.458, 398.497 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "MENOR"
+  }, {
+    "type" : "paragraph",
+    "id" : 664,
+    "page number" : 5,
+    "bounding box" : [ 24.435, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 665,
+    "page number" : 5,
+    "bounding box" : [ 189.374, 369.16, 241.91, 371.605 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "welleydel Proodmient"
+  }, {
+    "type" : "paragraph",
+    "id" : 666,
+    "page number" : 5,
+    "bounding box" : [ 2.444, 332.488, 81.858, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIeDO VASQUeL Peoro Lus Fernando FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 16-04-2026 17:28·20 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 667,
+    "page number" : 5,
+    "bounding box" : [ 171.047, 349.528, 202.813, 352.194 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "e el hed Do de Part"
+  }, {
+    "type" : "paragraph",
+    "id" : 671,
+    "page number" : 5,
+    "bounding box" : [ 151.499, 281.148, 168.604, 287.26 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha,"
+  }, {
+    "type" : "paragraph",
+    "id" : 672,
+    "page number" : 5,
+    "bounding box" : [ 188.152, 279.889, 199.148, 287.26 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_ de"
+  }, {
+    "type" : "paragraph",
+    "id" : 673,
+    "page number" : 5,
+    "bounding box" : [ 232.136, 277.481, 255.349, 286.038 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "de 20)"
+  }, {
+    "type" : "paragraph",
+    "id" : 670,
+    "page number" : 5,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 669,
+    "page number" : 5,
+    "bounding box" : [ 30.544, 264.035, 59.867, 279.926 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 674,
+    "page number" : 5,
+    "bounding box" : [ 8.515, 222.474, 89.189, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo Dov visto Kileno Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 675,
+    "page number" : 5,
+    "bounding box" : [ 161.273, 237.142, 232.136, 244.57 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firma del Titular o Declarante"
+  }, {
+    "type" : "paragraph",
+    "id" : 676,
+    "page number" : 5,
+    "bounding box" : [ 276.119, 235.906, 304.22, 242.032 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "trata indue Derech"
+  }, {
+    "type" : "paragraph",
+    "id" : 677,
+    "page number" : 5,
+    "bounding box" : [ 135.616, 194.256, 313.994, 223.696 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 3: \"Declaración jurada para la entrega\", con sello de RENIEC proporcionadas a los ciudadanos, que debió contar con numeración."
+  }, {
+    "type" : "paragraph",
+    "id" : 678,
+    "page number" : 5,
+    "bounding box" : [ 322.546, 204.138, 516.807, 223.696 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 4: Identificación de \"Declaraciones juradas para la entrega\", sin sello y sin numeración correlativa."
+  }, {
+    "type" : "paragraph",
+    "id" : 679,
+    "page number" : 5,
+    "bounding box" : [ 134.394, 185.802, 243.131, 194.359 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Elaborado por: Comisión de Control"
+  }, {
+    "type" : "paragraph",
+    "id" : 680,
+    "page number" : 5,
+    "bounding box" : [ 140.503, 120.952, 510.698, 172.356 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "De las imágenes precedentes se observa que algunas declaraciones entregadas a los ciudadanos no contaban con sello y numeración correspondiente; por lo que, carecian del control de calidad, lo que dificultaba la trazabilidad de los usuarios, la atención según el orden de llegada, la aglomeración, y además podía propiciarse escenarios de corrupción."
+  }, {
+    "type" : "paragraph",
+    "id" : 681,
+    "page number" : 5,
+    "bounding box" : [ 83.08, 70.898, 278.563, 79.455 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 Según lo señalado por el jefe de la Oficina Registral de Arequipa."
+  }, {
+    "type" : "header",
+    "id" : 955,
+    "page number" : 6,
+    "bounding box" : [ 135.616, 788.438, 277.341, 807.996 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 963,
+      "page number" : 6,
+      "bounding box" : [ 135.616, 788.438, 277.341, 807.996 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 684,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 145.39, 778.658, 270.01, 789.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 685,
+    "page number" : 6,
+    "bounding box" : [ 138.06, 682.09, 510.698, 743.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cabe precisar que, durante la Visita de Control se observó largas colas en los exteriores de la Oficina Registral de Arequipa, evidenciado el malestar y reclamos de los usuarios, siendo urgente la adopción de medidas por parte de la Entidad; por lo que, dicha situación fue puesta de conocimiento del jefe de la Oficina Registral de Arequipa para la adopción de acciones inmediatas"
+  }, {
+    "type" : "heading",
+    "id" : 686,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 118.485, 656.293, 171.073, 667.548 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "b) Criterio:"
+  }, {
+    "type" : "paragraph",
+    "id" : 687,
+    "page number" : 6,
+    "bounding box" : [ 131.951, 606.302, 510.698, 644.196 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Directiva n.° 003-2024-PCM/SGP \"Directiva para mejorar la Atención al Ciudadano en las entidades de la Administración Pública\", aprobada por Resolución de Secretaría de Gestión Pública n.° 007-2024-PCM/SGP de 16 de diciembre de 2024."
+  }, {
+    "type" : "heading",
+    "id" : 688,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 147.834, 581.769, 393.409, 592.856 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6.3 Procesos vinculados a la atención de los ciudadanos"
+  }, {
+    "type" : "paragraph",
+    "id" : 692,
+    "page number" : 6,
+    "bounding box" : [ 26.879, 496.288, 53.758, 506.067 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIALORA"
+  }, {
+    "type" : "paragraph",
+    "id" : 693,
+    "page number" : 6,
+    "bounding box" : [ 25.657, 481.476, 56.201, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 694,
+    "page number" : 6,
+    "bounding box" : [ 2.444, 436.391, 74.528, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por FLORES CORD-RO Fant Marivel FAU 20131378972 soft ivo: Doy Visto Bue ha: 16-04-2026 16:16:40 -05"
+  }, {
+    "type" : "paragraph",
+    "id" : 698,
+    "page number" : 6,
+    "bounding box" : [ 28.101, 392.385, 53.758, 402.164 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALOREN"
+  }, {
+    "type" : "paragraph",
+    "id" : 700,
+    "page number" : 6,
+    "bounding box" : [ 25.657, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 702,
+    "page number" : 6,
+    "bounding box" : [ 2.365, 329.692, 83.158, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 Росл: 80 208 4-28 20 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 705,
+    "page number" : 6,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 706,
+    "page number" : 6,
+    "bounding box" : [ 30.544, 264.035, 59.867, 278.703 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 708,
+    "page number" : 6,
+    "bounding box" : [ 7.331, 244.477, 64.754, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 710,
+    "page number" : 6,
+    "bounding box" : [ 8.552, 238.239, 70.862, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 709,
+    "page number" : 6,
+    "bounding box" : [ 8.541, 233.37, 76.982, 240.915 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 712,
+    "page number" : 6,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 713,
+    "page number" : 6,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 689,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 525.625, 510.698, 563.519 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Las entidades deben establecer, implementar, mantener y mejorar continuamente los procesos relacionados a la atención; y asegurarse que cumplan con satisfacer las necesidades y expectativas de las personas a quienes se les presta los bienes y/o servicios."
+  }, {
+    "type" : "paragraph",
+    "id" : 691,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 471.813, 510.698, 513.463 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Las entidades deben emplear herramientas de asignación de turnos de atención (físicas o digitales); cuya gestión debe ser transparente para los ciudadanos, eliminando todo indicio de arbitrariedad o acto de corrupción (...)."
+  }, {
+    "type" : "paragraph",
+    "id" : 695,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 457.172, 166.16, 469.395 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "paragraph",
+    "id" : 696,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 418.055, 510.698, 443.824 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Las entidades deben establecer estándares de calidad en el proceso de atención, teniendo en cuenta la naturaleza del bien y/o servicio, para mejorar la calidad de la atención.\""
+  }, {
+    "type" : "paragraph",
+    "id" : 699,
+    "page number" : 6,
+    "bounding box" : [ 131.951, 380.161, 510.698, 405.839 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Normas de Control Interno, aprobadas mediante Resolución de Contraloría n.° 320-2006-CG, publicada el 3 de noviembre de 2006."
+  }, {
+    "type" : "paragraph",
+    "id" : 701,
+    "page number" : 6,
+    "bounding box" : [ 147.834, 344.712, 510.698, 370.52 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"4. NORMA GENERAL PARA EL COMPONENTE DE INFORMACIÓN Y COMUNICACIÓN"
+  }, {
+    "type" : "paragraph",
+    "id" : 703,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 281.148, 510.698, 332.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Se entiende por el componente de información y comunicación, los métodos, procesos, canales, medios y acciones que, con enfoque sistémico у regular, aseguren el flujo de información en todas las direcciones con calidad y oportunidad. Esto permite cumplir con las responsabilidades individuales y grupales."
+  }, {
+    "type" : "heading",
+    "id" : 707,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 147.834, 256.565, 426.396, 268.924 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "NORMAS BÁSICAS PARA LA INFORMACIÓN Y COMUNICACIÓN"
+  }, {
+    "type" : "paragraph",
+    "id" : 711,
+    "page number" : 6,
+    "bounding box" : [ 149.055, 232.241, 263.901, 242.032 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.8. Comunicación externa"
+  }, {
+    "type" : "paragraph",
+    "id" : 714,
+    "page number" : 6,
+    "bounding box" : [ 147.788, 164.935, 510.75, 215.248 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La comunicación externa de la entidad debe orientarse a asegurar que el flujo de mensajes e intercambio de información con los clientes, usuarios y ciudadanía en general, se lleve a cabo de manera segura, correcta y oportuna, generando confianza e imagen positivas a la entidad."
+  }, {
+    "type" : "heading",
+    "id" : 715,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 149.055, 143.019, 202.813, 151.576 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Comentarios:"
+  }, {
+    "type" : "paragraph",
+    "id" : 716,
+    "page number" : 6,
+    "bounding box" : [ 146.612, 127.128, 164.938, 138.129 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "paragraph",
+    "id" : 717,
+    "page number" : 6,
+    "bounding box" : [ 147.834, 101.293, 510.698, 127.283 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "02 Las quejas o consultas que se reciben sobre las actividades, productos o servicios de la entidad pueden revelar la existencia de deficiencias de control y problemas operativos."
+  }, {
+    "type" : "paragraph",
+    "id" : 718,
+    "page number" : 6,
+    "bounding box" : [ 84.302, 70.898, 488.706, 88.012 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 Situación presenta durante las últimas semanas previas al proceso electoral https://www.infobae.com/peru/2026/04/08/reniec-ciudadanadenuncia-cobros-de-hasta-s100-para-adelantarse-en-la-cola-y-recoger-dni-en-arequipa/"
+  }, {
+    "type" : "image",
+    "page number" : 7,
+    "bounding box" : [ 0.0, 0.0, 595.0, 841.0 ],
+    "source" : "Arequipa0_images/imageFile2.png"
+  }, {
+    "type" : "header",
+    "id" : 956,
+    "page number" : 7,
+    "bounding box" : [ 134.394, 779.881, 276.119, 805.551 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 964,
+      "page number" : 7,
+      "bounding box" : [ 134.394, 790.882, 276.119, 805.551 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 965,
+      "page number" : 7,
+      "bounding box" : [ 145.39, 779.881, 268.789, 788.437 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 722,
+    "page number" : 7,
+    "bounding box" : [ 146.612, 717.382, 513.142, 745.704 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Estas deficiencias deben ser revisadas y el personal encontrarse preparado para reconocer sus implicancias y adoptar las acciones correctivas que resulten necesarias."
+  }, {
+    "type" : "paragraph",
+    "id" : 723,
+    "page number" : 7,
+    "bounding box" : [ 146.612, 680.73, 511.92, 709.052 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "03 Los mensajes hacia el exterior deben considerar la imagen que la institución debe proyectar con respecto de la lucha contra la corrupción.\""
+  }, {
+    "type" : "heading",
+    "id" : 724,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 118.511, 655.074, 196.704, 668.735 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "c) Consecuencia"
+  }, {
+    "type" : "paragraph",
+    "id" : 725,
+    "page number" : 7,
+    "bounding box" : [ 133.172, 617.304, 510.698, 643.078 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La situación descrita pondría en riesgo la transparencia, el orden de atención y propiciar escenarios de corrupción."
+  }, {
+    "type" : "paragraph",
+    "id" : 726,
+    "page number" : 7,
+    "bounding box" : [ 100.185, 567.109, 511.92, 607.525 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FALTA DE PERSONAL ORIENTADOR AL INGRESO DE LA ENTIDAD, PODRÍA GENERAR DEMORAS EN LA ATENCIÓN Y AUMENTOS DE RECLAMOS DE LOS USUARIOS, ADEMÁS DE AFECTAR LA CALIDAD DEL SERVICIO Y LA IMAGEN INSTITUCIONAL."
+  }, {
+    "type" : "heading",
+    "id" : 727,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 118.414, 543.393, 179.697, 555.53 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "a) Condición"
+  }, {
+    "type" : "paragraph",
+    "id" : 728,
+    "page number" : 7,
+    "bounding box" : [ 133.172, 482.809, 510.698, 530.515 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la visita de control se observó la falta de personal orientador dentro y fuera de la Entidad; asimismo, según el acta de visita de control de 10 de abril de 2026, el jefe de la Oficina Registral de Arequipa informó que no cuenta con personal anfitrion/orientador, conforme se muestra a continuación:"
+  }, {
+    "type" : "paragraph",
+    "id" : 730,
+    "page number" : 7,
+    "bounding box" : [ 29.322, 497.51, 52.536, 503.622 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 731,
+    "page number" : 7,
+    "bounding box" : [ 25.657, 482.842, 54.979, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 732,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 463.15, 59.867, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 733,
+    "page number" : 7,
+    "bounding box" : [ 201.591, 444.824, 442.279, 469.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IMAGEN N° 5 CAPACIDAD OPERATIVA Y ATENCIÓN DE LA OR AREQUIPA"
+  }, {
+    "type" : "paragraph",
+    "id" : 735,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 459.485, 62.31, 462.15 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FLORES CORD-RO Fant"
+  }, {
+    "type" : "paragraph",
+    "id" : 734,
+    "page number" : 7,
+    "bounding box" : [ 2.433, 452.172, 63.543, 458.504 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marivel FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 736,
+    "page number" : 7,
+    "bounding box" : [ 2.444, 444.948, 13.439, 453.504 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 742,
+    "page number" : 7,
+    "bounding box" : [ 127.064, 440.058, 222.361, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TASPECTO I: CAPACIDAD OPERATIVA Y ATENCIÓN"
+  }, {
+    "type" : "paragraph",
+    "id" : 739,
+    "page number" : 7,
+    "bounding box" : [ 4.887, 441.158, 58.645, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 740,
+    "page number" : 7,
+    "bounding box" : [ 4.887, 441.158, 58.645, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 737,
+    "page number" : 7,
+    "bounding box" : [ 4.887, 436.391, 81.858, 442.503 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 16:16:40 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 738,
+    "page number" : 7,
+    "bounding box" : [ 4.887, 436.391, 81.858, 442.503 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 16:16:40 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 743,
+    "page number" : 7,
+    "bounding box" : [ 190.595, 431.501, 208.922, 438.836 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pregunta"
+  }, {
+    "type" : "paragraph",
+    "id" : 744,
+    "page number" : 7,
+    "bounding box" : [ 415.4, 429.057, 465.493, 437.613 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Respuesta y comentarios"
+  }, {
+    "type" : "paragraph",
+    "id" : 746,
+    "page number" : 7,
+    "bounding box" : [ 372.639, 415.61, 388.522, 427.834 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "52"
+  }, {
+    "type" : "paragraph",
+    "id" : 747,
+    "page number" : 7,
+    "bounding box" : [ 386.078, 411.837, 487.485, 426.612 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "en la ficena Pyistral"
+  }, {
+    "type" : "paragraph",
+    "id" : 745,
+    "page number" : 7,
+    "bounding box" : [ 265.123, 416.833, 357.977, 422.945 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Considerar a la capacidad operativa indisóntamente del"
+  }, {
+    "type" : "paragraph",
+    "id" : 748,
+    "page number" : 7,
+    "bounding box" : [ 149.055, 408.172, 249.24, 415.61 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "¿Con cuantas personas como capacidad cuenta la Oficina"
+  }, {
+    "type" : "paragraph",
+    "id" : 749,
+    "page number" : 7,
+    "bounding box" : [ 276.106, 409.305, 345.773, 414.581 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "regimen laboral o modalidad contractual"
+  }, {
+    "type" : "paragraph",
+    "id" : 750,
+    "page number" : 7,
+    "bounding box" : [ 392.187, 400.841, 510.698, 414.502 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Anegúipa- calle Sento Domingo"
+  }, {
+    "type" : "paragraph",
+    "id" : 751,
+    "page number" : 7,
+    "bounding box" : [ 190.595, 400.942, 208.922, 407.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Registral?"
+  }, {
+    "type" : "paragraph",
+    "id" : 753,
+    "page number" : 7,
+    "bounding box" : [ 271.232, 392.385, 353.09, 399.842 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(Adunte relación con los datos de las personas)"
+  }, {
+    "type" : "paragraph",
+    "id" : 752,
+    "page number" : 7,
+    "bounding box" : [ 29.322, 392.385, 52.536, 398.497 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 754,
+    "page number" : 7,
+    "bounding box" : [ 24.435, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 755,
+    "page number" : 7,
+    "bounding box" : [ 226.027, 376.494, 252.906, 383.848 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Registrador (a)"
+  }, {
+    "type" : "paragraph",
+    "id" : 756,
+    "page number" : 7,
+    "bounding box" : [ 228.47, 367.854, 250.462, 375.272 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Anfitrión (a)."
+  }, {
+    "type" : "paragraph",
+    "id" : 759,
+    "page number" : 7,
+    "bounding box" : [ 227.248, 360.524, 252.906, 367.937 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Orientador (a)"
+  }, {
+    "type" : "paragraph",
+    "id" : 757,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 358.158, 59.867, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 758,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 358.158, 59.867, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 765,
+    "page number" : 7,
+    "bounding box" : [ 149.055, 355.714, 216.253, 361.857 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Indique la cantidad según el cargo y/o"
+  }, {
+    "type" : "paragraph",
+    "id" : 763,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 354.491, 73.306, 358.191 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OVIEDO VASQUEZ Pedro Luis"
+  }, {
+    "type" : "paragraph",
+    "id" : 764,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 354.491, 73.306, 358.191 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OVIEDO VASQUEZ Pedro Luis"
+  }, {
+    "type" : "paragraph",
+    "id" : 768,
+    "page number" : 7,
+    "bounding box" : [ 230.914, 352.047, 249.24, 358.158 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Personal"
+  }, {
+    "type" : "paragraph",
+    "id" : 766,
+    "page number" : 7,
+    "bounding box" : [ 131.951, 348.379, 138.06, 355.714 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2"
+  }, {
+    "type" : "paragraph",
+    "id" : 767,
+    "page number" : 7,
+    "bounding box" : [ 147.834, 348.379, 217.474, 354.526 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "funciones asignadas a las personas que"
+  }, {
+    "type" : "paragraph",
+    "id" : 770,
+    "page number" : 7,
+    "bounding box" : [ 290.78, 348.379, 333.542, 354.526 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Considerar a la cantidad"
+  }, {
+    "type" : "paragraph",
+    "id" : 761,
+    "page number" : 7,
+    "bounding box" : [ 2.444, 347.157, 70.862, 353.269 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fernando FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 762,
+    "page number" : 7,
+    "bounding box" : [ 2.444, 347.157, 70.862, 353.269 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fernando FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 769,
+    "page number" : 7,
+    "bounding box" : [ 227.248, 343.49, 252.906, 350.824 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Administrativo"
+  }, {
+    "type" : "paragraph",
+    "id" : 760,
+    "page number" : 7,
+    "bounding box" : [ 2.444, 339.823, 13.439, 348.379 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 771,
+    "page number" : 7,
+    "bounding box" : [ 2.444, 339.823, 13.439, 348.379 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 774,
+    "page number" : 7,
+    "bounding box" : [ 156.386, 339.823, 210.144, 347.196 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "laboran en la Oficina Registral"
+  }, {
+    "type" : "paragraph",
+    "id" : 775,
+    "page number" : 7,
+    "bounding box" : [ 227.248, 334.867, 252.906, 342.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Supervisor (a)"
+  }, {
+    "type" : "paragraph",
+    "id" : 772,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 336.156, 58.645, 342.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 773,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 336.156, 58.645, 342.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 776,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 332.488, 81.858, 334.933 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FeCha: 16-04-2026177820-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 777,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 332.488, 81.858, 334.933 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FeCha: 16-04-2026177820-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 778,
+    "page number" : 7,
+    "bounding box" : [ 124.62, 303.151, 392.187, 312.93 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Imagen n.° 5: Se observa que la OR Arequipa no cuenta con personal anfitrión/ orientador."
+  }, {
+    "type" : "paragraph",
+    "id" : 779,
+    "page number" : 7,
+    "bounding box" : [ 119.733, 293.217, 284.671, 301.929 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: Acta de visita de control de 10 de abril de 2026."
+  }, {
+    "type" : "paragraph",
+    "id" : 781,
+    "page number" : 7,
+    "bounding box" : [ 117.29, 282.221, 228.47, 293.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Elaborado por: Comisión de Control"
+  }, {
+    "type" : "paragraph",
+    "id" : 782,
+    "page number" : 7,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 783,
+    "page number" : 7,
+    "bounding box" : [ 30.544, 264.035, 59.867, 278.703 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 784,
+    "page number" : 7,
+    "bounding box" : [ 131.951, 232.241, 510.698, 270.226 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Como se observa en la imagen precedente, la Oficina Registral de Arequipa cuenta con un total de 52 colaboradores, 40 registradores, 9 administrativos, 2 supervisores y un jefe regional, y ningún orientador/anfitrión."
+  }, {
+    "type" : "paragraph",
+    "id" : 786,
+    "page number" : 7,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo. Dov Visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 785,
+    "page number" : 7,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 787,
+    "page number" : 7,
+    "bounding box" : [ 133.138, 180.913, 510.698, 220.029 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sobre el particular, durante la Visita de Control se observó que al ingreso de la Entidad el vigilante o los vigilantes son quienes de forma permanente orientan al público asistente sobre el lugar de atención para trámite de DNI y recojo de DNI, conforme se muestra a continuación:"
+  }, {
+    "type" : "header",
+    "id" : 957,
+    "page number" : 8,
+    "bounding box" : [ 133.172, 789.66, 277.341, 807.996 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 966,
+      "page number" : 8,
+      "bounding box" : [ 133.172, 789.66, 277.341, 807.996 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 790,
+    "page number" : 8,
+    "bounding box" : [ 147.834, 781.024, 268.788, 788.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 791,
+    "page number" : 8,
+    "bounding box" : [ 467.825, 757.279, 510.81, 767.033 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 6 de 9"
+  }, {
+    "type" : "heading",
+    "id" : 792,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 135.616, 686.98, 508.255, 721.206 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VISTA FOTOGRÁFICA Nº 1 PERSONAL DE VIGILANCIA BRINDANDO ORIENTACIÓN DE CONSULTAS Y RECLAMOS EN LA OR AREQUIPA"
+  }, {
+    "type" : "paragraph",
+    "id" : 795,
+    "page number" : 8,
+    "bounding box" : [ 28.101, 496.288, 53.758, 508.512 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "COMPROBA"
+  }, {
+    "type" : "paragraph",
+    "id" : 797,
+    "page number" : 8,
+    "bounding box" : [ 25.657, 482.842, 54.979, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 799,
+    "page number" : 8,
+    "bounding box" : [ 2.444, 436.391, 83.08, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por FLORES CORD-RO Fant Marivel FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 16-04-2026 16:16:40-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 804,
+    "page number" : 8,
+    "bounding box" : [ 28.101, 392.385, 52.536, 403.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRAORA"
+  }, {
+    "type" : "paragraph",
+    "id" : 805,
+    "page number" : 8,
+    "bounding box" : [ 24.435, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 806,
+    "page number" : 8,
+    "bounding box" : [ 3.665, 358.158, 59.867, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 808,
+    "page number" : 8,
+    "bounding box" : [ 3.665, 354.491, 73.306, 356.936 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OVIeDO VASQUeL Peoro Lus"
+  }, {
+    "type" : "paragraph",
+    "id" : 807,
+    "page number" : 8,
+    "bounding box" : [ 2.444, 347.157, 70.862, 353.269 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fernando FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 809,
+    "page number" : 8,
+    "bounding box" : [ 1.222, 339.823, 13.439, 348.379 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 810,
+    "page number" : 8,
+    "bounding box" : [ 3.665, 332.488, 81.858, 342.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno Fecha: 16-04-2026 17:28:20 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 796,
+    "page number" : 8,
+    "bounding box" : [ 166.16, 495.065, 476.489, 512.179 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vista fotográfica n.° 1: Vigilantes brindando orientación y atención de reclamos en el interior y exterior de la OR Arequipa."
+  }, {
+    "type" : "paragraph",
+    "id" : 798,
+    "page number" : 8,
+    "bounding box" : [ 162.495, 485.141, 271.232, 493.843 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Elaborado por: Comisión de Control"
+  }, {
+    "type" : "paragraph",
+    "id" : 800,
+    "page number" : 8,
+    "bounding box" : [ 134.394, 447.392, 510.698, 470.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "No obstante, y pese a las largas colas registradas en los exteriores no se observó a personal de la Entidad de forma permanente que efectué la labor de orientación."
+  }, {
+    "type" : "heading",
+    "id" : 801,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 202.813, 411.837, 441.057, 435.169 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VISTA FOTOGRÁFICA N° 2 COLAS DE ESPERA PARA ATENCION EN LA OR AREQUIPA"
+  }, {
+    "type" : "paragraph",
+    "id" : 813,
+    "page number" : 8,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 812,
+    "page number" : 8,
+    "bounding box" : [ 29.322, 264.035, 63.532, 279.926 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 815,
+    "page number" : 8,
+    "bounding box" : [ 8.552, 244.477, 64.754, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 814,
+    "page number" : 8,
+    "bounding box" : [ 8.552, 238.239, 70.862, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 817,
+    "page number" : 8,
+    "bounding box" : [ 8.534, 233.299, 76.99, 240.986 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 818,
+    "page number" : 8,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 819,
+    "page number" : 8,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 816,
+    "page number" : 8,
+    "bounding box" : [ 180.821, 229.808, 460.606, 248.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vista fotográfica n.° 2: Exteriores de Oficina Registral de Arequipa registrada el 10 de abril de 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 820,
+    "page number" : 8,
+    "bounding box" : [ 177.156, 221.246, 285.893, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Elaborado por: Comisión de Control"
+  }, {
+    "type" : "heading",
+    "id" : 821,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 118.511, 195.581, 171.047, 206.585 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "b) Criterio:"
+  }, {
+    "type" : "paragraph",
+    "id" : 822,
+    "page number" : 8,
+    "bounding box" : [ 131.951, 144.241, 510.698, 182.261 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Directiva n.° 003-2024-PCM/SGP \"Directiva para mejorar la Atención al Ciudadano en las entidades de la Administración Pública\" \", aprobada por Resolución de Secretaría de Gestión Pública n.° 007-2024-PCM/SGP de 16 de diciembre de 2024."
+  }, {
+    "type" : "paragraph",
+    "id" : 823,
+    "page number" : 8,
+    "bounding box" : [ 147.834, 117.287, 294.446, 129.615 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"V. DISPOSICIONES GENERALES"
+  }, {
+    "type" : "paragraph",
+    "id" : 824,
+    "page number" : 8,
+    "bounding box" : [ 147.834, 102.68, 166.16, 114.904 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "paragraph",
+    "id" : 825,
+    "page number" : 8,
+    "bounding box" : [ 147.834, 89.234, 237.023, 100.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.2 Consideraciones"
+  }, {
+    "type" : "header",
+    "id" : 958,
+    "page number" : 9,
+    "bounding box" : [ 134.394, 779.881, 276.119, 805.551 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 967,
+      "page number" : 9,
+      "bounding box" : [ 134.394, 790.882, 276.119, 805.551 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 968,
+      "page number" : 9,
+      "bounding box" : [ 145.39, 779.881, 268.789, 788.437 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 836,
+    "page number" : 9,
+    "bounding box" : [ 26.879, 496.288, 53.758, 506.067 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIAONA"
+  }, {
+    "type" : "paragraph",
+    "id" : 837,
+    "page number" : 9,
+    "bounding box" : [ 25.657, 482.842, 56.201, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 838,
+    "page number" : 9,
+    "bounding box" : [ 12.218, 463.15, 50.092, 468.173 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "nado digitalmente"
+  }, {
+    "type" : "paragraph",
+    "id" : 839,
+    "page number" : 9,
+    "bounding box" : [ 12.218, 458.394, 53.758, 464.506 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "RES CORDERO i"
+  }, {
+    "type" : "paragraph",
+    "id" : 841,
+    "page number" : 9,
+    "bounding box" : [ 2.434, 452.187, 64.763, 458.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marivel FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 846,
+    "page number" : 9,
+    "bounding box" : [ 29.322, 392.385, 53.758, 400.942 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALOREA"
+  }, {
+    "type" : "paragraph",
+    "id" : 847,
+    "page number" : 9,
+    "bounding box" : [ 25.657, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 848,
+    "page number" : 9,
+    "bounding box" : [ 1.222, 330.044, 83.08, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 Poe: 8 420847-2 20-0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 853,
+    "page number" : 9,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 852,
+    "page number" : 9,
+    "bounding box" : [ 30.544, 264.035, 63.532, 279.926 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 855,
+    "page number" : 9,
+    "bounding box" : [ 15.883, 244.477, 58.645, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "nado digitalmente p"
+  }, {
+    "type" : "paragraph",
+    "id" : 857,
+    "page number" : 9,
+    "bounding box" : [ 15.883, 239.572, 63.532, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "AVEZ CHAVEZ Maris"
+  }, {
+    "type" : "paragraph",
+    "id" : 856,
+    "page number" : 9,
+    "bounding box" : [ 7.309, 232.077, 76.992, 240.985 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 858,
+    "page number" : 9,
+    "bounding box" : [ 8.552, 229.808, 62.31, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kiend"
+  }, {
+    "type" : "paragraph",
+    "id" : 859,
+    "page number" : 9,
+    "bounding box" : [ 8.552, 222.474, 87.967, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 829,
+    "page number" : 9,
+    "bounding box" : [ 160.051, 717.218, 510.698, 743.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Para la atención de calidad al ciudadano, las entidades públicas tienen en cuenta lo siguiente:"
+  }, {
+    "type" : "paragraph",
+    "id" : 830,
+    "page number" : 9,
+    "bounding box" : [ 160.051, 706.538, 178.378, 718.762 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "list",
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 161.273, 542.738, 511.92, 693.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 161.273, 617.844, 511.92, 693.092 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.2.3 Las entidades deben establecer, implementar, mantener y mejorar continuamente los procesos relacionados a la atención: Orientación, pagos vinculados a los bienes y/o servicios, recepción documental, ejecución de la atención, culminación de la atención, gestión de reclamos, sugerencias u otras peticiones; y asegurarse que cumplan con satisfacer las necesidades y expectativas de las personas a quienes se les presta los bienes y/o servicios.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 162.495, 542.738, 509.476, 605.094 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.2.4 La entidad debe mejorar continuamente las competencias y habilidades de sus servidores civiles vinculados a la atención, la calidad de la información que se brinda, los canales de atención; así como capacitar en la aplicación del Protocol Mínimo de Atención al Ciudadano de manera constante, para incrementar la satisfacción de la atención al ciudadano.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 833,
+    "page number" : 9,
+    "bounding box" : [ 161.273, 529.292, 179.6, 542.738 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "paragraph",
+    "id" : 834,
+    "page number" : 9,
+    "bounding box" : [ 161.273, 479.143, 511.92, 518.291 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.2.6 Las entidades deben establecer, implementar, medir y mejorar continuamente los indicadores de desempeño vinculados con la atención, así como su respectivo análisis para la toma de decisiones.\""
+  }, {
+    "type" : "heading",
+    "id" : 840,
+    "level" : "Doctitle",
+    "page number" : 9,
+    "bounding box" : [ 147.834, 452.154, 361.643, 466.951 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"VI. DISPOSICIONES GENERALES ESPECÍFICAS"
+  }, {
+    "type" : "paragraph",
+    "id" : 842,
+    "page number" : 9,
+    "bounding box" : [ 146.612, 436.391, 166.16, 451.06 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...)"
+  }, {
+    "type" : "heading",
+    "id" : 843,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 147.834, 422.832, 393.409, 436.494 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6.3 Procesos vinculados a la atención de los ciudadanos"
+  }, {
+    "type" : "paragraph",
+    "id" : 844,
+    "page number" : 9,
+    "bounding box" : [ 146.612, 371.605, 511.92, 422.945 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Las entidades deben establecer, implementar, mantener y mejorar continuamente los procesos relacionados a la atención; y asegurarse que cumplan con satisfacer las necesidades y expectativas de las personas a quienes se les presta los bienes y/o servicios.\""
+  }, {
+    "type" : "heading",
+    "id" : 849,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 147.834, 345.863, 222.361, 356.936 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6.3.1 Orientación"
+  }, {
+    "type" : "paragraph",
+    "id" : 850,
+    "page number" : 9,
+    "bounding box" : [ 166.16, 281.148, 511.92, 332.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Proceso por la cual la entidad brinda información a los ciudadanos sobre los bienes y/o servicios. Dicha información puede estar asociada a requisitos de los trámites o a la absolución de alguna consulta técnica en alguna materia en el marco de las funciones de la entidad."
+  }, {
+    "type" : "paragraph",
+    "id" : 854,
+    "page number" : 9,
+    "bounding box" : [ 167.382, 205.36, 511.92, 267.702 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Dicho proceso puede realizarse por cualquier canal de atención, como, por ejemplo, en el canal presencial a través de módulos de información o folleteria; o en el canal digital a través del portal o sitio web o mediante correos electrónicos; o en el canal telefónico al momento de absolver las consultas formuladas. (...)\"."
+  }, {
+    "type" : "heading",
+    "id" : 860,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 118.511, 177.246, 196.704, 190.692 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "c) Consecuencia"
+  }, {
+    "type" : "paragraph",
+    "id" : 861,
+    "page number" : 9,
+    "bounding box" : [ 131.951, 139.278, 510.698, 165.022 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La situación descrita generaría demoras en la atención y aumentos de reclamos de los usuarios además de afectar la calidad del servicio y la imagen institucional."
+  }, {
+    "type" : "header",
+    "id" : 959,
+    "page number" : 10,
+    "bounding box" : [ 135.616, 778.658, 277.341, 807.996 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 969,
+      "page number" : 10,
+      "bounding box" : [ 135.616, 788.438, 277.341, 807.996 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 970,
+      "page number" : 10,
+      "bounding box" : [ 144.168, 778.658, 270.01, 789.687 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 865,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 84.302, 732.043, 318.881, 744.432 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VI. DOCUMENTACIÓN VINCULADA A LA ACTIVIDAD"
+  }, {
+    "type" : "paragraph",
+    "id" : 866,
+    "page number" : 10,
+    "bounding box" : [ 103.85, 682.063, 511.92, 721.206 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La información y documentación que la Comisión de Control ha revisado y analizado durante el desarrollo de la Visita de Control a la atención al ciudadano en la entrega de DNI que brinda la Oficina Registral de Arequipa, se encuentra detallada en el Apéndice n.° 1."
+  }, {
+    "type" : "heading",
+    "id" : 867,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 84.302, 656.406, 437.392, 669.866 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS"
+  }, {
+    "type" : "paragraph",
+    "id" : 868,
+    "page number" : 10,
+    "bounding box" : [ 105.072, 617.304, 510.698, 644.196 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la ejecución de la presente Visita de Control, la Comisión de Control no ha emitido Reporte de Avance ante Situaciones Adversas."
+  }, {
+    "type" : "heading",
+    "id" : 869,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 83.08, 592.765, 167.382, 605.094 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VIII. CONCLUSION"
+  }, {
+    "type" : "paragraph",
+    "id" : 870,
+    "page number" : 10,
+    "bounding box" : [ 103.85, 541.452, 513.142, 581.855 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la ejecución de la Visita de Control a la atención al ciudadano en la entrega de DNI que brinda la Oficina Registral de Arequipa, se han advertido dos (2) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del servicio de Identificación."
+  }, {
+    "type" : "heading",
+    "id" : 871,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 84.302, 518.128, 200.37, 529.457 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IX. RECOMENDACIONES"
+  }, {
+    "type" : "paragraph",
+    "id" : 872,
+    "page number" : 10,
+    "bounding box" : [ 101.407, 429.057, 510.698, 504.844 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Hacer de conocimiento al Titular de la Entidad el presente Informe de Visita de Control, el cual contiene dos (2) situaciones adversas identificadas como resultado de la Visita de Control a la atención al ciudadano en la entrega de DNI que brinda la Oficina Registral de Arequipa, con la finalidad que se adopten las acciones preventivas y correctivas que correspondan, en el marco de sus competencias y obligaciones en la gestión institucional, con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos del servicio de Identificación."
+  }, {
+    "type" : "paragraph",
+    "id" : 873,
+    "page number" : 10,
+    "bounding box" : [ 100.185, 353.193, 510.698, 418.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Hacer de conocimiento al Titular de la Entidad que debe comunicar al Órgano de Control Institucional del Registro Nacional de Identificación y Estado Civil, en el plazo máximo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a las situaciones adversas contenidas en el presente Informe de Visita de Control, adjuntando la documentación de sustento respectiva."
+  }, {
+    "type" : "paragraph",
+    "id" : 874,
+    "page number" : 10,
+    "bounding box" : [ 387.3, 326.376, 511.92, 338.6 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Arequipa, 16 de abril de 2026."
+  }, {
+    "type" : "paragraph",
+    "id" : 876,
+    "page number" : 10,
+    "bounding box" : [ 189.374, 265.228, 271.232, 293.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "irmado digitalmente por OVIEDO ASQUe Negro Luis remando rAl 20131378972 soft Fecha: 160-04-2026192 854-050"
+  }, {
+    "type" : "paragraph",
+    "id" : 879,
+    "page number" : 10,
+    "bounding box" : [ 135.616, 267.561, 191.817, 273.891 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA -"
+  }, {
+    "type" : "paragraph",
+    "id" : 882,
+    "page number" : 10,
+    "bounding box" : [ 135.616, 225.82, 267.567, 251.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pedro Luis F. Oviedo Vásquez Supervisor"
+  }, {
+    "type" : "paragraph",
+    "id" : 878,
+    "page number" : 10,
+    "bounding box" : [ 405.626, 278.556, 428.84, 284.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ORDERO I"
+  }, {
+    "type" : "paragraph",
+    "id" : 881,
+    "page number" : 10,
+    "bounding box" : [ 399.517, 272.559, 442.279, 278.703 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 880,
+    "page number" : 10,
+    "bounding box" : [ 342.094, 256.565, 481.376, 273.891 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA Moda: 0y 2a2 tel cuento"
+  }, {
+    "type" : "paragraph",
+    "id" : 883,
+    "page number" : 10,
+    "bounding box" : [ 354.312, 227.243, 478.932, 251.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fany Marivel Flores Cordero Jefa de Comisión"
+  }, {
+    "type" : "paragraph",
+    "id" : 885,
+    "page number" : 10,
+    "bounding box" : [ 246.797, 180.913, 370.195, 209.028 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "irmado digitalmente por CHAVE HAVEZ Marissa Alicia FAI 20131378972 hard olivo. dov el autor der cocume ONTRALORIA Fecha: 16-04-2026 17:33:19-05"
+  }, {
+    "type" : "paragraph",
+    "id" : 886,
+    "page number" : 10,
+    "bounding box" : [ 229.692, 120.952, 384.856, 161.355 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marissa Alicia Chávez Chávez Gerente Regional de Control Arequipa Contraloría General de la República Página 8 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 888,
+    "page number" : 11,
+    "bounding box" : [ 134.394, 789.66, 276.119, 805.551 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORIA"
+  }, {
+    "type" : "paragraph",
+    "id" : 889,
+    "page number" : 11,
+    "bounding box" : [ 145.39, 779.881, 268.789, 789.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 891,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 268.704, 731.781, 340.957, 747.304 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "APÉNDICE n.º 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 890,
+    "page number" : 11,
+    "bounding box" : [ 467.936, 755.367, 511.92, 767.696 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 9 de 9"
+  }, {
+    "type" : "heading",
+    "id" : 892,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 107.515, 706.387, 500.924, 721.206 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "DOCUMENTACIÓN VINCULADA A LA ATENCIÓN AL CIUDADANO EN LA ENTREGA DE DNI"
+  }, {
+    "type" : "paragraph",
+    "id" : 893,
+    "page number" : 11,
+    "bounding box" : [ 101.407, 642.974, 511.92, 695.536 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LA ENTIDAD, PARA LA ATENCIÓN DE CIUDADANOS QUE SE ENCONTRABAN EN LOS EXTERIORES EMPLEÓ LA ENTREGA DE DECLARACIONES JURADAS SIN EL CONTROL DE CALIDAD RESPECTIVO, LO QUE PONDRÍA EN RIESGO LA TRANSPARENCIA, EL ORDEN DE ATENCIÓN Y PROPICIAR ESCENARIOS DE CORRUPCIÓN."
+  }, {
+    "type" : "table",
+    "id" : 894,
+    "level" : "6",
+    "page number" : 11,
+    "bounding box" : [ 105.302, 568.473, 510.525, 620.552 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.302, 594.512, 307.913, 620.552 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 437,
+          "page number" : 11,
+          "bounding box" : [ 105.302, 594.512, 307.913, 620.552 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 307.913, 594.512, 510.525, 620.552 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 438,
+          "page number" : 11,
+          "bounding box" : [ 307.913, 594.512, 510.525, 620.552 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Documento"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.302, 568.473, 307.913, 594.512 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 439,
+          "page number" : 11,
+          "bounding box" : [ 105.302, 568.473, 307.913, 594.512 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 307.913, 568.473, 510.525, 594.512 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 440,
+          "page number" : 11,
+          "bounding box" : [ 307.913, 568.473, 510.525, 594.512 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Declaración jurada para la entrega."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 897,
+    "page number" : 11,
+    "bounding box" : [ 28.101, 496.288, 53.758, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONIAAOREN"
+  }, {
+    "type" : "paragraph",
+    "id" : 898,
+    "page number" : 11,
+    "bounding box" : [ 25.657, 481.476, 56.201, 497.51 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 900,
+    "page number" : 11,
+    "bounding box" : [ 1.222, 433.828, 85.524, 454.82 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Po: 0 20 010 0 0"
+  }, {
+    "type" : "paragraph",
+    "id" : 895,
+    "page number" : 11,
+    "bounding box" : [ 100.185, 506.067, 510.698, 546.45 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FALTA DE PERSONAL ORIENTADOR AL INGRESO DE LA ENTIDAD, PODRÍA GENERAR DEMORAS EN LA ATENCIÓN Y AUMENTOS DE RECLAMOS DE LOS USUARIOS, ADEMÁS DE AFECTAR LA CALIDAD DEL SERVICIO Y LA IMAGEN INSTITUCIONAL."
+  }, {
+    "type" : "table",
+    "id" : 899,
+    "level" : "7",
+    "page number" : 11,
+    "bounding box" : [ 105.465, 449.745, 510.416, 494.45 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.465, 472.097, 307.94, 494.45 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 442,
+          "page number" : 11,
+          "bounding box" : [ 105.465, 472.097, 307.94, 494.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 307.94, 472.097, 510.416, 494.45 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 443,
+          "page number" : 11,
+          "bounding box" : [ 307.94, 472.097, 510.416, 494.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Documento"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.465, 449.745, 307.94, 472.097 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 444,
+          "page number" : 11,
+          "bounding box" : [ 105.465, 449.745, 307.94, 472.097 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 307.94, 449.745, 510.416, 472.097 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 445,
+          "page number" : 11,
+          "bounding box" : [ 307.94, 449.745, 510.416, 472.097 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Acta de visita de control de 10 de abril de 2026"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 902,
+    "page number" : 11,
+    "bounding box" : [ 24.435, 377.717, 54.979, 392.511 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 903,
+    "page number" : 11,
+    "bounding box" : [ 2.444, 347.157, 74.566, 364.27 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 906,
+    "page number" : 11,
+    "bounding box" : [ 32.988, 278.703, 58.645, 284.815 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 905,
+    "page number" : 11,
+    "bounding box" : [ 30.544, 264.035, 64.754, 281.148 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®)"
+  }, {
+    "type" : "paragraph",
+    "id" : 907,
+    "page number" : 11,
+    "bounding box" : [ 8.552, 229.808, 63.532, 232.253 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 908,
+    "page number" : 11,
+    "bounding box" : [ 8.552, 222.474, 89.189, 228.586 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 16-04-2026 17:32:34 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 913,
+    "page number" : 12,
+    "bounding box" : [ 111.918, 779.535, 184.907, 786.843 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "39L47020260000801"
+  }, {
+    "type" : "paragraph",
+    "id" : 915,
+    "page number" : 12,
+    "bounding box" : [ 251.782, 769.59, 341.867, 784.608 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 916,
+    "page number" : 12,
+    "bounding box" : [ 257.897, 763.667, 338.186, 771.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 914,
+    "page number" : 12,
+    "bounding box" : [ 371.031, 780.753, 425.773, 790.497 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 919,
+    "page number" : 12,
+    "bounding box" : [ 182.474, 732.0, 413.608, 749.084 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Decenio de la Igualdad de Oportunidades para Mujeres y Hombres Año de la Esperanza y el Fortalecimiento de la Democracia\""
+  }, {
+    "type" : "paragraph",
+    "id" : 912,
+    "page number" : 12,
+    "bounding box" : [ 435.505, 775.881, 512.144, 804.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 soft Motivo: Soy el autor del document Fecha: 16-04-2026 18:05:45 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 918,
+    "page number" : 12,
+    "bounding box" : [ 443.832, 725.311, 552.477, 759.459 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CARGO"
+  }, {
+    "type" : "heading",
+    "id" : 920,
+    "level" : "Doctitle",
+    "page number" : 12,
+    "bounding box" : [ 92.454, 704.0, 245.732, 717.416 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Arequipa, 16 de Abril de 2026"
+  }, {
+    "type" : "heading",
+    "id" : 923,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 93.67, 690.619, 323.588, 704.017 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OFICIO N° 000801-2026-CG/GRAR"
+  }, {
+    "type" : "paragraph",
+    "id" : 929,
+    "page number" : 12,
+    "bounding box" : [ 96.103, 666.259, 124.082, 673.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Señor"
+  }, {
+    "type" : "paragraph",
+    "id" : 931,
+    "page number" : 12,
+    "bounding box" : [ 95.986, 607.326, 361.299, 663.823 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Angel María Manrique Linares Jefe Regional Oficina Regional 8 - Arequipa Registro Nacional de Identificación y Estado Civil - Reniec Calle Santo Domingo N.° 101 y 103"
+  }, {
+    "type" : "heading",
+    "id" : 936,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 96.103, 596.831, 226.268, 607.794 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Arequipa/Arequipa/Arequipa"
+  }, {
+    "type" : "paragraph",
+    "id" : 922,
+    "page number" : 12,
+    "bounding box" : [ 436.29, 694.682, 555.078, 709.83 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ", OFICINA REGIONAL 0% AREQUIPA"
+  }, {
+    "type" : "paragraph",
+    "id" : 924,
+    "page number" : 12,
+    "bounding box" : [ 377.866, 681.245, 429.292, 703.871 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "BENEGL"
+  }, {
+    "type" : "paragraph",
+    "id" : 925,
+    "page number" : 12,
+    "bounding box" : [ 459.517, 686.781, 544.215, 700.953 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "URDA: OR-08 AREQUIPA"
+  }, {
+    "type" : "paragraph",
+    "id" : 927,
+    "page number" : 12,
+    "bounding box" : [ 542.557, 684.529, 555.938, 690.619 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ADU"
+  }, {
+    "type" : "paragraph",
+    "id" : 926,
+    "page number" : 12,
+    "bounding box" : [ 378.131, 676.673, 530.605, 689.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CALLE SANTO DOMINGO 1OTY CALLE SAN JUAN DE DIOS 122 - AREOL"
+  }, {
+    "type" : "paragraph",
+    "id" : 928,
+    "page number" : 12,
+    "bounding box" : [ 434.957, 665.595, 539.437, 685.53 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CIBIDO"
+  }, {
+    "type" : "paragraph",
+    "id" : 930,
+    "page number" : 12,
+    "bounding box" : [ 392.928, 667.477, 436.722, 678.439 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "RE"
+  }, {
+    "type" : "paragraph",
+    "id" : 932,
+    "page number" : 12,
+    "bounding box" : [ 432.913, 642.432, 503.788, 660.853 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "17 ABR 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 933,
+    "page number" : 12,
+    "bounding box" : [ 388.999, 623.171, 554.934, 638.943 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LA RECEPCION DE: ESTE DOCUMENTO NO"
+  }, {
+    "type" : "paragraph",
+    "id" : 934,
+    "page number" : 12,
+    "bounding box" : [ 388.908, 612.434, 551.381, 629.464 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "SIGNIFICA LA CONFORMIDAD DEL MISMO"
+  }, {
+    "type" : "paragraph",
+    "id" : 935,
+    "page number" : 12,
+    "bounding box" : [ 508.495, 595.613, 559.588, 618.756 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Chajas"
+  }, {
+    "type" : "paragraph",
+    "id" : 937,
+    "page number" : 12,
+    "bounding box" : [ 412.371, 596.72, 497.567, 612.777 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1S: 01 FIRMA Q"
+  }, {
+    "type" : "paragraph",
+    "id" : 938,
+    "page number" : 12,
+    "bounding box" : [ 380.676, 594.21, 403.963, 605.543 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HORA"
+  }, {
+    "type" : "paragraph",
+    "id" : 939,
+    "page number" : 12,
+    "bounding box" : [ 97.32, 566.381, 136.247, 573.689 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Asunto"
+  }, {
+    "type" : "paragraph",
+    "id" : 940,
+    "page number" : 12,
+    "bounding box" : [ 148.412, 565.0, 484.165, 576.125 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ": Notificación de Informe de Visita de Control n.° 5727-2026-CG/GRAR-SVC."
+  }, {
+    "type" : "paragraph",
+    "id" : 941,
+    "page number" : 12,
+    "bounding box" : [ 94.887, 529.84, 499.979, 554.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Referencia : a) Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias"
+  }, {
+    "type" : "paragraph",
+    "id" : 942,
+    "page number" : 12,
+    "bounding box" : [ 164.227, 494.517, 501.196, 528.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Directiva n.° 013-2022-CG/NORM, que regula el \"Servicio de Control Simultáneo\" aprobado con Resolución de Contraloría n.° 2018-2022-CG de 31 de mayo de 2022."
+  }, {
+    "type" : "paragraph",
+    "id" : 943,
+    "page number" : 12,
+    "bounding box" : [ 96.103, 406.667, 501.196, 471.375 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Me dirijo a usted en el marco de la normativa de la referencia, que regula el Servicio de Control Simultáneo y establece la comunicación al Titular de la entidad responsable de la dependencia, y de ser el caso a las instancias competentes, respecto de la existencia de situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso en curso, a fin de que se adopten oportunamente las acciones preventivas y correctivas que correspondan."
+  }, {
+    "type" : "paragraph",
+    "id" : 944,
+    "page number" : 12,
+    "bounding box" : [ 96.103, 339.667, 501.196, 394.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sobre el particular, de la revisión de la información y documentación vinculada al \"Servicio de Identificación que brinda la Oficina Registral de Arequipa - Atención al ciudadano en la entrega de DNI\", comunicamos que se han identificado dos (2) situaciones adversas contenidas en el Informe de Visita de Control N° 5727-2026-CG/GRAR-SVC, que se adjunta al presente documento"
+  }, {
+    "type" : "paragraph",
+    "id" : 945,
+    "page number" : 12,
+    "bounding box" : [ 96.103, 274.0, 501.196, 330.084 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "En tal sentido, solicitamos comunicar al Órgano de Control Institucional del Registro Nacional de Identificación y Estado Civil, en el plazo máximo de cinco (5) días hábiles desde la comunicación del presente Informe, las acciones preventivas o correctivas adoptadas y por adoptar respecto a las situaciones adversas identificadas en el citado Informe, adjuntando la documentación de sustento respectiva."
+  }, {
+    "type" : "paragraph",
+    "id" : 946,
+    "page number" : 12,
+    "bounding box" : [ 97.32, 241.169, 501.196, 263.093 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Es propicia la oportunidad para expresarle las seguridades de mi consideración."
+  }, {
+    "type" : "paragraph",
+    "id" : 947,
+    "page number" : 12,
+    "bounding box" : [ 361.223, 217.552, 419.766, 228.245 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Atentamente,"
+  }, {
+    "type" : "paragraph",
+    "id" : 948,
+    "page number" : 12,
+    "bounding box" : [ 299.258, 120.584, 491.464, 173.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Documento firmado digitalmente Marissa Alicia Chávez Chávez Gerente Regional de Control Il Gerencia Regional de Control de Arequipa(e) Contraloría General de la República"
+  }, {
+    "type" : "paragraph",
+    "id" : 949,
+    "page number" : 12,
+    "bounding box" : [ 96.04, 98.358, 141.177, 108.706 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(MCC/pov)"
+  }, {
+    "type" : "paragraph",
+    "id" : 950,
+    "page number" : 12,
+    "bounding box" : [ 97.32, 79.172, 315.072, 89.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Nro. Emisión: 05458 (L470 - 2026) Elab:(U16897 - L470)"
+  } ]
+}

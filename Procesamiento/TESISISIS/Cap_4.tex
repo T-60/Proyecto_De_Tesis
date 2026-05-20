@@ -1,0 +1,712 @@
+\chapter{Propuesta} % aqui hay que nombrar al sistema :P
+\label{cap:propuesta}
+
+\section{Consideraciones Iniciales}
+
+Este capítulo detalla el diseño y la implementación de nuestro 
+sistema para ayudar a los analistas a explorar procesos complejos 
+documentados en texto. Nuestro sistema busca resolver tres retos 
+principales. Primero, la dificultad de reconstruir la narrativa 
+de un caso a partir de documentos fragmentados. Segundo, la 
+validación de los datos extraídos. Tercero, la integración de 
+las dimensiones temporal, espacial y narrativa en una sola 
+interfaz. Para ello, definimos primero los objetivos de diseño 
+y las tareas analíticas que guían la propuesta. Luego, explicamos 
+la implementación del sistema dividida en tres etapas clave, 
+extracción, agregación y exploración interactiva.
+
+A lo largo del capítulo usamos tres conceptos centrales. Un 
+\textbf{caso} es la unidad de análisis del sistema, una 
+organización, proyecto u obra sobre la que se dispone de 
+múltiples documentos. Un \textbf{informe} es cada uno de esos 
+documentos, que registra el estado del caso en un punto 
+particular de su evolución. Una \textbf{variable} es cualquier 
+atributo del caso que el sistema extrae y rastrea a lo largo 
+de los informes, como el presupuesto ejecutado, los hallazgos 
+identificados o el tipo de acción registrada.
+
+\section{Objetivos y Tareas}
+
+A partir de la revisión de la literatura y del análisis de los 
+problemas identificados previamente, se definieron los siguientes 
+objetivos de diseño y tareas analíticas que guían el desarrollo 
+del sistema.
+
+\subsection{Objetivos de Diseño}
+
+\textbf{OD1. Analizar la evolución, ubicación y variables de 
+los casos.} El análisis requiere examinar cómo cambian los casos 
+a lo largo del tiempo, identificando sus ubicaciones geográficas 
+en distintos niveles y comparando sus variables clave a partir 
+de la información extraída de múltiples informes.
+
+\textbf{OD2. Identificar similitudes y agrupaciones entre casos.}
+El análisis requiere examinar el conjunto de casos para detectar 
+cuáles comparten características comunes, e identificar qué tan 
+atípico o recurrente es un caso dentro del conjunto.
+
+\textbf{OD3. Verificar el origen de cada dato extraído.}
+La confiabilidad del análisis requiere examinar que cada dato 
+extraído proviene del documento original, permitiendo identificar 
+posibles errores.
+
+\subsection{Tareas Analíticas}
+
+\textbf{T1. Reconstruir la evolución temporal de los casos.}
+El sistema permitirá organizar cronológicamente los informes de 
+cada caso para visualizar su desarrollo en el tiempo. \textbf{[OD1]}
+
+\textbf{T2. Comparar el progreso entre casos.}
+El sistema permitirá analizar la evolución de varios casos en 
+paralelo, comparando sus informes y variables para identificar 
+similitudes o diferencias en su desarrollo. \textbf{[OD1]}
+
+\textbf{T3. Localizar los casos geográficamente.} 
+El sistema permitirá visualizar la ubicación de los casos a 
+nivel nacional, regional y local para examinar su concentración 
+y detalle en diferentes niveles. \textbf{[OD1]}
+
+\textbf{T4. Explorar casos y hallazgos similares.} 
+El sistema permitirá seleccionar un caso o hallazgo para 
+identificar otros elementos que compartan características o 
+narrativas similares dentro del conjunto analizado. \textbf{[OD2]}
+
+\textbf{T5. Consultar el documento original de un dato extraído.} 
+El sistema permitirá acceder al fragmento del documento original 
+para navegar por sus páginas y verificar el contexto exacto del 
+que se extrajo cada dato. \textbf{[OD3]}
+
+\section{Arquitectura del sistema}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{PIPElin.png} 
+    \caption{Diseño de la arquitectura del sistema, organizado 
+    en tres fases, extracción, agregación y exploración 
+    interactiva.}
+    \label{fig:Pipeline}
+\end{figure}
+
+Tal como se observa en la Figura~\ref{fig:Pipeline}, el sistema 
+se organiza en tres fases. En la fase de \textbf{extracción}, 
+cada informe se procesa de forma individual para identificar 
+variables, actores, relaciones y ubicaciones, preservando la 
+referencia al documento original. Los datos extraídos pasan a la 
+fase de \textbf{agregación}, donde los informes de un mismo caso 
+se agrupan, sus variables se sincronizan en el tiempo y se 
+calculan las agregaciones geográficas. Finalmente, la fase de 
+\textbf{exploración interactiva} expone esta representación al 
+analista mediante vistas coordinadas.
+
+\subsection{Extracción}
+
+La fase de extracción procesa cada informe de forma individual 
+y produce una representación estructurada de su contenido junto 
+con anclajes precisos al documento original. Se compone de tres 
+etapas, preprocesamiento, extracción semántica y mitigación de 
+alucinaciones.
+
+\subsubsection{Preprocesamiento}
+
+El preprocesamiento convierte cada informe en una representación 
+textual semiestructurada en la que cada elemento queda acompañado 
+de su ubicación exacta en el documento, expresada como 
+identificador, página y coordenadas. Optamos por una 
+representación semiestructurada antes que por una estructura 
+rígida porque los informes provienen de fuentes heterogéneas, y 
+una plantilla fija habría requerido reglas específicas por tipo 
+de documento, lo que comprometería la generalidad del 
+sistema~\cite{cattan2021crossdoc}. Los informes pueden contener 
+texto nativo o haber sido digitalizados mediante escaneo. En 
+ambos casos utilizamos OpenDataLoader 
+\ac{PDF}~\cite{opendataloader2024}, que aplica extracción directa al 
+texto nativo y activa \ac{OCR} cuando lo detecta como necesario. A 
+partir de esta salida se genera una representación simplificada 
+que conserva solo el identificador y el texto de cada elemento, 
+reduciendo el volumen de información enviada al modelo en la 
+etapa siguiente.
+
+\subsubsection{Extracción semántica}
+
+La extracción semántica se realiza en dos consultas sucesivas 
+al modelo. En la primera, se describe en lenguaje natural 
+la información relevante del informe, incluyendo título, 
+descripción breve, fechas, actores y ubicación geográfica. 
+Para cada variable, clasificada según los seis tipos definidos 
+en la Tabla~\ref{tab:tipos_variables}, el modelo devuelve tres 
+elementos. Primero, el contenido de la variable. Segundo, un 
+fragmento del texto que sirve de evidencia. Tercero, una 
+justificación breve en lenguaje natural que explica cómo 
+interpretó el fragmento para llegar a ese contenido. En la 
+segunda consulta, el modelo organiza esa respuesta en la 
+estructura de salida del sistema y conserva el identificador 
+del elemento del que se tomó cada dato.
+
+La decisión de exigir una justificación junto a cada dato 
+responde a un argumento documentado en la 
+literatura~\cite{yeh2025storyribbons}, donde se reporta que la 
+capacidad de los \acs{LLM} para producir justificaciones de sus 
+salidas ayuda a calibrar la confianza del usuario en la 
+extracción. La justificación cumple un rol técnico adicional. 
+Reduce el riesgo de respuestas no ancladas al texto, ya que 
+obliga al modelo a articular el razonamiento como parte de la 
+respuesta antes de comprometerse con un valor, en línea con el 
+principio de razonamiento encadenado~\cite{wei2022}. Además, provee 
+al analista un punto de partida para auditar el caso, sin 
+tener que reconstruir desde cero por qué el modelo eligió un 
+valor sobre otro.
+
+La separación en dos consultas responde a una decisión 
+adicional. Pedirle al modelo que razone sobre el contenido y 
+al mismo tiempo lo serialice en un esquema rígido degrada la 
+calidad de ambas tareas, según evidencia reportada en la 
+literatura sobre extracción 
+estructurada~\cite{li2024simple}. Al separar razonamiento y 
+formato, la primera consulta se aproxima a un razonamiento 
+encadenado, donde el modelo expresa libremente su análisis 
+junto con la justificación. La segunda se limita a una tarea 
+de transformación, donde el riesgo de alucinación es menor 
+porque el contenido ya fue producido y solo resta darle 
+estructura.
+
+La tipología de seis tipos de variables que adoptamos refleja 
+las distintas formas en que un dato puede evolucionar entre 
+informes. Algunas variables cambian de estado, otras avanzan 
+hacia una meta numérica, otras describen relaciones, y otras 
+verifican una condición. Distinguirlas explícitamente permite 
+que la fase de agregación trate cada tipo con la lógica 
+apropiada y que la verificación elija la estrategia adecuada 
+para cada dato.
+
+
+
+\begin{table}[t]
+\centering
+\caption{Tipos de variables del modelo de datos.}
+\label{tab:tipos_variables}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{}p{2.1cm} p{4.5cm} p{4cm} p{3.2cm}@{}}
+\toprule
+\textbf{Tipo} & \textbf{Descripción} & \textbf{Detalle interno} 
+& \textbf{Ejemplo} \\
+\midrule
+\rowcolor{rowgray}
+Seguimiento  & Datos que evolucionan entre informes, pudiendo 
+resolverse, persistir o generar nuevas consecuencias & Texto, 
+estado y fuente & Situaciones adversas detectadas \\
+Progreso     & Valores numéricos que avanzan hacia una meta, 
+comparados con un estimado por informe & Valor observado, meta, 
+valor estimado y fuente & Porcentaje de presupuesto ejecutado \\
+\rowcolor{rowgray}
+Estado       & Categoría que describe la condición de algo en 
+un informe específico & Valor categórico, nota y fuente & 
+Tipo de acción (correctiva, preventiva) \\
+Relacional   & Actores que participan en el caso y los roles 
+que desempeñan & Lista de actores con nombre, rol y fuente & 
+Organismos fiscalizados y supervisores \\
+\rowcolor{rowgray}
+Narrativo    & Texto estructurado con título y contenido 
+extenso & Título, cuerpo del texto y fuente & Conclusiones y 
+recomendaciones formales \\
+Verificación & Condición booleana respaldada por evidencia y 
+nivel de cumplimiento & Valor booleano, evidencia y fuente & 
+Plazo de respuesta cumplido \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cada dato extraído se almacena junto a tres anclajes que lo 
+conectan con el documento original. La fuente, que indica de 
+dónde proviene mediante el identificador del elemento, la 
+página y las coordenadas. El fragmento de evidencia, que 
+contiene el texto exacto desde el que se realizó la extracción. 
+Y la justificación, que articula la interpretación del modelo 
+sobre ese fragmento. Estos tres anclajes cumplen funciones 
+complementarias. Permiten al analista consultar el documento 
+desde la interfaz, habilitan la verificación automática de la 
+etapa siguiente, y sirven de evidencia explícita para que el 
+analista pueda calibrar su confianza en cada extracción.
+
+\subsubsection{Mitigación de alucinaciones}
+
+Dado que la alucinación en \acs{LLM} es una limitación innata que 
+solo puede mitigarse y no eliminarse~\cite{xu2024hallucination}, 
+el sistema adopta un esquema de verificación en capas que 
+reduce su incidencia y preserva la trazabilidad necesaria para 
+que el analista identifique los errores que escapen al sistema.
+
+La verificación automática se aplica antes de pasar a la fase 
+de agregación. La estrategia se adapta a la naturaleza del 
+dato, distinguiendo entre valores literales y valores 
+inferidos, ya que cada uno admite un tipo distinto de 
+contraste contra la fuente.
+
+
+Los valores literales, como fechas, nombres y montos, se 
+verifican mediante coincidencia de texto contra el fragmento 
+indicado por su fuente. Esta verificación detecta directamente 
+las fabricaciones del modelo a un costo computacional mínimo, 
+en línea con técnicas de auto-verificación 
+factual~\cite{manakul2023selfcheckgpt}. Si el valor aparece 
+en el fragmento, se considera verificado. En caso contrario, 
+se marca como sospechoso y se envía a una nueva consulta al 
+modelo, que recibe el dato junto al fragmento y debe 
+reextraerlo o confirmar su ausencia. El resultado reemplaza 
+al dato inicial.
+
+Los valores inferidos, que el modelo deduce a partir del 
+texto en lugar de tomarlos literalmente, no admiten una 
+verificación por coincidencia. Para estos casos adoptamos un 
+esquema de verificación encadenada 
+(\textit{chain-of-verification})~\cite{dhuliawala2024chainofverification}, 
+en el que el modelo revisa su propia respuesta contra el 
+fragmento original y la justificación que produjo, y confirma 
+si la inferencia se desprende razonablemente del texto. Si 
+falla, el dato se reextrae añadiendo el contexto explícito.
+
+La combinación de ambos mecanismos responde a un compromiso 
+entre costo computacional y capacidad de razonamiento. La 
+comparación de texto resuelve los casos simples sin invocar 
+al modelo, lo que reduce el costo y elimina la posibilidad 
+de alucinación en datos verificables sintácticamente. La 
+verificación encadenada se reserva para los datos que 
+requieren interpretación, donde el costo adicional se 
+justifica por el riesgo de error. Esta selectividad reduce 
+la tasa global de alucinaciones sin penalizar el tiempo de 
+procesamiento.
+
+Aun así, el resultado de la verificación automática no 
+constituye una garantía. Por la limitación teórica antes 
+señalada, una fracción de errores puede atravesar ambos 
+filtros, especialmente en casos donde la evidencia textual es 
+ambigua o donde el modelo refuerza su propia interpretación 
+errónea durante la verificación encadenada. Por ello, los 
+tres anclajes producidos durante la extracción semántica, 
+fuente, fragmento de evidencia y justificación, se conservan 
+en la representación final del informe. La interfaz expone 
+estos anclajes en la fase de exploración, de modo que el 
+analista pueda contrastar cada dato con su contexto original 
+y emitir un juicio informado. Esta separación de 
+responsabilidades, donde el sistema reduce la incidencia de 
+errores y el analista valida el resultado, es coherente con 
+los marcos de análisis visual que conciben la interpretación 
+como una tarea conjunta entre el cómputo automático y el 
+razonamiento humano~\cite{keim2008visual, sacha2014}.
+
+\subsection{Agregación}
+
+La fase de agregación toma los informes procesados 
+individualmente en la etapa anterior y los consolida en una 
+representación unificada por caso. El reto central de esta 
+fase es la resolución de correferencia entre informes, ya que 
+una misma variable puede aparecer descrita con texto diferente 
+en distintos informes del mismo caso, y sin un mecanismo de 
+resolución los datos no pueden integrarse en una secuencia 
+coherente~\cite{cattan2021crossdoc}. La fase se compone de 
+cuatro pasos que se ejecutan en orden, agrupación por caso, 
+emparejamiento semántico de variables, verificación cruzada y 
+construcción del vector de características.
+
+\subsubsection{Agrupación por caso}
+
+Los informes que comparten un mismo caso se agrupan, 
+conformando su secuencia ordenada en el tiempo. Los datos 
+generales del caso, como el título o la descripción, se fusionan 
+en una representación única tomando como base el primer informe 
+disponible y completando los campos ausentes con los informes 
+posteriores. Esta política de fusión refleja el supuesto de que 
+los informes posteriores complementan, antes que contradicen, 
+la información del primero. Las contradicciones reales se 
+detectan en el paso de verificación cruzada.
+
+\subsubsection{Emparejamiento semántico de variables}
+
+Una vez agrupados los informes de un caso, el sistema compara 
+las variables entre informes consecutivos para identificar 
+cuáles representan el mismo elemento descrito con texto 
+diferente. Este emparejamiento se realiza mediante una consulta 
+al \acs{LLM}, que recibe las variables de informes consecutivos junto 
+con su justificación y determina cuáles corresponden al mismo 
+elemento evolucionado, registrando el cambio observado entre 
+informes.
+
+La decisión de delegar el emparejamiento al modelo en lugar de 
+basarlo únicamente en similitud léxica responde a la naturaleza 
+del texto institucional. Una misma variable puede reformularse 
+de un informe al siguiente, cambiar de tono o incorporar nuevos 
+detalles, sin que ello implique un cambio en el referente. 
+Métricas léxicas tradicionales, como similitud de cadenas o 
+\textit{embeddings} de palabra, no capturan adecuadamente estos casos 
+cuando la reformulación es sustantiva. Trabajos recientes en 
+consistencia entre resúmenes han mostrado que delegar la 
+comparación a un modelo de lenguaje produce decisiones más 
+robustas frente a paráfrasis y reformulaciones~\cite{laban2022summac}, 
+y es ese el tipo de robustez que el dominio requiere.
+
+Durante este proceso, las variables que no aparecen en todos 
+los informes se registran con valor nulo, distinguiendo 
+explícitamente entre un dato ausente y un dato con valor cero. 
+Esta distinción es necesaria porque, en un caso, la ausencia de 
+una variable en un informe específico es una señal informativa 
+en sí misma, no un error de extracción.
+
+\subsubsection{Verificación cruzada}
+
+Con el caso ya reconstruido, el sistema revisa inconsistencias 
+entre informes que no eran visibles al procesar cada documento 
+por separado. Esto incluye fechas contradictorias, nombres 
+distintos para un mismo actor y hallazgos cuyo estado declarado 
+no es consistente con su evolución a lo largo del 
+caso~\cite{manakul2023selfcheckgpt}.
+
+Este paso es complementario al de mitigación de alucinaciones 
+de la fase anterior. Mientras aquella verificación contrasta 
+cada dato contra su fragmento fuente, la verificación cruzada 
+contrasta cada dato contra el resto de los informes del caso. 
+Capturan tipos de error distintos. Una fecha extraída 
+correctamente de un fragmento puede entrar en conflicto con la 
+fecha extraída correctamente de otro fragmento si los documentos 
+mismos no coinciden, y solo una verificación a nivel de caso 
+detecta ese tipo de inconsistencia.
+%¿por qué no usaron el LLM para resolver?", tu respuesta tiene que ser exactamente la del segundo párrafo. Lo intentamos así inicialmente, pero el modelo terminaba inventando razones para preferir uno u otro valor sin que existiera evidencia textual real para hacerlo. Eso es contradictorio con el objetivo de mitigar alucinaciones. La decisión de marcar y exponer es más conservadora, más honesta, y además aprovecha el valor informativo del conflicto.
+Cuando se detecta una inconsistencia, el sistema no la resuelve 
+automáticamente. Conserva los valores en conflicto junto con 
+sus respectivos anclajes al documento fuente y los marca como 
+inconsistentes en la representación final del caso. Esta 
+decisión responde a dos consideraciones. Por un lado, una 
+resolución automática mediante una nueva consulta al modelo 
+introduce el mismo riesgo de alucinación que el sistema busca 
+mitigar, ya que el modelo podría producir una respuesta 
+plausible sin que existan elementos para preferir un valor 
+sobre el otro. Por otro, una inconsistencia entre informes de 
+un mismo caso es a menudo informativa en sí misma. Cuando dos 
+documentos del mismo expediente reportan estados contradictorios 
+sobre un mismo hallazgo, esa contradicción suele ser parte del 
+fenómeno bajo análisis, no un error de extracción que conviene 
+resolver. Marcar la inconsistencia y exponerla al analista 
+preserva esa señal y respeta la división de roles entre el 
+sistema y el analista propia del análisis 
+visual~\cite{keim2008visual}.
+
+Solo se aplica una normalización determinística para 
+inconsistencias puramente sintácticas, como variantes de 
+formato de fecha o diferencias de mayúsculas y acentos en 
+nombres propios, donde la equivalencia es decidible sin 
+interpretación.
+
+\subsubsection{Construcción del vector de características}
+
+Por último, el sistema calcula un vector de características 
+para cada caso. Este vector combina dos componentes 
+heterogéneos. El primero es un conjunto de métricas numéricas 
+derivadas de las variables del caso, como la proporción de 
+hallazgos de Seguimiento cerrados, el porcentaje de avance de 
+las variables de Progreso, la proporción de condiciones de 
+Verificación cumplidas y el número de actores involucrados. El 
+segundo es un \textit{embedding} semántico generado a partir 
+de las conclusiones registradas en los informes del caso. Para 
+el \textit{embedding} se utiliza un modelo de \textit{Sentence 
+Transformers}~\cite{reimers2019sbert}, que proyecta el texto a 
+un espacio vectorial denso preservando su significado semántico.
+
+La decisión de combinar componentes numéricos y semánticos en 
+un solo vector responde al objetivo de soportar las dos 
+formas en que un analista puede juzgar la similitud entre 
+casos. Dos casos pueden parecerse porque sus indicadores 
+cuantitativos coinciden, o porque sus conclusiones narrativas 
+describen situaciones análogas. Un vector que ignore una de 
+las dos dimensiones colapsaría una distinción que el analista 
+sí percibe. La combinación obliga, no obstante, a normalizar 
+ambos componentes antes de concatenarlos para que ninguno 
+domine la métrica de distancia, ajuste que se realiza mediante 
+escalado por desviación estándar.
+
+El vector resultante es el insumo de la vista de similitud, 
+que lo proyecta a dos dimensiones mediante 
+\ac{UMAP}~\cite{mcinnes2018umap}. Optamos por \acs{UMAP} frente a 
+alternativas como t-SNE porque preserva mejor la estructura 
+global del conjunto de datos, lo que es relevante para una 
+tarea de exploración donde la posición relativa entre grupos 
+de casos comunica información al analista, no solo la 
+vecindad local entre puntos individuales.
+
+Al finalizar esta fase, el sistema produce tres archivos por 
+conjunto de casos analizado. Un consolidado por caso con todos 
+sus informes y variables sincronizadas. Un archivo de 
+coordenadas geográficas por caso. Y un archivo de vectores de 
+características, uno por caso. Estos archivos constituyen la 
+entrada de la fase de exploración interactiva.
+
+\subsection{Exploración interactiva}
+
+La fase de exploración interactiva expone la representación 
+unificada producida por las fases anteriores al analista. Su 
+diseño parte del principio de vistas múltiples coordinadas, 
+que sostiene que un fenómeno multidimensional se comprende 
+mejor cuando cada dimensión se representa con la 
+visualización más adecuada y las vistas se vinculan mediante 
+interacción 
+sincronizada~\cite{wang2000guidelines, roberts2007cmv}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{vista_p.png}
+    \caption{Interfaz general del sistema sobre un caso de 
+    estudio del Proceso Electoral 2026, donde cuatro Oficinas 
+    Descentralizadas de Procesos Electorales se analizan en 
+    paralelo. La interfaz se compone de cuatro regiones 
+    coordinadas, la vista geoespacial (\textbf{A}), la vista 
+    temporal (\textbf{B}), la vista de similitud (\textbf{C}) 
+    y la vista de detalle (\textbf{D}).}
+    \label{fig:vista_principal}
+\end{figure}
+
+La exploración sigue un flujo de cuatro etapas. El analista 
+parte de una vista panorámica del conjunto de casos, ya sea 
+sobre el territorio en la vista geoespacial (\textbf{A}) o 
+sobre el espacio semántico de similitud (\textbf{B}). Al 
+seleccionar uno o varios casos en cualquiera de las dos, la 
+selección se propaga a la otra y se construye la vista 
+temporal (\textbf{C}) sobre los casos elegidos. Desde la 
+vista temporal, el analista puede inspeccionar un informe, 
+una variable o una región de la línea de tiempo, lo que 
+abre la vista de detalle (\textbf{D}) con la información 
+asociada. Y desde la vista de detalle, los enlaces a los 
+fragmentos fuente abren la vista de evidencia, que muestra 
+el documento original con el fragmento resaltado. Un panel 
+de filtros adaptativos en el encabezado complementa este 
+flujo, permitiendo restringir la exploración por tiempo, 
+espacio y características del caso.
+
+A continuación, detallamos cada componente siguiendo el recorrido del usuario: desde las primeras vistas de exploración hasta el acceso a la evidencia original.
+
+\subsubsection{Vista geoespacial}
+
+La vista geoespacial (\textbf{A} en la 
+Figura~\ref{fig:vista_principal})~localiza los casos sobre 
+un mapa interactivo y soporta la tarea T3. Aprovecha que 
+cada caso tiene una ubicación asociada, calculada en la 
+fase de agregación a partir de las referencias geográficas 
+extraídas de los informes.
+
+La vista geoespacial soporta selección de 
+casos individuales o de regiones territoriales. La 
+selección se propaga a la vista de similitud, donde los 
+puntos correspondientes se resaltan, y a la vista 
+temporal, que se construye sobre el subconjunto elegido.
+
+
+\subsubsection{Vista de similitud}
+
+La vista de similitud (\textbf{B} en la 
+Figura~\ref{fig:vista_principal})~proyecta el conjunto 
+completo de casos en un espacio bidimensional para 
+soportar la tarea T4, donde el analista busca identificar 
+grupos de casos parecidos o casos atípicos respecto al 
+conjunto. Su fuente es el vector de características 
+construido en la fase de agregación, que combina 
+indicadores numéricos con un \textit{embedding} semántico 
+de las conclusiones del caso.
+
+La proyección se realiza con \acs{UMAP}~\cite{mcinnes2018umap}, 
+cuya elección frente a alternativas como t-SNE ya fue 
+discutida en la fase de agregación. La representación es 
+un gráfico de dispersión donde cada punto corresponde a 
+un caso. La cercanía espacial entre puntos indica que los 
+casos comparten un perfil cuantitativo y narrativo 
+similar, lo cual permite al analista detectar agrupaciones 
+por su sola geometría sin tener que inspeccionarlos uno 
+por uno.
+
+La vista de similitud es una entrada complementaria a la 
+geoespacial. Mientras la geoespacial agrupa casos por 
+proximidad territorial, la de similitud los agrupa por 
+proximidad semántica y cuantitativa. Esta dualidad permite 
+que el analista descubra, por ejemplo, que dos casos 
+geográficamente distantes presentan trayectorias casi 
+idénticas, o que dos casos vecinos difieren en su 
+comportamiento. Al posicionar el cursor sobre un punto, 
+una ventana flotante muestra el resumen del caso. La 
+selección de un punto, o de un grupo de puntos mediante 
+\textit{lasso}, propaga el contexto a la vista 
+geoespacial y construye la vista temporal sobre los casos 
+elegidos.
+
+\subsubsection{Filtros adaptativos}
+
+El encabezado de la interfaz expone un panel de filtros 
+que opera sobre la selección activa. Tres dimensiones de 
+filtrado están disponibles. La dimensión temporal, 
+mediante un control deslizante que limita la ventana de 
+fechas considerada. La dimensión espacial, mediante 
+selectores territoriales que restringen la región 
+analizada. Y la dimensión de características, mediante 
+controles que filtran por atributos de las variables, 
+como el estado de una variable de Seguimiento o el rango 
+de valores de una variable de Progreso.
+
+Los controles de la dimensión de características se 
+adaptan al tipo de variable activa. Esta adaptación responde a un 
+principio elemental de diseño de interfaz, según el cual 
+los controles deben corresponder a la estructura de los 
+datos sobre los que 
+operan~\cite{shneiderman1996tasks}, y evita el patrón 
+común de exponer controles que no aplican a la variable 
+activa, que confunde al usuario y degrada la experiencia 
+de exploración.
+
+\subsubsection{Vista temporal}
+
+La vista temporal (\textbf{C} en la 
+Figura~\ref{fig:vista_principal})~se construye sobre los 
+casos seleccionados en las vistas de entrada y soporta 
+las tareas T1 y T2. Su representación se adapta al tipo 
+de variable bajo análisis, siguiendo el principio de que 
+una sola codificación visual no puede expresar 
+adecuadamente la heterogeneidad de los seis tipos del 
+modelo de datos.
+
+Por defecto, cuando ninguna variable específica está 
+seleccionada, la vista temporal muestra los informes de 
+los casos como un diagrama de Gantt, donde el eje 
+horizontal corresponde al tiempo y el eje vertical 
+organiza los casos en filas paralelas. Esta 
+representación responde a una propiedad estructural del 
+dominio. Los informes institucionales se caracterizan 
+por intervalos con duración explícita, como un plazo de 
+respuesta o una ventana de ejecución, intercalados con 
+eventos puntuales, como la emisión del informe mismo. 
+La sintaxis del Gantt preserva ambas clases y permite 
+identificar visualmente retrasos, periodos sin actividad 
+y solapamientos entre casos. La organización en filas 
+paralelas, además, soporta la comparación directa entre 
+casos sin requerir una segunda vista.
+
+Al seleccionar una variable de \textbf{Seguimiento}, la 
+vista temporal cambia a un diagrama de Sankey, donde 
+cada flujo representa la transición de un hallazgo entre 
+estados a lo largo de los informes. Esta elección 
+responde a la estructura semántica del tipo. Las 
+variables de Seguimiento describen elementos que se 
+resuelven, persisten o generan nuevas consecuencias 
+entre informes, lo cual es exactamente el patrón que 
+los diagramas de Sankey representan, flujos entre 
+estados con grosor proporcional al volumen del 
+flujo~\cite{riehmann2005sankey}. La representación 
+permite que el analista identifique, por ejemplo, qué 
+proporción de hallazgos abiertos en un informe inicial 
+quedó cerrada en un informe posterior, y qué proporción 
+persistió o derivó en nuevos hallazgos.
+
+Al seleccionar una variable de \textbf{Progreso}, la 
+vista temporal cambia a un diagrama de líneas, donde una 
+línea representa el valor observado a lo largo del 
+tiempo y una segunda línea, en estilo discontinuo, 
+representa el valor estimado o meta. Esta es la 
+codificación canónica para series temporales numéricas 
+con referencia~\cite{cleveland1985elements} y permite 
+detectar visualmente desvíos respecto a la meta sin 
+recurrir a cálculos auxiliares.
+
+Para los cuatro tipos restantes, la vista temporal adopta 
+codificaciones diferenciadas según la estructura semántica 
+de cada uno. Una variable de \textbf{Estado}, que asigna 
+una categoría a cada informe, se representa como una 
+banda horizontal segmentada por color, siguiendo el 
+patrón de las visualizaciones de tipo \textit{swimlane} 
+que codifican secuencias categóricas a lo 
+largo del tiempo~\cite{wongsuphasawat2011lifeflow}. Una 
+variable \textbf{Relacional}, que describe los actores 
+involucrados y sus roles, se representa como un grafo 
+dinámico cuando el conjunto de actores es pequeño, o 
+como una matriz de adyacencia ordenada cronológicamente 
+cuando es 
+denso~\cite{beck2017taxonomy}. Una variable de tipo 
+\textbf{Verificación}, que registra el cumplimiento 
+booleano de una condición a lo largo de los informes, se 
+representa como un \textit{dot plot} binario donde cada 
+fila corresponde a un caso y cada columna a un informe, 
+codificación que permite identificar rápidamente patrones 
+de incumplimiento sistemático. Las variables de tipo 
+\textbf{Narrativo}, finalmente, no admiten una 
+codificación temporal compacta porque su contenido es 
+texto extenso. En su lugar, se exponen como tarjetas en 
+la vista de detalle al seleccionar el informe 
+correspondiente, manteniendo el acceso al texto sin 
+forzar una representación visual que perdería 
+información.
+
+\subsubsection{Vista de detalle}
+
+La vista de detalle (\textbf{D} en la 
+Figura~\ref{fig:vista_principal})~se activa al 
+seleccionar un informe, un caso o una región temporal en 
+las otras vistas. Presenta la información asociada a esa 
+selección, organizada en bloques que cubren los 
+metadatos del elemento, las variables registradas en él 
+y los enlaces a sus fragmentos fuente.
+
+Para un informe seleccionado, la vista muestra el título 
+del hito, las fechas relevantes (emisión del informe, 
+plazo de respuesta), las situaciones identificadas y la 
+referencia al documento original. Cada dato visible en 
+esta vista es interactivo y abre la vista de evidencia 
+sobre el fragmento correspondiente del documento.
+
+Esta vista funciona como puente entre las 
+representaciones agregadas y la evidencia textual. Las 
+vistas A, B y C operan sobre representaciones derivadas 
+del proceso de extracción, y aunque son útiles para 
+reconocer patrones, no exponen el texto original que 
+sustenta cada dato. La vista de detalle traduce un 
+elemento seleccionado en sus componentes verificables, y 
+expone los enlaces que permiten descender al documento 
+fuente.
+
+\subsubsection{Vista de evidencia}
+
+La vista de evidencia materializa los anclajes producidos 
+durante la extracción y soporta la tarea T5. Cuando el 
+analista activa cualquier enlace desde la vista de 
+detalle, la vista de evidencia se abre como una ventana 
+embebida sobre la interfaz, carga el documento original, 
+navega a la página correspondiente y resalta el 
+fragmento exacto del que se obtuvo el dato. La 
+Figura~\ref{fig:vista_pdf} muestra esta interacción 
+sobre un informe de auditoría, donde el recuadro 
+amarillo señala el fragmento fuente del dato 
+seleccionado.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{vista_pdf.png}
+    \caption{Vista de evidencia. El sistema abre el 
+    documento original, navega a la página correspondiente 
+    y resalta el fragmento desde el cual se extrajo el 
+    dato seleccionado.}
+    \label{fig:vista_pdf}
+\end{figure}
+
+La vista ofrece tres elementos de soporte para la 
+verificación. Primero, la navegación entre páginas del 
+documento permite consultar el contexto previo y 
+posterior al fragmento, ya que un fragmento aislado 
+puede no ser suficiente para juzgar la corrección de la 
+extracción. Segundo, el resaltado visual del fragmento 
+fuente reduce el costo cognitivo de localizarlo dentro 
+de la página, especialmente en informes densos donde el 
+fragmento relevante puede ser una sola línea entre 
+cientos. Tercero, junto al fragmento se expone la 
+justificación que el modelo articuló al realizar la 
+extracción, lo que permite al analista contrastar no 
+solo el dato sino también el razonamiento que lo 
+produjo. Esta vista es central al diseño del sistema. Las fases 
+anteriores adoptaron una posición explícita sobre la 
+limitación teórica de los \acs{LLM} frente a la 
+alucinación, asumiendo que el sistema mitiga pero no 
+elimina los errores. Esa posición sería declarativa sin 
+un mecanismo concreto que permita al analista verificar 
+cada dato. La vista de evidencia es ese mecanismo. Al 
+colocar el documento original a un clic de cualquier 
+dato extraído, el sistema se alinea con la noción de calibración 
+de confianza reportada en la literatura~\cite{yeh2025storyribbons}.

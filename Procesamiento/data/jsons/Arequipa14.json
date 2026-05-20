@@ -1,0 +1,6018 @@
+{
+  "file name" : "Arequipa14.pdf",
+  "number of pages" : 14,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20260429110913-05'00'",
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 507,
+    "page number" : 1,
+    "bounding box" : [ 200.37, 693.092, 384.856, 718.762 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 508,
+    "page number" : 1,
+    "bounding box" : [ 213.809, 679.645, 372.639, 691.869 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 509,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 144.168, 603.761, 452.053, 619.754 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GERENCIA REGIONAL DE CONTROL AREQUIPA"
+  }, {
+    "type" : "heading",
+    "id" : 510,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 164.938, 531.456, 430.062, 577.105 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE HITO DE CONTROL N° 5623-2026-CG/GRAR-SCC"
+  }, {
+    "type" : "heading",
+    "id" : 511,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 135.616, 432.724, 460.606, 512.179 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTROL CONCURRENTE OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ODPE AREQUIPA AREQUIPA - AREQUIIPA - AREQUIPA"
+  }, {
+    "type" : "heading",
+    "id" : 512,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 85.524, 317.82, 508.255, 399.842 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE DESPLIEGUE Y REPLIEGUE DEL MATERIAL ELECTORAL DE LA ODPE AREQUIPA A LOS LOCALES DE VOTACIÓN, EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+  }, {
+    "type" : "heading",
+    "id" : 513,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 108.737, 232.931, 486.263, 294.594 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HITO DE CONTROL N° 1: \"CONTRATACIÓN DEL SERVICIO DE DESPLIEGUE Y REPLIEGUE\""
+  }, {
+    "type" : "heading",
+    "id" : 514,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 156.386, 190.591, 438.614, 218.913 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "PERIODO DE EVALUACION DEL HITO DE CONTROL DEL 23 DE MARZO AL 1 DE ABRIL DE 202("
+  }, {
+    "type" : "paragraph",
+    "id" : 515,
+    "page number" : 1,
+    "bounding box" : [ 271.22, 158.863, 322.558, 172.403 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TOMO I DE I"
+  }, {
+    "type" : "paragraph",
+    "id" : 516,
+    "page number" : 1,
+    "bounding box" : [ 207.7, 123.461, 388.522, 139.352 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "AREQUIPA, 9 DE ABRIL DE 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 517,
+    "page number" : 1,
+    "bounding box" : [ 200.37, 86.632, 393.409, 105.125 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "'Decenio de la Igualdad de oportunidades para mujeres y hombres \"Año de la Esperanza y el Fortalecimiento de la Democracia"
+  }, {
+    "type" : "paragraph",
+    "id" : 519,
+    "page number" : 2,
+    "bounding box" : [ 384.856, 784.689, 502.146, 798.35 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 520,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 394.63, 777.359, 494.815, 784.77 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 521,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 123.398, 712.65, 470.38, 729.763 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE HITO DE CONTROL N° 5623-2026-CG/GRAR-SCC"
+  }, {
+    "type" : "heading",
+    "id" : 522,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 85.524, 651.408, 507.033, 696.759 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE DESPLIEGUE Y REPLIEGUE DEL MATERIAL ELECTORAL DE LA ODPE - AREQUIPA A LOS LOCALES DE VOTACION, EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+  }, {
+    "type" : "heading",
+    "id" : 523,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 112.402, 604.477, 482.598, 634.417 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HITO DE CONTROL N° 1 \"CONTRATACIÓN DEL SERVICIO DE DESPLIEGUE Y REPLIEGUE\""
+  }, {
+    "type" : "heading",
+    "id" : 524,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 263.901, 520.735, 327.433, 542.738 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INDICE"
+  }, {
+    "type" : "paragraph",
+    "id" : 527,
+    "page number" : 2,
+    "bounding box" : [ 32.988, 336.156, 58.645, 344.712 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 528,
+    "page number" : 2,
+    "bounding box" : [ 29.322, 321.487, 59.867, 336.2 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 529,
+    "page number" : 2,
+    "bounding box" : [ 9.774, 301.88, 62.31, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 530,
+    "page number" : 2,
+    "bounding box" : [ 9.774, 296.882, 86.745, 303.213 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CARRANZA FERNANDEZ Romme"
+  }, {
+    "type" : "paragraph",
+    "id" : 532,
+    "page number" : 2,
+    "bounding box" : [ 7.331, 290.885, 68.419, 297.039 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 531,
+    "page number" : 2,
+    "bounding box" : [ 4.887, 273.814, 89.189, 293.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pe: 8 228 671 2 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 535,
+    "page number" : 2,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 534,
+    "page number" : 2,
+    "bounding box" : [ 25.657, 224.919, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "table",
+    "id" : 525,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 100.822, 213.409, 494.325, 495.385 ],
+    "number of rows" : 11,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 469.751, 297.573, 495.385 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 469.751, 494.325, 495.385 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 331,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 469.751, 494.325, 495.385 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N° Pág."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 444.117, 297.573, 469.751 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 332,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 100.822, 444.117, 297.573, 469.751 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1. ORIGEN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 444.117, 494.325, 469.751 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 333,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 444.117, 494.325, 469.751 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 418.483, 297.573, 444.117 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 334,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 418.483, 297.573, 444.117 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "II. OBJETIVOS"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 418.483, 494.325, 444.117 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 335,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 418.483, 494.325, 444.117 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 392.849, 297.573, 418.483 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 336,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 392.849, 297.573, 418.483 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "III. ALCANCE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 392.849, 494.325, 418.483 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 337,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 392.849, 494.325, 418.483 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 367.214, 297.573, 392.849 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 338,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 367.214, 297.573, 392.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "INV. INFORMACIÓN RESPECTO DEL HITO DE CONTROL"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 367.214, 494.325, 392.849 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 339,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 367.214, 494.325, 392.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 341.58, 297.573, 367.214 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 340,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 341.58, 297.573, 367.214 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "V. SITUACIONES ADVERSAS"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 341.58, 494.325, 367.214 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 341,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 341.58, 494.325, 367.214 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "4"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 315.946, 297.573, 341.58 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 342,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 315.946, 297.573, 341.58 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VI. DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 315.946, 494.325, 341.58 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 343,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 315.946, 494.325, 341.58 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "7"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 290.312, 297.573, 315.946 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 344,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 290.312, 297.573, 315.946 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VII. REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS- ESTADO SITUACIONAL"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 290.312, 494.325, 315.946 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 345,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 290.312, 494.325, 315.946 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "7"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 264.678, 297.573, 290.312 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 346,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 264.678, 297.573, 290.312 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "VIII. CONCLUSIÓN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 264.678, 494.325, 290.312 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 347,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 264.678, 494.325, 290.312 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "7"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 10,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 239.044, 297.573, 264.678 ],
+        "row number" : 10,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 348,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 239.044, 297.573, 264.678 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "IX. RECOMENDACIÓN"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 239.044, 494.325, 264.678 ],
+        "row number" : 10,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 349,
+          "page number" : 2,
+          "bounding box" : [ 297.573, 239.044, 494.325, 264.678 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 11,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 100.822, 213.409, 297.573, 239.044 ],
+        "row number" : 11,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 350,
+          "page number" : 2,
+          "bounding box" : [ 100.822, 213.409, 297.573, 239.044 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "APÉNDICES"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.573, 213.409, 494.325, 239.044 ],
+        "row number" : 11,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 536,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 189.469, 14.661, 194.359 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 539,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 183.261, 58.645, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 540,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 183.261, 58.645, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 537,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 178.468, 81.858, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 538,
+    "page number" : 2,
+    "bounding box" : [ 3.665, 178.468, 81.858, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 543,
+    "page number" : 2,
+    "bounding box" : [ 29.322, 141.797, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 542,
+    "page number" : 2,
+    "bounding box" : [ 26.879, 127.128, 59.867, 143.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 546,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 92.901, 57.423, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "votivo Dov visto Kilen"
+  }, {
+    "type" : "paragraph",
+    "id" : 547,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 92.901, 57.423, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "votivo Dov visto Kilen"
+  }, {
+    "type" : "paragraph",
+    "id" : 544,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 86.632, 83.08, 91.679 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:49:26 -05:00"
+  }, {
+    "type" : "footer",
+    "id" : 890,
+    "page number" : 2,
+    "bounding box" : [ 6.109, 86.632, 83.08, 91.679 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 900,
+      "page number" : 2,
+      "bounding box" : [ 6.109, 86.632, 83.08, 91.679 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Fecha: 09-04-2026 16:49:26 -05:00"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 549,
+    "page number" : 3,
+    "bounding box" : [ 377.526, 777.359, 498.48, 789.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ") CONTRALORIA"
+  }, {
+    "type" : "paragraph",
+    "id" : 550,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 393.409, 770.028, 492.372, 780.024 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 552,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 204.035, 702.721, 389.743, 737.097 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "INFORME DE HITO DE CONTROL N° 5623-2026-CG/GRAR-SCC"
+  }, {
+    "type" : "paragraph",
+    "id" : 551,
+    "page number" : 3,
+    "bounding box" : [ 465.469, 743.11, 510.722, 754.31 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 1 de 9"
+  }, {
+    "type" : "heading",
+    "id" : 553,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 85.524, 641.429, 508.255, 689.424 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"SERVICIO DE DESPLIEGUE Y REPLIEGUE DEL MATERIAL ELECTORAL DE LA ODPE AREQUIPA A LOS LOCALES DE VOTACION, EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+  }, {
+    "type" : "heading",
+    "id" : 554,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 112.0, 595.708, 483.0, 627.246 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HITO DE CONTROL N° 1 CONTREPILEGUPEL SERICIO DE DESPLEGUEY"
+  }, {
+    "type" : "heading",
+    "id" : 555,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 108.737, 557.407, 151.499, 572.076 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ORIGEN"
+  }, {
+    "type" : "paragraph",
+    "id" : 556,
+    "page number" : 3,
+    "bounding box" : [ 111.154, 468.056, 510.716, 545.183 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "El presente informe se emite en mérito a lo dispuesto por la Gerencia Regional de Control Arequipa de la Contraloría General de la República, mediante Oficio n.° 000562-2026-CG/GRAR de 24 de marzo de 2026, registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 002-L470-2026-057, en el marco de lo previsto en la Directiva n.° 013-2022-CG/NORM \"Servicio de Control Simultáneo\", aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022."
+  }, {
+    "type" : "heading",
+    "id" : 557,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 89.141, 429.997, 166.209, 444.008 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "II. OBJETIVOS"
+  }, {
+    "type" : "heading",
+    "id" : 558,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 114.846, 405.831, 206.478, 419.278 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.1 Objetivo general"
+  }, {
+    "type" : "paragraph",
+    "id" : 561,
+    "page number" : 3,
+    "bounding box" : [ 32.988, 337.378, 57.423, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 562,
+    "page number" : 3,
+    "bounding box" : [ 29.322, 321.487, 59.867, 336.2 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 564,
+    "page number" : 3,
+    "bounding box" : [ 7.331, 292.15, 85.524, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Romme Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 566,
+    "page number" : 3,
+    "bounding box" : [ 7.331, 286.038, 18.326, 292.15 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 567,
+    "page number" : 3,
+    "bounding box" : [ 15.883, 279.889, 54.979, 286.038 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ivo: Doy Visto Bu"
+  }, {
+    "type" : "paragraph",
+    "id" : 568,
+    "page number" : 3,
+    "bounding box" : [ 15.883, 274.891, 79.415, 281.222 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ha: 09-04-2026 16:11:23 -05"
+  }, {
+    "type" : "paragraph",
+    "id" : 559,
+    "page number" : 3,
+    "bounding box" : [ 130.729, 343.49, 511.92, 393.608 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Determinar si el Servicio de Despliegue y Repliegue del material electoral de la ODPE AREQUIPA a los locales de votación, se viene ejecutando de conformidad con los Términos de Referencia, normativa aplicable y/o disposiciones internas, en el marco del proceso de las Elecciones Generales 2026."
+  }, {
+    "type" : "heading",
+    "id" : 563,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 114.846, 316.541, 219.918, 332.535 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.2 Objetivo especifico"
+  }, {
+    "type" : "paragraph",
+    "id" : 565,
+    "page number" : 3,
+    "bounding box" : [ 130.729, 267.642, 510.698, 305.596 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Establecer si la contratación del Servicio de Despliegue y Repliegue del material electoral de la ODPE Arequipa se viene realizando de acuerdo a la normativa aplicable y/o disposiciones internas"
+  }, {
+    "type" : "paragraph",
+    "id" : 572,
+    "page number" : 3,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 571,
+    "page number" : 3,
+    "bounding box" : [ 26.879, 224.919, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 574,
+    "page number" : 3,
+    "bounding box" : [ 3.638, 190.692, 72.084, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Lui: Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 576,
+    "page number" : 3,
+    "bounding box" : [ 3.665, 183.261, 59.867, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 575,
+    "page number" : 3,
+    "bounding box" : [ 3.665, 178.468, 83.08, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "heading",
+    "id" : 570,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 90.411, 243.237, 157.608, 254.256 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "III. ALCANCE"
+  }, {
+    "type" : "paragraph",
+    "id" : 573,
+    "page number" : 3,
+    "bounding box" : [ 111.181, 178.468, 510.698, 229.909 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "El servicio de Control Concurrente se efectuó al Hito de Control n.° 1 \"Contratación del servicio de Despliegue y Repliegue\", que ha sido ejecutado desde el 24 de marzo al 1 de abril de 2026, en la Calle Universidad 215 - Urb. La Victoria, distrito de Arequipa, provincia de Arequipa y departamento de Arequipa, de la ODPE Arequipa."
+  }, {
+    "type" : "heading",
+    "id" : 577,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 90.411, 152.798, 337.207, 167.6 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IV. INFORMACIÓN RESPECTO DEL HITO DE CONTROL"
+  }, {
+    "type" : "paragraph",
+    "id" : 579,
+    "page number" : 3,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 581,
+    "page number" : 3,
+    "bounding box" : [ 111.181, 102.626, 510.698, 141.944 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La Oficina Nacional de Procesos Electorales (en adelante la ONPE) como la autoridad máxima en la organización y ejecución de los procesos electorales, tiene a su cargo organizar, planificar, preparar, ejecutar y brindar información de los resultados de los procesos electorales que organiza."
+  }, {
+    "type" : "paragraph",
+    "id" : 580,
+    "page number" : 3,
+    "bounding box" : [ 26.879, 128.35, 58.645, 141.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B°"
+  }, {
+    "type" : "paragraph",
+    "id" : 583,
+    "page number" : 3,
+    "bounding box" : [ 4.887, 107.57, 61.088, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 582,
+    "page number" : 3,
+    "bounding box" : [ 4.836, 101.001, 66.027, 109.249 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 584,
+    "page number" : 3,
+    "bounding box" : [ 6.084, 96.338, 72.109, 104.133 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 586,
+    "page number" : 3,
+    "bounding box" : [ 4.887, 92.901, 59.867, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov Visto Kileno"
+  }, {
+    "type" : "footer",
+    "id" : 891,
+    "page number" : 3,
+    "bounding box" : [ 4.887, 85.567, 85.524, 91.679 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 901,
+      "page number" : 3,
+      "bounding box" : [ 4.887, 85.567, 85.524, 91.679 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Fecha: 09-04-2026 16:49:26 -05:00"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 596,
+    "page number" : 4,
+    "bounding box" : [ 32.988, 337.378, 57.423, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 597,
+    "page number" : 4,
+    "bounding box" : [ 30.544, 322.709, 57.423, 334.933 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 598,
+    "page number" : 4,
+    "bounding box" : [ 7.331, 292.15, 87.967, 303.213 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 600,
+    "page number" : 4,
+    "bounding box" : [ 6.035, 273.478, 88.041, 292.485 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Poca: 0 32816 23 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 605,
+    "page number" : 4,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 604,
+    "page number" : 4,
+    "bounding box" : [ 26.879, 226.141, 54.979, 240.905 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 606,
+    "page number" : 4,
+    "bounding box" : [ 1.222, 190.692, 74.528, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 608,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 183.261, 59.867, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 607,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 178.468, 83.08, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 611,
+    "page number" : 4,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 610,
+    "page number" : 4,
+    "bounding box" : [ 28.101, 128.35, 56.201, 143.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 612,
+    "page number" : 4,
+    "bounding box" : [ 4.887, 107.57, 61.088, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 614,
+    "page number" : 4,
+    "bounding box" : [ 4.887, 101.293, 67.197, 108.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 613,
+    "page number" : 4,
+    "bounding box" : [ 4.869, 96.395, 72.103, 104.076 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 616,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 92.901, 59.867, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov Visto Kileno"
+  }, {
+    "type" : "paragraph",
+    "id" : 615,
+    "page number" : 4,
+    "bounding box" : [ 3.665, 85.567, 84.302, 91.679 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:49:26 - 05:00"
+  }, {
+    "type" : "header",
+    "id" : 894,
+    "page number" : 4,
+    "bounding box" : [ 384.856, 777.436, 498.48, 790.882 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 904,
+      "page number" : 4,
+      "bounding box" : [ 384.856, 777.436, 498.48, 790.882 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 589,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 394.63, 771.324, 493.593, 777.436 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 590,
+    "page number" : 4,
+    "bounding box" : [ 466.638, 744.018, 510.775, 753.402 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pagina 2 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 591,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 671.067, 510.698, 721.206 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sobre el particular, a través del Decreto Supremo 039-2025-PCM publicado en el diario oficial El Peruano el 25 de marzo de 2025, convocó a Elecciones de presidente de la República, vicepresidentes, senadores y diputados del Congreso de la República y representantes peruanos ante el Parlamento Andino (EG 2026), para el día domingo 12 de abril de 2026."
+  }, {
+    "type" : "paragraph",
+    "id" : 592,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 570.774, 510.698, 660.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "En ese contexto, mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025 se aprobó el \"Plan Operativo Electoral de la Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos Ante El Parlamento Andino 2026, Versión N.° 03\" (en adelante POE). En dicho POE se establece el marco legal, marco electoral, marco estratégico e indicador, así como la formulación de actividades operativas y tareas, cuyo cumplimiento obligatorio es responsabilidad de cada unidad orgánica competente de la ONPE."
+  }, {
+    "type" : "paragraph",
+    "id" : 593,
+    "page number" : 4,
+    "bounding box" : [ 111.181, 482.842, 510.698, 558.779 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Asimismo, conforme al artículo 24° de la Ley n.° 26487', la ONPE mediante Resolución Jefatural n.° 000127-2025-JN/ONPE de 1 de agosto de 2025, se aprobó la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales (ODPE) para la organización y ejecución de las Elecciones Generales 2026, que estarán a cargo de dirigir, coordinar, organizar y ejecutar las acciones necesarias para el desarrollo de las Elecciones Generales 2026, en sus respectivas jurisdicciones."
+  }, {
+    "type" : "paragraph",
+    "id" : 594,
+    "page number" : 4,
+    "bounding box" : [ 112.366, 319.042, 511.92, 469.481 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Entre las tareas del proceso operativo a cargo de las ODPE se establecen las siguientes: 2.6.4.4 \"Elaborar y gestionar la aprobación de las propuestas de rutas de despliegue y repliegue\"; 2.6.4.5 \"Gestionar la contratación del servicio para el despliegue y repliegue del material electoral de la ONPE\"; 2.6.4.6 \"Organizar y efectuar la verificación pública del material electoral (Lima Centro 1)\"; 2.6.4.8 \"Efectuar el seguimiento al despliegue del material electoral desde los almacenes de la GGE al Ministerio de Relaciones Exteriores (Lima Centro 1)\"; 2.6.4.9 \"Organizar y efectuar la verificación pública del material electoral (excepto Lima Centro 1 - extranjero)\"; 2.6.4.11 \"Distribuir el material electoral para el sufragio desde la ODPE a los locales de votación (Provincias)\"; 2.6.4.14 \"Recibir de la GOECOR y distribuir a los LV la relación de ciudadanos fallecidos (excepto Lima Centro 1extranjero)\", y 2.6.4.15 \"Organizar y desplegar el material de sufragio, material de reserva y paquete del coordinador del local de votación, ánforas, cabinas, cajas de restos electorales y refrigerios para los MM\", conforme se detalla en el siguiente cuadro:"
+  }, {
+    "type" : "heading",
+    "id" : 599,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 293.203, 298.151, 344.559, 308.151 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cuadro n. ° 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 601,
+    "page number" : 4,
+    "bounding box" : [ 128.285, 271.226, 493.593, 295.883 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Actividades Operativas según el POE Vs 03, de las ODPE: Despliegue y repliegue de material electoral y equipos informáticos electorales"
+  }, {
+    "type" : "table",
+    "id" : 602,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 111.799, 128.363, 503.549, 264.082 ],
+    "number of rows" : 4,
+    "number of columns" : 12,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 111.799, 230.152, 144.445, 264.082 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 352,
+          "page number" : 4,
+          "bounding box" : [ 111.799, 230.152, 144.445, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Proceso"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 144.445, 230.152, 177.091, 264.082 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 353,
+          "page number" : 4,
+          "bounding box" : [ 144.445, 230.152, 177.091, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Proceso Operati Vo"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 177.091, 230.152, 209.737, 264.082 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 209.737, 230.152, 242.382, 264.082 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 354,
+          "page number" : 4,
+          "bounding box" : [ 209.737, 230.152, 242.382, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 242.382, 230.152, 275.028, 264.082 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 275.028, 230.152, 340.32, 264.082 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 355,
+          "page number" : 4,
+          "bounding box" : [ 275.028, 230.152, 340.32, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Fecha"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 307.674, 230.152, 340.32, 264.082 ],
+        "row number" : 1,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 340.32, 230.152, 503.549, 264.082 ],
+        "row number" : 1,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 5,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 356,
+          "page number" : 4,
+          "bounding box" : [ 340.32, 230.152, 503.549, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Programación fisica"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 372.966, 230.152, 405.612, 264.082 ],
+        "row number" : 1,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 405.612, 230.152, 438.257, 264.082 ],
+        "row number" : 1,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 438.257, 230.152, 470.903, 264.082 ],
+        "row number" : 1,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 357,
+          "page number" : 4,
+          "bounding box" : [ 438.257, 230.152, 470.903, 264.082 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Metafisica anual"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 470.903, 230.152, 503.549, 264.082 ],
+        "row number" : 1,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 111.799, 196.223, 144.445, 230.152 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 144.445, 196.223, 177.091, 230.152 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 177.091, 196.223, 209.737, 230.152 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 358,
+          "page number" : 4,
+          "bounding box" : [ 177.091, 196.223, 209.737, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Actividad Operativa (AO)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 209.737, 196.223, 242.382, 230.152 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 359,
+          "page number" : 4,
+          "bounding box" : [ 209.737, 196.223, 242.382, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 242.382, 196.223, 275.028, 230.152 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 360,
+          "page number" : 4,
+          "bounding box" : [ 242.382, 196.223, 275.028, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Tarea"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 275.028, 196.223, 307.674, 230.152 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 361,
+          "page number" : 4,
+          "bounding box" : [ 275.028, 196.223, 307.674, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Inicio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 307.674, 196.223, 340.32, 230.152 ],
+        "row number" : 2,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 362,
+          "page number" : 4,
+          "bounding box" : [ 307.674, 196.223, 340.32, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Fin"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 340.32, 196.223, 372.966, 230.152 ],
+        "row number" : 2,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 372.966, 196.223, 405.612, 230.152 ],
+        "row number" : 2,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 405.612, 196.223, 438.257, 230.152 ],
+        "row number" : 2,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 363,
+          "page number" : 4,
+          "bounding box" : [ 405.612, 196.223, 438.257, 230.152 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "MAR"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 438.257, 196.223, 470.903, 230.152 ],
+        "row number" : 2,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 470.903, 196.223, 503.549, 230.152 ],
+        "row number" : 2,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 111.799, 128.363, 144.445, 196.223 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 364,
+          "page number" : 4,
+          "bounding box" : [ 111.799, 128.363, 144.445, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "II. Procesos operativos"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 144.445, 128.363, 177.091, 196.223 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 365,
+          "page number" : 4,
+          "bounding box" : [ 144.445, 128.363, 177.091, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6. Producción ,y distribución de materiales y equipos electorales"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 177.091, 128.363, 209.737, 196.223 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 366,
+          "page number" : 4,
+          "bounding box" : [ 177.091, 128.363, 209.737, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4 Despliegue de material electoral para sufragio y equipos informáticos electorales para sufragio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 209.737, 128.363, 242.382, 196.223 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 367,
+          "page number" : 4,
+          "bounding box" : [ 209.737, 128.363, 242.382, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 242.382, 162.293, 275.028, 196.223 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 368,
+          "page number" : 4,
+          "bounding box" : [ 242.382, 162.293, 275.028, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "26.4.4 Elaborar y gestionar la aprobación de las propuestas de rutas de despliegue y repliegue"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 275.028, 162.293, 307.674, 196.223 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 369,
+          "page number" : 4,
+          "bounding box" : [ 275.028, 162.293, 307.674, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "18/02/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 307.674, 162.293, 340.32, 196.223 ],
+        "row number" : 3,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 370,
+          "page number" : 4,
+          "bounding box" : [ 307.674, 162.293, 340.32, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "28/02/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 340.32, 162.293, 372.966, 196.223 ],
+        "row number" : 3,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 372.966, 162.293, 405.612, 196.223 ],
+        "row number" : 3,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 371,
+          "page number" : 4,
+          "bounding box" : [ 372.966, 162.293, 405.612, 196.223 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 405.612, 162.293, 438.257, 196.223 ],
+        "row number" : 3,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 438.257, 162.293, 470.903, 196.223 ],
+        "row number" : 3,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 470.903, 162.293, 503.549, 196.223 ],
+        "row number" : 3,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 111.799, 128.363, 144.445, 162.293 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 144.445, 128.363, 177.091, 162.293 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 177.091, 128.363, 209.737, 162.293 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 209.737, 128.363, 242.382, 162.293 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 242.382, 128.363, 275.028, 162.293 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 372,
+          "page number" : 4,
+          "bounding box" : [ 242.382, 128.363, 275.028, 162.293 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.5. Gestionar la contratación del servicio para el despliegue y"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 275.028, 128.363, 307.674, 162.293 ],
+        "row number" : 4,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 373,
+          "page number" : 4,
+          "bounding box" : [ 275.028, 128.363, 307.674, 162.293 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "02/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 307.674, 128.363, 340.32, 162.293 ],
+        "row number" : 4,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 374,
+          "page number" : 4,
+          "bounding box" : [ 307.674, 128.363, 340.32, 162.293 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "31/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 340.32, 128.363, 372.966, 162.293 ],
+        "row number" : 4,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 372.966, 128.363, 405.612, 162.293 ],
+        "row number" : 4,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 405.612, 128.363, 438.257, 162.293 ],
+        "row number" : 4,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 438.257, 128.363, 470.903, 162.293 ],
+        "row number" : 4,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 470.903, 128.363, 503.549, 162.293 ],
+        "row number" : 4,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 623,
+    "page number" : 5,
+    "bounding box" : [ 32.988, 336.156, 57.423, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORTA"
+  }, {
+    "type" : "paragraph",
+    "id" : 624,
+    "page number" : 5,
+    "bounding box" : [ 29.322, 321.487, 58.645, 337.533 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 625,
+    "page number" : 5,
+    "bounding box" : [ 4.887, 273.814, 89.189, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972 Pe: 8 228 671 2 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 630,
+    "page number" : 5,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 629,
+    "page number" : 5,
+    "bounding box" : [ 25.657, 224.919, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 632,
+    "page number" : 5,
+    "bounding box" : [ 3.665, 190.692, 73.306, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 633,
+    "page number" : 5,
+    "bounding box" : [ 3.665, 178.468, 83.08, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 635,
+    "page number" : 5,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 636,
+    "page number" : 5,
+    "bounding box" : [ 26.879, 128.35, 58.645, 141.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 638,
+    "page number" : 5,
+    "bounding box" : [ 3.665, 85.567, 85.524, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo: Doy Visto Bueno Fecha: 09-04-2026 16:49:26 -05:00"
+  }, {
+    "type" : "header",
+    "id" : 895,
+    "page number" : 5,
+    "bounding box" : [ 386.078, 777.436, 499.702, 790.882 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 905,
+      "page number" : 5,
+      "bounding box" : [ 386.078, 777.436, 499.702, 790.882 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 619,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 395.852, 771.324, 493.593, 778.691 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "• GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "heading",
+    "id" : 620,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 466.694, 744.325, 510.719, 753.095 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 3 de 9"
+  }, {
+    "type" : "table",
+    "id" : 621,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 111.879, 267.945, 504.608, 738.022 ],
+    "number of rows" : 9,
+    "number of columns" : 11,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 685.791, 147.581, 738.022 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 685.791, 183.284, 738.022 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 376,
+          "page number" : 5,
+          "bounding box" : [ 147.581, 685.791, 183.284, 738.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Proceso"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 685.791, 218.987, 738.022 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 377,
+          "page number" : 5,
+          "bounding box" : [ 183.284, 685.791, 218.987, 738.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Actividad"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 685.791, 254.689, 738.022 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 685.791, 326.095, 738.022 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 378,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 685.791, 326.095, 738.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Fecha"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 685.791, 326.095, 738.022 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 685.791, 504.608, 738.022 ],
+        "row number" : 1,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 5,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 379,
+          "page number" : 5,
+          "bounding box" : [ 326.095, 685.791, 504.608, 738.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Programación física"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 685.791, 397.5, 738.022 ],
+        "row number" : 1,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 685.791, 433.203, 738.022 ],
+        "row number" : 1,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 633.561, 468.905, 738.022 ],
+        "row number" : 1,
+        "column number" : 10,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 380,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 633.561, 468.905, 738.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Meta física anual"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 685.791, 504.608, 738.022 ],
+        "row number" : 1,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 633.561, 147.581, 685.791 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 381,
+          "page number" : 5,
+          "bounding box" : [ 111.879, 633.561, 147.581, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Proceso"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 633.561, 183.284, 685.791 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 633.561, 218.987, 685.791 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 382,
+          "page number" : 5,
+          "bounding box" : [ 183.284, 633.561, 218.987, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Operati Operativa (AO)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 633.561, 254.689, 685.791 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 383,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 633.561, 254.689, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Tarea"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 633.561, 290.392, 685.791 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 384,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 633.561, 290.392, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Inicio"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 633.561, 326.095, 685.791 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 385,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 633.561, 326.095, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Fin"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 633.561, 361.797, 685.791 ],
+        "row number" : 2,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 633.561, 397.5, 685.791 ],
+        "row number" : 2,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 386,
+          "page number" : 5,
+          "bounding box" : [ 361.797, 633.561, 397.5, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "ABR"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 633.561, 433.203, 685.791 ],
+        "row number" : 2,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 387,
+          "page number" : 5,
+          "bounding box" : [ 397.5, 633.561, 433.203, 685.791 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "MAY"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 633.561, 468.905, 685.791 ],
+        "row number" : 2,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 633.561, 504.608, 685.791 ],
+        "row number" : 2,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 581.33, 147.581, 633.561 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 581.33, 183.284, 633.561 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 581.33, 218.987, 633.561 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 581.33, 254.689, 633.561 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 388,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 581.33, 254.689, 633.561 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "repliegue del material electoral de la ONPE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 581.33, 290.392, 633.561 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 581.33, 326.095, 633.561 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 581.33, 361.797, 633.561 ],
+        "row number" : 3,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 581.33, 397.5, 633.561 ],
+        "row number" : 3,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 581.33, 433.203, 633.561 ],
+        "row number" : 3,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 581.33, 468.905, 633.561 ],
+        "row number" : 3,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 581.33, 504.608, 633.561 ],
+        "row number" : 3,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 529.099, 147.581, 581.33 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 529.099, 183.284, 581.33 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 529.099, 218.987, 581.33 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 529.099, 254.689, 581.33 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 389,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 529.099, 254.689, 581.33 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.6 Organizar y efectuar la verificación pública del material electoral (Lima Centro 1)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 529.099, 290.392, 581.33 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 390,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 529.099, 290.392, 581.33 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "18/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 529.099, 326.095, 581.33 ],
+        "row number" : 4,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 391,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 529.099, 326.095, 581.33 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "20/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 529.099, 361.797, 581.33 ],
+        "row number" : 4,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 529.099, 397.5, 581.33 ],
+        "row number" : 4,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 529.099, 433.203, 581.33 ],
+        "row number" : 4,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 529.099, 468.905, 581.33 ],
+        "row number" : 4,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 392,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 529.099, 468.905, 581.33 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 529.099, 504.608, 581.33 ],
+        "row number" : 4,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 476.868, 147.581, 529.099 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 476.868, 183.284, 529.099 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 476.868, 218.987, 529.099 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 476.868, 254.689, 529.099 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 393,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 476.868, 254.689, 529.099 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.8 Efectuar el seguimiento al despliegue del material electoral desde los almacenes de la GGE al Ministerio de Relaciones Exteriores (Lima Centro 1)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 476.868, 290.392, 529.099 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 394,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 476.868, 290.392, 529.099 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "21/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 476.868, 326.095, 529.099 ],
+        "row number" : 5,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 395,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 476.868, 326.095, 529.099 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "22/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 476.868, 361.797, 529.099 ],
+        "row number" : 5,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 476.868, 397.5, 529.099 ],
+        "row number" : 5,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 476.868, 433.203, 529.099 ],
+        "row number" : 5,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 476.868, 468.905, 529.099 ],
+        "row number" : 5,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 396,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 476.868, 468.905, 529.099 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 476.868, 504.608, 529.099 ],
+        "row number" : 5,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 424.637, 147.581, 476.868 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 424.637, 183.284, 476.868 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 424.637, 218.987, 476.868 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 424.637, 254.689, 476.868 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 397,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 424.637, 254.689, 476.868 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.9 Organizar y efectuar la verificación pública del material electoral (excepto Lima Centro 1- extranjero)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 424.637, 290.392, 476.868 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 398,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 424.637, 290.392, 476.868 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "28/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 424.637, 326.095, 476.868 ],
+        "row number" : 6,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 399,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 424.637, 326.095, 476.868 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "08/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 424.637, 361.797, 476.868 ],
+        "row number" : 6,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 424.637, 397.5, 476.868 ],
+        "row number" : 6,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 400,
+          "page number" : 5,
+          "bounding box" : [ 361.797, 424.637, 397.5, 476.868 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 424.637, 433.203, 476.868 ],
+        "row number" : 6,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 424.637, 468.905, 476.868 ],
+        "row number" : 6,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 401,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 424.637, 468.905, 476.868 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 424.637, 504.608, 476.868 ],
+        "row number" : 6,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 372.407, 147.581, 424.637 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 372.407, 183.284, 424.637 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 372.407, 218.987, 424.637 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 372.407, 254.689, 424.637 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 402,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 372.407, 254.689, 424.637 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "26.4.11 Distribuir el material electoral para el sufragio desde la ODPE a los locales de votación (Provincias)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 372.407, 290.392, 424.637 ],
+        "row number" : 7,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 403,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 372.407, 290.392, 424.637 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "30/03/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 372.407, 326.095, 424.637 ],
+        "row number" : 7,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 404,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 372.407, 326.095, 424.637 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "11/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 372.407, 361.797, 424.637 ],
+        "row number" : 7,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 372.407, 397.5, 424.637 ],
+        "row number" : 7,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 405,
+          "page number" : 5,
+          "bounding box" : [ 361.797, 372.407, 397.5, 424.637 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 372.407, 433.203, 424.637 ],
+        "row number" : 7,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 372.407, 468.905, 424.637 ],
+        "row number" : 7,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 406,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 372.407, 468.905, 424.637 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 372.407, 504.608, 424.637 ],
+        "row number" : 7,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 320.176, 147.581, 372.407 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 320.176, 183.284, 372.407 ],
+        "row number" : 8,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 320.176, 218.987, 372.407 ],
+        "row number" : 8,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 320.176, 254.689, 372.407 ],
+        "row number" : 8,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 407,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 320.176, 254.689, 372.407 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.14 Recibir de la GOECOR y distribuir a los LV la relación de ciudadanos fallecidos (excepto Lima Centro 1- extranjero"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 320.176, 290.392, 372.407 ],
+        "row number" : 8,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 408,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 320.176, 290.392, 372.407 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "01/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 320.176, 326.095, 372.407 ],
+        "row number" : 8,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 409,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 320.176, 326.095, 372.407 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "11/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 320.176, 361.797, 372.407 ],
+        "row number" : 8,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 320.176, 397.5, 372.407 ],
+        "row number" : 8,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 410,
+          "page number" : 5,
+          "bounding box" : [ 361.797, 320.176, 397.5, 372.407 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 320.176, 433.203, 372.407 ],
+        "row number" : 8,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 320.176, 468.905, 372.407 ],
+        "row number" : 8,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 411,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 320.176, 468.905, 372.407 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 320.176, 504.608, 372.407 ],
+        "row number" : 8,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 9,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 111.879, 267.945, 147.581, 320.176 ],
+        "row number" : 9,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 147.581, 267.945, 183.284, 320.176 ],
+        "row number" : 9,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 183.284, 267.945, 218.987, 320.176 ],
+        "row number" : 9,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 218.987, 267.945, 254.689, 320.176 ],
+        "row number" : 9,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 412,
+          "page number" : 5,
+          "bounding box" : [ 218.987, 267.945, 254.689, 320.176 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2.6.4.15 Organizar y desplegar el material de sufragio, material de reserva y paquete del coordinador del local de votación, anforas, cabinas, cajas de restos electorales y refrigerios para los MM."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 254.689, 267.945, 290.392, 320.176 ],
+        "row number" : 9,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 413,
+          "page number" : 5,
+          "bounding box" : [ 254.689, 267.945, 290.392, 320.176 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "01/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 290.392, 267.945, 326.095, 320.176 ],
+        "row number" : 9,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 414,
+          "page number" : 5,
+          "bounding box" : [ 290.392, 267.945, 326.095, 320.176 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "11/04/26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 326.095, 267.945, 361.797, 320.176 ],
+        "row number" : 9,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 361.797, 267.945, 397.5, 320.176 ],
+        "row number" : 9,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 415,
+          "page number" : 5,
+          "bounding box" : [ 361.797, 267.945, 397.5, 320.176 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 397.5, 267.945, 433.203, 320.176 ],
+        "row number" : 9,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 433.203, 267.945, 468.905, 320.176 ],
+        "row number" : 9,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 416,
+          "page number" : 5,
+          "bounding box" : [ 433.203, 267.945, 468.905, 320.176 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 468.905, 267.945, 504.608, 320.176 ],
+        "row number" : 9,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 626,
+    "page number" : 5,
+    "bounding box" : [ 112.402, 251.811, 510.698, 270.226 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fuente: Plan Operativo Electoral Elecciones Generales 2026 - versión 03, emitida mediante Resolución Jefatural n.° 000204-2025- JN/ONPE de 31 de diciembre de 2025."
+  }, {
+    "type" : "paragraph",
+    "id" : 628,
+    "page number" : 5,
+    "bounding box" : [ 113.624, 240.81, 351.869, 250.589 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Elaborado por: Comisión de Control a cargo del servicio del Contra Concurrente"
+  }, {
+    "type" : "paragraph",
+    "id" : 631,
+    "page number" : 5,
+    "bounding box" : [ 111.181, 142.943, 510.698, 218.913 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Para llevar a cabo la contratación de una persona natural o jurídica para que brinde el \"Servicio de Transporte terrestre para Despliegue y Repliegue de Documentos, Material Electoral y Equipos Informáticos\", para el cumplimiento de las actividades correspondientes al proceso de las Elecciones Generales 2026, las ODPE cuentan con el Instructivo - INO2-GAD/LOG versión 09 \"Contratación de Bienes y Servicios de las ODPE con cargo a los presupuestos de los procesos electorales y consultas populares\""
+  }, {
+    "type" : "paragraph",
+    "id" : 637,
+    "page number" : 5,
+    "bounding box" : [ 111.181, 105.125, 510.698, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "De igual forma para la elaboración de los términos de referencia para la contratación del mencionado servicio, la Gerencia de Organización Electoral y Coordinación Regional - GOECOR, a través del"
+  }, {
+    "type" : "paragraph",
+    "id" : 640,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 394.63, 771.324, 494.815, 778.691 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 641,
+    "page number" : 6,
+    "bounding box" : [ 465.437, 742.975, 510.754, 754.445 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 4 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 642,
+    "page number" : 6,
+    "bounding box" : [ 111.181, 710.052, 510.698, 734.709 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "personal logístico contratado ha elaborado un modelo de términos de referencia, a fin de que las ODPE lo apliquen en la medida que corresponda."
+  }, {
+    "type" : "heading",
+    "id" : 643,
+    "level" : "Doctitle",
+    "page number" : 6,
+    "bounding box" : [ 90.411, 684.395, 227.248, 696.759 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V. SITUACIONES ADVERSAS"
+  }, {
+    "type" : "paragraph",
+    "id" : 644,
+    "page number" : 6,
+    "bounding box" : [ 111.157, 608.747, 510.74, 672.4 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "De la revisión efectuada al Hito de Control n.° 1 \"Contratación del servicio de Despliegue y Repliegue\", se ha identificado (1) situación adversa que afecta o podría afectar el logro de los objetivos de las contrataciones de los Servicios de Transporte Terrestre para Despliegue y Repliegue de material electoral y equipos informáticos, en el marco de las Elecciones Generales 2026, según el detalle siguiente:"
+  }, {
+    "type" : "paragraph",
+    "id" : 645,
+    "page number" : 6,
+    "bounding box" : [ 111.181, 521.793, 510.698, 596.523 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "EN LA ELABORACIÓN DE LOS TÉRMINOS DE REFERENCIA PARA EL SERVICIO DE TRANSPORTE PARA DESPLIEGUE Y REPLIEGUE, LA ODPE AREQUIPA OMITIÓ CONSIDERAR ALGUNOS REQUISITOS MÍNIMOS DE LOS TÉRMINOS DE REFERENCIA ESTABLECIDOS POR LA GOECOR; SITUACIÓN QUE PONDRÍA EN RIESGO LA FINALIDAD DEL SERVICIO CONTRATADO Y AFECTARIA EL INICIO DE LAS ACTIVIDADES DE LA JORNADA ELECTORAL"
+  }, {
+    "type" : "paragraph",
+    "id" : 649,
+    "page number" : 6,
+    "bounding box" : [ 32.988, 337.378, 57.423, 344.712 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 650,
+    "page number" : 6,
+    "bounding box" : [ 30.544, 322.709, 57.423, 334.933 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 652,
+    "page number" : 6,
+    "bounding box" : [ 7.331, 290.885, 87.967, 303.213 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 653,
+    "page number" : 6,
+    "bounding box" : [ 6.109, 273.814, 87.967, 292.218 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Peca: 0428161 20500"
+  }, {
+    "type" : "paragraph",
+    "id" : 658,
+    "page number" : 6,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 657,
+    "page number" : 6,
+    "bounding box" : [ 25.657, 226.141, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 660,
+    "page number" : 6,
+    "bounding box" : [ 2.444, 190.692, 74.528, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 661,
+    "page number" : 6,
+    "bounding box" : [ 3.665, 178.468, 83.08, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 664,
+    "page number" : 6,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 665,
+    "page number" : 6,
+    "bounding box" : [ 26.879, 127.128, 58.645, 141.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 667,
+    "page number" : 6,
+    "bounding box" : [ 4.887, 107.57, 61.088, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 666,
+    "page number" : 6,
+    "bounding box" : [ 4.863, 101.251, 67.221, 108.999 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 668,
+    "page number" : 6,
+    "bounding box" : [ 6.087, 96.363, 72.106, 104.108 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 669,
+    "page number" : 6,
+    "bounding box" : [ 3.665, 92.901, 59.867, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov Visto Kileno"
+  }, {
+    "type" : "footer",
+    "id" : 892,
+    "page number" : 6,
+    "bounding box" : [ 4.887, 85.567, 85.524, 92.963 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 902,
+      "page number" : 6,
+      "bounding box" : [ 4.887, 85.567, 85.524, 92.963 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Fecha: 09-04-2026 16:49:26-05:00"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 646,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 111.113, 494.696, 176.002, 507.659 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "a. Condición:"
+  }, {
+    "type" : "paragraph",
+    "id" : 647,
+    "page number" : 6,
+    "bounding box" : [ 125.842, 320.206, 511.92, 482.842 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la visita realizada por la Comisión de Control el 24 de marzo del 2026 a la ODPE Arequipa, y contando con la presencia de la Coordinadora Administrativa de la ODPE AREQUIPA, se procedió con el llenado de los Formatos n.° I. y Il. sobre el \"REQUERIMIENTO DE LOS SERVICIOS DE TRANSPORTE PARA EL DESPLIEGUE Y REPLIEGUE\" y de la \"INTERACCION CON EL MERCADO DE LOS SERVICIOS DE TRANSPORTE PARA EL DESPLIEGUE Y REPLIEGUE\", además, se requirió los Expedientes de Contratación, correspondientes a los Servicios de Transporte Terrestre para el Despliegue y Repliegue de material electoral y equipos informáticos; de cuya revisión selectiva se advirtió que, en dos (2) Términos de Referencia (Formatos FM27-GAD/LOG) de Despliegue y de Repliegue, se omitieron los requisitos indicados en los numerales \"8.- REQUISITOS QUE DEBERÁ DE CUMPLIR EL PROVEEDOR ... SOBRE 1 - ARCHIVO 1: PROPUESTA TECNICA\" y \"11.- PLAZO DE EJECUCIÓN DEL SERVICIO\"; de los Términos de Referencia establecidos por la Gerencia de Organización Electoral y Coordinación Regional - GOECOR."
+  }, {
+    "type" : "paragraph",
+    "id" : 651,
+    "page number" : 6,
+    "bounding box" : [ 125.842, 273.814, 510.698, 309.263 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Al respecto, la ODPE Arequipa, por intermedio de la Coordinadora Administrativa de la Oficina Descentralizada de Procesos Electorales Arequipa, realizaron dos (2) Contrataciones Menores denominadas:"
+  }, {
+    "type" : "list",
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 139.281, 234.574, 486.263, 260.368 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 140.503, 246.902, 486.263, 260.368 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1.- \"Contratar Servicio de Despliegue de material electoral para ODPE - AREQUIPA\";",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 139.281, 234.574, 481.376, 248.235 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.- \"Contratar Servicio de Repliegue de material electoral para ODPE - AREQUIPA\".",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 659,
+    "page number" : 6,
+    "bounding box" : [ 125.842, 185.802, 511.92, 222.578 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Para las dos (2) contrataciones, se elaboraron los respectivos Términos de Referencia (TDR), siendo visados y suscritos por la Jefa de la Oficina de Procesos Electorales ODPE Arequipa y la Coordinadora Administrativa de la citada ODPE."
+  }, {
+    "type" : "paragraph",
+    "id" : 662,
+    "page number" : 6,
+    "bounding box" : [ 125.842, 107.57, 510.698, 172.356 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Referir que, al momento de llenar el mencionado Formato n.° ., la Coordinadora Administrativa de la ODPE Arequipa alcanzó los TDR de los dos (2) servicios a contratar de Despliegue y Repliegue, los mismos que, luego de la revisión y análisis se advierte que difieren del formato FM27-GAD/LOG denominado \"TERMINOS DE REFERENCIA (SERVICIO) PARA CONTRATOS MENORES\", de acuerdo a como se visualiza presente cuadro."
+  }, {
+    "type" : "paragraph",
+    "id" : 678,
+    "page number" : 7,
+    "bounding box" : [ 32.988, 337.378, 58.645, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 679,
+    "page number" : 7,
+    "bounding box" : [ 30.544, 321.487, 59.867, 336.2 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 680,
+    "page number" : 7,
+    "bounding box" : [ 7.323, 290.885, 87.975, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 681,
+    "page number" : 7,
+    "bounding box" : [ 4.887, 273.814, 89.189, 293.372 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pe: 8 228 671 2 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 684,
+    "page number" : 7,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 683,
+    "page number" : 7,
+    "bounding box" : [ 25.657, 224.919, 54.979, 242.032 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "header",
+    "id" : 896,
+    "page number" : 7,
+    "bounding box" : [ 384.856, 742.828, 512.007, 792.105 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 906,
+      "page number" : 7,
+      "bounding box" : [ 384.856, 776.214, 500.924, 792.105 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 907,
+      "page number" : 7,
+      "bounding box" : [ 394.63, 770.028, 494.815, 778.691 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    }, {
+      "type" : "paragraph",
+      "id" : 908,
+      "page number" : 7,
+      "bounding box" : [ 465.405, 742.828, 512.007, 754.592 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Página 5 de 9"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 675,
+    "level" : "Doctitle",
+    "page number" : 7,
+    "bounding box" : [ 136.838, 710.052, 508.255, 738.499 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cuadro n. °2 Cuadro de diferencias de TDR (formato FM27-GAD/LOG) y TDR de la ODPE - Arequipa"
+  }, {
+    "type" : "table",
+    "id" : 676,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 112.824, 257.116, 532.027, 699.604 ],
+    "number of rows" : 7,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 636.392, 196.664, 699.604 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 418,
+          "page number" : 7,
+          "bounding box" : [ 112.824, 636.392, 196.664, 699.604 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 636.392, 448.186, 699.604 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 419,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 636.392, 448.186, 699.604 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DESCRIPCIÓN DE LOS TÉRMINOS DE REFERENCIA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 636.392, 364.346, 699.604 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 636.392, 448.186, 699.604 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 636.392, 532.027, 699.604 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 573.179, 196.664, 636.392 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 573.179, 280.505, 636.392 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 420,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 573.179, 280.505, 636.392 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "NUMERALES"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 573.179, 364.346, 636.392 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 421,
+          "page number" : 7,
+          "bounding box" : [ 280.505, 573.179, 364.346, 636.392 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "SEGÚN FORMATO FM27-GAD/LOG"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 573.179, 448.186, 636.392 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 422,
+          "page number" : 7,
+          "bounding box" : [ 364.346, 573.179, 448.186, 636.392 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "SEGÚN ODPE - AREQUIPA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 573.179, 532.027, 636.392 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 423,
+          "page number" : 7,
+          "bounding box" : [ 448.186, 573.179, 532.027, 636.392 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DIFERENCIAS"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 509.967, 196.664, 573.179 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 509.967, 532.027, 573.179 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 4,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 424,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 509.967, 532.027, 573.179 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "(...)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 509.967, 364.346, 573.179 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 509.967, 448.186, 573.179 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 509.967, 532.027, 573.179 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 383.541, 196.664, 509.967 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 425,
+          "page number" : 7,
+          "bounding box" : [ 112.824, 383.541, 196.664, 509.967 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "8.-"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 446.754, 280.505, 509.967 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 426,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 446.754, 280.505, 509.967 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "PROVEEDOR"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 446.754, 364.346, 509.967 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 427,
+          "page number" : 7,
+          "bounding box" : [ 280.505, 446.754, 364.346, 509.967 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "TDR DESPLIEGUE: \"Declaración Jurada de no pertenecer o estar afiliado a ningún part lítico. Esta declaración debe : representante coar de ores ig asis al servicio\""
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 446.754, 448.186, 509.967 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 428,
+          "page number" : 7,
+          "bounding box" : [ 364.346, 446.754, 448.186, 509.967 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "\"Declaración jurada de no pertenecer y/o estar afiliad a ningún partido político. Esta declaración debe ser presentada por el titular y/o representante legal del"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 446.754, 532.027, 509.967 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 429,
+          "page number" : 7,
+          "bounding box" : [ 448.186, 446.754, 532.027, 509.967 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "\"(...), así como por los conductores asignados al"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 383.541, 196.664, 446.754 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 383.541, 280.505, 446.754 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 383.541, 364.346, 446.754 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 430,
+          "page number" : 7,
+          "bounding box" : [ 280.505, 383.541, 364.346, 446.754 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "presentante legal del contratista, a: omo por los conductores asignade al servicio\"."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 383.541, 448.186, 446.754 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 431,
+          "page number" : 7,
+          "bounding box" : [ 364.346, 383.541, 448.186, 446.754 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "\"Declaración jurada de no pertenecer y/o estar afiliado a ningún partido político. Esta declaración debe ser esentada por el titular y presentante legal o contratista\""
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 383.541, 532.027, 446.754 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 320.329, 196.664, 383.541 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 320.329, 532.027, 383.541 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 4,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 432,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 320.329, 532.027, 383.541 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "(...)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 320.329, 364.346, 383.541 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 320.329, 448.186, 383.541 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 320.329, 532.027, 383.541 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 112.824, 257.116, 196.664, 320.329 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 433,
+          "page number" : 7,
+          "bounding box" : [ 112.824, 257.116, 196.664, 320.329 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "11.-"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 196.664, 257.116, 280.505, 320.329 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 434,
+          "page number" : 7,
+          "bounding box" : [ 196.664, 257.116, 280.505, 320.329 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "PLAZO DE EJECUCION DEL CONTRATO (TDR DE DESPLIEGUE)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 280.505, 257.116, 364.346, 320.329 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 435,
+          "page number" : 7,
+          "bounding box" : [ 280.505, 257.116, 364.346, 320.329 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1 plazo de ejecución para el Servicio ansporte Terrestre para el Desplieg Repliegue Documentas de Electorales ... del mes de de Dedus Repie Ele de Mas in Personal Documentos Electorales comunique al contratista la culminación del servicio. Electoral, estará contratista para quen laordinará ras del 11.04.2026 día del ODPE a las Locales de Votación y poder dar el inici del Servicio según lo programado en el ANEXO B\"."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 364.346, 257.116, 448.186, 320.329 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 436,
+          "page number" : 7,
+          "bounding box" : [ 364.346, 257.116, 448.186, 320.329 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "todos los locales de votación, nuestro) ODPE NOTA: Debe deci"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 7,
+        "bounding box" : [ 448.186, 257.116, 532.027, 320.329 ],
+        "row number" : 7,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 437,
+          "page number" : 7,
+          "bounding box" : [ 448.186, 257.116, 532.027, 320.329 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "E/ Servicio de Despliegue d"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 685,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 189.469, 14.661, 194.359 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 687,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 184.58, 59.867, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 686,
+    "page number" : 7,
+    "bounding box" : [ 3.665, 178.468, 81.858, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 690,
+    "page number" : 7,
+    "bounding box" : [ 29.322, 141.797, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 689,
+    "page number" : 7,
+    "bounding box" : [ 26.879, 127.128, 61.088, 143.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®)"
+  }, {
+    "type" : "paragraph",
+    "id" : 691,
+    "page number" : 7,
+    "bounding box" : [ 7.331, 107.57, 58.645, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "irmado digitalmente po"
+  }, {
+    "type" : "paragraph",
+    "id" : 692,
+    "page number" : 7,
+    "bounding box" : [ 7.331, 91.63, 58.645, 96.628 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Buenc"
+  }, {
+    "type" : "paragraph",
+    "id" : 693,
+    "page number" : 7,
+    "bounding box" : [ 7.331, 85.567, 81.858, 92.963 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "echa: 09-04-2026 16:49:26-05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 701,
+    "page number" : 8,
+    "bounding box" : [ 32.988, 337.378, 57.423, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 702,
+    "page number" : 8,
+    "bounding box" : [ 30.544, 322.709, 58.645, 336.156 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 704,
+    "page number" : 8,
+    "bounding box" : [ 7.331, 292.15, 89.189, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 705,
+    "page number" : 8,
+    "bounding box" : [ 6.074, 273.655, 88.002, 292.308 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pecta:00 328 16:12 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 709,
+    "page number" : 8,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 708,
+    "page number" : 8,
+    "bounding box" : [ 25.657, 226.141, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 711,
+    "page number" : 8,
+    "bounding box" : [ 2.444, 190.692, 74.528, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 712,
+    "page number" : 8,
+    "bounding box" : [ 3.665, 178.468, 83.08, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 715,
+    "page number" : 8,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 714,
+    "page number" : 8,
+    "bounding box" : [ 26.879, 127.128, 59.867, 143.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 718,
+    "page number" : 8,
+    "bounding box" : [ 4.887, 107.57, 61.088, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por"
+  }, {
+    "type" : "paragraph",
+    "id" : 717,
+    "page number" : 8,
+    "bounding box" : [ 4.866, 101.27, 67.219, 108.98 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CHAVEZ CHAVEZ Marissa"
+  }, {
+    "type" : "paragraph",
+    "id" : 719,
+    "page number" : 8,
+    "bounding box" : [ 6.084, 96.338, 72.109, 104.133 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alicia FAU 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 720,
+    "page number" : 8,
+    "bounding box" : [ 3.665, 92.901, 59.867, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo Dov visto Kileno"
+  }, {
+    "type" : "footer",
+    "id" : 893,
+    "page number" : 8,
+    "bounding box" : [ 4.887, 85.567, 85.524, 92.963 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 903,
+      "page number" : 8,
+      "bounding box" : [ 4.887, 85.567, 85.524, 92.963 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Fecha: 09-04-2026 16:49:26-05:00"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 897,
+    "page number" : 8,
+    "bounding box" : [ 383.634, 743.209, 510.698, 792.105 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 909,
+      "page number" : 8,
+      "bounding box" : [ 383.634, 776.214, 500.924, 792.105 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 910,
+      "page number" : 8,
+      "bounding box" : [ 394.63, 771.324, 494.815, 778.691 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    }, {
+      "type" : "paragraph",
+      "id" : 911,
+      "page number" : 8,
+      "bounding box" : [ 465.493, 743.209, 510.698, 754.368 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Página 6 de 9"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 698,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 111.979, 455.172, 532.01, 736.893 ],
+    "number of rows" : 3,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 111.979, 549.079, 195.985, 736.893 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 439,
+          "page number" : 8,
+          "bounding box" : [ 111.979, 549.079, 195.985, 736.893 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 195.985, 642.986, 448.004, 736.893 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 440,
+          "page number" : 8,
+          "bounding box" : [ 195.985, 642.986, 448.004, 736.893 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DESCRIPCIÓN DE LOS TÉRMINOS DE REFERENCIA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 279.991, 642.986, 363.998, 736.893 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 363.998, 642.986, 448.004, 736.893 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 448.004, 549.079, 532.01, 736.893 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 441,
+          "page number" : 8,
+          "bounding box" : [ 448.004, 549.079, 532.01, 736.893 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DIFERENCIAS"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 111.979, 549.079, 195.985, 642.986 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 195.985, 549.079, 279.991, 642.986 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 442,
+          "page number" : 8,
+          "bounding box" : [ 195.985, 549.079, 279.991, 642.986 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "NUMERALES"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 279.991, 549.079, 363.998, 642.986 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 443,
+          "page number" : 8,
+          "bounding box" : [ 279.991, 549.079, 363.998, 642.986 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "SEGÚN FORMATO FM27-GAD/LOG"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 363.998, 549.079, 448.004, 642.986 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 444,
+          "page number" : 8,
+          "bounding box" : [ 363.998, 549.079, 448.004, 642.986 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "SEGÚN ODPE - AREQUIPA"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 448.004, 549.079, 532.01, 642.986 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 111.979, 455.172, 195.985, 549.079 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 195.985, 455.172, 279.991, 549.079 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 445,
+          "page number" : 8,
+          "bounding box" : [ 195.985, 455.172, 279.991, 549.079 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "PLAZO DE EJECUCION 11. DEL CONTRATO (TDR DE REPLIEGUE)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 279.991, 455.172, 363.998, 549.079 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 446,
+          "page number" : 8,
+          "bounding box" : [ 279.991, 455.172, 363.998, 549.079 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "\"e la de Tereo para el ale de Electoral, Personal Escones ene 2020, me dia Electorales y Electoral, Documentos Electorales ... go Cordinara Con el 1004 Debe decir contratista para que a las ........ horas del día del mes de . de ..... se concentren en el local de la ODPE recibir las instrucciones y las designaciones de los Locales de Votación y poder dar el inicio del Servicio según lo programado en el ANEXO B\"."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 363.998, 455.172, 448.004, 549.079 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 447,
+          "page number" : 8,
+          "bounding box" : [ 363.998, 455.172, 448.004, 549.079 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "todos los locales de votación,"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 448.004, 455.172, 532.01, 549.079 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 448,
+          "page number" : 8,
+          "bounding box" : [ 448.004, 455.172, 532.01, 549.079 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "E/ Servicio de Despliegue a Material Electora Documentos Electorales y ersonal Responsable par a ODPE estará a cargo de ..., quie coordinará con el contratist del día ...... del mes de DPE...... as instrucciones y las designaciones de los Locales de Votación y poder dar el inicio del Servicio según lo programado en el ANEXO B\"."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 699,
+    "page number" : 8,
+    "bounding box" : [ 125.842, 354.491, 510.698, 441.281 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Al respecto, de la revisión y análisis realizado por la Comisión de Control a los TDR para el Servicio de Transporte Terrestre para el Despliegue y Repliegue de material electoral y equipos informáticos, se evidencia diferencia entre ambos TDR en el numeral \"8.- REQUISITOS QUE DEBERÁ CUMPLIR EL PROVEEDOR: - PROPUESTA TÉCNICA (Sobre 1 y/o Archivo 1)\"; donde se omite en los formulados por la ODPE Arequipa, respecto a la declaración jurada sobre no pertenecer y/o estar afiliado a ningún partido político, que también debe ser presentada por los conductores asignados al servicio."
+  }, {
+    "type" : "paragraph",
+    "id" : 703,
+    "page number" : 8,
+    "bounding box" : [ 125.731, 262.813, 523.026, 338.6 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Asimismo, el numeral \"11.- PLAZO DE EJECUCION DEL SERVICIO\", de los TDR alcanzados por la Coordinadora Administrativa de la ODPE AREQUIPA, respecto a los establecidos por la Gerencia de Organización Electoral y Coordinación Regional - GOECOR, obviaron considerar el segundo párrafo de dicho numeral; el cual fija instrucciones al contratista sobre el día y el horario en que debe concentrarse en el local de la ODPE, para que se le designe los locales de votación donde trasladarse, y poder dar el inicio del servicio según lo programado."
+  }, {
+    "type" : "heading",
+    "id" : 707,
+    "level" : "Doctitle",
+    "page number" : 8,
+    "bounding box" : [ 112.327, 238.041, 163.792, 250.913 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "b. Criterio:"
+  }, {
+    "type" : "paragraph",
+    "id" : 710,
+    "page number" : 8,
+    "bounding box" : [ 124.62, 166.244, 510.698, 224.919 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FORMATO - CONTRATACIÓN DEL SERVICIO DE TRANSPORTE TERRESTRE PARA DESPLIEGUE Y REPLIEGUE DE MATERIAL DE PROCESOS ELECTORALES ...... ELECCIONES GENERALES 2026 - Términos de Referencia (Servicio) para Contratos Menores."
+  }, {
+    "type" : "paragraph",
+    "id" : 716,
+    "page number" : 8,
+    "bounding box" : [ 139.281, 117.287, 390.965, 130.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8.- REQUISITOS QUE DEBERÁ CUMPLIR EL PROVEEDOR"
+  }, {
+    "type" : "header",
+    "id" : 898,
+    "page number" : 9,
+    "bounding box" : [ 389.743, 742.954, 511.986, 792.105 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 912,
+      "page number" : 9,
+      "bounding box" : [ 389.743, 776.214, 500.924, 792.105 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 913,
+      "page number" : 9,
+      "bounding box" : [ 394.63, 770.028, 493.593, 778.691 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    }, {
+      "type" : "paragraph",
+      "id" : 914,
+      "page number" : 9,
+      "bounding box" : [ 465.427, 742.954, 511.986, 755.689 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "Página 7 de 9"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 726,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 155.164, 672.311, 355.534, 684.535 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "PROPUESTA TÉCNICA (Sobre 1 y/o Archivo 1):"
+  }, {
+    "type" : "paragraph",
+    "id" : 727,
+    "page number" : 9,
+    "bounding box" : [ 153.943, 662.532, 174.713, 672.311 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...),"
+  }, {
+    "type" : "paragraph",
+    "id" : 728,
+    "page number" : 9,
+    "bounding box" : [ 146.612, 630.75, 522.916, 663.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "declaración debe ser preso pade por o estar fiares en tante lega dido poti as como por los conductores asignados al servicio"
+  }, {
+    "type" : "paragraph",
+    "id" : 729,
+    "page number" : 9,
+    "bounding box" : [ 146.612, 609.969, 436.17, 619.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Declaración Jurada de no estar impedido para contratar con el estado."
+  }, {
+    "type" : "heading",
+    "id" : 730,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 140.503, 576.965, 329.877, 598.968 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(...) 11.- PLAZO DE EJECUCIÓN DEL SERVICIO:"
+  }, {
+    "type" : "paragraph",
+    "id" : 731,
+    "page number" : 9,
+    "bounding box" : [ 155.164, 515.796, 293.224, 526.847 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "concentren en el local de la ODPE"
+  }, {
+    "type" : "heading",
+    "id" : 732,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 113.433, 462.744, 193.208, 474.568 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "c. Consecuencia:"
+  }, {
+    "type" : "paragraph",
+    "id" : 733,
+    "page number" : 9,
+    "bounding box" : [ 125.842, 396.052, 511.92, 447.489 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La situación expuesta pondría en riesgo la finalidad de los Servicios de Transporte Terrestre para el Despliegue y Repliegue del material electoral y equipos informáticos para la ODPE Arequipa, y con ello el inicio de las actividades de la jornada del proceso electoral Elecciones Generales 2026, en el ámbito de su jurisdicción."
+  }, {
+    "type" : "heading",
+    "id" : 734,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 90.411, 360.524, 351.869, 374.185 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VI. DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL"
+  }, {
+    "type" : "paragraph",
+    "id" : 737,
+    "page number" : 9,
+    "bounding box" : [ 32.988, 337.378, 57.423, 343.49 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 738,
+    "page number" : 9,
+    "bounding box" : [ 30.544, 321.487, 58.645, 336.2 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 739,
+    "page number" : 9,
+    "bounding box" : [ 7.318, 292.15, 87.98, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 741,
+    "page number" : 9,
+    "bounding box" : [ 6.074, 273.655, 88.002, 292.308 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pecta:00 328 16:12 0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 736,
+    "page number" : 9,
+    "bounding box" : [ 111.181, 309.211, 510.698, 348.529 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La información y documentación que la Comisión de Control ha revisado y analizado durante el desarrollo del servicio de Control Concurrente al Hito de Control n.° 1 \"Contratación del servicio de Despliegue y Repliegue\", se encuentra detallada en el Apéndice N° 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 740,
+    "page number" : 9,
+    "bounding box" : [ 111.181, 259.145, 511.92, 298.262 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La situación adversa identificada en el presente informe se sustenta en la revisión y análisis de la documentación obtenida por la Comisión de Control, la cual ha sido señalada en la condición y se encuentra en el acervo documentario de la Entidad (ODPE Arequipa)."
+  }, {
+    "type" : "paragraph",
+    "id" : 744,
+    "page number" : 9,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 743,
+    "page number" : 9,
+    "bounding box" : [ 25.657, 224.919, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "heading",
+    "id" : 745,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 83.08, 222.474, 443.501, 234.698 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS"
+  }, {
+    "type" : "paragraph",
+    "id" : 746,
+    "page number" : 9,
+    "bounding box" : [ 3.624, 190.692, 72.084, 211.583 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 748,
+    "page number" : 9,
+    "bounding box" : [ 3.665, 178.468, 83.08, 188.259 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Dov Visto Bueno Fecha: 09-04-2026 16:41:48 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 747,
+    "page number" : 9,
+    "bounding box" : [ 111.181, 172.152, 510.698, 209.028 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la ejecución del presente Servicio del Control Concurrente, para la \"Contratación del servicio de Despliegue y Repliegue\" la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas"
+  }, {
+    "type" : "heading",
+    "id" : 750,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 83.08, 146.513, 174.744, 160.305 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VIII. CONCLUSIÓN"
+  }, {
+    "type" : "paragraph",
+    "id" : 751,
+    "page number" : 9,
+    "bounding box" : [ 30.544, 143.019, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 752,
+    "page number" : 9,
+    "bounding box" : [ 26.879, 128.35, 58.645, 141.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B°"
+  }, {
+    "type" : "paragraph",
+    "id" : 753,
+    "page number" : 9,
+    "bounding box" : [ 111.181, 95.296, 510.698, 133.281 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Durante la ejecución del servicio de Control Concurrente al Hito de Control n.° 1 \"Contratación del servicio de Despliegue y Repliegue\", se ha advertido una situación adversa que podría afectar el logro de los objetivos de las contrataciones de los Servicios de Transporte Terrestre para Despliegue"
+  }, {
+    "type" : "paragraph",
+    "id" : 754,
+    "page number" : 9,
+    "bounding box" : [ 3.665, 85.567, 84.302, 113.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo: Doy Visto Bueno Fecha: 09-04-2026 16:49:26 -05:00"
+  }, {
+    "type" : "header",
+    "id" : 899,
+    "page number" : 10,
+    "bounding box" : [ 384.856, 771.324, 499.702, 790.882 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 915,
+      "page number" : 10,
+      "bounding box" : [ 384.856, 777.436, 499.702, 790.882 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "CONTRALORÍA"
+    }, {
+      "type" : "paragraph",
+      "id" : 916,
+      "page number" : 10,
+      "bounding box" : [ 394.63, 771.324, 493.593, 778.691 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 758,
+    "page number" : 10,
+    "bounding box" : [ 111.181, 710.052, 510.698, 734.709 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "y Repliegue de material electoral y equipos informáticos, en el marco de las Elecciones Generales 2026, la cual ha sido detallada en el presente informe."
+  }, {
+    "type" : "heading",
+    "id" : 759,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 84.302, 685.757, 207.7, 696.759 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IX. RECOMENDACIONES"
+  }, {
+    "type" : "paragraph",
+    "id" : 760,
+    "page number" : 10,
+    "bounding box" : [ 112.402, 569.631, 510.698, 671.089 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente informe de Hito de Control, el cual contiene la situación adversa identificada como resultado del servicio de Control Concurrente al Hito de Control n.° 1 \"Contratación del servicio de Despliegue y Repliegue\", con la finalidad que se adopten las acciones preventivas y correctivas que correspondan, en el marco de sus competencias y obligaciones en la gestión institucional, con el objeto de asegurar el logro de los objetivos de las contrataciones de los Servicios de Transporte Terrestre para Despliegue y Repliegue de material electoral y equipos informáticos, en el marco de las Elecciones Generales- 2026."
+  }, {
+    "type" : "paragraph",
+    "id" : 761,
+    "page number" : 10,
+    "bounding box" : [ 111.181, 507.132, 509.476, 558.779 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a la situación adversa contenidas en el presente informe, adjuntando la documentación de sustento respectiva."
+  }, {
+    "type" : "paragraph",
+    "id" : 762,
+    "page number" : 10,
+    "bounding box" : [ 392.187, 482.809, 510.698, 495.137 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Arequipa, 9 de abril del 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 766,
+    "page number" : 10,
+    "bounding box" : [ 109.959, 388.718, 243.131, 415.61 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 sof INTRALORÍA Fecha: 09-04-2026 16:42:10 -05"
+  }, {
+    "type" : "paragraph",
+    "id" : 771,
+    "page number" : 10,
+    "bounding box" : [ 129.507, 342.198, 230.914, 378.939 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pedro Oviedo Vásquez Supervisor Comisión de Control Página 8 de 9"
+  }, {
+    "type" : "paragraph",
+    "id" : 764,
+    "page number" : 10,
+    "bounding box" : [ 412.957, 419.167, 486.263, 425.498 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "mado digitalmente por CARRAN:"
+  }, {
+    "type" : "paragraph",
+    "id" : 770,
+    "page number" : 10,
+    "bounding box" : [ 412.957, 415.502, 481.376, 418.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "RNANDEZ Rommel lacinto s"
+  }, {
+    "type" : "paragraph",
+    "id" : 768,
+    "page number" : 10,
+    "bounding box" : [ 406.848, 408.172, 449.61, 414.502 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 769,
+    "page number" : 10,
+    "bounding box" : [ 406.848, 408.172, 449.61, 414.502 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 767,
+    "page number" : 10,
+    "bounding box" : [ 348.203, 393.511, 487.485, 409.504 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA Mona: Soya a de acunarte"
+  }, {
+    "type" : "paragraph",
+    "id" : 772,
+    "page number" : 10,
+    "bounding box" : [ 368.973, 342.198, 496.037, 378.939 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rommel Carranza Fernández Jefe de Comisión Comisión de Control"
+  }, {
+    "type" : "paragraph",
+    "id" : 774,
+    "page number" : 10,
+    "bounding box" : [ 284.671, 304.213, 355.534, 322.872 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "mado digitalmente por CHAV AV- Maricca Alicar 20131378972 hard"
+  }, {
+    "type" : "paragraph",
+    "id" : 775,
+    "page number" : 10,
+    "bounding box" : [ 227.248, 293.217, 362.864, 306.878 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA Fecha: 00-0- 202616-4938-0500"
+  }, {
+    "type" : "paragraph",
+    "id" : 776,
+    "page number" : 10,
+    "bounding box" : [ 218.696, 227.243, 384.856, 276.259 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marissa Alicia Chávez Chávez Gerente Regional de Control (e) Gerencia Regional de Control de Arequipa Contraloria General de la República"
+  }, {
+    "type" : "paragraph",
+    "id" : 778,
+    "page number" : 11,
+    "bounding box" : [ 377.526, 777.359, 498.48, 789.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ") CONTRALORIA"
+  }, {
+    "type" : "paragraph",
+    "id" : 779,
+    "level" : "1",
+    "page number" : 11,
+    "bounding box" : [ 394.63, 771.324, 493.593, 777.436 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 780,
+    "page number" : 11,
+    "bounding box" : [ 465.454, 743.049, 510.737, 754.371 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Página 9 de 9"
+  }, {
+    "type" : "heading",
+    "id" : 781,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 128.285, 685.597, 481.376, 724.874 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "APÉNDICE N° 1 DOCUMENTACIÓN E INFORMACIÓN QUE SUSTENTA EL INFORME DE CONTROL CONCURRENTE"
+  }, {
+    "type" : "paragraph",
+    "id" : 785,
+    "page number" : 11,
+    "bounding box" : [ 32.988, 337.378, 57.423, 344.712 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 786,
+    "page number" : 11,
+    "bounding box" : [ 30.544, 322.709, 57.423, 334.933 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V B"
+  }, {
+    "type" : "paragraph",
+    "id" : 787,
+    "page number" : 11,
+    "bounding box" : [ 7.331, 292.15, 89.189, 308.041 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por CARRANZA FERNANDEZ Rommel Jacinto FAU 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 788,
+    "page number" : 11,
+    "bounding box" : [ 6.109, 273.814, 87.967, 292.218 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Peca: 0428161 20500"
+  }, {
+    "type" : "paragraph",
+    "id" : 782,
+    "page number" : 11,
+    "bounding box" : [ 105.072, 597.746, 510.698, 661.405 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "EN LA ELABORACIÓN DE LOS TÉRMINOS DE REFERENCIA PARA EL SERVICIO DE TRANSPORTE PARA DESPLIEGUE Y REPLIEGUE, LA ODPE AREQUIPA OMITIO CONSIDERAR ALGUNOS REQUISITOS MÍNIMOS DE LOS TÉRMINOS DE REFERENCIA ESTABLECIDOS POR LA GOECOR; SITUACIÓN QUE PONDRÍA EN RIESGO LA FINALIDAD DEL SERVICIO CONTRATADO Y AFECTARÍA EL INICIO DE LAS ACTIVIDADES DE LA JORNADA ELECTORAL."
+  }, {
+    "type" : "table",
+    "id" : 783,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 105.57, 324.863, 510.515, 587.54 ],
+    "number of rows" : 4,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.57, 521.87, 308.042, 587.54 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 450,
+          "page number" : 11,
+          "bounding box" : [ 105.57, 521.87, 308.042, 587.54 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "N°"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 308.042, 521.87, 510.515, 587.54 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.57, 456.201, 308.042, 521.87 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 451,
+          "page number" : 11,
+          "bounding box" : [ 105.57, 456.201, 308.042, 521.87 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 308.042, 456.201, 510.515, 521.87 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 452,
+          "page number" : 11,
+          "bounding box" : [ 308.042, 456.201, 510.515, 521.87 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Copia de Formato FN27-GSAD/LOG • TERMINOS DE REFERENCIA (SERVCIO) PARA CONTRATOS MENORES relacionado a la CONTRATACION DEL SERVICIO DE TRANSPORTE TERRESTRE PARA DESPLIEGUE Y REPLIEGUE DE MATERIAL ELECTORAL, DOCUMENTOS ELECTORALES Y PERSONAL RESPONSABLE DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ELECCIONES GENERALES 2026."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.57, 390.532, 308.042, 456.201 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 453,
+          "page number" : 11,
+          "bounding box" : [ 105.57, 390.532, 308.042, 456.201 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 308.042, 390.532, 510.515, 456.201 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 454,
+          "page number" : 11,
+          "bounding box" : [ 308.042, 390.532, 510.515, 456.201 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Copia de Formato FM27-GAD/ÉOG - TERMINOS DE REFERENCIA (SERVICIO) PARA CONTRATOS MENORES relacionado a la CONTRATACIÓN DEL SERVICIO DE TRANSPORTE TERRESTRE PARA DESPLIEGUE DE MATERIAL ELECTORAL, DOCUMENTOS ELECTORALES Y PERSONAL RESPONSABLE DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ELECCIONES GENERALES 2026, firmado por la Jefe de la ODPE AREQUIPA y la Coordinadora Administrativa de la ODPE Arequipa."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 105.57, 324.863, 308.042, 390.532 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 455,
+          "page number" : 11,
+          "bounding box" : [ 105.57, 324.863, 308.042, 390.532 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 11,
+        "bounding box" : [ 308.042, 324.863, 510.515, 390.532 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 456,
+          "page number" : 11,
+          "bounding box" : [ 308.042, 324.863, 510.515, 390.532 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Copia de Formato FM27 / LOG - TERMINOS DE REFERENCIA (SERVICIO) PARA CONTRATOS MENORES relacionado a la CONTRATACIÓN DEL SERVICIO DE TRANSPORTE TERRESTRE PARA REPLIEGUE DE MATERIAL ELECTORAL, DOCUMENTOS ELECTORALES Y PERSONAL RESPONSABLE DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ELECCIONES GENERALES 2026, firmado por la Jefe de La ODPE AREQUIPA y la Coordinadora Administrativa de la ODPE Arequipa."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 791,
+    "page number" : 11,
+    "bounding box" : [ 28.101, 240.81, 53.758, 245.699 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 790,
+    "page number" : 11,
+    "bounding box" : [ 25.657, 224.919, 54.979, 240.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B"
+  }, {
+    "type" : "paragraph",
+    "id" : 792,
+    "page number" : 11,
+    "bounding box" : [ 1.222, 189.469, 74.528, 212.695 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado digitalmente por OVIEDO VASQUEZ Pedro Luis Fernando FAU 20131378972 soft"
+  }, {
+    "type" : "paragraph",
+    "id" : 794,
+    "page number" : 11,
+    "bounding box" : [ 3.665, 183.261, 59.867, 189.592 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Motivo: Doy Visto Bueno"
+  }, {
+    "type" : "paragraph",
+    "id" : 793,
+    "page number" : 11,
+    "bounding box" : [ 3.665, 178.468, 83.08, 184.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:41:48 - 05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 797,
+    "page number" : 11,
+    "bounding box" : [ 29.322, 141.797, 54.979, 147.908 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 796,
+    "page number" : 11,
+    "bounding box" : [ 26.879, 127.128, 61.088, 143.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®)"
+  }, {
+    "type" : "paragraph",
+    "id" : 799,
+    "page number" : 11,
+    "bounding box" : [ 6.109, 92.901, 57.423, 95.346 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "votivo Dov visto Kilen"
+  }, {
+    "type" : "paragraph",
+    "id" : 798,
+    "page number" : 11,
+    "bounding box" : [ 6.109, 86.632, 83.08, 91.679 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha: 09-04-2026 16:49:26 -05:00"
+  }, {
+    "type" : "paragraph",
+    "id" : 803,
+    "page number" : 12,
+    "bounding box" : [ 102.628, 798.217, 180.821, 807.996 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "39L47020260000738"
+  }, {
+    "type" : "paragraph",
+    "id" : 805,
+    "page number" : 12,
+    "bounding box" : [ 251.684, 789.66, 344.538, 801.884 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 806,
+    "page number" : 12,
+    "bounding box" : [ 256.571, 784.689, 339.651, 789.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "GENERAL DE LA REPÚBLICA DEL PERÚ"
+  }, {
+    "type" : "paragraph",
+    "id" : 804,
+    "page number" : 12,
+    "bounding box" : [ 376.292, 800.59, 432.517, 810.512 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORÍA"
+  }, {
+    "type" : "paragraph",
+    "id" : 807,
+    "page number" : 12,
+    "bounding box" : [ 179.6, 751.203, 419.066, 767.696 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Decenio de la Igualdad de Oportunidades para Mujeres y Hombres Año de la Esperanza y el Fortalecimiento de la Democracia\""
+  }, {
+    "type" : "paragraph",
+    "id" : 808,
+    "page number" : 12,
+    "bounding box" : [ 84.302, 722.38, 244.353, 735.875 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Arequipa, 09 de Abril de 2026"
+  }, {
+    "type" : "heading",
+    "id" : 809,
+    "level" : "Doctitle",
+    "page number" : 12,
+    "bounding box" : [ 84.302, 707.719, 327.433, 722.429 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OFICIO N° 000738-2026-CG/GRAR"
+  }, {
+    "type" : "paragraph",
+    "id" : 810,
+    "page number" : 12,
+    "bounding box" : [ 86.726, 691.798, 123.417, 701.72 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Señora:"
+  }, {
+    "type" : "paragraph",
+    "id" : 811,
+    "page number" : 12,
+    "bounding box" : [ 86.745, 679.645, 284.671, 690.726 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Marina Victoria Milagros Reyes Marchena"
+  }, {
+    "type" : "paragraph",
+    "id" : 812,
+    "page number" : 12,
+    "bounding box" : [ 86.745, 669.866, 107.515, 679.645 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Jefe"
+  }, {
+    "type" : "heading",
+    "id" : 813,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 86.745, 656.406, 404.405, 668.735 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Oficina Descentralizada de Procesos Electorales - ODPE Arequipa"
+  }, {
+    "type" : "paragraph",
+    "id" : 814,
+    "page number" : 12,
+    "bounding box" : [ 86.653, 633.137, 397.074, 657.739 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Calle Universidad N° 215, Urbanización La Victoria Cercado Arequipa Arequipa/Arequipa/Arequipa"
+  }, {
+    "type" : "paragraph",
+    "id" : 815,
+    "page number" : 12,
+    "bounding box" : [ 86.745, 600.19, 122.177, 611.192 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Asunto"
+  }, {
+    "type" : "paragraph",
+    "id" : 817,
+    "page number" : 12,
+    "bounding box" : [ 86.705, 576.769, 139.322, 588.162 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Referencia"
+  }, {
+    "type" : "paragraph",
+    "id" : 816,
+    "page number" : 12,
+    "bounding box" : [ 156.386, 600.095, 489.928, 611.192 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ": Notificación de Informe de Hito de Control n.° 5623-2026-CG/GRAR-SCC"
+  }, {
+    "type" : "paragraph",
+    "id" : 818,
+    "page number" : 12,
+    "bounding box" : [ 156.386, 564.741, 509.476, 588.1 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ": a) Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias."
+  }, {
+    "type" : "paragraph",
+    "id" : 819,
+    "page number" : 12,
+    "bounding box" : [ 171.047, 531.737, 510.698, 566.109 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Directiva n.º 013-2022-CG/NORM \"Servicio de Control Simultáneo\" aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y modificatorias"
+  }, {
+    "type" : "paragraph",
+    "id" : 820,
+    "page number" : 12,
+    "bounding box" : [ 86.745, 438.826, 510.698, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Me dirijo a usted en el marco de la normativa de la referencia, que regula el Servicio de Control Simultáneo y establece la comunicación al Titular de la entidad o responsable de la dependencia, y de ser el caso a las instancias competentes, respecto de la existencia de situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso en curso, a fin de que se adopten oportunamente las acciones preventivas y correctivas que correspondan."
+  }, {
+    "type" : "paragraph",
+    "id" : 821,
+    "page number" : 12,
+    "bounding box" : [ 87.967, 382.515, 510.698, 426.612 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sobre el particular, de la revisión de la información y documentación vinculada al Hito de Control n.° 1 \"Contratación del Servicio de Despliegue y Repliegue\", comunicamos que se ha identificado la situación adversa contenida en el Informe de Hito de Control n.° 5623-2026CG/GRAR-SCC, que se adjunta al presente documento."
+  }, {
+    "type" : "paragraph",
+    "id" : 822,
+    "page number" : 12,
+    "bounding box" : [ 87.967, 323.872, 510.698, 369.187 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "En tal sentido, solicitamos informar a la Comisión de Control, en un plazo máximo de cinco (5) días hábiles desde la comunicación del presente Informe, las acciones preventivas o correctivas adoptadas y por adoptar respecto a las situaciones adversas identificadas en el citado Informe, adjuntando la documentación de sustento respectiva."
+  }, {
+    "type" : "paragraph",
+    "id" : 823,
+    "page number" : 12,
+    "bounding box" : [ 87.967, 301.88, 442.279, 311.708 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Es propicia la oportunidad para expresarle las seguridades de mi consideración."
+  }, {
+    "type" : "paragraph",
+    "id" : 824,
+    "page number" : 12,
+    "bounding box" : [ 362.712, 266.307, 425.475, 278.544 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Atentamente,"
+  }, {
+    "type" : "paragraph",
+    "id" : 825,
+    "page number" : 12,
+    "bounding box" : [ 300.554, 185.802, 498.48, 220.029 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Documento firmado digitalmente Marissa Alicia Chavez Chavez Gerente Regional de Control de Arequipa(e)"
+  }, {
+    "type" : "paragraph",
+    "id" : 826,
+    "page number" : 12,
+    "bounding box" : [ 326.212, 174.801, 471.602, 187.025 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Contraloría General de la República"
+  }, {
+    "type" : "paragraph",
+    "id" : 829,
+    "page number" : 12,
+    "bounding box" : [ 28.101, 101.458, 52.536, 107.57 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONTRALORGA"
+  }, {
+    "type" : "paragraph",
+    "id" : 830,
+    "page number" : 12,
+    "bounding box" : [ 24.435, 86.789, 57.423, 101.458 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V°B®"
+  }, {
+    "type" : "paragraph",
+    "id" : 827,
+    "page number" : 12,
+    "bounding box" : [ 86.745, 111.237, 129.507, 122.238 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(MCC/dle)"
+  }, {
+    "type" : "paragraph",
+    "id" : 831,
+    "page number" : 12,
+    "bounding box" : [ 87.967, 91.63, 315.216, 101.458 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Nro. Emisión: 05079 (L470 - 2026) Elab:(U17318 - L470)"
+  }, {
+    "type" : "paragraph",
+    "id" : 832,
+    "page number" : 12,
+    "bounding box" : [ 1.222, 68.306, 57.423, 72.121 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Firmado diaitalmente nor"
+  }, {
+    "type" : "paragraph",
+    "id" : 835,
+    "page number" : 12,
+    "bounding box" : [ 1.222, 62.309, 78.193, 66.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LUQUE ESCOBEDO Dohrv Karol"
+  }, {
+    "type" : "paragraph",
+    "id" : 834,
+    "page number" : 12,
+    "bounding box" : [ 1.222, 54.978, 56.201, 62.342 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FAU 20131378972 soft"
+  }, {
+    "type" : "image",
+    "page number" : 13,
+    "bounding box" : [ 0.0, 0.0, 595.0, 841.0 ],
+    "source" : "Arequipa14_images/imageFile1.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 837,
+    "page number" : 13,
+    "bounding box" : [ 85.524, 757.878, 230.914, 767.696 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Cargo oficio 738-2026-CG/GRAR"
+  }, {
+    "type" : "paragraph",
+    "id" : 839,
+    "page number" : 13,
+    "bounding box" : [ 96.509, 729.725, 136.848, 740.802 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ZONPE"
+  }, {
+    "type" : "paragraph",
+    "id" : 840,
+    "page number" : 13,
+    "bounding box" : [ 252.906, 729.711, 494.815, 740.765 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OFICINA NACIONAL DE PROCESOS ELECTORALES"
+  }, {
+    "type" : "paragraph",
+    "id" : 841,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 695.391, 204.035, 705.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Estimado ciudadano(a):"
+  }, {
+    "type" : "paragraph",
+    "id" : 842,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 672.311, 488.706, 683.396 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Por medio del presente se hace de conocimiento, que el documento ha sido registrado el"
+  }, {
+    "type" : "paragraph",
+    "id" : 843,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 658.739, 487.485, 669.866 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9 de abril de 2026 a horas 17:13:56, con el expediente N° 2026-000179551. Con dicho"
+  }, {
+    "type" : "paragraph",
+    "id" : 844,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 645.411, 487.485, 655.198 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "número usted le podrá hacer el seguimiento respectivo a través del Sistema de"
+  }, {
+    "type" : "paragraph",
+    "id" : 845,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 633.082, 254.127, 641.751 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Seguimiento de Expediente Virtual."
+  }, {
+    "type" : "paragraph",
+    "id" : 846,
+    "page number" : 13,
+    "bounding box" : [ 101.407, 611.091, 389.743, 621.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "La clave de acceso para el seguimiento del documento: KQERVYF"
+  }, {
+    "type" : "paragraph",
+    "id" : 847,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 596.43, 227.248, 606.426 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Consulte su expediente aquí."
+  }, {
+    "type" : "paragraph",
+    "id" : 848,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 574.439, 487.485, 584.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Nota: La recepción del presente documento no da la conformidad ni validación o"
+  }, {
+    "type" : "paragraph",
+    "id" : 849,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 561.074, 224.805, 570.853 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "aprobación de su contenido."
+  }, {
+    "type" : "paragraph",
+    "id" : 850,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 539.071, 487.485, 550.115 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Asimismo, de acuerdo a la normativa vigente aplicable las solicitudes presentadas desde"
+  }, {
+    "type" : "paragraph",
+    "id" : 851,
+    "page number" : 13,
+    "bounding box" : [ 100.185, 524.403, 487.485, 535.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "las 00:00 horas hasta las 23:59 en cualquier día de la semana ya sea día hábil o inhábil,"
+  }, {
+    "type" : "paragraph",
+    "id" : 852,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 510.798, 487.485, 521.958 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "se consideran presentadas el mismo día, para lo cual la MPVE autogenera el número de"
+  }, {
+    "type" : "paragraph",
+    "id" : 853,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 497.469, 487.485, 507.289 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "expediente y cargo de recepción. El cómputo del plazo para la atención de solicitudes"
+  }, {
+    "type" : "paragraph",
+    "id" : 854,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 484.064, 487.485, 493.843 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "corre a partir del día hábil siguiente de presentado el documento, salvo que se haya"
+  }, {
+    "type" : "paragraph",
+    "id" : 855,
+    "page number" : 13,
+    "bounding box" : [ 101.407, 470.48, 449.61, 480.476 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "requerido subsanación en cuyo caso se contabiliza una vez efectuada la misma."
+  }, {
+    "type" : "paragraph",
+    "id" : 856,
+    "level" : "5",
+    "page number" : 13,
+    "bounding box" : [ 102.628, 448.615, 144.168, 459.616 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "•Casilla"
+  }, {
+    "type" : "paragraph",
+    "id" : 857,
+    "page number" : 13,
+    "bounding box" : [ 193.039, 447.392, 487.485, 458.485 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Finalmente, lo invitamos a solicitar virtualmente la asignación de su"
+  }, {
+    "type" : "paragraph",
+    "id" : 858,
+    "page number" : 13,
+    "bounding box" : [ 103.809, 436.158, 151.54, 445.18 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Electrónica"
+  }, {
+    "type" : "paragraph",
+    "id" : 859,
+    "page number" : 13,
+    "bounding box" : [ 193.039, 435.161, 487.485, 444.948 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "casilla electrónica, para la notificación de los actos administrativos,"
+  }, {
+    "type" : "paragraph",
+    "id" : 860,
+    "page number" : 13,
+    "bounding box" : [ 193.039, 421.722, 487.485, 431.501 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "actuaciones administrativas y documentos relacionados que deban"
+  }, {
+    "type" : "paragraph",
+    "id" : 861,
+    "page number" : 13,
+    "bounding box" : [ 193.039, 409.499, 487.485, 416.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ser notificados a través del Sistema de Notificaciones Electrónicas"
+  }, {
+    "type" : "paragraph",
+    "id" : 862,
+    "page number" : 13,
+    "bounding box" : [ 193.039, 392.385, 425.175, 403.507 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "SISEN-ONPE, visitando el siguiente enlace de interés:"
+  }, {
+    "type" : "paragraph",
+    "id" : 863,
+    "page number" : 13,
+    "bounding box" : [ 191.817, 378.939, 456.94, 389.94 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "https://www.onpe.gob.pe/modMarco-Legal/casilla-electronica-"
+  }, {
+    "type" : "paragraph",
+    "id" : 864,
+    "page number" : 13,
+    "bounding box" : [ 191.817, 365.493, 233.357, 376.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "onpe.pdf"
+  }, {
+    "type" : "paragraph",
+    "id" : 865,
+    "page number" : 13,
+    "bounding box" : [ 102.628, 343.49, 487.485, 354.526 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ante cualquier consulta, podrá comunicarse al teléfono: 01 4170630 Anexo: 8154, Mesa"
+  }, {
+    "type" : "paragraph",
+    "id" : 866,
+    "page number" : 13,
+    "bounding box" : [ 102.572, 330.998, 147.89, 341.313 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "de Partes."
+  }, {
+    "type" : "paragraph",
+    "id" : 868,
+    "page number" : 14,
+    "bounding box" : [ 438.614, 752.988, 489.928, 761.698 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 Exportar PDF"
+  }, {
+    "type" : "paragraph",
+    "id" : 872,
+    "page number" : 14,
+    "bounding box" : [ 119.716, 706.48, 161.29, 718.819 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ONPE"
+  }, {
+    "type" : "paragraph",
+    "id" : 874,
+    "page number" : 14,
+    "bounding box" : [ 108.737, 695.391, 172.269, 702.871 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha y Hora de Impresión:"
+  }, {
+    "type" : "paragraph",
+    "id" : 875,
+    "page number" : 14,
+    "bounding box" : [ 120.955, 690.647, 161.273, 696.759 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "09/04/2026 17:16"
+  }, {
+    "type" : "paragraph",
+    "id" : 869,
+    "page number" : 14,
+    "bounding box" : [ 227.248, 729.711, 408.07, 737.097 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"Año del Bicentenario, de la consolidación de nuestra"
+  }, {
+    "type" : "paragraph",
+    "id" : 871,
+    "page number" : 14,
+    "bounding box" : [ 211.366, 719.984, 426.396, 728.541 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Independencia, y de la conmemoración de las heroicas batallas"
+  }, {
+    "type" : "paragraph",
+    "id" : 873,
+    "page number" : 14,
+    "bounding box" : [ 281.006, 711.385, 355.534, 720.048 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "de Junín y Ayacucho\""
+  }, {
+    "type" : "paragraph",
+    "id" : 870,
+    "page number" : 14,
+    "bounding box" : [ 438.536, 719.697, 496.115, 736.162 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "wel SSEV"
+  }, {
+    "type" : "paragraph",
+    "id" : 876,
+    "page number" : 14,
+    "bounding box" : [ 284.587, 672.011, 314.079, 681.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "N° Doc:"
+  }, {
+    "type" : "paragraph",
+    "id" : 877,
+    "page number" : 14,
+    "bounding box" : [ 250.462, 661.31, 345.76, 672.311 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "738-2026-CG/GRAR"
+  }, {
+    "type" : "paragraph",
+    "id" : 878,
+    "page number" : 14,
+    "bounding box" : [ 84.302, 640.413, 129.507, 646.744 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fecha de Emisión:"
+  }, {
+    "type" : "paragraph",
+    "id" : 879,
+    "page number" : 14,
+    "bounding box" : [ 85.524, 634.415, 141.725, 641.751 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "09/04/2026 17:13 Horas"
+  }, {
+    "type" : "paragraph",
+    "id" : 880,
+    "page number" : 14,
+    "bounding box" : [ 244.353, 640.413, 283.45, 646.744 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tipo Documento:"
+  }, {
+    "type" : "paragraph",
+    "id" : 881,
+    "page number" : 14,
+    "bounding box" : [ 244.353, 634.417, 262.68, 641.751 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OFICIO"
+  }, {
+    "type" : "paragraph",
+    "id" : 884,
+    "page number" : 14,
+    "bounding box" : [ 85.524, 619.749, 102.628, 622.193 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ASUnO 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 885,
+    "page number" : 14,
+    "bounding box" : [ 84.302, 613.637, 262.68, 616.089 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "NO-CACIONDE INFORME DEHIO O- CONIROLS220-COGRAR"
+  }, {
+    "type" : "paragraph",
+    "id" : 886,
+    "page number" : 14,
+    "bounding box" : [ 85.524, 595.301, 130.729, 601.428 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Solicitante / Emisor:"
+  }, {
+    "type" : "paragraph",
+    "id" : 887,
+    "page number" : 14,
+    "bounding box" : [ 85.524, 587.967, 279.784, 595.431 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "PROVEEDOR - CONTRALORIA GENERAL DE LA REPUBLICA - RUC: 20131378972"
+  }, {
+    "type" : "paragraph",
+    "id" : 882,
+    "page number" : 14,
+    "bounding box" : [ 401.961, 640.529, 422.731, 646.641 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Estado:"
+  }, {
+    "type" : "paragraph",
+    "id" : 883,
+    "page number" : 14,
+    "bounding box" : [ 403.183, 634.417, 426.396, 641.751 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "EMITIDO"
+  }, {
+    "type" : "paragraph",
+    "id" : 888,
+    "page number" : 14,
+    "bounding box" : [ 85.524, 563.443, 160.051, 569.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ruta del Documento"
+  }, {
+    "type" : "paragraph",
+    "id" : 889,
+    "level" : "6",
+    "page number" : 14,
+    "bounding box" : [ 108.737, 543.961, 399.517, 552.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "• OFICIO 738-2026-CG/GRAR -> JEFATURA DE ÁREA DE ATENCIÓN AL CIUDADANO Y TRÁMITE DOCUMENTARIO"
+  } ]
+}

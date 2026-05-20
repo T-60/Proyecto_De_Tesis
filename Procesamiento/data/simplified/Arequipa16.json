@@ -1,0 +1,4769 @@
+{
+  "file_name": "Arequipa16.pdf",
+  "elements": [
+    {
+      "id": 1301,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1302,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1303,
+      "content": "GERENCIA REGIONAL DE CONTROL DE AREQUIPA"
+    },
+    {
+      "id": 1304,
+      "content": "INFORME DE HITO DE CONTROL N° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1305,
+      "content": "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES- ODPE AREQUIPA AREQUIPA - AREQUIPA - AREQUIPA"
+    },
+    {
+      "id": 1306,
+      "content": "\"IMPLEMENTACIÓN DEL CENTRO DE CÓMPUTO DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ODPE AREQUIPA EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+    },
+    {
+      "id": 1307,
+      "content": "HITO DE CONTROL N° 2 \"SIMULACRO DEL SISTEMA DE CÓMPUTO ELECTORAL EN EL CENTRO DE CÓMPUTO DE LA ODPE AREQUIPA Y SEDE CENTRAL\""
+    },
+    {
+      "id": 1308,
+      "content": "PERÍODO DE EVALUACIÓN: DEL 30 DE MARZO DE 2026 AL 6 DE ABRIL DE 2026"
+    },
+    {
+      "id": 1309,
+      "content": "TOMO I DE I"
+    },
+    {
+      "id": 1310,
+      "content": "AREQUIPA, 10 DE ABRIL DEL 2026"
+    },
+    {
+      "id": 1312,
+      "content": ") CONTRALORÍA"
+    },
+    {
+      "id": 1313,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1314,
+      "content": "INFORME DE HITO DE CONTROL N° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1315,
+      "content": "'IMPLEMENTACIÓN DEL CENTRO DE CÓMPUTO DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ODPE AREQUIPA EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+    },
+    {
+      "id": 1316,
+      "content": "HITO DE CONTROL N° 2 - \"SIMULACRO DEL SISTEMA DE CÓMPUTO ELECTORAL EN EL CENTRO DE CÓMPUTO DE LA ODPE AREQUIPA Y SEDE CENTRAL\""
+    },
+    {
+      "id": 848,
+      "content": "ÍNDICE"
+    },
+    {
+      "id": 849,
+      "content": "N° Pág."
+    },
+    {
+      "id": 850,
+      "content": "I."
+    },
+    {
+      "id": 851,
+      "content": "ORIGEN. .1"
+    },
+    {
+      "id": 852,
+      "content": "II. OBJETIVOS 1"
+    },
+    {
+      "id": 853,
+      "content": "III. ALCANCE .1"
+    },
+    {
+      "id": 854,
+      "content": "IV. INFORMACIÓN RESPECTO DEL HITO DE CONTROL .2"
+    },
+    {
+      "id": 855,
+      "content": "V."
+    },
+    {
+      "id": 856,
+      "content": "SITUACIONES ADVERSAS"
+    },
+    {
+      "id": 857,
+      "content": "VI. DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL . 13"
+    },
+    {
+      "id": 858,
+      "content": "Funde esten Boy al VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS 13"
+    },
+    {
+      "id": 859,
+      "content": "VIII. CONCLUSIÓN 13"
+    },
+    {
+      "id": 860,
+      "content": "IX. RECOMENDACIONES"
+    },
+    {
+      "id": 861,
+      "content": "APÉNDICES 15"
+    },
+    {
+      "id": 1319,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1320,
+      "content": "V B"
+    },
+    {
+      "id": 1321,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1322,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1323,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1325,
+      "content": "Motivo: Dov Visto Bueno"
+    },
+    {
+      "id": 1324,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1327,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1328,
+      "content": "V°B®"
+    },
+    {
+      "id": 1330,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1329,
+      "content": "Fecha: 10-04-2026 09:43:56-05:00"
+    },
+    {
+      "id": 1332,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1333,
+      "content": "V°B"
+    },
+    {
+      "id": 1334,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1335,
+      "content": "CHAVEZ CHAVEZ Marissa"
+    },
+    {
+      "id": 1336,
+      "content": "Alicia FAU 20131378972 hard"
+    },
+    {
+      "id": 1338,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1337,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 2280,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1341,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1343,
+      "content": "INFORME DE HITO DE CONTROL N° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1342,
+      "content": "Página 1 de 16"
+    },
+    {
+      "id": 1344,
+      "content": "\"IMPLEMENTACIÓN DEL CENTRO DE CÓMPUTO DE LA OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES - ODPE AREQUIPA EN EL MARCO DE LAS ELECCIONES GENERALES 2026\""
+    },
+    {
+      "id": 1345,
+      "content": "HITO DE CONTROL N° 2 - \"SIMULACRO DEL SISTEMA DE CÓMPUTO ELECTORAL EN EL CENTRO DE CÓMPUTO DE LA ODPE AREQUIPA Y SEDE CENTRAL\""
+    },
+    {
+      "id": 1346,
+      "content": "1. ORIGEN"
+    },
+    {
+      "id": 1347,
+      "content": "El presente informe se emite en mérito a lo dispuesto por la Gerencia Regional de Control Arequipa de la Contraloría General de la República, mediante oficio n.° 000366-2026-CG/GRAR de 5 de marzo de 2026', registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.º 02-L470-2026-085, en el marco de lo previsto en la Directiva n.° 013-2022-CG/NORM \"Servicio de Control Simultáneo\", aprobada mediante Resolución de Contraloría n.° 218-2022-CG de 30 de mayo de 2022 y modificatorias."
+    },
+    {
+      "id": 1348,
+      "content": "II. OBJETIVOS"
+    },
+    {
+      "id": 1352,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1353,
+      "content": "V°B®"
+    },
+    {
+      "id": 1354,
+      "content": "Firmado digitalmente po _EMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1349,
+      "content": "2.1 Objetivo general"
+    },
+    {
+      "id": 1350,
+      "content": "Determinar si el proceso de \"Implementación del centro de cómputo de la Oficina Descentralizada de Proceso Electoral - ODPE Arequipa, se viene ejecutando de conformidad con los términos de referencia del \"Servicio de habilitación, acondicionamiento y logística informática EG 2026\", normativa aplicable y disposiciones internas dispuestas, en el marco del proceso de las Elecciones Generales - EG 2026."
+    },
+    {
+      "id": 1355,
+      "content": "2.2 Objetivo específico"
+    },
+    {
+      "id": 1358,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1359,
+      "content": "V°B®"
+    },
+    {
+      "id": 1356,
+      "content": "Establecer si el desarrollo del Simulacro del Sistema de Cómputo Electoral en el centro de cómputo de la ODPE Arequipa, y en la Sede Central se viene desarrollando, de conformidad con los términos de referencia del \"Servicio de habilitación, acondicionamiento y logística informática EG 2026\", normativa aplicable y disposiciones internas."
+    },
+    {
+      "id": 1360,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karol -AU 20131378972 sof Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1364,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1365,
+      "content": "V°B"
+    },
+    {
+      "id": 1361,
+      "content": "III. ALCANCE"
+    },
+    {
+      "id": 1362,
+      "content": "El control concurrente se desarrolló al Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", y que ha sido ejecutado del 30 de marzo al 6 de abril de 2026, en las instalaciones de la ODPE Arequipa, ubicado en Calle Universidad n.° 215, Urb. La Victoria, Cercado de Arequipa, distrito y provincia de Arequipa."
+    },
+    {
+      "id": 1366,
+      "content": "Firmado digitalmente po"
+    },
+    {
+      "id": 1367,
+      "content": "HAVEZ CHAVEZ Mariss"
+    },
+    {
+      "id": 1368,
+      "content": "Alicia FAU 20131378972 hard"
+    },
+    {
+      "id": 1370,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1369,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1371,
+      "content": "Al amparo de lo establecido en el Oficio n.° 000073-2026-CG/OC3599 de 5 de marzo de 2026, notificado en la misma fecha por casilla electrónica del titular de la entidad."
+    },
+    {
+      "id": 1376,
+      "content": "IV. INFORMACIÓN RESPECTO DEL HITO DE CONTROL"
+    },
+    {
+      "id": 2281,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2282,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2283,
+      "content": "Página 2 de 16"
+    },
+    {
+      "id": 1377,
+      "content": "La Oficina Nacional de Procesos Electorales (en adelante la ONPE) como la autoridad máxima en la organización y ejecución de los procesos electorales, tiene a su cargo organizar, planificar, preparar, ejecutar y brindar información de los resultados de los procesos electorales que organiza."
+    },
+    {
+      "id": 1378,
+      "content": "El articulo 24 de La Ley n.° 26487, Ley Orgánica de la ONPE, establece que las Oficinas Descentralizadas de Procesos Electorales (en adelante ODPE) se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral que regirá en el proceso en curso."
+    },
+    {
+      "id": 1379,
+      "content": "Al respecto, el articulo 39 de la Ley n.° 26859, Ley Orgánica de Elecciones (en adelante LOE) señala que el Jefe de la Oficina Nacional de Procesos Electorales establece el número, la ubicación y la organización de las ODPE, de acuerdo con las circunscripciones electorales que determina la Ley."
+    },
+    {
+      "id": 1380,
+      "content": "En tal sentido, mediante Decreto Supremo n.° 039-2025-PCM, publicado en el diario oficial El Peruano el 26 de marzo de 2025, la Presidencia de la República convocó a Elecciones Generales el día domingo 12 de abril de 2026, para la elección del Presidente de la República, Vicepresidentes, así como de los senadores y diputados del Congreso de la República y de los representantes peruanos ante el Parlamento Andino (en adelante EG - 2026)."
+    },
+    {
+      "id": 1381,
+      "content": "En ese marco normativo, mediante Resolución Jefatural n.° 000127-2025-JN/ONPE de 1 de agosto de 2025, se aprobó la conformación de ciento veintiséis (126) ODPE para la organización y ejecución de las EG - 2026, entre las que se encuentra la ODPE Arequipa."
+    },
+    {
+      "id": 1384,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1385,
+      "content": "V B"
+    },
+    {
+      "id": 1386,
+      "content": "Firmado digitalmente por LEMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1389,
+      "content": "CONTRALORCA"
+    },
+    {
+      "id": 1390,
+      "content": "V B"
+    },
+    {
+      "id": 1391,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karo FAU 20131378972 soft Motivo: Dov Visto Buenc Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1395,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1396,
+      "content": "V°B"
+    },
+    {
+      "id": 1397,
+      "content": "mado digitalmente i AVEZ CHAVEZ Maris Alicia FAU 20131378972 hard Motivo: Doy Visto Buend Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1382,
+      "content": "Sobre el particular, es de precisar que, de acuerdo al artículo 49 de la LOE, el Jefe de la ONPE designa a través de concurso público a los Jefes y Coordinadores Administrativos de las ODPE, debiendo previamente, publicar la relación de las personas seleccionadas a fin de permitir la interposición de tachas a que hubiere lugar."
+    },
+    {
+      "id": 1387,
+      "content": "Asimismo, con Resolución Jefatural n.° 000132-2025-JN/ONPE del 12 de agosto de 2025, se dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir las vacantes de veintiocho (28) Jefes y veintiocho (28) Coordinadores Administrativos de ODPE para las EG 2026. Posteriormente, el 8 de setiembre del 2025 a través de la Resolución Jefatural n.° 000141-2025-JN/ONPE, se conformó catorce (14) ODPE encargadas de organizar las Elecciones Primarias de las Elecciones Generales 2026, así como se designó la jefa y la coordinadora administrativa de la ODPE Arequipa"
+    },
+    {
+      "id": 1392,
+      "content": "Sobre el Simulacro del Sistema de Cómputo Electoral:"
+    },
+    {
+      "id": 1393,
+      "content": "Mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025, se aprobó el \"Plan Operativo Electoral de la Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos Ante El Parlamento Andino 2026, versión n.° 03\" (en adelante POE), el mismo que establece el marco legal, marco electoral, marco estratégico e indicadores, presupuesto, así como la formulación de actividades operativas у tareas, cuyo cumplimiento obligatorio es responsabilidad de cada unidad orgánica competente de la ONPE y del cual se tiene la línea de tiempo de los hitos de las elecciones primarias y elecciones generales 2026, entre los cuales se encuentra el Simulacro del Sistema de Cómputo Electoral del 5 de abril de 2026, tal como se puede visualizar en la siguiente imagen:"
+    },
+    {
+      "id": 2284,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1400,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERU"
+    },
+    {
+      "id": 1401,
+      "content": "Página 3 de 16"
+    },
+    {
+      "id": 1402,
+      "content": "Imagen n.°1 Línea de Tiempo de Hitos Generales - Simulacro del Sistema de Cómputo Electoral"
+    },
+    {
+      "id": 1404,
+      "content": "Elecciones Primarias y Elecciones Generales 2026"
+    },
+    {
+      "id": 1405,
+      "content": "Hitos generales"
+    },
+    {
+      "id": 1406,
+      "content": "05. 5.030-2025-PCN"
+    },
+    {
+      "id": 1407,
+      "content": "Primarias"
+    },
+    {
+      "id": 1408,
+      "content": "Primarias"
+    },
+    {
+      "id": 1409,
+      "content": "MAR 3 JÙN 300*"
+    },
+    {
+      "id": 1412,
+      "content": "OCT"
+    },
+    {
+      "id": 1414,
+      "content": "30"
+    },
+    {
+      "id": 1413,
+      "content": "NOV"
+    },
+    {
+      "id": 1415,
+      "content": "DIC"
+    },
+    {
+      "id": 1420,
+      "content": "23 26"
+    },
+    {
+      "id": 1419,
+      "content": "13"
+    },
+    {
+      "id": 1410,
+      "content": "29 30"
+    },
+    {
+      "id": 1411,
+      "content": "12 13 18"
+    },
+    {
+      "id": 1416,
+      "content": "FEB"
+    },
+    {
+      "id": 1417,
+      "content": "MAR"
+    },
+    {
+      "id": 1418,
+      "content": "ABR"
+    },
+    {
+      "id": 1421,
+      "content": "Art 301° Ley 31264"
+    },
+    {
+      "id": 1422,
+      "content": "At 167LoE"
+    },
+    {
+      "id": 1426,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1427,
+      "content": "V°B"
+    },
+    {
+      "id": 1429,
+      "content": "Firmado digitalmente por LEMA SONCCO Cesar Jose Marin FAu Z0131318912 SOl Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1433,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1434,
+      "content": "V B"
+    },
+    {
+      "id": 1435,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karo FAU 20131378972 soft lotivo: Doy Visto Buen *echa: 10-04-2026 09:43:56 - 05:0"
+    },
+    {
+      "id": 1439,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1438,
+      "content": "V°B"
+    },
+    {
+      "id": 2272,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 2273,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1423,
+      "content": "Fuente: Plan Operativo Electoral Elecciones Generales 2026 - versión 03, emitida mediante resolución jefatural n.º 000204-2025-JN/ONPE de 31 de diciembre de 2025."
+    },
+    {
+      "id": 1424,
+      "content": "Asimismo, el POE establece el proceso \"Procesamiento de documentos electorales y Entrega de resultados\", \", con la actividad \"Operatividad del centro de cómputo\", que considera las tareas operativas a ser realizadas por la Gerencia de Organización Electoral y Coordinación Regional (GOECOR) el 5 de abril de 2026 en la realización del Simulacro del Sistema de Cómputo Electoral en la Sede Central, ODPE y locales de votación, tal como se detalla en el siguiente cuadro:"
+    },
+    {
+      "id": 1428,
+      "content": "Cuadro n. ° 1"
+    },
+    {
+      "id": 1430,
+      "content": "Actividades operativas según el Plan Operativo Electoral de la Gerencia de Organización Electoral y Coordinación Regional (GOECOR)"
+    },
+    {
+      "id": 863,
+      "content": "Tarea"
+    },
+    {
+      "id": 864,
+      "content": "21. Fecha"
+    },
+    {
+      "id": 865,
+      "content": "22. Programación física"
+    },
+    {
+      "id": 866,
+      "content": "23. Meta Física Anual"
+    },
+    {
+      "id": 867,
+      "content": "Proceso"
+    },
+    {
+      "id": 868,
+      "content": "Inicio"
+    },
+    {
+      "id": 869,
+      "content": "Fin"
+    },
+    {
+      "id": 870,
+      "content": "ENE FEB MAR ABR"
+    },
+    {
+      "id": 871,
+      "content": "MAY"
+    },
+    {
+      "id": 872,
+      "content": "lI. Procesos operativos"
+    },
+    {
+      "id": 873,
+      "content": "P001.08 Procesamiento de documentos electorales y entrega de"
+    },
+    {
+      "id": 874,
+      "content": "2.8.1. Operación del centro de computo"
+    },
+    {
+      "id": 875,
+      "content": "28"
+    },
+    {
+      "id": 876,
+      "content": "2.8.1.7 Efectuar el simulacro computo electoral en del sistema de la Sede Central"
+    },
+    {
+      "id": 877,
+      "content": "05/04126"
+    },
+    {
+      "id": 878,
+      "content": "05/04126"
+    },
+    {
+      "id": 879,
+      "content": "1"
+    },
+    {
+      "id": 880,
+      "content": "1"
+    },
+    {
+      "id": 881,
+      "content": "resultados"
+    },
+    {
+      "id": 882,
+      "content": "28.1.8 Efectuar el simulacro del sistema de ómputo electoral el a ODPE y locales de votación."
+    },
+    {
+      "id": 883,
+      "content": "05/04/26"
+    },
+    {
+      "id": 884,
+      "content": "05/04/26"
+    },
+    {
+      "id": 1436,
+      "content": "Fuente: Plan Operativo Electoral Elecciones Generales 2026 - versión 03, emitida mediante resolución jefatural n.° 000204-2025. JN/ONPE de 31 de diciembre de 2025"
+    },
+    {
+      "id": 1440,
+      "content": "Elaborado por: Comisión de Control."
+    },
+    {
+      "id": 1441,
+      "content": "De igual manera, en el marco del proceso \"Procesamiento de documentos electorales y Entrega de resultados\", el POE establece la tarea operativa a ser realizadas por las ODPE el 5 de abril de 2026 en la realización del Simulacro del Sistema de Cómputo Electoral, tal como se detalla en el siguiente cuadro:"
+    },
+    {
+      "id": 1458,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1459,
+      "content": "V B"
+    },
+    {
+      "id": 1460,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1461,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1462,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1472,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1471,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1477,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1478,
+      "content": "V B"
+    },
+    {
+      "id": 1479,
+      "content": "rmado digitalmente p"
+    },
+    {
+      "id": 1480,
+      "content": "JQUE ESCOBEDO Dohry Kar"
+    },
+    {
+      "id": 1481,
+      "content": "FAU 20131378972 soft"
+    },
+    {
+      "id": 1483,
+      "content": "Motivo: Doy Visto Buenc"
+    },
+    {
+      "id": 1482,
+      "content": "Fecha: 10-04-2026 09:43:56 -05:0"
+    },
+    {
+      "id": 1486,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1485,
+      "content": "V°B"
+    },
+    {
+      "id": 1487,
+      "content": "CHAVEZ CHAVEZ Masa"
+    },
+    {
+      "id": 1488,
+      "content": "licia FAU 20131378972 haro"
+    },
+    {
+      "id": 2274,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 2275,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 2285,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2286,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2287,
+      "content": "Página 4 de 16"
+    },
+    {
+      "id": 1448,
+      "content": "Cuadro n. ° 2 Electorales (ODPE)"
+    },
+    {
+      "id": 1449,
+      "content": "Actividad operativa según el Plan Operativo Electoral de las Oficinas Descentralizadas de Procesos"
+    },
+    {
+      "id": 886,
+      "content": "21. Fecha"
+    },
+    {
+      "id": 887,
+      "content": "22. Programación física"
+    },
+    {
+      "id": 888,
+      "content": "23."
+    },
+    {
+      "id": 889,
+      "content": "Proceso"
+    },
+    {
+      "id": 890,
+      "content": "Actividad Operativa (AO)"
+    },
+    {
+      "id": 891,
+      "content": "N° AO"
+    },
+    {
+      "id": 892,
+      "content": "Tarea"
+    },
+    {
+      "id": 893,
+      "content": "Inicio"
+    },
+    {
+      "id": 894,
+      "content": "Fin"
+    },
+    {
+      "id": 895,
+      "content": "ENE"
+    },
+    {
+      "id": 896,
+      "content": "FEB"
+    },
+    {
+      "id": 897,
+      "content": "MAR"
+    },
+    {
+      "id": 898,
+      "content": "ABR"
+    },
+    {
+      "id": 899,
+      "content": "MAY"
+    },
+    {
+      "id": 900,
+      "content": "Meta Física Anual"
+    },
+    {
+      "id": 901,
+      "content": "lI. Procesos operativos"
+    },
+    {
+      "id": 902,
+      "content": "PO01.08 Procesamiento de documentos electorales y entrega de resultados"
+    },
+    {
+      "id": 903,
+      "content": "2.8.1. Operación del centro de computo"
+    },
+    {
+      "id": 904,
+      "content": "28"
+    },
+    {
+      "id": 905,
+      "content": "2.8.1.8 Efectuar el simulacro del sistema de computo electoral en la ODPE y locales de votación."
+    },
+    {
+      "id": 906,
+      "content": "05/04/26"
+    },
+    {
+      "id": 907,
+      "content": "05/04/26"
+    },
+    {
+      "id": 908,
+      "content": "1"
+    },
+    {
+      "id": 909,
+      "content": "1"
+    },
+    {
+      "id": 1451,
+      "content": "Fuente: Plan Operativo Electoral Elecciones Generales 2026 - versión 03, emitida mediante resolución jefatural 000204-2025-JN/ONPE de 31 de diciembre de 2025. n.°"
+    },
+    {
+      "id": 1452,
+      "content": "Elaborado por: Comisión de Control."
+    },
+    {
+      "id": 1453,
+      "content": "También, en el marco del proceso \"Gestión de las tecnologías de la información y comunicaciones\" el POE establece la siguiente tarea operativa de \"Realizar el seguimiento al cumplimiento y a la ejecución de los servicios de la plataforma tecnológica electoral\" a ser realizada por la Gerencia de Informática y Tecnología Electoral (GITE), cuyo periodo de ejecución está comprendido del 5 de enero al 30 de abril de 2026, tal como se detalla en el siguiente cuadro:"
+    },
+    {
+      "id": 1454,
+      "content": "Cuadro n. ° 3"
+    },
+    {
+      "id": 1455,
+      "content": "Actividad operativa según el Plan Operativo Electoral de la Gerencia de Informática y Tecnología Electoral (GITE)"
+    },
+    {
+      "id": 911,
+      "content": "Proceso"
+    },
+    {
+      "id": 912,
+      "content": "Actividad Operativa (AO)"
+    },
+    {
+      "id": 913,
+      "content": "AO"
+    },
+    {
+      "id": 914,
+      "content": "Tarea"
+    },
+    {
+      "id": 915,
+      "content": "21. Fecha"
+    },
+    {
+      "id": 916,
+      "content": "22. Programación física"
+    },
+    {
+      "id": 917,
+      "content": "23. Meta"
+    },
+    {
+      "id": 918,
+      "content": "Inicio"
+    },
+    {
+      "id": 919,
+      "content": "Fin"
+    },
+    {
+      "id": 920,
+      "content": "ENE FEB MAR ABR MAY"
+    },
+    {
+      "id": 921,
+      "content": "Fisica Anual"
+    },
+    {
+      "id": 922,
+      "content": "Procesos de Soporte"
+    },
+    {
+      "id": 923,
+      "content": "PS03 Gestión de las tecnologias de la información y comunicaciones"
+    },
+    {
+      "id": 924,
+      "content": "3.2.3 Gestión de la infraestructura tecnológica y base de datos"
+    },
+    {
+      "id": 925,
+      "content": "42"
+    },
+    {
+      "id": 926,
+      "content": "3.2.3.10 Realizar el seguimiento al cumplimiento y a la ejecución de los servicios de la plataforma tecnológica electoral"
+    },
+    {
+      "id": 927,
+      "content": "05/01/26"
+    },
+    {
+      "id": 928,
+      "content": "30/04126"
+    },
+    {
+      "id": 929,
+      "content": "1"
+    },
+    {
+      "id": 930,
+      "content": "1"
+    },
+    {
+      "id": 931,
+      "content": "1"
+    },
+    {
+      "id": 932,
+      "content": "1"
+    },
+    {
+      "id": 933,
+      "content": "4"
+    },
+    {
+      "id": 1465,
+      "content": "Elecciones"
+    },
+    {
+      "id": 1466,
+      "content": "Generales"
+    },
+    {
+      "id": 1469,
+      "content": "emitida mediante resolución jefatural"
+    },
+    {
+      "id": 1464,
+      "content": "Plan Operativo Electoral"
+    },
+    {
+      "id": 1468,
+      "content": "versión 03,"
+    },
+    {
+      "id": 1463,
+      "content": "Fuente:"
+    },
+    {
+      "id": 1467,
+      "content": "2026"
+    },
+    {
+      "id": 1470,
+      "content": "n.°"
+    },
+    {
+      "id": 1473,
+      "content": "000204-2025-JN/ONPE de 31 de diciembre de 2025."
+    },
+    {
+      "id": 1474,
+      "content": "Elaborado por: Comisión de Control"
+    },
+    {
+      "id": 1475,
+      "content": "En tal sentido, el 12 de diciembre de 2025 el Gerente de Administración de la ONPE y el Consorcio \"ADMINISTRADOR DE PROCESOS ELECTORALES CSA\", integrado por las empresas Al INVERSIONES PALO ALTO II S.A.C., SONDA DEL PERU S.A., y ALFIL CONSULTORIA & COMUNICACIONES S.A.C., suscribieron el contrato n.° 217-2025-ONPE para el \"Servicio de habilitación, acondicionamiento y logística informática (SHALI)- EG 2026\"; el monto total del contrato asciende a la suma total de S/ 144 306 000, 00 (Ciento cuarenta y cuatro millones trescientos seis mil con 00/100 Soles), que incluye todos los impuestos de Ley, cuya estructura de costos, contiene entre otros, los asociados a los sub servicios de habilitación informática, acondicionamiento y logística informática, tal como se puede visualizar en el siguiente cuadro, así tenemos:"
+    },
+    {
+      "id": 2288,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2289,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2290,
+      "content": "Página 5 de 16"
+    },
+    {
+      "id": 1495,
+      "content": "Cuadro n. ° 4 Estructura de costos del Servicio de habilitación, acondicionamiento y logística informática - SHALI"
+    },
+    {
+      "id": 935,
+      "content": "Estructura de Costos"
+    },
+    {
+      "id": 936,
+      "content": "Costo por ODPE / CC"
+    },
+    {
+      "id": 937,
+      "content": "Costo por Laboratorio para Capacitación en Lima"
+    },
+    {
+      "id": 938,
+      "content": "Costo por Centro de Datos Principal y Secundario"
+    },
+    {
+      "id": 939,
+      "content": "1. Sub servicio: habilitación informática"
+    },
+    {
+      "id": 940,
+      "content": "702,666.00"
+    },
+    {
+      "id": 941,
+      "content": "13,376.00"
+    },
+    {
+      "id": 942,
+      "content": "28,919,354.00"
+    },
+    {
+      "id": 943,
+      "content": "2. Sub servicio: acondicionamiento y logística informática"
+    },
+    {
+      "id": 944,
+      "content": "99,416.00"
+    },
+    {
+      "id": 945,
+      "content": "492,020.00"
+    },
+    {
+      "id": 946,
+      "content": "0.00"
+    },
+    {
+      "id": 947,
+      "content": "3. Sub servicio: soporte técnico y supervisión informática"
+    },
+    {
+      "id": 948,
+      "content": "67,115.00"
+    },
+    {
+      "id": 949,
+      "content": "0.00"
+    },
+    {
+      "id": 950,
+      "content": "0.00"
+    },
+    {
+      "id": 951,
+      "content": "4. desmontaje habilitación acondicionamiento informático"
+    },
+    {
+      "id": 952,
+      "content": "4,224.00"
+    },
+    {
+      "id": 953,
+      "content": "0.00"
+    },
+    {
+      "id": 954,
+      "content": "184,235.00"
+    },
+    {
+      "id": 955,
+      "content": "5. Sistema de gestión de la seguridad de la información"
+    },
+    {
+      "id": 956,
+      "content": "1,193.00"
+    },
+    {
+      "id": 957,
+      "content": "0.00"
+    },
+    {
+      "id": 958,
+      "content": "0.00"
+    },
+    {
+      "id": 959,
+      "content": "6. Gestión del servicio"
+    },
+    {
+      "id": 960,
+      "content": "30,695.00"
+    },
+    {
+      "id": 961,
+      "content": "216,134.00"
+    },
+    {
+      "id": 962,
+      "content": "411,947.00"
+    },
+    {
+      "id": 963,
+      "content": "Costo Subtotal"
+    },
+    {
+      "id": 964,
+      "content": "905,309.00"
+    },
+    {
+      "id": 965,
+      "content": "721,530.00"
+    },
+    {
+      "id": 966,
+      "content": "29,515,536.00"
+    },
+    {
+      "id": 967,
+      "content": "Cantidad Sedes"
+    },
+    {
+      "id": 968,
+      "content": "126"
+    },
+    {
+      "id": 969,
+      "content": "Costo Total"
+    },
+    {
+      "id": 970,
+      "content": "114,068,934.00"
+    },
+    {
+      "id": 971,
+      "content": "721,530.00"
+    },
+    {
+      "id": 972,
+      "content": "29,515,536.00"
+    },
+    {
+      "id": 973,
+      "content": "Precio Ofertado"
+    },
+    {
+      "id": 974,
+      "content": "144,306,000.00"
+    },
+    {
+      "id": 1497,
+      "content": "Fuente: Contrato n.° 217-2025-ONPE para el \"Servicio de habilitación, acondicionamiento y logistica informática (SHALI)- EG 2026\" de 12 de diciembre de 2025."
+    },
+    {
+      "id": 1498,
+      "content": "Elaborado por: Comisión de Control."
+    },
+    {
+      "id": 1499,
+      "content": "Cabe señalar, los sub servicios de habilitación informática, acondicionamiento y logística informática, soporte técnico y supervisión informática son sub servicios que se ejecutan previos al Simulacro del Sistema de Cómputo Electoral en las ODPE, entre las que se encuentra la ODPE Arequipa."
+    },
+    {
+      "id": 1500,
+      "content": "Sobre el Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo:"
+    },
+    {
+      "id": 1503,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1504,
+      "content": "V B"
+    },
+    {
+      "id": 1501,
+      "content": "La ONPE mediante procedimiento PR02-GOECOR/SCE \"Procesamiento de documentos electorales y entrega de resultados en la ODPE/ORC\", versión 09, establece las actividades a desarrollarse durante el Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo?, organizados en: (i) Organización del simulacro del sistema de cómputo electoral, (ii) Bienvenida al evento de simulacro, (iii) Verificación de versión del sistema de cómputo electoral, (iv) Ejecución de la puesta a cero, y (v) Procesamiento de actas electorales de prueba; para ello, el procedimiento PRO2-GOECOR/SCE prevé el uso de los siguientes cuadros, formatos y reportes:"
+    },
+    {
+      "id": 1505,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1506,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1508,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1510,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1509,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1516,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1518,
+      "content": "V B"
+    },
+    {
+      "id": 1521,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1522,
+      "content": "LUQUE ESCOBEDO Dohry Karol"
+    },
+    {
+      "id": 1523,
+      "content": "-AU 20131378972 sof"
+    },
+    {
+      "id": 1525,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1524,
+      "content": "Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1528,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1529,
+      "content": "V°B"
+    },
+    {
+      "id": 1531,
+      "content": "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo: Doy Visto Buend Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1507,
+      "content": "Cuadros de \"Resultados Esperados\"."
+    },
+    {
+      "id": 1511,
+      "content": "Formato FM17-GITE/TI \"Registro de ingreso y salida\"."
+    },
+    {
+      "id": 1512,
+      "content": "Reporte \"Verificación de versión\"."
+    },
+    {
+      "id": 1513,
+      "content": "Formato FM01-GOECOR/SCE \"Acta de Puesta a Cero\"."
+    },
+    {
+      "id": 1515,
+      "content": "Reporte \"Puesta a Cero\""
+    },
+    {
+      "id": 1517,
+      "content": "Reportes de \"Avance de Resultados de Actas Contabilizadas\"."
+    },
+    {
+      "id": 1519,
+      "content": "Formato FM02-GOECOR/SCE \"Acta de simulacro del sistema de cómputo electoral\"."
+    },
+    {
+      "id": 1520,
+      "content": "Formato FM04-GOECOR/SCE \"Control de entrega de registros y reportes\"."
+    },
+    {
+      "id": 1526,
+      "content": "Asimismo, el procedimiento PRO2-GOECOR/SCE, versión 09, establece como inicio de la \"Organización del Simulacro del Sistema de Cómputo Electoral\" que el Jefe de la ODPE reciba del Gerente de la GOECOR las indicaciones para el simulacro del Sistema de Cómputo Electoral y el cronograma de pruebas."
+    },
+    {
+      "id": 1530,
+      "content": "Al respecto, mediante memorando múltiple n.° 000112-2026-GOECOR-EG-2026/ONPE de 29 marzo de 2026 el Gerente de la GOECOR comunicó a los Jefes de las ODPE y Encargados de Cómputo Descentralizado las \"Pruebas internas del 30MAR2026 al 4ABR2026, Simulacro del Sistema de Cómputo Electoral y Pruebas Finales del 6ABR2026 AL 11ABR2026 - Elecciones Generales 2026\", en el que se señala, entre otros, las generalidades y recomendaciones, que el"
+    },
+    {
+      "id": 1532,
+      "content": "2 Centro de Cómputo: Ambiente implementado para el procesamiento de las actas electorales y cuenta con las siguientes áreas: De Línea de Recepción, donde se reciben y preparan los documentos electorales; De Procesamiento, donde se procesan los documentos electorales y; De Personeros y Observadores, de donde se observan las actividades que se desarrollan en el área de procesamiento durante el proceso electoral. (Definiciones, del Procedimiento PRO2-GOECOR/SCE, versión 09)."
+    },
+    {
+      "id": 2291,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2292,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2293,
+      "content": "Página 6 de 16"
+    },
+    {
+      "id": 1537,
+      "content": "Simulacro del Sistema de Cómputo Electoral (prueba funcional®) del domingo 5 de abril de 2026, se iniciará con la \"Puesta a Cero\"4 en la Sede Central a las 09:00 horas, y en el Centro de Cómputo a las 09:30 horas, y para ello el inicio de las actividades deberá ser por lo menos media hora antes de la puesta a cero; del mismo modo señaló que las pruebas y el simulacro con la Solución Tecnológico de Apoyo al Escrutinio (STAE') se realizarán en 200 locales de votación donde se llevarán a cabo la Segunda Jornada de Capacitación con el material de pruebas que tenga la etiqueta \"Material de Prueba\" en cuyo caso la transmisión se realizará a partir de las 12:00 horas; el cronograma de pruebas del Simulacro del Sistema de Cómputo Electoral se puede visualizar en el siguiente cuadro:"
+    },
+    {
+      "id": 1542,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1543,
+      "content": "B"
+    },
+    {
+      "id": 1544,
+      "content": "Firmado digitalmente por _EMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1545,
+      "content": "Firmado digitalmente por _EMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1547,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1548,
+      "content": "V B"
+    },
+    {
+      "id": 1549,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karol FAU 20131378972 s011 Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56-05:00"
+    },
+    {
+      "id": 1551,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1553,
+      "content": "B"
+    },
+    {
+      "id": 1538,
+      "content": "Cuadro n. ° 5"
+    },
+    {
+      "id": 1539,
+      "content": "Cronograma de Actividad del Simulacro del Sistema de Cómputo Electoral"
+    },
+    {
+      "id": 976,
+      "content": "N°"
+    },
+    {
+      "id": 977,
+      "content": "DESCRIPCIÓN"
+    },
+    {
+      "id": 978,
+      "content": "DOMINGO 05/04/2026 SIMULACRO CC + LV Muestra (10 actas) Muestra (10 actas por elección)"
+    },
+    {
+      "id": 979,
+      "content": "Presidente y Vicepresidentes Senadores a Nivel Nacional, Senadores a Nivel Regional, Diputados y Parlamento Andino"
+    },
+    {
+      "id": 980,
+      "content": "Hora de inicio de las actividades en el centro de cómputo:"
+    },
+    {
+      "id": 981,
+      "content": "09:30 Horas"
+    },
+    {
+      "id": 982,
+      "content": "A. ACTIVIDADES DE PRUEBAS EN EL CENTRO DE COMPUTO"
+    },
+    {
+      "id": 983,
+      "content": "Verificación de la versión del software electoral"
+    },
+    {
+      "id": 984,
+      "content": "2"
+    },
+    {
+      "id": 985,
+      "content": "Ejecución de la Puesta a Cero"
+    },
+    {
+      "id": 986,
+      "content": "Confirmación de recepción de la puesta a cero'"
+    },
+    {
+      "id": 987,
+      "content": "PROCESAMIENTO DE ACTAS ELECTORALES (PRUEBA FUNCIONAL)"
+    },
+    {
+      "id": 988,
+      "content": "Digitalización de actas electorales"
+    },
+    {
+      "id": 989,
+      "content": "Digitación de actas electorales"
+    },
+    {
+      "id": 990,
+      "content": "6"
+    },
+    {
+      "id": 991,
+      "content": "Confirmación de recepción de información de actas electorales antes del ingreso de resoluciones '"
+    },
+    {
+      "id": 992,
+      "content": "Emisión de reportes antes del ingreso de resoluciones"
+    },
+    {
+      "id": 993,
+      "content": "Comparación de los resultados obtenidos, con los resultados esperados antes del ingreso de resoluciones"
+    },
+    {
+      "id": 994,
+      "content": "Digitalización de resoluciones"
+    },
+    {
+      "id": 995,
+      "content": "10"
+    },
+    {
+      "id": 996,
+      "content": "Control de calidad de imagen de resoluciones"
+    },
+    {
+      "id": 997,
+      "content": "11"
+    },
+    {
+      "id": 998,
+      "content": "Ingreso de resoluciones"
+    },
+    {
+      "id": 999,
+      "content": "12"
+    },
+    {
+      "id": 1000,
+      "content": "Confirmación de recepción información de actas electorales después del ingreso de resoluciones'"
+    },
+    {
+      "id": 1001,
+      "content": "13"
+    },
+    {
+      "id": 1002,
+      "content": "Emisión de reportes después del ingreso de resoluciones"
+    },
+    {
+      "id": 1003,
+      "content": "14"
+    },
+    {
+      "id": 1004,
+      "content": "Comparación de los resultados obtenidos, con los resultados esperados después del ingreso de"
+    },
+    {
+      "id": 1005,
+      "content": "INTEGRACIÓN CON LA SOLUCIÓN TECNOLOGICA DE APOYO AL ESCRUTINIO - STAE"
+    },
+    {
+      "id": 1006,
+      "content": "Integración con la STAE?"
+    },
+    {
+      "id": 1007,
+      "content": "EN EL LOCAL DE VOTACIÓN"
+    },
+    {
+      "id": 1008,
+      "content": "Habilitación de laptop de escrutinio, laptop de transmisión y medio de transmisión."
+    },
+    {
+      "id": 1009,
+      "content": "Diagnóstico de equipos: Prueba de impresión, Impresión de la Tarjeta de Calibración y Formato 3.1"
+    },
+    {
+      "id": 1010,
+      "content": "Registro de hoja borrador de prueba"
+    },
+    {
+      "id": 1011,
+      "content": "Impresión de Actas y cartel de resultados"
+    },
+    {
+      "id": 1012,
+      "content": "Transmisión de datos"
+    },
+    {
+      "id": 1013,
+      "content": "B. ACTIVIDADES DE PRUEBA DE CONTINGENCIA"
+    },
+    {
+      "id": 1014,
+      "content": "EN EL CENTRO DE COMPUTO"
+    },
+    {
+      "id": 1015,
+      "content": "Inoperatividad del Servidor Principal 3"
+    },
+    {
+      "id": 1016,
+      "content": "5"
+    },
+    {
+      "id": 1017,
+      "content": "Indisponibilidad del Suministro Eléctrico Comercial"
+    },
+    {
+      "id": 1018,
+      "content": "EN EL LOCAL DE VOTACIÓN"
+    },
+    {
+      "id": 1019,
+      "content": "Indisponibilidad de la laptop de escrutinio en la mesa de sufragio"
+    },
+    {
+      "id": 1020,
+      "content": "2"
+    },
+    {
+      "id": 1021,
+      "content": "Indisponibilidad de la impresora A4 en la mesa de sufragio"
+    },
+    {
+      "id": 1022,
+      "content": "Indisponibilidad de la laptop de transmisión en el punto de transmisión"
+    },
+    {
+      "id": 1552,
+      "content": "'En coordinación con el Centro de Atención de Servicios Informáticos, solo para el CC sorteado."
+    },
+    {
+      "id": 1554,
+      "content": "3 Prueba funcional: Desarrollo de actividades con el fin de comprobar el correcto funcionamiento del Sistema de Cómputo Electoral; en esta prueba se procesa una muestra del material de pruebas para verificar las sumas y la correcta aplicación de las casuísticas de la Directiva de \"Tratamiento de las actas electorales para el cómputo de resultados\". (Definiciones, del Procedimiento PRO2-GOECORISCE, versión 09)."
+    },
+    {
+      "id": 1555,
+      "content": "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo. Dov Visto Buend"
+    },
+    {
+      "id": 1556,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00 4 Puesta a Cero: Eliminación de los registros de la base de datos, a través del Sistema de Cómputo Electoral, que se ejecuta en los servidores de los centros de cómputo y los Servidores Nación. (Definiciones, del Procedimiento PR02-GOECOR/SCE, versión 09)."
+    },
+    {
+      "id": 1557,
+      "content": "5 Solución Tecnológica de Apoyo al Escrutinio: Es una solución tecnológica que permite a los miembros de mesa generar el Acta de Instalación, el Acta de Sufragio y el Acta de Escrutinio, optimizando los tiempos de elaboración de estos documentos y reduciendo la incidencia de actas observadas derivadas del llenado manual de resultados. Asimismo, posibilita la generación de certificados digitales para los miembros de mesa, con el propósito de registrar la información de la jornada electoral y suscribir digitalmente las actas electorales, garantizando la integridad y autenticidad de la información. (Definiciones, del Procedimiento PRO2-GOECOR/SCE, versión 09)."
+    },
+    {
+      "id": 2294,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2295,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1561,
+      "content": "INFORME DE HITO DE CONTROL N° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1562,
+      "content": "Página 7 de 16"
+    },
+    {
+      "id": 1565,
+      "content": "CC: Centro de Cómputo"
+    },
+    {
+      "id": 1566,
+      "content": "LR: Línea de Recepción"
+    },
+    {
+      "id": 1567,
+      "content": "Las actividades de las pruebas en los Locales de Votación se podrán realizar en paralelo a las actividades del Centro de Cómputo; sin embargo, la transmisión debe realizarse a partir de las 12:00 horas."
+    },
+    {
+      "id": 1568,
+      "content": "b) La prueba de contingencia deberá realizarse en cualquier etapa del desarrollo de las actividades programadas."
+    },
+    {
+      "id": 1569,
+      "content": "El término de la prueba será comunicada por el Centro de Atención de Servicios Informáticos."
+    },
+    {
+      "id": 1570,
+      "content": "Fuente: Memorando múltiple n.º 000112-2026-GOECOR-EG-2026/ONPE de 29 marzo de 2026."
+    },
+    {
+      "id": 1571,
+      "content": "Elaborado por: Comisión de Control"
+    },
+    {
+      "id": 1576,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1577,
+      "content": "V B"
+    },
+    {
+      "id": 1578,
+      "content": "Firmado digitalmente por LEMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1581,
+      "content": "CONTRALORCA"
+    },
+    {
+      "id": 1582,
+      "content": "V B"
+    },
+    {
+      "id": 1583,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karol FAU 20131378972 s011 Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1589,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1591,
+      "content": "V B"
+    },
+    {
+      "id": 1593,
+      "content": "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard Motivo: Doy Visto Buend Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1572,
+      "content": "Con relación a las actividades \"Procesamiento de actas electorales de prueba\", el procedimiento PRO2-GOECOR/SCE, versión 09, señala que se deben realizar las tareas descritas en el instructivo INO1-GOECOR/SCE \"Procesamiento de actas en el centro de cómputo\", versión 06, que establece las tareas para realizar el procesamiento de Actas Electorales en el centro de cómputo de la ODPE/ORC, asimismo, se relaciona con el procedimiento PRO3-GITE/TI \"Contingencia en el centro de cómputo de la ODPE\", versión 07, que presenta las actividades de recuperación ante la inoperatividad de equipos y servicios del centro de cómputo de la ODPE durante el procesamiento de las actas electorales y la transmisión de la información procesada."
+    },
+    {
+      "id": 1573,
+      "content": "Sobre el Simulacro del Sistema de Cómputo Electoral en la Sede Central - Centro de Monitoreo de Resultados Electorales:"
+    },
+    {
+      "id": 1574,
+      "content": "La ONPE mediante Otros Documentos OD02-GITE/SCE \"Guía de operación del centro de monitoreo de resultados electorales\", versión 03, establece las pautas necesarias y mecanismos del Centro de Monitoreo de Resultados Electorales® para realizar el seguimiento de la consolidación de resultados electorales en la Sede Central durante las pruebas internas, simulacro del sistema de cómputo electoral, pruebas finales, procesamiento de actas, registro de miembros de mesa, registro de omisos y registro de personeros."
+    },
+    {
+      "id": 1579,
+      "content": "Las tareas a desarrollarse durante el Simulacro del Sistema de Cómputo Electoral, se organizan en: (i) Actividades previas, (ii) Eliminación de registros, (iii) Verificación de versión del software electoral, (iv) Puesta a cero en los servidores nación, (v) Selección del centro de cómputo para la confirmación de transmisión y comparación de reportes, (vi) Procesamiento de actas y resoluciones, (vii) Seguimiento a la transmisión de imágenes de actas y resoluciones de los centros de cómputo, (viii) Generación de reportes y (ix) Generación de copias de respaldo en los servidores nación; para ello, el documento ODO2-GITE/SCE prevé el uso de los siguientes formatos y reportes:"
+    },
+    {
+      "id": 1584,
+      "content": "Formato FM16-GITE/TI \"Personal autorizado\"."
+    },
+    {
+      "id": 1585,
+      "content": "Formato FM09-GITE/IMO \"Inventario y evaluación de equipos informáticos y de telecomunicaciones\"."
+    },
+    {
+      "id": 1586,
+      "content": "Formato FM17-GITE/TI \"Registro de ingreso y salida\"."
+    },
+    {
+      "id": 1587,
+      "content": "Memorando de convocatoria al Simulacro del Sistema de Cómputo Electoral."
+    },
+    {
+      "id": 1590,
+      "content": "Formato FM05-GITE/TI \"Control de Copias de Respaldo en Medios de Almacenamiento Extraibles\"."
+    },
+    {
+      "id": 1592,
+      "content": "Formato FM08-GOECOR/SCE \"Lista de chequeo para actividades del centro de monitoreo de resultados electorales\"."
+    },
+    {
+      "id": 1594,
+      "content": "Reportes de versión de software."
+    },
+    {
+      "id": 1595,
+      "content": "· Centro de Monitoreo de Resultados Electorales: Ambiente de la GITE, donde se realiza el monitoreo y control de la transmisión de datos e imágenes de las actas electorales, resoluciones y consolidación de resultados de los centros de cómputo y locales de votación en los Servidores Nación. Además de la emisión de reportes de resultados y generación de copias de respaldo de la base de datos. (Definiciones, de OD02GITE/SCE, versión 03)."
+    },
+    {
+      "id": 2296,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1598,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1599,
+      "content": "Página 8 de 16"
+    },
+    {
+      "id": 1600,
+      "content": "Reportes de puesta a cero de los servidores informáticos que participan en el Simulacro y de los servidores implementados en los Centros de Cómputo de las ODPE y Centros de Cómputo de contingencia."
+    },
+    {
+      "id": 1601,
+      "content": "Reportes de transmisión de datos e imágenes desde los Centros de Cómputo de las ODPE y de los Locales de Votación."
+    },
+    {
+      "id": 1602,
+      "content": "Reportes de transmisión de avance de resultados de actas contabilizadas, antes y después del ingreso de resoluciones."
+    },
+    {
+      "id": 1603,
+      "content": "Reportes de avance de estado de actas por centro de cómputo, resumen total por centro de cómputo."
+    },
+    {
+      "id": 1604,
+      "content": "Reportes al Centro de Cómputo Sorteado (Cuadro de resultados esperados sin resoluciones, cuadro de resultados esperados con resoluciones, reportes de avance de resultados de actas contabilizadas (antes del ingreso de resoluciones), reportes de avance de resultados de actas contabilizadas (después del ingreso de resoluciones)"
+    },
+    {
+      "id": 1605,
+      "content": "Sobre el desarrollo del Simulacro del Sistema de Cómputo Electoral en la ODPE Arequipa:"
+    },
+    {
+      "id": 1606,
+      "content": "El día 5 de abril de 2026, la Comisión de Control realizó una visita de inspección al local de la ODPE Arequipa, a fin de presenciar el desarrollo del Simulacro del Centro de Cómputo Electoral y la operatividad de los equipos informáticos, según se resume a continuación:"
+    },
+    {
+      "id": 1607,
+      "content": "a) Recopilación de información preliminar"
+    },
+    {
+      "id": 1610,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1611,
+      "content": "V B"
+    },
+    {
+      "id": 1613,
+      "content": "Firmado digitalmente por LEMA SONCCO Cesar Jose Marin FAu Z0131318912 SOl Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1615,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1616,
+      "content": "V B"
+    },
+    {
+      "id": 1618,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karol FAU 20131378972 soft Motivo: Dov Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1622,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1623,
+      "content": "V°B"
+    },
+    {
+      "id": 1624,
+      "content": "mado digitalmente p AVEZ CHAVEZ Maris Alicia FAU 20131378972 hard Motivo. Dov Visto Bueno Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1608,
+      "content": "Se entrevistó a la Coordinadora de la ODPE Arequipa, quien informó que las indicaciones para el desarrollo del Simulacro del Sistema de Cómputo Electoral del 5 de abril de 2026, fueron comunicadas al Jefe de ODPE Arequipa de la ODPE - Arequipa, mediante memorando múltiple n.° 000112-2026-GOECOR-EG-2026/ONPE de 29 marzo de 2026, emitido por el Gerente de la GOECOR."
+    },
+    {
+      "id": 1612,
+      "content": "Asimismo, se verificó que la ODPE Arequipa cursó invitaciones para presenciar el Simulacro del Sistema de Cómputo Electoral al Jurado Electoral Especial de Arequipa 1, mediante oficio n.° 000084-2026-ODPEAREQUIPAEG2026/ONPE de 31 de marzo de 2026 y a la Jefatura Regional de la Registro Nacional de Identificación y Estado Civil - RENIEC Arequipa, mediante oficio n.° 000085-2026-ODPEAREQUIPAEG2026/ONPE de 31 de marzo de 2026, así como a personeros técnicos de las organizaciones políticas Alianza para el Progreso, Perú Primero y Perú Libre?."
+    },
+    {
+      "id": 1617,
+      "content": "Igualmente, la Encargada del Centro de Cómputo Descentralizado - ECD, informó que el Centro de Cómputo de la ODPE Arequipa, había sido objeto de evaluación previa, emitiéndose el formato FM10-GITE/IMO \"Evaluación de Centro de Cómputo\", de 3 de abril de 2026."
+    },
+    {
+      "id": 1619,
+      "content": "b) Inicio de Simulacro"
+    },
+    {
+      "id": 1620,
+      "content": "En la puerta del Centro de Cómputo se encontró publicado el formato FM16-GITE/TI \"Personal Autorizado\", con los datos de las personas autorizadas a ingresar al ambiente propio del centro de cómputo, entre las cuales se encontraban autoridades de la ONPE, operadores y personal de soporte técnico del servicio SHALI."
+    },
+    {
+      "id": 1625,
+      "content": "Así mismo, en el ambiente destinado a los observadores se encontraron los formatos FM17GITE/TI \"Registro de Ingreso y Salida\" para personal del JNE/JEE y Otros, como personal técnico que brinda apoyo al proceso. Asimismo, se verifico que el personal del centro de"
+    },
+    {
+      "id": 1626,
+      "content": "\" Levado a cabo mediante oficios n. 000086-2026-ODPEAREQUIPAEG2026/ONPE, 000087-2026-ODPEAREQUIPAEG2026/ONPE y 000088-2026-ODPEAREQUIPAEG2026/ONPE, de 1 de abril de 2026."
+    },
+    {
+      "id": 2297,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2298,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2299,
+      "content": "Página 9 de 16"
+    },
+    {
+      "id": 1631,
+      "content": "cómputo de la ODPE Arequipa, registró su entrada en el FM17-GITE/TI \"Registro de Ingreso y Salida\" correspondiente."
+    },
+    {
+      "id": 1632,
+      "content": "El Simulacro del Sistema de Cómputo Electoral inicio de acuerdo a lo programado a las 9:30 horas del 5 de abril de 2026, y su desarrollo se encontró a cargo de la ECD, quien dio inicio al citado acto y luego procedió a dar una breve explicación de las actividades que se ejecutarían como parte del simulacro."
+    },
+    {
+      "id": 1633,
+      "content": "c) Verificación de versión del Sistema de Cómputo Electoral - SCE y Puesta a Cero"
+    },
+    {
+      "id": 1634,
+      "content": "Se procedió con la verificación de la versión instalada del Sistema de Cómputo Electoral SCE, corroborando que el código de versión era igual a la versión de control de valor: \"7fef35335d771 b1ec44ef4ad1f2f3ed832337f8b368fe00331 f1 d52 dff4758b\", emitiéndose el Reporte de Verificación de Versión Servidor Principal, a las 09:48 horas del 5 de abril de 2026, tal y como se aprecia a continuación:"
+    },
+    {
+      "id": 1635,
+      "content": "Imagen n.°2 Reporte de Verificación de Versión Servidor Principal"
+    },
+    {
+      "id": 1638,
+      "content": "Fecha : 05/04/2026"
+    },
+    {
+      "id": 1637,
+      "content": "ELECCIONES GENERALES Y PARLAMENTO ANDINO 2026"
+    },
+    {
+      "id": 1640,
+      "content": ": 09:48:59 ("
+    },
+    {
+      "id": 1639,
+      "content": "HorE"
+    },
+    {
+      "id": 1642,
+      "content": "Página : 1 de 1"
+    },
+    {
+      "id": 1641,
+      "content": "ONPE"
+    },
+    {
+      "id": 1643,
+      "content": "VERIFICACIÓN DE VERSIÓN SERVIDOR PRINCIPAL"
+    },
+    {
+      "id": 1645,
+      "content": ": C59014-AREQUIPA"
+    },
+    {
+      "id": 1644,
+      "content": "Contro de Comoute"
+    },
+    {
+      "id": 1646,
+      "content": "Código de versión del Software Electoral"
+    },
+    {
+      "id": 1647,
+      "content": ":7 ek513507701e044e480123208373378036800033105026147580"
+    },
+    {
+      "id": 1648,
+      "content": "Código de versión del Asistente Automatizado"
+    },
+    {
+      "id": 1649,
+      "content": ":4c610e369 3dc06b9d1262539 912ce26ec631eb752bada562319ba239a176"
+    },
+    {
+      "id": 1651,
+      "content": ": 11/03/2026 13:17:00"
+    },
+    {
+      "id": 1650,
+      "content": "Fecha de Auditoria de Versión"
+    },
+    {
+      "id": 1653,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1655,
+      "content": "Codigo versión del Solware Electoral"
+    },
+    {
+      "id": 1657,
+      "content": "Fecha de auditoría del equipo"
+    },
+    {
+      "id": 1656,
+      "content": "Estado"
+    },
+    {
+      "id": 1654,
+      "content": "VB"
+    },
+    {
+      "id": 1658,
+      "content": "7te/35335d771btec44ef4ad11213ed83233718b368fe00331f1d5d2dff4758b"
+    },
+    {
+      "id": 1660,
+      "content": "05/04/2026 09:48:53"
+    },
+    {
+      "id": 1659,
+      "content": "IGUALES"
+    },
+    {
+      "id": 1661,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1662,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1664,
+      "content": "Codoo versión de Asistente Automatizado"
+    },
+    {
+      "id": 1666,
+      "content": "Fecha de sucitoria del equipo"
+    },
+    {
+      "id": 1665,
+      "content": "Estadd"
+    },
+    {
+      "id": 1663,
+      "content": "MalIn PAU ZUSS OV2 sol"
+    },
+    {
+      "id": 1668,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1667,
+      "content": "Fecha: 10-04-2026 09:36:46 -05:00"
+    },
+    {
+      "id": 1671,
+      "content": "05/04/2026 09:48:53"
+    },
+    {
+      "id": 1669,
+      "content": "4C610ca69c3do0bb9d12625a9d912ce26ec631eb752bada56123f9b82a9a176"
+    },
+    {
+      "id": 1670,
+      "content": "IGUALES"
+    },
+    {
+      "id": 1672,
+      "content": "informacion spoin base de datos actuai2ada Al 17/03/2028 18:19 hors"
+    },
+    {
+      "id": 1674,
+      "content": "OFICIAL"
+    },
+    {
+      "id": 1675,
+      "content": "CONTRALOR(A"
+    },
+    {
+      "id": 1676,
+      "content": "V B®"
+    },
+    {
+      "id": 1678,
+      "content": "Algos"
+    },
+    {
+      "id": 1679,
+      "content": "Algos"
+    },
+    {
+      "id": 1677,
+      "content": "Firmado digitalmente por UQUE ESCOBEDO Dohry Karo FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1680,
+      "content": "Vat:a Vobrs ata dh Otori Caiu lubis da Precesa Estecies"
+    },
+    {
+      "id": 1681,
+      "content": "Vat:a Vobrs ata dh Otori Caiu lubis da Precesa Estecies"
+    },
+    {
+      "id": 1682,
+      "content": "ZARELA DAL NONAN DIAMANTOY nargado de Cômpu OPE AREQUF frána Nacional de Procescs Decora"
+    },
+    {
+      "id": 1683,
+      "content": "ZARELA DAL NONAN DIAMANTOY nargado de Cômpu OPE AREQUF frána Nacional de Procescs Decora"
+    },
+    {
+      "id": 1686,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1685,
+      "content": "V B"
+    },
+    {
+      "id": 1691,
+      "content": "Reporte : Ventca Version"
+    },
+    {
+      "id": 1692,
+      "content": "Reporte : Ventca Version"
+    },
+    {
+      "id": 1689,
+      "content": "Usuario: ADM_CC_C59014_2_601216"
+    },
+    {
+      "id": 1690,
+      "content": "Usuario: ADM_CC_C59014_2_601216"
+    },
+    {
+      "id": 1688,
+      "content": "Motivo. Dov Visto Buleno"
+    },
+    {
+      "id": 1693,
+      "content": "Versión :1,3"
+    },
+    {
+      "id": 1694,
+      "content": "Versión :1,3"
+    },
+    {
+      "id": 1687,
+      "content": "Fecha: 10-04-2026 09:52:39 -05:00"
+    },
+    {
+      "id": 1695,
+      "content": "Fuente: Reporte Verificación de versión generado por el Sistema de Cómputo Electoral de la ODPE Arequipa. Elaborado por: Comisión de Control a cargo del servicio del Control Concurrente."
+    },
+    {
+      "id": 2300,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2301,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2302,
+      "content": "Página 10 de 16"
+    },
+    {
+      "id": 1700,
+      "content": "Seguidamente se procedió con la ejecución del proceso de puesta a cero, generando el Reporte de Puesta a Cero a las 09:49 horas del 5 de abril de 2026, de cuya revisión se constató la eliminación de registros de la base de datos a través del SCE, observándose que los contadores de Actas Procesadas, Actas Enviadas al JEE Por Resolver, Actas enviadas al JEEE Resueltas y Actas Por Resolver y Resueltas, del proceso de Digitación, se encontraban en cero (0), listas para el inicio del simulacro, tal y como se muestra en la imagen siguiente:"
+    },
+    {
+      "id": 1701,
+      "content": "Imagen n.°3 Reporte de Puesta a Cero"
+    },
+    {
+      "id": 1704,
+      "content": "Fecha : 05/04/2026"
+    },
+    {
+      "id": 1703,
+      "content": "ELECCIONES GENERALES Y PARLAMENTO ANDINO 2026"
+    },
+    {
+      "id": 1705,
+      "content": "Hora : 09:49:32"
+    },
+    {
+      "id": 1707,
+      "content": "Página : 1 de 2"
+    },
+    {
+      "id": 1706,
+      "content": "ONPE"
+    },
+    {
+      "id": 1708,
+      "content": "REPORTE DE PUESTA A CERO"
+    },
+    {
+      "id": 1711,
+      "content": "ODPE: J59014-AREQUIPA"
+    },
+    {
+      "id": 1709,
+      "content": "C. COMPUTO:"
+    },
+    {
+      "id": 1710,
+      "content": "C59014-AREQUIPA"
+    },
+    {
+      "id": 1712,
+      "content": "DIGITALIZACIÓN"
+    },
+    {
+      "id": 1721,
+      "content": "Nro de"
+    },
+    {
+      "id": 1716,
+      "content": "Nro. de Actas"
+    },
+    {
+      "id": 1718,
+      "content": "Nro. de"
+    },
+    {
+      "id": 1715,
+      "content": "Total da Actas"
+    },
+    {
+      "id": 1720,
+      "content": "Digltalizadas"
+    },
+    {
+      "id": 1717,
+      "content": "Resoluciones"
+    },
+    {
+      "id": 1714,
+      "content": "Total do Acia:"
+    },
+    {
+      "id": 1713,
+      "content": "Tipo de Proceso"
+    },
+    {
+      "id": 1719,
+      "content": "Dicitaiza"
+    },
+    {
+      "id": 1722,
+      "content": "big talzadas"
+    },
+    {
+      "id": 1723,
+      "content": "PRESIDENTE Y VICEPRESIDENTES"
+    },
+    {
+      "id": 1725,
+      "content": "1,250"
+    },
+    {
+      "id": 1724,
+      "content": "1,250"
+    },
+    {
+      "id": 1728,
+      "content": "1,250"
+    },
+    {
+      "id": 1726,
+      "content": "PARLAHENTO ANDING"
+    },
+    {
+      "id": 1727,
+      "content": "1.250"
+    },
+    {
+      "id": 1730,
+      "content": "1,250"
+    },
+    {
+      "id": 1729,
+      "content": "DIPUTADOS"
+    },
+    {
+      "id": 1731,
+      "content": "SENADORES DISTRITO NULIPLE"
+    },
+    {
+      "id": 1732,
+      "content": "7.250"
+    },
+    {
+      "id": 1733,
+      "content": "SENADORES DISTRITO ÚNICO"
+    },
+    {
+      "id": 1735,
+      "content": "1,250"
+    },
+    {
+      "id": 1734,
+      "content": "1.250"
+    },
+    {
+      "id": 1736,
+      "content": "DIGITACIÓN"
+    },
+    {
+      "id": 1739,
+      "content": "Actas"
+    },
+    {
+      "id": 1743,
+      "content": "Actas Env."
+    },
+    {
+      "id": 1740,
+      "content": "Actas"
+    },
+    {
+      "id": 1741,
+      "content": "Actas Env."
+    },
+    {
+      "id": 1747,
+      "content": "Actas nol"
+    },
+    {
+      "id": 1738,
+      "content": "Actas a Procesar Pendientes"
+    },
+    {
+      "id": 1742,
+      "content": "JEE por"
+    },
+    {
+      "id": 1737,
+      "content": "Tipo de Elección"
+    },
+    {
+      "id": 1749,
+      "content": "JEE"
+    },
+    {
+      "id": 1746,
+      "content": "Resclver"
+    },
+    {
+      "id": 1745,
+      "content": "Procatadar"
+    },
+    {
+      "id": 1744,
+      "content": "Procesar"
+    },
+    {
+      "id": 1748,
+      "content": "Resuellas"
+    },
+    {
+      "id": 1750,
+      "content": "KOSLOS"
+    },
+    {
+      "id": 1751,
+      "content": "PRESIDENTE Y VICEPRESIDENTES"
+    },
+    {
+      "id": 1753,
+      "content": "1,250"
+    },
+    {
+      "id": 1752,
+      "content": "1,250"
+    },
+    {
+      "id": 1755,
+      "content": "PARLAMENTO ANDINO"
+    },
+    {
+      "id": 1756,
+      "content": "1,250"
+    },
+    {
+      "id": 1757,
+      "content": "1,250"
+    },
+    {
+      "id": 1758,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1761,
+      "content": "1,250"
+    },
+    {
+      "id": 1762,
+      "content": "1,250"
+    },
+    {
+      "id": 1760,
+      "content": "DIPUTADOS"
+    },
+    {
+      "id": 1759,
+      "content": "V B"
+    },
+    {
+      "id": 1764,
+      "content": "SENADORES DISTRITO MÚLTIPLE"
+    },
+    {
+      "id": 1765,
+      "content": "1,250"
+    },
+    {
+      "id": 1766,
+      "content": "1,250"
+    },
+    {
+      "id": 1763,
+      "content": "14"
+    },
+    {
+      "id": 1767,
+      "content": "SENADORES DISTRITO ÚNICO"
+    },
+    {
+      "id": 1768,
+      "content": "1,250"
+    },
+    {
+      "id": 1769,
+      "content": "1,250"
+    },
+    {
+      "id": 1770,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1771,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1772,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1773,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1780,
+      "content": "REGISTRO DE MIEMBROS DE MESA"
+    },
+    {
+      "id": 1774,
+      "content": "MarIn PAU 20131318912 c01"
+    },
+    {
+      "id": 1775,
+      "content": "MarIn PAU 20131318912 c01"
+    },
+    {
+      "id": 1778,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1779,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1776,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1777,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1782,
+      "content": "Total Mesas"
+    },
+    {
+      "id": 1783,
+      "content": "lesas Registrada!"
+    },
+    {
+      "id": 1781,
+      "content": "Tioa de Recietro"
+    },
+    {
+      "id": 1784,
+      "content": "MIEMBROS DE MESA"
+    },
+    {
+      "id": 1785,
+      "content": "1,250"
+    },
+    {
+      "id": 1788,
+      "content": "Tulles"
+    },
+    {
+      "id": 1787,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1789,
+      "content": "V°B"
+    },
+    {
+      "id": 1790,
+      "content": "Marina fictoria lingres Reyes Marchena"
+    },
+    {
+      "id": 1791,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karo FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1793,
+      "content": "Reporte : PuestaCeroCc"
+    },
+    {
+      "id": 1792,
+      "content": "Usuario: ADM_CC_C59014_2_601216"
+    },
+    {
+      "id": 1794,
+      "content": "Version :13"
+    },
+    {
+      "id": 1795,
+      "content": "Fuente: Reporte de Puesta a Cero generado por el Sistema de Cómputo Electoral de la ODPE Arequipa. Elaborado por: Comisión de Control a cargo del servicio del Control Concurrente."
+    },
+    {
+      "id": 1797,
+      "content": "Finalmente, se generó y firmó el formato Acta de Puesta a Cero, donde se detalla que en presencia de la Jefa de la ODPE Arequipa y el Fiscalizador de Tecnología Aplicada del JEE se desarrolló el procedimiento de verificación de versión y puesta a cero del sistema de cómputo electoral."
+    },
+    {
+      "id": 1799,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1798,
+      "content": "V°B"
+    },
+    {
+      "id": 1800,
+      "content": "Motivo: Dov Visto Bueno Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1801,
+      "content": "Procesamiento de Actas - Prueba Funcional"
+    },
+    {
+      "id": 1802,
+      "content": "Como parte de los procedimientos determinados para el simulacro, se procesaron diez (10) actas para la elección de \"Presidente y Vicepresidente\", diez (10) actas para la elección de \"Senadores a Nivel Nacional\", diez (10) actas para la elección de \"Diputados\", diez (10) actas"
+    },
+    {
+      "id": 1816,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1817,
+      "content": "V B"
+    },
+    {
+      "id": 1819,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1820,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1821,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1822,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1823,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1824,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1827,
+      "content": "Motivo: Dov Visto Bueno"
+    },
+    {
+      "id": 1828,
+      "content": "Motivo: Dov Visto Bueno"
+    },
+    {
+      "id": 1825,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1826,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1831,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1832,
+      "content": "V B"
+    },
+    {
+      "id": 1833,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1834,
+      "content": "LUQUE ESCOBEDO Dohry Karo"
+    },
+    {
+      "id": 1835,
+      "content": "FAU 20131378972 soft"
+    },
+    {
+      "id": 1837,
+      "content": "Motivo: Doy Visto Buenc"
+    },
+    {
+      "id": 1836,
+      "content": "Fecha: 10-04-2026 09:43:56 -05:0"
+    },
+    {
+      "id": 1839,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1840,
+      "content": "V°B"
+    },
+    {
+      "id": 1845,
+      "content": "Motivo. Dov Visto Bueno"
+    },
+    {
+      "id": 1846,
+      "content": "Motivo. Dov Visto Bueno"
+    },
+    {
+      "id": 1843,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1844,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 2303,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2304,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2305,
+      "content": "Página 11 de 16"
+    },
+    {
+      "id": 1807,
+      "content": "para la elección de \"Senadores Regionales\" y diez (10) actas para la elección del \"Parlamento Andino\", las cuales fueron digitalizadas, digitadas y validades por los controles de calidad."
+    },
+    {
+      "id": 1808,
+      "content": "Durante este proceso de generaron los cuadros con el cálculo de \"Resultados Esperados antes del ingreso de resoluciones\" y \"Resultados Esperados después del ingreso de resoluciones\". Y posteriormente, luego de completar el procesamiento de las actas de muestra, se generaron los reportes de \"Avance de Resultados de Actas Contabilizadas\" para los 4 tipos de elección con el siguiente detalle:"
+    },
+    {
+      "id": 1809,
+      "content": "Cuadro n. ° 6"
+    },
+    {
+      "id": 1810,
+      "content": "Avance de Resultado de Actas Contabilizadas al 0.640%"
+    },
+    {
+      "id": 1024,
+      "content": "ELECCIÓN"
+    },
+    {
+      "id": 1025,
+      "content": "ELECTORES HÁBILES"
+    },
+    {
+      "id": 1026,
+      "content": "TOTAL VOTOS EMITIDOS"
+    },
+    {
+      "id": 1027,
+      "content": "TOTAL VOTOS VÁLIDOS"
+    },
+    {
+      "id": 1028,
+      "content": "1. Presidente y Vicepresidente"
+    },
+    {
+      "id": 1029,
+      "content": "2304"
+    },
+    {
+      "id": 1030,
+      "content": "2019"
+    },
+    {
+      "id": 1031,
+      "content": "2003"
+    },
+    {
+      "id": 1032,
+      "content": "2. Parlamento Andino"
+    },
+    {
+      "id": 1033,
+      "content": "2400"
+    },
+    {
+      "id": 1034,
+      "content": "2068"
+    },
+    {
+      "id": 1035,
+      "content": "2044"
+    },
+    {
+      "id": 1036,
+      "content": "3. Diputados"
+    },
+    {
+      "id": 1037,
+      "content": "2304"
+    },
+    {
+      "id": 1038,
+      "content": "2034"
+    },
+    {
+      "id": 1039,
+      "content": "2018"
+    },
+    {
+      "id": 1040,
+      "content": "4. Senadores"
+    },
+    {
+      "id": 1041,
+      "content": "2330"
+    },
+    {
+      "id": 1042,
+      "content": "2027"
+    },
+    {
+      "id": 1043,
+      "content": "2011"
+    },
+    {
+      "id": 1812,
+      "content": "Fuente: Reportes de Avance de Resultados de Actas Contabilizadas emitidas el 5 de abril de 2026 Elaborado por: Comisión de Control a cargo del servicio del Control Concurrente."
+    },
+    {
+      "id": 1813,
+      "content": "e) Pruebas de Contingencia - Prueba Funcional"
+    },
+    {
+      "id": 1814,
+      "content": "La ECD de la ODPE Arequipa procedió a realizar las pruebas de contingencia con el objetivo de verificar el funcionamiento de los equipos de cómputo ante algún tipo de siniestro que pudiera ocurrir. Es así que se procedió a realizar el corte de fluido eléctrico comercial para dar paso al funcionamiento de la batería de respaldo UPS y el grupo electrógeno, verificando que durante este proceso no se presentaron fallas dando por exitosa la prueba de funcionamiento ante indisponibilidad del suministro eléctrico. Como resultado se generó el formato FM07GITE/TI con el siguiente detalle:"
+    },
+    {
+      "id": 1818,
+      "content": "Cuadro n. ° 7 Resultado de las pruebas de contingencia"
+    },
+    {
+      "id": 1045,
+      "content": "ESCENARIO"
+    },
+    {
+      "id": 1046,
+      "content": "ACTIVIDADES"
+    },
+    {
+      "id": 1047,
+      "content": "HORA INICIO"
+    },
+    {
+      "id": 1048,
+      "content": "HORA FIN"
+    },
+    {
+      "id": 1049,
+      "content": "RESULTADO"
+    },
+    {
+      "id": 1050,
+      "content": "Indisponibilidad del suministro eléctrico comercial"
+    },
+    {
+      "id": 1051,
+      "content": "1. Cambiar la llave termomagnética de la línea comercial del tablero eléctrico del CC, de la posición ON a OFF. 2. Encender el grupo electrógeno. 3. Esperar unos segundos a que la frecuencia y voltaje de salida del grupo electrógeno se estabilice. 4. Cambiar la posición del enclavamiento en el tablero eléctrico. 5. Cambiar la llave termomagnética del grupo electrógeno de la posición OFF a ON. 6. Verificar que el SCE sigue operando en todas las estaciones."
+    },
+    {
+      "id": 1052,
+      "content": "11:03"
+    },
+    {
+      "id": 1053,
+      "content": "11:15"
+    },
+    {
+      "id": 1054,
+      "content": "EXITOSO"
+    },
+    {
+      "id": 1841,
+      "content": "Fuente: Formato FMO7-GITE/TI Registro de pruebas de Funcionalidad, emitido el 5 de abril de 2026"
+    },
+    {
+      "id": 1842,
+      "content": "Elaborado por: Comisión de Control a cargo del servicio del Control Concurrente."
+    },
+    {
+      "id": 1847,
+      "content": "Cabe mencionar que durante la ejecución de las pruebas funcionales de contingencia desarrollados en la ODPE Arequipa, se observó que todos lo equipos informáticos y de telecomunicaciones se encontraban operativos y no presentaron fallas técnicas."
+    },
+    {
+      "id": 2306,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1850,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1851,
+      "content": "Página 12 de 16"
+    },
+    {
+      "id": 1852,
+      "content": "1) Emisión del Acta de Simulacro"
+    },
+    {
+      "id": 1853,
+      "content": "Como resultado de las actividades realizadas en el Centro de Cómputo de la ODPE Arequipa, se procedió con la emisión del formato FM02-GOECOR/SCE \"Acta de Simulacro del Sistema de Cómputo Electoral\", donde se incluyó el detalle de las actividades completadas, las cuales corresponden a Verificación del software electoral, ejecución de puesta a cero, procesamiento de actas electorales de prueba y pruebas de contingencia, tal y como se aprecia a continuación:"
+    },
+    {
+      "id": 1854,
+      "content": "Imagen n.° 4 Acta de Simulacro del Sistema de Cómputo Electoral"
+    },
+    {
+      "id": 1859,
+      "content": "FM02"
+    },
+    {
+      "id": 1857,
+      "content": "Código:"
+    },
+    {
+      "id": 1858,
+      "content": "GOECOR/SCE"
+    },
+    {
+      "id": 1856,
+      "content": "FORMATO"
+    },
+    {
+      "id": 1862,
+      "content": "04"
+    },
+    {
+      "id": 1861,
+      "content": "Versión:"
+    },
+    {
+      "id": 1860,
+      "content": "ONPE"
+    },
+    {
+      "id": 1864,
+      "content": "de"
+    },
+    {
+      "id": 1863,
+      "content": "Fecha"
+    },
+    {
+      "id": 1866,
+      "content": "29/03/2026"
+    },
+    {
+      "id": 1865,
+      "content": "Aprobación:"
+    },
+    {
+      "id": 1867,
+      "content": "Página:"
+    },
+    {
+      "id": 1868,
+      "content": "1 de 1"
+    },
+    {
+      "id": 1869,
+      "content": "endo las 09:30 horas del dia 05 del mes de abril del año 2026 se dieron cita en las instalacion la Oficina Descentralizada de Procesos Electorales - ODPE AREQUIPA ubicada en el distr de Arequipa, provincia de Arequipa, departamento de Arequipa, la Srta. Marina Victoria Milagros Reyes Marchena, Jefe de la Oficina Descentralizada de Procesos Electorales y el Sr. Gilmer Oscar Yturri Colque, Fiscalizador de Tecnología Aplicada - JEE con la finalidad de dar cumplimiento al Simulacro del Sistema de Cómputo Electoral previsto en el artículo 215° de la Ley Orgánica de Elecciones 26859, para el proceso electoral de Elecciones Generales 2026 desarrollándose las siguientes actividades:"
+    },
+    {
+      "id": 1871,
+      "content": "Verificación de versión del software electoral."
+    },
+    {
+      "id": 1870,
+      "content": "1."
+    },
+    {
+      "id": 1872,
+      "content": "Ejecución de la puesta a cero."
+    },
+    {
+      "id": 1873,
+      "content": "Procesamiento de actas electorales de prueba."
+    },
+    {
+      "id": 1874,
+      "content": "Pruebas de contingencia."
+    },
+    {
+      "id": 1875,
+      "content": "Siendo las 11:08 horas dan por culminadas las actividades programadas y firman en señal de"
+    },
+    {
+      "id": 1876,
+      "content": "conformidad los presentes a este acto."
+    },
+    {
+      "id": 1877,
+      "content": "OBSERVACIONES:"
+    },
+    {
+      "id": 1879,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1880,
+      "content": "V B"
+    },
+    {
+      "id": 1882,
+      "content": "ZARELA DALINDA POZO SANTOYO"
+    },
+    {
+      "id": 1881,
+      "content": "#': na Victoria Mil"
+    },
+    {
+      "id": 1883,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1885,
+      "content": "MARINA VICTORIA MILAGROS REYES"
+    },
+    {
+      "id": 1884,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1889,
+      "content": "ZARELA DALINDA POZO SANTOYO"
+    },
+    {
+      "id": 1887,
+      "content": "MARCHENA"
+    },
+    {
+      "id": 1886,
+      "content": "APELLIDOS"
+    },
+    {
+      "id": 1888,
+      "content": "APELLIDOS"
+    },
+    {
+      "id": 1890,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 1894,
+      "content": "INSHTUC ON"
+    },
+    {
+      "id": 1893,
+      "content": "NSHTUCION"
+    },
+    {
+      "id": 1892,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1891,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1895,
+      "content": "CARCO"
+    },
+    {
+      "id": 1897,
+      "content": "CARCO"
+    },
+    {
+      "id": 1898,
+      "content": "DESCENTRALIZADO -AREQUIPA"
+    },
+    {
+      "id": 1896,
+      "content": "PROCESOS CLECTORALES - AREQUIPA"
+    },
+    {
+      "id": 1900,
+      "content": "JURADO NACIONA DE ELECCIONES"
+    },
+    {
+      "id": 1899,
+      "content": "MARADON"
+    },
+    {
+      "id": 1901,
+      "content": "Gilper es"
+    },
+    {
+      "id": 1902,
+      "content": "CONTRALORCA"
+    },
+    {
+      "id": 1906,
+      "content": "NOMBRES Y"
+    },
+    {
+      "id": 1904,
+      "content": "NOMBRES Y"
+    },
+    {
+      "id": 1903,
+      "content": "V B"
+    },
+    {
+      "id": 1905,
+      "content": "GILMER OSCAR YTURRI COLQUE"
+    },
+    {
+      "id": 1907,
+      "content": "APELLIDOS"
+    },
+    {
+      "id": 1908,
+      "content": "INSTITUCIÓN"
+    },
+    {
+      "id": 1909,
+      "content": "ESCALADOR DE TECNOLOGIA"
+    },
+    {
+      "id": 1910,
+      "content": "INSHTUCON"
+    },
+    {
+      "id": 1911,
+      "content": "CARGO"
+    },
+    {
+      "id": 1912,
+      "content": "APLICADA"
+    },
+    {
+      "id": 1913,
+      "content": "CARGO"
+    },
+    {
+      "id": 1914,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1916,
+      "content": "Fuente: Acta de Simulacro realizado el 5 de abril de 2026 de la ODPE Arequipa Elaborado por: Comisión de Control a cargo del servicio del Control Concurrente."
+    },
+    {
+      "id": 1915,
+      "content": "LUQUE ESCOBEDO Dohry Karo"
+    },
+    {
+      "id": 1917,
+      "content": "FAU 20131378972 soft"
+    },
+    {
+      "id": 1919,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1918,
+      "content": "Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1920,
+      "content": "Cabe mencionar que se entregaron copias de los reportes y formatos generados durante el simulacro al fiscalizador técnico del Jurado Electoral Especial, situación que quedó registrada en el formato FM04-GOECOR/SCE \"Control de Entrega de Registros y Reportes\" de 5 de abril de 2026"
+    },
+    {
+      "id": 1921,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1922,
+      "content": "V°B"
+    },
+    {
+      "id": 1924,
+      "content": "g) Emisión del Informe del Encargado del Centro de Cómputo"
+    },
+    {
+      "id": 1923,
+      "content": "mado digitalmente p AVEZ CHAVEZ Maris Alicia FAU 20131378972 hard Motivo. Dov Visto Bueno Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1925,
+      "content": "Finalmente, la ECD de la ODPE Arequipa emitió el Informe n.° 000029-2026-ZPSODPEAREQUIPAEG2026/ONPE de 5 de abril de 20268, dirigido a la jefa de la ODPE Arequipa,"
+    },
+    {
+      "id": 1926,
+      "content": "8 El Informe n.° 000029-2026-ZPS-ODPEAREQUIPAEG2026/ONPE fue remitido mediante el Sistema de Gestión Documental de la ONPE el 5 de abril de 2026."
+    },
+    {
+      "id": 2307,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2308,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2309,
+      "content": "Página 13 de 16"
+    },
+    {
+      "id": 1931,
+      "content": "donde informó sobre el desarrollo de las actividades del simulacro, así como del resultado de las pruebas funcionales y de contingencia"
+    },
+    {
+      "id": 1932,
+      "content": "Finalmente, se verificó que el ambiente destinado al Centro de Cómputo de la ODPE Arequipa, contaba con las medidas de seguridad necesarias para asegurar el resguardo y protección física de los recursos tecnológicos asignados a la ODPE Arequipa. Asimismo, se verificó que el tanto el ambiente de Centro de Cómputo como el ambiente de Observadores, contaba con tabiquería de separación, paredes, puertas y ventanas en buen estado de conservación."
+    },
+    {
+      "id": 1933,
+      "content": "En ese sentido, el Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", comprende la revisión selectiva de las actividades de pruebas y de contingencia a realizarse en el Centro de Cómputo de la ODPE Arequipa y Sede Central realizadas el 5 de abril de 2026."
+    },
+    {
+      "id": 1934,
+      "content": "V. SITUACIONES ADVERSAS"
+    },
+    {
+      "id": 1935,
+      "content": "De la revisión efectuada al Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", no se han identificado situaciones adversas que afecten o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso de \"Implementación del Centro de Cómputo de la Oficina Descentralizada de Procesos Electorales - Arequipa en el marco de las Elecciones Generales 2026\"."
+    },
+    {
+      "id": 1936,
+      "content": "VI. DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL"
+    },
+    {
+      "id": 1937,
+      "content": "La información y documentación que la Comisión de Control ha revisado y analizado durante el desarrollo del Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", se encuentra detallada en el Apéndice n.° 1."
+    },
+    {
+      "id": 1939,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1940,
+      "content": "V B"
+    },
+    {
+      "id": 1941,
+      "content": "La documentación obtenida por la Comisión de Control se encuentra en el acervo documentario de la Entidad (ODPE y Sede Central)."
+    },
+    {
+      "id": 1942,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 1943,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 1944,
+      "content": "Marin FAu Z0131318912 SOl"
+    },
+    {
+      "id": 1947,
+      "content": "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS"
+    },
+    {
+      "id": 1946,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 1945,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1950,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1951,
+      "content": "V B"
+    },
+    {
+      "id": 1952,
+      "content": "Firmado digitalmente por LUQUE ESCOBEDO Dohry Karol FAU 20131378972 soft Motivo: Dov Visto Buenc Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 1956,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1957,
+      "content": "V°B"
+    },
+    {
+      "id": 1948,
+      "content": "Durante la ejecución del presente Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", la Comisión de Control no emitió reporte de avance ante situaciones adversas."
+    },
+    {
+      "id": 1953,
+      "content": "VIII. INFORMACIÓN DE LAS SITUACIONES ADVERSAS COMUNICADAS EN EL INFORME DE HITO DE CONTROL ANTERIOR"
+    },
+    {
+      "id": 1954,
+      "content": "Las situaciones adversas comunicadas en el Informe de Hito de Control anterior respecto de las cuales la entidad aún no ha adoptado las acciones preventivas y correctivas, o estas aún no han sido comunicadas a la Comisión de Control, se detallan en el Apéndice n.° 2."
+    },
+    {
+      "id": 1958,
+      "content": "IX. CONCLUSIÓN"
+    },
+    {
+      "id": 1959,
+      "content": "mado digitalmente p AVEZ CHAVEZ Maris Alicia FAU 20131378972 hard Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 1960,
+      "content": "Durante la ejecución del Control Concurrente al Hito de Control n.° 2 \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", no se han advertido situaciones adversas que afecten o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la \"Implementación del centro de cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa, en el marco de las elecciones generales 2026\"."
+    },
+    {
+      "id": 1965,
+      "content": "X. RECOMENDACIONES"
+    },
+    {
+      "id": 2310,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2311,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2312,
+      "content": "Página 14 de 16"
+    },
+    {
+      "id": 1966,
+      "content": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente informe de Servicio de Control Concurrente al Hito 2, del proceso en curso objeto de control concurrente, no se ha advertido la existencia de situaciones adversas que afecten o podrian afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso en curso."
+    },
+    {
+      "id": 1967,
+      "content": "Arequipa, 10 de abril del 2026."
+    },
+    {
+      "id": 1969,
+      "content": "Firmado digitalmente por LUQUE"
+    },
+    {
+      "id": 1972,
+      "content": "ESCOBEDO Dohry Karol FAU I"
+    },
+    {
+      "id": 1971,
+      "content": "20131378972 soft"
+    },
+    {
+      "id": 1970,
+      "content": "CONTRALORÍA POta: 10d220 del 02 0ent0"
+    },
+    {
+      "id": 1974,
+      "content": "Firmado digitalmente por LEMA"
+    },
+    {
+      "id": 1976,
+      "content": "SONCCO Cesar Jose Martin FAU"
+    },
+    {
+      "id": 1975,
+      "content": "20131378972 soft"
+    },
+    {
+      "id": 1977,
+      "content": "CONTRALORÍA Fecha: 10-0-2026099307 -090"
+    },
+    {
+      "id": 1978,
+      "content": "Dohry Karol Luque Escobedo Supervisor Comisión de Control"
+    },
+    {
+      "id": 1979,
+      "content": "César José Martin Lema Soncco Jefe de Comisión Comisión de Control"
+    },
+    {
+      "id": 1981,
+      "content": "1AVEZ M 20131378972 hard"
+    },
+    {
+      "id": 1982,
+      "content": "Motivo: Soy el autor del documento CONTRAORA Fecha: 10-04-2026 09:5-49-05.00"
+    },
+    {
+      "id": 1983,
+      "content": "Marissa Alicia Chávez Chávez Gerente Regional de Control Gerencia Regional de Control Arequipa"
+    },
+    {
+      "id": 1991,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1992,
+      "content": "V B"
+    },
+    {
+      "id": 1993,
+      "content": "Firmado digitalmente por LEMA SONCCO Cesar Jose Martin FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1995,
+      "content": "CONTRALORCA"
+    },
+    {
+      "id": 1996,
+      "content": "V B"
+    },
+    {
+      "id": 1997,
+      "content": "Firmado digitalmente por UQUE ESCOBEDO Dohry Karo FAU 20131378972 soft Motivo: Doy Visto Bueno Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 2000,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 1999,
+      "content": "V°B"
+    },
+    {
+      "id": 2001,
+      "content": "CHAVEZ CHAVEZ Mas"
+    },
+    {
+      "id": 2002,
+      "content": "licia FAU 20131378972 haro"
+    },
+    {
+      "id": 2276,
+      "content": "Motivo. Dov Visto Bueno"
+    },
+    {
+      "id": 2277,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 2313,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2314,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2315,
+      "content": "Página 15 de 16"
+    },
+    {
+      "id": 1988,
+      "content": "APÉNDICE N.° 1 DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL"
+    },
+    {
+      "id": 1056,
+      "content": "N°"
+    },
+    {
+      "id": 1057,
+      "content": "Documento"
+    },
+    {
+      "id": 1058,
+      "content": "1"
+    },
+    {
+      "id": 1059,
+      "content": "Reporte Verificación de Versión del SCE, de 5 de abril de 2026"
+    },
+    {
+      "id": 1060,
+      "content": "2"
+    },
+    {
+      "id": 1061,
+      "content": "Reporte de Puesta a Cero del SCE, de 5 de abril de 2026."
+    },
+    {
+      "id": 1062,
+      "content": "3"
+    },
+    {
+      "id": 1063,
+      "content": "FMO1-GOECOR/SCE - Acta de Puesta a Cero, de 5 de abril de 2026."
+    },
+    {
+      "id": 1064,
+      "content": "4"
+    },
+    {
+      "id": 1065,
+      "content": "FM17-GITE/TI - Registro de Ingreso y Salida - Personal ODPE Arequipa, de 5 de abril de"
+    },
+    {
+      "id": 1066,
+      "content": "5"
+    },
+    {
+      "id": 1067,
+      "content": "8e 20 Resultados Esperados sin reduciones - Presidente y Vicepresidenies, de 5 de abri"
+    },
+    {
+      "id": 1068,
+      "content": "6"
+    },
+    {
+      "id": 1069,
+      "content": "Cuadro Resultados Esperados sin resoluciones - Diputados, de 5 de abril de 2026."
+    },
+    {
+      "id": 1070,
+      "content": "7"
+    },
+    {
+      "id": 1071,
+      "content": "Cuadro Resultados Esperados sin resoluciones - Senadores Distrito Múltiple, de 5 de abril de 2026."
+    },
+    {
+      "id": 1072,
+      "content": "8"
+    },
+    {
+      "id": 1073,
+      "content": "Cuadro Resultados Esperados sin resoluciones - Senadores Distrito Único, de 5 de abril de"
+    },
+    {
+      "id": 1074,
+      "content": "Cuadro Resultados Esperados sin resoluciones - Parlamento Andino, de 5 de abril de 2026."
+    },
+    {
+      "id": 1075,
+      "content": "10"
+    },
+    {
+      "id": 1076,
+      "content": "Cuadro Resultados Esperados con resoluciones - Presidente y Vicepresidentes, de 5 de abril de 2026."
+    },
+    {
+      "id": 1077,
+      "content": "="
+    },
+    {
+      "id": 1078,
+      "content": "Cuadro Resultados Esperados con resoluciones - Diputados, de 5 de abril de 2026."
+    },
+    {
+      "id": 1079,
+      "content": "12"
+    },
+    {
+      "id": 1080,
+      "content": "Cuadro Resultados Esperados con resoluciones - Senadores Distrito Múltiple, de 5 de abril de 2026."
+    },
+    {
+      "id": 1081,
+      "content": "13"
+    },
+    {
+      "id": 1082,
+      "content": "Cuadro Resultados Esperados con resoluciones - Senadores Distrito Único, de 5 de abril de 2026."
+    },
+    {
+      "id": 1083,
+      "content": "Cuadro Resultados Esperados con resoluciones - Parlamento Andino, de 5 de abril de 2026."
+    },
+    {
+      "id": 1084,
+      "content": "Avance de Resultado de Actas Contabilizadas al 0.640 - Presidente, de 5 de abril de 2026."
+    },
+    {
+      "id": 1085,
+      "content": "Avance de Resultado de Actas Contabilizadas al 0.640 - Diputados, de 5 de abril de 2026."
+    },
+    {
+      "id": 1086,
+      "content": "17"
+    },
+    {
+      "id": 1087,
+      "content": "Avance de Resultado de Actas Contabilizadas al 0.640 - Senadores, de 5 de abril de 2026."
+    },
+    {
+      "id": 1088,
+      "content": "Avance de Resultado de Actas Contabilizadas al 0.640 - Parlamento Andino, de 5 de abril de 2026."
+    },
+    {
+      "id": 1089,
+      "content": "19"
+    },
+    {
+      "id": 1090,
+      "content": "Reporte Resumen de Estado de Actas, de 5 de abril de 2026."
+    },
+    {
+      "id": 1091,
+      "content": "20"
+    },
+    {
+      "id": 1092,
+      "content": "FM04-GOECOR/SCE - Control de Entrega de Registros y Reportes, de 5 de abril de 2026."
+    },
+    {
+      "id": 1093,
+      "content": "21"
+    },
+    {
+      "id": 1094,
+      "content": "Informe n.° 000029-2026-ZPS-ODPEAREQUIPAEG2026/ONPE, de 5 de abril de 2026."
+    },
+    {
+      "id": 1095,
+      "content": "22"
+    },
+    {
+      "id": 1096,
+      "content": "FM02-GOECOR/SCE - Acta de Simulacro de Sistema de Cómputo Electoral, de 5 de abril de 2026."
+    },
+    {
+      "id": 1097,
+      "content": "23"
+    },
+    {
+      "id": 1098,
+      "content": "FMO7-GITE/TI - Registro de Pruebas de Funcionalidad, de 5 de abril de 2026."
+    },
+    {
+      "id": 2316,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2317,
+      "content": "- GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2318,
+      "content": "Página 16 de 16"
+    },
+    {
+      "id": 2009,
+      "content": "APÉNDICE N.° 2 INFORMACIÓN DE LAS SITUACIONES ADVERSAS COMUNICADAS EN EL INFORME DE HITO DE CONTROL ANTERIOR"
+    },
+    {
+      "id": 2010,
+      "content": "Informe de hito de Control n.° 1543-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 2011,
+      "content": "Número de situaciones adversas identificadas: 3"
+    },
+    {
+      "id": 2012,
+      "content": "Número de situaciones adversas que subsisten: 0"
+    },
+    {
+      "id": 2013,
+      "content": "Relación de situaciones adversas:"
+    },
+    {
+      "id": 2016,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2017,
+      "content": "V°B®"
+    },
+    {
+      "id": 2018,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 2019,
+      "content": "LEMA SONCCO Cesar Jose"
+    },
+    {
+      "id": 2020,
+      "content": "Martin FAU 20131378972 soft"
+    },
+    {
+      "id": 2022,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 2021,
+      "content": "Fecha: 10-04-2026 09:36:46-05:00"
+    },
+    {
+      "id": 1100,
+      "content": "N°"
+    },
+    {
+      "id": 1101,
+      "content": "Documento"
+    },
+    {
+      "id": 1102,
+      "content": "Estado"
+    },
+    {
+      "id": 1103,
+      "content": "1"
+    },
+    {
+      "id": 1104,
+      "content": "El centro de cómputo de la ODPE Arequipa, no cuenta con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del centro de cómputo, establecidos en los términos de referencia del SHALI; situación que afectaría la operatividad del centro de cómputo durante el proceso electoral."
+    },
+    {
+      "id": 1105,
+      "content": "Corregida"
+    },
+    {
+      "id": 1106,
+      "content": "2"
+    },
+    {
+      "id": 1107,
+      "content": "El grupo electrógeno de la ODPE Arequipa no se encuentra instalado ni conectado al tablero eléctrico del local, y no cuenta con tubo de escape direccionado a exteriores; situación que genera el riesgo de no contar con un sistema eléctrico de respaldo que proporcione continuidad en el suministro de energía eléctrica, lo cual afectaría la operatividad del centro de cómputo durante el proceso electoral."
+    },
+    {
+      "id": 1108,
+      "content": "Corregida"
+    },
+    {
+      "id": 1109,
+      "content": "3"
+    },
+    {
+      "id": 1110,
+      "content": "El centro de cómputo de la ODPE Arequipa presenta equipos de cómputo y otros dispositivos en cajas, no instalados; situación que afectaría el funcionamiento de los equipos y pone en riesgo la operatividad del centro de cómputo para el proceso"
+    },
+    {
+      "id": 1111,
+      "content": "Corregida"
+    },
+    {
+      "id": 2024,
+      "content": "CONTRALORCA"
+    },
+    {
+      "id": 2025,
+      "content": "V B"
+    },
+    {
+      "id": 2026,
+      "content": "Firmado digitalmente por"
+    },
+    {
+      "id": 2027,
+      "content": "LUQUE ESCOBEDO Dohry Karo"
+    },
+    {
+      "id": 2028,
+      "content": "FAU 20131378972 soft"
+    },
+    {
+      "id": 2030,
+      "content": "Motivo: Doy Visto Bueno"
+    },
+    {
+      "id": 2029,
+      "content": "Fecha: 10-04-2026 09:43:56 -05:00"
+    },
+    {
+      "id": 2033,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2032,
+      "content": "V°B®"
+    },
+    {
+      "id": 2278,
+      "content": "Motivo. Dov Visto Bueno"
+    },
+    {
+      "id": 2279,
+      "content": "Fecha: 10-04-2026 09:52:39-05:00"
+    },
+    {
+      "id": 2039,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2040,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2038,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2041,
+      "content": "\"Decenio de la Igualdad de Oportunidades para Mujeres y Hombres Año de la Esperanza y el Fortalecimiento de la Democracia\""
+    },
+    {
+      "id": 2042,
+      "content": "Lima, 17 de Abril de 2026"
+    },
+    {
+      "id": 2043,
+      "content": "OFICIO N° 000180-2026-CG/OC3599"
+    },
+    {
+      "id": 2044,
+      "content": "Señor:"
+    },
+    {
+      "id": 2045,
+      "content": "Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe Jr. Washington N° 1894 Lima/Lima/Lima"
+    },
+    {
+      "id": 2046,
+      "content": "Asunto"
+    },
+    {
+      "id": 2048,
+      "content": "Referencia"
+    },
+    {
+      "id": 2047,
+      "content": ": Notificación de Informes de Hitos de Control"
+    },
+    {
+      "id": 2049,
+      "content": ": a) Articulo 8° de la Ley N° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias"
+    },
+    {
+      "id": 2050,
+      "content": "b) Directiva N° 013-2022-CG/NORM \"Servicio de Control Simultáneo\" aprobada mediante Resolución de Contraloría N° 218-2022-CG, de 30 de mayo de 2022."
+    },
+    {
+      "id": 2051,
+      "content": "Me dirijo a usted en el marco de la normativa de la referencia, que regula el servicio de Control Simultáneo y establece la comunicación al Titular de la entidad o responsable de la dependencia, y de ser el caso a las instancias competentes, respecto de la existencia de situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso en curso, a fin que se adopten oportunamente las acciones preventivas y correctivas que correspondan."
+    },
+    {
+      "id": 2052,
+      "content": "Sobre el particular, de la revisión de la información y documentación vinculada a \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE y Sede Central\" comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control, que se adjuntan al presente documento:"
+    },
+    {
+      "id": 1113,
+      "content": "NRO"
+    },
+    {
+      "id": 1114,
+      "content": "ODPE"
+    },
+    {
+      "id": 1115,
+      "content": "NRO.DE INFORME-HITO 2"
+    },
+    {
+      "id": 1116,
+      "content": "1"
+    },
+    {
+      "id": 1117,
+      "content": "ABANCAY"
+    },
+    {
+      "id": 1118,
+      "content": "N.° 5672-2026-CG/GRAP-SC"
+    },
+    {
+      "id": 1119,
+      "content": "2"
+    },
+    {
+      "id": 1120,
+      "content": "AREQUIPA"
+    },
+    {
+      "id": 1121,
+      "content": "N.° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1122,
+      "content": "3"
+    },
+    {
+      "id": 1123,
+      "content": "BAGUA"
+    },
+    {
+      "id": 1124,
+      "content": "N.° 5619-2026-CG/GRAM-SCC"
+    },
+    {
+      "id": 1125,
+      "content": "4"
+    },
+    {
+      "id": 1126,
+      "content": "CAJAMARCA"
+    },
+    {
+      "id": 1127,
+      "content": "N. ° 5655-2026-CG/GRCA-SCC"
+    },
+    {
+      "id": 1128,
+      "content": "5"
+    },
+    {
+      "id": 1129,
+      "content": "CASTILLA"
+    },
+    {
+      "id": 1130,
+      "content": "N.° 5638-2026-CG/GRPI-SCC"
+    },
+    {
+      "id": 1131,
+      "content": "6"
+    },
+    {
+      "id": 1132,
+      "content": "CERRO COLORADO"
+    },
+    {
+      "id": 1133,
+      "content": "N.° 5635-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 1134,
+      "content": "7"
+    },
+    {
+      "id": 1135,
+      "content": "CHANCHAMAYO"
+    },
+    {
+      "id": 1136,
+      "content": "N.° 5653-2026-CG/GRJU-SCC"
+    },
+    {
+      "id": 1137,
+      "content": "8"
+    },
+    {
+      "id": 1138,
+      "content": "CHICLAYO"
+    },
+    {
+      "id": 1139,
+      "content": "N.° 5621-2026-CG/GRLA-SCC"
+    },
+    {
+      "id": 1140,
+      "content": "9"
+    },
+    {
+      "id": 1141,
+      "content": "CORONEL PORTILLO"
+    },
+    {
+      "id": 1142,
+      "content": "N. ° 5627-2026-CG/GRUC-SCC"
+    },
+    {
+      "id": 1143,
+      "content": "CUSCO"
+    },
+    {
+      "id": 1144,
+      "content": "N. ° 5636-2026-CG/GRCU-SCC"
+    },
+    {
+      "id": 1145,
+      "content": "11"
+    },
+    {
+      "id": 1146,
+      "content": "EL TAMBO"
+    },
+    {
+      "id": 1147,
+      "content": "N. ° 5608-2026-CG/GRJU-SCC"
+    },
+    {
+      "id": 1148,
+      "content": "12"
+    },
+    {
+      "id": 1149,
+      "content": "HUAMANGA"
+    },
+    {
+      "id": 1150,
+      "content": "N.° 5610-2026-CG/GRAY-SCC"
+    },
+    {
+      "id": 1151,
+      "content": "13"
+    },
+    {
+      "id": 1152,
+      "content": "HUANTA"
+    },
+    {
+      "id": 1153,
+      "content": "N. ° 5629-2026-CG/GRAY-SCC"
+    },
+    {
+      "id": 1154,
+      "content": "14"
+    },
+    {
+      "id": 1155,
+      "content": "HUANUCO"
+    },
+    {
+      "id": 1156,
+      "content": "N.° 5600-2026-CG/GRHC-SCC"
+    },
+    {
+      "id": 1157,
+      "content": "15"
+    },
+    {
+      "id": 1158,
+      "content": "ICA"
+    },
+    {
+      "id": 1159,
+      "content": "N.° 5606-2026-CG/GRIC-SCC"
+    },
+    {
+      "id": 2055,
+      "content": "96"
+    },
+    {
+      "id": 2058,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2059,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 1161,
+      "content": "16"
+    },
+    {
+      "id": 1162,
+      "content": "JAEN"
+    },
+    {
+      "id": 1163,
+      "content": "N.° 5659-2026-CG/GRCA-SCC"
+    },
+    {
+      "id": 1164,
+      "content": "17"
+    },
+    {
+      "id": 1165,
+      "content": "LA CONVENCION"
+    },
+    {
+      "id": 1166,
+      "content": "N.° 5652-2026-CG/GRCU-SCC"
+    },
+    {
+      "id": 1167,
+      "content": "_LA ESPERANZA"
+    },
+    {
+      "id": 1168,
+      "content": "N.° 5601-2026-CG/GRLIB-SCC"
+    },
+    {
+      "id": 1169,
+      "content": "LEONCIO PRADO"
+    },
+    {
+      "id": 1170,
+      "content": "N.° 5615-2026-CG/GRHC-SCC"
+    },
+    {
+      "id": 1171,
+      "content": "20"
+    },
+    {
+      "id": 1172,
+      "content": "MARISCAL NIETO"
+    },
+    {
+      "id": 1173,
+      "content": "N.° 5607-2026-CG/GRMQ-SCC"
+    },
+    {
+      "id": 1174,
+      "content": "21"
+    },
+    {
+      "id": 1175,
+      "content": "MAYNAS"
+    },
+    {
+      "id": 1176,
+      "content": "N.° 5665-2026-CG/GRLO-SCC"
+    },
+    {
+      "id": 1177,
+      "content": "22"
+    },
+    {
+      "id": 1178,
+      "content": "MOYOBAMBA"
+    },
+    {
+      "id": 1179,
+      "content": "N.° 5642-2026-CG/GRSM-SCC"
+    },
+    {
+      "id": 1180,
+      "content": "23"
+    },
+    {
+      "id": 1181,
+      "content": "PASCO"
+    },
+    {
+      "id": 1182,
+      "content": "N.° 5643-2026-CG/GRPA-SCC"
+    },
+    {
+      "id": 1183,
+      "content": "24"
+    },
+    {
+      "id": 1184,
+      "content": "PUNO"
+    },
+    {
+      "id": 1185,
+      "content": "N.° 5604-2026-CG/GRPU-SCC"
+    },
+    {
+      "id": 1186,
+      "content": "25"
+    },
+    {
+      "id": 1187,
+      "content": "SAN ROMAN"
+    },
+    {
+      "id": 1188,
+      "content": "N.° 5609-2026-CG/GRPU-SC"
+    },
+    {
+      "id": 1189,
+      "content": "26"
+    },
+    {
+      "id": 1190,
+      "content": "SANTA"
+    },
+    {
+      "id": 1191,
+      "content": "N.° 5611-2026-CG/GRAN-SCC"
+    },
+    {
+      "id": 1192,
+      "content": "SULLANA"
+    },
+    {
+      "id": 1193,
+      "content": "N.° 5637-2026-CG/GRPI-SCC"
+    },
+    {
+      "id": 1194,
+      "content": "_TACNA"
+    },
+    {
+      "id": 1195,
+      "content": "N.° 5599-2026-CG/GRTA-SCC"
+    },
+    {
+      "id": 1196,
+      "content": "TAMBOPATA"
+    },
+    {
+      "id": 1197,
+      "content": "N.° 5626-2026-CG/GRMD-SCC"
+    },
+    {
+      "id": 1198,
+      "content": "30"
+    },
+    {
+      "id": 1199,
+      "content": "TAYACAJA"
+    },
+    {
+      "id": 1200,
+      "content": "N.° 5616-2026-CG/GRHV-SCC"
+    },
+    {
+      "id": 1201,
+      "content": "TRUJILLO"
+    },
+    {
+      "id": 1202,
+      "content": "N.° 5602-2026-CG/GRLIB-SCC"
+    },
+    {
+      "id": 1203,
+      "content": "32"
+    },
+    {
+      "id": 1204,
+      "content": "TUMBES"
+    },
+    {
+      "id": 1205,
+      "content": "N.° 5667-2026-CG/GRTB-SCC"
+    },
+    {
+      "id": 2061,
+      "content": "En tal sentido, solicitamos una vez adoptada las acciones que correspondan, estas sean informadas a la Comisión de Control correspondiente en un plazo no mayor de cinco (5) dias hábiles contados desde la comunicación inicial de los informes mencionados, adjuntando la documentación de sustento respectiva."
+    },
+    {
+      "id": 2062,
+      "content": "Es propicia la oportunidad para expresarle las seguridades de mi consideración."
+    },
+    {
+      "id": 2063,
+      "content": "Atentamente,"
+    },
+    {
+      "id": 2064,
+      "content": "Documento firmado digitalmente"
+    },
+    {
+      "id": 2065,
+      "content": "Maria Bertilda Idrogo Diaz"
+    },
+    {
+      "id": 2066,
+      "content": "Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe Contraloria General de la República"
+    },
+    {
+      "id": 2067,
+      "content": "(MID)"
+    },
+    {
+      "id": 2068,
+      "content": "Nro. Emisión: 00201 (3599 - 2026) Elab:(U17436 - 3599)"
+    },
+    {
+      "id": 2070,
+      "content": "96"
+    },
+    {
+      "id": 2072,
+      "content": "1030 2025."
+    },
+    {
+      "id": 2075,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2076,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2077,
+      "content": "CÉDULA DE NOTIFICACIÓN ELECTRÓNICA N° 00000167-2026-CG/3599"
+    },
+    {
+      "id": 2078,
+      "content": "DOCUMENTO"
+    },
+    {
+      "id": 2080,
+      "content": "EMISOR"
+    },
+    {
+      "id": 2079,
+      "content": ": OFICIO N° 000180-2026-CG/OC3599"
+    },
+    {
+      "id": 2081,
+      "content": ": MARIA BERTILDA IDROGO DIAZ - JEFE DE OCI - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE - ÓRGANO DE CONTROL INSTITUCIONAL"
+    },
+    {
+      "id": 2082,
+      "content": "DESTINATARIO"
+    },
+    {
+      "id": 2083,
+      "content": ": PIERO ALESSANDRO CORVETTO SALINAS"
+    },
+    {
+      "id": 2084,
+      "content": "ENTIDAD SUJETA A CONTROL"
+    },
+    {
+      "id": 2085,
+      "content": ": OFICINA NACIONAL DE PROCESOS ELECTORALES"
+    },
+    {
+      "id": 2086,
+      "content": "DIRECCIÓN"
+    },
+    {
+      "id": 2087,
+      "content": ": CASILLA ELECTRÓNICA N° 20291973851"
+    },
+    {
+      "id": 2088,
+      "content": "TIPO DE SERVICIO CONTROL GUBERNAMENTAL O : CONTROL PROCESO ADMINISTRATIVO"
+    },
+    {
+      "id": 2089,
+      "content": "SERVICIO DE CONTROL SIMULTÁNEO - INFORME DE HITO DE"
+    },
+    {
+      "id": 2090,
+      "content": "N° FOLIOS"
+    },
+    {
+      "id": 2091,
+      "content": ": 616"
+    },
+    {
+      "id": 2092,
+      "content": "Sumilla: De la revisión de la información y documentación vinculada a \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE y Sede Central\" comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control."
+    },
+    {
+      "id": 2093,
+      "content": "Se adjunta lo siguiente:"
+    },
+    {
+      "id": 2094,
+      "content": "OFICIO N° 000180-2026-CG-OC3599"
+    },
+    {
+      "id": 2095,
+      "content": "SCC3-HITO 2- ODPE-AREQUIPA[F]"
+    },
+    {
+      "id": 2096,
+      "content": "SCC3-HITO 2- ODPE-BAGUA[F]"
+    },
+    {
+      "id": 2097,
+      "content": "SCC3-HITO 2- ODPE-CAJAMARCA[F]"
+    },
+    {
+      "id": 2098,
+      "content": "SCC3-HITO 2- ODPE-CASTILLA[F]"
+    },
+    {
+      "id": 2099,
+      "content": "SCC3-HITO 2- ODPE-CERRO COLORADO[F]"
+    },
+    {
+      "id": 2100,
+      "content": "SCC3-HITO 2- ODPE-CHANCHAMAYO[F]"
+    },
+    {
+      "id": 2101,
+      "content": "SCC3-HITO 2- ODPE-CHICLAYO[F]"
+    },
+    {
+      "id": 2102,
+      "content": "Esta es una copia auténtica imprimible de un documento electrónico archivado por la Contraloría General de la República, aplicando lo dispuesto por el Art. 25 de D.S. 070-2013-PCM y la Tercera Disposición Complementaria Final del D.S. 026- 2016-PCM. Su autenticidad e integridad pueden ser contrastadas a través de la siguiente dirección web: https://verificadoc.contraloria.gob.pe/ecasilla e ingresando el siguiente código de verificación: 9Z5BRE9"
+    },
+    {
+      "id": 2105,
+      "content": "SCC3-HITO 2- ODPE-CORONEL PORTILLO[F]"
+    },
+    {
+      "id": 2106,
+      "content": "SCC3-HITO 2- ODPE-CUSCO[F]"
+    },
+    {
+      "id": 2107,
+      "content": "SCC3-HITO 2- ODPE-EL TAMBO[F]"
+    },
+    {
+      "id": 2108,
+      "content": "SCC3-HITO 2- ODPE-HUAMANGA[F]"
+    },
+    {
+      "id": 2109,
+      "content": "SCC3-HITO 2- ODPE-HUANTA[F]"
+    },
+    {
+      "id": 2110,
+      "content": "SCC3-HITO 2- ODPE-HUANUCO[F]"
+    },
+    {
+      "id": 2111,
+      "content": "SCC3-HITO 2- ODPE-ICA[F]"
+    },
+    {
+      "id": 2112,
+      "content": "SCC3-HITO 2- ODPE-JAEN[F]"
+    },
+    {
+      "id": 2113,
+      "content": "SCC3-HITO 2- ODPE-LA CONVENCIONIFI"
+    },
+    {
+      "id": 2114,
+      "content": "SCC3-HITO 2- ODPE-LA ESPERANZA[F]"
+    },
+    {
+      "id": 2115,
+      "content": "SCC3-HITO 2- ODPE-LEONCIO PRADO[F]"
+    },
+    {
+      "id": 2116,
+      "content": "SCC3-HITO 2- ODPE-MARISCAL NIETO[F]"
+    },
+    {
+      "id": 2117,
+      "content": "SCC3-HITO 2- ODPE-MAYNAS[F]"
+    },
+    {
+      "id": 2118,
+      "content": "SCC3-HITO 2- ODPE-MOYOBAMBA[F]"
+    },
+    {
+      "id": 2119,
+      "content": "SCC3-HITO 2- ODPE-PASCO[F]"
+    },
+    {
+      "id": 2120,
+      "content": "SCC3-HITO 2- ODPE-PUNO[F]"
+    },
+    {
+      "id": 2121,
+      "content": "SCC3-HITO 2- ODPE-SAN ROMAN[F]"
+    },
+    {
+      "id": 2122,
+      "content": "SCC3-HITO 2- ODPE-SANTA[F]"
+    },
+    {
+      "id": 2123,
+      "content": "SCC3-HITO 2- ODPE-SULLANA[F]"
+    },
+    {
+      "id": 2124,
+      "content": "SCC3-HITO 2- ODPE-TACNA[F]"
+    },
+    {
+      "id": 2125,
+      "content": "SCC3-HITO 2- ODPE-TAMBOPATA[F]"
+    },
+    {
+      "id": 2126,
+      "content": "SCC3-HITO 2- ODPE-TAYACAJA[F]"
+    },
+    {
+      "id": 2127,
+      "content": "SCC3-HITO 2- ODPE-TRUJILLOIF]"
+    },
+    {
+      "id": 2128,
+      "content": "SCC3-HITO 2- ODPE-TUMBES[F]"
+    },
+    {
+      "id": 2129,
+      "content": "SCC3-HITO 2-ODPE-ABANCAY[F]"
+    },
+    {
+      "id": 2132,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2134,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2135,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2136,
+      "content": "CONSTANCIA DE NOTIFICACIÓN ELECTRÓNICA"
+    },
+    {
+      "id": 2137,
+      "content": "Sistema de Notificaciones y Casillas Electrónicas - eCasilla CGR"
+    },
+    {
+      "id": 2138,
+      "content": "DOCUMENTO"
+    },
+    {
+      "id": 2140,
+      "content": "EMISOR"
+    },
+    {
+      "id": 2139,
+      "content": ": OFICIO N° 000180-2026-CG/OC3599"
+    },
+    {
+      "id": 2141,
+      "content": ": MARIA BERTILDA IDROGO DIAZ - JEFE DE OCI - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE - ÓRGANO DE CONTROL INSTITUCIONAL"
+    },
+    {
+      "id": 2142,
+      "content": "DESTINATARIO"
+    },
+    {
+      "id": 2143,
+      "content": ": PIERO ALESSANDRO CORVETTO SALINAS"
+    },
+    {
+      "id": 2144,
+      "content": "ENTIDAD SUJETA A CONTROL"
+    },
+    {
+      "id": 2145,
+      "content": ": OFICINA NACIONAL DE PROCESOS ELECTORALES"
+    },
+    {
+      "id": 2146,
+      "content": "Sumilla:"
+    },
+    {
+      "id": 2147,
+      "content": "De la revisión de la información y documentación vinculada a \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE y Sede Central\" comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control."
+    },
+    {
+      "id": 2148,
+      "content": "Se ha realizado la notificación con el depósito de los siguientes documentos en la CASILLA"
+    },
+    {
+      "id": 2149,
+      "content": "ELECTRÓNICA N° 20291973851:"
+    },
+    {
+      "id": 2150,
+      "content": "CÉDULA DE NOTIFICACIÓN N° 00000167-2026-CG/3599"
+    },
+    {
+      "id": 2151,
+      "content": "OFICIO N° 000180-2026-CG-OC3599"
+    },
+    {
+      "id": 2152,
+      "content": "SCC3-HITO 2- ODPE-AREQUIPA[F]"
+    },
+    {
+      "id": 2153,
+      "content": "SCC3-HITO 2- ODPE-BAGUA[F]"
+    },
+    {
+      "id": 2154,
+      "content": "SCC3-HITO 2- ODPE-CAJAMARCA[F]"
+    },
+    {
+      "id": 2155,
+      "content": "SCC3-HITO 2- ODPE-CASTILLA[F]"
+    },
+    {
+      "id": 2156,
+      "content": "SCC3-HITO 2- ODPE-CERRO COLORADO[F]"
+    },
+    {
+      "id": 2157,
+      "content": "SCC3-HITO 2- ODPE-CHANCHAMAYO[F]"
+    },
+    {
+      "id": 2158,
+      "content": "SCC3-HITO 2- ODPE-CHICLAYO[F]"
+    },
+    {
+      "id": 2159,
+      "content": "SCC3-HITO 2- ODPE-CORONEL PORTILLO[F]"
+    },
+    {
+      "id": 2160,
+      "content": "SCC3-HITO 2- ODPE-CUSCO[F]"
+    },
+    {
+      "id": 2162,
+      "content": "09"
+    },
+    {
+      "id": 2163,
+      "content": "SCC3-HITO 2- ODPE-EL TAMBO[FI"
+    },
+    {
+      "id": 2164,
+      "content": "SCC3-HITO 2- ODPE-HUAMANGA[F]"
+    },
+    {
+      "id": 2165,
+      "content": "SCC3-HITO 2- ODPE-HUANTA[F]"
+    },
+    {
+      "id": 2166,
+      "content": "SCC3-HITO 2- ODPE-HUANUCO[F]"
+    },
+    {
+      "id": 2167,
+      "content": "SCC3-HITO 2- ODPE-ICA[F]"
+    },
+    {
+      "id": 2168,
+      "content": "SCC3-HITO 2- ODPE-JAEN[F]"
+    },
+    {
+      "id": 2169,
+      "content": "SCC3-HITO 2- ODPE-LA CONVENCION[F]"
+    },
+    {
+      "id": 2170,
+      "content": "SCC3-HITO 2- ODPE-LA ESPERANZAIFI"
+    },
+    {
+      "id": 2171,
+      "content": "SCC3-HITO 2- ODPE-LEONCIO PRADO[FI"
+    },
+    {
+      "id": 2172,
+      "content": "SCC3-HITO 2- ODPE-MARISCAL NIETO[F]"
+    },
+    {
+      "id": 2173,
+      "content": "SCC3-HITO 2- ODPE-MAYNAS[F]"
+    },
+    {
+      "id": 2174,
+      "content": "SCC3-HITO 2- ODPE-MOYOBAMBA[F]"
+    },
+    {
+      "id": 2175,
+      "content": "SCC3-HITO 2- ODPE-PASCO[F]"
+    },
+    {
+      "id": 2176,
+      "content": "SCC3-HITO 2- ODPE-PUNO[F]"
+    },
+    {
+      "id": 2177,
+      "content": "SCC3-HITO 2- ODPE-SAN ROMAN[F]"
+    },
+    {
+      "id": 2178,
+      "content": "SCC3-HITO 2- ODPE-SANTA[F]"
+    },
+    {
+      "id": 2179,
+      "content": "SCC3-HITO 2- ODPE-SULLANA[F]"
+    },
+    {
+      "id": 2180,
+      "content": "SCC3-HITO 2- ODPE-TACNA[F]"
+    },
+    {
+      "id": 2181,
+      "content": "SCC3-HITO 2- ODPE-TAMBOPATA[F]"
+    },
+    {
+      "id": 2182,
+      "content": "SCC3-HITO 2- ODPE-TAYACAJA[F]"
+    },
+    {
+      "id": 2183,
+      "content": "SCC3-HITO 2- ODPE-TRUJILLO[F]"
+    },
+    {
+      "id": 2184,
+      "content": "SCC3-HITO 2- ODPE-TUMBES[F]"
+    },
+    {
+      "id": 2185,
+      "content": "SCC3-HITO 2-ODPE-ABANCAY[F]"
+    },
+    {
+      "id": 2186,
+      "content": "NOTIFICADOR : MARIA BERTILDA IDROGO DIAZ - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE - CONTRALORÍA GENERAL DE LA REPÚBLICA"
+    },
+    {
+      "id": 2192,
+      "content": "39L47020260000745"
+    },
+    {
+      "id": 2194,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2195,
+      "content": "GENERAL DE LA REPÚBLICA DEL PERÚ"
+    },
+    {
+      "id": 2193,
+      "content": "CONTRALORÍA"
+    },
+    {
+      "id": 2191,
+      "content": "Firmado digitalmente por CHAVEZ CHAVEZ Marissa Alicia FAU 20131378972 hard"
+    },
+    {
+      "id": 2196,
+      "content": "\"Decenio de la Igualdad de Oportunidades para Mujeres y Hombres Año de la Esperanza y el Fortalecimiento de la Democracia\""
+    },
+    {
+      "id": 2197,
+      "content": "Arequipa, 10 de Abril de 2026"
+    },
+    {
+      "id": 2198,
+      "content": "OFICIO N° 000745-2026-CG/GRAR"
+    },
+    {
+      "id": 2199,
+      "content": "Señora:"
+    },
+    {
+      "id": 2200,
+      "content": "Marina Victoria Milagros Reyes Marchena Jefa ODPE"
+    },
+    {
+      "id": 2201,
+      "content": "Oficina Descentralizada de Procesos Electorales - ODPE Arequipa"
+    },
+    {
+      "id": 2202,
+      "content": "Calle Universidad N° 215, Urbanización La Victoria, Cercado Arequipa/Arequipa/Arequipa"
+    },
+    {
+      "id": 2203,
+      "content": "Asunto"
+    },
+    {
+      "id": 2205,
+      "content": "Referencia"
+    },
+    {
+      "id": 2204,
+      "content": ": Notificación de Informe de Hito de Control n.° 5634-2026-CG/GRAR-SCC"
+    },
+    {
+      "id": 2206,
+      "content": ": a) Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias."
+    },
+    {
+      "id": 2207,
+      "content": "Directiva n.° 13-2022-CG/NORM \"Servicio de Control Simultáneo\" aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022"
+    },
+    {
+      "id": 2208,
+      "content": "Me dirijo a usted en el marco de la normativa de la referencia, que regula el servicio de Control Simultáneo y establece la comunicación al Titular de la entidad o responsable de la dependencia, y de ser el caso a las instancias competentes, respecto de la existencia de situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso en curso, a fin que se adopten oportunamente las acciones preventivas y correctivas que correspondan."
+    },
+    {
+      "id": 2209,
+      "content": "Sobre el particular, de la revisión de la información y documentación vinculada al Hito de Control n.° 2 \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", respecto de la \"Implementación del Centro de Cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa en el marco de las Elecciones Generales 2026\", comunicamos que no se han identificado situaciones adversas en el Informe de Hito de Control n.° 5634-2026-GC/GRAR-SCC, que se adjunta al presente documento."
+    },
+    {
+      "id": 2210,
+      "content": "Es propicia la oportunidad para expresarle las seguridades de mi consideración."
+    },
+    {
+      "id": 2211,
+      "content": "Atentamente,"
+    },
+    {
+      "id": 2212,
+      "content": "Documento firmado digitalmente Marissa Alicia Chavez Chavez Gerente Regional de Control de Arequipa(e)"
+    },
+    {
+      "id": 2213,
+      "content": "Contraloría General de la República"
+    },
+    {
+      "id": 2217,
+      "content": "CONTRALORGA"
+    },
+    {
+      "id": 2216,
+      "content": "V°B®"
+    },
+    {
+      "id": 2215,
+      "content": "(MCC/dle)"
+    },
+    {
+      "id": 2218,
+      "content": "Nro. Emisión: 05111 (L470 - 2026) Elab:(U17318 - L470)"
+    },
+    {
+      "id": 2219,
+      "content": "Firmado diaitalmente nor"
+    },
+    {
+      "id": 2223,
+      "content": "LUQUE ESCOBEDO Dohrv Karol"
+    },
+    {
+      "id": 2222,
+      "content": "FAU 20131378972 soft"
+    },
+    {
+      "id": 2224,
+      "content": "DELA"
+    },
+    {
+      "id": 2225,
+      "content": "CARGO OFICIO 745-2026-CG/GRAR"
+    },
+    {
+      "id": 2227,
+      "content": "ONPE"
+    },
+    {
+      "id": 2228,
+      "content": "OFICINA NACIONAL DE PROCESOS ELECTORALES"
+    },
+    {
+      "id": 2229,
+      "content": "Estimado ciudadano(a):"
+    },
+    {
+      "id": 2230,
+      "content": "Por medio del presente se hace de conocimiento, que el documento ha sido registrado el 10 de abril de 2026 a horas 10:27:54 , con el expediente N° 2026-000180353. Con dicho número usted le podrá hacer el seguimiento respectivo a través del Sistema de Seguimiento de Expediente Virtual."
+    },
+    {
+      "id": 2231,
+      "content": "La clave de acceso para el seguimiento del documento: VGXDVOR Consulte su expediente aquí."
+    },
+    {
+      "id": 2232,
+      "content": "Nota: La recepción del presente documento no da la conformidad ni validación o aprobación de su contenido."
+    },
+    {
+      "id": 2233,
+      "content": "Asimismo, de acuerdo a la normativa vigente aplicable las solicitudes presentadas desde las 00:00 horas hasta las 23:59 en cualquier día de la semana ya sea día hábil o inhábil, se consideran presentadas el mismo día, para lo cual la MPVE autogenera el número de expediente y cargo de recepción. El cómputo del plazo para la atención de solicitudes corre a partir del día hábil siguiente de presentado el documento, salvo que se haya requerido subsanación en cuyo caso se contabiliza una vez efectuada la misma."
+    },
+    {
+      "id": 2234,
+      "content": "• Casilla"
+    },
+    {
+      "id": 2235,
+      "content": "Finalmente, lo invitamos a solicitar virtualmente la asignación de su casilla electrónica, para la notificación de los actos administrativos, actuaciones administrativas y documentos relacionados que deban ser notificados a través del Sistema de Notificaciones Electrónicas SISEN-ONPE, visitando el siguiente enlace de interés:"
+    },
+    {
+      "id": 2236,
+      "content": "Electrónica"
+    },
+    {
+      "id": 2237,
+      "content": "https://www.onpe.gob.pe/modMarco-Legal/casilla-electronica- onpe.pdf"
+    },
+    {
+      "id": 2238,
+      "content": "Ante cualquier consulta, podrá comunicarse al teléfono: 01 4170630 Anexo: 8154, Mesa de Partes."
+    },
+    {
+      "id": 2239,
+      "content": "aboutblank . Google Chrome"
+    },
+    {
+      "id": 2240,
+      "content": "© about-blank"
+    },
+    {
+      "id": 2241,
+      "content": "Esporta PDF"
+    },
+    {
+      "id": 2242,
+      "content": "\"Año del Bicentenario, de la consolidación de nuestra Independencia, y de la conmemoración de las heroicas batallas de Junin y Avacucho'"
+    },
+    {
+      "id": 2243,
+      "content": "ONPE"
+    },
+    {
+      "id": 2244,
+      "content": "Fecha 202 trasl"
+    },
+    {
+      "id": 2246,
+      "content": "N° Doc:"
+    },
+    {
+      "id": 2245,
+      "content": "745-2026-CG/GRAR"
+    },
+    {
+      "id": 2247,
+      "content": "TRI Documento"
+    },
+    {
+      "id": 2248,
+      "content": "NOTIFICACIÓN DE INFORME DE HITO DE CONTROL 5834-2028 COJORAR"
+    },
+    {
+      "id": 2249,
+      "content": "PROVEE OR CONTRAL ORIA GENERAL DE LA REPUBLICA-RUC 20131378972"
+    },
+    {
+      "id": 2250,
+      "content": "Ruta dol Documontol"
+    },
+    {
+      "id": 2251,
+      "content": "OFICIO 745-2026-CG/GRAR -> JEFATURA DE ÁREA DE ATENCIÓN AL CIUDADANO Y TRÁMITE DOCUMENTARIC"
+    }
+  ]
+}

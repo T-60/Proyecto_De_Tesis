@@ -1,0 +1,209 @@
+% TO DO
+% Italizar
+% Revisar nuevamente las fuentes 
+% eso de paradigma de VA no m termina de convencer
+% Aporte computacional en la introducción — reforzar que las preguntas de investigación solo pueden responderse construyendo y evaluando el sistema, para que los objetivos se lean como investigación y no como ingeniería.
+%Poner bonito la organizacion d la tesis
+\chapter{Introducción}
+\label{cap:introduccion}
+
+Cada año, instituciones públicas como tribunales, organismos de 
+control y agencias regulatorias producen miles de documentos que 
+registran el avance de procesos que pueden extenderse durante meses 
+o años. Identificar qué ocurrió en un caso, cuándo y dónde, sigue 
+requiriendo que un analista lea cientos de documentos de forma 
+manual, porque la información está dispersa en archivos generados 
+por distintos actores en distintos momentos. Reconstruir 
+automáticamente la secuencia de eventos que conforma cada caso 
+sigue siendo un problema abierto. Los sistemas tradicionales de 
+extracción de información operan a nivel de documento individual y 
+los enfoques basados en reglas requieren plantillas específicas por 
+tipo de documento, lo que dificulta integrar información cuando una 
+misma entidad aparece referenciada de formas distintas en archivos 
+generados por distintos actores~\cite{cattan2021crossdoc}.
+
+Los Grandes Modelos de Lenguaje (\acs{LLM}, por sus siglas en inglés)
+ han demostrado capacidades 
+prometedoras para extraer entidades, relaciones y secuencias 
+narrativas de documentos técnicos con una flexibilidad que los 
+enfoques basados en reglas no alcanzan~\cite{brown2020, wei2022}. 
+Sin embargo, en tareas de extracción estructurada estos modelos 
+presentan tasas de alucinación significativas~\cite{ji2023}, lo 
+cual representa un riesgo inaceptable cuando una fecha incorrecta 
+o un monto fabricado puede comprometer una decisión institucional. 
+Si bien parte de estas inconsistencias puede detectarse 
+automáticamente contrastando cada dato contra el texto fuente, la 
+corrección automática no resuelve el problema de fondo. El analista 
+necesita un marco que le permita calibrar su confianza en lo 
+extraído mientras explora cómo evolucionó el proceso. El 
+\acl{VA} (\acs{VA}) ~\cite{keim2008visual, sacha2014} 
+ofrece ese marco. A diferencia de las interfaces de consulta 
+basadas en chat, que devuelven respuestas puntuales sobre un 
+documento a la vez, %Creo que aqui falta una cita :)
+\ac{VA} permite mantener simultáneamente las 
+dimensiones temporal, geoespacial y semántica de un proceso 
+distribuido en múltiples documentos, integrando el procesamiento 
+automático con el razonamiento humano. Esta integración aún no ha 
+sido evaluada en documentos institucionales fragmentados en español.
+
+En este trabajo abordamos esa brecha mediante el diseño y 
+evaluación de un sistema de \ac{VA} que articula tres componentes: un 
+pipeline de extracción basado en \acs{LLM} con corrección automática de 
+inconsistencias, un mecanismo de trazabilidad que vincula cada 
+dato con su fragmento de origen, y un conjunto de vistas 
+interactivas coordinadas para las dimensiones temporal, geoespacial 
+y narrativa de los procesos. Concretamente, esta investigación 
+responde dos preguntas. \textbf{(1)} ¿Cómo pueden los \acs{LLM} automatizar la extracción de información estructurada a partir de documentos institucionales fragmentados en español? \textbf{(2)} 
+¿Qué formas de visualización e interacción permiten a un 
+analista explorar y verificar narrativas complejas extraídas 
+de documentos institucionales fragmentados? Para 
+responderlas, evaluamos el sistema con expedientes reales de 
+auditoría de la Contraloría General de la República del Perú, un contexto real con alto volumen documental en español.
+
+
+
+
+\section{Motivación y Contexto}
+
+Los organismos de control gubernamental generan grandes 
+volúmenes de documentos que registran procesos extendidos en 
+el tiempo. En el Perú, la Contraloría General de la República 
+procesó más de 50,000 informes solo en 
+2024~\cite{andina2024}. Estos documentos presentan 
+características que los convierten en un caso de estudio 
+relevante para la investigación en análisis visual de texto: 
+combinan narrativa densa con terminología especializada, 
+involucran múltiples actores y ubicaciones geográficas, y 
+registran secuencias de eventos que se extienden durante 
+meses a través de documentos generados de forma 
+independiente.
+
+Si bien el \ac{NLP} permite clasificar y extraer elementos 
+clave de documentos legales~\cite{zhong-etal-2020-nlp, 
+lippi2019legal}, estos enfoques operan predominantemente a 
+nivel de documento individual y requieren adaptación 
+específica por dominio. Los \acs{LLM}, en cambio, permiten 
+adaptar la extracción a nuevos tipos de documentos sin 
+reentrenamiento, lo que los convierte en una alternativa 
+de propósito general para múltiples dominios.
+
+El \ac{VA} aborda este tipo de problemas combinando procesamiento automático con representación visual interactiva, permitiendo que el analista explore grandes volúmenes de información mientras mantiene control sobre el proceso de interpretación~\cite{keim2008visual, sacha2014}. Esta combinación es especialmente relevante cuando los datos extraídos automáticamente requieren validación experta antes de sustentar decisiones.
+
+Sin embargo, reconstruir la secuencia completa de un proceso 
+a partir de múltiples documentos fragmentados requiere 
+resolver desafíos adicionales tales como identificar que 
+distintas menciones en distintos archivos se refieren a la 
+misma entidad~\cite{cattan2021crossdoc}, ordenar 
+temporalmente eventos descritos con formatos heterogéneos, 
+y consolidar información dispersa en una representación 
+coherente. Permitir además que el analista verifique esa 
+reconstrucción sigue siendo un problema 
+abierto~\cite{pereira2023inacia}. Abordar este problema de 
+forma integrada, combinando extracción automática con 
+representación visual interactiva, es el punto de partida 
+de esta investigación.
+
+\section{Planteamiento del Problema}
+
+El análisis de procesos documentados en texto no estructurado 
+plantea tres problemas computacionales sin resolver.
+
+El primero es la extracción y resolución de entidades a través 
+de múltiples documentos. Los sistemas existentes operan 
+predominantemente a nivel de documento individual y no resuelven 
+la correferencia entre documentos: la misma entidad puede aparecer 
+referenciada de formas distintas en distintos archivos, y sin un 
+mecanismo de resolución de identidad los datos extraídos no pueden 
+integrarse de manera coherente. Los \acs{LLM} ofrecen capacidades 
+prometedoras para este problema, pero su comportamiento en 
+documentos técnicos y jurídicos en español no ha sido 
+sistemáticamente evaluado en pipelines de extracción con revisión 
+asistida~\cite{zhong-etal-2020-nlp}.
+
+El segundo es la verificabilidad de la extracción automática. 
+Cuando un sistema extrae un dato, el analista no dispone de 
+mecanismos inmediatos para verificar su corrección sin consultar 
+manualmente el documento fuente. En dominios donde un dato incorrecto puede sustentar una decisión institucional, esta ausencia de verificación hace que los sistemas automáticos sean difíciles de adoptar en la práctica~\cite{ji2023}.
+
+El tercero es la representación visual integrada de procesos 
+multidimensionales. Los procesos documentados en texto tienen 
+simultáneamente una dimensión temporal, espacial y narrativa. 
+Caracterizar qué representaciones visuales e interacciones permiten explorar de forma integrada las dimensiones temporal, espacial y narrativa de un proceso distribuido en múltiples documentos sigue siendo un problema abierto~\cite{zhao2023contextwing, rajabiyazdi2024textvista, ye2024storyexplorer, yeh2025storyribbons}.
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Desarrollar un sistema de \acl{VA} con extracción automática de 
+información mediante \acs{LLM} y revisión asistida, para la 
+exploración interactiva de procesos documentados en texto 
+no estructurado a través de sus dimensiones temporal, 
+geoespacial y narrativa.
+
+\subsection{Objetivos Específicos}
+
+\begin{enumerate}
+    \item Diseñar un \textit{pipeline} de extracción basado en \acs{LLM} 
+     que identifique entidades, hitos temporales, actores, 
+     relaciones y ubicaciones en documentos textuales, 
+     mitigando posibles alucinaciones del modelo.
+
+     % ambas vistas son formas complementarias de explorar los datos extraídos, por eso están en el mismo objetivo
+     \item Desarrollar un prototipo de vistas interactivas 
+     coordinadas que permitan explorar las dimensiones 
+     temporal, geoespacial y narrativa de los procesos 
+     documentados, incluyendo una vista de similitud 
+     semántica que permita comparar entidades entre sí.
+     
+     %\item Desarrollar un mecanismo de trazabilidad que preserve la referencia al documento fuente durante todo el pipeline, permitiendo al analista acceder al fragmento original de cada dato desde la interfaz.
+     
+     \item Evaluar la precisión del pipeline de extracción 
+     mediante un caso de estudio con expedientes de la 
+     Contraloría General de la República del Perú, 
+     comparando las extracciones generadas contra el 
+     contenido verificado de los documentos fuente.
+     
+     \item Evaluar la utilidad y usabilidad del sistema 
+     mediante una prueba con usuarios, midiendo eficiencia 
+     en tareas de exploración documental y utilidad 
+     percibida mediante cuestionarios estandarizados.
+\end{enumerate}
+
+
+\section{Organización de la tesis}
+
+El presente documento se organiza de la siguiente manera:
+
+\begin{itemize}
+    \item \hyperref[cap:introduccion]{\textbf{Capítulo~\ref*{cap:introduccion}: Introducción}} presenta el problema de investigación, la motivación, las preguntas de investigación y los objetivos del trabajo.
+    \item \hyperref[cap:marco_teorico]{\textbf{Capítulo~\ref*{cap:marco_teorico}: Marco Teórico}} desarrolla el marco teórico, 
+     cubriendo los fundamentos de \ac{VA}, visualización 
+     espacio-temporal, extracción de información con \acs{LLM} 
+      y el dominio de Control Concurrente de la Contraloría 
+      General de la República del Perú.
+     \item \hyperref[cap:estado_arte]{\textbf{Capítulo~\ref*{cap:estado_arte}: Estado del Arte}} presenta el estado del arte, 
+      revisando los trabajos relacionados en extracción de 
+      información con \acs{LLM}, sistemas de \ac{VA} para texto y 
+      visualización de narrativas complejas.
+      \item \hyperref[cap:propuesta]{\textbf{Capítulo~\ref*{cap:propuesta}: Propuesta}} describe el diseño e implementación 
+      del sistema, incluyendo el pipeline de extracción, la 
+      corrección automática de inconsistencias y las vistas 
+      interactivas coordinadas.
+      \item El Capítulo 5 presenta la evaluación del sistema 
+      en tres partes: la precisión del pipeline y el impacto 
+      de la corrección automática sobre la tasa de 
+      alucinaciones, la calidad de la proyección semántica 
+      para identificación de patrones, y la prueba de 
+      usabilidad con usuarios.
+      \item El Capítulo 6 discute las conclusiones, las 
+      limitaciones del trabajo y las líneas de investigación 
+      futura.
+\end{itemize}
+
+\section{Cronograma}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Tesis_CS_202203/Cro_Actv.pdf}
+    \caption{Cronograma de actividades.}
+    \label{fig:cronograma}
+\end{figure}

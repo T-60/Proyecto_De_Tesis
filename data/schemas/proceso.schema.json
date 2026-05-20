@@ -1,0 +1,79 @@
+{
+  "schema": "http://json-schema.org/draft-07/schema",
+  "comentario": "Schema que define la estructura que el LLM debe producir al analizar documentos. Cada valor extraido incluye una referencia de trazabilidad que apunta al texto original.",
+  "secciones_requeridas": [
+    "meta",
+    "ejes_y",
+    "nodos",
+    "citas"
+  ],
+  "meta": {
+    "descripcion": "Informacion general del proceso extraida del analisis global.",
+    "campos": {
+      "titulo": "Titulo sintetico del proceso, generado por el LLM.",
+      "descripcion": "Descripcion del proceso en 2-3 oraciones.",
+      "fuente": "Referencia al documento principal (fuente_inline).",
+      "marco_normativo": "Array de leyes, resoluciones y directivas del proceso."
+    }
+  },
+  "ejes_y": {
+    "descripcion": "Variables detectadas automaticamente por el LLM. Cada una puede usarse como eje Y en la visualizacion.",
+    "campos_por_eje": {
+      "id": "Identificador unico en snake_case.",
+      "label": "Nombre legible para mostrar en la UI.",
+      "tipo": "numerico | categorico | booleano",
+      "valores_posibles": "Solo para tipo categorico.",
+      "rango": "Solo para tipo numerico. [min, max].",
+      "cobertura_pct": "Porcentaje de nodos que tienen este valor (0-100).",
+      "fuente": "Documento y pagina donde se identifico la variable."
+    }
+  },
+  "nodos": {
+    "descripcion": "Entidades geograficas (ciudades, sedes, oficinas). Cada nodo tiene sus hitos y valores de los ejes_y.",
+    "campos": {
+      "id": "Identificador unico en snake_case.",
+      "label": "Nombre del nodo con fuente de trazabilidad.",
+      "descripcion": "Descripcion breve con fuente.",
+      "ubicacion": "Ciudad, departamento, lat, lng con fuente.",
+      "atributos": "Propiedades fijas del nodo que no cambian entre hitos.",
+      "hitos": "Array de momentos de evaluacion en orden cronologico."
+    },
+    "campos_por_hito": {
+      "id": "Identificador unico del hito.",
+      "label": "Nombre descriptivo del hito.",
+      "informe": "Numero o nombre del documento de referencia.",
+      "fecha": "Fecha principal con fuente.",
+      "fechas_detalle": "Fechas adicionales: inspeccion, emision_informe, plazo_respuesta.",
+      "firmantes": "Personas que firman el informe.",
+      "valores": "Mapa de id_eje -> valor_con_fuente. Las claves deben existir en ejes_y.",
+      "logros": "Array de logros identificados en el hito.",
+      "problemas": "Array de problemas identificados en el hito.",
+      "sa_anteriores": "Resumen de situaciones adversas de hitos previos."
+    }
+  },
+  "citas": {
+    "descripcion": "Repositorio de citas completas. Cada entrada se referencia con _ref desde los valores.",
+    "campos_por_cita": {
+      "doc": "Nombre o numero del documento fuente.",
+      "pagina": "Numero de pagina en el documento original.",
+      "seccion": "Titulo de la seccion donde aparece el dato.",
+      "texto_original": "Parrafo exacto del que se extrae el dato.",
+      "coords_pdf": "Coordenadas en el PDF para resaltar el texto: {x1, y1, x2, y2}."
+    }
+  },
+  "patron_fuente_inline": {
+    "descripcion": "Referencia liviana que acompana cada valor. Apunta a una entrada en citas.",
+    "campos": {
+      "_ref": "ID de la cita completa en el objeto citas.",
+      "doc": "Nombre del documento (redundante para lectura rapida).",
+      "pagina": "Pagina (redundante para lectura rapida)."
+    }
+  },
+  "patron_valor_con_fuente": {
+    "descripcion": "Patron base para cualquier dato extraido.",
+    "campos": {
+      "valor": "El dato en si (string, number, boolean, array u object).",
+      "fuente": "Objeto fuente_inline."
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa — Implementación del centro de cómputo EG 2026",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_control_1",
+    "numero": 1,
+    "label": "Hito de Control N° 1 — Habilitación, acondicionamiento, y logística informática del centro de cómputo de la ODPE Arequipa",
+    "filename": "Arequipa5.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 1543-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-18",
+      "periodo_inicio": "2026-03-05",
+      "periodo_fin": "2026-03-10",
+      "estado_notificacion": "Notificado. Comunicado a la Jefa de ODPE Arequipa mediante Oficio N° 000494-2026-CG/GRAR (18 de marzo de 2026) y al Jefe Nacional de la ONPE mediante Oficio N° 000123-2026-CG/OC3599 (23 de marzo de 2026), vía casilla electrónica.",
+      "fuente_ids": [
+        2338,
+        2349,
+        2381,
+        2342,
+        2404,
+        2344,
+        3732,
+        3792,
+        3799,
+        3843,
+        3847,
+        3870,
+        3916
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM",
+        "establece": "Marco normativo del Servicio de Control Simultáneo, que regula los hitos de control concurrente, incluyendo la obligación de comunicar situaciones adversas al titular de la entidad y las instancias competentes.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          2385,
+          3802,
+          3850
+        ]
+      },
+      {
+        "codigo": "Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Aprueba la Directiva N° 013-2022-CG/NORM 'Servicio de Control Simultáneo'.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          2385,
+          3850
+        ]
+      },
+      {
+        "codigo": "Ley N° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República. El artículo 8° establece la obligación de comunicar situaciones adversas.",
+        "fecha": null,
+        "fuente_ids": [
+          3801,
+          3849
+        ]
+      },
+      {
+        "codigo": "Ley N° 26487",
+        "establece": "Ley Orgánica de la ONPE. El artículo 24 establece que las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales.",
+        "fecha": null,
+        "fuente_ids": [
+          2420
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859",
+        "establece": "Ley Orgánica de Elecciones (LOE). El artículo 39 faculta al Jefe de la ONPE a determinar el número, ubicación y organización de las ODPE; el artículo 49 establece que los Jefes y Coordinadores Administrativos de ODPE se designan por concurso público.",
+        "fecha": null,
+        "fuente_ids": [
+          2421,
+          2424
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 039-2025-PCM",
+        "establece": "Convoca a Elecciones Generales para el 12 de abril de 2026.",
+        "fecha": "2025-03-26",
+        "fuente_ids": [
+          2422
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para la organización y ejecución de las EG 2026.",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          2423
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000132-2025-JN/ONPE",
+        "establece": "Dispuso la publicación de la relación de postulantes que aprobaron el proceso de selección para cubrir 28 Jefes y 28 Coordinadores Administrativos de ODPE.",
+        "fecha": "2025-08-12",
+        "fuente_ids": [
+          2431
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000141-2025-JN/ONPE",
+        "establece": "Conformó 14 ODPE encargadas de organizar las Elecciones Primarias de las EG 2026 y designó la Jefa y la Coordinadora Administrativa de la ODPE Arequipa.",
+        "fecha": "2025-09-08",
+        "fuente_ids": [
+          2435
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE",
+        "establece": "Aprueba el Plan Operativo Electoral (POE) versión 3 para las EG 2026, que establece el marco legal, electoral, estratégico, presupuestal y las actividades operativas, incluyendo la línea de tiempo de implementación de ODPE (20 enero - 10 marzo 2026).",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          2444,
+          2468,
+          2480,
+          2532,
+          2545
+        ]
+      },
+      {
+        "codigo": "Contrato N° 217-2025-ONPE",
+        "establece": "Suscrito entre la ONPE y el Consorcio 'Administrador de Procesos Electorales CSA' para el Servicio de habilitación, acondicionamiento y logística informática (SHALI) - EG 2026, por un monto total de S/ 144 306 000,00.",
+        "fecha": "2025-12-12",
+        "fuente_ids": [
+          2701,
+          2725,
+          2963
+        ]
+      },
+      {
+        "codigo": "Términos de Referencia del SHALI (versión 09)",
+        "establece": "Establecen los sub servicios, componentes, actividades, entregables, documentos técnicos requeridos, plazos de ejecución y obligaciones del contratista para la implementación de los centros de cómputo de las ODPE. El Anexo N° 15A fija el 4 de marzo de 2026 como fecha límite para la habilitación informática y acondicionamiento.",
+        "fecha": "2026-01-27",
+        "fuente_ids": [
+          2570,
+          2640,
+          2695,
+          2886
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000366-2026-CG/GRAR",
+        "establece": "Emitido por la Gerencia Regional de Control Arequipa, dio origen al presente control concurrente.",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          2385
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000073-2026-CG/OC3599",
+        "establece": "Notificado al titular de la entidad, habilita el alcance del control concurrente.",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          2413
+        ]
+      },
+      {
+        "codigo": "Acta de inicio del servicio (reunión kickoff)",
+        "establece": "Suscrita entre el Consorcio y la ONPE para los centros de cómputo, habilitando las fechas del cronograma del Anexo N° 15A.",
+        "fecha": "2026-01-02",
+        "fuente_ids": [
+          2727
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situaciones_adversas_hito_1",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control N° 1",
+        "valor": {
+          "texto": "Se identificaron 3 situaciones adversas durante la revisión del Hito de Control N° 1, todas relacionadas con incumplimientos del contratista en la implementación del centro de cómputo de la ODPE Arequipa.",
+          "estado": "Abiertas — sin resolución al cierre del informe; no se emitió reporte de avance ante situaciones adversas"
+        },
+        "detalle": [
+          {
+            "texto": "El centro de cómputo de la ODPE Arequipa no cuenta con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del centro de cómputo, establecidos en los términos de referencia del SHALI; situación que afectaría la operatividad del centro de cómputo durante el proceso electoral. Al 5 y 6 de marzo de 2026 faltaban 12 documentos técnicos requeridos por los TDR.",
+            "estado": "Abierta — sin resolución al momento del informe",
+            "desde_momento": null,
+            "fuente_ids": [
+              2729,
+              2730,
+              2739,
+              2743,
+              2754,
+              2761,
+              2867,
+              2868,
+              2889,
+              2955,
+              2960,
+              3078,
+              3080
+            ]
+          },
+          {
+            "texto": "El grupo electrógeno de la ODPE Arequipa no se encuentra instalado ni conectado al tablero eléctrico del local, y no cuenta con tubo de escape direccionado a exteriores; situación que genera el riesgo de no contar con un sistema eléctrico de respaldo que proporcione continuidad en el suministro de energía eléctrica, lo cual afectaría la operatividad del centro de cómputo durante el proceso electoral.",
+            "estado": "Abierta — sin resolución al momento del informe",
+            "desde_momento": null,
+            "fuente_ids": [
+              3087,
+              3091,
+              3093,
+              3097,
+              3104,
+              3115,
+              3122,
+              3202,
+              3203,
+              3261,
+              3262
+            ]
+          },
+          {
+            "texto": "El centro de cómputo de la ODPE Arequipa presenta equipos de cómputo y otros dispositivos en cajas, no instalados; situación que afectaría el funcionamiento de los equipos y pone en riesgo la operatividad del centro de cómputo para el proceso electoral. Al 5 y 6 de marzo de 2026 múltiples equipos (laptops, servidores, estaciones de trabajo, impresoras) se encontraban en cajas sin instalar.",
+            "estado": "Abierta — sin resolución al momento del informe",
+            "desde_momento": null,
+            "fuente_ids": [
+              3263,
+              3264,
+              3265,
+              3274,
+              3307,
+              3343,
+              3556,
+              3577,
+              3585,
+              3708,
+              3712
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2729,
+          2730,
+          3087,
+          3263,
+          3727,
+          3728
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 [...] se han identificado 3 situaciones adversas que afectan o podrían afectan la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026 / la Comisión de Control no emitió reporte de avance ante situaciones adversas",
+        "justificacion": "Las tres situaciones adversas son la métrica central de seguimiento de este hito. Se registran en este momento con estado abierto. No hay hito previo para comparar, pero el documento establece explícitamente que no hubo resolución durante el período evaluado y que no se emitió reporte de avance. Los tres items son homogéneos en estructura (condición-criterio-consecuencia) y provienen de la sección V del informe.",
+        "ambiguedad": "El documento indica que la verificación se realizó los días 5 y 6 de marzo de 2026, aunque el período de evaluación del hito se extiende hasta el 10 de marzo. No se documenta si al 10 de marzo alguna situación fue parcialmente subsanada; el informe se emite el 18 de marzo sin mencionar cierre de ninguna."
+      },
+      {
+        "id": "actores_odpe_arequipa",
+        "tipo": "D",
+        "label": "Información general de la ODPE Arequipa — actores y roles",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marina Victoria Reyes Marchena",
+            "rol": "Jefa de ODPE Arequipa",
+            "fuente_ids": [
+              1472,
+              2558,
+              3794
+            ]
+          },
+          {
+            "nombre": "Ruffran Villegas",
+            "rol": "Coordinador Administrativo de la ODPE Arequipa",
+            "fuente_ids": [
+              1473,
+              2558
+            ]
+          },
+          {
+            "nombre": "Zarela Dalinda Pozo Santoyo",
+            "rol": "Encargada del Centro de Cómputo de la ODPE Arequipa",
+            "fuente_ids": [
+              1474,
+              2558,
+              3556
+            ]
+          },
+          {
+            "nombre": "Consorcio 'Administrador de Procesos Electorales CSA' (Inversiones Palo Alto II S.A.C., SONDA DEL PERU S.A. y ALFIL CONSULTORÍA & COMUNICACIONES S.A.C.)",
+            "rol": "Contratista del SHALI, responsable de la habilitación, acondicionamiento y logística informática del centro de cómputo",
+            "fuente_ids": [
+              2701
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1465,
+          1467,
+          1468,
+          1469,
+          1470,
+          1471,
+          1472,
+          1473,
+          1474,
+          2558,
+          2701
+        ],
+        "fragmento_evidencia": "Cuadro n.° 4 Información General de la ODPE Arequipa [...] Jefe de ODPE: Marina Victoria Reyes Marchena / Coordinador administrativo: Ruffran Villegas / Encargado de Centro de Cómputo: Zarela Dalinda Pozo Santoyo / Presupuesto (S/): 3,488,831.00",
+        "justificacion": "Los actores aparecen en el Cuadro N° 4 con roles institucionales definidos para esta ODPE específica. El contratista se incluye porque es el actor ejecutor del hito evaluado.",
+        "ambiguedad": "El nombre completo del Coordinador Administrativo 'Ruffran Villegas' podría estar incompleto (aparece sin apellido materno en el cuadro); el documento no aclara este punto."
+      },
+      {
+        "id": "comision_de_control",
+        "tipo": "D",
+        "label": "Comisión de Control a cargo del servicio",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "César José Martin Lema Soncco",
+            "rol": "Jefe de Comisión, Comisión de Control",
+            "fuente_ids": [
+              3740,
+              2360
+            ]
+          },
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisor, Comisión de Control",
+            "fuente_ids": [
+              3739,
+              2440
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control, Gerencia Regional de Control Arequipa",
+            "fuente_ids": [
+              3744,
+              3808
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3739,
+          3740,
+          3744,
+          3808,
+          2360,
+          2440
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisor Comisión de Control / César José Martin Lema Soncco Jefe de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control Gerencia Regional de Control Arequipa",
+        "justificacion": "Son los actores institucionales del órgano de control, distintos de los actores de la ODPE. Provienen de la sección de cierre y firmas, con rol de control, no de gestión operativa.",
+        "ambiguedad": null
+      },
+      {
+        "id": "presupuesto_odpe_arequipa",
+        "tipo": "C",
+        "label": "Presupuesto asignado a la ODPE Arequipa",
+        "valor": {
+          "categoria": "S/ 3,488,831.00",
+          "nota": "El presupuesto aparece en el Cuadro N° 4 como dato informativo de la ODPE. No se registra ejecución presupuestal ni comparación con otro momento. No se especifica si corresponde al presupuesto total de la ODPE para toda la EG 2026 o solo al presupuesto asignado para el SHALI en la ODPE Arequipa."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1470,
+          1475,
+          2558
+        ],
+        "fragmento_evidencia": "Presupuesto (S/): 3,488,831.00",
+        "justificacion": "Es un valor único que describe la condición presupuestal de la ODPE en este hito. No hay meta ni avance de ejecución documentado en el informe.",
+        "ambiguedad": "No se especifica si corresponde al presupuesto total de la ODPE para toda la EG 2026 o solo al presupuesto asignado para el SHALI en la ODPE Arequipa."
+      },
+      {
+        "id": "reporte_avance_situaciones_adversas",
+        "tipo": "F",
+        "label": "Reporte de avance ante situaciones adversas",
+        "valor": {
+          "booleano": false,
+          "evidencia": "El documento declara expresamente en la sección VII que durante la ejecución del Hito de Control N° 1, la Comisión de Control no emitió reporte de avance ante situaciones adversas."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de reporte de avance ante situaciones adversas durante la ejecución del hito",
+            "cumple": false,
+            "fuente_ids": [
+              3725,
+              3726
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3725,
+          3726
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente Hito de Control n.° 1 [...] la Comisión de Control no emitió reporte de avance ante situaciones adversas.",
+        "justificacion": "La Directiva N° 013-2022-CG/NORM contempla la posibilidad de emitir reportes de avance durante la ejecución de los hitos. La sección VII del informe es el espacio formal para registrar si tal reporte fue emitido. Su ausencia es un dato verificable y binario relevante para el seguimiento del proceso de control.",
+        "ambiguedad": null
+      },
+      {
+        "id": "objetivo_alcance_hito_1",
+        "tipo": "E",
+        "label": "Descripción del objetivo y alcance del Hito de Control N° 1",
+        "valor": {
+          "titulo": "Objetivos y alcance del Hito de Control N° 1 — ODPE Arequipa",
+          "cuerpo": "Objetivo general: Determinar si el proceso de 'Implementación del centro de cómputo de la Oficina Descentralizada de Proceso Electoral-ODPE Arequipa, se viene ejecutando de conformidad con los términos de referencia del 'Servicio de habilitación, acondicionamiento y logística informática EG 2026', normativa aplicable y disposiciones internas dispuestas, en el marco del proceso de las Elecciones Generales - EG 2026. Objetivo específico: Establecer si la habilitación, acondicionamiento, logística informática, entrega y puesta en funcionamiento de recursos informáticos para el centro de cómputo de la ODPE Arequipa, se viene realizando de conformidad con los términos de referencia del 'Servicio de habilitación, acondicionamiento y logística informática EG 2026', normativa aplicable y disposiciones internas. Alcance: El control concurrente se desarrolló al Hito de Control n.° 1 - 'Habilitación, acondicionamiento, y logística informática del centro de cómputo de la ODPE Arequipa', ejecutado del 5 al 10 de marzo de 2026, en las instalaciones de la ODPE Arequipa, ubicado en Calle Universidad n.° 215, Urb. La Victoria, Cercado de Arequipa, distrito y provincia de Arequipa. Contenido de revisión: Comprende la revisión selectiva de los entregables de los componentes de los sub servicios: (A) habilitación informática (instalaciones eléctricas, instalaciones redes de datos, dotación/clonación/configuración/despliegue e instalación de equipos) y (B) acondicionamiento y logística informática del Centro de Cómputo de la ODPE Arequipa, conforme al Cuadro N° 5 del informe."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          2387,
+          2388,
+          2396,
+          2398,
+          2402,
+          2404,
+          2580
+        ],
+        "fragmento_evidencia": "Determinar si el proceso de 'Implementación del centro de cómputo de la Oficina Descentralizada de Proceso Electoral-ODPE Arequipa, se viene ejecutando de conformidad con los términos de referencia del 'Servicio de habilitación, acondicionamiento y logística informática EG 2026' [...] El control concurrente se desarrolló al Hito de Control n.° 1 [...] ejecutado del 5 al 10 de marzo de 2026, en las instalaciones de la ODPE Arequipa, ubicado en Calle Universidad n.° 215, Urb. La Victoria, Cercado de Arequipa",
+        "justificacion": "El informe contiene una sección estructurada de objetivos y alcance que constituye el encuadre formal narrativo del momento evaluado. Es texto con título y contenido extenso que no es una métrica de seguimiento, sino la declaración del propósito del hito.",
+        "ambiguedad": null
+      },
+      {
+        "id": "conclusion_hito_1",
+        "tipo": "E",
+        "label": "Conclusión del Hito de Control N° 1",
+        "valor": {
+          "titulo": "Conclusión del Hito de Control N° 1 — ODPE Arequipa",
+          "cuerpo": "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 'Habilitación, acondicionamiento, logística informática, entrega y puesta en funcionamiento de recursos informáticos para el centro de cómputo de la ODPE Arequipa, en el marco de las Elecciones Generales 2026', se han advertido tres situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la 'Implementación del centro de cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa, en el marco de las elecciones generales 2026', las cuales han sido detalladas en el presente informe."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3727,
+          3728
+        ],
+        "fragmento_evidencia": "se han advertido tres situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la 'Implementación del centro de cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa, en el marco de las elecciones generales 2026'",
+        "justificacion": "La conclusión es un texto estructurado independiente (sección VIII) que sintetiza formalmente los resultados del hito. A diferencia de la variable de situaciones adversas (que detalla cada una), esta variable captura el pronunciamiento institucional consolidado del órgano de control.",
+        "ambiguedad": null
+      },
+      {
+        "id": "recomendaciones_hito_1",
+        "tipo": "E",
+        "label": "Recomendaciones del Hito de Control N° 1",
+        "valor": {
+          "titulo": "Recomendaciones del Hito de Control N° 1 — ODPE Arequipa",
+          "cuerpo": "Recomendación 1: Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE el presente Informe Hito de Control para que adopte las acciones preventivas y correctivas que correspondan en el marco de sus competencias, con el objeto de asegurar la continuidad del proceso. Recomendación 2: Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE que debe comunicar al Órgano de Control Institucional, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a las situaciones adversas, adjuntando la documentación de sustento respectiva."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3729,
+          3730,
+          3731
+        ],
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente Informe Hito de Control [...] con la finalidad que se adopten las acciones preventivas y correctivas que correspondan [...] Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, que debe comunicar al Órgano de Control Institucional, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar",
+        "justificacion": "La sección de recomendaciones es texto estructurado extenso con título propio (sección IX) y contenido institucional formal. Es narrativo porque establece mandatos cualitativos, no métricas cuantificables ni condiciones booleanas.",
+        "ambiguedad": null
+      }
+    ]
+  }
+}

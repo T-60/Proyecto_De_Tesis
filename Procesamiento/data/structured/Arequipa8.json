@@ -1,0 +1,517 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_uso_fondos_encargo",
+    "numero": null,
+    "label": "Uso de los fondos asignados por encargo a la ODPE",
+    "filename": "Arequipa8.pdf",
+    "metadata": {
+      "identificador": "Informe de Control Concurrente n.° 5708-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-04-15",
+      "periodo_inicio": "2026-03-23",
+      "periodo_fin": "2026-03-27",
+      "estado_notificacion": "Notificado mediante Oficio n.° 000791-2026-CG/GRAR al Jefe de ODPE Cerro Colorado el 15 de abril de 2026",
+      "fuente_ids": [
+        594,
+        597,
+        599,
+        604,
+        629,
+        645,
+        1026,
+        1030,
+        1043
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Ley n.° 26487",
+        "establece": "Ley Orgánica de la ONPE. Artículo 24° establece que las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral.",
+        "fecha": null,
+        "fuente_ids": [
+          651
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26859",
+        "establece": "Ley Orgánica de Elecciones. Artículo 39° establece que el Jefe Nacional de la ONPE determina la cantidad, ubicación y organización de las ODPE; artículo 49° establece que el Jefe Nacional designa a los Jefes y Coordinadores Administrativos mediante concurso público.",
+        "fecha": null,
+        "fuente_ids": [
+          655,
+          664
+        ]
+      },
+      {
+        "codigo": "ROF ONPE - Artículos 116° y 104°",
+        "establece": "Artículo 116° establece funciones de la Jefatura Nacional respecto a las ODPE; Artículo 104° establece funciones de la GOECOR para organizar, dirigir y monitorear el funcionamiento de las ODPE.",
+        "fecha": null,
+        "fuente_ids": [
+          655,
+          702
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para las Elecciones Generales 2026.",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          663
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000165-2025-JN/ONPE",
+        "establece": "Dispone la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para Jefes y Coordinadores Administrativos de ODPE para las EG 2026.",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          665
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000175-2025-JN/ONPE",
+        "establece": "Designa a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE, incluyendo el Jefe de la ODPE Cerro Colorado, en el marco de las Elecciones Generales 2026.",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          666
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000204-2025-JN/ONPE",
+        "establece": "Aprueba el Plan Operativo Electoral (POE) Versión 03 para las Elecciones Generales 2026, que establece el marco legal, electoral, estratégico, indicadores, actividades operativas y tareas.",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          667,
+          691
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple n.° 000014-2026-GOECOR-EG2026/ONPE",
+        "establece": "Reformula la Matriz de personal en el marco de las EG 2026 según Ficha Técnica versión 04; adjunta cronograma de contratación de personal ODPE, matriz de personal y perfiles de cargos ocupacionales.",
+        "fecha": "2026-01-23",
+        "fuente_ids": [
+          696
+        ]
+      },
+      {
+        "codigo": "Instructivo IN01-GAD/FIN versión 06",
+        "establece": "Ejecución Presupuestal y Rendición de Cuentas de las ODPE. Establece reglas de ejecución presupuestal, rendición documentada de gastos, guía de ordenamiento de documentos (Anexo 5) y requisitos para vouchers de planilla de personal y servicios públicos prorrateados.",
+        "fecha": null,
+        "fuente_ids": [
+          703,
+          731,
+          735,
+          746,
+          747,
+          751,
+          762,
+          763,
+          776,
+          778,
+          832,
+          833,
+          834,
+          851,
+          853,
+          857,
+          859,
+          864,
+          868,
+          869,
+          878
+        ]
+      },
+      {
+        "codigo": "Instructivo IN02-GAD/LOG versión 09",
+        "establece": "Contratación de bienes y servicios de las ODPE con cargo a los presupuestos de los Procesos Electorales y Consultas Populares. Regula la contratación de bienes y servicios de las ODPE.",
+        "fecha": null,
+        "fuente_ids": [
+          703,
+          763,
+          853
+        ]
+      },
+      {
+        "codigo": "Directiva DI01-GAD/FIN",
+        "establece": "Rendición de Cuentas de los Fondos otorgados bajo la modalidad de Encargos a las ODPE para la Ejecución de Elecciones. Regula la rendición de cuentas de fondos bajo encargo.",
+        "fecha": null,
+        "fuente_ids": [
+          703
+        ]
+      },
+      {
+        "codigo": "Resolución de Contraloría General n.° 320-2006-GG - Norma 3.8",
+        "establece": "Normas de Control Interno. Norma 3.8 sobre documentación de procesos, actividades y tareas: deben estar documentados para asegurar su adecuado desarrollo, facilitar la revisión y garantizar la trazabilidad.",
+        "fecha": "2006-11-03",
+        "fuente_ids": [
+          781,
+          785,
+          786,
+          788,
+          791,
+          880,
+          881,
+          882,
+          884,
+          888
+        ]
+      },
+      {
+        "codigo": "Ley n.° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República. Artículo 8° regula la comunicación al titular de la entidad sobre situaciones adversas.",
+        "fecha": null,
+        "fuente_ids": [
+          1044
+        ]
+      },
+      {
+        "codigo": "Directiva n.° 013-2022-CG/NORM - Resolución de Contraloría n.° 218-2022-CG",
+        "establece": "Servicio de Control Simultáneo. Regula el servicio de Control Simultáneo, incluyendo la comunicación al titular de la entidad sobre situaciones adversas.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          632,
+          1045
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000536-2026-CG/GRAR",
+        "establece": "Orden de la Gerencia Regional de Control de Arequipa que origina el presente servicio de Control Concurrente; registrado en el SCG con orden de servicio n.° 02-L470-2026-055.",
+        "fecha": "2026-03-20",
+        "fuente_ids": [
+          632
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000002-2026-CG/OC3599",
+        "establece": "Comunicación a la ONPE relacionada con el marco del servicio de control concurrente.",
+        "fecha": "2026-01-26",
+        "fuente_ids": [
+          659
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situaciones_adversas_hito_actual",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el presente hito de control",
+        "valor": {
+          "texto": "Se identificaron dos (2) situaciones adversas nuevas en el presente hito de control 'Uso de los fondos asignados por encargo a la ODPE'.",
+          "estado": "Abierta"
+        },
+        "detalle": [
+          {
+            "texto": "Planillas de pago de remuneraciones a locadores de servicio (mes de febrero 2026, total S/ 126 700,02) tramitadas sin la firma del analista descentralizado de recursos humanos, incumpliendo el Instructivo IN01-GAD/FIN versión 06 (Anexo 5). Se revisaron expedientes de pago n.°s 00047, 00048, 00052, 00055 y 00057-EG-2026. La omisión no fue advertida por los responsables de la 'Hoja de Revisión del sustento documental del voucher planilla de personal ODPE Cerro Colorado'. Consecuencia: pondría en riesgo el adecuado desarrollo del proceso con los estándares establecidos y afectaría la transparencia del manejo y ejecución de los recursos asignados.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              728,
+              729,
+              730,
+              731,
+              735,
+              795,
+              796
+            ]
+          },
+          {
+            "texto": "Declaración Jurada de Gastos (FM03-GAD/FIN de 12 de marzo de 2026) empleada para el pago fraccionado (80%) del servicio público de agua y desagüe del local alquilado (suministro n.° 0578762, recibo n.° 14-5001-61914847, período 19/01/2026 al 18/02/2026, importe ODPE: S/ 106,00 de un total S/ 132,90) no contiene adjunto el recibo de pago suscrito por el propietario, siendo este documento requerido por el Instructivo IN01-GAD/FIN versión 06 (Anexo 5, numeral 5.2, nota final). El arqueo inopinado al fondo de caja chica fue realizado el 23 de marzo de 2026, con un total de S/ 2 466,20 en documentos definitivos. Consecuencia: pondría en riesgo el adecuado desarrollo del procedimiento establecido y afectaría la transparencia del manejo y ejecución de los recursos asignados.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              797,
+              798,
+              799,
+              801,
+              810,
+              812,
+              814,
+              816,
+              817,
+              821,
+              825,
+              829,
+              894,
+              897
+            ]
+          }
+        ],
+        "fuente_ids": [
+          717,
+          718,
+          919
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al 'Uso de los fondos asignados por encargo a la ODPE', se ha identificado dos (2) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado, o logro de los objetivos de las Elecciones Generales 2026",
+        "justificacion": "Son hechos concretos en estado abierto identificados en este hito, con texto descriptivo (condición, criterio, consecuencia) y estado explícito. Se agrupan en una sola variable de seguimiento porque responden a la misma pregunta conceptual: ¿qué situaciones adversas nuevas se identificaron en este hito?, y comparten exactamente la misma estructura.",
+        "ambiguedad": null
+      },
+      {
+        "id": "situaciones_adversas_hitos_anteriores",
+        "tipo": "A",
+        "label": "Situaciones adversas de hitos anteriores con seguimiento en este informe",
+        "valor": {
+          "texto": "Se registran tres (3) situaciones adversas comunicadas en informes de hitos de control anteriores, todas reportadas con acciones por parte de la entidad pero sin cierre definitivo documentado en este informe.",
+          "estado": "Con acciones"
+        },
+        "detalle": [
+          {
+            "texto": "Ítem n.° 2 (Informe n.° 145-2026-CG/GRAR-SCC) — Ausencia de tópico y ambiente de atención al público: La ODPE no contaba con tópicos ni ambiente de atención al público implementado, poniendo en riesgo la salud de las personas. Acción reportada: disponen de un botiquín de primeros auxilios debidamente equipado con los elementos básicos necesarios para brindar atención primaria (Informe n.° 000003-2026-RDD-GOECOR/ONPE de 12 de febrero de 2026 e Informe n.° 000011-2026-ODPECERROCOLORADO-EG2026/ONPE de 10 de febrero de 2026).",
+            "estado": "Con acciones",
+            "desde_momento": "hito_145_2026",
+            "fuente_ids": [
+              500,
+              502,
+              503,
+              504,
+              505
+            ]
+          },
+          {
+            "texto": "Ítem n.° 5 (Informe n.° 145-2026-CG/GRAR-SCC) — Ausencia de línea gráfica y rotulado en el frontis y áreas de la ODPE: El frontis no contaba con línea gráfica del proceso electoral, las áreas administrativas y ambientes alquilados no estaban rotulados, y el frontis no contaba con el enlace web de acceso al libro de reclamaciones. Acción reportada: se colocaron banners que identifican el proceso electoral EG 2026 y se procedió al rótulo de áreas administrativas y ambientes no alquilados. No se reportó acción sobre el enlace web del libro de reclamaciones.",
+            "estado": "Con acciones (parcial; pendiente enlace web)",
+            "desde_momento": "hito_145_2026",
+            "fuente_ids": [
+              508,
+              509,
+              510,
+              511
+            ]
+          },
+          {
+            "texto": "Ítem n.° 6 (Informe n.° 145-2026-CG/GRAR-SCC) — Centro de cómputo sin control de ingreso y salida de equipos y visitantes: el centro de cómputo no tenía control de ingreso y salida de equipos y visitantes, lo cual podría dificultar el acceso de los usuarios y limitar el alcance de sus servicios. Acción reportada: se informó que actualmente se encuentra en etapa de implementación.",
+            "estado": "Con acciones (en proceso)",
+            "desde_momento": "hito_145_2026",
+            "fuente_ids": [
+              514,
+              515,
+              516,
+              517
+            ]
+          },
+          {
+            "texto": "Ítem n.° 1 (Informe n.° 399-2026-CG/GRAR-SCC) — Personal con certificado de trabajo con datos inconsistentes: personal contratado bajo modalidad de locación de servicios para el cargo de auxiliar administrativo presentó certificado de trabajo con datos que no guardan relación con su hoja de vida, poniendo en riesgo el control de calidad de la selección de personal. Acción reportada: mediante correo electrónico se notificó al locador solicitando la subsanación documentaria y aclaración; el locador remitió copia de título profesional e indicó que el certificado de trabajo tenía 'pendiente a regularizar la carta de la empresa donde laboré'.",
+            "estado": "Con acciones (subsanación pendiente de completarse)",
+            "desde_momento": "hito_399_2026",
+            "fuente_ids": [
+              525,
+              526,
+              527,
+              528
+            ]
+          }
+        ],
+        "fuente_ids": [
+          916,
+          917,
+          963,
+          964,
+          990
+        ],
+        "fragmento_evidencia": "Las situaciones adversas comunicadas en los informes de Hito de Control anteriores respecto de las cuales la entidad aún no ha adoptado las acciones preventivas y correctivas, o estas aún no han sido comunicadas a la Comisión de Control, se detallan en el Apéndice n.° 2.",
+        "justificacion": "Son situaciones adversas de momentos anteriores que continúan siendo rastreadas en este informe. Todos los ítems comparten la misma estructura tabular (situación adversa, documento de la entidad, acciones preventivas y correctivas, estado), provienen del mismo Apéndice n.° 2 y responden a la misma pregunta: ¿qué situaciones de hitos anteriores persisten?",
+        "ambiguedad": "El estado 'Con acciones' no equivale a 'cerrado'; el informe no declara ninguna situación anterior como resuelta, solo que hay acciones reportadas."
+      },
+      {
+        "id": "emision_reporte_avance_situaciones_adversas",
+        "tipo": "F",
+        "label": "Reporte de Avance ante Situaciones Adversas en el presente hito",
+        "valor": {
+          "booleano": false,
+          "evidencia": "El informe declara explícitamente que la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de Control Concurrente."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de Reporte de Avance ante Situaciones Adversas durante el servicio de Control Concurrente",
+            "cumple": false,
+            "fuente_ids": [
+              914,
+              915
+            ]
+          }
+        ],
+        "fuente_ids": [
+          914,
+          915
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no ha emitido Reporte de Avance ante Situaciones Adversas.",
+        "justificacion": "Es una condición verificable de verdadero/falso sobre si un documento específico fue emitido durante este hito. El resultado es negativo (no se emitió).",
+        "ambiguedad": null
+      },
+      {
+        "id": "actores_comision_de_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "César Gonzalo Santos Delgado",
+            "rol": "Jefe de Comisión, Comisión de Control",
+            "fuente_ids": [
+              929,
+              612,
+              613
+            ]
+          },
+          {
+            "nombre": "Pedro Luis Fernando Oviedo Vásquez",
+            "rol": "Supervisor, Comisión de Control",
+            "fuente_ids": [
+              928,
+              925
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control de Arequipa (e), Contraloría General de la República",
+            "fuente_ids": [
+              931,
+              932,
+              1051,
+              1052
+            ]
+          }
+        ],
+        "fuente_ids": [
+          923,
+          928,
+          929,
+          931,
+          932
+        ],
+        "fragmento_evidencia": "Pedro Luis Fernando Oviedo Vásquez Supervisor Comisión de Control / César Gonzalo Santos Delgado Jefe de Comisión Comisión de Control / Marissa Chávez Chávez Gerente Regional de Control de Arequipa (e) Contraloría General de la República",
+        "justificacion": "Son los actores institucionales que ejecutan el control en este hito, con roles diferenciados y bien identificados.",
+        "ambiguedad": null
+      },
+      {
+        "id": "actores_odpe_cerro_colorado",
+        "tipo": "D",
+        "label": "Actores de la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de ODPE Cerro Colorado",
+            "fuente_ids": [
+              456,
+              1034,
+              1036
+            ]
+          },
+          {
+            "nombre": "Ruth Basilia Ripa Ito",
+            "rol": "Coordinadora Administrativa de la ODPE Cerro Colorado",
+            "fuente_ids": [
+              457,
+              730
+            ]
+          }
+        ],
+        "fuente_ids": [
+          698,
+          700
+        ],
+        "fragmento_evidencia": "Jefe de ODPE: Armando Juan Echevarría Cárdenas / Coordinador administrativo: Ruth Basilia Ripa Ito",
+        "justificacion": "Son los actores institucionales de la entidad controlada, con roles diferenciados definidos en el cuadro de información general y mencionados en las condiciones de las situaciones adversas. Se separan de la variable de Comisión de Control porque corresponden a la entidad auditada.",
+        "ambiguedad": null
+      },
+      {
+        "id": "presupuesto_analitico_odpe",
+        "tipo": "B",
+        "label": "Presupuesto analítico asignado a la ODPE Cerro Colorado",
+        "valor": {
+          "observado": null,
+          "meta": 3775057.16,
+          "estimado": null,
+          "unidad": "soles (S/)"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Planillas de locadores de servicio - febrero 2026",
+            "previsto": null,
+            "real": 126700.02,
+            "fuente_ids": [
+              730
+            ]
+          },
+          {
+            "subgrupo": "Fondo de caja chica - documentos definitivos revisados",
+            "previsto": null,
+            "real": 2466.2,
+            "fuente_ids": [
+              799
+            ]
+          },
+          {
+            "subgrupo": "Pago agua y desagüe (80% del recibo) - ODPE",
+            "previsto": null,
+            "real": 106.0,
+            "fuente_ids": [
+              801
+            ]
+          }
+        ],
+        "fuente_ids": [
+          453,
+          458,
+          698,
+          700,
+          730,
+          799,
+          801
+        ],
+        "fragmento_evidencia": "Presupuesto Analítico (S/): 3 775 057,16 / reporte de los Voucher de Planillas de la ODPE Cerro Colorado correspondiente al mes de febrero de 2026, que totaliza el importe de S/126 700,02 / diferentes facturas electrónicas y declaraciones juradas que acreditarían el gasto en dicho fondo por un total de S/ 2 466,20",
+        "justificacion": "Es un valor numérico con meta definida (presupuesto analítico total) contra el cual se comparan los gastos observados en el hito. El documento no reporta el avance acumulado total, pero sí permite identificar montos parciales revisados.",
+        "ambiguedad": "El documento no reporta el porcentaje de ejecución acumulada total del presupuesto a la fecha del hito; solo se conocen los montos de los expedientes revisados como muestra."
+      },
+      {
+        "id": "actividades_operativas_poe_periodo",
+        "tipo": "B",
+        "label": "Actividades operativas del POE vigentes en el período evaluado",
+        "valor": {
+          "observado": 2,
+          "meta": null,
+          "estimado": null,
+          "unidad": "actividades operativas en ejecución"
+        },
+        "detalle": [
+          {
+            "subgrupo": "AO n.° 36 - Tarea 3.1.1.6: Preparar la planilla y realizar el pago de las retribuciones a los locadores de servicios en la ODPE (período 13/01/2026 al 20/05/2026)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              437,
+              438,
+              439,
+              440
+            ]
+          },
+          {
+            "subgrupo": "AO n.° 37 - Tarea 3.6.1.10: Efectuar la ejecución de gastos y presentar rendiciones de cuentas (período 21/01/2026 al 20/05/2026)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              443,
+              444,
+              445,
+              446,
+              447
+            ]
+          }
+        ],
+        "fuente_ids": [
+          671,
+          675,
+          691
+        ],
+        "fragmento_evidencia": "dentro del Plan Operativo Electoral se establecen tareas operativas a ser realizadas por las ODPE, como la de 'Seleccionar y contratar bajo la modalidad de locación de servicios en la ODPE', cuyo periodo de ejecución se detalla en el siguiente cuadro",
+        "justificacion": "Son los hitos de programación física del POE que enmarcan las actividades evaluadas en este hito de control. Se agrupan en una variable de progreso porque comparten la misma estructura tabular del Cuadro n.° 1 y responden a la misma pregunta: ¿qué actividades operativas del POE están vigentes en este período?",
+        "ambiguedad": "La programación física (columna 1/1) no está acompañada de un valor de avance real observado en este hito; solo se conoce que las tareas están dentro de su período de vigencia."
+      }
+    ]
+  }
+}

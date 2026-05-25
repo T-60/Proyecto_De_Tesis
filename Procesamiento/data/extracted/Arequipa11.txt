@@ -1,0 +1,366 @@
+# Análisis Razonado del Documento Arequipa11.pdf
+
+---
+
+## 1. Vocabulario del Dominio
+
+- **Instancia**: La entidad seguida es la **ODPE Arequipa** (Oficina Descentralizada de Procesos Electorales Arequipa), en el marco del proceso denominado "Implementación de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa en el marco de las Elecciones Generales 2026".
+- **Momento**: El documento corresponde a un **Hito de Control** (específicamente el Hito de Control n.° 1), que es el punto de evaluación dentro del servicio de Control Concurrente. El nombre del momento es "Acondicionamiento del local de la ODPE".
+
+---
+
+## 2. Metadata del Momento
+
+- **Identificador del documento**: Informe de Hito de Control N° 141-2026-CG/GRAR-SCC
+  Fuente (IDs): [1773], [1784], [1813]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 141-2026-CG/GRAR-SCC"
+
+- **Momento al que corresponde**: Hito de Control N° 1 — "Acondicionamiento del local de la ODPE"
+  Fuente (IDs): [1776], [1786], [1815]
+  Fragmento: "HITO DE CONTROL N° 1 'ACONDICIONAMIENTO DEL LOCAL DE LA ODPE'"
+
+- **Tipo de momento**: Control Concurrente (Servicio de Control Simultáneo)
+  Fuente (IDs): [1774], [1817]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES"
+
+- **Período de evaluación del hito**: Del 26 al 30 de enero de 2026
+  Fuente (IDs): [1777], [1826]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 26 AL 30 DE ENERO DEL 2026"
+
+- **Fecha de emisión del documento**: 5 de febrero de 2026
+  Fuente (IDs): [1779], [3077], [3161]
+  Fragmento: "AREQUIPA, 5 DE FEBRERO DEL 2026"
+
+- **Estado de notificación**: Emitido y notificado electrónicamente el 5 de febrero de 2026, mediante Oficio N° 000144-2026-CG/GRAR (a la Jefa de ODPE Arequipa) y Oficio N° 000023-2026-CG/OC3599 (al Jefe Nacional de ONPE)
+  Fuente (IDs): [3146], [3183], [3197]
+  Fragmento: "Estado: EMITIDO" / "OFICIO N° 000144-2026-CG/GRAR" / "OFICIO N° 000023-2026-CG/OC3599"
+
+- **Nombre del archivo**: Arequipa11.pdf
+  Fuente (IDs): encabezado del documento
+  Fragmento: "# Arequipa11.pdf"
+
+- **Identificador de la instancia**: ODPE Arequipa — proceso "Implementación de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa en el marco de las Elecciones Generales 2026"
+  Fuente (IDs): [1774], [1775], [1814]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES- ODPE AREQUIPA AREQUIPA - AREQUIPA - AREQUIPA"
+
+- **Tomo**: Tomo I de I
+  Fuente (IDs): [1778]
+  Fragmento: "TOMO I DE I"
+
+---
+
+## 3. Marco General del Proceso
+
+- **Directiva n.° 013-2022-CG/NORM "Servicio de Control Simultáneo"**, aprobada mediante Resolución de Contraloría n.° 218-2022-CG: Establece el marco normativo que regula el servicio de Control Simultáneo, incluyendo la comunicación al titular de la entidad sobre situaciones adversas y el procedimiento del Control Concurrente.
+  Fecha: 30 de mayo de 2022
+  Fuente (IDs): [1817], [3154], [3204]
+  Fragmento: "aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y modificatorias"
+
+- **Ley n.° 26487 — Ley Orgánica de la ONPE**: En su artículo 24° establece que las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales.
+  Fuente (IDs): [1834]
+  Fragmento: "conforme al artículo 24° de la Ley n.° 26487, Ley Orgánica de la ONPE, las Oficinas Descentralizadas de Procesos Electorales (en adelante ODPE) se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales"
+
+- **Ley n.° 26859 — Ley Orgánica de Elecciones (LOE)**: En su artículo 39° establece que el Jefe de la ONPE determina el número, ubicación y organización de las ODPE. En su artículo 49° establece el proceso de designación de Jefes y Coordinadores Administrativos de las ODPE mediante concurso público.
+  Fuente (IDs): [1848], [1859]
+  Fragmento: "de acuerdo al artículo 39° de la Ley n.° 26859, Ley Orgánica de Elecciones (en adelante LOE)"
+
+- **Ley n.° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República**: En su artículo 8° fundamenta la comunicación del informe al titular de la entidad.
+  Fuente (IDs): [3153], [3203]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la Republica"
+
+- **Resolución Jefatural n.° 000127-2025-JN/ONPE**: Aprueba la conformación de 126 ODPE para las Elecciones Generales 2026.
+  Fecha: 1 de agosto de 2025
+  Fuente (IDs): [1858]
+  Fragmento: "mediante Resolución Jefatural n.° 000127-2025-JN/ONPE del 1 de agosto de 2025, se aprueba la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales"
+
+- **Resolución Jefatural n.° 000165-2025-JN/ONPE**: Dispone la publicación de la relación de postulantes titulares y accesitarios aprobados para cubrir vacantes de Jefes y Coordinadores Administrativos de ODPE.
+  Fecha: 16 de octubre de 2025
+  Fuente (IDs): [1860]
+  Fragmento: "con Resolución Jefatural n.° 000165-2025-JN/ONPE del 16 de octubre 2025, se dispuso la publicación de la relación de postulantes titulares y accesitarios"
+
+- **Resolución Jefatural n.° 000175-2025-JN/ONPE**: Designa a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE para las Elecciones Generales 2026.
+  Fecha: 4 de noviembre de 2025
+  Fuente (IDs): [1861]
+  Fragmento: "a través de la Resolución Jefatural n.° 000175-2025-JN/ONPE de 4 de noviembre del 2025, se designó en el cargo de Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE"
+
+- **Resolución Jefatural n.° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) Elecciones Generales 2026, Versión 03**: Aprueba el Plan Operativo Electoral que establece el marco legal, electoral, estratégico e indicadores, así como la programación de actividades operativas y tareas de las unidades orgánicas de la ONPE, incluyendo las ODPE. Establece plazos para la implementación de sedes ODPE (gestión de áreas: 5 al 17 de enero; inicio de actividades: 20 al 29 de enero; habilitación informática y acondicionamiento: 5 de enero al 29 de enero de 2026).
+  Fecha: 31 de diciembre de 2025
+  Fuente (IDs): [1862], [1907], [1918], [2457]
+  Fragmento: "a través de la Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025 se aprobó el 'Plan Operativo Electoral Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos ante el Parlamento Andino 2026, Versión 03'"
+
+- **Memorando n.° 000073-2026-GOECOR/ONPE**: Reformula el presupuesto analítico de cada ODPE; el total general asciende a S/ 350'999,235.52.
+  Fecha: 8 de enero de 2026
+  Fuente (IDs): [1919], [1938]
+  Fragmento: "en el Memorando n.° 000073-2026-GOECOR/ONPE de 8 de enero de 2026 se reformula el presupuesto analítico de cada ODPE y se detalla el importe total, el cual asciende a un total de S/ 350' 999,235.52"
+
+- **Reglamento de Organización y Funciones (ROF) de la ONPE**, adecuado mediante Resolución Jefatural n.° 000125-2024-JN/ONPE: En su artículo 104° establece las funciones de la GOECOR respecto a las ODPE; en su artículo 116° regula la organización de las ODPE.
+  Fecha de adecuación: 27 de junio de 2024
+  Fuente (IDs): [1848], [1950], [1975]
+  Fragmento: "de acuerdo a lo establecido en el artículo 104° del Reglamento de Organización y Funciones"
+
+- **Instructivo IN01-GOECOR/IMO "Habilitación de la ODPE y Oficinas Distritales y/o de Centros Poblados", versión 2**: Establece las tareas para la habilitación de locales de ODPE, implementación de áreas, suscripción del acta de recepción/entrega de bien inmueble, señalización de ambientes y verificación del estado del inmueble.
+  Fecha de aprobación: 19 de julio de 2022
+  Fuente (IDs): [1951], [2174], [2626], [2726]
+  Fragmento: "Instructivo IN01-GOECOR/IMO 'Habilitación de la ODPE y oficinas distritales/centros poblados', versión 02, aprobado por la Gerencia de Organización Electoral y Coordinación Regional el 19 de julio de 2022"
+
+- **Procedimiento PR01-GOECOR/IMO "Implementación de la ODPE", versión 17**: Precisa las actividades para la implementación de la sede de la ODPE, desde la consolidación de la propuesta del local hasta el inicio de actividades.
+  Fuente (IDs): [1951]
+  Fragmento: "el Procedimiento PR01-GOECOR/IMO 'Implementación de la ODPE' versión 17, en el que se precisan las actividades para la implementación de la sede de la ODPE"
+
+- **Formato FM10-GAD/FIN "Acta de Recepción/Entrega de Bien Inmueble", versión 02**: Formato institucional utilizado para dejar constancia del estado del inmueble al recibirlo y al devolverlo.
+  Fuente (IDs): [1434], [1445], [2209]
+  Fragmento: "FM10-GAD/FIN Acta recepción/entrega de bien inmueble, con el propósito de dejar constancia como se está recibiendo el local para su posterior devolución"
+
+- **Norma Técnica E.040 Vidrio del Reglamento Nacional de Edificaciones (RNE)**: Establece que las superficies acristaladas deben estar constituidas por vidrios de seguridad (laminados o templados) en áreas con riesgo de impacto.
+  Fuente (IDs): [2141], [2163]
+  Fragmento: "las mamparas ubicadas en el segundo piso no consideran la Norma Técnica E.040 Vidrio, del Reglamento Nacional de Edificaciones - RNE"
+
+- **Ley n.° 29973 — Ley General de la Persona con Discapacidad**: Promulgada el 13 de diciembre de 2012. Establece el derecho de accesibilidad de las personas con discapacidad al entorno físico y los servicios públicos, y las condiciones que deben cumplir las edificaciones públicas y privadas.
+  Fuente (IDs): [2867]
+  Fragmento: "Ley n.° 29973 - Ley General de la Persona con Discapacidad, promulgada el 13 de diciembre de 2012"
+
+- **Norma Técnica A.120 "Accesibilidad Universal en Edificaciones" del Reglamento Nacional de Edificaciones**, modificada mediante Resolución Ministerial n.° 072-2019-VIVIENDA: Establece condiciones de accesibilidad para personas con discapacidad, incluyendo anchos mínimos de vanos de puertas, circulaciones, zonas de espera con espacio para sillas de ruedas (0.90 m × 1.20 m) y dimensiones de servicios higiénicos.
+  Fecha de modificación: 27 de febrero de 2019 (publicada el 2 de marzo de 2019)
+  Fuente (IDs): [2880]
+  Fragmento: "Norma Técnica A.120 'Accesibilidad Universal en Edificaciones' del Reglamento Nacional de Edificaciones, modificada mediante el artículo 1º de la Resolución Ministerial n.° 072-2019-VIVIENDA de 27 de febrero de 2019"
+
+- **Directiva n.° 0004-2021-EF/54.01 "Directiva para la gestión de almacenamiento y distribución de bienes muebles"**, aprobada mediante Resolución Directoral n.° 0011-2021-EF/54.01: Establece criterios para la selección del local del almacén, su espacio físico y equipamiento mínimo.
+  Fecha: 28 de julio de 2021
+  Fuente (IDs): [3041]
+  Fragmento: "Directiva n.° 0004-2021-EF/54.01 'Directiva para la gestión de almacenamiento y distribución de bienes muebles', aprobada mediante Resolución Directoral n.° 0011-2021-EF/54.01 publicada el 28 de julio de 2021"
+
+- **Oficio n.° 000002-2026-CG/OC3599**: Comunicación de la Contraloría a la ONPE, recibida el 26 de enero de 2026, que ampara la ejecución del presente servicio de control.
+  Fecha: 26 de enero de 2026
+  Fuente (IDs): [1852]
+  Fragmento: "Al amparo de lo establecido en el Oficio n.° 000002-2026-CG/OC3599 de 26 de enero de 2026, recibido en la misma fecha por mesa de parte virtual de la Oficina Nacional de Procesos Electorales"
+
+---
+
+## 4. Variables del Momento
+
+A continuación razono sobre qué información del documento constituye variables de Categoría 3, identificando su tipo y agrupando los items homogéneos conforme a las reglas establecidas.
+
+---
+
+**Variable 1 — Información general de la ODPE Arequipa (datos operativos de la instancia)**
+
+Esta variable reúne los datos identificadores y operativos de la ODPE Arequipa tal como se consignan en el Cuadro n.° 2 del informe. Son datos de estado descriptivo del objeto controlado en este momento.
+
+  Tipo: C — Estado
+  Valor global: La ODPE Arequipa opera en el local de Calle Universidad 215, Urb. La Victoria, Cercado de Arequipa, con un presupuesto analítico asignado de S/ 3'488,830.71 y con personal designado.
+  Detalle:
+    - Departamento: Arequipa [1418, 1422]
+    - Dirección del local: Calle Universidad 215, Urb. La Victoria, Cercado de Arequipa [1419, 1423]
+    - Jefa de ODPE: Marina Victoria Reyes Marchena [1420, 1424]
+    - Coordinadora Administrativa: Nancy Elena Ruffren Villegas [1420, 1424]
+    - Presupuesto Analítico asignado: S/ 3'488,830.71 [1421, 1425]
+    - Fuente del presupuesto: Memorando n.° 000073-2026-GOECOR/ONPE de 8 de enero de 2026 [1938]
+  Fuente (IDs): [1924], [1925], [1418], [1419], [1420], [1421], [1422], [1423], [1424], [1425], [1938]
+  Fragmento de evidencia: "Cuadro n.° 2 Información General de la ODPE Arequipa — Departamento: Arequipa — Dirección: Calle Universidad 215, Urb. La Victoria, Cercado de Arequipa — Jefe de ODPE: Marina Victoria / Coordinador administrativo: Nancy Elena Reyes Marchena / Ruffren Villegas — Presupuesto Analítico (S/): 3'488,830.71"
+  Justificación: El cuadro n.° 2 agrupa de forma estructurada y homogénea todos los datos identificadores y operativos de la ODPE en este momento de control. Son datos de estado que describen la condición organizativa y presupuestal de la instancia en el hito evaluado.
+  Ambigüedad: Los nombres "Marina Victoria" y "Nancy Elena Reyes Marchena / Ruffren Villegas" aparecen distribuidos en celdas adyacentes; se interpreta que Marina Victoria Reyes Marchena es la Jefa de ODPE y Nancy Elena Ruffren Villegas es la Coordinadora Administrativa, conforme al orden de columnas del cuadro y la confirmación del oficio de notificación [3147].
+
+---
+
+**Variable 2 — Situaciones adversas identificadas en el Hito de Control N° 1**
+
+El documento identifica seis situaciones adversas. Todas comparten la misma estructura semántica (condición, criterio, consecuencia), provienen de la misma sección (V. Situaciones Adversas) y responden a la misma pregunta conceptual: ¿qué condiciones adversas se detectaron durante el hito? Son items homogéneos en estructura que pertenecen al detalle de una sola variable de seguimiento, pues en hitos sucesivos se observará si fueron resueltas, persisten o generan nuevas consecuencias.
+
+  Tipo: A — Seguimiento
+  Valor global: Se identificaron 6 situaciones adversas que afectan o podrían afectar la continuidad del proceso electoral EG 2026, todas de estado Abierto al momento del informe (no aplica reporte de avance según sección VII).
+  Detalle:
+
+    Item 1 — Acta de recepción de inmueble con información incongruente respecto al estado real de los pisos y puertas
+      - Texto: El Acta de Recepción/Entrega de bien inmueble de 29 de diciembre de 2025 indica que los pisos son de cerámico, pero la verificación física constató que los pisos del 1°, 2° y 5° piso son de cemento pulido. Además, el acta señala que las puertas están en buen estado, pero el área de conservación de cédulas del 1° piso carece de puerta (solo tiene cortina plástica). Las mamparas del 2° piso no cumplen la Norma Técnica E.040 (sin vidrio templado ni laminado).
+      - Estado: Abierto
+      - Consecuencia identificada: Podría generar conflictos con el propietario y disputas contractuales al momento de la devolución del local.
+      - Documentos de sustento: Formato FM10-GAD/FIN Vs. 02 de 29/12/2025; Formato I del Acta de Hito n.° 1 de 26/01/2026.
+      - Fuente: [1955], [1956], [1957], [1962], [1963], [1964], [1965], [1971], [2089], [2090], [2091], [2094], [2141], [2157], [2215], [2216]
+
+    Item 2 — Ambientes del local no habilitados conforme a normativa (obras en curso, falta de tabiquería, instalaciones inconclusas)
+      - Texto: Al 26 y 30 de enero de 2026, la implementación de los ambientes se encontraba en proceso: trabajos del servicio SHALI en instalación de red de datos, red eléctrica y cámaras de videovigilancia. Falta tabiquería en pisos 1, 2 y 5. El 1° piso tiene desmonte y herramientas en el almacén de cédulas; el 2° piso tiene baños sin vidrios y sin privacidad; el 5° piso tiene el Centro de Cómputo con calaminón en instalación. El plazo máximo del POE para gestionar la implementación de áreas era el 17 de enero de 2026.
+      - Estado: Abierto
+      - Consecuencia identificada: Podría afectar el desarrollo de actividades y/o la salud de las personas que participan en la organización de las EG 2026.
+      - Documentos de sustento: Formato II del Acta de Hito n.° 1 de 26/01/2026; Acta n.° 001-2026-CGR-SCC-OA de 27/01/2026; Acta n.° 002-2026-CGR-SCC-OA de 30/01/2026.
+      - Fuente: [2217], [2218], [2219], [2220], [2225], [2226], [2286], [2287], [2323], [2346], [2374], [2376], [2448], [2449], [2506], [2507]
+
+    Item 3 — La ODPE Arequipa no ha alquilado mobiliario, equipamiento e impresoras
+      - Texto: Al 26 de enero de 2026, no se habían contratado los servicios de alquiler de mobiliario, equipamiento e impresoras. Al 30 de enero, la adquisición de mobiliario aún estaba en proceso de contratación. La ODPE opera con mobiliario prestado por la ORC Arequipa (escritorios, mesas, sillas y libreros). El plazo del POE para habilitación de ODPE era el 29 de enero de 2026.
+      - Estado: Abierto
+      - Consecuencia identificada: Podría limitar las actividades y los servicios de la ODPE Arequipa en la organización del proceso electoral.
+      - Documentos de sustento: Formato III Muebles y Equipos Diversos del Acta de Hito n.° 1 de 26/01/2026; Acta n.° 001-2026-CGR-SCC-OA de 27/01/2026; Acta n.° 002-2026-CGR-SCC-OA de 30/01/2026.
+      - Fuente: [2508], [2509], [2510], [2511], [2530], [2541], [2542], [2543], [2605], [2606], [2633], [2635]
+
+    Item 4 — Áreas de la ODPE Arequipa sin señalización conforme a normativa
+      - Texto: Al 26 y 30 de enero de 2026, las áreas de almacén del 1° piso y otros ambientes no cuentan con señalización (carteles o rótulos identificativos). Los rótulos existen pero no han sido colocados porque los trabajos de pintura y conexión de sedes aún están pendientes, según consta en el Acta n.° 002-2026-CGR-SCC-OA.
+      - Estado: Abierto
+      - Consecuencia identificada: Podría limitar la identificación de las áreas por personal externo a la ODPE.
+      - Documentos de sustento: Formato IV Señalización del Acta de Hito n.° 1 de 26/01/2026; Acta n.° 002-2026-CGR-SCC-OA de 30/01/2026.
+      - Fuente: [2639], [2642], [2644], [2655], [2666], [2677], [2690], [2706], [2709], [2761], [2762]
+
+    Item 5 — Ambientes no acondicionados para atención de personas con discapacidad
+      - Texto: El baño del 1° piso tiene ancho de 78 cm (insuficiente para sillas de ruedas; la norma exige diámetro de giro de 1.50 m). No se ha habilitado ni señalizado espacio reservado para sillas de ruedas en la zona de espera (0.90 m × 1.20 m requerido). No hay señalización de accesibilidad. El área de atención al público en el 1° piso aún no está habilitada.
+      - Estado: Abierto
+      - Consecuencia identificada: Afecta el derecho de accesibilidad de personas con discapacidad que asisten a la ODPE para acceder a servicios públicos en el marco de las EG 2026.
+      - Documentos de sustento: Formato V Acceso para personas con discapacidad del Acta de Hito n.° 1 de 26/01/2026.
+      - Fuente: [2763], [2764], [2765], [2766], [2767], [2791], [2793], [2802], [2840], [2846], [2919], [2920]
+
+    Item 6 — Almacén de la ODPE Arequipa sin infraestructura adecuada de seguridad
+      - Texto: El área de conservación de cédulas (1° piso) no tiene puerta instalada (solo cortina plástica), pese a que el plano proyectado contempla marcador biométrico y cámara de seguridad. Existe una ventana corrediza de vidrio entre el área de cédulas y el área de ordenamiento de material que no asegura protección del ambiente. Hay un tragaluz/abertura que conecta desde el 3° y 4° piso directamente al almacén de actas del 1° piso, sin protección ante lluvia, en plena temporada de lluvias según SENAMHI.
+      - Estado: Abierto
+      - Consecuencia identificada: Genera riesgo en la seguridad de la información que será conservada en el almacén de la ODPE Arequipa.
+      - Documentos de sustento: Acta de Hito n.° 1 de 26/01/2026; Acta n.° 002-2026-CGR-SCC-OA de 30/01/2026.
+      - Fuente: [2921], [2922], [2924], [2928], [2977], [2997], [3026], [3049], [3050]
+
+  Fuente (IDs) general: [1953], [1954], [3060], [3064]
+  Fragmento de evidencia: "De la revisión efectuada al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han identificado seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+  Justificación: Las seis situaciones adversas comparten exactamente la misma estructura semántica (condición / criterio / consecuencia), provienen de la misma sección del informe, responden a la misma pregunta conceptual (¿qué condiciones adversas se detectaron en el hito?) y son el núcleo de seguimiento del control concurrente: en hitos posteriores se verificará si fueron resueltas o persisten. Por ello se agrupan como items del detalle de una sola variable de tipo A (Seguimiento).
+  Ambigüedad: Ninguna.
+
+---
+
+**Variable 3 — Avance de tareas operativas del POE para la ODPE Arequipa en el Hito N° 1**
+
+El documento registra el estado de cumplimiento de las actividades operativas del POE versión 03 que debían ejecutarse en el período del hito. Se trata de valores de progreso observado vs. plazo/meta establecida. Los items son homogéneos (misma tabla, misma estructura de columnas: proceso, actividad, tarea, fecha inicio, fecha fin, meta física) y responden a la misma pregunta: ¿se cumplió la programación del POE?
+
+  Tipo: B — Progreso
+  Valor global: De las tareas programadas en el POE para el período del hito (con fecha fin hasta el 29 de enero de 2026), las tareas clave de implementación de áreas de la sede ODPE (fecha fin: 17/01/2026) e inicio de actividades (fecha fin: 29/01/2026) no se encuentran completadas al 30 de enero de 2026, según las situaciones adversas 2 y 3 constatadas. La tarea de habilitación informática y acondicionamiento logístico (fecha fin: 29/01/2026) también presenta incumplimientos.
+  Detalle (tareas del POE relevantes al hito, según Cuadro n.° 1 y sección IV):
+
+    - Tarea 2.2.1.1 — Supervisar y/o verificar la habilitación informática y acondicionamiento logístico del área administrativa de las ODPE
+      Inicio: 05/01/2026 — Fin: 29/01/2026 — Meta física anual: 126 ODPE — N° AO: 12
+      Estado observado: En proceso (ambientes sin habilitación completa al 30/01/2026) [1345], [1346], [1347]
+
+    - Tarea 2.2.1.2 — Supervisar el acondicionamiento y logística informática de los centros de cómputo y centros de cómputo de contingencia
+      Inicio: 05/01/2026 — Fin: 10/03/2026 — Meta física anual: 126 ODPE [1359], [1360], [1361]
+
+    - Tarea 2.2.1.3 — Gestionar la implementación de las áreas de la sede ODPE
+      Inicio: 05/01/2026 — Fin: 17/01/2026 — Meta física: 1
+      Estado observado: Incumplida (al 26 y 30 de enero los ambientes aún están en proceso de implementación, superando el plazo) [1363], [1364], [1365]
+
+    - Tarea 2.2.1.4 — Efectuar el inicio de actividades y ceremonia de instalación de la sede ODPE
+      Inicio: 20/01/2026 — Fin: 29/01/2026 — Meta física: 1 [1366], [1367]
+
+    - Tarea 2.9.4.1 — Entregar documentación y/o bienes del JODPE y CAODPE para conformidades
+      Inicio: 10/05/2026 — Fin: 20/05/2026 — Meta física: 1 [1371], [1372], [1373]
+
+    - Tarea 3.1.1.4 — Seleccionar y contratar bajo modalidad de locación de servicios en la ODPE
+      Inicio: 05/01/2026 — Fin: 05/04/2026 — Meta física: 1 [1376], [1377], [1378]
+
+    - Tarea 3.1.1.6 — Preparar la planilla y realizar el pago de retribuciones a locadores de servicios en la ODPE
+      Inicio: 13/01/2026 — Fin: 20/05/2026 — Meta física: 11 [1385], [1386], [1387]
+
+    - Tarea 3.1.1.10 — Seleccionar y contratar a los Coordinadores de Local de Votación de la ODPE
+      Inicio: 01/02/2026 — Fin: 31/03/2026 — Meta física: 2 [1388], [1389], [1390]
+
+    - Tarea 3.6.1.10 — Efectuar la ejecución de gastos y presentar rendiciones de cuenta
+      Inicio: 20/01/2026 — Fin: 20/05/2026 — Meta física: 1 [1396], [1397], [1398]
+
+    - Tarea 3.6.2.8 — Gestionar y contratar bienes y servicios menor o igual a 8 UIT
+      Inicio: 20/01/2026 — Fin: 20/05/2026 — Meta física: 1 [1414], [1415], [1416]
+
+  Fuente (IDs): [1867], [1330], [1331], [1332], [1333], [1334], [1335], [1336], [1337], [1338], [1339], [1340], [1341], [1342], [1343], [1344], [1345], [1346], [1347], [1349], [1350], [1351], [1352], [1353], [1354], [1355], [1356], [1357], [1358], [1359], [1360], [1361], [1362], [1363], [1364], [1365], [1366], [1367], [1368], [1369], [1370], [1371], [1372], [1373], [1374], [1375], [1376], [1377], [1378], [1379], [1380], [1381], [1382], [1383], [1384], [1385], [1386], [1387], [1388], [1389], [1390], [1391], [1392], [1393], [1394], [1395], [1396], [1397], [1398], [1401], [1402], [1403], [1404], [1405], [1406], [1407], [1408], [1409], [1410], [1411], [1412], [1413], [1414], [1415], [1416], [1907], [1908]
+  Fragmento de evidencia: "Cuadro n.°1 Actividades Operativas según el POE Vs 03 — 2.2.1.3 Gestionar la implementación de las áreas de la sede ODPE. 05/01/26 17/01/26 — 2.2.1.4 Efectuar el inicio de actividades y ceremonia de instalación de la sede ODPE. 20/01/26 29/01/26"
+  Justificación: Estos datos son de progreso: muestran la programación (meta y plazo) vs. el avance observado durante el hito. Los items son homogéneos (misma tabla POE, misma estructura). El estado de cumplimiento se infiere de las situaciones adversas constatadas en el mismo informe, que señalan explícitamente el incumplimiento de los plazos del POE.
+  Ambigüedad: El documento no proporciona un porcentaje de avance cuantitativo por tarea; el estado de incumplimiento se deduce del cruce entre la fecha fin programada y las condiciones adversas verificadas. Solo las tareas con fecha fin dentro o anterior al período del hito (hasta 30/01/2026) son evaluables en este momento.
+
+---
+
+**Variable 4 — Actores de la Comisión de Control a cargo del servicio**
+
+Los miembros de la Comisión de Control son actores relacionales que participan en el proceso con roles diferenciados. Aparecen en la misma sección de firmas y son identificables de manera uniforme.
+
+  Tipo: D — Relacional
+  Valor global: La Comisión de Control está integrada por tres personas con roles jerárquicos distintos dentro del servicio de Control Concurrente.
+  Detalle:
+    - Nombre: Dohry Karol Luque Escobedo — Rol: Supervisor de la Comisión de Control — Fuente: [3079], [3085]
+    - Nombre: César José Martín Lema Soncco — Rol: Jefe de Comisión de la Comisión de Control — Fuente: [3086], [1793]
+    - Nombre: Alejandra Elizabeth Huamán Hidalgo — Rol: Gerente Regional de Control (e) — Gerencia Regional de Control Arequipa — Fuente: [3089], [3160]
+  Fuente (IDs): [3079], [3083], [3085], [3086], [3088], [3089], [3160]
+  Fragmento de evidencia: "Dohry Karol Luque Escobedo Supervisor Comisión de Control — César José Martín Lema Soncco Jefe de Comisión Comisión de Control — Alejandra Elizabeth Huamán Hidalgo Gerente Regional de Control (e) Gerencia Regional de Control Arequipa"
+  Justificación: Estos actores tienen roles distintos y claramente diferenciados dentro del proceso de control. Son datos relacionales que identifican quiénes ejecutaron el control y en qué capacidad, lo cual es relevante para el seguimiento entre momentos (la composición de la comisión puede cambiar entre hitos).
+  Ambigüedad: Ninguna.
+
+---
+
+**Variable 5 — Actores de la ODPE Arequipa responsables del proceso controlado**
+
+  Tipo: D — Relacional
+  Valor global: La ODPE Arequipa cuenta con dos cargos directivos designados mediante Resolución Jefatural.
+  Detalle:
+    - Nombre: Marina Victoria Reyes Marchena — Rol: Jefa de ODPE Arequipa — Fuente: [1420], [1424], [3147]
+    - Nombre: Nancy Elena Ruffren Villegas — Rol: Coordinadora Administrativa de ODPE Arequipa — Fuente: [1420], [1424]
+  Fuente (IDs): [1420], [1424], [1925], [3147]
+  Fragmento de evidencia: "Jefe de ODPE: Marina Victoria / Coordinador administrativo: Nancy Elena Reyes Marchena / Ruffren Villegas"
+  Justificación: Son actores institucionales de la entidad controlada, con roles específicos y distintos. Se separan de la Variable 4 porque pertenecen a la entidad controlada (no al equipo de control) y su sección de origen es diferente (Cuadro n.° 2, no la sección de firmas).
+  Ambigüedad: La distribución de nombres en celdas del cuadro es ambigua; se interpreta a partir del orden lógico de columnas (Jefe / Coordinador Administrativo) y confirmación por el Oficio de notificación [3147] que dirige el informe a "Marina Victoria Milagros Reyes Marchena" como Jefa de la ODPE.
+
+---
+
+**Variable 6 — Actores institucionales de la ONPE involucrados en el proceso**
+
+  Tipo: D — Relacional
+  Valor global: La ONPE tiene actores con roles específicos en la cadena de control y gestión del proceso electoral que son interlocutores del servicio de control.
+  Detalle:
+    - Nombre: Piero Alessandro Corvetto Salinas — Rol: Jefe Nacional de la ONPE (destinatario de las recomendaciones) — Fuente: [3199], [3075]
+    - Nombre: Maria Bertilda Idrogo Diaz — Rol: Jefe del Órgano de Control Institucional (OCI) de la ONPE — Fuente: [3218], [3232]
+    - Nombre: Ramona Karent Asca Balaguer — Rol: Subgerente de Operaciones Electorales (firma los planos de distribución de ambientes) — Fuente: [2235]
+    - Nombre: Henry Josué Orna Robladillo — Rol: Subgerente de Organización y Ejecución Electoral (cofirma los planos de distribución de ambientes) — Fuente: [2235]
+  Fuente (IDs): [3075], [3199], [3218], [3232], [2235]
+  Fragmento de evidencia: "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe" / "Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe" / "Maria Bertilda Idrogo Diaz Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe"
+  Justificación: Son actores con roles diferenciados en el proceso y distintos a los de la ODPE y la Comisión de Control. Se separan de las variables 4 y 5 porque pertenecen a la sede central de la ONPE y tienen roles normativos, directivos o de control institucional distintos.
+  Ambigüedad: Ninguna.
+
+---
+
+**Variable 7 — Estado de notificación del informe a la ODPE y a la ONPE**
+
+El documento contiene evidencia del estado de comunicación formal del informe. Esto es verificable mediante documentos adjuntos.
+
+  Tipo: F — Verificación
+  Valor global: Verdadero — El informe fue notificado formalmente tanto a la Jefa de ODPE Arequipa como al Jefe Nacional de la ONPE el 5 de febrero de 2026.
+  Detalle:
+    - Notificación a la Jefa de ODPE Arequipa: mediante Oficio N° 000144-2026-CG/GRAR, estado EMITIDO, con depósito en mesa de partes, firmado por la Gerente Regional de Control Alejandra Elizabeth Huamán Hidalgo. [3146], [3147], [3160], [3183]
+    - Notificación al Jefe Nacional de ONPE (Piero Alessandro Corvetto Salinas): mediante Oficio N° 000023-2026-CG/OC3599, con Cédula de Notificación Electrónica N° 00000008-2026-CG/3599 depositada en Casilla Electrónica N° 20291973851, firmado por Maria Bertilda Idrogo Diaz (Jefe OCI ONPE). El informe ODPE Arequipa aparece listado como "HITO 1 - ODPE AREQUIPA[E]" y "[F]" en los distintos listados de adjuntos. [3197], [3228], [3246], [3284]
+    - Plazo de respuesta requerido: 5 días hábiles desde la comunicación del informe. [3076], [3157], [3208]
+  Fuente (IDs): [3146], [3147], [3151], [3155], [3156], [3160], [3161], [3183], [3197], [3228], [3229], [3230], [3238], [3243], [3268], [3269], [3280], [3282]
+  Fragmento de evidencia: "Estado: EMITIDO" / "OFICIO N° 000144-2026-CG/GRAR — Asunto: Notificación de Informe de Hito de Control n.° 141-2026-CG/GRAR-SCC" / "Se ha realizado la notificación con el depósito de los siguientes documentos en la CASILLA ELECTRÓNICA N° 20291973851"
+  Justificación: El documento incluye los oficios de notificación y las constancias electrónicas que confirman que el informe fue efectivamente comunicado a los destinatarios institucionales. Esto es una condición booleana respaldada por evidencia documental explícita.
+  Ambigüedad: El listado de adjuntos en algunos documentos indica "HITO 1 - ODPE AREQUIPA[E]" y en otros "[F]"; la letra entre corchetes parece referir al estado del documento adjunto en el sistema (no a los tipos de variables del presente análisis). No afecta la interpretación de la notificación como efectivamente realizada.
+
+---
+
+**Variable 8 — Conclusión general del Hito de Control N° 1**
+
+  Tipo: E — Narrativo
+  Título: Conclusión del Hito de Control N° 1 "Acondicionamiento del local de la ODPE"
+  Cuerpo del texto: Durante la ejecución del Control Concurrente al Hito de Control n.° 1 "Acondicionamiento del local de la ODPE", se han advertido seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones Generales - EG 2026, las cuales han sido detalladas en el presente informe.
+  Fuente (IDs): [3060], [3064]
+  Fragmento de evidencia: "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han advertido seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones Generales- EG 2026, las cuales han sido detalladas en el presente informe."
+  Justificación: La sección VIII del informe constituye un texto estructurado con título y contenido que sintetiza el resultado del hito. Es información narrativa que se producirá en cada momento sucesivo y cuya evolución entre hitos es relevante para el seguimiento del proceso.
+  Ambigüedad: Ninguna.
+
+---
+
+**Variable 9 — Recomendaciones emitidas al término del Hito de Control N° 1**
+
+  Tipo: E — Narrativo
+  Título: Recomendaciones del Hito de Control N° 1
+  Cuerpo del texto: (1) Hacer de conocimiento al Jefe Nacional de la ONPE el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente, con la finalidad que se adopten las acciones preventivas y correctivas que correspondan, en el marco de sus competencias y obligaciones en la gestión institucional, con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales - EG 2026. (2) Hacer de conocimiento al Jefe Nacional de la ONPE que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a las situaciones adversas contenidas en el presente informe, adjuntando la documentación de sustento respectiva.
+  Fuente (IDs): [3074], [3075], [3076]
+  Fragmento de evidencia: "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', con la finalidad que se adopten las acciones preventivas y correctivas que correspondan... Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar"
+  Justificación: Las recomendaciones constituyen un texto estructurado propio del momento de control que será relevante en hitos sucesivos para verificar si fueron atendidas. Se distingue de la Variable 8 (conclusión) porque tiene propósito directivo diferente.
+  Ambigüedad: Ninguna.
+
+---
+
+**Variable 10 — Reporte de avance ante situaciones adversas**
+
+  Tipo: F — Verificación
+  Valor global: Falso — No aplica reporte de avance ante situaciones adversas en este hito.
+  Detalle: La sección VII del informe indica expresamente "No aplica", lo que significa que al momento de emisión del informe (5 de febrero de 2026) no se había recibido ni registrado respuesta de la entidad ante las situaciones adversas identificadas.
+  Evidencia: Sección VII "Información del Reporte de Avance ante Situaciones Adversas" del Informe de Hito de Control N° 141-2026-CG/GRAR-SCC.
+  Fuente (IDs): [3058], [3059]
+  Fragmento de evidencia: "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS — No aplica."
+  Justificación: Es una condición booleana verificable: ¿existe reporte de avance ante situaciones adversas en este hito? La respuesta es negativa, lo cual es relevante para el seguimiento en hitos posteriores donde se esperará que la entidad haya reportado las acciones adoptadas.
+  Ambigüedad: Ninguna.

@@ -1,0 +1,133 @@
+Eres un estructurador de información. Recibirás un RAZONAMIENTO previo que
+analizó un documento e identificó su metadata, su marco general y sus
+variables clasificadas en 6 tipos.
+
+Tu tarea es convertir ese razonamiento en un objeto JSON válido siguiendo
+EXACTAMENTE el esquema que se define abajo.
+
+NO vuelvas a analizar el documento original. NO agregues variables que no
+estén en el razonamiento. NO inventes datos. Solo estructura lo que el
+razonamiento ya identificó.
+
+Responde ÚNICAMENTE con el JSON. Sin texto antes ni despues, sin bloques de
+codigo, sin explicaciones.
+
+=============================================================================
+ESQUEMA DEL JSON
+=============================================================================
+
+{
+  "instancia": {
+    "id": "<snake_case del nombre de la instancia>",
+    "label": "<nombre legible de la instancia>",
+    "vocabulario": {
+      "instancia": "<termino del dominio para la entidad seguida>",
+      "momento": "<termino del dominio para el punto de evaluacion>"
+    }
+  },
+
+  "momento": {
+    "id": "<snake_case del momento, ej: hito_2 o resolucion_8>",
+    "numero": <numero del momento si existe, sino null>,
+    "label": "<nombre legible del momento>",
+    "filename": "SE_INYECTA_EN_CODIGO",
+
+    "metadata": {
+      "identificador": "<codigo o numero del documento>",
+      "fecha_emision": "<YYYY-MM-DD o null>",
+      "periodo_inicio": "<YYYY-MM-DD o null>",
+      "periodo_fin": "<YYYY-MM-DD o null>",
+      "estado_notificacion": "<texto o null>",
+      "fuente_ids": [<ids del documento que sustentan la metadata>]
+    },
+
+    "marco_general": [
+      {
+        "codigo": "<numero o nombre de la norma o referencia>",
+        "establece": "<que establece, breve>",
+        "fecha": "<YYYY-MM-DD o null>",
+        "fuente_ids": [<ids>]
+      }
+    ],
+
+    "variables": [
+      {
+        "id": "<snake_case descriptivo>",
+        "tipo": "<A | B | C | D | E | F>",
+        "label": "<nombre legible>",
+        "valor": <segun el tipo, ver abajo>,
+        "detalle": <segun el tipo, ver abajo>,
+        "fuente_ids": [<ids del documento>],
+        "fragmento_evidencia": "<texto exacto del documento>",
+        "justificacion": "<como se interpreto>",
+        "ambiguedad": "<nota o null>"
+      }
+    ]
+  }
+}
+
+=============================================================================
+FORMA DE "valor" Y "detalle" SEGUN EL TIPO
+=============================================================================
+
+TIPO A — Seguimiento
+  valor:   { "texto": "<descripcion>", "estado": "<estado tal como aparece o se infiere en el documento, texto libre>" }
+  detalle: [ { "texto": "<item>", "estado": "<texto libre>", "desde_momento": "<id del momento de origen o null si es nuevo>", "fuente_ids": [<ids>] } ]
+
+  El estado es TEXTO LIBRE extraido del documento, no un enumerado fijo.
+  En el detalle, separa items nuevos (desde_momento: null) de items
+  arrastrados de momentos anteriores (desde_momento con el id del origen).
+
+TIPO B — Progreso
+  valor:   { "observado": <numero>, "meta": <numero o null>, "estimado": <numero o null>, "unidad": "<unidad o null>" }
+  detalle: [ { "subgrupo": "<nombre>", "previsto": <numero o null>, "real": <numero o null>, "fuente_ids": [<ids>] } ]
+
+TIPO C — Estado
+  valor:   { "categoria": "<valor categorico>", "nota": "<justificacion o null>" }
+  detalle: []
+
+TIPO D — Relacional
+  valor:   null
+  detalle: [ { "nombre": "<nombre del actor>", "rol": "<rol que desempena>", "fuente_ids": [<ids>] } ]
+
+TIPO E — Narrativo
+  valor:   { "titulo": "<titulo>", "cuerpo": "<texto extenso>" }
+  detalle: []
+
+TIPO F — Verificacion
+  valor:   { "booleano": <true | false>, "evidencia": "<descripcion de la evidencia>" }
+  detalle: [ { "criterio": "<nombre del criterio>", "cumple": <true | false>, "fuente_ids": [<ids>] } ]
+
+=============================================================================
+REGLAS
+=============================================================================
+
+1. Usa SOLO la informacion del razonamiento. No releas el documento.
+2. Preserva los ids exactos [id] que el razonamiento asigno a cada dato,
+   sin los corchetes, como numeros en los arrays fuente_ids.
+3. Cada variable conserva sus tres anclajes: fuente_ids, fragmento_evidencia,
+   justificacion.
+4. Si una variable del razonamiento tiene detalle (lista de items), pasalo
+   al campo detalle con la forma que corresponde a su tipo.
+5. Si un campo no tiene valor en el razonamiento, usa null. No inventes.
+6. El id de cada variable en snake_case, descriptivo del concepto.
+7. Las fechas en formato YYYY-MM-DD. Si el razonamiento da una fecha en
+   texto, conviertela. Si no hay fecha, null.
+8. El campo filename siempre vale el texto literal SE_INYECTA_EN_CODIGO.
+   No intentes deducir el nombre del archivo; se asigna despues por codigo.
+9. REGLA DE IDS POR NIVEL (evita repeticion y mejora trazabilidad):
+   - El fuente_ids de la VARIABLE (nivel padre) contiene los ids del bloque
+     completo de donde proviene la variable (por ejemplo, todo un formato o
+     todo un cuadro).
+   - El fuente_ids de cada ITEM del detalle contiene SOLO los ids puntuales
+     de ese item individual, normalmente de 1 a 4 ids. NO repitas en cada
+     item todo el bloque grande de la variable padre.
+   - Ejemplo correcto: si un formato ocupa los ids 847 a 942, la variable
+     padre puede tener fuente_ids con ese bloque, pero el item "criterio de
+     experiencia del locador 2" apunta solo a los 2 o 3 ids donde aparece
+     esa pregunta y su respuesta, por ejemplo [884, 885].
+   - NUNCA uses rangos abreviados. Lista ids individuales. Un array de dos
+     numeros significa exactamente esos dos ids, no un rango entre ellos.
+   - Si no puedes ubicar el id puntual de un item, usa los pocos ids mas
+     cercanos que lo contengan, nunca todo el bloque.
+10. Responde con UN SOLO objeto JSON valido y nada mas.

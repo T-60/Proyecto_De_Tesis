@@ -1,0 +1,408 @@
+# Análisis del Documento: Informe de Hito de Control N° 1544-2026-CG/GRAR-SCC
+
+---
+
+## 1. VOCABULARIO DEL DOMINIO
+
+- **Instancia:** ODPE (Oficina Descentralizada de Procesos Electorales) — específicamente la ODPE Cerro Colorado. Es la entidad que está siendo seguida a lo largo del proceso de control concurrente.
+- **Momento:** Hito de Control — cada punto de evaluación en el proceso de control simultáneo. El presente documento corresponde al Hito de Control N° 1.
+
+---
+
+## 2. METADATA DEL MOMENTO
+
+- **Identificador del documento:** Informe de Hito de Control N° 1544-2026-CG/GRAR-SCC
+  Fuente (IDs): [2594], [2605], [2638]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 1544-2026-CG/GRAR-SCC"
+
+- **Momento al que corresponde:** Hito de Control N° 1 — "Habilitación, acondicionamiento, y logística informática del centro de cómputo de la ODPE Cerro Colorado"
+  Fuente (IDs): [2597], [2607], [2640]
+  Fragmento: "HITO DE CONTROL N° 1 'HABILITACIÓN, ACONDICIONAMIENTO, Y LOGÍSTICA INFORMÁTICA DEL CENTRO DE CÓMPUTO DE LA ODPE CERRO COLORADO'"
+
+- **Tipo de momento:** Control Concurrente — Servicio de Control Simultáneo
+  Fuente (IDs): [2595], [2642]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES- ODPE CERRO COLORADO"
+
+- **Período de evaluación del momento:** Del 5 al 10 de marzo de 2026
+  Fuente (IDs): [2598], [2667]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 5 AL 10 DE MARZO DE 2026"
+
+- **Fecha de emisión del documento:** 18 de marzo de 2026
+  Fuente (IDs): [2600], [4305]
+  Fragmento: "AREQUIPA, 18 DE MARZO DE 2026"
+
+- **Estado de notificación:** Emitido y notificado. Se notificó al Jefe de la ODPE Cerro Colorado mediante Oficio N° 000495-2026-CG/GRAR el 18 de marzo de 2026; y al Jefe Nacional de la ONPE mediante Oficio N° 000123-2026-CG/OC3599 el 23 de marzo de 2026, con Cédula de Notificación Electrónica N° 00000107-2026-CG/3599.
+  Fuente (IDs): [4363], [4369], [4409], [4428], [4432], [4455]
+  Fragmento: "OFICIO N° 000495-2026-CG/GRAR [...] Notificación de Informe de Hito de Control n.° 1544-2026-CG/GRAR-SCC" / "Estado: EMITIDO"
+
+- **Nombre del archivo:** Arequipa2.pdf
+  Fuente (IDs): encabezado del documento
+  Fragmento: "# Arequipa2.pdf"
+
+- **Identificador de la instancia:** ODPE Cerro Colorado — Av. Pumacahua L-13 San Felipe, distrito de Cerro Colorado, provincia y departamento de Arequipa. En el marco de las Elecciones Generales 2026.
+  Fuente (IDs): [2595], [2667], [2684]
+  Fragmento: "ODPE CERRO COLORADO CERRO COLORADO - AREQUIPA - AREQUIPA" / "en Av. Pumacahua L-13 San Felipe, distrito de Cerro Colorado"
+
+- **Orden de servicio registrada en SCG:** N° 02-L470-2026-049
+  Fuente (IDs): [2642]
+  Fragmento: "registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 02-L470-2026-049"
+
+---
+
+## 3. MARCO GENERAL DEL PROCESO
+
+- **Directiva N° 013-2022-CG/NORM "Servicio de Control Simultáneo":** Norma que regula el servicio de control simultáneo (control concurrente), establece los procedimientos y la obligación de comunicar situaciones adversas al titular de la entidad.
+  Fecha: 30 de mayo de 2022
+  Fuente (IDs): [2642], [4372], [4435]
+  Fragmento: "Directiva n.° 013-2022-CG/NORM 'Servicio de Control Simultáneo', aprobada mediante Resolución de Contraloría n.° 218-2022-CG de 30 de mayo de 2022 y modificatorias"
+
+- **Resolución de Contraloría N° 218-2022-CG:** Aprueba la Directiva N° 013-2022-CG/NORM "Servicio de Control Simultáneo".
+  Fecha: 30 de mayo de 2022
+  Fuente (IDs): [2642]
+  Fragmento: "aprobada mediante Resolución de Contraloría n.° 218-2022-CG de 30 de mayo de 2022"
+
+- **Ley N° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República (artículo 8°):** Establece las atribuciones del sistema de control gubernamental; referencia normativa para la comunicación de situaciones adversas al titular de la entidad.
+  Fuente (IDs): [4371], [4434]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias"
+
+- **Ley N° 26487 — Ley Orgánica de la ONPE (artículo 24):** Establece que las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales.
+  Fuente (IDs): [2679]
+  Fragmento: "El artículo 24 de La Ley n.° 26487, Ley Orgánica de la ONPE, establece que las Oficinas Descentralizadas de Procesos Electorales (en adelante ODPE) se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales"
+
+- **Ley N° 26859 — Ley Orgánica de Elecciones (artículos 39 y 49):** Establece que el Jefe de la ONPE determina el número, ubicación y organización de las ODPE, y que los Jefes y Coordinadores Administrativos son designados mediante concurso público.
+  Fuente (IDs): [2680], [2687]
+  Fragmento: "el artículo 39 de la Ley n.° 26859, Ley Orgánica de Elecciones (en adelante LOE) señala que el Jefe de la Oficina Nacional de Procesos Electorales establece el número, la ubicación y la organización de las ODPE"
+
+- **Decreto Supremo N° 039-2025-PCM:** Convocó a Elecciones Generales el 12 de abril de 2026 para la elección de Presidente, Vicepresidentes, Congresistas y representantes ante el Parlamento Andino.
+  Fecha: publicado el 26 de marzo de 2025
+  Fuente (IDs): [2681]
+  Fragmento: "mediante Decreto Supremo n.° 039-2025-PCM, publicado en el diario oficial El Peruano el 26 de marzo de 2025, la Presidente de la República convocó a Elecciones Generales el día domingo 12 de abril de 2026"
+
+- **Resolución Jefatural N° 000127-2025-JN/ONPE:** Aprobó la conformación de 126 ODPE para las EG 2026, entre ellas la ODPE Cerro Colorado.
+  Fecha: 1 de agosto de 2025
+  Fuente (IDs): [2684]
+  Fragmento: "mediante resolución jefatural n.° 000127-2025-JN/ONPE de 1 de agosto de 2025 se aprobó la conformación de ciento veintiséis (126) ODPE para la organización y ejecución de las EG - 2026"
+
+- **Resolución Jefatural N° 000165-2025-JN/ONPE:** Dispuso la publicación de postulantes que aprobaron el proceso de selección para Jefes y Coordinadores Administrativos de ODPE para las EG 2026.
+  Fecha: 16 de octubre de 2025
+  Fuente (IDs): [2693]
+  Fragmento: "con resolución jefatural n.° 000165-2025-JN/ONPE de 16 de octubre 2025, se dispuso la publicación de la relación de postulantes titulares y accesitarios"
+
+- **Resolución Jefatural N° 000175-2025-JN/ONPE:** Designó a los Jefes y Coordinadores Administrativos titulares y accesitarios de la ODPE Cerro Colorado para las EG 2026.
+  Fecha: 4 de noviembre de 2025
+  Fuente (IDs): [2693]
+  Fragmento: "a través de la resolución jefatural n.° 000175-2025-JN/ONPE de 4 de noviembre del 2025, se designó en el cargo de Jefe y Coordinador Administrativo titulares y accesitarios de la ODPE Cerro Colorado"
+
+- **Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) versión 03:** Aprueba el Plan Operativo Electoral de las Elecciones Generales 2026. Establece el marco legal, electoral, estratégico, indicadores, presupuesto y actividades operativas de todas las unidades orgánicas. Fija la implementación de ODPE entre el 20 de enero y el 10 de marzo de 2026.
+  Fecha: 31 de diciembre de 2025
+  Fuente (IDs): [2701], [2727], [2787], [2835]
+  Fragmento: "mediante resolución jefatural n.º 000204-2025-JN/ONPE de 31 de diciembre de 2025 se aprobó el 'Plan Operativo Electoral de la Elección del Presidente de la República [...] 2026, versión n.° 03'"
+
+- **Contrato N° 217-2025-ONPE para el SHALI — EG 2026:** Contrato suscrito el 12 de diciembre de 2025 entre la ONPE y el Consorcio "ADMINISTRADOR DE PROCESOS ELECTORALES CSA" (integrado por AI INVERSIONES PALO ALTO II S.A.C., SONDA DEL PERU S.A., y ALFIL CONSULTORÍA & COMUNICACIONES S.A.C.) para el "Servicio de habilitación, acondicionamiento y logística informática (SHALI) - EG 2026". Monto total: S/ 144,306,000.00. Plazo de ejecución: desde el día siguiente de la firma del acta de inicio hasta el 20 de mayo de 2026.
+  Fecha: 12 de diciembre de 2025
+  Fuente (IDs): [3067], [3076], [3077]
+  Fragmento: "el 12 de diciembre de 2025 el Gerente de Administración de la ONPE y el Consorcio 'ADMINISTRADOR DE PROCESOS ELECTORALES CSA' [...] suscribieron el contrato n.° 217-2025-ONPE para el 'Servicio de habilitación, acondicionamiento y logística informática (SHALI)- EG 2026'; asimismo, el monto total del contrato asciende a la suma total de S/ 144 306 000, 00"
+
+- **Términos de Referencia del SHALI — EG 2026, versión 09:** Documento técnico que establece los sub servicios, componentes, actividades, cronograma de entregables (Anexo N° 15A) y obligaciones del contratista para la habilitación, acondicionamiento y logística informática de los centros de cómputo a nivel nacional.
+  Fecha de provisión: memorando N° 000185-2026-GAD/ONPE de 27 de enero de 2026
+  Fuente (IDs): [3004], [3062], [3063]
+  Fragmento: "Términos de Referencia del 'Servicio de habilitación, acondicionamiento y logística informática (SHALI) - EG 2026', versión 09; proporcionado mediante memorando n.º 000185-2026-GAD/ONPE de 27 de enero de 2026"
+
+- **Acta de inicio del servicio para los centros de cómputo (2 de enero de 2026):** Suscrita entre el Contratista y la ONPE; habilita las fechas del cronograma del Anexo N° 15A de los TDR del SHALI.
+  Fecha: 2 de enero de 2026 (kickoff: 15 de diciembre de 2025)
+  Fuente (IDs): [3079]
+  Fragmento: "el CONSORCIO 'ADMINISTRADOR DE PROCESOS ELECTORALES CSA' [...] y la ONPE suscribieron el acta de inicio del servicio para los centros de cómputo el 2 de enero de 2026, con lo cual se habilitan las fechas del cronograma del Anexo n.° 15A"
+
+- **Oficio N° 000367-2026-CG/GRAR de 5 de marzo de 2026:** Emitido por la Gerencia Regional de Control de Arequipa; dispone la ejecución del presente control concurrente.
+  Fecha: 5 de marzo de 2026
+  Fuente (IDs): [2642]
+  Fragmento: "lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República, mediante Oficio n.° 000367-2026-CG/GRAR de 5 de marzo de 2026"
+
+---
+
+## 4. VARIABLES DEL MOMENTO
+
+Analizo la sección V (Situaciones Adversas) como núcleo principal de variables de la Categoría 3, junto con los datos de actores y estructura general del informe.
+
+---
+
+### Variable 1 — Actores institucionales de la ODPE Cerro Colorado
+
+**Tipo: D — Relacional**
+
+El documento presenta en el Cuadro N° 4 la información del personal que integra la ODPE Cerro Colorado, con roles específicos asignados. Se trata de actores que participan en el proceso electoral y cuyo rol es identificable y distinguible.
+
+Valor global: Cinco personas con cargos distintos integran la ODPE Cerro Colorado en el marco de las EG 2026.
+
+Detalle:
+- Armando Juan Echevarría Cárdenas — Jefe de ODPE [1812]
+- Ruth Basilia Ripa Ito — Coordinadora Administrativa [1813]
+- Obed Caleb Centeno Tupiño — Encargado de Centro de Cómputo [1814]
+- Luis Alberto Huamán Mendoza — Asistente de Centro de Cómputo [1815]
+- Richard Yana Coila — Asistente de Centro de Cómputo [1815]
+
+Presupuesto asignado a la ODPE: S/ 905,309.00 [1816]
+
+Fuente (IDs): [1812], [1813], [1814], [1815], [1816], [2922], [2923]
+Fragmento de evidencia: "Armando Juan Echevarria Cardenas / Ruth Basilia Ripa Ito / Obed Caleb Centeno Tupiño / Luis Alberto Huaman Mendoza - Richard Yana Coila / 905,309.00"
+Justificación: El Cuadro N° 4 presenta una tabla con datos homogéneos de los actores de la ODPE Cerro Colorado, con sus roles diferenciados. Todos provienen de la misma fuente documental (Memorando N° 000073-2026-GOECOR/ONPE y Acta de Control Concurrente de 5 de marzo de 2026). Se agrupan en una sola variable relacional porque responden a la misma pregunta conceptual: ¿quiénes integran la ODPE Cerro Colorado y en qué rol?
+Ambigüedad: El presupuesto de S/ 905,309.00 coincide con el costo subtotal por ODPE/CC del Cuadro N° 7. Se consigna aquí como dato asociado al actor colectivo.
+
+---
+
+### Variable 2 — Actores de la Comisión de Control
+
+**Tipo: D — Relacional**
+
+El documento identifica a los integrantes de la Comisión de Control que ejecutó el hito, con sus roles firmados digitalmente.
+
+Valor global: Tres personas integran la Comisión de Control que ejecutó el Hito de Control N° 1.
+
+Detalle:
+- Juan Diego Lino Prieto — Jefe de Comisión, Comisión de Control [4314]
+- Andrea Stephanie Benavides Benavides — Supervisora, Comisión de Control [4313]
+- Marissa Alicia Chávez Chávez — Gerente Regional de Control de Arequipa (e), Contraloría General de la República [4317]
+
+Fuente (IDs): [4313], [4314], [4317]
+Fragmento de evidencia: "Andrea Stephanie Benavides Benavides Supervisora Comisión de Control / Juan Diego Lino Prieto Jefe de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa (e) Contraloría General de la República"
+Justificación: Los tres actores aparecen al cierre del informe con sus cargos explícitos y firmas digitales. Son actores del proceso de control con roles diferenciados.
+Ambigüedad: Ninguna.
+
+---
+
+### Variable 3 — Estructura de costos del SHALI para la ODPE Cerro Colorado
+
+**Tipo: B — Progreso**
+
+El documento presenta la estructura de costos del SHALI desglosada por sub servicios para el ámbito de cada ODPE/CC. Esta información permite entender el marco presupuestal bajo el cual se evalúa la ejecución del hito.
+
+Valor global observado: El costo subtotal por ODPE/CC asciende a S/ 905,309.00. El precio ofertado total del contrato es S/ 144,306,000.00.
+
+Meta: Cumplimiento completo de los cuatro sub servicios y demás componentes según contrato.
+
+Detalle por sub servicio (costo por ODPE/CC):
+1. Sub servicio de habilitación informática: S/ 702,666.00 [1952]
+2. Sub servicio de acondicionamiento y logística informática: S/ 99,416.00 [1956]
+3. Sub servicio de soporte técnico y supervisión informática: S/ 67,115.00 [1960]
+4. Sub servicio de desmontaje de habilitación y acondicionamiento informático: S/ 4,224.00 [1964]
+5. Sistema de gestión de la seguridad de la información: S/ 1,193.00 [1968]
+6. Gestión del servicio: S/ 30,695.00 [1972]
+- Subtotal ODPE/CC: S/ 905,309.00 [1976]
+- Cantidad de sedes: 140 (aprox., según "1408,94 0)" en tabla) [1981]
+- Precio ofertado total: S/ 144,306,000.00 [1984]
+
+Fuente (IDs): [1947] a [1984], [3073], [3076], [3077]
+Fragmento de evidencia: "Costo Subtotal 905,309.00 [...] Precio Ofertado 144,306,000.00 (Ciento cuarenta y cuatro millones trescientos seis mil con 00/100 Soles)"
+Justificación: El Cuadro N° 7 presenta la estructura de costos del SHALI, que es la referencia financiera del hito. Los valores son comparables por sub servicio y constituyen la meta presupuestal de la implementación.
+Ambigüedad: El campo "Cantidad Sedes" aparece con un valor parcialmente ilegible ("1408,94 0)"), posiblemente 140 sedes. La tabla también incluye columnas de costo para laboratorios de capacitación en Lima y centros de datos, que no corresponden directamente al ámbito de la ODPE Cerro Colorado.
+
+---
+
+### Variable 4 — Situación adversa 1: Falta de documentos técnicos que acrediten la ejecución de actividades del SHALI
+
+**Tipo: A — Seguimiento**
+
+Esta situación adversa documenta la ausencia de documentación técnica (actas, certificados, constancias, reportes, fotografías y registros) que debe emitir el Contratista para acreditar la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del Centro de Cómputo.
+
+Texto: El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con la totalidad de documentos técnicos establecidos en los TDR del SHALI que acrediten la correcta ejecución de las actividades. Durante la visita del 5 de marzo de 2026 —fecha posterior al vencimiento del plazo contractual del 4 de marzo de 2026— se constató la ausencia de 14 documentos/registros en 6 actividades distintas.
+
+Estado: Abierta — identificada en este hito. No hay hitos anteriores aplicables.
+
+Detalle de documentos faltantes identificados (Cuadro N° 8):
+1. Actividad 1.1.2 (Tablero Eléctrico Intermedio) — Acta de Prueba de Aislamiento: no suscrita. [1991-1993]
+2. Actividad 1.1.5 (UPS) — Acta de Entrega de Instalaciones Eléctricas con ficha técnica UPS: no suscrita. [1995-1997]
+3. Actividad 1.1.6 (GE) — Acta de Entrega de Instalaciones Eléctricas con ficha técnica GE: no suscrita. [1998-2000]
+4. Actividad 1.1.6 (GE) — Registro de horas de trabajo del GE con consumo de combustible: no existe registro ("aún no entró en funcionamiento"). [2001-2002]
+5. Actividad 1.1.6 (GE) — Cartilla de Funcionamiento: no existe. [2003-2004]
+6. Actividad 1.2.1 (Cableado estructurado) — Acta de Certificación: no suscrita. [2007-2008]
+7. Actividad 1.2.1 (Cableado estructurado) — Actas de Entrega de puntos de datos: no suscritas. [2010-2011]
+8. Actividad 1.3.3 (Equipos red administrativa y CC) — Constancia de operatividad y buen estado de equipos: no emitida ("No se encuentran instalados"). [2014-2015]
+9. Actividad 1.3.3 — Evidencia de configuración de contador de impresoras: no emitida. [2017-2018]
+10. Actividad 1.3.3 — Reporte consolidado de páginas impresas por impresora: no emitido. [2020-2021]
+11. Actividad 2.1.2 (Acondicionamiento CC) — Fotografías del CC (inicio, desarrollo, estado final): no tomadas. [2023-2025]
+12. Actividad 2.1.2 — Acta de Prueba de Operatividad e Instalación: no suscrita ("no se ha culminado con la instalación"). [2027-2028]
+13. Actividad 2.1.3 (Logística informática CC) — Acta de Entrega de útiles de escritorio y bienes de consumo: no suscrita. [2031-2032]
+
+Consecuencia registrada: Riesgo de afectar la operatividad del Centro de Cómputo durante el proceso electoral. [3484]
+
+Plazo vencido: 4 de marzo de 2026 para los componentes de instalaciones eléctricas, redes de datos y dotación/instalación de equipos. [3376]
+
+Fuente (IDs): [3096], [3099], [3100], [3105], [3106], [3107], [3108], [1987] a [2032], [3138] a [3374], [3376], [3384], [3482], [3484]
+Fragmento de evidencia: "se ha identificado que no cuenta con la totalidad de los documentos técnicos, tales como; actas, certificados, constancia, reportes, fotografías, u otros registros que acrediten la ejecución de las actividades establecidas en los términos de referencia del SHALI" / "el plazo previsto para la culminación y entrega de los componentes: (i) instalaciones eléctricas, (ii) instalaciones de redes de datos, y (iii) Dotación, clonación, configuración, despliegue e instalación de equipos informáticos y eléctricos, venció el 4 de marzo de 2026"
+Justificación: Esta es una situación adversa de seguimiento (Tipo A) porque documenta incumplimientos en la emisión de documentos técnicos obligatorios, con estado abierto al momento del hito. Los 13 ítems faltantes son homogéneos en estructura (componente-actividad-documento-participantes) y provienen del mismo cuadro (N° 8), por lo que se integran en el detalle de una sola variable.
+Ambigüedad: Algunos ítems del Cuadro N° 8 podrían superponerse temáticamente con las situaciones adversas 2 y 3 (p. ej., el acta de entrega del GE aparece también en la SA2). Se mantienen aquí porque el Cuadro N° 8 es la fuente unificada de documentos faltantes.
+
+---
+
+### Variable 5 — Situación adversa 2: Deficiencias físicas en la instalación del Centro de Cómputo (GE sin tubo de escape, aire acondicionado sin instalar, tomacorrientes sin tapas)
+
+**Tipo: A — Seguimiento**
+
+Esta situación adversa documenta tres deficiencias físicas concretas en la infraestructura del Centro de Cómputo verificadas el 5 de marzo de 2026.
+
+Texto: El Centro de Cómputo de la ODPE Cerro Colorado presenta: (1) el grupo electrógeno sin la instalación del tubo de escape; (2) el sistema de aire acondicionado en cajas sin haber sido instalado ni puesto en funcionamiento; y (3) los tomacorrientes carecen de tapas de plástico. Estas situaciones se constaron el 5 de marzo de 2026, fecha posterior al vencimiento del plazo contractual del 4 de marzo de 2026.
+
+Estado: Abierta — identificada en este hito.
+
+Detalle de deficiencias:
+1. Grupo electrógeno (Actividad 1.1.6): sin tubo de escape instalado. El contratista debe instalar o extender el tubo de escape asegurándose que los gases emitidos no ingresen a los ambientes. Comentario en Acta Formato N° 1: "No tiene instalado el tubo de escape". [3595], [2157-2159], [3628]
+2. Sistema de aire acondicionado (Actividad 1.1.4): se encuentra en cajas sin instalar, en azotea de la ODPE. Comentario en Acta: "El sistema de aire acondicionado no está instalado, se encuentra en cajas". [3506], [2153-2155], [3615-3622]
+3. Tomacorrientes (Actividad 1.1.1): sin tapas de plástico. Los TDR exigen tapa plástica con capacidad mínima de 10A y 220Vac. Comentario en Acta: respuesta "NO" a la verificación de tapas. [3506], [2149-2151], [3610-3613]
+
+Consecuencia registrada: Riesgo de dispersión inadecuada de gases de combustión, elevación de la temperatura del ambiente, y compromiso de la seguridad de los puntos eléctricos; con ello afectar la operatividad del Centro de Cómputo durante el proceso electoral. [3758]
+
+Plazo vencido: 4 de marzo de 2026 para instalaciones eléctricas y acondicionamiento del CC. [3639]
+
+Fuente (IDs): [3487], [3495], [3498], [3506], [3512], [3513], [3516], [3519], [3521], [3546], [3547], [3564], [3569], [3594], [3595], [3638], [3639], [3643], [3758], [2144] a [2159]
+Fragmento de evidencia: "se ha identificado que presenta el grupo electrógeno sin la instalación del tubo de escape, los tomacorrientes carecen de tapas de plástico, y el sistema de aire acondicionado se encuentran en cajas sin haber sido instalado ni puesto en funcionamiento, requerimientos establecidos en los términos de referencia del SHALI"
+Justificación: Las tres deficiencias físicas son distintas entre sí pero forman parte de la misma situación adversa N° 2, identificada por el propio informe como una unidad. Se agrupan en una sola variable porque provienen de la misma verificación del 5 de marzo de 2026, del mismo acta (Formato N° 1), y el informe las trata como un solo bloque con una sola consecuencia.
+Ambigüedad: Ninguna.
+
+---
+
+### Variable 6 — Situación adversa 3: Equipos informáticos recibidos el mismo día de la visita, sin instalar ni en funcionamiento
+
+**Tipo: A — Seguimiento**
+
+Esta situación adversa documenta que los equipos informáticos del Centro de Cómputo fueron recibidos el mismo día de la visita de control (5 de marzo de 2026, a las 15:37 horas), encontrándose aún en cajas sin instalar, pese al vencimiento del plazo contractual el 4 de marzo de 2026.
+
+Texto: El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con equipos informáticos instalados ni en funcionamiento para la mayoría de las estaciones. Solo se encontraban instalados los monitores y cableado. Los demás equipos fueron recibidos el 5 de marzo de 2026 a las 15:37 horas conforme a la Guía de Remisión Electrónica N° EG07-00000906 de 1 de marzo de 2026, entregada con Acta N° 001-CC-GRAR/ODPE-CC.
+
+Estado: Abierta — identificada en este hito.
+
+Detalle de equipos instalados (sí presentes):
+- Monitores de estaciones de trabajo de: digitalización (E2), administración y reportes (E2), estación de trabajo (E2), digitación (E1) y observadores (E1). Además: cableado (cable de poder y cable HDMI). [3777]
+
+Detalle de equipos NO instalados (en cajas):
+- Estación administrativa (E3) [3778]
+- Estaciones de trabajo LAPTOP (LPT1) [3778]
+- Servidor principal (S1) [3778]
+- Servidor de respaldo (S1) [3778]
+- Digitalización (E2) — equipo CPU [3778]
+- Administración y reportes (E2) — equipo CPU [3778]
+- Estación de trabajo (E2) — equipo CPU [3778]
+- Digitación (E1) — equipo CPU [3778]
+- Observadores (E1) — equipo CPU [3778]
+- Impresora electoral (I1) [3778]
+- Escáner electoral (ESC1) [3778]
+- Switch (48 PUERTOS) (SW1) [3778]
+
+Consecuencia registrada: Retrasaría la puesta en funcionamiento del Centro de Cómputo de la ODPE Cerro Colorado y afectaría su operatividad durante el proceso electoral. [4097]
+
+Plazo vencido: 4 de marzo de 2026 para el componente de dotación, clonación, configuración, despliegue e instalación de equipos. [4023]
+
+Fuente (IDs): [3763], [3769], [3770], [3776], [3777], [3778], [3783], [3806], [3807], [3812], [3857], [3877], [4020], [4023], [4032], [4037], [4095], [4097]
+Fragmento de evidencia: "no se encontraron instalados ni en funcionamiento los equipos informáticos correspondientes a la estación administrativa (E3), estaciones de trabajo - LAPTOP (LPT1), servidor principal (S1), servidor de respaldo (S1), digitalización (E2), administración y reportes (E2), estación de trabajo (E2), digitación (E1), observadores (E1), impresora electoral (11), escáner electoral (ESC1), y switch (48 PUERTOS) (SW1); debido a que dichos equipos fueron recibidos por la ODPE el 5 de marzo de 2026 a las 15:37 horas, conforme consta en la Guía de Remisión Electrónica n.° EG07-00000906"
+Justificación: Esta situación adversa N° 3 del informe cubre de manera integral los equipos informáticos no instalados (exceptuando los servidores y switches que el informe trata separadamente en la SA4). La regla de integridad exige que el listado de equipos no instalados, la evidencia documental (guía de remisión) y la consecuencia se mantengan juntos en una sola variable.
+Ambigüedad: Existe solapamiento entre la SA3 y SA4 respecto a los servidores y switches. La SA3 los menciona en su listado de equipos no instalados [3778], pero la SA4 los trata con mayor profundidad como situación autónoma. Se mantienen mencionados aquí como parte del listado de la SA3 y desarrollados ampliamente en la SA4, siguiendo la estructura del propio informe.
+
+---
+
+### Variable 7 — Situación adversa 4: Servidores y switches sin instalar en el Centro de Cómputo
+
+**Tipo: A — Seguimiento**
+
+Esta situación adversa documenta específicamente que los servidores (para procesamiento de información) y los switches (para conectividad de red) no estaban instalados al momento de la verificación, siendo equipos críticos para la operatividad de la red y de los sistemas informáticos del proceso electoral.
+
+Texto: El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con los servidores instalados en el rack correspondiente, ni conexión a los switches y puntos de red implementados. Los switches destinados a la conectividad de la red del centro de cómputo tampoco se encontraban instalados. Ambos tipos de equipos fueron recibidos el 5 de marzo de 2026 a las 15:37 horas conforme a la Guía de Remisión Electrónica N° EG07-00000906 de 1 de marzo de 2026.
+
+Estado: Abierta — identificada en este hito.
+
+Detalle de equipos específicamente afectados:
+- Servidor principal (S1): no instalado en rack, sin conexión a switches ni puntos de red. [4199]
+- Servidor de respaldo (S1): no instalado. [4199]
+- Switch (48 puertos) (SW1): no instalado; destinado a la conectividad de la red del CC. [4199]
+- Los switches de contingencia tampoco instalados. [4199]
+
+Consecuencia registrada: Afectaría la operatividad de la red y de los servicios informáticos del Centro de Cómputo de la ODPE Cerro Colorado durante el proceso electoral. [4277]
+
+Plazo vencido: 4 de marzo de 2026 para el componente de dotación, clonación, configuración, despliegue e instalación de equipos. [4194]
+
+Fuente (IDs): [4100], [4107], [4108], [4113], [4114], [4115], [4170], [4171], [4172], [4177], [4178], [4194], [4199], [4273], [4277]
+Fragmento de evidencia: "se identificó que los switches destinados a la conectividad de la red del centro de cómputo y los servidores destinados al procesamiento de la información no se encontraban instalados, debido a que dichos equipos fueron recibidos por la ODPE el 5 de marzo de 2026 a las 15:37 horas, conforme consta en la Guía de Remisión Electrónica n.° EG07-00000906 de 1 de marzo de 2026" / "el Centro de Cómputo de la ODPE Cerro Colorado, no cuenta con los servidores instalados en el rack correspondiente, ni conexión a los switches y puntos de red implementados; asimismo, los switches destinados a la conectividad de la red del centro de cómputo no se encontraban instalados"
+Justificación: El informe trata esta como una situación adversa distinta (N° 4) de la SA3, con su propia condición, criterio y consecuencia, enfocada en los equipos de red e infraestructura de servidor, cuya ausencia tiene un impacto diferenciado (operatividad de red vs. puesta en funcionamiento general del CC). Se mantiene como variable separada siguiendo la estructura del propio informe.
+Ambigüedad: Existe solapamiento con la SA3 en cuanto a los servidores y switches. La distinción radica en que la SA4 profundiza en la infraestructura de red (rack, conexiones, switches de contingencia) y tiene una consecuencia específica sobre la operatividad de la red, mientras la SA3 trata la puesta en funcionamiento general.
+
+---
+
+### Variable 8 — Conteo total de situaciones adversas identificadas en el hito
+
+**Tipo: B — Progreso**
+
+El informe reporta explícitamente el número de situaciones adversas identificadas en el Hito de Control N° 1.
+
+Valor global observado: 4 situaciones adversas identificadas.
+Meta: 0 situaciones adversas (lo deseable sería que no existan situaciones que afecten el proceso).
+Valor estimado para este momento: No se establece un estimado previo en el documento.
+Comparación con hitos anteriores: No aplica (es el primer hito y el propio informe señala "No aplica" en la sección VIII).
+
+Detalle:
+1. SA1: Falta de documentos técnicos — riesgo de afectar operatividad del CC.
+2. SA2: GE sin tubo de escape, AA en cajas sin instalar, tomacorrientes sin tapas — riesgo de seguridad física.
+3. SA3: Equipos informáticos sin instalar — retraso en puesta en funcionamiento.
+4. SA4: Servidores y switches sin instalar — afectación de operatividad de red.
+
+Fuente (IDs): [3088], [3090]
+Fragmento de evidencia: "De la revisión efectuada al Hito de Control n.° 1 [...] se han identificado cuatro (4) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026"
+Justificación: El número de situaciones adversas es un dato de progreso del hito: se espera que sea cero; el valor observado es cuatro. Es comparable entre hitos del mismo proceso de control concurrente.
+Ambigüedad: Ninguna.
+
+---
+
+### Variable 9 — Estado de reporte de avance ante situaciones adversas
+
+**Tipo: F — Verificación**
+
+El informe informa explícitamente si se emitió o no un Reporte de Avance durante la ejecución del servicio.
+
+Valor: Falso (no se emitió reporte de avance).
+Evidencia: El informe indica explícitamente en la sección VII que la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de Control Concurrente.
+
+Fuente (IDs): [4292], [4293]
+Fragmento de evidencia: "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas."
+Justificación: Es una condición booleana verificable respaldada por declaración explícita del informe. Tiene relevancia para el seguimiento del proceso: indica que las situaciones adversas no fueron comunicadas de manera anticipada durante la ejecución del hito, sino únicamente al cierre del mismo.
+Ambigüedad: Ninguna.
+
+---
+
+### Variable 10 — Estado de situaciones adversas comunicadas en hitos anteriores
+
+**Tipo: F — Verificación**
+
+El informe reporta si existen situaciones adversas pendientes comunicadas en hitos anteriores.
+
+Valor: Falso / No aplica (no existen situaciones adversas comunicadas en hitos anteriores porque este es el primer hito del proceso).
+Evidencia: La sección VIII del informe indica expresamente "No aplica".
+
+Fuente (IDs): [4298], [4299]
+Fragmento de evidencia: "VIII. INFORMACIÓN DE LAS SITUACIONES ADVERSAS COMUNICADAS EN INFORMES DE HITO DE CONTROL ANTERIORES / No aplica."
+Justificación: Es una condición booleana verificable: ¿existen situaciones adversas arrastradas de hitos anteriores? La respuesta es no. Relevante para establecer que todas las situaciones adversas son nuevas en este primer hito.
+Ambigüedad: Ninguna.
+
+---
+
+### Variable 11 — Marco operativo del SHALI: cronograma de entregables relevantes para el hito
+
+**Tipo: E — Narrativo**
+
+El documento describe de manera estructurada el cronograma de entregables del SHALI (Anexo N° 15A de los TDR), que constituye el estándar de referencia para evaluar el cumplimiento en este hito.
+
+Título: Cronograma de entregables del SHALI relevantes para el Hito de Control N° 1 — Habilitación informática y acondicionamiento.
+
+Cuerpo:
+El Anexo N° 15A de los TDR del SHALI establece que a partir del día siguiente de la firma del acta de inicio del servicio (2 de enero de 2026) y hasta el 4 de marzo de 2026, el Contratista debía completar las siguientes actividades en los Centros de Cómputo:
+
+- 2.1. Instalaciones Eléctricas: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 2.2. Instalaciones Redes de Datos: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 2.3.g. Entrega, instalación y configuración de equipos en los CC: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 2.5. Habilitación y puesta en Operación de todos los ambientes: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 3.1.1. Acondicionamiento de los Centros de Cómputo: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 3.1.2.a. Bienes de consumo, útiles de escritorio: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026.
+- 4. Soporte Técnico: vigencia del 05/03/2026 al 08/05/2026.
+
+Nota: El plazo de ejecución total del contrato para las EG 2026 es desde el día siguiente del acta de inicio hasta el 20/05/2026.
+
+Fuente (IDs): [3010], [3011], [3012], [1848] a [1944], [3048] a [3063]
+Fragmento de evidencia: "la habilitación informática, que comprende: (i) instalaciones eléctricas, (ii) instalación de redes de datos, (iii) entrega, instalación y configuración de equipos en los centros de cómputo, (iv) habilitación y puesta en operación de todos los ambientes, así como el acondicionamiento y logística informática de los centros de cómputo, es a partir del día siguiente de la firma del acta de inicio del servicio hasta el 4 de marzo de 2026, plazo que tiene el proveedor para completar tales actividades"
+Justificación: Esta variable narrativa consolida el cronograma de referencia del hito, que es el estándar normativo contra el que se evalúan todas las situaciones adversas. No es marco general del proceso (que ya incluye los TDR como referencia) sino la especificación operativa concreta del cronograma aplicable a este hito.
+Ambigüedad: Algunos plazos dependen de fechas variables (p. ej., "a partir del día siguiente de la comunicación de la ONPE") y pueden no coincidir exactamente con el calendario fijo.

@@ -1,0 +1,338 @@
+# Análisis razonado del documento: Arequipa.pdf
+
+---
+
+## 1. VOCABULARIO DEL DOMINIO
+
+El documento pertenece al dominio de control gubernamental concurrente sobre un proceso electoral peruano. Los términos propios del dominio son:
+
+- **Instancia**: La ODPE (Oficina Descentralizada de Procesos Electorales) Arequipa, que es la unidad operativa cuyo proceso de capacitación está siendo controlado. Cada ODPE es una instancia independiente dentro del proceso más amplio de las Elecciones Generales 2026.
+
+- **Momento**: "Hito de Control", que es el punto de evaluación dentro del servicio de Control Concurrente. El documento corresponde al Hito de Control N° 2, denominado "Ejecución de la capacitación del personal de la ODPE". El tipo de momento es un hito de control concurrente (SCC — Servicio de Control Concurrente).
+
+---
+
+## 2. METADATA DEL MOMENTO
+
+- **Identificador del documento**: Informe de Hito de Control N° 2231-2026-CG/GRAR-SCC
+  Fuente (IDs): [1030], [1041], [1071]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 2231-2026-CG/GRAR-SCC"
+
+- **Momento al que corresponde**: Hito de Control N° 2 — "Ejecución de la capacitación del personal de la ODPE"
+  Fuente (IDs): [1033], [1073]
+  Fragmento: "HITO DE CONTROL N° 2 'EJECUCIÓN DE LA CAPACITACIÓN DEL PERSONAL DE LA ODPE'"
+
+- **Tipo de momento**: Control Concurrente (Servicio de Control Simultáneo — SCC)
+  Fuente (IDs): [1031], [1075]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES- ODPE AREQUIPA"
+
+- **Período de evaluación del hito de control**: Del 16 al 20 de marzo de 2026
+  Fuente (IDs): [1034]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 16 AL 20 DE MARZO DE 2026"
+
+- **Fecha de ejecución del control (alcance operativo)**: Del 10 al 16 de marzo de 2026, en las oficinas de la ODPE Arequipa
+  Fuente (IDs): [1090]
+  Fragmento: "El Control Concurrente se desarrolló al Hito de Control n.° 2 'Ejecución de la capacitación del personal de la ODPE' y ha sido ejecutado del 10 al 16 de marzo del 2026, en las oficinas de la ODPE Arequipa, ubicado en Calle Universidad n.° 215, Urb. La Victoria, cercado de Arequipa, distrito y provincia de Arequipa."
+
+- **Fecha de emisión del documento**: 26 de marzo de 2026
+  Fuente (IDs): [1036], [1351]
+  Fragmento: "AREQUIPA, 26 DE MARZO DEL 2026"
+
+- **Estado de notificación**: Notificado. Se emitió Oficio N° 000610-2026-CG/GRAR de 26 de marzo de 2026 dirigido a la Jefa de la ODPE Arequipa, y Oficio N° 000133-2026-CG/OC3599 de 27 de marzo de 2026 dirigido al Jefe Nacional de la ONPE. Constancia de notificación electrónica emitida mediante Cédula N° 00000117-2026-CG/3599.
+  Fuente (IDs): [1556], [1557], [1563], [1564], [1634], [1635], [1669], [1727]
+  Fragmento: "Arequipa, 26 de Marzo de 2026 / OFICIO N° 000610-2026-CG/GRAR [...] Notificación de Informe de Hito de Control n.° 2231-2026-CG/GRAR-SCC" y "CONSTANCIA DE NOTIFICACIÓN ELECTRÓNICA / Sistema de Notificaciones y Casillas Electrónicas - eCasilla CGR"
+
+- **Nombre del archivo**: Arequipa.pdf
+  (Indicado en el encabezado del documento recibido)
+
+- **Identificador de la instancia**: ODPE Arequipa (Oficina Descentralizada de Procesos Electorales — Arequipa, Arequipa, Arequipa). N° de ODPE: 40. Dirección: Calle Universidad N° 215, Urb. La Victoria, Cercado de Arequipa.
+  Fuente (IDs): [1031], [1158], [688], [689], [690], [691], [692], [702]
+  Fragmento: "40 / AREQUIPA / AREQUIPA / AREQUIPA / AREQUIPA / REYES MARCHENA MARINA VICTORIA MILAGROS / CALLE UNIVERSIDAD 215 URB. LA VICTORIA -CERCADO DE AREQUIPA"
+
+- **Orden de servicio registrada en SCG**: N° 02-L470-2026-052
+  Fuente (IDs): [1075]
+  Fragmento: "registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 02-L470-2026-052"
+
+---
+
+## 3. MARCO GENERAL DEL PROCESO
+
+A continuación se listan las referencias normativas y documentos transversales que rigen el proceso de control concurrente y el proceso electoral evaluado.
+
+- **Directiva N° 013-2022-CG/NORM**: "Servicio de Control Simultáneo". Establece el marco regulatorio del servicio de control concurrente, incluyendo la comunicación de situaciones adversas al titular de la entidad. Aprobada mediante Resolución de Contraloría N° 218-2022-CG.
+  Fecha: 30 de mayo de 2022
+  Fuente (IDs): [1075], [1567]
+  Fragmento: "en el marco de lo previsto en la Directiva n.° 013-2022-CG/NORM 'Servicio de Control Simultáneo', aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y sus modificatorias."
+
+- **Ley N° 27785**: Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República. Establece las competencias del sistema de control gubernamental.
+  Fecha: No especificada en el documento
+  Fuente (IDs): [1566], [1642]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias."
+
+- **Decreto Supremo N° 039-2025-PCM**: Convocatoria de las Elecciones Generales 2026.
+  Fecha: 2025
+  Fuente (IDs): [1104]
+  Fragmento: "Dicho proceso fue convocado según Decreto Supremo n.° 039-2025-PCM, y de acuerdo con lo establecido en el artículo 80° de la Ley 26859, Ley Orgánica de Elecciones."
+
+- **Ley N° 26859**: Ley Orgánica de Elecciones. Artículo 80° establece el marco para la convocatoria electoral; artículo 49° establece que el Jefe de la ONPE designa mediante concurso público a los Jefes y Coordinadores Administrativos de las ODPE.
+  Fecha: No especificada en el documento
+  Fuente (IDs): [1104], [1106]
+  Fragmento: "de acuerdo con lo establecido en el artículo 80° de la Ley 26859, Ley Orgánica de Elecciones" y "de acuerdo al artículo 49 de la LOE, el Jefe de la ONPE designa a través de concurso público a los Jefes y Coordinadores Administrativos de las ODPE"
+
+- **Resolución Jefatural N° 000127-2025-JN/ONPE**: Aprueba la conformación de 126 ODPE para las Elecciones Generales 2026.
+  Fecha: 1 de agosto de 2025
+  Fuente (IDs): [1105]
+  Fragmento: "mediante Resolución Jefatural n.° 000127-2025-JN/ONPE de 1 de agosto de 2025, se aprobó la conformación de ciento veintiséis (126) ODPE para la organización y ejecución de las EG - 2026"
+
+- **Resolución Jefatural N° 000132-2025-JN/ONPE**: Dispone la publicación de la relación de postulantes aprobados para 28 Jefes y 28 Coordinadores Administrativos de ODPE para las EG 2026.
+  Fecha: 12 de agosto de 2025
+  Fuente (IDs): [1107]
+  Fragmento: "con Resolución Jefatural n.° 000132-2025-JN/ONPE del 12 de agosto de 2025, se dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir las vacantes de veintiocho (28) Jefes y veintiocho (28) Coordinadores Administrativos de ODPE"
+
+- **Resolución Jefatural N° 000141-2025-JN/ONPE**: Conforma 14 ODPE encargadas de organizar las Elecciones Primarias de las EG 2026, entre ellas la ODPE Arequipa, designando a su jefa y coordinadora administrativa.
+  Fecha: 8 de septiembre de 2025
+  Fuente (IDs): [1108]
+  Fragmento: "el 8 de setiembre del 2025 a través de la Resolución Jefatural n.° 000141-2025-JN/ONPE, se conformó catorce (14) ODPE encargadas de organizar las Elecciones Primarias de las Elecciones Generales 2026, entre las cuales se encontraba la ODPE Arequipa"
+
+- **Resolución Jefatural N° 000204-2025-JN/ONPE**: Aprueba el Plan Operativo Electoral (POE) versión N° 03 para las Elecciones Generales 2026. Establece el marco legal, electoral y estratégico, las actividades operativas y tareas de cumplimiento obligatorio, así como el presupuesto por ODPE para la capacitación.
+  Fecha: 31 de diciembre de 2025
+  Fuente (IDs): [1111], [1135], [1152]
+  Fragmento: "mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025, se aprobó el Plan Operativo Electoral de la Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República, así como de los Representantes Peruanos ante el Parlamento Andino 2026, versión n.° 03"
+
+- **Instructivo IN 01-GOECOR/CPO, versión N° 17**: "Talleres de capacitación presencial para el personal de la ODPE/ORC o PF". Establece en su numeral 5.3 "Generación de informe de los talleres de capacitación presencial" las tareas obligatorias del Coordinador de Capacitación: elaborar el FM06 en dos días, remitir documentación a la JACE, y elaborar el FM09 informe final.
+  Fecha: No especificada en el documento
+  Fuente (IDs): [1283], [1289], [705], [706], [707], [708], [709], [710], [711], [712], [713], [714], [715], [717], [718], [719], [720], [721], [722], [723], [724], [725]
+  Fragmento: "Instructivo IN 01-GOECOR/CPO, versión N° 17 - 'Talleres de capacitación presencial para el personal de la ODPE/ORC o PF' / 5.3 Generación de informe de los talleres de capacitación presencial"
+
+- **Oficio N° 00067-2026-CG/GRAR**: Disposición de la Gerencia Regional de Control de Arequipa que origina el presente servicio de Control Concurrente.
+  Fecha: 5 de marzo de 2026
+  Fuente (IDs): [1075]
+  Fragmento: "El presente informe se emite en mérito a lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República del Perú, mediante Oficio n.° 00067-2026-CG/GRAR de 5 de marzo de 2026"
+
+- **Memorando N° 699-2026-GOECOR/ONPE**: Fuente del presupuesto asignado por ODPE para la capacitación electoral.
+  Fecha: 16 de febrero de 2026
+  Fuente (IDs): [1160]
+  Fragmento: "Fuente: Memorando 699-2026-GOECOR/ONPE de 16 de febrero de 2026."
+
+---
+
+## 4. VARIABLES DEL MOMENTO
+
+Paso a razonar las variables identificables para este Hito de Control N° 2 de la ODPE Arequipa.
+
+Del documento emergen los siguientes grupos de información específica del momento:
+
+**a)** Los actores que participan en este hito (comisión de control y contraparte de la ODPE).
+**b)** El presupuesto asignado a la ODPE Arequipa para la capacitación.
+**c)** El personal contratado por grupo ocupacional y su estado de capacitación.
+**d)** Las actividades operativas del POE con su programación física mensual (cuadro de metas).
+**e)** La situación adversa identificada, que incluye condición, criterio y consecuencia.
+**f)** El checklist de verificación del Formato II con sus respuestas ítem por ítem.
+**g)** El estado del reporte de avance ante situaciones adversas.
+**h)** La información de situaciones adversas del hito anterior.
+**i)** El listado de ODPEs con informe de Hito 2 notificados al Jefe Nacional de ONPE.
+
+Procedo a clasificar cada una.
+
+---
+
+### Variable 1 — Actores de la comisión de control y contraparte de la ODPE
+
+Razonamiento: El documento identifica a personas específicas con roles específicos en el proceso de control. Son actores relacionales. La comisión de control y la contraparte de la ODPE son grupos distintos con roles distintos, pero todos participan en el mismo momento de control. Los agrupo como una sola variable relacional con detalle de items, ya que todos responden a la misma pregunta "¿quiénes participaron en este hito de control?" y aparecen en las mismas secciones de suscripción del Formato II y el Acta de Visita Complementaria.
+
+Variable 1 — Actores participantes en el Hito de Control N° 2
+  Tipo: D — Relacional
+  Valor global: Seis personas identificadas participan en el hito, tres por la Comisión de Control de la Contraloría y dos por la ODPE Arequipa, más la Gerente Regional de Control que firma el informe.
+  Detalle:
+    - Marleni Mamani Cachi — Supervisora de la Comisión de Control (Gerencia Regional de Control de Arequipa / Contraloría General de la República). Fuente: [1357], [835], [1472], [1533]
+    - Juan Diego Lino Prieto — Jefe de Comisión de la Comisión de Control (Gerencia Regional de Control de Arequipa / Contraloría General de la República). Fuente: [1358], [837], [1486], [1542]
+    - Marissa Alicia Chávez Chávez — Gerente Regional de Control de Arequipa / Contraloría General de la República. Firma el informe y los oficios de notificación. Fuente: [1361], [1573]
+    - Marina Victoria Milagros Reyes Marchena — Jefa de la ODPE Arequipa. Fuente: [701], [745], [827], [1463], [1529]
+    - Nancy Victoria Ripa Ito — Coordinadora de Capacitación de la ODPE Arequipa. Fuente: [748], [829], [1487], [1544]
+    - Maria Bertilda Idrogo Diaz — Jefe del Órgano de Control Institucional de la ONPE / Contraloría General de la República. Firma el Oficio N° 000133-2026-CG/OC3599 al Jefe Nacional de ONPE. Fuente: [1657], [1673], [1732]
+  Fuente (IDs): [1357], [1358], [1361], [701], [745], [748], [835], [837], [827], [829], [1472], [1486], [1529], [1544], [1657]
+  Fragmento de evidencia: "Marleni Mamani Cachi Supervisor Comisión de Control / Juan Diego Lino Prieto Jefe de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa Contraloría General de la República" y "REYES MARCHENA MARINA VICTORIA MILAGROS" y "NANCY VICTORIA RIPA ITO / Coordinadora de capacitación ODPE"
+  Justificación: Son las personas identificadas por nombre y cargo que suscriben o participan en los documentos del hito. Constituyen los actores relacionales del momento.
+  Ambigüedad: El DNI de varios participantes no es completamente legible en el documento escaneado; se omite por ser ilegible.
+
+---
+
+### Variable 2 — Presupuesto asignado a la ODPE Arequipa para la capacitación electoral
+
+Razonamiento: Es un valor numérico específico de esta instancia (ODPE Arequipa), no una meta a la que se avanza sino un monto asignado. Lo clasifico como Estado (categoría que describe la condición financiera de la ODPE en este momento), ya que es un valor puntual que describe la disponibilidad de recursos en este hito, no un avance hacia una meta explícita de ejecución presupuestal.
+
+Variable 2 — Presupuesto asignado a la ODPE Arequipa para capacitación
+  Tipo: C — Estado
+  Valor categórico: S/ 113,480.00 soles asignados a la ODPE Arequipa (N° 40, departamento Arequipa, provincia Arequipa, distrito Arequipa) para la ejecución de la capacitación en el marco de las EG 2026.
+  Nota: El documento no reporta ejecución presupuestal ni saldo en este hito; solo registra el monto asignado conforme al Memorando 699-2026-GOECOR/ONPE de 16 de febrero de 2026.
+  Fuente (IDs): [1158], [688], [689], [690], [691], [692], [693], [694], [695], [696], [697], [698], [699], [700], [701], [702], [703], [1160]
+  Fragmento de evidencia: "40 / AREQUIPA / AREQUIPA / AREQUIPA / AREQUIPA / REYES MARCHENA MARINA VICTORIA MILAGROS / CALLE UNIVERSIDAD 215 URB. LA VICTORIA -CERCADO DE AREQUIPA / 113 480,00"
+  Justificación: El cuadro N° 2 registra el monto presupuestal asignado a esta ODPE específica. Es un dato de condición financiera del momento, no un indicador de avance.
+  Ambigüedad: No se informa si el monto incluye IGV ni si está comprometido o devengado.
+
+---
+
+### Variable 3 — Personal contratado y estado de capacitación por grupo ocupacional
+
+Razonamiento: El Formato II registra, para cada grupo ocupacional, la cantidad de personal contratado y si se está capacitando actualmente. Son datos homogéneos en estructura (grupo ocupacional → cantidad contratada → en proceso de capacitación), provenientes del mismo formato y respondiendo a la misma pregunta conceptual. Todo va en una sola variable de Progreso, ya que el avance de la capacitación se mide contra el total de personal contratado.
+
+Variable 3 — Personal contratado y estado de capacitación por grupo ocupacional
+  Tipo: B — Progreso
+  Valor global: De 579 personas contratadas entre los dos grupos ocupacionales aplicables, 459 se encuentran actualmente en proceso de capacitación (Coordinadores de Mesa); los 120 Coordinadores de Local de Votación ya concluyeron su capacitación (según el contexto del acta: los días 4, 5 y 6 de marzo de 2026). El grupo Coordinador Técnico de Mesa STAE no aplica para esta ODPE.
+  Meta: Capacitar a la totalidad del personal contratado bajo locación de servicios (579 personas entre los dos grupos aplicables).
+  Valor estimado al momento del hito: No se especifica un estimado parcial por fecha en el documento.
+  Detalle por grupo ocupacional:
+    - Coordinador de Local de Votación (CLV): 120 personas contratadas. Capacitación ya concluida (realizada los días 4, 5 y 6 de marzo de 2026). En el Formato II se responde "No" a si se viene capacitando actualmente, lo cual es consistente con la conclusión del taller. Fuente: [763], [765], [766], [777], [779], [780], [1502], [1505]
+    - Coordinador de Mesa: 459 personas contratadas. Se encuentra en proceso de capacitación al momento de la visita (días 13, 14, 15 y 16 de marzo de 2026). Fuente: [767], [769], [770], [781], [782], [783], [1503], [1505]
+    - Coordinador Técnico de Mesa STAE: No aplica para esta ODPE. Fuente: [771], [773], [774], [784], [785], [786], [787]
+  Fuente (IDs): [755], [756], [757], [758], [759], [760], [761], [762], [763], [764], [765], [766], [767], [768], [769], [770], [771], [772], [773], [774], [775], [776], [777], [778], [779], [780], [781], [782], [783], [784], [785], [786], [787], [1502], [1503], [1505]
+  Fragmento de evidencia: "Coordinador de Local de Votación [...] indicar cantidad de personal: 120 / Coordinador de Mesa [...] Indicar cantidad de personal: 459 / Coordinador Técnico de Mesa STAE [...] NO APLICA" y "¿Se viene capacitando actualmente al personal de la ODPE? [...] Coordinador de Local de Votación [...] No [...] Coordinador de Mesa [...] Indicar cantidad: 459" y "Coordenada de local de votacón: 120 personos [...] Coordinador de mesa: 459 personas, que ya suscribieron contrato, actualmente se encuentran en proceso de capacitación"
+  Justificación: El Formato II registra sistemáticamente la cantidad de personal por grupo y su estado de capacitación. Dado que el objetivo del hito es la ejecución de la capacitación, el avance sobre el total contratado es la métrica de progreso central.
+  Ambigüedad: El documento no especifica explícitamente si los 120 CLV aprobaron o reprobaron la capacitación; solo indica que ya concluyó el taller para ese grupo.
+
+---
+
+### Variable 4 — Programación física de actividades operativas del POE para capacitación
+
+Razonamiento: El Cuadro N° 1 del POE presenta dos tareas con su programación mensual de metas físicas. Son datos de progreso planificado (metas por mes) que sirven de referencia para evaluar el avance de la ODPE. Son homogéneas en estructura (misma tabla, mismas columnas) y responden a la misma pregunta conceptual: ¿cuántos talleres/monitoreos están programados por mes? Las agrupa como una sola variable de Progreso con detalle por tarea.
+
+Variable 4 — Programación física de tareas operativas de capacitación según POE versión 03
+  Tipo: B — Progreso
+  Valor global: Dos tareas operativas de capacitación están programadas para la ODPE, con un total de 39 eventos de talleres de capacitación presencial y 38 eventos de monitoreo previstos a lo largo del año electoral (enero a mayo 2026, con prioridad 18 para la primera tarea).
+  Meta: Cumplir con todas las unidades programadas en cada mes según el POE.
+  Valor estimado al momento del hito: No se reporta avance ejecutado en el Cuadro N° 1; el cuadro solo presenta la programación de metas.
+  Detalle por tarea:
+    - Tarea 2.3.5.3 "Realizar los talleres de capacitación presencial, reuniones de reforzamiento, jornadas de entrenamiento del personal ODPE y taller de evaluación con CC": Período 05/01/26 al 27/04/26. Prioridad 18. Meta física anual: 39. Programación mensual: Enero 9, Febrero 10, Marzo 10, Abril 10. Fuente: [674], [675], [676], [677], [678], [679], [680]
+    - Tarea 2.3.5.4 "Realizar el monitoreo de los talleres, reuniones de reforzamiento y jornadas de entrenamiento del personal ODPE, según corresponda": Período 05/01/26 al 17/04/26 (nota: el documento muestra "17/04/26" con referencia a "9" en enero). Meta física anual: 38. Programación mensual: Enero 9, Febrero 10, Marzo 10, Abril 9. Fuente: [681], [682], [683], [684], [685], [686]
+  Fuente (IDs): [1130], [657], [658], [659], [660], [661], [662], [663], [664], [665], [666], [667], [668], [669], [670], [671], [672], [673], [674], [675], [676], [677], [678], [679], [680], [681], [682], [683], [684], [685], [686], [1135]
+  Fragmento de evidencia: "2.3.5.3 Realizar los talleres de capacitación presencial, reuniones de reforzamiento, jornada personal ODPE y taller de evaluación con CC. / 05/01/26 27/04/26 / 9 / 10 / 10 / 10 / 39" y "2.3.5.4 Realizar el monitoreo de los talleres [...] / 17/04/26 / 9 / 10 / 10 / 9 / 38"
+  Justificación: El cuadro presenta la planificación de metas físicas mensuales que sirven como referencia para evaluar el avance de la ejecución de la capacitación. Son los indicadores de progreso programado del proceso.
+  Ambigüedad: El documento no reporta el avance real ejecutado a la fecha del hito frente a estas metas programadas; solo presenta el plan. La columna MAYO aparece en el encabezado pero sin valores registrados para estas tareas.
+
+---
+
+### Variable 5 — Situación adversa identificada: incumplimiento en remisión de documentación de capacitación a la JACE
+
+Razonamiento: Esta es la situación adversa central del hito. Tiene condición (descripción del problema), criterio (norma incumplida) y consecuencia. Es un hallazgo de seguimiento que describe un estado de incumplimiento con potencial impacto. Todo el contenido de la situación adversa — condición, formatos involucrados, evidencias documentales, criterio normativo y consecuencia — va en una sola variable de Seguimiento, dado que es un único problema identificado con múltiples sub-elementos descriptivos.
+
+Variable 5 — Situación adversa: la Coordinadora de Capacitación no remite documentación generada en el taller del grupo CLV a la JACE
+  Tipo: A — Seguimiento
+  Texto: La Coordinadora de Capacitación de la ODPE Arequipa no remitió a la Jefatura del Área de Capacitación Electoral (JACE) la documentación generada en el taller de capacitación presencial del grupo ocupacional Coordinador de Local de Votación (CLV), específicamente:
+    - FM01-GOECOR/CPO (Registro de asistencia): No fue cursado porque estaba en proceso de capacitación (del acta: "No fue cursado por estar en proceso de capacitación").
+    - FM03-GOECOR/CPO (Encuesta de opinión, versión física): No remitido.
+    - FM04-GOECOR/CPO (Registro de notas, versión física y PDF): Solo registró el Excel; no subió el PDF ni lo remitió a la JACE.
+    - FM05-GOECOR/CPO (Cargo de entrega de material): No logró acceder al módulo de capacitación, por lo que no remitió el físico a la JACE.
+    - FM06-GOECOR/CPO (Informe del taller de capacitación presencial): No elaborado dentro del plazo de dos días posteriores a la conclusión del taller (concluido el 6 de marzo de 2026; han transcurrido más de una semana a la fecha de la visita, 16 de marzo de 2026).
+    - FM09-GOECOR/CPO (Informe final del coordinador de capacitación): No registró información, no entregó al Jefe de la ODPE, no remitió a la JACE-SGCFE-GOECOR.
+  Estado: Abierta / Situación adversa activa. No se ha emitido reporte de avance ni se han reportado acciones correctivas adoptadas al momento de la emisión del informe.
+  Evidencia documental: Formato II "Ejecución de la capacitación del personal de la ODPE" de 16 de marzo de 2026 y Acta de Visita Complementaria - Operativo Elecciones 2026 - ONPE (ODPE Arequipa) de 16 de marzo de 2026, ambos suscritos por la Jefa y Coordinadora de Capacitación de la ODPE Arequipa.
+  Criterio normativo incumplido: Instructivo IN 01-GOECOR/CPO versión N° 17, numeral 5.3, secciones primera y tercera "Generación de informe de los talleres de capacitación presencial".
+  Consecuencia: Podría afectar el seguimiento y monitoreo del proceso de capacitación; no permitiría establecer con certeza la cantidad de personas capacitadas mediante los talleres presenciales.
+  Fuente (IDs): [1163], [1167], [1171], [1173], [1176], [1184], [1185], [1190], [1192], [1193], [1194], [1195], [1196], [1197], [1198], [1199], [1200], [1201], [1202], [1203], [1204], [1205], [1206], [1207], [1208], [1209], [1229], [1231], [1236], [1240], [1241], [1242], [1281], [1282], [1283], [1289], [1319], [1320], [1343], [1366], [1367]
+  Fragmento de evidencia: "De la entrevista realizada a la Coordinadora de Capacitación, se advierte que la citada coordinadora no remitió a la Jefatura del Área de Capacitación Electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional de Coordinador de Local de Votación." y "Cabe precisar, que la documentación generada está relacionada con los formatos FM01-GOECOR/CPO [...] FM03-GOECOR/CPO [...] FM04-GOECOR/CPO [...] pues no subió el formato PDF ni remitió a la JACE." y "CLU Formato FM04-GOECOR/CPO → Solo registro el excel, no subió el PDF ni lo remitió" y "no se registró información de la capacitación, ni entrego al jefe de la ODPE, como tampoco se remitió el informe con sello de recibido a la JACE-SGCFE-GOECOR" y "La situación expuesta podría afectar el seguimiento y monitoreo, asimismo, no permitiría establecer con certeza la cantidad de personas capacitadas"
+  Justificación: Toda la situación adversa — condición, formatos incumplidos, evidencias, criterio y consecuencia — describe un único problema de incumplimiento procedimental por parte de la Coordinadora de Capacitación. La regla de integridad exige que todo esto constituya una sola variable de seguimiento.
+  Ambigüedad: El Acta de Visita Complementaria indica que algunos documentos serán remitidos ese mismo día 16 de marzo ("serán enviados hoy 16.03.26"), pero el Formato II registra "No" como respuesta definitiva al momento de la suscripción. No queda claro si la remisión posterior subsanó la situación antes de la emisión del informe el 26 de marzo de 2026.
+
+---
+
+### Variable 6 — Checklist de verificación de ejecución de la capacitación (Formato II)
+
+Razonamiento: El Formato II contiene un conjunto de preguntas de verificación con respuesta Sí/No aplicadas a la ejecución del taller. Cada ítem es una condición booleana respaldada por evidencia documental (el propio formato y el acta de visita). Son homogéneas en estructura y provienen del mismo formato. Las agrupo como una sola variable de Verificación con detalle por ítem, dado que todos responden a la misma pregunta conceptual "¿se cumplió con el procedimiento de capacitación?" y provienen de la misma fuente estructurada.
+
+Variable 6 — Checklist de verificación de ejecución del proceso de capacitación (Formato II)
+  Tipo: F — Verificación
+  Valor global: De los 10 ítems verificados en el Formato II, 3 resultaron afirmativos (Sí) y 5 resultaron negativos (No); 2 ítems corresponden al grupo que está actualmente en proceso de capacitación (Coordinadores de Mesa) y sus respuestas se entienden en ese contexto. Los incumplimientos se concentran en la remisión de documentación a la JACE y en la elaboración de informes.
+  Detalle por ítem:
+    1. ¿Se contrató al personal? CLV: Sí (120 personas). Coordinadores de Mesa: Sí (459 personas). STAE: No aplica. Fuente: [761], [762], [763], [764], [765], [766], [767], [768], [769], [770], [771], [772], [773], [774], [775]
+    2. ¿Se viene capacitando actualmente? CLV: No (ya concluyó). Coordinadores de Mesa: Sí (en proceso). STAE: No aplica. Fuente: [776], [777], [778], [779], [780], [781], [782], [783], [784], [785], [786], [787]
+    3. ¿El coordinador registró la asistencia (FM01) y remitió a la JACE? Respuesta: No. Fuente: [789], [790], [791]
+    4. ¿El coordinador entregó material de capacitación y solicitó firma (FM05)? Respuesta: No. Comentario: "Material: Virtual - De ambos grupos ocupacionales." Fuente: [793], [794], [795], [796]
+    5. ¿El coordinador aplicó la prueba de entrada (FM02), calificó y publicó resultados (FM04)? Respuesta: Sí (inferido del contexto del acta; el ítem 5 del formato tiene respuesta en el documento). Fuente: [798], [799]
+    6. ¿El coordinador aplicó la encuesta de opinión (FM03)? Respuesta: Sí (según las imágenes del acta complementaria y las respuestas del formato duplicado). Fuente: [802], [803], [804], [1396], [1397], [1399], [1400], [1401]
+    7. ¿El coordinador aplicó la prueba de salida (FM02)? Respuesta: Sí. Fuente: [804], [805], [806], [1402], [1403], [1405], [1406], [1407], [1408], [1409]
+    8. ¿El coordinador calificó las pruebas de salida y las publicó (FM04)? Respuesta: Sí. Fuente: [808], [809], [1410], [1411], [1412], [1413]
+    9. ¿El coordinador elaboró el informe del taller (FM06) en plazo, lo entregó al jefe de ODPE y remitió a la JACE? Respuesta: No. Fuente: [812], [813], [814], [1414], [1415], [1416], [1417], [1418], [1419], [1420], [1421], [1422], [1423], [1424], [1425], [1426], [1427], [1428]
+    10. ¿El coordinador remitió documentación completa (FM01, FM03, FM04, FM05) a la JACE? Respuesta: No. Fuente: [815], [816], [817], [1429], [1430], [1431], [1432], [1434], [1435], [1436], [1437], [1438], [1439], [1440], [1441], [1442], [1443], [1444], [1445], [1446]
+    11. ¿El coordinador registró información en el informe final (FM09) y lo remitió al jefe de ODPE y a la JACE? Respuesta: No. Fuente: [819], [820], [821], [1447], [1448], [1449], [1450], [1451], [1452], [1453], [1454], [1455]
+  Fuente (IDs): [755], [756], [757], [758], [759], [760], [789], [790], [791], [793], [794], [795], [796], [798], [799], [802], [803], [804], [805], [806], [808], [809], [812], [813], [814], [815], [816], [817], [819], [820], [821], [1192], [1193], [1253], [1254], [1255], [1256], [1257], [1258], [1269], [1270], [1271], [1272], [1273]
+  Fragmento de evidencia: "FORMATO II.- EJECUCION DE CAPACITACION DEL PERSONAL DE LA ODPE / N° / PREGUNTAS / INDICACIONES / RESPUESTA / NO APLICA / COMENTARIOS DEL AUDITOR" y respuestas: ítem 3: "No", ítem 4: "No / Material: Virtual - De ambos grupos ocupacionales", ítem 7: "Si", ítem 8: "Si", ítem 9: "No", ítem 10: "No", ítem 11: "No"
+  Justificación: El Formato II es una lista de verificación homogénea con estructura idéntica por ítem (pregunta — indicación — respuesta Sí/No — comentario). Todos los ítems provienen del mismo formato y responden a la pregunta conceptual "¿se cumplió con el procedimiento?". Constituyen una sola variable de verificación.
+  Ambigüedad: El documento presenta el Formato II duplicado (secciones [755]-[821] y [1392]-[1455]), posiblemente por duplicación del escaneo. Las respuestas son consistentes entre ambas versiones. El ítem 5 sobre prueba de entrada no tiene respuesta claramente legible en el texto extraído; se infiere "Sí" del contexto del acta complementaria.
+
+---
+
+### Variable 7 — Estado del reporte de avance ante situaciones adversas
+
+Razonamiento: El documento registra explícitamente que no se emitió reporte de avance durante la ejecución del servicio. Es una condición del proceso en este momento.
+
+Variable 7 — Estado del reporte de avance ante situaciones adversas
+  Tipo: C — Estado
+  Valor categórico: No emitido. La Comisión de Control no emitió reporte de avance ante situaciones adversas durante la ejecución del Hito de Control N° 2, por considerar que no se requirió adopción inmediata de acciones.
+  Nota: No amerita presentación de reporte de avance.
+  Fuente (IDs): [1333]
+  Fragmento de evidencia: "Durante la ejecución del presente servicio de Control Concurrente, la Comisión de Control no ha emitido un reporte de avance ante situaciones adversas que requieran la adopción inmediata de acciones por parte de la Entidad; por lo que no amerita la presentación de avance ante situaciones adversas."
+  Justificación: Es la condición del instrumento de seguimiento intermedio (reporte de avance) en este momento. Su ausencia es un dato relevante del estado del control.
+  Ambigüedad: ninguna.
+
+---
+
+### Variable 8 — Situaciones adversas comunicadas en el hito de control anterior
+
+Razonamiento: El documento registra explícitamente que no aplica el reporte de situaciones adversas del hito anterior. Es una condición de continuidad entre momentos del proceso.
+
+Variable 8 — Continuidad de situaciones adversas del Hito de Control anterior
+  Tipo: C — Estado
+  Valor categórico: No aplica. No hay situaciones adversas comunicadas en el Informe de Hito de Control anterior (Hito N° 1) que requieran seguimiento en este momento.
+  Nota: El documento indica taxativamente "No aplica" en la sección VIII.
+  Fuente (IDs): [1337], [1338], [1339]
+  Fragmento de evidencia: "VIII. INFORMACIÓN DE LAS SITUACIONES ADVERSAS COMUNICADAS EN EL INFORME DE HITO DE CONTROL ANTERIOR / No aplica."
+  Justificación: Esta sección establece si hay situaciones adversas arrastradas del hito previo. Su valor "No aplica" indica que el Hito N° 1 no generó situaciones adversas pendientes, o que este es el primer hito con situaciones.
+  Ambigüedad: No se especifica si el Hito N° 1 existió y no tuvo situaciones adversas, o si el Hito N° 2 es el primero del proceso de control concurrente para esta instancia.
+
+---
+
+### Variable 9 — ODPEs con Informe de Hito de Control N° 2 notificadas al Jefe Nacional de ONPE
+
+Razonamiento: El Oficio N° 000133-2026-CG/OC3599 adjunta un listado de 31 ODPEs con sus respectivos números de Informe de Hito de Control N° 2. Son items homogéneos en estructura (número de ODPE — nombre de ODPE — número de informe) provenientes del mismo cuadro y respondiendo a la misma pregunta. Los agrupa como una sola variable con detalle.
+
+Variable 9 — Listado de ODPEs con Informe de Hito de Control N° 2 notificadas al Jefe Nacional de ONPE
+  Tipo: B — Progreso
+  Valor global: 31 ODPEs a nivel nacional tienen situaciones adversas identificadas en el Hito de Control N° 2 "Ejecución de la capacitación del personal de la ODPE" y sus informes han sido notificados al Jefe Nacional de la ONPE mediante Oficio N° 000133-2026-CG/OC3599 de 27 de marzo de 2026.
+  Meta: 126 ODPEs conformadas para las EG 2026 (la meta es el universo total de ODPEs).
+  Valor estimado: No especificado en el documento.
+  Detalle (31 ODPEs con informe de Hito N° 2):
+    1. Abancay — N° 1602-2026-CG/GRAP-SCC. Fuente: [843], [844], [845]
+    2. Arequipa — N° 2231-2026-CG/GRAR-SCC (la instancia del presente documento). Fuente: [846], [847]
+    3. Bagua — N° 1532-2026-CG/GRAM-SCC. Fuente: [848], [849]
+    4. Cajamarca — N° 1594-2026-CG/GRCA-SCC. Fuente: [850], [851]
+    5. Callao — N° 1558-2026-CG/GRCLL-SCC. Fuente: [852], [853], [854]
+    6. Castilla — N° 1581-2026-CG/GRPI-SCC. Fuente: [855], [856], [857]
+    7. Cerro Colorado — N° 1606-2026-CG/GRAR-SCC. Fuente: [858], [859]
+    8. Chanchamayo — N° 1556-2026-CG/GRJU-SCC. Fuente: [860], [861]
+    9. Chiclayo — N° 1549-2026-CG/GRLA-SCC. Fuente: [862], [863]
+    10. Coronel Portillo — N° 1536-2026-CG/GRUC-SCC. Fuente: [864], [865]
+    11. Cusco — N° 2220-2026-CG/GRCU-SCC. Fuente: [866], [867]
+    12. El Tambo — N° 1545-2026-CG/GRJU-SCC. Fuente: [868], [869]
+    13. Huamanga — N° 1560-2026-CG/GRAY-SCC. Fuente: [870], [871]
+    14. Huanta — N° 1555-2026-GRAY-SCC. Fuente: [872], [873]
+    15. Huánuco — N° 1564-2026-CG/GRHC-SCC. Fuente: [874], [875]
+    16. Huaura — N° 1563-2026-CG/GRLP-SCC. Fuente: [876], [877], [878]
+    17. Huari — N° 1541-2026-CG/GRAN-SCC. Fuente: [879], [880], [881]
+    18. Jaén — N° 1595-2026-CG/GRCA-SCC. Fuente: [882], [883], [884]
+    19. La Convención — N° 2221-2026-CG/GRCU-SCC. Fuente: [886], [887], [888]
+    20. La Esperanza — N° 1551-2026-CG/GRLIB-SCC. Fuente: [889], [890], [891]
+    21. Leoncio Prado — N° 1565-2026-CG/GRHC-SCC. Fuente: [892], [893], [894]
+    22. Maynas — N° 1579-2026-CG/GRLO-SCC. Fuente: [895], [896]
+    23. Moyobamba — N° 1523-2026-CG/GRSM-SCC. Fuente: [897], [898], [899]
+    24. Pasco — N° 1569-2026-CG/GRPA-SCC. Fuente: [900], [901], [902]
+    25. Santa — N° 1554-2026-CG/GRAN-SCC. Fuente: [903], [904], [905]
+    26. Sullana — N° 1582-2026-CG/GRPI-SCC. Fuente: [906], [907], [908]
+    27. Tacna — N° 1610-2026-CG/GRTA-SCC. Fuente: [909], [910], [911]
+    28. Tambopata — N° 1562-2026-CG/GRMD-SCC. Fuente: [912], [913], [914]
+    29. Tayacaja — N° 1583-2026-CG/GRHV-SCC. Fuente: [915], [916], [917]
+    30. Trujillo — N° 1552-2026-CG/GRLIB-SCC. Fuente: [918], [919], [920]
+    31. Tumbes — N° 1584-2026-CG/GRTB-SCC. Fuente: [921], [922], [923]
+  Fuente (IDs): [1645], [840], [841], [842], [843], [844], [845], [846], [847], [848], [849], [850], [851], [852], [853], [854], [855], [856], [857], [858], [859], [860], [861], [862], [863], [864], [865], [866], [867], [868], [869], [870], [871], [872], [873], [874], [875], [876], [877], [878], [879], [880], [881], [882], [883], [884], [886], [887], [888], [889], [890], [891], [892], [893], [894], [895], [896], [897], [898], [899], [900], [901], [902], [903], [904], [905], [906], [907], [908], [909], [910], [911], [912], [913], [914], [915], [916], [917], [918], [919], [920], [921], [922], [923]
+  Fragmento de evidencia: "de la revisión de la información y documentación vinculada a la 'Ejecución de la capacitación del personal de la ODPE', comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control" y tabla con 31 filas: "1 / ABANCAY / N° 1602-2026-CG/GRAP-SCC [...] 2 / AREQUIPA / N° 2231-2026-CG/GRAR-SCC [...] 31 / TUMBES / N° 1584-2026-CG/GRTB-SCC"
+  Justificación: El cuadro del Oficio N° 000133 consolida todas las ODPEs con situaciones adversas en el Hito N° 2 a nivel nacional. Es un indicador de progreso del proceso de control concurrente a escala nacional, relevante para entender el contexto del caso de Arequipa como parte de un patrón más amplio.
+  Ambigüedad: El listado presenta 31 ODPEs con situaciones adversas en el Hito N° 2, sobre un universo de 126 ODPEs conformadas. No se especifica si las 95 ODPEs restantes no tuvieron situaciones adversas o si sus informes no han sido emitidos aún.

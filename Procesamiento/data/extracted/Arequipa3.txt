@@ -1,484 +1,348 @@
-# Análisis y Extracción de Variables del Documento
-
-## SECCIÓN I: IDENTIFICACIÓN DEL DOCUMENTO
-
-**Variable 1 — variable_general**
-- Valor: "INFORME DE HITO DE CONTROL N° 399-2026-CG/GRAR-SCC"
-- IDs: [1063], [1073], [1098], [1603]
-- Clasificación: Es el identificador oficial del informe gubernamental, número de expediente único que lo distingue dentro del sistema de control.
-
-**Variable 2 — variable_general**
-- Valor: Hito de Control N° 2 — "Contratación del personal y desarrollo de actividades en la ODPE"
-- IDs: [1066], [1075], [1100], [1216]
-- Clasificación: Identificador del hito específico auditado dentro del proceso de control concurrente.
-
-**Variable 3 — variable_general**
-- Valor: OFICIO N° 000373-2026-CG/GRAR
-- IDs: [1595], [1633]
-- Clasificación: Número de oficio de notificación del informe, identificador oficial del documento de comunicación.
-
-**Variable 4 — variable_general**
-- Valor: OFICIO N° 081-2026-CG/OC3599
-- IDs: [1650], [1701], [1754]
-- Clasificación: Oficio de notificación múltiple de Informes de Hitos de Control emitido por la OCI.
-
-**Variable 5 — variable_general**
-- Valor: CÉDULA DE NOTIFICACIÓN ELECTRÓNICA N° 00000065-2026-CG/3599
-- IDs: [1852], [1865]
-- Clasificación: Identificador de la cédula de notificación electrónica oficial.
-
-**Variable 6 — variable_general**
-- Valor: Contrato de locación de servicios N° LS-EG2026-000004-2026-ODPE CERRO COLORADO-ONPE
-- IDs: [1265], [1288]
-- Clasificación: Identificador oficial del contrato vinculado a la situación adversa detectada. Fecha del contrato: 24 de enero de 2026.
-
-**Variable 7 — variable_general**
-- Valor: Informe de Hito de Control N° 145-2026-CG/GRAR-SCC (hito anterior)
-- IDs: [1384]
-- Clasificación: Número de informe del hito de control precedente (Hito N°1), referenciado como antecedente.
-
-**Variable 8 — variable_general**
-- Valor: Oficio n.° 000072-2026-CG/GRAR (origen del servicio)
-- IDs: [1102]
-- Clasificación: Oficio mediante el cual la Gerencia Regional de Control de Arequipa dispone la emisión del informe.
-- *Nota de ambigüedad*: El texto menciona también "Contraloría n.° 218-2022-CG, de 30 de mayo de 2022" como marco normativo habilitante; esto es una Resolución de Contraloría, no el oficio mismo.
-
-**Variable 9 — variable_general**
-- Valor: Directiva n.° 013-2022-CG/NORM "Servicio de Control Simultáneo", aprobada por Resolución de Contraloría n.° 218-2022-CG
-- IDs: [1606]
-- Clasificación: Identificador normativo del marco regulatorio del servicio.
-
-**Variable 10 — variable_general**
-- Valor: Resolución Jefatural n.° 000127-2025-JN/ONPE
-- IDs: [1133]
-- Clasificación: Resolución que aprueba la conformación de las 126 ODPE para EG 2026. Publicada el 1 de agosto de 2025.
-
-**Variable 11 — variable_general**
-- Valor: Resolución Jefatural n.° 000165-2025-JN/ONPE
-- IDs: [1135]
-- Clasificación: Resolución que publica la relación de postulantes aprobados para Jefes y Coordinadores Administrativos de ODPE. Fecha: 16 de octubre de 2025.
-
-**Variable 12 — variable_general**
-- Valor: Resolución Jefatural n.° 000175-2025-JN/ONPE
-- IDs: [1136]
-- Clasificación: Resolución que designa Jefes y Coordinadores Administrativos de ODPE. Fecha: 4 de noviembre de 2025.
-
-**Variable 13 — variable_general**
-- Valor: Resolución Jefatural n.° 000204-2025-JN/ONPE
-- IDs: [1137], [1156], [1175]
-- Clasificación: Resolución que aprueba el Plan Operativo Electoral (POE) Versión 03. Fecha: 31 de diciembre de 2025.
-
-**Variable 14 — variable_general**
-- Valor: Memorando Múltiple n.° 000014-2026-GOECOR-EG2026/ONPE
-- IDs: [1176], [864], [870], [885]
-- Clasificación: Documento interno que reformuló la Matriz de personal (Ficha Técnica versión 04). Fecha: 23 de enero de 2026.
-
-**Variable 15 — variable_general**
-- Valor: Memorando Múltiple n.° 000043-2026-GOECOR-EG-2026/ONPE
-- IDs: [1181]
-- Clasificación: Documento que reformuló la matriz de personal (Ficha Técnica versión 05). Fecha: 13 de febrero de 2026.
-
-**Variable 16 — variable_general**
-- Valor: Memorando Múltiple n.° 000045-2026-GOECOR-EG-2026/ONPE
-- IDs: [1181], [1235]
-- Clasificación: Actualización de la matriz de personal respecto al cargo de Capacitador Convencional/STAE/CCPP. Fecha: 16 de febrero de 2026.
-
-**Variable 17 — variable_general**
-- Valor: Oficio n.° 000002-2026-CG/OC3599
-- IDs: [1129]
-- Clasificación: Oficio de reconformación de comisión de control. Fecha: 26 de enero de 2026.
-
-**Variable 18 — variable_general**
-- Valor: Oficio n.° 000227-2026-CG/GRAR
-- IDs: [1129], [1567]
-- Clasificación: Oficio de reconformación de la comisión de control. Fecha: 17 de febrero de 2026.
-
-**Variable 19 — variable_general**
-- Valor: Procedimiento PR15-GRH/RRHH "Selección y Contratación Descentralizada bajo la modalidad de Locación de Servicios (ODPE, ORC O PUNTO FOCAL) versión 12"
-- IDs: [1189], [1310]
-- Clasificación: Código y nombre del procedimiento interno aprobado por la Gerencia de Recursos Humanos de la ONPE.
-
-**Variable 20 — variable_general**
-- Valor: Procedimiento PRO7-GRH/RRHH "Selección y Contratación centralizada bajo la modalidad de Locación de Servicios versión 12"
-- IDs: [1189]
-- Clasificación: Procedimiento interno para contratación centralizada en ONPE.
-
-**Variable 21 — variable_general**
-- Valor: Informe Técnico n.° 002204-2025-SERVIR-GPGSC
-- IDs: [1272]
-- Clasificación: Documento técnico de SERVIR referenciado como criterio normativo. Fecha: 31 de octubre de 2025.
-
-**Variable 22 — variable_general**
-- Valor: TOMO I DE I
-- IDs: [1068]
-- Clasificación: Identificador del volumen del informe (documento único, sin tomos adicionales).
+# Análisis estructurado del documento Arequipa3.pdf
 
 ---
 
-## SECCIÓN II: VARIABLES TEMPORALES
+## 1. Vocabulario del dominio
 
-**Variable 23 — variable_temporal**
-- Valor: Período de evaluación del Hito de Control N°2: del 23 al 27 de febrero de 2026
-- IDs: [1067], [1116]
-- Clasificación: Rango de fechas en que se ejecutó el control concurrente.
-
-**Variable 24 — variable_temporal**
-- Valor: Fecha de emisión del informe: 5 de marzo de 2026
-- IDs: [1069], [1342], [1594]
-- Clasificación: Fecha en que se emite formalmente el informe.
-
-**Variable 25 — variable_temporal**
-- Valor: Fecha de firma digital de Jackeline Fani Pelinco Quispe: 05-03-2026 15:36:04
-- IDs: [1086], [1111], [1163], [1195]
-- Clasificación: Timestamp de firma digital, fecha y hora precisas.
-
-**Variable 26 — variable_temporal**
-- Valor: Fecha de firma digital de Marleni Mamani Cachi: 05-03-2026 15:26:29
-- IDs: [1090], [1117], [1170], [1201]
-- Clasificación: Timestamp de firma digital.
-
-**Variable 27 — variable_temporal**
-- Valor: Fecha de firma digital de Marissa Alicia Chávez Chávez: 05-03-2026 15:50:05
-- IDs: [1094], [1126], [1174], [1209]
-- Clasificación: Timestamp de firma digital.
-
-**Variable 28 — variable_temporal**
-- Valor: Fecha de publicación de Resolución Jefatural n.° 000127-2025-JN/ONPE: 1 de agosto de 2025
-- IDs: [1133]
-- Clasificación: Fecha de publicación de acto administrativo.
-
-**Variable 29 — variable_temporal**
-- Valor: Fecha de Resolución Jefatural n.° 000165-2025-JN/ONPE: 16 de octubre de 2025
-- IDs: [1135]
-- Clasificación: Fecha de resolución administrativa.
-
-**Variable 30 — variable_temporal**
-- Valor: Fecha de Resolución Jefatural n.° 000175-2025-JN/ONPE: 4 de noviembre de 2025
-- IDs: [1136]
-- Clasificación: Fecha de resolución.
-
-**Variable 31 — variable_temporal**
-- Valor: Fecha de Resolución Jefatural n.° 000204-2025-JN/ONPE (POE Versión 03): 31 de diciembre de 2025
-- IDs: [1137], [1156]
-- Clasificación: Fecha de aprobación del POE.
-
-**Variable 32 — variable_temporal**
-- Valor: Período de ejecución de la tarea "Invitar, seleccionar y contratar a los locadores": del 05/01/26 al 31/05/26
-- IDs: [665]
-- Clasificación: Rango temporal de ejecución de tarea operativa establecida en el POE.
-
-**Variable 33 — variable_temporal**
-- Valor: Período de ejecución de la tarea "Gestionar el pago de locadores": del 05/01/26 al 31/05/26
-- IDs: [673]
-- Clasificación: Rango temporal de tarea operativa.
-
-**Variable 34 — variable_temporal**
-- Valor: Período de ejecución de la tarea "Monitorear la selección y contratación de los locadores": del 05/01/26 al 31/05/26
-- IDs: [676], [677]
-- Clasificación: Rango temporal de tarea operativa.
-
-**Variable 35 — variable_temporal**
-- Valor: Fecha de Memorando Múltiple n.° 000014-2026-GOECOR-EG2026/ONPE: 23 de enero de 2026
-- IDs: [1176]
-- Clasificación: Fecha de documento interno de ONPE.
-
-**Variable 36 — variable_temporal**
-- Valor: Fecha de Memorando Múltiple n.° 000043-2026-GOECOR-EG-2026/ONPE: 13 de febrero de 2026
-- IDs: [1181]
-- Clasificación: Fecha de documento interno.
-
-**Variable 37 — variable_temporal**
-- Valor: Fecha de Memorando Múltiple n.° 000045-2026-GOECOR-EG-2026/ONPE: 16 de febrero de 2026
-- IDs: [1181], [1569]
-- Clasificación: Fecha de documento interno.
-
-**Variable 38 — variable_temporal**
-- Valor: Fecha de la Matriz de personal (Ficha Técnica V05) actualizada al 26/02/2026
-- IDs: [1185]
-- Clasificación: Fecha de actualización del documento.
-
-**Variable 39 — variable_temporal**
-- Valor: Certificado de trabajo del locador contratado: 9 de febrero de 2024
-- IDs: [1241], [1256]
-- Clasificación: Fecha del documento presentado por el locador para acreditar experiencia.
-
-**Variable 40 — variable_temporal**
-- Valor: Periodo de trabajo declarado en el Certificado: desde el 04 de enero de 2019 hasta el 31 de diciembre de 2023
-- IDs: [1252], [1253]
-- Clasificación: Rango de fechas de experiencia laboral declarada.
-
-**Variable 41 — variable_temporal**
-- Valor: Periodo declarado en el CV como "Asistente/Auxiliar Administrativo": Enero 2019 - Diciembre 2023
-- IDs: [741]
-- Clasificación: Rango de experiencia laboral declarada en CV.
-
-**Variable 42 — variable_temporal**
-- Valor: Fecha del diploma de Bachiller en Administración de Empresas del locador: 26 de marzo de 2024
-- IDs: [1269]
-- Clasificación: Fecha de obtención de grado académico.
-
-**Variable 43 — variable_temporal**
-- Valor: Fecha del contrato LS-EG2026-000004-2026: 24 de enero de 2026
-- IDs: [1265], [1288]
-- Clasificación: Fecha de suscripción del contrato de locación.
-
-**Variable 44 — variable_temporal**
-- Valor: Fecha de los Términos de Referencia suscritos por el Jefe de ODPE Cerro Colorado: 15 de febrero de 2026
-- IDs: [1267]
-- Clasificación: Fecha del documento de términos de referencia.
-
-**Variable 45 — variable_temporal**
-- Valor: Inspección realizada los días 23 y 25 de febrero de 2026
-- IDs: [1229]
-- Clasificación: Fechas específicas de inspección de campo.
-- *Nota*: En [1229] se menciona "23 y 25 de febrero de 2025" lo cual parece un error tipográfico (debería ser 2026, consistente con el resto del documento).
-
-**Variable 46 — variable_temporal**
-- Valor: Fecha de suscripción del Formato I (Cantidad de locadores): 23 de febrero de 2026
-- IDs: [1236], [753], [1481]
-- Clasificación: Fecha del formato de auditoría.
-
-**Variable 47 — variable_temporal**
-- Valor: Fecha de suscripción del Formato II.B (Contratación Auxiliar Administrativo T1): 25 de febrero de 2026
-- IDs: [755], [1304], [1520]
-- Clasificación: Fecha del formato de auditoría.
-
-**Variable 48 — variable_temporal**
-- Valor: Fecha del Acta de visita complementaria: 23 de febrero de 2026
-- IDs: [757], [1306], [1523]
-- Clasificación: Fecha del acta de visita de campo.
-
-**Variable 49 — variable_temporal**
-- Valor: Fecha de Informe de Hito de Control N° 145-2026-CG/GRAR-SCC (hito anterior): 5 de febrero de 2026
-- IDs: [1384]
-- Clasificación: Fecha del informe de hito de control precedente (Hito N°1).
-
-**Variable 50 — variable_temporal**
-- Valor: Fecha de emisión del Oficio n.° 000002-2026-CG/OC3599: 26 de enero de 2026
-- IDs: [1129]
-- Clasificación: Fecha de inicio del servicio de control concurrente.
-
-**Variable 51 — variable_temporal**
-- Valor: Plazo para informar acciones adoptadas a la Comisión de Control: cinco (5) días hábiles
-- IDs: [1341], [1609]
-- Clasificación: Plazo temporal establecido como obligación de la entidad controlada.
-
-**Variable 52 — variable_temporal**
-- Valor: Fecha de impresión del documento ONPE: 05/03/2026 17:28
-- IDs: [1631], [1634]
-- Clasificación: Fecha y hora de impresión/emisión del oficio de notificación.
-
-**Variable 53 — variable_temporal**
-- Valor: Fecha de coordinadores distritales contratados: 27/01/2026 — 09/02/2026
-- IDs: [783]
-- Clasificación: Rango de fechas de contratación de coordinadores distritales.
-- *Nota*: Aparece como comentario en la columna del Formato I, posiblemente como fechas de contratación o período de vigencia.
+- **Instancia:** ODPE (Oficina Descentralizada de Procesos Electorales) — específicamente la ODPE Cerro Colorado, en el marco del proceso denominado "Implementación de la Oficina Descentralizada de Procesos Electorales - ODPE Cerro Colorado en el marco de las Elecciones Generales 2026".
+- **Momento:** Hito de Control — cada punto de evaluación del servicio de Control Concurrente se denomina "Hito de Control", identificado con número ordinal. El presente documento corresponde al Hito de Control N° 2.
 
 ---
 
-## SECCIÓN III: VARIABLES DE ACTORES
+## 2. Metadata del momento
 
-**Variable 54 — variable_actor**
-- Valor: Contraloría General de la República del Perú
-- IDs: [1061], [1831], [1613]
-- Clasificación: Institución emisora del informe, organismo de control supremo.
+- **Identificador del documento:** Informe de Hito de Control N° 399-2026-CG/GRAR-SCC
+  Fuente (IDs): [1063], [1073], [1098]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 399-2026-CG/GRAR-SCC"
 
-**Variable 55 — variable_actor**
-- Valor: Gerencia Regional de Control de Arequipa (GRAR)
-- IDs: [1062], [1353], [1612]
-- Clasificación: Unidad orgánica de la Contraloría a cargo del servicio.
+- **Momento al que corresponde:** Hito de Control N° 2 — "Contratación del personal y desarrollo de actividades en la ODPE"
+  Fuente (IDs): [1066], [1075], [1100]
+  Fragmento: "HITO DE CONTROL N° 2 'CONTRATACIÓN DEL PERSONAL Y DESARROLLO DE ACTIVIDADES EN LA ODPE'"
 
-**Variable 56 — variable_actor**
-- Valor: Jackeline Fani Pelinco Quispe — Jefe de Comisión de Control
-- IDs: [1083], [1350], [1434], [844], [957], [1503]
-- Clasificación: Persona con nombre propio y cargo específico, integrante de la Comisión de Control.
+- **Tipo de momento:** Hito de Control del servicio de Control Concurrente (Control Simultáneo)
+  Fuente (IDs): [1116]
+  Fragmento: "El servicio de Control Concurrente se desarrolló al Hito de Control n.° 2 'Contratación del personal y desarrollo de actividades en la OPE'"
 
-**Variable 57 — variable_actor**
-- Valor: Marleni Mamani Cachi — Supervisora, Comisión de Control
-- IDs: [1090], [1349], [955], [1471], [1516]
-- Clasificación: Persona con nombre propio y cargo de supervisora en la Comisión de Control.
+- **Período de evaluación del hito:** Del 23 al 27 de febrero de 2026
+  Fuente (IDs): [1067], [1116]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 23 AL 27 DE FEBRERO DE 2026"
 
-**Variable 58 — variable_actor**
-- Valor: Marissa Alicia Chávez Chávez — Gerente Regional de Control II, Gerencia Regional de Control de Arequipa, Contraloría General de la República
-- IDs: [1094], [1353], [1612]
-- Clasificación: Persona con nombre propio y cargo de gerente regional, firmante del oficio de notificación.
+- **Fecha de emisión del documento:** 5 de marzo de 2026
+  Fuente (IDs): [1069], [1342]
+  Fragmento: "AREQUIPA, 5 DE MARZO DEL 2026" / "Arequipa, 5 de marzo de 2026"
 
-**Variable 59 — variable_actor**
-- Valor: Armando Juan Echevarría Cárdenas — Jefe de la ODPE Cerro Colorado
-- IDs: [690], [1460], [947], [1429], [1500], [1532], [1597]
-- Clasificación: Persona con nombre propio y cargo directivo en la entidad controlada.
+- **Estado de notificación:** Notificado electrónicamente al Jefe de ODPE Cerro Colorado mediante Oficio N° 000373-2026-CG/GRAR de 5 de marzo de 2026; y también notificado al Jefe Nacional de la ONPE (Piero Alessandro Corvetto Salinas) mediante Cédula de Notificación Electrónica N° 00000065-2026-CG/3599 vía Oficio N° 081-2026-CG/OC3599, con depósito en Casilla Electrónica N° 20291973851
+  Fuente (IDs): [1595], [1603], [1636], [1752], [1765]
+  Fragmento: "OFICIO N° 000373-2026-CG/GRAR [...] Notificación de Informe de Hito de Control n.° 399-2026-CG/GRAR-SCC" / "CONSTANCIA DE NOTIFICACIÓN ELECTRÓNICA [...] CÉDULA DE NOTIFICACIÓN N° 00000065-2026-CG/3599"
 
-**Variable 60 — variable_actor**
-- Valor: Christian Champi Quispe — Analista Descentralizado de Recursos Humanos II/III de la ODPE Cerro Colorado
-- IDs: [949], [1472], [1479], [1553], [1575]
-- Clasificación: Persona con nombre propio y cargo técnico en la ODPE. *Nota de ambigüedad*: Se menciona como "Analista Descentralizado de Recursos Humanos II" en algunos fragmentos y como "III" en otros ([1296], [1539]); podría tratarse de un error de consistencia en el documento.
+- **Nombre del archivo:** Arequipa3.pdf
+  Fuente (IDs): (encabezado del documento)
+  Fragmento: "# Arequipa3.pdf"
 
-**Variable 61 — variable_actor**
-- Valor: Jenny Marleny Zuniga Salcedo — Locadora contratada (uno de los revisados en Formato II.B)
-- IDs: [857]
-- Clasificación: Persona con nombre propio, locadora auditada en el Formato II.B.
+- **Identificador de la instancia:** ODPE Cerro Colorado — Oficina Descentralizada de Procesos Electorales, Cerro Colorado, Arequipa, en el marco de las Elecciones Generales 2026
+  Fuente (IDs): [1064], [1065]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES- ODPE CERRO COLORADO CERRO COLORADO - AREQUIPA - AREQUIPA"
 
-**Variable 62 — variable_actor**
-- Valor: Alexander Santiago Fernandez Alvarado — Locador contratado (segundo revisado en Formato II.B)
-- IDs: [858]
-- Clasificación: Persona con nombre propio, locador auditado en el Formato II.B.
-- *Nota*: No se identifica cuál de los dos es el que presenta el certificado con inconsistencia; el documento señala que es el "locador 70915477" (DNI), pero el nombre no se especifica explícitamente en el texto principal del informe por razones de confidencialidad.
-
-**Variable 63 — variable_actor**
-- Valor: Oficina Nacional de Procesos Electorales (ONPE)
-- IDs: [1064], [1122], [1128], [1187]
-- Clasificación: Institución controlada, organismo electoral nacional.
-
-**Variable 64 — variable_actor**
-- Valor: ODPE Cerro Colorado (Oficina Descentralizada de Procesos Electorales – Cerro Colorado)
-- IDs: [1064], [1065], [1105], [1116], [1182]
-- Clasificación: Dependencia de la ONPE sujeta al control concurrente.
-
-**Variable 65 — variable_actor**
-- Valor: Gerencia de Organización Electoral y Coordinación Regional (GOECOR) de la ONPE
-- IDs: [1187]
-- Clasificación: Órgano orgánico de la ONPE encargado de monitorear las ODPE.
-
-**Variable 66 — variable_actor**
-- Valor: Gerencia de Recursos Humanos de la ONPE
-- IDs: [1189]
-- Clasificación: Órgano que aprueba los procedimientos de selección y contratación.
-
-**Variable 67 — variable_actor**
-- Valor: Piero Alessandro Corvetto Salinas — Destinatario (Jefe Nacional de la ONPE presumiblemente)
-- IDs: [1654], [1705], [1758]
-- Clasificación: Persona con nombre propio destinataria de la notificación electrónica.
-
-**Variable 68 — variable_actor**
-- Valor: Maria Bertilda Idrogo Diaz — Jefe de OCI (Órgano de Control Institucional) de la ONPE
-- IDs: [1652], [1703], [1756], [1792]
-- Clasificación: Persona con nombre propio y cargo de jefe de OCI.
-
-**Variable 69 — variable_actor**
-- Valor: Autoridad Nacional del Servicio Civil (SERVIR)
-- IDs: [1270], [1272]
-- Clasificación: Institución pública referenciada como fuente de interpretación normativa.
-
-**Variable 70 — variable_actor**
-- Valor: Instituto de Especialización Pacífico / IEEP - Instituto de Especialización Empresarial Pacífico
-- IDs: [1244], [1249], [741]
-- Clasificación: Institución empleadora mencionada en el certificado de trabajo y en el CV del locador.
-- *Nota*: Aparece con dos nombres distintos en el certificado ("Instituto de Especialización Pacífico") y en el CV ("IEEP - Instituto de Especialización Empresarial Pacífico"), lo que en sí mismo podría ser otra inconsistencia, aunque el documento no lo señala explícitamente.
-
-**Variable 71 — variable_actor**
-- Valor: Universidad Tecnológica del Perú
-- IDs: [1269]
-- Clasificación: Institución educativa que emitió el diploma de Bachiller del locador contratado.
-
-**Variable 72 — variable_actor**
-- Valor: Jurado Nacional de Elecciones (JNE)
-- IDs: [1447]
-- Clasificación: Institución electoral referenciada en comentarios del Formato I.
-
-**Variable 73 — variable_actor**
-- Valor: Jefe Nacional de la ONPE
-- IDs: [1128], [1133], [1134], [1337], [1341]
-- Clasificación: Cargo institucional (no se identifica nombre propio en el texto principal, solo en la cédula de notificación como Piero Alessandro Corvetto Salinas).
+- **Tomo:** I de I
+  Fuente (IDs): [1068]
+  Fragmento: "TOMO I DE I"
 
 ---
 
-## SECCIÓN IV: VARIABLES GEOGRÁFICAS
+## 3. Marco general del proceso
 
-**Variable 74 — variable_geografica**
-- Valor: Av. Pumacahua L-13 San Felipe, distrito de Cerro Colorado, provincia de Arequipa, departamento de Arequipa
-- IDs: [1116], [689], [1419], [1600], [831]
-- Clasificación: Dirección exacta de la ODPE Cerro Colorado.
+- **Ley N° 26487 — Ley Orgánica de la ONPE (artículo 24°):** Establece que las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1122]
+  Fragmento: "conforme al artículo 24° de la Ley n.° 26487, Ley Orgánica de la ONPE, las Oficinas Descentralizadas de Procesos Electorales (en adelante ODPE) se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral"
 
-**Variable 75 — variable_geografica**
-- Valor: Distrito de Cerro Colorado
-- IDs: [1064], [1116], [1314], [1425], [837]
-- Clasificación: Jurisdicción distrital de la ODPE controlada.
+- **Ley N° 26859 — Ley Orgánica de Elecciones, artículo 39° y artículo 49°:** El artículo 39° establece que el Jefe Nacional de la ONPE determina la cantidad, ubicación y organización de las ODPE; el artículo 49° establece que el Jefe Nacional designa mediante concurso público a los Jefes y Coordinadores Administrativos de las ODPE.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1128], [1134]
+  Fragmento: "de acuerdo al artículo 39° de la Ley n.° 26859, Ley Orgánica de Elecciones (en adelante LOE) [...] el Jefe Nacional de la ONPE es quien establece la cantidad, ubicación y organización de las ODPE" / "de acuerdo al artículo 49° de la LOE, el Jefe Nacional de la ONPE designa a través de concurso público a los Jefes y Coordinadores Administrativos de las ODPE"
 
-**Variable 76 — variable_geografica**
-- Valor: Provincia de Arequipa
-- IDs: [1116], [688], [1423], [835]
-- Clasificación: Jurisdicción provincial.
+- **Reglamento de Organización y Funciones (ROF) de la ONPE, artículo 116° y artículo 104°:** El artículo 116° establece que la Jefatura Nacional fija la cantidad, ubicación y organización de las ODPE; el artículo 104° define las funciones de la GOECOR, incluyendo organizar, dirigir y monitorear el funcionamiento de las ODPE.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1128], [1187]
+  Fragmento: "artículo 116° del Reglamento de Organización y Funciones (ROF), la Jefatura Nacional de la ONPE es quien establece la cantidad, ubicación y organización de las ODPE" / "de acuerdo a lo establecido en el artículo 104° del ROF, entre otras, tiene las funciones de organizar, dirigir y monitorear el funcionamiento de las ODPE"
 
-**Variable 77 — variable_geografica**
-- Valor: Departamento de Arequipa
-- IDs: [1116], [688], [1421], [833]
-- Clasificación: Jurisdicción departamental.
+- **Ley N° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, artículo 8°:** Base legal que regula el servicio de Control Simultáneo y la comunicación al titular de la entidad respecto de situaciones adversas.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1605]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias"
 
-**Variable 78 — variable_geografica**
-- Valor: Arequipa (lugar de emisión del informe y del oficio de notificación)
-- IDs: [1069], [1342], [1594]
-- Clasificación: Lugar de emisión del documento.
+- **Directiva N° 013-2022-CG/NORM "Servicio de Control Simultáneo"**, aprobada mediante Resolución de Contraloría N° 218-2022-CG de 30 de mayo de 2022 y modificatorias: Marco normativo que regula el servicio de Control Concurrente y sus hitos de control; base del origen del presente informe.
+  Fecha: 30 de mayo de 2022.
+  Fuente (IDs): [1102], [1606]
+  Fragmento: "en mérito a lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República, mediante Oficio n.° 000072-2026-CG/GRAR de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y modificatorias" / "Directiva n.° 013-2022-CG/NORM 'Servicio de Control Simultáneo' aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y modificatorias"
 
-**Variable 79 — variable_geografica**
-- Valor: Casilla Electrónica N° 20291973851 (ONPE)
-- IDs: [1658], [1709], [1764]
-- Clasificación: Dirección electrónica oficial de notificación de la ONPE.
+- **Resolución Jefatural N° 000127-2025-JN/ONPE de 1 de agosto de 2025:** Aprobó la conformación de 126 ODPE para dirigir, coordinar, organizar y ejecutar las acciones necesarias para el desarrollo de las Elecciones Generales 2026.
+  Fecha: 1 de agosto de 2025.
+  Fuente (IDs): [1133]
+  Fragmento: "mediante Resolución Jefatural n.° 000127-2025-JN/ONPE publicada el 1 de agosto de 2025, el Jefe Nacional de la ONPE aprobó la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales"
+
+- **Resolución Jefatural N° 000165-2025-JN/ONPE de 16 de octubre de 2025:** Dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir vacantes de Jefes y Coordinadores Administrativos de ODPE para las EG 2026.
+  Fecha: 16 de octubre de 2025.
+  Fuente (IDs): [1135]
+  Fragmento: "con Resolución Jefatural n.° 000165-2025-JN/ONPE del 16 de octubre 2025, se dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección"
+
+- **Resolución Jefatural N° 000175-2025-JN/ONPE de 4 de noviembre de 2025:** Designó a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE para las EG 2026, incluyendo el Jefe de la ODPE Cerro Colorado.
+  Fecha: 4 de noviembre de 2025.
+  Fuente (IDs): [1136]
+  Fragmento: "a través de la Resolución Jefatural n.° 000175-2025JN/ONPE de 4 de noviembre del 2025, se designó en el cargo de Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE"
+
+- **Resolución Jefatural N° 000204-2025-JN/ONPE de 31 de diciembre de 2025 — Plan Operativo Electoral (POE) Versión 03:** Aprobó el Plan Operativo Electoral para las Elecciones Generales 2026 (Versión 03), que establece el marco legal, electoral, estratégico, indicadores y actividades operativas de cumplimiento obligatorio para cada unidad orgánica de la ONPE, incluyendo las tareas de contratación de personal ODPE.
+  Fecha: 31 de diciembre de 2025.
+  Fuente (IDs): [1137], [1156], [1175]
+  Fragmento: "a través de la Resolución Jefatural n.° 000204-2025JN/ONPE de 31 de diciembre de 2025 se aprobó el 'Plan Operativo Electoral - Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos ante el Parlamento Andino 2026, Versión 03'"
+
+- **Memorando Múltiple N° 000014-2026-GOECOR-EG2026/ONPE de 23 de enero de 2026:** Reformuló la Matriz de personal en el marco de las EG 2026 según Ficha Técnica versión 04; adjuntó cronograma de contratación de personal ODPE, la matriz de personal y los perfiles de cargos ocupacionales.
+  Fecha: 23 de enero de 2026.
+  Fuente (IDs): [1176], [1180]
+  Fragmento: "mediante Memorando Múltiple n.° 000014-2026-GOECOR-EG2026/ONPE de 23 de enero de 2026, se reformuló la Matriz de personal en el marco de las Elecciones Generales 2026 según la Ficha Técnica versión 04"
+
+- **Memorando Múltiple N° 000043-2026-GOECOR-EG-2026/ONPE de 13 de febrero de 2026:** Reformuló la matriz de personal según Ficha Técnica versión 05.
+  Fecha: 13 de febrero de 2026.
+  Fuente (IDs): [1181]
+  Fragmento: "mediante Memorando Múltiple n.° 000043-2026-GOECOR-EG-2026/ONPE de 13 de febrero de 2026, se reformuló la matriz de personal en el marco de las Elecciones Generales 2026 según ficha técnica versión 05"
+
+- **Memorando Múltiple N° 000045-2026-GOECOR-EG-2026/ONPE de 16 de febrero de 2026:** Actualizó la matriz de personal respecto de la contratación del cargo ocupacional Capacitador Convencional/STAE/CCPP.
+  Fecha: 16 de febrero de 2026.
+  Fuente (IDs): [1181], [1235]
+  Fragmento: "posteriormente actualizado mediante el Memorando Múltiple n.° 000045-2026-GOECOR-EG-2026/ONPE de 16 de febrero de 2026, respecto de la contratación del cargo ocupacional Capacitador Convencional/STAE/CCPP"
+
+- **Procedimiento PR15-GRH/RRHH "Selección y Contratación Descentralizada bajo la modalidad de Locación de Servicios (ODPE, ORC o Punto Focal)", versión 12:** Aprobado por la Gerencia de Recursos Humanos de la ONPE; establece el proceso de selección y contratación descentralizada del personal para las ODPE, incluyendo la verificación de requisitos del perfil (sección 6.3).
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1189], [1310], [1311], [1312]
+  Fragmento: "Procedimiento PR15-GRH/RRHH 'Selección y Contratación Descentralizada bajo la modalidad de Locación de Servicios (ODPE, ORC o Punto Focal)' versión 12, aprobado por la Gerencia de Recursos Humanos [...] 6.3 Selección por invitación en la ODPE/ORC/PF: Verificar si la documentación del invitado cumple con los requisitos del FM32GRH/RRHH"
+
+- **Procedimiento PR07-GRH/RRHH "Selección y Contratación Centralizada bajo la modalidad de Locación de Servicios", versión 12:** Aprobado por la Gerencia de Recursos Humanos de la ONPE; regula la contratación centralizada de locadores.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1189]
+  Fragmento: "el Procedimiento PRO7-GRH/RRHH 'Selección y Contratación centralizada bajo la modalidad de Locación de Servicios versión 12, aprobado por la Gerencia de Recursos Humanos'"
+
+- **Ley N° 31419 — artículo 3° literal c) y su Reglamento artículo 3° literal e); e Informe Técnico N° 002204-2025-SERVIR-GPGSC de 31 de octubre de 2025 de la Autoridad Nacional del Servicio Civil (SERVIR):** Define "experiencia laboral general" como el tiempo laborado desde el egreso de formación universitaria o técnica completa, bajo cualquier régimen, incluyendo prácticas.
+  Fecha del Informe Técnico: 31 de octubre de 2025.
+  Fuente (IDs): [1270], [1274], [1275], [1276], [1277], [1278], [1279], [1280]
+  Fragmento: "según el literal e) del artículo 3 del Reglamento de la Ley n.° 31419, en concordancia con la interpretación efectuada por la Autoridad Nacional del Servicio Civil - SERVIR mediante el Informe Técnico n.° 002204-2025-SERVIR-GPGSC de 31 de octubre de 2025 [...] Experiencia laboral general: es el tiempo que la persona ha laborado, independientemente del régimen laboral o modalidad de contratación, y se cuenta desde el momento de haber egresado de la formación universitaria completa o técnica completa"
+
+- **Ley N° 31060 — Ley de ejercicio profesional del Licenciado en Administración, artículos 4° y 5°:** Establece el alcance y requisitos para el ejercicio profesional del Licenciado en Administración; citada como criterio normativo en la situación adversa.
+  Fecha: no especificada en el documento.
+  Fuente (IDs): [1305]
+  Fragmento: "Según el artículo 4 Alcance y artículo 5. Requisitos para el ejercicio profesional ambos de la Ley 31060, Ley de ejercicio profesional del Licenciado en Administración"
 
 ---
 
-## SECCIÓN V: VARIABLES BOOLEANAS
+## 4. Variables del momento
 
-**Variable 80 — variable_booleana**
-- Valor: Las actividades a desarrollar por el locador Jenny Marleny Zuniga Salcedo son las establecidas en el Memorando Múltiple N.° 000014-2026-GOECOR-EG-2026/ONPE → SÍ
-- IDs: [864], [866]
-- Clasificación: Cumplimiento verificable con respuesta binaria sí/no.
+---
 
-**Variable 81 — variable_booleana**
-- Valor: Las actividades a desarrollar por el locador Alexander Santiago Fernandez Alvarado son las establecidas en el Memorando Múltiple → SÍ
-- IDs: [864], [867]
-- Clasificación: Idem anterior para segundo locador auditado.
+### Variable 1 — Avance en la contratación de personal por grupo ocupacional
 
-**Variable 82 — variable_booleana**
-- Valor: Los requisitos mínimos del perfil del primer locador (Zuniga Salcedo) son los establecidos en el Memorando → SÍ
-- IDs: [871]
-- Clasificación: Verificación de cumplimiento de perfil.
+**Tipo: B — Progreso**
 
-**Variable 83 — variable_booleana**
-- Valor: Los requisitos mínimos del perfil del segundo locador (Fernandez Alvarado) son los establecidos en el Memorando → SÍ
-- IDs: [872]
-- Clasificación: Verificación de cumplimiento de perfil.
+**Valor global:** Al momento del hito, 65 personas han suscrito contrato y vienen desempeñando funciones, sobre un total previsto de 201 personas según la Matriz de personal (Ficha Técnica V05 actualizada al 26/02/2026). Esto representa aproximadamente el 32% de la meta total de contratación.
 
-**Variable 84 — variable_booleana**
-- Valor: El primer locador cuenta con estudios universitarios o técnicos mínimo un ciclo aprobado → SÍ
-- IDs: [877]
-- Clasificación: Verificación de requisito de estudios.
+**Detalle por grupo ocupacional** (Matriz prevista [A] vs. Personal contratado [B], con diferencia [A-B]):
 
-**Variable 85 — variable_booleana**
-- Valor: El segundo locador cuenta con estudios universitarios o técnicos mínimo un ciclo aprobado → SÍ
-- IDs: [878]
-- Clasificación: Verificación de requisito de estudios.
+Los datos provienen del Cuadro N° 3 del informe y del Formato I del Apéndice. Se combinan porque ambas fuentes son homogéneas y describen la misma métrica de progreso:
 
-**Variable 86 — variable_booleana**
-- Valor: El primer locador (Zuniga Salcedo) cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos → SÍ
-- IDs: [883]
-- Clasificación: Verificación de experiencia (respuesta positiva).
+- Auxiliar Técnico Diurno ODPE: matriz = no especificado numéricamente en cuadro 3 / contrato = 0 (no contratado aún). Formato I: matriz=1, contratado=0, diferencia=1. [765][766][767][768]
+- Auxiliar Técnico Nocturno ODPE: contrato = 0. Formato I: matriz=no indicado, contratado=0. [767][768]
+- Asistente de Oficina T1: matriz = 1, contrato = 1, diferencia = 0. [769][770][771]
+- Auxiliar Administrativo T1: matriz = 4, contrato = 4, diferencia = 0. [772][773][774]
+- Coordinador de Operaciones: matriz = 1, contrato = 1, diferencia = 0. [775][776][777]
+- Auxiliar de Operaciones T1: matriz = 5, contrato = 5, diferencia = 0. [778][779][780]
+- Coordinador Distrital: matriz = 18, contrato = 18 (contratos del 27/01/2026 al 09/02/2026), diferencia = 0. [781][782][783]
+- Coordinador Distrital STAE: contrato = 0. [784][785]
+- Coordinador de Centro Poblado: matriz = 1, contrato = 1, diferencia = 0. [786][787][788]
+- Asistente de Oficina T2: matriz = 4, contrato = 4, diferencia = 0. [789][790][791]
+- Auxiliar Logístico T1: dato de contrato no completamente legible en el formato.
+- Asistente de Finanzas: matriz = 1, contrato = 1, diferencia = 0. [793][794][795]
+- Asistente Legal: matriz = 1, contrato = 1, diferencia = 0. [796][797][798]
+- Auxiliar Técnico Diurno Distrital STAE: contrato = 0. [808][809]
+- Auxiliar Técnico Nocturno Distrital STAE: contrato = 0. [811][812]
+- Capacitadores Convencional/STAE/CCPP: matriz = 17, contrato = 17 (el Cuadro N°3 menciona 19° como nota de actualización). [814][815][816][817]
+- Auxiliar de Recursos Humanos T1: matriz = 4, contrato = 4, diferencia = 0. [818][819][820]
+- Auxiliar de Recursos Humanos T2: matriz = 4, contrato = 4, diferencia = 0. [821][822][823]
+- Coordinador de Local de Votación: matriz = 138, contrato = 0. Comentario auditor: "A LA FECHA NO SE CONTRATÓ". Comentario ODPE: pendiente de publicación de Resolución Jefatural de designación de titulares y accesitarios, sujeto a tachas del JNE. [825][826][827][828][1447]
 
-**Variable 87 — variable_booleana** *(SITUACIÓN ADVERSA)*
-- Valor: El segundo locador (Fernandez Alvarado, locador 70915477) cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos → NO
-- IDs: [884], [1291], [1296]
-- Clasificación: Estado verificado como NO cumplimiento. Es la situación adversa central del informe.
+**Nota sobre el total:** El Cuadro N°3 consigna un total de 201 en la matriz y 65 contratados. La diferencia de 136 se explica fundamentalmente por los 138 Coordinadores de Local de Votación aún no contratados.
 
-**Variable 88 — variable_booleana**
-- Valor: El primer locador cuenta con capacitación acreditada sobre temas contables, administración, tributación y/o informática → SÍ
-- IDs: [888]
-- Clasificación: Verificación de capacitación.
+**Fuente (IDs):** [1198], [1202], [693], [694], [695], [696], [697]–[739], [759]–[828], [1185], [1215], [1447]
 
-**Variable 89 — variable_booleana**
-- Valor: El segundo locador cuenta con capacitación acreditada → SÍ
-- IDs: [889]
-- Clasificación: Verificación de capacitación.
+**Fragmento de evidencia:** "del total de personal previsto para contratación, actualmente se cuenta con 65 personas que han suscrito contrato y vienen desempeñando funciones respecto a sus términos de referencia. Dicho personal se encuentra distribuido en diversos cargos y ocupaciones" / "Coordinador de local de votación: 138 / 0 — A LA FECHA NO Se CONTRATO"
 
-**Variable 90 — variable_booleana**
-- Valor: El primer locador cuenta con contrato vigente → SÍ
-- IDs: [901]
-- Clasificación: Verificación de vigencia contractual.
+**Justificación:** Esta variable reúne la progresión de contratación hacia la meta total de la matriz de personal. El Cuadro N°3 del informe y el Formato I del Apéndice son homogéneos (misma estructura: grupo ocupacional / previsto / contratado / diferencia) y responden a la misma pregunta: ¿cuánto del personal previsto ha sido contratado a la fecha del hito? Toda la información de avance va en esta sola variable de progreso.
 
-**Variable 91 — variable_booleana**
-- Valor: El segundo locador cuenta con contrato vigente → SÍ
-- IDs: [902]
-- Clasificación: Verificación de vigencia contractual.
+**Ambigüedad:** El Cuadro N°3 menciona "19°" para Capacitadores (frente a 17 en la matriz), lo que parece ser una nota de actualización posterior a la Ficha Técnica V05. El dato del Auxiliar Logístico T1 no tiene valores claramente legibles en el Formato I.
 
-**Variable 92 — variable_booleana**
-- Valor: El contrato del primer locador señala como órgano que otorgará la conformidad a la ODPE → SÍ
-- IDs: [906]
-- Clasificación: Verificación de condición contractual
+---
+
+### Variable 2 — Situación adversa identificada en el hito: discordancia en documentos del expediente de contratación de Auxiliar Administrativo T1
+
+**Tipo: A — Seguimiento**
+
+**Valor global:** Se identificó 1 situación adversa nueva en el Hito N°2. La situación consiste en que uno de los cuatro locadores contratados para el cargo de Auxiliar Administrativo T1 presentó un Certificado de Trabajo (contrato LS-EG2026-000004-2026-ODPE CERRO COLORADO-ONPE de 24 de enero de 2026) que consigna el cargo de "Administrador de Empresas", mientras que su Currículum Vitae declara haber desempeñado el cargo de "Asistente/Auxiliar Administrativo" en la misma empresa (IEEP - Instituto de Especialización Empresarial Pacífico, de enero 2019 a diciembre 2023). Esta discordancia no fue advertida por el Analista Descentralizado de Recursos Humanos III, quien validó el cumplimiento del requisito de experiencia general. La situación podría poner en riesgo el control de calidad de la selección de personal y afectar el correcto funcionamiento de la administración pública.
+
+**Estado:** Abierta — identificada en este hito, comunicada al Jefe Nacional de la ONPE para adopción de acciones preventivas y correctivas en un plazo de 5 días hábiles.
+
+**Detalle interno:**
+
+- **Condición:** De una muestra de 4 expedientes de contratación, 1 presenta discordancia entre el Certificado de Trabajo (cargo: "Administrador de Empresas") y el CV (cargo: "Asistente/Auxiliar Administrativo"), ambos para el mismo período y empresa. El Analista Descentralizado de Recursos Humanos III no advirtió la discordancia y dio por válido el cumplimiento del requisito de experiencia general en temas administrativos. Adicionalmente, el locador obtuvo el grado de "Bachiller en Administración de Empresas" el 26 de marzo de 2024, lo que es posterior al período laboral declarado (2019-2023), según diploma de la Universidad Tecnológica del Perú. [1228][1229][1234][1235][1241][1269][1284][1291][1296]
+
+- **Criterio normativo infringido:** El Procedimiento PR15-GRH/RRHH v.12, sección 6.3, exige verificar que la documentación del invitado cumpla con los requisitos del Formato FM32-GRH/RRHH (Términos de Referencia). Los Términos de Referencia del cargo Auxiliar Administrativo T1 exigen "experiencia general mínima de un (1) año en el sector público y/o privado en temas administrativos". La Ley N°31060 (artículos 4° y 5°) establece requisitos para el ejercicio profesional del Licenciado en Administración, cuya titulación requiere del grado de bachiller. [1303][1310][1311][1312][1305]
+
+- **Posición de la ODPE:** El Jefe de la ODPE y el Analista de RRHH sostienen en los comentarios del Formato II.B. que la comisión incurre en una interpretación restrictiva, argumentando que los Términos de Referencia solicitan "experiencia general en temas administrativos" y que según SERVIR la experiencia general contabiliza todo desempeño laboral lícito sin exigir título profesional; además, señalan que el certificado presentado acreditaría funciones propias de un perfil administrativo. [1492][1493][1494]
+
+- **Consecuencia identificada:** Riesgo en el control de calidad de la selección de personal contratado y posible afectación a la adecuada organización del proceso electoral dentro de la jurisdicción de la ODPE Cerro Colorado. [1313][1314]
+
+- **Respuesta de la comisión en el Formato II.B.:** Pregunta 1.6 (¿Cuenta con experiencia general de un año?): Locador 1 = SI; Locador 2 = NO. [883][884]
+
+**Fuente (IDs):** [1218], [1223], [1228], [1229], [1234], [1241], [1242], [1265], [1269], [1284], [1288], [1291], [1296], [1303], [1305], [1310], [1311], [1312], [1313], [1314], [1492], [1493], [1494], [883], [884]
+
+**Fragmento de evidencia:** "uno (1) de los locadores contratados para el grupo ocupacional Auxiliar Administrativo T1 [...] para acreditar la experiencia general en temas administrativos, el locador contratado presentó el 'Certificado de trabajo' de 9 de febrero de 2024, de cuyo contenido se evidencia que se desempeñó en el cargo de 'Administrador de Empresas'" / "De la comparación efectuada entre el Certificado de Trabajo de 9 de febrero de 2024 y lo declarado en la 'Experiencia Laboral' del CV, respecto al cargo que desempeñó, se evidencia que los cargos consignados en ambos documentos no coinciden al existir una diferencia entre desempeñarse 'Administrador de Empresas' y 'Asistente/Auxiliar Administrativo'"
+
+**Justificación:** Esta variable concentra toda la información de la situación adversa identificada en el presente hito: condición observada, criterio normativo, consecuencia potencial y posición de la ODPE. Es una variable de seguimiento porque tiene texto descriptivo, estado (abierta) y generará consecuencias a monitorear en hitos posteriores.
+
+**Ambigüedad:** El nombre del locador afectado aparece parcialmente redactado en el documento (datos personales protegidos). La ODPE presenta una posición contraria a la interpretación de la comisión, lo que podría derivar en una discusión técnica sobre si efectivamente se incumple el requisito; este debate permanece abierto al cierre del informe.
+
+---
+
+### Variable 3 — Situaciones adversas del Hito N°1 pendientes de subsanación
+
+**Tipo: A — Seguimiento**
+
+**Valor global:** Del Informe de Hito de Control N° 145-2026-CG/GRAR-SCC de 5 de febrero de 2026 (Hito N°1 "Acondicionamiento del local de la ODPE"), se identificaron 7 situaciones adversas, y al momento del presente hito (N°2), las 7 continúan subsistiendo sin que la entidad haya adoptado ni comunicado acciones preventivas o correctivas a la Comisión de Control.
+
+**Estado:** Las 7 situaciones persisten abiertas — arrastradas desde el Hito N°1 sin resolución reportada.
+
+**Detalle de las 7 situaciones adversas subsistentes:**
+
+1. Almacén electoral de la ODPE ubicado en un ambiente donde desfogan los ductos de ventilación de los servicios higiénicos, lo cual podría afectar las condiciones de trabajo y la salud de las personas usuarias. [1388]
+
+2. La ODPE Cerro Colorado no cuenta con tópicos ni ambiente de atención al público implementado, lo que pone en riesgo la salud de las personas ante la falta de atención primaria en caso de accidente, y no garantiza un servicio óptimo al público. [1389]
+
+3. La ODPE Cerro Colorado y/u otro arrendatario del inmueble comparten el suministro de agua potable mediante único medidor, generando el riesgo de pagar consumos que no le corresponden, afectando el uso de los recursos públicos. [1394]
+
+4. La ODPE Cerro Colorado no ha alquilado mobiliario, situación que podría limitar las actividades que desarrolla y los servicios que brinda en el marco de la organización de las Elecciones Generales 2026. [1397]
+
+5. El frontis de la ODPE Cerro Colorado no cuenta con línea gráfica del proceso electoral; las áreas administrativas y ambientes alquilados no están rotulados; el frontis no cuenta con el enlace web de acceso al libro de reclamaciones. [1401]
+
+6. El centro de cómputo no tiene control de ingreso y salida de equipos y visitantes, lo cual podría dificultar el acceso de los usuarios y limitar el alcance de sus servicios. [1405]
+
+7. Las instalaciones de la ODPE Cerro Colorado no reúnen las condiciones necesarias para la atención de personas con discapacidad, lo cual afectaría su derecho de accesibilidad a los servicios públicos en el marco de las Elecciones Generales 2026. [1408]
+
+**Fuente (IDs):** [1383], [1384], [1385], [1386], [1387], [1388], [1389], [1394], [1397], [1401], [1405], [1408], [1326]
+
+**Fragmento de evidencia:** "Informe de Hito de Control n.° 145-2026-CG/GRAR-SCC de 5 de febrero de 2026, correspondiente al Hito de Control n.° 1: 'Acondicionamiento del local de la ODPE'. Número de situaciones adversas identificadas: 7. Número de situaciones adversas que subsisten: 7" / "Las situaciones adversas comunicadas en el Informe de Hito de Control anterior respecto de las cuales la entidad aún no ha adoptado las acciones preventivas y correctivas, o estas aún no han sido comunicadas a la Comisión de Control, se detallan en el Apéndice n.° 2"
+
+**Justificación:** Esta variable recoge el seguimiento de las situaciones adversas del hito anterior. El documento las lista explícitamente como "situaciones que subsisten" del Hito N°1, vinculando la evolución entre momentos sucesivos. Los 7 items son homogéneos en estructura (situación adversa con descripción y estado de subsistencia), por lo que se agrupan en una sola variable con detalle interno.
+
+**Ambigüedad:** El documento no proporciona explicación de la ODPE sobre por qué no se han adoptado acciones; solo se indica que "aún no han sido comunicadas a la Comisión de Control".
+
+---
+
+### Variable 4 — Emisión de Reporte de Avance ante Situaciones Adversas durante el hito
+
+**Tipo: F — Verificación**
+
+**Valor global:** FALSO — La Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de Control Concurrente al Hito N°2.
+
+**Evidencia documental:** Sección VII del informe — "Información del Reporte de Avance ante Situaciones Adversas".
+
+**Fuente (IDs):** [1318], [1320], [1322]
+
+**Fragmento de evidencia:** "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no ha emitido Reporte de Avance ante Situaciones Adversas."
+
+**Justificación:** El documento afirma explícitamente la no emisión de dicho reporte, lo que constituye una condición booleana (no emitido = falso) con respaldo en la sección estructural del informe dedicada a ese propósito.
+
+**Ambigüedad:** ninguna.
+
+---
+
+### Variable 5 — Verificación del cumplimiento de actividades del personal contratado respecto de los términos contractuales (Auxiliar Administrativo T1, muestra de 2 locadores)
+
+**Tipo: F — Verificación**
+
+**Valor global:** Para los dos locadores de la muestra revisada en el Formato II.B., el cumplimiento de las actividades contractuales es mayoritariamente verificado (SI) en todos los ítems, con la excepción del requisito de experiencia general en temas administrativos del Locador 2 (respuesta: NO), que origina la situación adversa de la Variable 2.
+
+**Detalle por ítem del Formato II.B. (para los 2 locadores revisados):**
+
+- 1.3 ¿Las actividades a desarrollar son las establecidas en el Memorando Múltiple N°000014-2026-GOECOR-EG-2026/ONPE? → L1: SI / L2: SI [865][866][867]
+- 1.4 ¿Los requisitos mínimos del perfil son los establecidos en el Memorando Múltiple N°000014-2026-GOECOR-EG-2026/ONPE? → L1: SI / L2: SI [870][871][872]
+- 1.5 ¿Cuenta con estudios universitarios o técnicos mínimo un ciclo aprobado? → L1: SI / L2: SI [875][876][877][878]
+- 1.6 ¿Cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos? → L1: SI / L2: **NO** [881][882][883][884] ← origina la situación adversa
+- 1.7 ¿Cuenta con capacitación acreditada sobre temas contables, administración, tributación y/o informática? → L1: SI / L2: SI [886][887][888][889]
+- 1.8 ¿Cuenta con contrato vigente? → L1: SI / L2: SI [899][900][901][902]
+- 1.9 ¿Se señala como órgano que otorgará la conformidad a la ODPE? → L1: SI / L2: SI [905][906][907]
+- 1.10 ¿Se encuentra visado y suscrito por el locador? → L1: SI / L2: SI [910][911][912]
+- 1.11 ¿Se encuentra visado y suscrito por el jefe por delegación (JODPE/CAODPE)? → L1: SI / L2: SI [915][916][917]
+- 1.12 ¿Presentó el informe de actividades realizadas correspondiente al mes de enero? → L1: SI / L2: SI [920][921][922][923]
+- 1.13 Actividad: Apoyar en la recepción, revisión y verificación de cuentas del personal → L1: SI / L2: SI [926][927][928][929]
+- 1.14 Actividad: Apoyar en la habilitación y pago de honorarios del personal de la ODPE → L1: SI / L2: (legible como SI) [932][933][934]
+- 1.15 Actividad: Apoyar en la recepción, clasificación, registro, distribución, archivo y rotulación de documentación administrativa → L1: SI / L2: SI [936][938][939]
+- 1.16 Actividad: Apoyar en el ingreso de la información al SIGEA → L1: SI / L2: (dato presente) [941][942]
+
+**Fuente (IDs):** [847]–[942], [1486], [1492]
+
+**Fragmento de evidencia:** "II.B. CONTRATACIÓN DEL AUXILIAR ADMINISTRATIVO T1 [...] 1.6 ¿Cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos? SI / NO → [Locador 1] SI / [Locador 2] NO"
+
+**Justificación:** Esta variable recoge la verificación sistemática del cumplimiento contractual realizada mediante el Formato II.B. Es una variable de verificación porque cada ítem responde con SI/NO respaldado por la revisión documental del expediente. Los ítems son homogéneos (misma estructura de pregunta/verificación) y provienen del mismo formato, por lo que conforman el detalle interno de una sola variable. El ítem 1.6 del Locador 2 es el único que arroja resultado negativo y constituye la evidencia de la situación adversa documentada en la Variable 2.
+
+**Ambigüedad:** Los nombres completos de los dos locadores (Locadores 1 y 2) aparecen en el Formato II.B. — el Locador 1 se identifica como Jenny Marleny Zuniga Salcedo [857] y el Locador 2 como Alexander Santiago Fernandez Alvarado [858], aunque en la situación adversa el locador con discordancia es referenciado por su DNI (70915477) sin confirmación explícita del nombre asociado. Algunos ítems de las columnas del Locador 2 presentan ligera dificultad de lectura en el documento digitalizado.
+
+---
+
+### Variable 6 — Actores participantes en la comisión de control y en la ODPE
+
+**Tipo: D — Relacional**
+
+**Valor global:** Los actores que participan en la ejecución del hito y suscriben la documentación relevante son los siguientes:
+
+**Por la Comisión de Control (Gerencia Regional de Control de Arequipa - CGR):**
+- Jackeline Fani Pelinco Quispe — Jefe de Comisión. [1350][1434][1503]
+- Marleni Mamani Cachi — Supervisora de la Comisión de Control. [1349][1471][1516]
+- Marissa Alicia Chávez Chávez — Gerente Regional de Control II, Gerencia Regional de Control de Arequipa, Contraloría General de la República (firma el informe y el oficio de notificación). [1353][1612]
+
+**Por la ODPE Cerro Colorado:**
+- Armando Juan Echevarría Cárdenas — Jefe de ODPE Cerro Colorado. [1460][1462][690][947]
+- Christian Champi Quispe — Analista Descentralizado de Recursos Humanos II/III de la ODPE Cerro Colorado (denominación varía entre "II" y "III" según el fragmento). [1472][949][950][1296]
+
+**Por el OCI de la ONPE (para la notificación a la sede central):**
+- María Bertilda Idrogo Díaz — Jefe de OCI de la Oficina Nacional de Procesos Electorales - ONPE - Órgano de Control Institucional (emisora de la cédula de notificación al Jefe Nacional). [1652][1756]
+
+**Destinatario de la notificación central:**
+- Piero Alessandro Corvetto Salinas — Jefe Nacional de la ONPE (destinatario de la notificación del informe). [1654][1705]
+
+**Fuente (IDs):** [1349], [1350], [1353], [1434], [1460], [1462], [1471], [1472], [1503], [1516], [1612], [1652], [1654], [690], [947], [949], [950], [1296], [1756]
+
+**Fragmento de evidencia:** "Jackeline Fani Pelinco Quispe — Jefe de Comisión Comisión de Control" / "Marleni Mamani Cachi — Supervisor Comisión de Control" / "Marissa Chávez Chávez — Gerente Regional de Control II Gerencia Regional de Control de Arequipa" / "Armando Juan Echevarria Cardenas — Jefe de ODPE Cerro Colorado" / "Christian Champi Quispe — Analista Descentralizado de Recursos Humanos" / "MARIA BERTILDA IDROGO DIAZ - JEFE DE OCI - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE" / "PIERO ALESSANDRO CORVETTO SALINAS" como destinatario
+
+**Justificación:** Los actores tienen roles claramente diferenciados y aparecen en secciones distintas del documento (firmas del informe, acta de visita, oficio de notificación, cédula electrónica). Se agrupan en una sola variable relacional porque todos responden a la pregunta "¿quiénes participan en este hito y con qué rol?".
+
+**Ambigüedad:** El Analista de RRHH es designado como "II" en algunos fragmentos y como "III" en otros (por ejemplo, [1296] dice "Analista Descentralizado de Recursos Humanos III" y [1472] dice "Analista Descentralizado RRHH II"). Podría tratarse de una inconsistencia tipográfica del documento o de dos personas distintas; sin embargo, el nombre Christian Champi Quispe aparece consistentemente asociado a ese rol.
+
+---
+
+### Variable 7 — Actividades operativas del POE programadas para el período de contratación de personal ODPE
+
+**Tipo: E — Narrativo**
+
+**Título:** Tareas operativas del Plan Operativo Electoral (POE) versión 03 relacionadas con la contratación de personal ODPE para las Elecciones Generales 2026
+
+**Cuerpo del texto:** El POE (aprobado por Resolución Jefatural N°000204-2025-JN/ONPE de 31/12/2025) establece dentro del proceso "III. Procesos de soporte / 3.1 Gestión de los recursos humanos / 3.1.1 Gestión de recursos humanos" las siguientes tareas operativas con sus períodos de ejecución y metas:
+
+- Tarea 3.1.1.3: "Invitar, seleccionar y contratar a los locadores de forma centralizada y descentralizada" — Período: 05/01/2026 al 31/05/2026 — Programación física mensual: 1 (enero), 1 (febrero), 1 (marzo), 1 (abril) — Meta física anual: 5 — Prioridad AO: 36.
+- Tarea (sin número específico legible): "Gestionar el pago de locadores centralizada y descentralizado" — Período: 05/01/2026 al 31/05/2026 — Meta: 5.
+- Tarea 3.1.1.9: "Monitorear la selección y contratación de los locadores en las ODPEs" — Período: 05/01/2026 al 31/05/2026 — Programación física mensual: 1 (enero), 1 (febrero), 1 (marzo), 1 (abril) — Meta física anual: 5.
+
+Asimismo, el Memorando Múltiple N°000014-2026-GOECOR-EG2026/ONPE de 23/01/2026 reformuló la Matriz de personal con cronograma de contratación, perfiles y cargos ocupacionales (Ficha Técnica v04); posteriormente actualizada por el Memorando Múltiple N°000043-2026 (v05, 13/02/2026) y N°000045-2026 (16/02/2026) para el cargo de Capacitador Convencional/STAE/CCPP.
+
+**Fuente (IDs):** [1142], [645]–[682], [1154], [1156], [1157], [1176], [1180], [1181]
+
+**Fragmento de evidencia:** "dentro del Plan Operativo Electoral se establecen tareas operativas a ser realizadas por las ODPE, como la de 'Seleccionar y contratar bajo la modalidad de locación de servicios en la ODPE' cuyo periodo de ejecución está comprendido del 05 de enero al 29 de abril; tal como se detalla en el siguiente cuadro" / "Cuadro n.°1 Actividades Operativas según el POE Vs 03"
+
+**Justificación:** Esta variable recoge el marco de programación operativa específica de contratación de personal que sirve de referencia para evaluar el avance del hito. A diferencia del marco general (que es transversal a todo el proceso), este cuadro es una métrica narrativa del momento porque describe el plan concreto de tareas con sus metas temporales que se están ejecutando durante el período evaluado.
+
+**Ambigüedad:** Algunas celdas del Cuadro N°1 tienen valores numéricos que no están totalmente claros en la digitalización (por ejemplo, la columna MAYO y la columna Meta Física Anual muestran valores que podrían ser parcialmente ilegibles). El número "36" para la prioridad AO de la Tarea 3.1.1.3 podría corresponder a otro campo.

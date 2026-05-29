@@ -1,0 +1,658 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Hito de Control N° 2 — Contratación del Personal y Desarrollo de Actividades en la ODPE",
+    "filename": "Arequipa4.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 398-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-05",
+      "periodo_inicio": "2026-02-23",
+      "periodo_fin": "2026-02-27",
+      "estado_notificacion": "Notificado mediante Oficio N° 000383-2026-CG/GRAR y Oficio N° 000081-2026-CG/OC3599, ambos de fecha 06/03/2026, con Cédula de Notificación Electrónica N° 00000065-2026-CG/3599",
+      "fuente_ids": [
+        1341,
+        1344,
+        1345,
+        1347,
+        1352,
+        1354,
+        1385,
+        1387,
+        1408,
+        2177,
+        2178,
+        2226,
+        2227,
+        2261
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Ley N° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República; su artículo 8° establece el marco normativo del sistema de control gubernamental que fundamenta la competencia de la Contraloría para emitir el presente informe",
+        "fecha": null,
+        "fuente_ids": [
+          2185,
+          2234
+        ]
+      },
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM — Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Servicio de Control Simultáneo; establece el marco procedimental del servicio, la comunicación de situaciones adversas al titular de la entidad y los plazos para adoptar acciones correctivas",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1389,
+          2186,
+          2235
+        ]
+      },
+      {
+        "codigo": "Ley N° 26487, artículo 24°",
+        "establece": "Ley Orgánica de la ONPE; las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral vigente",
+        "fecha": null,
+        "fuente_ids": [
+          1412
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859 (LOE), artículos 39° y 49°",
+        "establece": "Ley Orgánica de Elecciones; el artículo 39° establece que el Jefe Nacional de la ONPE determina el número, ubicación y organización de las ODPE; el artículo 49° establece que la designación de Jefes y Coordinadores Administrativos se realiza mediante concurso público",
+        "fecha": null,
+        "fuente_ids": [
+          1414,
+          1421
+        ]
+      },
+      {
+        "codigo": "ROF de la ONPE, artículos 104° y 116° — Resolución Jefatural N° 000125-2024-JN/ONPE",
+        "establece": "Reglamento de Organización y Funciones de la ONPE; el artículo 104° establece las funciones de la GOECOR (organizar, dirigir y monitorear las ODPE); el artículo 116° complementa lo relativo a la determinación de circunscripciones electorales",
+        "fecha": "2024-06-27",
+        "fuente_ids": [
+          1414,
+          1488,
+          1514
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprobó la conformación de 126 ODPE para las Elecciones Generales 2026",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1420
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000132-2025-JN/ONPE",
+        "establece": "Dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir vacantes de 28 Jefes y 28 Coordinadores Administrativos de ODPE para las EG 2026",
+        "fecha": "2025-08-12",
+        "fuente_ids": [
+          1422
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000141-2025-JN/ONPE",
+        "establece": "Conformó 14 ODPE encargadas de organizar las Elecciones Primarias de las EG 2026 y designó a la Jefa y Coordinadora Administrativa de la ODPE Arequipa",
+        "fecha": "2025-09-08",
+        "fuente_ids": [
+          1423
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral Versión 03",
+        "establece": "Aprobó el Plan Operativo Electoral para las Elecciones Generales 2026 (Versión 03), estableciendo actividades operativas y tareas de obligatorio cumplimiento por cada unidad orgánica de la ONPE, incluyendo tareas específicas para las ODPE",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1424,
+          1433,
+          1453,
+          1474
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000014-2026-GOECOR-EG2026/ONPE — Ficha Técnica Versión 04",
+        "establece": "Reformuló la Matriz de personal para las EG 2026; adjuntó cronograma de contratación de personal ODPE, matriz de personal y perfiles de cargos ocupacionales",
+        "fecha": "2026-01-23",
+        "fuente_ids": [
+          1476
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000043-2026-GOECOR-EG-2026/ONPE — Ficha Técnica Versión 05",
+        "establece": "Reformuló la matriz de personal para las EG 2026",
+        "fecha": "2026-02-13",
+        "fuente_ids": [
+          1477
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000045-2026-GOECOR-EG-2026/ONPE",
+        "establece": "Actualizó la matriz de personal respecto de la contratación del cargo ocupacional Capacitador Convencional/STAE/CCPP",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          1477,
+          1482,
+          1486
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR15-GRH/RRHH Versión 12",
+        "establece": "Regula la selección y contratación descentralizada bajo la modalidad de Locación de Servicios para ODPE, ORC o Punto Focal",
+        "fecha": null,
+        "fuente_ids": [
+          1489
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR07-GRH/RRHH Versión 12",
+        "establece": "Regula la selección y contratación centralizada bajo la modalidad de Locación de Servicios",
+        "fecha": null,
+        "fuente_ids": [
+          1489
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000002-2026-CG/OC3599",
+        "establece": "Comunicación de la Contraloría recibida por la ONPE que ampara el inicio del Control Concurrente sobre la ODPE Arequipa",
+        "fecha": "2026-01-26",
+        "fuente_ids": [
+          1415
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "personal_contratado_odpe_arequipa",
+        "tipo": "B",
+        "label": "Personal contratado en la ODPE Arequipa al inicio del Hito de Control N° 2",
+        "valor": {
+          "observado": 53,
+          "meta": 1140,
+          "estimado": null,
+          "unidad": "personas contratadas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Auxiliar Técnico Diurno ODPE",
+            "previsto": null,
+            "real": 1,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Oficina T1",
+            "previsto": null,
+            "real": null,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Administrativo T1",
+            "previsto": null,
+            "real": null,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Operaciones",
+            "previsto": null,
+            "real": null,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Operaciones T1",
+            "previsto": null,
+            "real": 4,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Coordinador Distrital",
+            "previsto": null,
+            "real": 15,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Oficina T2",
+            "previsto": null,
+            "real": 3,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Logístico T1",
+            "previsto": null,
+            "real": 1,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Finanzas",
+            "previsto": null,
+            "real": 1,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Asistente Legal",
+            "previsto": null,
+            "real": 1,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Capacitadores Convencionales",
+            "previsto": null,
+            "real": 15,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Recursos Humanos T1",
+            "previsto": null,
+            "real": 3,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Recursos Humanos T2",
+            "previsto": null,
+            "real": 4,
+            "fuente_ids": [
+              1498,
+              1502
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1486,
+          1498,
+          1502,
+          1504,
+          1520
+        ],
+        "fragmento_evidencia": "En la ODPE Arequipa, del total de personal previsto para contratación, actualmente se cuenta con 53 personas que han suscrito contrato y vienen desempeñando funciones respecto a sus términos de referencia. [...] TOTAL 53 / Fuente: * Matriz personal basado en la Ficha Técnica V05 actualizado al 16/02/2026",
+        "justificacion": "El cuadro n.°3 lista el desglose por grupo ocupacional con sus cantidades y el total de 53 personas contratadas al 23/02/2026. La meta de 1,140 surge del campo 'Total de personal' en el cuadro n.°2, vinculado a la Ficha Técnica V05 actualizada al 16/02/2026. Ambos datos son comparables como progreso hacia la dotación completa de personal.",
+        "ambiguedad": "El cuadro n.°3 tiene algunas celdas sin valor numérico explícito para Asistente de Oficina T1, Auxiliar Administrativo T1 y Coordinador de Operaciones (posiblemente 1, 3 y 1 respectivamente, deducibles del cuadro n.°4 y notas al pie), pero el documento no los consigna inequívocamente en esas filas; se registran como null.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "situaciones_adversas_hito_2",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control N° 2",
+        "valor": {
+          "texto": "1 situación adversa identificada en el presente hito de control: algunas personas contratadas bajo la modalidad de locación de servicios no vienen realizando todas las funciones establecidas en los términos de referencia de su contratación. Se identificaron 6 personas distribuidas en 4 grupos ocupacionales con funciones no reportadas en sus Informes de Actividades de enero 2026.",
+          "estado": "Abierta / pendiente de acción correctiva. Informe notificado el 06/03/2026 con plazo de 5 días hábiles para que la entidad comunique acciones adoptadas."
+        },
+        "detalle": [
+          {
+            "texto": "Asistente de Oficina T1 (Contrato LS-EG2026-000001-2026-ODPE AREQUIPA-ONPE): No cumplió la función 'Apoyar en la atención de los requerimientos del personal de la ODPE y coordina su atención con el Coordinador Administrativo y Jefe de la ODPE.' Período evaluado: 24 al 31 de enero de 2026. Evidencia: Formato II.A de 23/02/2026.",
+            "estado": "Incumplimiento identificado",
+            "desde_momento": null,
+            "fuente_ids": [
+              1065,
+              1066,
+              1067
+            ]
+          },
+          {
+            "texto": "Auxiliar Administrativo T1 (Contratos LS-EG2026-000006, 000007, 000011-2026-ODPE AREQUIPA-ONPE; 3 personas): No cumplieron las funciones: (i) 'Apoyar en la recepción, clasificación, registro, distribución, archivo y rotulación de la documentación administrativa'; (ii) 'Apoyar en la habilitación y pago de honorarios del personal de la ODPE'; (iii) 'Apoyar en el ingreso de la información al SIGEA'. Período evaluado: 25 al 31 de enero de 2026. Evidencia: Formato II.B de 23/02/2026.",
+            "estado": "Incumplimiento identificado",
+            "desde_momento": null,
+            "fuente_ids": [
+              1068,
+              1069,
+              1070,
+              1071
+            ]
+          },
+          {
+            "texto": "Coordinador de Operaciones (Contrato LS-EG2026-000003-2026-ODPE AREQUIPA-ONPE; 1 persona): No cumplió la función 'Apoyar en la organización de los talleres de capacitación del personal de la ODPE.' Período evaluado: 24 al 31 de enero de 2026. Evidencia: Formato II.C de 23/02/2026.",
+            "estado": "Incumplimiento identificado",
+            "desde_momento": null,
+            "fuente_ids": [
+              1072,
+              1073,
+              1074
+            ]
+          },
+          {
+            "texto": "Asistente de Finanzas (Contrato LS-EG2026-000012-2026-ODPE AREQUIPA-ONPE; 1 persona): No cumplió las funciones: (i) 'Apoyar en la emisión de Carta Orden de transferencia'; (ii) 'Apoyar en la elaboración y control de la emisión del voucher de pago, a través del SIGEA'; (iii) 'Apoyar en la elaboración mensual de las conciliaciones bancarias, registro de compras y operaciones con entidades públicas'; (iv) 'Apoyar en el registro de información sobre la ejecución de gastos en el SIGEA de forma oportuna.' Período evaluado: 26 al 31 de enero de 2026. Evidencia: Formato II.F de 23/02/2026.",
+            "estado": "Incumplimiento identificado",
+            "desde_momento": null,
+            "fuente_ids": [
+              1075,
+              1076,
+              1077,
+              1078
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1523,
+          1524,
+          1525,
+          1534,
+          1065,
+          1066,
+          1067,
+          1068,
+          1069,
+          1070,
+          1071,
+          1072,
+          1073,
+          1074,
+          1075,
+          1076,
+          1077,
+          1078,
+          1079,
+          1080,
+          1081,
+          1082,
+          1083,
+          1885,
+          1886,
+          1887,
+          1888,
+          1889,
+          1890,
+          1982,
+          2063,
+          2064,
+          2087,
+          2088
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 [...] se ha identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso [...] ALGUNAS PERSONAS CONTRATADAS BAJO LA MODALIDAD DE LOCACIÓN DE SERVICIOS NO VIENEN REALIZANDO TODAS LAS FUNCIONES ESTABLECIDAS EN LOS TÉRMINOS DE REFERENCIA DE SU CONTRATACIÓN / la Comisión de Control solicitó al Coordinador Administrativo los términos de referencia de las contrataciones, así como los Informes de Actividades correspondientes al periodo enero 2026, identificándose que 6 personas no vendrían realizando todas las funciones establecidas en sus términos de referencia",
+        "justificacion": "Toda la información sobre la situación adversa (descripción, afectados por grupo, funciones incumplidas, evidencias documentales, consecuencia y estado) pertenece a una sola métrica de seguimiento del proceso de control. Se agrupa en una variable tipo A. El estado 'Abierta / pendiente' se infiere de la cronología: el informe fue emitido y notificado el 05-06/03/2026 con plazo de 5 días hábiles para respuesta.",
+        "ambiguedad": "El cuadro n.°4 indica 'No cumplen: 3' para Auxiliar Administrativo T1 respecto de la función de documentación administrativa y también para el ingreso al SIGEA. La función de 'habilitación y pago de honorarios' aparece adicionalmente en la imagen n.°7. La suma de personas únicas incumplidas es 6 (1+3+1+1), consistente con el texto del informe.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "situaciones_adversas_hito_1_subsistentes",
+        "tipo": "A",
+        "label": "Situaciones adversas del Hito de Control N° 1 que subsisten al momento del Hito N° 2",
+        "valor": {
+          "texto": "Del Informe de Hito de Control N° 141-2026-CG/GRAR-SCC (Hito N° 1), se identificaron originalmente 6 situaciones adversas. Al momento de emitir el presente informe, 2 subsisten con estado 'Con Acciones' y 4 fueron superadas.",
+          "estado": "2 de 6 situaciones adversas subsisten con estado 'Con Acciones'; 4 no subsisten."
+        },
+        "detalle": [
+          {
+            "texto": "Los ambientes del local en el cual viene operando la ODPE Arequipa, no se encuentran habilitados de conformidad a lo establecido en la normativa, situación que podría afectar el desarrollo de las actividades y/o la salud de las personas que vienen participando en la organización del proceso.",
+            "estado": "Con Acciones",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              2145,
+              2146,
+              2147
+            ]
+          },
+          {
+            "texto": "Los ambientes del local de la ODPE Arequipa no vienen siendo acondicionados para la atención de personas con discapacidad, lo cual estaría afectando su derecho de accesibilidad a los servicios públicos que se brindan en el marco de las elecciones generales 2026.",
+            "estado": "Con Acciones",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              2148,
+              2149
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2085,
+          2086,
+          2145,
+          2146,
+          2147,
+          2148,
+          2149,
+          1153,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160
+        ],
+        "fragmento_evidencia": "Informe de hito de Control n.° 141-2026-CG/GRAR-SCC / Número de situaciones adversas identificadas: 6 / Número de situaciones adversas que subsisten: 2 / Relación de situaciones adversas que subsisten: [1] Los ambientes del local en el cual viene operando la ODPE Arequipa, no se encuentran habilitados de conformidad a lo establecido en la normativa [...] Con Acciones / [2] Los ambientes del local de la ODPE Arequipa no vienen siendo acondicionados para la atención de personas con discapacidad [...] Con Acciones",
+        "justificacion": "Estas son situaciones de seguimiento arrastradas del hito anterior (Hito N° 1). Su estado actual ('Con Acciones') y su comparación con el hito anterior (6 identificadas → 2 subsisten) responden a la lógica de una variable tipo A de seguimiento entre momentos. El contenido proviene del Apéndice N.°2 del informe.",
+        "ambiguedad": "El documento no detalla las 4 situaciones adversas que no subsisten ni el tipo de acciones adoptadas para las 2 que sí subsisten. El estado 'Con Acciones' es la categoría usada por el sistema de control pero no implica que la situación esté resuelta.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "reporte_avance_situaciones_adversas_hito_2",
+        "tipo": "C",
+        "label": "Estado del reporte de avance ante situaciones adversas del presente hito",
+        "valor": {
+          "categoria": "No aplica",
+          "nota": "La sección VII del informe declara explícitamente 'No aplica'. La situación adversa fue identificada en el mismo informe emitido el 05/03/2026 y notificado el 06/03/2026; el plazo de 5 días hábiles para que la entidad comunique acciones adoptadas aún no había vencido al momento de la emisión del informe."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          2079,
+          2080
+        ],
+        "fragmento_evidencia": "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS / No aplica.",
+        "justificacion": "Esta es una variable de estado del proceso de seguimiento que describe la condición del mecanismo de respuesta de la entidad al momento del hito. Su único valor posible en este momento es 'No aplica', dado que la situación adversa fue identificada en el presente informe y la entidad aún no ha tenido oportunidad de responder.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "composicion_comision_control",
+        "tipo": "D",
+        "label": "Composición de la Comisión de Control que ejecutó el Hito de Control N° 2",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisora de la Comisión de Control",
+            "fuente_ids": [
+              2103,
+              2095
+            ]
+          },
+          {
+            "nombre": "César José Martín Lema Soncco",
+            "rol": "Jefe de Comisión de Control",
+            "fuente_ids": [
+              2104,
+              2097
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chavez Chavez",
+            "rol": "Gerente Regional de Control, Gerencia Regional de Control Arequipa (encargada)",
+            "fuente_ids": [
+              2109,
+              2192
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2092,
+          2095,
+          2097,
+          2103,
+          2104,
+          2109,
+          2192
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisora Comisión de Control / César José Martín Lema Soncco Jefe de Comisión Comisión de Control / Marissa Alicia Chavez Chavez Gerente Regional de Control Gerencia Regional de Control Arequipa",
+        "justificacion": "Los tres actores tienen roles formalmente distintos dentro del proceso de control (Jefe de Comisión, Supervisora, Gerente Regional) y sus firmas validan el documento. Se clasifican como variable relacional dado que identifican a los participantes institucionales del proceso de control en este hito.",
+        "ambiguedad": "El documento usa en algunos identificadores 'HAVeZ CHAVeZ' que es claramente un error de OCR para 'CHAVEZ CHAVEZ'. Se ha interpretado como la misma persona: Marissa Alicia Chavez Chavez.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "destinatarios_notificacion_informe",
+        "tipo": "D",
+        "label": "Destinatarios de la notificación del Informe de Hito de Control N° 2",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marina Victoria Milagros Reyes Marchena",
+            "rol": "Jefa de la ODPE Arequipa (titular de la dependencia controlada); destinataria del Oficio N° 000383-2026-CG/GRAR de 06/03/2026",
+            "fuente_ids": [
+              2179,
+              2180
+            ]
+          },
+          {
+            "nombre": "Piero Alessandro Corvetto Salinas",
+            "rol": "Jefe Nacional de la Oficina Nacional de Procesos Electorales (ONPE) (titular de la entidad); destinatario del Oficio N° 000081-2026-CG/OC3599 de 06/03/2026",
+            "fuente_ids": [
+              2228,
+              2229
+            ]
+          },
+          {
+            "nombre": "Maria Bertilda Idrogo Diaz",
+            "rol": "Jefe del Órgano de Control Institucional (OCI) de la ONPE / Contraloría General de la República; emisora del Oficio N° 000081-2026-CG/OC3599 hacia el Jefe Nacional de la ONPE",
+            "fuente_ids": [
+              2250,
+              2265
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2177,
+          2178,
+          2179,
+          2226,
+          2227,
+          2228,
+          2250,
+          2261,
+          2265
+        ],
+        "fragmento_evidencia": "OFICIO N° 000383-2026-CG/GRAR [...] Marina Victoria Milagros Reyes Marchena Oficina Descentralizada de Procesos Electorales Arequipa - ODPE Arequipa / OFICIO N° 000081-2026-CG/OC3599 [...] Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales / Maria Bertilda Idrogo Diaz Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales",
+        "justificacion": "Se trata de actores distintos a la Comisión de Control, con roles de destinatario o intermediario institucional en la cadena de notificación. Se separa de la variable de composición de la comisión porque responde a una pregunta conceptual distinta: no quién ejecutó el control, sino a quiénes se comunicaron los resultados y en qué calidad.",
+        "ambiguedad": "Maria Bertilda Idrogo Diaz actúa simultáneamente como Jefe del OCI de la ONPE y como funcionaria de la Contraloría General de la República; el documento la identifica con ambas adscripciones institucionales, lo que es propio de la figura del OCI.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "contexto_red_odpe_hito_2",
+        "tipo": "E",
+        "label": "Informes de Hito de Control N° 2 notificados simultáneamente al Jefe Nacional de la ONPE sobre otras ODPE",
+        "valor": {
+          "titulo": "Relación de Informes de Hito de Control N° 2 notificados simultáneamente al Jefe Nacional de la ONPE sobre otras ODPE en el marco de las Elecciones Generales 2026",
+          "cuerpo": "Mediante el Oficio N° 000081-2026-CG/OC3599 de 06/03/2026, se notificaron al Jefe Nacional de la ONPE los siguientes 23 Informes de Hito de Control correspondientes al Hito N° 2 de distintas ODPE, todos en el marco de la evaluación de la 'Contratación de personal y desarrollo de actividades en la ODPE': (1) ODPE BAGUA — N° 339-2026-CG/GRAM-SCC; (2) ODPE CERRO COLORADO — N° 399-2026-CG/GRAR-SCC; (3) ODPE CHANCHAMAYO — N° 343-2026-CG/GRJU-SCC; (4) ODPE CORONEL PORTILLO — N° 353-2026-CG/GRUC-SCC; (5) ODPE CUSCO — N° 387-2026-CG/GRCU-SCC; (6) ODPE HUANUCO — N° 384-2026-CG/GRHC-SCC; (7) ODPE HUARI — N° 354-2026-CG/GRAN-SCC; (8) ODPE HUAURA — N° 360-2026-CG/GRLP-SCC; (9) ODPE JAEN — N° 410-2026-CG/GRCA-SCC; (10) ODPE LA CONVENCIÓN — N° 386-2026-CG/GRCU-SCC; (11) ODPE LA ESPERANZA — N° 369-2026-CG/GRLIB-SCC; (12) ODPE LEONCIO PRADO — N° 385-2026-CG/GRHC-SCC; (13) ODPE MAYNAS — N° 365-2026-CG/GRLO-SCC; (14) ODPE PUNO — N° 397-2026-CG/GRPU-SCC; (15) ODPE SAN ROMÁN — N° 396-2026-CG/GRPU-SCC; (16) ODPE SANTA — N° 355-2026-CG/GRAN-SCC; (17) ODPE TACNA — N° 388-2026-CG/GRTA-SCC; (18) ODPE TRUJILLO — N° 368-2026-CG/GRLIB-SCC; (19) ODPE TUMBES — N° 373-2026-CG/GRTB-SCC; (20) ODPE AREQUIPA — N° 398-2026-CG/GRAR-SCC (el presente documento); (21) ODPE CAJAMARCA — N° 411-2026-CG/GRCA-SCC; (22) ODPE MOYOBAMBA — N° 377-2026-CG/GRSM-SCC; (23) ODPE PASCO — N° 383-2026-CG/GRPA-SCC."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          2237,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169,
+          1170,
+          1171,
+          1172,
+          1173,
+          1174,
+          1175,
+          1176,
+          1177,
+          1178,
+          1179,
+          1180,
+          1181,
+          1182,
+          1183,
+          1184,
+          1185,
+          1186,
+          1187,
+          1188,
+          1189,
+          1190,
+          1191,
+          1192,
+          1193,
+          1194,
+          1195,
+          1196,
+          1197,
+          1198,
+          1199,
+          1200,
+          1201,
+          1202,
+          1203,
+          1204,
+          1205,
+          1206,
+          1207,
+          1208,
+          1209,
+          1210,
+          1211,
+          1212,
+          1213,
+          1214,
+          1215,
+          1216,
+          1217,
+          1218,
+          1219,
+          1220,
+          1221,
+          1222,
+          1223,
+          1224,
+          1225,
+          1226,
+          1227,
+          1228,
+          1229,
+          1230,
+          1231,
+          1232,
+          1233
+        ],
+        "fragmento_evidencia": "de la revisión de la información y documentación vinculada a la 'Contratación de personal y desarrollo de actividades en la ODPE' comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control, que se adjuntan al presente documento: [tabla de 23 ODPE con sus números de informe]",
+        "justificacion": "Esta información es de naturaleza narrativa-contextual: sitúa el presente informe dentro de un proceso de control a escala nacional, con 23 ODPE siendo evaluadas simultáneamente en el mismo hito. No es una variable de seguimiento ni de progreso propia de la ODPE Arequipa, sino un texto estructurado con contexto institucional relevante para entender el alcance del proceso.",
+        "ambiguedad": "El documento no especifica si todas las 23 ODPE comparten exactamente la misma situación adversa o si sus informes contienen situaciones distintas. La redacción del oficio sugiere que el denominador común es la 'contratación de personal y desarrollo de actividades en la ODPE', pero no afirma identidad de situaciones.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      }
+    ]
+  }
+}

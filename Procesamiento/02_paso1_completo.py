@@ -30,9 +30,9 @@ MODELO = "claude-sonnet-4-6"
 MAX_TOKENS_1A = 16000
 MAX_TOKENS_1C = 16000
 
-INPUT_DIR = Path("data/simplified")
-RAZONAMIENTO_DIR = Path("data/extracted")
-JSON_DIR = Path("data/structured")
+INPUT_DIR = Path("data/00_simplified")
+RAZONAMIENTO_DIR = Path("data/01_extracted")
+JSON_DIR = Path("data/02_structured")
 
 PROMPT_1A_PATH = Path("prompts/prompt_1A_extraccion.txt")
 PROMPT_1C_PATH = Path("prompts/prompt_1C_estructuracion.txt")

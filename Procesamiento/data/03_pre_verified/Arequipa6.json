@@ -1,0 +1,480 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "ODPE (Oficina Descentralizada de Procesos Electorales)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Hito de Control N° 2 — Ejecución de la Capacitación del Personal de la ODPE",
+    "filename": "Arequipa6.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 1606-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-23",
+      "periodo_inicio": "2026-03-09",
+      "periodo_fin": "2026-03-13",
+      "estado_notificacion": "Notificado. Oficio N° 000550-2026-CG/GRAR al Jefe de la ODPE Cerro Colorado el 23 de marzo de 2026; Oficio N° 000133-2026-CG/OC3599 al Jefe Nacional de la ONPE el 27 de marzo de 2026, con constancia de notificación electrónica en Casilla N° 20291973851.",
+      "fuente_ids": [
+        636,
+        639,
+        640,
+        641,
+        642,
+        647,
+        649,
+        681,
+        683,
+        698,
+        897,
+        940,
+        945,
+        946,
+        960,
+        995,
+        1008
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Ley N° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República. El artículo 8° regula la comunicación al titular de la entidad sobre situaciones adversas.",
+        "fecha": null,
+        "fuente_ids": [
+          904,
+          967
+        ]
+      },
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM — Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Servicio de Control Simultáneo. Establece reglas de hitos de control y obligación de comunicar situaciones adversas al titular de la entidad.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          685,
+          904,
+          968
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000212-2026-CG/GRAR",
+        "establece": "Dispone la ejecución del servicio de Control Concurrente, registrado en el SCG con orden de servicio N° 02-L470-2026-051.",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          685
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 039-2025-PCM",
+        "establece": "Convoca las Elecciones Generales 2026 para el domingo 12 de abril de 2026, de acuerdo con el artículo 80° de la Ley N° 26859.",
+        "fecha": null,
+        "fuente_ids": [
+          706
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 Oficinas Descentralizadas de Procesos Electorales (ODPE) para las Elecciones Generales 2026.",
+        "fecha": "2025-08-04",
+        "fuente_ids": [
+          716
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000175-2025-JN/ONPE",
+        "establece": "Designa a los jefes y coordinadores administrativos, titulares y accesitarios, de las ODPE.",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          716
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) Versión 03",
+        "establece": "Aprueba el POE de las Elecciones Generales 2026. Establece actividades operativas y tareas de cumplimiento obligatorio, incluyendo capacitación presencial del personal ODPE, monitoreo de talleres y presupuesto asignado por ODPE.",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          717,
+          743,
+          755,
+          809,
+          818
+        ]
+      },
+      {
+        "codigo": "Memorando N° 699-2026-GOECOR/ONPE",
+        "establece": "Fuente de información general de la ODPE Cerro Colorado (presupuesto asignado y datos de identificación).",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          769
+        ]
+      },
+      {
+        "codigo": "Memorando N° 000697-2026-GOECOR/ONPE",
+        "establece": "Remite la Matriz 'Detalle sobre la estructura de personal de la ODPE' (Ficha Técnica V05 actualizado al 16/02/2026), que establece la cantidad de personal a contratar por grupo ocupacional en cada ODPE.",
+        "fecha": "2026-02-17",
+        "fuente_ids": [
+          793
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situacion_adversa_brecha_convocatoria_coordinadores_mesa",
+        "tipo": "A",
+        "label": "Situación adversa: brecha en convocatoria de coordinadores de mesa para capacitación",
+        "valor": {
+          "texto": "La ODPE Cerro Colorado convocó a 478 coordinadores de mesa para capacitación, cuando la estructura de personal aprobada establece 489. Existe una brecha de 11 personas no convocadas, lo que podría afectar el desarrollo de la jornada electoral del 12 de abril de 2026.",
+          "estado": "Identificada y comunicada; no resuelta al momento de emisión del informe"
+        },
+        "detalle": [
+          {
+            "texto": "Cantidad requerida según Ficha Técnica V05 (Matriz de Personal): 489 coordinadores de mesa.",
+            "estado": "Requerimiento vigente según estructura aprobada",
+            "desde_momento": null,
+            "fuente_ids": [
+              785,
+              786,
+              793
+            ]
+          },
+          {
+            "texto": "Cantidad convocada para capacitación según Autorización de Certificación de Crédito Presupuestario: 478 coordinadores de mesa, con fecha de inicio de contratación el 13 de marzo de 2026 al 31 de marzo de 2026.",
+            "estado": "Convocatoria efectuada con déficit",
+            "desde_momento": null,
+            "fuente_ids": [
+              795
+            ]
+          },
+          {
+            "texto": "Brecha identificada: 11 coordinadores de mesa no convocados.",
+            "estado": "Brecha activa sin resolución reportada",
+            "desde_momento": null,
+            "fuente_ids": [
+              795
+            ]
+          },
+          {
+            "texto": "Duración de la capacitación del grupo ocupacional Coordinadores de Mesa: 4 días, del 13 al 16 de marzo de 2026.",
+            "estado": "Programado y en ejecución durante el período del hito",
+            "desde_momento": null,
+            "fuente_ids": [
+              806
+            ]
+          },
+          {
+            "texto": "Condición de contratación: previa aprobación del curso de Selección de Personal ODPE dirigido a Coordinador de Mesa.",
+            "estado": "Condición vigente",
+            "desde_momento": null,
+            "fuente_ids": [
+              815
+            ]
+          },
+          {
+            "texto": "Consecuencia potencial: podría afectar el desarrollo de las actividades en el día de la jornada electoral del proceso EG 2026 dentro de la jurisdicción.",
+            "estado": "Riesgo identificado",
+            "desde_momento": null,
+            "fuente_ids": [
+              824
+            ]
+          },
+          {
+            "texto": "Situaciones adversas del hito anterior (Hito N° 1) con seguimiento en este hito: No aplica.",
+            "estado": "Sin arrastre de hito anterior",
+            "desde_momento": null,
+            "fuente_ids": [
+              842
+            ]
+          },
+          {
+            "texto": "Reporte de avance ante la situación adversa: No aplica.",
+            "estado": "Sin reporte de avance",
+            "desde_momento": null,
+            "fuente_ids": [
+              837
+            ]
+          }
+        ],
+        "fuente_ids": [
+          776,
+          782,
+          783,
+          785,
+          786,
+          793,
+          795,
+          806,
+          815,
+          816,
+          817,
+          818,
+          823,
+          824,
+          846
+        ],
+        "fragmento_evidencia": "De cuadro precedente se aprecia que en la ODPE Cerro Colorado deberían capacitarse a cuatrocientos ochenta y nueve (489) personas del grupo ocupacional, Coordinadores de Mesa; sin embargo, en la entrevista efectuada a los Coordinadores de Capacitación se constató que sólo se ha convocado para capacitación a cuatrocientos setenta y ocho (478) coordinadores de mesa, ello en mérito a que mediante el documento denominado Autorización de Certificación de Crédito Presupuestario - ODPE/ORC4, se solicitó la certificación de crédito presupuestario para 'la contratación de 478 Coordinadores de Mesa, con fecha de inicio el 13 de marzo de 2026 al 31 de marzo de 2026, para la ODPE Cerro Colorado, en el marco del Proceso Electoral EG 2026'.",
+        "justificacion": "Es la situación adversa central del hito. Agrupa toda la información relacionada: valor requerido, valor observado, brecha, duración de la capacitación, condición de contratación, consecuencia potencial y estado de seguimiento. Todo responde a la misma pregunta: ¿se está convocando al número correcto de coordinadores de mesa para capacitación?",
+        "ambiguedad": "El documento menciona la 'Autorización de Certificación de Crédito Presupuestario - ODPE/ORC4' como fuente de la cifra de 478, pero este documento no aparece reproducido íntegramente. No se especifica si los 11 faltantes son una decisión definitiva o si podrían incorporarse en una segunda convocatoria.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actividades_operativas_poe_capacitacion_personal_odpe",
+        "tipo": "E",
+        "label": "Actividades y tareas operativas de capacitación del personal ODPE según el Plan Operativo Electoral Versión 03",
+        "valor": {
+          "titulo": "Actividades y tareas operativas de capacitación del personal ODPE según el Plan Operativo Electoral Versión 03 (Cuadro N° 1)",
+          "cuerpo": "El POE Versión 03 asigna a la Gerencia de Organización Electoral y Coordinación Regional (GOECOR) dos tareas operativas relacionadas con la capacitación del personal ODPE: (1) Tarea 2.3.5.3 — 'Realizar los talleres de capacitación presencial, de reforzamiento, jornada de entrenamiento del personal ODPE y taller de evaluación con CC.' Actividad Operativa N° 18, dentro del Proceso 2.3.5 'Capacitación de personal de ONPE y sedes (ODPE/ORC/PF) en materia electoral'. Período: 05/01/2026 al 27/04/2026. Meta física anual: 39. Prioridad: 9. (2) Tarea 2.3.5.4 — 'Realizar el monitoreo de los talleres, reuniones de reforzamiento y jornada entrenamiento del personal ODPE, según corresponda.' Período: 05/01/2026 al 17/04/2026 (el texto narrativo señala que el monitoreo se prevé entre el 26 de febrero y el 11 de abril de 2026). Meta física anual: 38. Prioridad: 9."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          718,
+          719,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          743
+        ],
+        "fragmento_evidencia": "a la Gerencia de Organización Electoral y Coordinación Regional se le han asignado actividades y tareas operativas de obligatoria ejecución, entre las cuales se encuentra la tarea denominada 'Realizar los talleres de capacitación presencial, reuniones de reforzamiento, jornadas de entrenamiento del personal ODPE y taller de evaluación con CC', programada para ejecutarse del 5 de enero al 27 de abril de 2026; así como la tarea 'Realizar el monitoreo de los talleres, reuniones de reforzamiento y jornadas de entrenamiento del personal ODPE', prevista para desarrollase entre el 26 de febrero y el 11 de abril de 2026",
+        "justificacion": "Recoge el contenido estructurado del Cuadro N° 1 del documento, que detalla las tareas operativas del POE aplicables al hito evaluado. Es un texto estructurado con título y contenido extenso que describe las obligaciones operativas del proceso. No es una métrica de avance sino la descripción del marco de lo que debe ocurrir.",
+        "ambiguedad": "Los valores de metas físicas en el cuadro presentan varias columnas (con valores 10, 10, 10 para la primera tarea y 10, 10 para la segunda) que podrían corresponder a periodos o regionales distintas, pero los encabezados de columna no son completamente legibles en el documento digitalizado.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "presupuesto_informacion_general_odpe_cerro_colorado",
+        "tipo": "C",
+        "label": "Presupuesto e información general de la ODPE Cerro Colorado",
+        "valor": {
+          "categoria": "Presupuesto asignado: S/ 141,055.00. ODPE ubicada en Av. Pumacahua L-13 San Felipe, distrito de Cerro Colorado, provincia y departamento de Arequipa. Jefe: Armando Juan Echevarría Cárdenas.",
+          "nota": "Dato proveniente del Cuadro N° 2 del informe, elaborado a partir del Memorando 699-2026-GOECOR/ONPE de 16 de febrero de 2026. No se reporta ejecución presupuestal en este hito; solo se registra el monto asignado como contexto de la instancia controlada."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          757,
+          761,
+          769
+        ],
+        "fragmento_evidencia": "el Plan Operativo Electoral (POE) contempla la asignación de presupuesto específico destinado a garantizar la adecuada ejecución de la actividad y tarea operativa antes mencionadas [...] Cuadro n.° 2 Información General de la ODPE Cerro Colorado [...] CERRO COLORADO / AREQUIPA / AREQUIPA / CERRO COLORADO / ECHEVARRIA CÁRDENAS ARMANDO JUAN / AV. PUMACAHUA L-13 SAN FELIPE / 141,055.00",
+        "justificacion": "El monto presupuestal y los datos de identificación de la ODPE describen la condición de la instancia en este momento del proceso. No es una métrica que avanza hacia una meta, sino un estado de asignación de recursos que caracteriza a la ODPE en el hito evaluado.",
+        "ambiguedad": "El documento no especifica la unidad monetaria explícitamente en el cuadro (no dice 'soles' ni 'S/'), aunque por contexto institucional peruano se infiere que es en soles (PEN).",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "actores_comision_de_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control a cargo del servicio",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control de Arequipa (e), Contraloría General de la República. Emite y firma el Oficio de notificación N° 000550-2026-CG/GRAR al Jefe de la ODPE.",
+            "fuente_ids": [
+              861,
+              910
+            ]
+          },
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisora, Comisión de Control.",
+            "fuente_ids": [
+              857
+            ]
+          },
+          {
+            "nombre": "Cynthia Soledad Vilca Vilca",
+            "rol": "Jefa de Comisión, Comisión de Control. Aparece también como solicitante/emisor en el sistema de notificación electrónica (DNI: 41763393).",
+            "fuente_ids": [
+              858,
+              950
+            ]
+          }
+        ],
+        "fuente_ids": [
+          857,
+          858,
+          861,
+          910,
+          950
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisora Comisión de Control / Cynthia Soledad Vilca Vilca Jefa de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa Contraloría General de la República",
+        "justificacion": "Estos tres actores tienen roles formalmente distintos dentro de la misma comisión de control. Son variables relacionales que describen quién lleva a cabo el servicio de control. Se agrupan como una sola variable relacional porque conforman una unidad funcional, pero con roles diferenciados.",
+        "ambiguedad": "El documento no precisa si el cargo de Gerente Regional es titular o encargado (usa la abreviatura '(e)' en el oficio de notificación, que sugiere encargatura).",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actor_destinatario_odpe_cerro_colorado",
+        "tipo": "D",
+        "label": "Actor destinatario del control en la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de la ODPE Cerro Colorado. Destinatario directo del informe de hito y de la notificación de la situación adversa identificada.",
+            "fuente_ids": [
+              462,
+              470,
+              899,
+              900
+            ]
+          }
+        ],
+        "fuente_ids": [
+          462,
+          470,
+          899,
+          900
+        ],
+        "fragmento_evidencia": "Señor: Armando Juan Echevarría Cárdenas Jefe de la ODPE / Oficina Descentralizada de Procesos Electorales - ODPE Cerro Colorado Av. Pumacahua L-13 San Felipe Arequipa/Arequipa/Cerro Colorado",
+        "justificacion": "Este actor tiene un rol distinto al de la comisión de control (es la entidad controlada, no el ente controlador) y aparece en una sección diferente del documento (el oficio de notificación). Corresponde a una variable relacional separada por responder a la pregunta: ¿quién es el responsable de la instancia controlada?",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "actor_destinatario_onpe_nivel_nacional",
+        "tipo": "D",
+        "label": "Actor destinatario a nivel de entidad nacional (ONPE)",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Piero Alessandro Corvetto Salinas",
+            "rol": "Jefe Nacional, Oficina Nacional de Procesos Electorales (ONPE). Destinatario del oficio de notificación colectivo de los informes de Hito N° 2 de 31 ODPE.",
+            "fuente_ids": [
+              961,
+              962,
+              963,
+              1002
+            ]
+          },
+          {
+            "nombre": "María Bertilda Idrogo Díaz",
+            "rol": "Jefe del Órgano de Control Institucional (OCI) de la ONPE, Contraloría General de la República. Emite y firma el Oficio N° 000133-2026-CG/OC3599 y actúa como notificador electrónico.",
+            "fuente_ids": [
+              982,
+              1043,
+              1053
+            ]
+          }
+        ],
+        "fuente_ids": [
+          960,
+          961,
+          962,
+          963,
+          980,
+          982,
+          1000,
+          1002,
+          1043,
+          1053,
+          1054,
+          1055
+        ],
+        "fragmento_evidencia": "Señor: Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe Jr. Washington N° 1894 Lima/Lima/Lima [...] Documento firmado digitalmente Maria Bertilda Idrogo Diaz Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe Contraloría General de la República",
+        "justificacion": "Estos actores pertenecen al nivel nacional de la cadena de comunicación del control concurrente. Son distintos a los actores locales de la ODPE y a la comisión de control regional. Se trata de una variable relacional separada porque responden a la pregunta: ¿quién recibe la notificación a nivel de la entidad supervisada a escala nacional?",
+        "ambiguedad": "La Jefa del OCI de la ONPE actúa simultáneamente como representante de la Contraloría y como interlocutora con la ONPE. El documento la identifica como 'Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe / Contraloría General de la República', consistente con la estructura del OCI como órgano de la CGR dentro de la entidad.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "estado_general_hito_2",
+        "tipo": "C",
+        "label": "Conclusión y estado general del Hito de Control N° 2",
+        "valor": {
+          "categoria": "1 situación adversa activa identificada; sin arrastre de situaciones adversas del Hito N° 1; sin reporte de avance ante situaciones adversas previas.",
+          "nota": "El informe corresponde al Tomo I de I. La situación adversa identificada afecta o podría afectar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales EG 2026."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          776,
+          837,
+          842,
+          846
+        ],
+        "fragmento_evidencia": "Durante la ejecución del Control Concurrente al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE', se ha advertido una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro del objetivo de las Elecciones Generales - EG 2026.",
+        "justificacion": "Captura el estado evaluativo general del hito: cuántas situaciones adversas se detectaron y si hay arrastre de momentos anteriores. Es una condición del momento expresable como categoría, distinta de la descripción detallada de la situación adversa misma.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "documentacion_respaldo_apendice_1",
+        "tipo": "F",
+        "label": "Documentación vinculada al hito revisada por la Comisión de Control (Apéndice N° 1)",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Existe documentación de respaldo revisada y analizada por la Comisión de Control durante la ejecución del Hito N° 2, detallada en el Apéndice N° 1 del informe."
+        },
+        "detalle": [
+          {
+            "criterio": "Formato - Hito N° 2 'Ejecución de la capacitación del personal de la ODPE' de 13 de marzo de 2026",
+            "cumple": true,
+            "fuente_ids": [
+              485
+            ]
+          },
+          {
+            "criterio": "Documentación adicional solicitada en el Formato - Hito N° 2 (texto truncado en el documento digitalizado, no completamente identificable)",
+            "cumple": true,
+            "fuente_ids": [
+              487
+            ]
+          }
+        ],
+        "fuente_ids": [
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          828,
+          830,
+          831,
+          866
+        ],
+        "fragmento_evidencia": "La información y documentación que la Comisión de Control ha revisado y analizado durante el desarrollo del Control Concurrente al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE', se encuentra detallada en el Apéndice n.° 1. / La situación adversa identificada en el presente informe se sustenta en la revisión y análisis de la documentación obtenida por la Comisión de Control, la cual ha sido señalada en la condición y se encuentra en el acervo documentario de la Entidad (ODPE Cerro Colorado).",
+        "justificacion": "La sección VI y el Apéndice N° 1 confirman que la Comisión de Control revisó documentación específica como base de sus hallazgos. Es una condición booleana con evidencia documental explícita. Se clasifica como Tipo F porque su función es verificar que existe sustento documental para las conclusiones del hito.",
+        "ambiguedad": "El segundo documento del Apéndice N° 1 aparece truncado en el PDF digitalizado — el texto del campo 'Documento' en el id 487 no es completamente legible más allá de 'solicitada en el Formato - Hito N° 2', lo que impide identificar plenamente qué documento específico es.",
+        "estado_verificacion": "verificado"
+      }
+    ]
+  }
+}

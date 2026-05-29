@@ -126,6 +126,39 @@ Cada variable de Categoría 3 DEBE incluir tres anclajes:
   2. fragmento_evidencia: el texto exacto extraído del documento
   3. justificacion: explicación breve de cómo interpretaste el fragmento
 
+REGLA CRITICA DEL FRAGMENTO DE EVIDENCIA (leer con atencion):
+
+  El fragmento_evidencia debe ser texto COPIADO LITERALMENTE de un solo
+  punto del documento, palabra por palabra, tal como aparece. Es una prueba
+  textual, no un resumen.
+
+  PROHIBIDO en el fragmento_evidencia:
+    - Resumir, acortar o parafrasear el texto.
+    - Usar puntos suspensivos (...) ni el simbolo […] ni [...] para saltar texto.
+    - Unir trozos de partes distintas del documento con barras ( / ),
+      guiones largos (—) ni ningun separador.
+    - Juntar informacion que esta dispersa en varios lugares.
+    - Agregar etiquetas tuyas con dos puntos (por ejemplo "Jefe de ODPE:")
+      si esas etiquetas no estan literales en el documento.
+
+  EN SU LUGAR:
+    - Elige UN solo tramo corto y continuo del documento que respalde la
+      variable, aunque no contenga toda la informacion. Un fragmento corto
+      que existe literal vale mas que uno largo lleno de saltos.
+    - Si la evidencia esta en varios lugares, elige el tramo mas
+      representativo y pon los demas [id] en fuente, no en el fragmento.
+    - El fragmento debe poder encontrarse con un buscar-texto exacto dentro
+      del documento. Si lo que escribiste no se podria encontrar tal cual,
+      esta mal: acortalo a un tramo que si exista literal.
+
+IMPORTANTE: La regla de literalidad del fragmento NO cambia la forma de
+  agrupar variables. Si una metrica tiene 7 items homogeneos (por ejemplo
+  7 situaciones adversas), sigue siendo UNA variable con 7 items en su
+  detalle, NO 7 variables separadas. El fragmento_evidencia de la variable
+  principal solo necesita cubrir la afirmacion global (por ejemplo "se han
+  identificado siete (7) situaciones adversas"). Cada item del detalle
+  tendra sus propios [id] de fuente.
+
 Si la variable tiene detalle interno (lista de items), cada item del detalle
 también puede tener sus propios [id] de fuente.
 
@@ -214,7 +247,9 @@ REGLAS FINALES
 
 1. NO inventes información que no esté en el documento.
 2. NO clasifiques metadata ni marco general en los tipos A-F. Solo Categoría 3.
-3. Preserva los [id] exactos del documento en cada fuente.
+3. Preserva los [id] exactos del documento en cada fuente. Lista los ids
+   de forma INDIVIDUAL, nunca como rango. Si un dato aparece en [847], [850]
+   y [852], escribe esos tres ids, nunca "[847] a [852]" ni "[847]-[852]".
 4. Razona paso a paso. Esta es la fase de razonamiento, no de estructuración.
 5. Si una métrica tiene valor global, detalle y comparación temporal,
    TODO va en la misma variable.

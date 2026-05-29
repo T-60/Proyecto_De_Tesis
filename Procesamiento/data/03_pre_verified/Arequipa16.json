@@ -1,0 +1,898 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central",
+    "filename": "Arequipa16.pdf",
+    "metadata": {
+      "identificador": "N° 5634-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-04-10",
+      "periodo_inicio": "2026-03-30",
+      "periodo_fin": "2026-04-06",
+      "estado_notificacion": "Notificado mediante Oficio N° 000745-2026-CG/GRAR de 10 de abril de 2026 a la Jefa de la ODPE Arequipa. Registrado en ONPE con expediente N° 2026-000180353 el 10 de abril de 2026 a las 10:27:54. Notificado también mediante Oficio N° 000180-2026-CG/OC3599 de 17 de abril de 2026 al Jefe Nacional de la ONPE, a través de Cédula de Notificación Electrónica N° 00000167-2026-CG/3599.",
+      "fuente_ids": [
+        1304,
+        1314,
+        1343,
+        1310,
+        1967,
+        2198,
+        2204,
+        2230,
+        2043,
+        2077
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM",
+        "establece": "Marco normativo del Servicio de Control Simultáneo, incluyendo comunicación de situaciones adversas y reglas de hitos de control",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1347,
+          2050,
+          2207
+        ]
+      },
+      {
+        "codigo": "Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Aprueba la Directiva N° 013-2022-CG/NORM Servicio de Control Simultáneo",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1347,
+          2050
+        ]
+      },
+      {
+        "codigo": "Ley N° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República; artículo 8° regula atribuciones de la Contraloría",
+        "fecha": null,
+        "fuente_ids": [
+          2049,
+          2206
+        ]
+      },
+      {
+        "codigo": "Ley N° 26487",
+        "establece": "Ley Orgánica de la ONPE; artículo 24 establece que las ODPE se conformarán para cada proceso electoral",
+        "fecha": null,
+        "fuente_ids": [
+          1378
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859",
+        "establece": "Ley Orgánica de Elecciones; artículo 39 regula número y organización de ODPE; artículo 49 regula concurso público para Jefes y Coordinadores; artículo 215° prevé el Simulacro del Sistema de Cómputo Electoral",
+        "fecha": null,
+        "fuente_ids": [
+          1379,
+          1382,
+          1869
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 039-2025-PCM",
+        "establece": "Convoca a Elecciones Generales el 12 de abril de 2026",
+        "fecha": "2025-03-26",
+        "fuente_ids": [
+          1380
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para las EG 2026, entre ellas la ODPE Arequipa",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1381
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000132-2025-JN/ONPE",
+        "establece": "Dispone publicación de relación de postulantes aprobados para Jefes y Coordinadores Administrativos de ODPE EG 2026",
+        "fecha": "2025-08-12",
+        "fuente_ids": [
+          1387
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000141-2025-JN/ONPE",
+        "establece": "Conforma 14 ODPE para Elecciones Primarias EG 2026 y designa jefa y coordinadora administrativa de la ODPE Arequipa",
+        "fecha": "2025-09-08",
+        "fuente_ids": [
+          1387
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE",
+        "establece": "Aprueba el Plan Operativo Electoral de las EG 2026 versión 03, incluyendo tarea 2.8.1.8 (simulacro en ODPE) para el 5 de abril de 2026",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1393,
+          1423,
+          1436,
+          1451,
+          1463
+        ]
+      },
+      {
+        "codigo": "Contrato N° 217-2025-ONPE",
+        "establece": "Servicio de habilitación, acondicionamiento y logística informática (SHALI) EG 2026 entre ONPE y Consorcio ADMINISTRADOR DE PROCESOS ELECTORALES CSA por S/ 144 306 000,00",
+        "fecha": "2025-12-12",
+        "fuente_ids": [
+          1475,
+          1497
+        ]
+      },
+      {
+        "codigo": "Procedimiento PRO2-GOECOR/SCE versión 09",
+        "establece": "Establece actividades del Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo y formatos aplicables",
+        "fecha": null,
+        "fuente_ids": [
+          1501,
+          1526,
+          1572
+        ]
+      },
+      {
+        "codigo": "Instructivo IN01-GOECOR/SCE versión 06",
+        "establece": "Establece tareas para el procesamiento de Actas Electorales en el centro de cómputo de la ODPE/ORC",
+        "fecha": null,
+        "fuente_ids": [
+          1572
+        ]
+      },
+      {
+        "codigo": "Procedimiento PRO3-GITE/TI versión 07",
+        "establece": "Establece actividades de recuperación ante inoperatividad de equipos y servicios del centro de cómputo durante procesamiento de actas y transmisión",
+        "fecha": null,
+        "fuente_ids": [
+          1572
+        ]
+      },
+      {
+        "codigo": "OD02-GITE/SCE versión 03",
+        "establece": "Guía de operación del centro de monitoreo de resultados electorales; establece pautas y mecanismos del Centro de Monitoreo en Sede Central",
+        "fecha": null,
+        "fuente_ids": [
+          1574
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000366-2026-CG/GRAR",
+        "establece": "Disposición de la Gerencia Regional de Control Arequipa que origina el presente informe; registrado con orden de servicio n.º 02-L470-2026-085",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          1347
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000073-2026-CG/OC3599",
+        "establece": "Notificación al titular de la entidad del alcance del control concurrente",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          1371
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000112-2026-GOECOR-EG-2026/ONPE",
+        "establece": "Comunica a Jefes de ODPE y Encargados de Cómputo Descentralizado el cronograma de pruebas internas, simulacro y pruebas finales EG 2026, con inicio del simulacro a las 09:30 horas del 5 de abril de 2026",
+        "fecha": "2026-03-29",
+        "fuente_ids": [
+          1530,
+          1608,
+          1570
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situaciones_adversas_hito_2",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control n.° 2",
+        "valor": {
+          "texto": "No se identificaron situaciones adversas en el Hito de Control n.° 2",
+          "estado": "Sin situaciones adversas"
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1934,
+          1935,
+          1948,
+          1960
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 - \"Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Arequipa y Sede Central\", no se han identificado situaciones adversas que afecten o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso de \"Implementación del Centro de Cómputo de la Oficina Descentralizada de Procesos Electorales - Arequipa en el marco de las Elecciones Generales 2026\".",
+        "justificacion": "Esta variable recoge el resultado central del hito de control: la ausencia de situaciones adversas. Es la métrica de seguimiento más importante del proceso de control concurrente.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "situaciones_adversas_hito_1_seguimiento",
+        "tipo": "A",
+        "label": "Situaciones adversas del Hito de Control n.° 1 y su estado en el Hito n.° 2",
+        "valor": {
+          "texto": "3 situaciones adversas identificadas en el Informe de Hito de Control n.° 1 (N° 1543-2026-CG/GRAR-SCC); 0 subsisten en el Hito n.° 2 (todas corregidas)",
+          "estado": "Todas corregidas"
+        },
+        "detalle": [
+          {
+            "texto": "El centro de cómputo de la ODPE Arequipa no contaba con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del centro de cómputo, establecidos en los TDR del SHALI; situación que afectaría la operatividad.",
+            "estado": "Corregida",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1104,
+              1105
+            ]
+          },
+          {
+            "texto": "El grupo electrógeno de la ODPE Arequipa no se encontraba instalado ni conectado al tablero eléctrico del local, y no contaba con tubo de escape direccionado a exteriores; riesgo de no contar con sistema eléctrico de respaldo que afectaría la operatividad.",
+            "estado": "Corregida",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1107,
+              1108
+            ]
+          },
+          {
+            "texto": "El centro de cómputo de la ODPE Arequipa presentaba equipos de cómputo y otros dispositivos en cajas, no instalados; situación que afectaría el funcionamiento y pone en riesgo la operatividad.",
+            "estado": "Corregida",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1110,
+              1111
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          1100,
+          1101,
+          1102,
+          1103,
+          1104,
+          1105,
+          1106,
+          1107,
+          1108,
+          1109,
+          1110,
+          1111
+        ],
+        "fragmento_evidencia": "Número de situaciones adversas identificadas: 3 Número de situaciones adversas que subsisten: 0",
+        "justificacion": "El Apéndice n.° 2 lista las tres situaciones adversas del hito anterior con su estado actual. Todas están corregidas, lo que constituye el dato evolutivo clave entre hitos.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "ejecucion_simulacro_odpe_arequipa",
+        "tipo": "C",
+        "label": "Ejecución del Simulacro del Sistema de Cómputo Electoral en la ODPE Arequipa",
+        "valor": {
+          "categoria": "Ejecutado exitosamente conforme a lo programado",
+          "nota": "El simulacro inició a las 09:30 horas del 5 de abril de 2026. Se completaron todas las actividades previstas: verificación de versión del SCE, puesta a cero, procesamiento de actas de prueba y pruebas de contingencia. El acta de simulacro fue emitida y firmada a las 11:08 horas."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1632,
+          1853,
+          1875
+        ],
+        "fragmento_evidencia": "El Simulacro del Sistema de Cómputo Electoral inicio de acuerdo a lo programado a las 9:30 horas del 5 de abril de 2026, y su desarrollo se encontró a cargo de la ECD, quien dio inicio al citado acto y luego procedió a dar una breve explicación de las actividades que se ejecutarían como parte del simulacro.",
+        "justificacion": "Categoría que describe la condición global de la actividad principal del hito: fue ejecutada conforme a lo programado.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "verificacion_version_sce",
+        "tipo": "F",
+        "label": "Verificación de versión del Sistema de Cómputo Electoral (SCE)",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Reporte de Verificación de Versión Servidor Principal emitido a las 09:48 horas del 5 de abril de 2026 registra código de versión del Software Electoral con estado IGUALES respecto al código de control de valor."
+        },
+        "detalle": [
+          {
+            "criterio": "Código de versión del SCE coincide con el valor de control",
+            "cumple": true,
+            "fuente_ids": [
+              1647,
+              1658,
+              1659
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1634,
+          1643,
+          1647,
+          1658,
+          1659,
+          1695,
+          1059
+        ],
+        "fragmento_evidencia": "Se procedió con la verificación de la versión instalada del Sistema de Cómputo Electoral SCE, corroborando que el código de versión era igual a la versión de control de valor: \"7fef35335d771 b1ec44ef4ad1f2f3ed832337f8b368fe00331 f1 d52 dff4758b\"",
+        "justificacion": "La verificación de versión es una condición booleana: coincide o no coincide. El documento registra explícitamente que coincide (estado IGUALES), respaldado por el reporte del sistema.",
+        "ambiguedad": "El fragmento visual del reporte muestra un código ligeramente distinto en el formato de imagen respecto al texto narrativo, lo que es propio de la digitalización OCR. El estado registrado es IGUALES en ambos casos.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "ejecucion_puesta_a_cero_sce",
+        "tipo": "F",
+        "label": "Ejecución de la Puesta a Cero del SCE",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Reporte de Puesta a Cero generado a las 09:49 horas del 5 de abril de 2026. Se constató la eliminación de registros de la base de datos mediante el SCE. Todos los contadores de actas se encontraban en cero para los cinco tipos de elección. El Acta de Puesta a Cero FM01-GOECOR/SCE fue generada y firmada."
+        },
+        "detalle": [
+          {
+            "criterio": "Contadores de Actas Procesadas en cero para todos los tipos de elección",
+            "cumple": true,
+            "fuente_ids": [
+              1700,
+              1797
+            ]
+          },
+          {
+            "criterio": "Acta de Puesta a Cero FM01-GOECOR/SCE generada y firmada",
+            "cumple": true,
+            "fuente_ids": [
+              1063,
+              1061
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1700,
+          1797,
+          1063,
+          1061
+        ],
+        "fragmento_evidencia": "Seguidamente se procedió con la ejecución del proceso de puesta a cero, generando el Reporte de Puesta a Cero a las 09:49 horas del 5 de abril de 2026, de cuya revisión se constató la eliminación de registros de la base de datos a través del SCE, observándose que los contadores de Actas Procesadas, Actas Enviadas al JEE Por Resolver, Actas enviadas al JEEE Resueltas y Actas Por Resolver y Resueltas, del proceso de Digitación, se encontraban en cero (0)",
+        "justificacion": "La puesta a cero es una condición booleana: los registros fueron eliminados correctamente (contadores en cero) o no. El reporte y el acta son la evidencia documental de que se ejecutó correctamente.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "procesamiento_actas_prueba_funcional",
+        "tipo": "B",
+        "label": "Procesamiento de actas electorales de prueba (Prueba Funcional)",
+        "valor": {
+          "observado": 50,
+          "meta": 50,
+          "estimado": 50,
+          "unidad": "actas procesadas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Presidente y Vicepresidente",
+            "previsto": 10,
+            "real": 10,
+            "fuente_ids": [
+              1801,
+              1807
+            ]
+          },
+          {
+            "subgrupo": "Senadores a Nivel Nacional",
+            "previsto": 10,
+            "real": 10,
+            "fuente_ids": [
+              1807,
+              1808
+            ]
+          },
+          {
+            "subgrupo": "Diputados",
+            "previsto": 10,
+            "real": 10,
+            "fuente_ids": [
+              1808,
+              1809
+            ]
+          },
+          {
+            "subgrupo": "Senadores Regionales",
+            "previsto": 10,
+            "real": 10,
+            "fuente_ids": [
+              1809,
+              1810
+            ]
+          },
+          {
+            "subgrupo": "Parlamento Andino",
+            "previsto": 10,
+            "real": 10,
+            "fuente_ids": [
+              1810,
+              1024
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1802
+        ],
+        "fragmento_evidencia": "se procesaron diez (10) actas para la elección de \"Presidente y Vicepresidente\", diez (10) actas para la elección de \"Senadores a Nivel Nacional\", diez (10) actas para la elección de \"Diputados\", diez (10) actas",
+        "justificacion": "El procesamiento de actas es el avance numérico principal de la prueba funcional. Se tienen valores observados (10 actas por tipo, completadas) versus una meta (10 actas por tipo, conforme al cronograma del simulacro).",
+        "ambiguedad": "El texto continúa con las actas de Senadores Regionales y Parlamento Andino completando las 50 actas totales, pero el fragmento escogido es el tramo continuo más representativo.",
+        "estado_verificacion": "id_corregido",
+        "fuente_ids_original": [
+          1801,
+          1807,
+          1808,
+          1809,
+          1810,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042,
+          1043
+        ]
+      },
+      {
+        "id": "prueba_contingencia_electrica",
+        "tipo": "F",
+        "label": "Prueba de contingencia por indisponibilidad del suministro eléctrico comercial",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Se realizó el corte de fluido eléctrico comercial para dar paso al funcionamiento de la batería de respaldo UPS y el grupo electrógeno. No se presentaron fallas. Resultado registrado como EXITOSO en formato FM07-GITE/TI del 5 de abril de 2026, hora inicio 11:03, hora fin 11:15."
+        },
+        "detalle": [
+          {
+            "criterio": "UPS y grupo electrógeno funcionaron ante corte de suministro eléctrico comercial sin fallas",
+            "cumple": true,
+            "fuente_ids": [
+              1813,
+              1814
+            ]
+          },
+          {
+            "criterio": "SCE continuó operando en todas las estaciones durante la prueba de contingencia",
+            "cumple": true,
+            "fuente_ids": [
+              1841,
+              1847
+            ]
+          },
+          {
+            "criterio": "Resultado registrado como EXITOSO en formato FM07-GITE/TI",
+            "cumple": true,
+            "fuente_ids": [
+              1045,
+              1098
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1813,
+          1814,
+          1045,
+          1046,
+          1047,
+          1048,
+          1049,
+          1050,
+          1051,
+          1052,
+          1053,
+          1054,
+          1841,
+          1847,
+          1098
+        ],
+        "fragmento_evidencia": "se procedió a realizar el corte de fluido eléctrico comercial para dar paso al funcionamiento de la batería de respaldo UPS y el grupo electrógeno, verificando que durante este proceso no se presentaron fallas dando por exitosa la prueba de funcionamiento ante indisponibilidad del suministro eléctrico.",
+        "justificacion": "La prueba de contingencia es una verificación booleana: funciona el sistema de respaldo eléctrico ante la interrupción del suministro comercial o no. El documento establece que el resultado fue EXITOSO y que no se presentaron fallas.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "estado_operativo_equipos_centro_computo",
+        "tipo": "C",
+        "label": "Estado operativo de los equipos informáticos y de telecomunicaciones del Centro de Cómputo",
+        "valor": {
+          "categoria": "Todos los equipos operativos, sin fallas técnicas",
+          "nota": "Durante la ejecución de las pruebas funcionales de contingencia en la ODPE Arequipa se observó que todos los equipos informáticos y de telecomunicaciones se encontraban operativos y no presentaron fallas técnicas."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1847
+        ],
+        "fragmento_evidencia": "durante la ejecución de las pruebas funcionales de contingencia desarrollados en la ODPE Arequipa, se observó que todos lo equipos informáticos y de telecomunicaciones se encontraban operativos y no presentaron fallas técnicas.",
+        "justificacion": "Categoría que describe la condición de los equipos en el momento del hito. No es un valor numérico de avance sino una constatación del estado técnico del centro de cómputo.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "estado_seguridad_infraestructura_centro_computo",
+        "tipo": "C",
+        "label": "Estado de seguridad física e infraestructura del Centro de Cómputo de la ODPE Arequipa",
+        "valor": {
+          "categoria": "Condiciones adecuadas de seguridad física e infraestructura",
+          "nota": "Se verificó que el ambiente del Centro de Cómputo contaba con las medidas de seguridad necesarias para el resguardo y protección física de los recursos tecnológicos. El ambiente de Centro de Cómputo y el de Observadores contaban con tabiquería de separación, paredes, puertas y ventanas en buen estado de conservación."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1932
+        ],
+        "fragmento_evidencia": "se verificó que el ambiente destinado al Centro de Cómputo de la ODPE Arequipa, contaba con las medidas de seguridad necesarias para asegurar el resguardo y protección física de los recursos tecnológicos asignados a la ODPE Arequipa. Asimismo, se verificó que el tanto el ambiente de Centro de Cómputo como el ambiente de Observadores, contaba con tabiquería de separación, paredes, puertas y ventanas en buen estado de conservación.",
+        "justificacion": "Esta variable describe la condición física del ambiente del centro de cómputo, aspecto distinto de la operatividad de los equipos. Su relevancia es mayor en este hito porque en el Hito 1 existían situaciones adversas relacionadas con la instalación física.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "emision_acta_simulacro_sce",
+        "tipo": "F",
+        "label": "Emisión del Acta de Simulacro del Sistema de Cómputo Electoral",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Se emitió el formato FM02-GOECOR/SCE Acta de Simulacro del Sistema de Cómputo Electoral, versión 04, aprobación 29/03/2026, firmada a las 11:08 horas por la Jefa de la ODPE Arequipa y el Fiscalizador de Tecnología Aplicada del JEE. Se entregaron copias al fiscalizador mediante formato FM04-GOECOR/SCE."
+        },
+        "detalle": [
+          {
+            "criterio": "Formato FM02-GOECOR/SCE emitido con detalle de actividades completadas",
+            "cumple": true,
+            "fuente_ids": [
+              1852,
+              1853
+            ]
+          },
+          {
+            "criterio": "Acta firmada por Jefa de ODPE Arequipa y Fiscalizador de Tecnología Aplicada del JEE",
+            "cumple": true,
+            "fuente_ids": [
+              1869,
+              1875,
+              1876
+            ]
+          },
+          {
+            "criterio": "Copias de reportes y formatos entregadas al fiscalizador técnico del JEE mediante FM04-GOECOR/SCE",
+            "cumple": true,
+            "fuente_ids": [
+              1920,
+              1096
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1852,
+          1853,
+          1869,
+          1875,
+          1876,
+          1920,
+          1096,
+          1092
+        ],
+        "fragmento_evidencia": "se procedió con la emisión del formato FM02-GOECOR/SCE \"Acta de Simulacro del Sistema de Cómputo Electoral\", donde se incluyó el detalle de las actividades completadas, las cuales corresponden a Verificación del software electoral, ejecución de puesta a cero, procesamiento de actas electorales de prueba y pruebas de contingencia",
+        "justificacion": "La emisión del acta de simulacro es una condición de verificación requerida por el procedimiento PRO2-GOECOR/SCE como cierre formal del simulacro. El documento acredita que fue emitida, firmada y que las copias fueron entregadas al fiscalizador del JEE.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "emision_informe_ecd",
+        "tipo": "F",
+        "label": "Emisión del Informe del Encargado del Centro de Cómputo Descentralizado (ECD)",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La ECD Zarela Dalinda Pozo Santoyo emitió el Informe n.° 000029-2026-ZPS-ODPEAREQUIPAEG2026/ONPE de 5 de abril de 2026, dirigido a la Jefa de la ODPE Arequipa, informando sobre el desarrollo del simulacro y el resultado de las pruebas funcionales y de contingencia. Remitido mediante el Sistema de Gestión Documental de la ONPE el mismo 5 de abril de 2026."
+        },
+        "detalle": [
+          {
+            "criterio": "Informe emitido por la ECD el mismo día del simulacro",
+            "cumple": true,
+            "fuente_ids": [
+              1925,
+              1926
+            ]
+          },
+          {
+            "criterio": "Informe remitido mediante Sistema de Gestión Documental de la ONPE",
+            "cumple": true,
+            "fuente_ids": [
+              1931,
+              1094
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1925,
+          1926,
+          1931,
+          1094
+        ],
+        "fragmento_evidencia": "la ECD de la ODPE Arequipa emitió el Informe n.° 000029-2026-ZPS-ODPEAREQUIPAEG2026/ONPE de 5 de abril de 2026, dirigido a la jefa de la ODPE Arequipa, donde informó sobre el desarrollo de las actividades del simulacro, así como del resultado de las pruebas funcionales y de contingencia",
+        "justificacion": "La emisión de este informe por la ECD es una condición de verificación requerida por el procedimiento para el cierre del simulacro. Su existencia y remisión oportuna están documentadas.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_comision_control_hito_2",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control del Hito n.° 2",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisor de la Comisión de Control",
+            "fuente_ids": [
+              1978,
+              1971,
+              1972
+            ]
+          },
+          {
+            "nombre": "César José Martin Lema Soncco",
+            "rol": "Jefe de Comisión de la Comisión de Control",
+            "fuente_ids": [
+              1979,
+              1974,
+              1976
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control, Gerencia Regional de Control Arequipa",
+            "fuente_ids": [
+              1983,
+              1981,
+              1982
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1978,
+          1979,
+          1983,
+          1971,
+          1974,
+          1981,
+          2212
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisor Comisión de Control César José Martin Lema Soncco Jefe de Comisión Comisión de Control",
+        "justificacion": "Estos tres actores son los responsables de elaborar, supervisar y aprobar el informe de hito de control. Sus roles son distintos y están identificados explícitamente en el cierre del informe.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_simulacro_odpe_arequipa",
+        "tipo": "D",
+        "label": "Actores del Simulacro en la ODPE Arequipa",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marina Victoria Milagros Reyes Marchena",
+            "rol": "Jefa de la ODPE Arequipa; presente en la Puesta a Cero y firmante del Acta de Simulacro",
+            "fuente_ids": [
+              1797,
+              1869,
+              1885,
+              1887
+            ]
+          },
+          {
+            "nombre": "Zarela Dalinda Pozo Santoyo",
+            "rol": "Encargada del Centro de Cómputo Descentralizado (ECD) de la ODPE Arequipa; condujo el simulacro y emitió el Informe n.° 000029-2026",
+            "fuente_ids": [
+              1617,
+              1682,
+              1889,
+              1925
+            ]
+          },
+          {
+            "nombre": "Gilmer Oscar Yturri Colque",
+            "rol": "Fiscalizador de Tecnología Aplicada del Jurado Electoral Especial (JEE); presente en la Puesta a Cero y firmante del Acta de Simulacro; recibió copias de reportes y formatos",
+            "fuente_ids": [
+              1797,
+              1869,
+              1905,
+              1920
+            ]
+          },
+          {
+            "nombre": "Coordinadora de la ODPE Arequipa (no identificada por nombre)",
+            "rol": "Informó a la Comisión de Control sobre las indicaciones comunicadas al Jefe de ODPE",
+            "fuente_ids": [
+              1608
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1608,
+          1617,
+          1632,
+          1797,
+          1869,
+          1882,
+          1885,
+          1889,
+          1905,
+          1920,
+          1925
+        ],
+        "fragmento_evidencia": "siendo las 09:30 horas del dia 05 del mes de abril del año 2026 se dieron cita en las instalacion la Oficina Descentralizada de Procesos Electorales - ODPE AREQUIPA ubicada en el distr de Arequipa, provincia de Arequipa, departamento de Arequipa, la Srta. Marina Victoria Milagros Reyes Marchena, Jefe de la Oficina Descentralizada de Procesos Electorales y el Sr. Gilmer Oscar Yturri Colque, Fiscalizador de Tecnología Aplicada - JEE",
+        "justificacion": "Estos actores son los participantes directos del evento del simulacro en la ODPE Arequipa. Sus roles son distintos y provienen de secciones distintas del informe.",
+        "ambiguedad": "La Coordinadora de la ODPE no es identificada por nombre en el texto, solo por su función.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "documentacion_control_acceso_centro_computo",
+        "tipo": "F",
+        "label": "Documentación de acceso y control de ingreso al Centro de Cómputo",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Formato FM16-GITE/TI Personal Autorizado publicado en la puerta del Centro de Cómputo con datos de personas autorizadas. Formatos FM17-GITE/TI Registro de Ingreso y Salida disponibles en el ambiente de observadores. Personal del centro de cómputo registró su entrada en el FM17-GITE/TI correspondiente."
+        },
+        "detalle": [
+          {
+            "criterio": "Formato FM16-GITE/TI Personal Autorizado publicado en la puerta del Centro de Cómputo",
+            "cumple": true,
+            "fuente_ids": [
+              1620,
+              1625
+            ]
+          },
+          {
+            "criterio": "Personal del centro de cómputo registró su entrada en el formato FM17-GITE/TI",
+            "cumple": true,
+            "fuente_ids": [
+              1631,
+              1065
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1620,
+          1625,
+          1631,
+          1065
+        ],
+        "fragmento_evidencia": "En la puerta del Centro de Cómputo se encontró publicado el formato FM16-GITE/TI \"Personal Autorizado\", con los datos de las personas autorizadas a ingresar al ambiente propio del centro de cómputo, entre las cuales se encontraban autoridades de la ONPE, operadores y personal de soporte técnico del servicio SHALI.",
+        "justificacion": "La disponibilidad y uso correcto de los formatos de control de acceso es una condición de verificación del procedimiento PRO2-GOECOR/SCE. El documento constata que estaban publicados y que el personal registró su ingreso.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "evaluacion_previa_centro_computo_fm10",
+        "tipo": "F",
+        "label": "Evaluación previa del Centro de Cómputo (formato FM10-GITE/IMO)",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La ECD informó que el Centro de Cómputo de la ODPE Arequipa fue objeto de evaluación previa, emitiéndose el formato FM10-GITE/IMO Evaluación de Centro de Cómputo de 3 de abril de 2026, dos días antes del simulacro."
+        },
+        "detalle": [
+          {
+            "criterio": "Formato FM10-GITE/IMO Evaluación de Centro de Cómputo emitido previamente al simulacro",
+            "cumple": true,
+            "fuente_ids": [
+              1617
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1617
+        ],
+        "fragmento_evidencia": "la Encargada del Centro de Cómputo Descentralizado - ECD, informó que el Centro de Cómputo de la ODPE Arequipa, había sido objeto de evaluación previa, emitiéndose el formato FM10-GITE/IMO \"Evaluación de Centro de Cómputo\", de 3 de abril de 2026.",
+        "justificacion": "La evaluación previa mediante el formato FM10-GITE/IMO es un requisito procedimental anterior al simulacro. El documento constata que fue realizada. Es una condición booleana: se realizó o no se realizó.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "invitaciones_autoridades_simulacro",
+        "tipo": "F",
+        "label": "Invitaciones cursadas a autoridades para presenciar el Simulacro",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La ODPE Arequipa cursó invitaciones al JEE de Arequipa 1 (Oficio n.° 000084-2026), a la Jefatura Regional de RENIEC Arequipa (Oficio n.° 000085-2026) y a personeros técnicos de tres organizaciones políticas (Oficios n.° 000086, 000087 y 000088-2026)."
+        },
+        "detalle": [
+          {
+            "criterio": "Invitación cursada al Jurado Electoral Especial de Arequipa 1",
+            "cumple": true,
+            "fuente_ids": [
+              1612
+            ]
+          },
+          {
+            "criterio": "Invitación cursada a la Jefatura Regional de RENIEC Arequipa",
+            "cumple": true,
+            "fuente_ids": [
+              1612
+            ]
+          },
+          {
+            "criterio": "Invitaciones cursadas a personeros técnicos de organizaciones políticas (Alianza para el Progreso, Perú Primero y Perú Libre)",
+            "cumple": true,
+            "fuente_ids": [
+              1626
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1612,
+          1626
+        ],
+        "fragmento_evidencia": "se verificó que la ODPE Arequipa cursó invitaciones para presenciar el Simulacro del Sistema de Cómputo Electoral al Jurado Electoral Especial de Arequipa 1, mediante oficio n.° 000084-2026-ODPEAREQUIPAEG2026/ONPE de 31 de marzo de 2026 y a la Jefatura Regional de la Registro Nacional de Identificación y Estado Civil - RENIEC Arequipa, mediante oficio n.° 000085-2026-ODPEAREQUIPAEG2026/ONPE de 31 de marzo de 2026",
+        "justificacion": "El envío de invitaciones a las entidades competentes es un requisito procedimental de la organización del simulacro. El documento constata que fueron cursadas, lo que constituye una verificación booleana de cumplimiento.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "narrativa_desarrollo_simulacro_odpe_arequipa",
+        "tipo": "E",
+        "label": "Descripción narrativa del desarrollo del Simulacro del Sistema de Cómputo Electoral",
+        "valor": {
+          "titulo": "Desarrollo del Simulacro del Sistema de Cómputo Electoral en la ODPE Arequipa — 5 de abril de 2026",
+          "cuerpo": "El día 5 de abril de 2026, la Comisión de Control realizó una visita de inspección al local de la ODPE Arequipa para presenciar el desarrollo del Simulacro del Centro de Cómputo Electoral y la operatividad de los equipos informáticos. Las actividades se desarrollaron en los siguientes pasos: (a) Recopilación de información preliminar: entrevista a la Coordinadora de la ODPE y verificación de documentación preparatoria, incluyendo la evaluación previa FM10-GITE/IMO del 3 de abril de 2026, las invitaciones cursadas al JEE y RENIEC, y el formato FM16-GITE/TI de personal autorizado publicado en la puerta. (b) Inicio del simulacro a las 09:30 horas a cargo de la ECD, quien explicó las actividades a ejecutar. (c) Verificación de versión del SCE a las 09:48 horas, corroborando que el código de versión era igual al valor de control (estado IGUALES); seguida de la puesta a cero a las 09:49 horas, constatándose que todos los contadores de actas se encontraban en cero para los cinco tipos de elección. El Acta de Puesta a Cero FM01-GOECOR/SCE fue firmada por la Jefa de la ODPE y el Fiscalizador del JEE. (d) Procesamiento de 50 actas electorales de prueba (10 por cada tipo de elección: Presidente y Vicepresidente, Senadores a Nivel Nacional, Diputados, Senadores Regionales y Parlamento Andino), con digitalización, digitación y control de calidad; generación de cuadros de resultados esperados antes y después del ingreso de resoluciones y reportes de avance de resultados de actas contabilizadas al 0.640%. (e) Pruebas de contingencia entre las 11:03 y 11:15 horas: corte de fluido eléctrico comercial, funcionamiento de UPS y grupo electrógeno sin fallas, verificación de que el SCE continuó operando en todas las estaciones; resultado registrado como EXITOSO en el formato FM07-GITE/TI. (f) Emisión del Acta de Simulacro FM02-GOECOR/SCE con las actividades completadas, firmada a las 11:08 horas por la Jefa de la ODPE y el Fiscalizador del JEE; entrega de copias al fiscalizador mediante el formato FM04-GOECOR/SCE. (g) Emisión del Informe n.° 000029-2026-ZPS-ODPEAREQUIPAEG2026/ONPE por la ECD el mismo 5 de abril de 2026. Se verificó asimismo que todos los equipos informáticos y de telecomunicaciones se encontraban operativos sin fallas técnicas, y que el ambiente del centro de cómputo contaba con las medidas de seguridad físicas necesarias."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1605,
+          1606,
+          1607,
+          1608,
+          1612,
+          1617,
+          1619,
+          1620,
+          1625,
+          1631,
+          1632,
+          1633,
+          1634,
+          1700,
+          1797,
+          1801,
+          1807,
+          1808,
+          1813,
+          1814,
+          1852,
+          1853,
+          1920,
+          1924,
+          1925,
+          1931,
+          1932
+        ],
+        "fragmento_evidencia": "El día 5 de abril de 2026, la Comisión de Control realizó una visita de inspección al local de la ODPE Arequipa, a fin de presenciar el desarrollo del Simulacro del Centro de Cómputo Electoral y la operatividad de los equipos informáticos, según se resume a continuación:",
+        "justificacion": "La sección IV del informe contiene una narrativa estructurada y extensa sobre el desarrollo paso a paso del simulacro. Es un texto con título identificable y cuerpo extenso que sintetiza la observación directa de la Comisión de Control. Se distingue de las variables de verificación por ser una descripción integral del evento.",
+        "ambiguedad": "Esta variable narrativa es intencionalmente comprehensiva; sus subtemas se extraen también como variables independientes (Variables 4 a 11 y 14 a 16) para permitir su seguimiento granular entre hitos.",
+        "estado_verificacion": "verificado"
+      }
+    ],
+    "resumen_verificacion": {
+      "verificado": 16,
+      "id_corregido": 1,
+      "requiere_verificacion_llm": 0,
+      "omitido_sin_evidencia": 0
+    }
+  }
+}

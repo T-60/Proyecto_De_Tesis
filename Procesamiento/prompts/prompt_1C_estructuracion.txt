@@ -107,6 +107,13 @@ REGLAS
    sin los corchetes, como numeros en los arrays fuente_ids.
 3. Cada variable conserva sus tres anclajes: fuente_ids, fragmento_evidencia,
    justificacion.
+   REGLA DEL FRAGMENTO: el fragmento_evidencia debe ser texto literal y
+   continuo, copiado tal cual. PROHIBIDO usar puntos suspensivos (...),
+   el simbolo [...], barras ( / ) o guiones largos para unir o saltar texto.
+   Si el razonamiento trae un fragmento con esas marcas de resumen, NO lo
+   copies asi: quedate solo con el primer tramo continuo y literal que
+   aparezca, y deja los demas ids en fuente_ids. El fragmento debe poder
+   encontrarse con un buscar-texto exacto en el documento.
 4. Si una variable del razonamiento tiene detalle (lista de items), pasalo
    al campo detalle con la forma que corresponde a su tipo.
 5. Si un campo no tiene valor en el razonamiento, usa null. No inventes.

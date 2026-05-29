@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 INPUT_DIR = Path('data/jsons')
-OUTPUT_DIR = Path('data/simplified')
+OUTPUT_DIR = Path('data/00_simplified')
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 

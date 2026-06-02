@@ -3,7 +3,7 @@
     "id": "odpe_cerro_colorado",
     "label": "ODPE Cerro Colorado",
     "vocabulario": {
-      "instancia": "ODPE",
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
       "momento": "Hito de Control"
     }
   },
@@ -13,29 +13,28 @@
     "label": "Hito de Control N° 2: Despliegue y Repliegue del Material Electoral a los Locales de Votación",
     "filename": "Arequipa12.pdf",
     "metadata": {
-      "identificador": "5781-2026-CG/GRAR-SCC",
+      "identificador": "Informe de Hito de Control N° 5781-2026-CG/GRAR-SCC",
       "fecha_emision": "2026-04-22",
       "periodo_inicio": "2026-04-09",
       "periodo_fin": "2026-04-17",
-      "estado_notificacion": "Notificado. Oficio N° 000856-2026-CG/GRAR enviado al Jefe de la ODPE Cerro Colorado el 22 de abril de 2026, expediente N° 2026-000194855 a las 14:52:21 horas. Oficio N° 000198-2026-CG/OC3599 de 28 de abril de 2026 notificó al Jefe Nacional (I) de la ONPE mediante cédula electrónica N° 00000184-2026-CG/3599.",
+      "estado_notificacion": "Notificado el 22 de abril de 2026 mediante Oficio N° 000856-2026-CG/GRAR, con expediente N° 2026-000194855 registrado en la ONPE a las 14:52:21",
       "fuente_ids": [
         1068,
+        1073,
         1075,
         1079,
         1104,
+        1129,
         1639,
         1646,
         1674,
-        1675,
-        1475,
-        1478,
-        1515
+        1675
       ]
     },
     "marco_general": [
       {
         "codigo": "Directiva N° 013-2022-CG/NORM",
-        "establece": "Regula el Servicio de Control Simultáneo, incluyendo el Control Concurrente, los Hitos de Control y la comunicación al titular de la entidad sobre situaciones adversas",
+        "establece": "Marco normativo que regula los servicios de control simultáneo, incluyendo la comunicación de situaciones adversas al titular de la entidad",
         "fecha": "2022-05-30",
         "fuente_ids": [
           1108,
@@ -44,17 +43,8 @@
         ]
       },
       {
-        "codigo": "Resolución de Contraloría N° 218-2022-CG",
-        "establece": "Aprueba la Directiva N° 013-2022-CG/NORM 'Servicio de Control Simultáneo'",
-        "fecha": "2022-05-30",
-        "fuente_ids": [
-          1108,
-          1649
-        ]
-      },
-      {
         "codigo": "Ley N° 27785",
-        "establece": "Establece las competencias del Sistema Nacional de Control y de la Contraloría General de la República; sustenta la comunicación de situaciones adversas",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República; artículo 8° regula el servicio de Control Simultáneo",
         "fecha": null,
         "fuente_ids": [
           1480,
@@ -63,7 +53,7 @@
       },
       {
         "codigo": "Decreto Supremo N° 039-2025-PCM",
-        "establece": "Convocó a Elecciones Generales 2026 para el 12 de abril de 2026",
+        "establece": "Convocó a Elecciones Generales 2026 para el domingo 12 de abril de 2026",
         "fecha": "2025-03-25",
         "fuente_ids": [
           1137
@@ -71,7 +61,7 @@
       },
       {
         "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
-        "establece": "Aprobó la conformación de 126 Oficinas Descentralizadas de Procesos Electorales para las Elecciones Generales 2026",
+        "establece": "Aprobó la conformación de 126 ODPE para la organización y ejecución de las Elecciones Generales 2026",
         "fecha": "2025-08-01",
         "fuente_ids": [
           1138
@@ -79,17 +69,16 @@
       },
       {
         "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE",
-        "establece": "Aprueba el Plan Operativo Electoral de las Elecciones Generales 2026 (Versión N° 03), incluyendo tareas de despliegue y repliegue del material electoral",
+        "establece": "Aprobó el Plan Operativo Electoral EG 2026 Versión N° 03, que establece actividades operativas y tareas de obligatorio cumplimiento",
         "fecha": "2025-12-31",
         "fuente_ids": [
           1139,
-          1142,
           1187
         ]
       },
       {
         "codigo": "Instructivo IN02-GAD/LOG versión 09",
-        "establece": "Regula la contratación de personas naturales o jurídicas para servicios de transporte para despliegue y repliegue de material electoral",
+        "establece": "Regula la contratación de bienes y servicios de las ODPE, incluyendo servicios de transporte para despliegue y repliegue",
         "fecha": null,
         "fuente_ids": [
           1190
@@ -97,7 +86,7 @@
       },
       {
         "codigo": "Instructivo IN05-GGE/DMS versión 03",
-        "establece": "Regula el procedimiento de despliegue del material electoral desde la sede de las ODPE hacia los locales de votación",
+        "establece": "Regula el procedimiento de despliegue del material electoral desde la sede de la ODPE a los locales de votación",
         "fecha": null,
         "fuente_ids": [
           1197
@@ -105,35 +94,110 @@
       },
       {
         "codigo": "Instructivo IN01-GOECOR/RME versión 04",
-        "establece": "Regula el procedimiento de repliegue del material y documentos electorales desde los locales de votación hasta la sede ODPE",
+        "establece": "Regula el procedimiento de repliegue de documentos, equipos y material electoral desde el local de votación hasta la sede ODPE",
         "fecha": null,
         "fuente_ids": [
           1197
         ]
       },
       {
-        "codigo": "Ley N° 26487, artículo 24°",
-        "establece": "Establece la base legal para la conformación de las ODPE por parte de la ONPE",
-        "fecha": null,
+        "codigo": "Oficio N° 576-2026-CG/GRAR",
+        "establece": "Dispuso la ejecución del servicio de Control Concurrente por parte de la Gerencia Regional de Control de Arequipa",
+        "fecha": "2026-03-25",
         "fuente_ids": [
-          1138
+          1108
         ]
       },
       {
-        "codigo": "Oficio N° 576-2026-CG/GRAR",
-        "establece": "Dispone la ejecución del presente servicio de Control Concurrente por parte de la Gerencia Regional de Control de Arequipa",
-        "fecha": "2026-03-25",
+        "codigo": "Ley N° 26487 artículo 24°",
+        "establece": "Base legal que sustenta la conformación de las ODPE por parte de la ONPE",
+        "fecha": null,
         "fuente_ids": [
-          1108,
-          1132
+          1138
         ]
       }
     ],
     "variables": [
       {
-        "id": "despliegue_repliegue_material_electoral",
+        "id": "contratos_despliegue_repliegue",
+        "tipo": "D",
+        "label": "Contratos de servicio de despliegue y repliegue suscritos por la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Zegarra Transportes, Servicios y Representaciones S.A.C.",
+            "rol": "Contratista — Contrato N° 012-2026-ODPE CERRO COLORADO/EG 2026 — Ruta Suroeste/Oeste — Fecha: 07/04/2026",
+            "fuente_ids": [
+              656,
+              657,
+              658,
+              659
+            ]
+          },
+          {
+            "nombre": "Andina Travel Service & Adventures S.R.L.",
+            "rol": "Contratista — Contrato N° 013-2026-ODPE CERRO COLORADO/EG 2026 — Ruta Noreste — Fecha: 07/04/2026",
+            "fuente_ids": [
+              660,
+              661,
+              662,
+              663
+            ]
+          },
+          {
+            "nombre": "Mosam Transtuserv S.R.L.",
+            "rol": "Contratista — Contrato N° 014-2026-ODPE CERRO COLORADO/EG 2026 — Ruta Suroeste — Fecha: 07/04/2026",
+            "fuente_ids": [
+              664,
+              665,
+              666,
+              667
+            ]
+          },
+          {
+            "nombre": "Gloria Rocío Herrera Nieto",
+            "rol": "Contratista — Contrato N° 015-2026-ODPE CERRO COLORADO/EG 2026 — Ruta Norte — Fecha: 07/04/2026",
+            "fuente_ids": [
+              668,
+              669,
+              670,
+              671
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1211,
+          1216,
+          1217,
+          656,
+          657,
+          658,
+          659,
+          660,
+          661,
+          662,
+          663,
+          664,
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675
+        ],
+        "fragmento_evidencia": "la ODPE Cerro Colorado, suscribió cuatro (4) contratos con el detalle siguiente:",
+        "justificacion": "El documento presenta un cuadro con los cuatro contratos, identificando para cada uno el número de contrato, la fecha, la ruta y el contratista. Estos son los actores que participan en la ejecución del hito como prestadores del servicio contratado.",
+        "ambiguedad": "La ruta del contrato 013 aparece como 'NoresteR' en el cuadro [667], lo que puede ser un error tipográfico del documento original (probablemente 'Noreste')."
+      },
+      {
+        "id": "despliegue_material_electoral",
         "tipo": "B",
-        "label": "Despliegue y repliegue del material electoral a locales de votación",
+        "label": "Despliegue del material electoral a locales de votación",
         "valor": {
           "observado": 137,
           "meta": 137,
@@ -146,7 +210,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              677
+              677,
+              678
             ]
           },
           {
@@ -154,7 +219,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              678
+              679,
+              680
             ]
           },
           {
@@ -162,7 +228,8 @@
             "previsto": null,
             "real": 3,
             "fuente_ids": [
-              679
+              681,
+              682
             ]
           },
           {
@@ -170,7 +237,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              680
+              683,
+              684
             ]
           },
           {
@@ -178,7 +246,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              681
+              685,
+              686
             ]
           },
           {
@@ -186,7 +255,8 @@
             "previsto": null,
             "real": 8,
             "fuente_ids": [
-              682
+              687,
+              688
             ]
           },
           {
@@ -194,7 +264,8 @@
             "previsto": null,
             "real": 6,
             "fuente_ids": [
-              683
+              689,
+              690
             ]
           },
           {
@@ -202,7 +273,8 @@
             "previsto": null,
             "real": 7,
             "fuente_ids": [
-              684
+              691,
+              692
             ]
           },
           {
@@ -210,7 +282,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              685
+              693,
+              694
             ]
           },
           {
@@ -218,7 +291,8 @@
             "previsto": null,
             "real": 7,
             "fuente_ids": [
-              686
+              695,
+              696
             ]
           },
           {
@@ -226,7 +300,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              687
+              697,
+              698
             ]
           },
           {
@@ -234,7 +309,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              688
+              699,
+              700
             ]
           },
           {
@@ -242,7 +318,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              689
+              701,
+              702
             ]
           },
           {
@@ -250,7 +327,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              690
+              703,
+              704
             ]
           },
           {
@@ -258,7 +336,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              691
+              705,
+              706
             ]
           },
           {
@@ -266,7 +345,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              692
+              707,
+              708
             ]
           },
           {
@@ -274,7 +354,8 @@
             "previsto": null,
             "real": 13,
             "fuente_ids": [
-              693
+              709,
+              710
             ]
           },
           {
@@ -282,7 +363,8 @@
             "previsto": null,
             "real": 7,
             "fuente_ids": [
-              694
+              711,
+              712
             ]
           },
           {
@@ -290,7 +372,8 @@
             "previsto": null,
             "real": 9,
             "fuente_ids": [
-              695
+              713,
+              714
             ]
           },
           {
@@ -298,7 +381,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              696
+              715,
+              716
             ]
           },
           {
@@ -306,7 +390,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              697
+              717,
+              718
             ]
           },
           {
@@ -314,7 +399,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              698
+              719,
+              720
             ]
           },
           {
@@ -322,7 +408,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              699
+              721,
+              722
             ]
           },
           {
@@ -330,7 +417,8 @@
             "previsto": null,
             "real": 7,
             "fuente_ids": [
-              700
+              723,
+              724
             ]
           },
           {
@@ -338,7 +426,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              701
+              725,
+              726
             ]
           },
           {
@@ -346,7 +435,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              702
+              727,
+              728
             ]
           },
           {
@@ -354,7 +444,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              703
+              729,
+              730
             ]
           },
           {
@@ -362,7 +453,8 @@
             "previsto": null,
             "real": null,
             "fuente_ids": [
-              704
+              731,
+              732
             ]
           },
           {
@@ -370,7 +462,8 @@
             "previsto": null,
             "real": 8,
             "fuente_ids": [
-              705
+              733,
+              734
             ]
           },
           {
@@ -378,7 +471,8 @@
             "previsto": null,
             "real": 1,
             "fuente_ids": [
-              706
+              735,
+              736
             ]
           },
           {
@@ -386,15 +480,14 @@
             "previsto": null,
             "real": 10,
             "fuente_ids": [
-              707
+              737,
+              738
             ]
           }
         ],
         "fuente_ids": [
           1232,
           1233,
-          1268,
-          1269,
           677,
           678,
           679,
@@ -456,165 +549,41 @@
           735,
           736,
           737,
-          738,
-          739,
-          740,
-          741,
-          742,
-          743,
-          744,
-          745,
-          746,
-          747,
-          748,
-          749,
-          750,
-          751,
-          752,
-          753,
-          754,
-          755,
-          756,
-          757,
-          758,
-          759,
-          760,
-          761,
-          762,
-          763,
-          764,
-          765,
-          766,
-          767,
-          768,
-          769,
-          770,
-          771,
-          772,
-          773,
-          774,
-          775,
-          776,
-          777,
-          778,
-          779,
-          780,
-          781,
-          782,
-          783,
-          784,
-          785,
-          786,
-          787,
-          788,
-          789,
-          790,
-          791,
-          792,
-          793,
-          794,
-          795,
-          796,
-          797,
-          798,
-          799,
-          800,
-          801,
-          802
+          738
         ],
-        "fragmento_evidencia": "el día 11 de abril de 2026, la ODPE Cerro Colorado realizó el despliegue del material electoral vía terrestre a sus ciento treinta y siete (137) locales de votación [...] El repliegue del material electoral, consiste en el traslado de los documentos electorales [...] la cual fue realizada por la ODPE Cerro Colorado del 12 al 13 de abril del 2026.",
-        "justificacion": "Variable de progreso que registra el avance cuantitativo de la operación de despliegue hacia una meta definida (137 locales), con detalle por ruta. El despliegue y repliegue corresponden a la misma operación logística dentro del mismo hito.",
-        "ambiguedad": "Algunas celdas del Cuadro N° 3 no contienen valores numéricos legibles (rutas 5, 11, 14, 15, 16, 20, 21, 27, 28), posiblemente por problemas de escaneo o por valor implícito en la fila."
+        "fragmento_evidencia": "el día 11 de abril de 2026, la ODPE Cerro Colorado realizó el despliegue del material electoral vía terrestre a sus ciento treinta y siete (137) locales de votación",
+        "justificacion": "El documento reporta la ejecución completa del despliegue en una sola fecha (11/04/2026) hacia 137 locales, con detalle por ruta en el Cuadro N° 3. Se trata de un dato de progreso con meta definida (137 locales) que se verifica completado en este hito.",
+        "ambiguedad": "Varias rutas tienen la cantidad de locales ilegible en el documento digitalizado (campos vacíos o no capturados en el OCR), por lo que el detalle individual de esas rutas es incompleto. El total de 137 sí está explícito en el texto narrativo."
       },
       {
-        "id": "contratos_servicio_transporte",
-        "tipo": "D",
-        "label": "Contratos suscritos para el servicio de despliegue y repliegue",
-        "valor": null,
-        "detalle": [
-          {
-            "nombre": "Zegarra Transportes, Servicios y Representaciones S.A.C. — Contrato 012-2026-ODPE CERRO COLORADO/EG 2026",
-            "rol": "Proveedor del servicio de transporte terrestre para despliegue y repliegue — Ruta Suroeste/Oeste — Firmado el 07/04/2026",
-            "fuente_ids": [
-              660,
-              661,
-              662,
-              663
-            ]
-          },
-          {
-            "nombre": "Andina Travel Service & Adventures S.R.L. — Contrato 013-2026-ODPE CERRO COLORADO/EG 2026",
-            "rol": "Proveedor del servicio de transporte terrestre para despliegue y repliegue — Ruta Noreste — Firmado el 07/04/2026",
-            "fuente_ids": [
-              664,
-              665,
-              666,
-              667
-            ]
-          },
-          {
-            "nombre": "Mosam Transtuserv S.R.L. — Contrato 014-2026-ODPE CERRO COLORADO/EG 2026",
-            "rol": "Proveedor del servicio de transporte terrestre para despliegue y repliegue — Ruta Suroeste — Firmado el 07/04/2026",
-            "fuente_ids": [
-              668,
-              669,
-              670,
-              671
-            ]
-          },
-          {
-            "nombre": "Gloria Rocío Herrera Nieto — Contrato 015-2026-ODPE CERRO COLORADO/EG 2026",
-            "rol": "Proveedora (persona natural) del servicio de transporte terrestre para despliegue y repliegue — Ruta Norte — Firmado el 07/04/2026",
-            "fuente_ids": [
-              672,
-              673,
-              674,
-              675
-            ]
-          }
-        ],
+        "id": "repliegue_material_electoral",
+        "tipo": "C",
+        "label": "Repliegue del material electoral",
+        "valor": {
+          "categoria": "Ejecutado",
+          "nota": "El repliegue fue realizado por la ODPE Cerro Colorado del 12 al 13 de abril de 2026, consistiendo en el traslado de documentos electorales y material electoral desde los locales de votación hasta la sede de la ODPE."
+        },
+        "detalle": [],
         "fuente_ids": [
-          1211,
-          1216,
-          1217,
-          1225,
-          656,
-          657,
-          658,
-          659,
-          660,
-          661,
-          662,
-          663,
-          664,
-          665,
-          666,
-          667,
-          668,
-          669,
-          670,
-          671,
-          672,
-          673,
-          674,
-          675
+          1268,
+          1269
         ],
-        "fragmento_evidencia": "la ODPE Cerro Colorado, suscribió cuatro (4) contratos con el detalle siguiente: [Cuadro N° 2 Relación de contratistas que efectuaron el servicio de despliegue y repliegue de la ODPE Cerro Colorado]",
-        "justificacion": "Los cuatro contratos son actores relacionales que participan en el proceso con el rol específico de proveedores del servicio. Se agrupan en una variable relacional porque comparten la misma estructura semántica y responden a la pregunta de quiénes ejecutaron el servicio.",
-        "ambiguedad": null
+        "fragmento_evidencia": "El repliegue del material electoral, consiste en el traslado de los documentos electorales (en sus respectivos sobres cerrados, en el caso de las actas electorales) у del material electoral, desde los locales de votación hasta la sede de la ODPE; la cual fue realizada por la ODPE Cerro Colorado del 12 al 13 de abril del 2026.",
+        "justificacion": "El documento confirma la ejecución del repliegue con fechas concretas. No hay indicación de problemas en el repliegue en sí mismo, solo en la etapa de despliegue y en la documentación de los contratistas.",
+        "ambiguedad": "No se indica el número de locales atendidos en el repliegue ni si fue al 100% de los 137 locales."
       },
       {
         "id": "situacion_adversa_vehiculos_conductores_no_autorizados",
         "tipo": "A",
-        "label": "Situación adversa: uso de vehículos y conductores no autorizados en el servicio de despliegue y repliegue",
+        "label": "Situación adversa: contratistas ejecutaron servicio con vehículos y conductores no autorizados",
         "valor": {
-          "texto": "Los contratistas ejecutaron el servicio de despliegue y repliegue con algunos vehículos y conductores diferentes a los consignados en la documentación contractual, sin que la ODPE Cerro Colorado hubiera autorizado formalmente dichos cambios. Esto afectaría el otorgamiento de conformidad a los servicios contratados.",
-          "estado": "Abierta / comunicada. No resuelta en este hito. Se recomienda acción correctiva al Jefe Nacional de la ONPE."
+          "texto": "Los contratistas efectuaron el servicio de despliegue y repliegue con algunos vehículos y conductores diferentes a los presentados para la suscripción del contrato, sin contar con la autorización previa de la ODPE Cerro Colorado, lo que afectaría el otorgamiento de conformidad a los servicios contratados.",
+          "estado": "Abierta — Identificada y comunicada en este hito. La ONPE debe informar acciones preventivas o correctivas en un plazo de 5 días hábiles."
         },
         "detalle": [
           {
-            "texto": "El 10 de abril de 2026, los cuatro contratistas presentaron solicitudes de reemplazo de vehículos y conductores. La ODPE no dio respuesta formal ni autorizó los cambios. Cambios solicitados por Zegarra Transportes: F7O 956→D4S 195, C5S 955→V8X 969, VOI 761→VBP 958, V7N 953→B6C 954, C4C 958→D5J 961, DBU 964→BUZ 229, EETQ→JETV (con sus respectivos conductores). Andina Travel: BUZ 229→V2T 968, X8U 962→no especificado. Mosam Transtuserv: VDC 959→CXD 048, VBR 968→no especificado. Gloria Rocío Herrera Nieto: CXD 048→VDP 958, D5R 967→VBR 968, CXC 168→no especificado, no especificado→VAW 964.",
-            "estado": "Solicitudes presentadas sin respuesta ni autorización formal de la ODPE",
+            "texto": "Solicitudes de cambio de vehículos y conductores sin respuesta de la ODPE: El 10 de abril de 2026, los cuatro contratistas presentaron documentos solicitando cambio de vehículos y conductores, alegando que los reemplazantes cumplían los TDR. La ODPE no dio respuesta ni autorizó formalmente el reemplazo. Zegarra Transportes solicitó cambios en 8 pares vehículo/conductor; Andina Travel en 2; Mosam Transtuserv en 2; Gloria Rocío Herrera Nieto en 4.",
+            "estado": "Incumplimiento identificado — ODPE no autorizó formalmente los reemplazos",
             "desde_momento": null,
             "fuente_ids": [
               1271,
@@ -623,21 +592,33 @@
               1287,
               1292,
               1297,
-              1298
+              1298,
+              1316,
+              1321,
+              1329
             ]
           },
           {
-            "texto": "Durante las visitas de inspección a 10 locales de votación el 11 y 12 de abril de 2026, la Comisión de Control verificó que el conductor de iniciales WVP, quien ejecutó el servicio en la ruta Noreste (ruta 14 - Cayma Zona 2A), no figuraba ni en la relación inicial de conductores ni en la solicitud de reemplazo del contratista. El Asistente Logístico confirmó que no existe solicitud formal ni autorización expresa de la ODPE Cerro Colorado en el expediente.",
-            "estado": "Verificado en campo; sin regularización documentada en el expediente",
+            "texto": "Conductor no comunicado a la ODPE (ruta Noreste): Durante visitas de inspección del 11 y 12 de abril a 10 locales de votación, se evidenció que el conductor de iniciales WVP, quien ejecutó el servicio en la ruta Noreste (ruta 14, Cayma Zona 2A), no figuraba ni en la relación inicial ni en la solicitud de reemplazo presentada por el contratista. El Asistente Logístico confirmó que no existe solicitud formal ni autorización expresa para este conductor.",
+            "estado": "Incumplimiento identificado — conductor ejecutó servicio sin ningún tipo de comunicación ni autorización",
             "desde_momento": null,
             "fuente_ids": [
-              1309,
-              1311,
-              1316,
-              1321,
-              1328,
-              1329,
-              1330
+              1390,
+              1396,
+              1400,
+              1401,
+              1402
+            ]
+          },
+          {
+            "texto": "Criterio incumplido según TDR y contratos: Los Términos de Referencia de las cuatro rutas y el Contrato N° 013-2026-ODPE CERRO COLORADO/EG 2026 exigen autorización previa de la ODPE para cualquier reemplazo de vehículos, inspección física y entrega de documentación del vehículo reemplazante, con plazo máximo de 24 horas antes del inicio del servicio.",
+            "estado": "Incumplimiento contractual — consecuencia: afectaría el otorgamiento de conformidad a los servicios contratados",
+            "desde_momento": null,
+            "fuente_ids": [
+              1330,
+              1331,
+              1346,
+              1358
             ]
           }
         ],
@@ -649,13 +630,15 @@
           1292,
           1297,
           1298,
-          1309,
-          1311,
           1316,
           1321,
-          1328,
           1329,
           1330,
+          1331,
+          1346,
+          1358,
+          1390,
+          1396,
           1400,
           1401,
           1402,
@@ -742,38 +725,47 @@
           884,
           885
         ],
-        "fragmento_evidencia": "el 10 de abril de 2026, la ODPE Cerro Colorado recibió cuatro (4) documentos de los contratistas en la que solicitaban cambio de algunos vehículos de su propuesta inicial [...] la ODPE no dio respuesta a las solicitudes; es decir, no habría autorizado el reemplazo de los vehículos [...] el conductor de iniciales WVP, quien efectuó el servicio de despliegue y repliegue del material electoral de la ruta Noreste (ruta 14 Cayma Zona 2A), no se encontraba en la relación inicial de conductores propuestos para la ejecución del servicio, ni en la solicitud de reemplazo presentada por el contratista [...] el Asistente Logístico afirmó que no cuenta con solicitud formal en el expediente de la empresa responsable, ni con autorización expresa de la ODPE Cerro Colorado",
-        "justificacion": "Única situación adversa del hito, integra dos hallazgos relacionados con el mismo problema de fondo (uso de recursos no autorizados). Tipo A porque tiene descripción narrativa, estado abierto y es susceptible de evolución en hitos posteriores donde la ONPE deberá reportar acciones correctivas.",
-        "ambiguedad": "El Cuadro N° 4 usa iniciales para los conductores, no nombres completos. Algunos valores del cuadro de cambios de Andina Travel Service y Mosam Transtuserv no son completamente legibles en la digitalización."
+        "fragmento_evidencia": "si bien los contratistas solicitaron el reemplazo de vehículos y conductores veinticuatro (24) horas antes de que se realice el servicio de despliegue, la ODPE no dio respuesta a las solicitudes; es decir, no habría autorizado el reemplazo de los vehículos.",
+        "justificacion": "Esta es la situación adversa central del hito. Agrupa dos subcondiciones relacionadas (cambios solicitados sin autorización y cambio no comunicado del conductor WVP) porque ambas responden a la misma pregunta conceptual: si los contratistas ejecutaron el servicio con los vehículos y conductores contratados originalmente y conforme a los procedimientos de reemplazo establecidos. El estado es abierto porque la comisión lo reporta para que la ONPE adopte acciones.",
+        "ambiguedad": "El Cuadro N° 4 presenta las iniciales de los conductores en lugar de sus nombres completos, lo que limita la identificación plena de los actores. Además, algunas celdas del cuadro parecen incompletas en el OCR."
       },
       {
-        "id": "estado_situaciones_adversas_hito_anterior",
-        "tipo": "C",
-        "label": "Estado de las situaciones adversas del hito anterior",
+        "id": "cumplimiento_acciones_hito_anterior",
+        "tipo": "F",
+        "label": "Reporte de avance ante situaciones adversas en hito anterior",
         "valor": {
-          "categoria": "Resueltas",
-          "nota": "La entidad adoptó todas las acciones preventivas y correctivas correspondientes a las situaciones adversas del Informe de Hito de Control anterior (Hito N° 1). El documento no detalla el contenido de dichas situaciones ni las acciones específicas adoptadas."
+          "booleano": true,
+          "evidencia": "La comisión de control efectuó la revisión correspondiente y advirtió que la ODPE cumplió con todas las acciones preventivas y correctivas requeridas del hito anterior."
         },
-        "detalle": [],
+        "detalle": [
+          {
+            "criterio": "Adopción de todas las acciones preventivas y correctivas del hito anterior",
+            "cumple": true,
+            "fuente_ids": [
+              1416,
+              1418
+            ]
+          }
+        ],
         "fuente_ids": [
           1416,
           1418
         ],
         "fragmento_evidencia": "Efectuada la revisión correspondiente, se advierte que la Entidad ha adoptado todas las acciones preventivas y correctivas correspondientes a las situaciones adversas contenidas en el Informe de Hito de Control Anterior.",
-        "justificacion": "Variable de estado que describe la condición de las situaciones adversas previas en el momento actual. No es seguimiento de las situaciones en sí, sino una categoría descriptiva sobre su resolución.",
-        "ambiguedad": "El documento no identifica el número del Hito de Control anterior ni el número de situaciones adversas que contenía, lo que impide rastrear el detalle de lo resuelto."
+        "justificacion": "La sección VIII del informe confirma el cumplimiento de las acciones del hito precedente, lo que constituye una verificación binaria (sí/no) con respaldo en la revisión documentaria de la comisión.",
+        "ambiguedad": "No se especifica cuántas situaciones adversas tenía el hito anterior ni cuáles eran; solo se confirma el estado de cumplimiento total."
       },
       {
         "id": "emision_reporte_avance_situaciones_adversas",
         "tipo": "F",
-        "label": "Emisión de reporte de avance ante situaciones adversas",
+        "label": "Emisión de Reporte de Avance ante Situaciones Adversas durante el hito",
         "valor": {
           "booleano": false,
-          "evidencia": "El informe declara expresamente en su sección VII que la Comisión de Control no emitió Reporte de avance ante Situaciones Adversas durante la ejecución del presente Servicio de Control Concurrente."
+          "evidencia": "La Comisión de Control declaró explícitamente que no emitió ningún Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de Control Concurrente."
         },
         "detalle": [
           {
-            "criterio": "Emisión de Reporte de avance ante Situaciones Adversas durante el servicio",
+            "criterio": "Emisión de Reporte de Avance ante Situaciones Adversas durante la ejecución del servicio",
             "cumple": false,
             "fuente_ids": [
               1411,
@@ -786,19 +778,20 @@
           1412
         ],
         "fragmento_evidencia": "Durante la ejecución del presente Servicio del Control Concurrente, la Comisión de Control no emitió Reporte de avance ante Situaciones Adversas.",
-        "justificacion": "Condición booleana verificable: o se emitió o no se emitió el reporte de avance. El documento lo niega explícitamente, lo que tiene relevancia para el seguimiento del proceso.",
+        "justificacion": "Esta verificación es relevante porque indica que la situación adversa identificada no generó un reporte de avance intermedio; fue documentada directamente en el informe de hito.",
         "ambiguedad": null
       },
       {
-        "id": "actores_comision_de_control",
+        "id": "actores_comision_control",
         "tipo": "D",
         "label": "Actores de la Comisión de Control",
         "valor": null,
         "detalle": [
           {
             "nombre": "Juan Diego Lino Prieto",
-            "rol": "Jefe de Comisión — Comisión de Control. Firmó digitalmente el informe el 22-04-2026 a las 14:00:40.",
+            "rol": "Jefe de Comisión — Comisión de Control — firmó digitalmente el 22-04-2026 14:00:40",
             "fuente_ids": [
+              1087,
               1088,
               1113,
               1437
@@ -806,7 +799,7 @@
           },
           {
             "nombre": "Dohry Karol Luque Escobedo",
-            "rol": "Supervisora — Comisión de Control. Firmó digitalmente el informe el 22-04-2026 a las 14:18:53.",
+            "rol": "Supervisora — Comisión de Control — firmó digitalmente el 22-04-2026 14:18:53",
             "fuente_ids": [
               1095,
               1152,
@@ -815,7 +808,7 @@
           },
           {
             "nombre": "Marissa Alicia Chávez Chávez",
-            "rol": "Gerente Regional de Control de Arequipa (encargada) — Contraloría General de la República. Firmó digitalmente el informe el 22-04-2026 a las 14:22:11.",
+            "rol": "Gerente Regional de Control de Arequipa (e) — Contraloría General de la República — firmó digitalmente el 22-04-2026 14:22:11",
             "fuente_ids": [
               1099,
               1440,
@@ -826,37 +819,27 @@
         "fuente_ids": [
           1087,
           1088,
-          1089,
-          1090,
-          1091,
-          1092,
-          1093,
-          1094,
           1095,
-          1096,
-          1097,
-          1098,
           1099,
-          1429,
-          1430,
+          1113,
+          1152,
           1436,
           1437,
-          1440,
-          1441
+          1440
         ],
-        "fragmento_evidencia": "Juan Diego Lino Prieto Jefe de Comisión Comisión de Control [...] Dohry Karol Luque Escobedo Supervisora Comisión de Control [...] Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa (e) Contraloría General de la República",
-        "justificacion": "Son los actores institucionales responsables de la producción del informe. Se agrupan en una variable relacional porque todos integran la misma Comisión de Control y su estructura (nombre + rol) es homogénea.",
+        "fragmento_evidencia": "Juan Diego Lino Prieto Jefe de Comisión Comisión de Control",
+        "justificacion": "Los tres firmantes digitales del informe son los actores institucionales responsables de la ejecución del control concurrente. Sus roles están diferenciados (jefe de comisión, supervisora, gerente regional) y aparecen en secciones distintas del documento.",
         "ambiguedad": null
       },
       {
-        "id": "actores_destinatarios_recomendacion",
+        "id": "actores_destinatarios_recomendaciones",
         "tipo": "D",
-        "label": "Actores destinatarios de la recomendación",
+        "label": "Actores destinatarios de las recomendaciones y notificaciones",
         "valor": null,
         "detalle": [
           {
             "nombre": "Bernardo Juan Pachas Serrano",
-            "rol": "Jefe Nacional (I) de la Oficina Nacional de Procesos Electorales (ONPE). Destinatario del Oficio N° 000198-2026-CG/OC3599 de 28 de abril de 2026, que le comunica la situación adversa y le requiere reportar acciones correctivas en 5 días hábiles.",
+            "rol": "Jefe Nacional (I) de la Oficina Nacional de Procesos Electorales (ONPE) — destinatario del Oficio N° 000198-2026-CG/OC3599 y de la notificación electrónica",
             "fuente_ids": [
               1476,
               1521,
@@ -864,53 +847,125 @@
             ]
           },
           {
-            "nombre": "Armando Juan Echevarria Cardenas",
-            "rol": "Jefe de la ODPE Cerro Colorado. Destinatario del Oficio N° 000856-2026-CG/GRAR de 22 de abril de 2026, que le notifica el informe y le requiere reportar acciones correctivas en 5 días hábiles.",
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de ODPE Cerro Colorado — destinatario del Oficio N° 000856-2026-CG/GRAR",
             "fuente_ids": [
               1641,
               1642
+            ]
+          },
+          {
+            "nombre": "María Bertilda Idrogo Díaz",
+            "rol": "Jefe del Órgano de Control Institucional de la ONPE (OCI-ONPE) — emisora del Oficio N° 000198-2026-CG/OC3599",
+            "fuente_ids": [
+              1502,
+              1503,
+              1519,
+              1583
             ]
           }
         ],
         "fuente_ids": [
           1427,
           1428,
-          1475,
           1476,
-          1639,
-          1641
+          1502,
+          1519,
+          1521,
+          1583,
+          1585,
+          1641,
+          1642,
+          1655
         ],
-        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente informe de Hito de Control [...] con la finalidad que se adopten las acciones preventivas y correctivas que correspondan [...] Señor: Armando Juan Echevarria Cardenas Jefe de ODPE Oficina Descentralizada de Procesos Electorales - ODPE Cerro Colorado",
-        "justificacion": "Son actores con roles distintos en el proceso (autoridad nacional vs. jefe de unidad descentralizada), pero ambos son destinatarios de la notificación del mismo informe y se les requiere la misma acción: reportar medidas correctivas.",
-        "ambiguedad": "El documento indica que Pachas Serrano es Jefe Nacional 'I' (interino), pero no aclara la razón de la interinidad."
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente informe de Hito de Control",
+        "justificacion": "El documento identifica a los destinatarios institucionales de la recomendación y de las notificaciones formales. Son actores distintos al equipo de control, con roles diferenciados (receptor de la recomendación, jefe de la ODPE controlada, emisor del oficio de notificación).",
+        "ambiguedad": null
       },
       {
-        "id": "notificador_institucional_oficio_onpe",
-        "tipo": "D",
-        "label": "Notificador institucional del oficio a la ONPE",
-        "valor": null,
-        "detalle": [
-          {
-            "nombre": "Maria Bertilda Idrogo Diaz",
-            "rol": "Jefe del Órgano de Control Institucional (OCI) de la Oficina Nacional de Procesos Electorales – ONPE / Contraloría General de la República. Firmó digitalmente el Oficio N° 000198-2026-CG/OC3599 y realizó la notificación electrónica mediante cédula N° 00000184-2026-CG/3599 el 28 de abril de 2026.",
-            "fuente_ids": [
-              1502,
-              1503,
-              1519,
-              1583,
-              1628
-            ]
-          }
-        ],
+        "id": "actividades_poe_hito_2",
+        "tipo": "E",
+        "label": "Actividades operativas del POE ejecutadas en el hito",
+        "valor": {
+          "titulo": "Actividades Operativas según el POE Versión 03 aplicables al Hito de Control N° 2 — Despliegue y repliegue de material electoral y equipos informáticos electorales",
+          "cuerpo": "El Plan Operativo Electoral (POE) Versión 03 establece, dentro del Proceso Operativo 2.6 'Producción, distribución y de materiales y equipos electorales', la Actividad Operativa 2.6.4 'Despliegue de material electoral para sufragio y equipos informáticos electorales para sufragio', con las siguientes tareas relevantes al hito evaluado: Tarea 2.6.4.4: 'Elaborar y gestionar la aprobación de las propuestas de rutas de despliegue y repliegue' — del 18/02/26 al 28/02/26 — Meta anual: 1. Tarea 2.6.4.5: 'Gestionar la contratación del servicio para el despliegue y repliegue del material electoral de la ONPE' — del 02/03/26 al 31/03/26 — Meta anual: 1. Tarea 2.6.4.6: 'Organizar y efectuar la verificación pública del material electoral (Lima Centro 1)' — del 18/03/26 al 20/03/26 — Meta anual: 1. Tarea 2.6.4.8: 'Efectuar el seguimiento al despliegue del material electoral desde los almacenes de la GGE al Ministerio de Relaciones Exteriores (Lima Centro 1)' — del 21/03/26 al 22/03/26 — Meta anual: 1. Tarea 2.6.4.9: 'Organizar y efectuar la verificación pública del material electoral (excepto Lima Centro 1 - extranjero)' — del 28/03/26 al 08/04/26 — Meta anual: 1. Tarea 2.6.4.11: 'Distribuir el material electoral para el sufragio desde la ODPE a los locales de votación (Provincias)' — del 30/03/26 al 11/04/26 — Meta anual: 1. Tarea 2.6.4.14: 'Recibir de la GOECOR y distribuir a los LV la relación de ciudadanos fallecidos (excepto Lima Centro 1 - extranjero)' — del 01/04/26 al 11/04/26 — Meta anual: 1. Tarea 2.6.4.15: 'Organizar y desplegar el material de sufragio, material de reserva y paquete del coordinador del local de votación, ánforas, cabinas, cajas de restos electorales y refrigerios para los MM' — del 01/04/2026 al 11/04/2026 — Meta anual: 1."
+        },
+        "detalle": [],
         "fuente_ids": [
-          1502,
-          1503,
-          1519,
-          1628
+          1142,
+          1154,
+          1157,
+          587,
+          588,
+          589,
+          590,
+          591,
+          592,
+          593,
+          594,
+          595,
+          596,
+          597,
+          598,
+          599,
+          600,
+          601,
+          602,
+          603,
+          604,
+          605,
+          606,
+          607,
+          608,
+          609,
+          611,
+          612,
+          613,
+          614,
+          615,
+          616,
+          617,
+          618,
+          619,
+          620,
+          621,
+          622,
+          623,
+          624,
+          625,
+          626,
+          627,
+          628,
+          629,
+          630,
+          631,
+          632,
+          633,
+          634,
+          635,
+          636,
+          637,
+          638,
+          639,
+          640,
+          641,
+          642,
+          643,
+          644,
+          645,
+          646,
+          647,
+          648,
+          649,
+          650,
+          651,
+          652,
+          653,
+          654
         ],
-        "fragmento_evidencia": "Maria Bertilda Idrogo Diaz Jefe del Organo de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe Contraloría General de la República [...] NOTIFICADOR: MARIA BERTILDA IDROGO DIAZ - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE - CONTRALORÍA GENERAL DE LA REPÚBLICA",
-        "justificacion": "Esta actora tiene un rol distinto al de la Comisión de Control y al de los destinatarios: es el canal institucional mediante el cual la Contraloría notifica a la ONPE. Su función es específica e independiente en el proceso de notificación.",
-        "ambiguedad": null
+        "fragmento_evidencia": "2.6.4.11 \"Distribuir el material electoral para el sufragio desde la ODPE a los locales de votación (Provincias)\", (Del 30/03/26 al 11/04/26)",
+        "justificacion": "El documento presenta el conjunto de tareas del POE en un cuadro estructurado que sirve como marco de referencia para evaluar la ejecución del hito. Se clasifica como variable narrativa porque constituye un texto estructurado con título y contenido extenso que describe el contexto operativo del momento evaluado.",
+        "ambiguedad": "Las columnas de programación física mensual (MAR, ABR, MAY) del cuadro no son completamente legibles en el OCR para todas las tareas."
       }
     ]
   }

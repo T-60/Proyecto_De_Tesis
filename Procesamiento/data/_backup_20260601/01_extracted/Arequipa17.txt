@@ -1,0 +1,302 @@
+# Análisis Razonado del Documento Arequipa17.pdf
+
+---
+
+## 1. Vocabulario del Dominio
+
+**Instancia:** La entidad que se está siguiendo es la **ODPE Cerro Colorado** (Oficina Descentralizada de Procesos Electorales - Cerro Colorado), en el marco del proceso denominado "Servicio de Despliegue y Repliegue del Material Electoral de la ODPE Cerro Colorado a los Locales de Votación, en el Marco de las Elecciones Generales 2026".
+
+**Momento:** El documento usa el término **"Hito de Control"** para nombrar cada punto de evaluación del proceso de control concurrente. Este documento corresponde al **Hito de Control N° 1**, denominado "Contratación del Servicio de Despliegue y Repliegue".
+
+---
+
+## 2. Metadata del Momento
+
+- **Identificador del documento:** Informe de Hito de Control N° 5585-2026-CG/GRAR-SCC
+  Fuente (IDs): [800], [811], [838]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 5585-2026-CG/GRAR-SCC"
+
+- **Momento al que corresponde:** Hito de Control N° 1, denominado "Contratación del Servicio de Despliegue y Repliegue"
+  Fuente (IDs): [803], [813], [840]
+  Fragmento: "HITO DE CONTROL N° 1: 'CONTRATACIÓN DEL SERVICIO DE DESPLIEGUE Y REPLIEGUE'"
+
+- **Tipo de momento:** Control Concurrente (Servicio de Control Simultáneo)
+  Fuente (IDs): [801], [841]
+  Fragmento: "CONTROL CONCURRENTE OFICINA NACIONAL DE PROCESOS ELECTORALES"
+
+- **Período de evaluación del hito de control:** Del 26 de marzo al 6 de abril de 2026
+  Fuente (IDs): [804]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 26 DE MARZO AL 6 DE ABRIL DE 2026"
+
+  Nota aclaratoria: El alcance precisa que el hito fue ejecutado del 26 al 30 de marzo de 2026 (período de la contratación propiamente dicha), pero la comisión verificó la situación con corte al 6 de abril de 2026 mediante correos electrónicos.
+  Fuente (IDs): [859], [977]
+  Fragmento: "El servicio de Control Concurrente se efectuó al Hito de Control n.º 1 'Contratación del servicio de Despliegue y repliegue', que ha sido ejecutado del 26 al 30 de marzo de 2026"
+
+- **Fecha de emisión del documento:** 7 de abril de 2026
+  Fuente (IDs): [806], [1113]
+  Fragmento: "AREQUIPA, 7 DE ABRIL DEL 2026" / "Arequipa, 7 de abril del 2026"
+
+- **Estado de notificación:** Notificado. El informe fue notificado al Jefe de la ODPE Cerro Colorado mediante Oficio N° 000711-2026-CG/GRAR el 7 de abril de 2026, registrado con expediente N° 2026-000175551. Adicionalmente fue notificado al Jefe Nacional de la ONPE mediante Oficio N° 000157-2026-CG/OC3599 el 10 de abril de 2026, a través de cédula de notificación electrónica N° 00000140-2026-CG/3599.
+  Fuente (IDs): [1322], [1330], [1355], [1163], [1199], [1216]
+  Fragmento: "OFICIO N° 000711-2026-CG/GRAR [...] Notificación de Informe de Hito de Control n.° 5585-2026-CG/GRAR-SCC" / "el documento ha sido registrado el 7 de abril de 2026 a horas 12:38:34, con el expediente N° 2026-000175551" / "OFICIO N° 000157-2026-CG/OC3599 [...] Lima, 10 de Abril de 2026"
+
+- **Nombre del archivo:** Arequipa17.pdf
+  Fuente (IDs): encabezado del documento recibido
+  Fragmento: "# Arequipa17.pdf"
+
+- **Identificador de la instancia:** ODPE Cerro Colorado — Cerro Colorado, Arequipa, Arequipa
+  Fuente (IDs): [801], [608], [607]
+  Fragmento: "ODPE CERRO COLORADO CERRO COLORADO - AREQUIPA - AREQUIPA" / "Cerro Colorado" / "Arequipa"
+
+---
+
+## 3. Marco General del Proceso
+
+- **Oficio n.° 000576-2026-CG/GRAR:** Disposición emitida por la Gerencia Regional de Control de Arequipa de la CGR que ordena la ejecución del servicio de Control Concurrente. Registrado en el SCG como orden de servicio n.° 02-L470-2026-082.
+  Fecha: 25 de marzo de 2026
+  Fuente (IDs): [841]
+  Fragmento: "en mérito a lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República, mediante Oficio n.° 000576-2026-CG/GRAR de 25 de marzo de 2026, registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 02-L470-2026-082"
+
+- **Oficio n.° 0000124-2026-CG/OC3599:** Oficio que ampara la emisión del Oficio n.° 000576-2026-CG/GRAR; notificado el 24 de marzo de 2026 al titular de la entidad.
+  Fecha: 24 de marzo de 2026
+  Fuente (IDs): [870]
+  Fragmento: "Al amparo de lo establecido en el Oficio n.° 0000124-2026-CG/OC3599 de 24 de marzo de 2026, notificado el mismo día por casilla electrónica del titular de la entidad."
+
+- **Directiva n.° 013-2022-CG/NORM "Servicio de Control Simultáneo":** Establece el marco regulatorio para el Servicio de Control Simultáneo, incluyendo la comunicación al titular de la entidad sobre situaciones adversas. Aprobada mediante Resolución de Contraloría n.° 218-2022-CG.
+  Fecha: 30 de mayo de 2022
+  Fuente (IDs): [841], [1169], [1333]
+  Fragmento: "en el marco de lo previsto en la Directiva n.° 013-2022-CG/NORM 'Servicio de Control Simultáneo', aprobada mediante Resolución de Contraloría n.° 218-2022-CG, de 30 de mayo de 2022 y modificatorias"
+
+- **Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República:** Artículo 8° referenciado como base normativa de la comunicación al titular de la entidad.
+  Fecha: no indicada en el documento
+  Fuente (IDs): [1168], [1332]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República y sus modificatorias."
+
+- **Decreto Supremo n.° 039-2025-PCM:** Convoca a Elecciones de Presidente de la República, Vicepresidentes, Senadores, Diputados del Congreso de la República y Representantes Peruanos ante el Parlamento Andino (EG 2026), para el 12 de abril de 2026.
+  Fecha: publicado el 25 de marzo de 2025 en el diario oficial El Peruano
+  Fuente (IDs): [875]
+  Fragmento: "a través del Decreto Supremo n.° 039-2025-PCM publicado en el diario oficial El Peruano el 25 de marzo de 2025, convocó a Elecciones de Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y representantes peruanos ante el Parlamento Andino (EG 2026), para el día domingo 12 de abril de 2026."
+
+- **Resolución Jefatural n.° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) versión 03:** Aprueba el "Plan Operativo Electoral de la Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos Ante El Parlamento Andino 2026, Versión n.° 03". Establece el marco legal, electoral, estratégico, indicadores y actividades operativas de cumplimiento obligatorio para cada unidad orgánica de la ONPE, incluyendo la tarea 2.6.4.5 de gestionar la contratación del servicio de despliegue y repliegue (período 02/03/26 al 31/03/26).
+  Fecha: 31 de diciembre de 2025
+  Fuente (IDs): [876], [903], [904], [996]
+  Fragmento: "mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025 se aprobó el 'Plan Operativo Electoral de la Elección del Presidente de la República, Vicepresidentes, Senadores y Diputados del Congreso de la República y Representantes Peruanos Ante El Parlamento Andino 2026, Versión n.° 03'"
+
+- **Resolución Jefatural n.° 000127-2025-JN/ONPE:** Aprueba la conformación de 126 Oficinas Descentralizadas de Procesos Electorales para las Elecciones Generales 2026, en cumplimiento del artículo 24° de la Ley n.° 26487.
+  Fecha: 1 de agosto de 2025
+  Fuente (IDs): [877]
+  Fragmento: "mediante Resolución Jefatural n.° 000127-2025-JN/ONPE de 1 de agosto de 2025, se aprobó la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales para la organización y ejecución de las Elecciones Generales 2026"
+
+- **Ley n.° 26487, Ley Orgánica de la Oficina Nacional de Procesos Electorales:** Publicada el 21 de junio de 1995. El artículo 27° establece que las ODPE deben ejecutar las acciones necesarias para el desarrollo de los procesos electorales de acuerdo a las directivas de la ONPE y la normatividad electoral vigente. El artículo 24° establece la conformación de ODPE.
+  Fecha: 21 de junio de 1995
+  Fuente (IDs): [877], [988], [990], [991], [992]
+  Fragmento: "Ley n.° 26487, Ley Orgánica de la Oficina Nacional de Procesos Electorales, publicado el 21 de junio de 1995. 'Artículo 27.-Las Oficinas Descentralizadas de Procesos Electorales tendrán dentro de su respectiva circunscripción las siguientes funciones: (...) Ejecutar las acciones necesarias para el desarrollo de los procesos electorales, de referéndum u otras consultas populares, de acuerdo a las directivas de la Oficina Nacional de Procesos Electorales y la normatividad electoral vigente'."
+
+- **Instructivo INO2-GAD/LOG versión 09 "Contratación de Bienes y Servicios de las ODPE con cargo a los presupuestos de los procesos electorales y consultas populares":** Establece el procedimiento para la contratación de bienes y servicios de las ODPE, incluyendo el numeral 5.2 sobre gestión de requerimientos de contratos menores, que dispone la obligación de formalizar la relación contractual con los proveedores mediante emisión, suscripción y notificación de la Orden de Servicio (FM21-GAD/LOG) u Orden de Compra (FM20-GAD/LOG), o mediante contrato cuando el jefe de la ODPE así lo disponga.
+  Fecha: no indicada en el documento
+  Fuente (IDs): [923], [1042], [1043], [1044], [1047], [1049], [611], [612], [613], [614], [615], [616], [617]
+  Fragmento: "las ODPE cuentan con el Instructivo - INO2-GAD/LOG versión 09 'Contratación de Bienes y Servicios de las ODPE con cargo a los presupuestos de los procesos electorales y consultas populares'" / "5.2 Gestión de requerimiento de contratos menores [...] 13 Formalizar la relación contractual, con los proveedores la emisión, suscripción y notificación de la O/S Orden de servicio - ODPE (FM21-GAD/LOG)"
+
+- **Modelo de Términos de Referencia elaborado por la GOECOR:** Documento de referencia elaborado por la Gerencia de Organización Electoral y Coordinación Regional (GOECOR) a través del personal logístico contratado, para ser aplicado por las ODPE en la contratación del servicio de transporte terrestre para despliegue y repliegue.
+  Fecha: no indicada en el documento
+  Fuente (IDs): [928]
+  Fragmento: "la Gerencia de Organización Electoral y Coordinación Regional - GOECOR, a través del personal logístico contratado ha elaborado un modelo de términos de referencia, a fin de que las ODPE lo apliquen en la medida que corresponda."
+
+---
+
+## 4. Variables del Momento
+
+---
+
+**Variable 1 — Estado de la contratación del servicio de transporte terrestre para despliegue y repliegue**
+
+Tipo: A — Seguimiento
+
+Valor global: La ODPE Cerro Colorado no ha concluido con la contratación de los cuatro (4) servicios de transporte terrestre para despliegue y repliegue electoral al 6 de abril de 2026, cuando faltan cinco (5) días para la jornada electoral (12 de abril de 2026). Se cuenta con TDR, postores que cumplieron los TDR y postores ganadores seleccionados, pero no se han registrado las órdenes de servicio. La Coordinadora Administrativa señaló que las órdenes serían emitidas el 7 de abril de 2026, luego del perfeccionamiento de los contratos.
+
+Detalle:
+- Ruta Suroeste/Oeste: TDR formulado (FM27-GAD/LOG, pedido BS-000024 o BS-000025 de 26/03/26). Postor ganador seleccionado. Orden de servicio no registrada al 6/04/26. Estado: contratación no formalizada. Evidencia: correo electrónico del 6 de abril de 2026 remitido por la Coordinadora Administrativa. Fuente: [941], [1004]
+- Ruta Noreste: TDR formulado (FM27-GAD/LOG, pedido BS-000025 o BS-000026 de 26/03/26). Postor ganador seleccionado. Orden de servicio no registrada al 6/04/26. Estado: contratación no formalizada. Evidencia: correo electrónico del 6 de abril de 2026. Fuente: [941], [1002]
+- Ruta Suroeste: TDR formulado (FM27-GAD/LOG, pedido BS-000026 o BS-000027 de 26/03/26). Postor ganador seleccionado. Orden de servicio no registrada al 6/04/26. Estado: contratación no formalizada. Evidencia: correo electrónico del 6 de abril de 2026. Fuente: [941], [1003]
+- Ruta Norte: TDR formulado (FM27-GAD/LOG, pedido BS-000027 de 26/03/26). Postor ganador seleccionado. Orden de servicio no registrada al 6/04/26. Estado: contratación no formalizada. Evidencia: correo electrónico del 6 de abril de 2026. Fuente: [941], [1005]
+
+Plazo normativo vencido: La tarea 2.6.4.5 del POE preveía gestionar la contratación del período 02/03/26 al 31/03/26; al 6/04/26 la contratación no estaba formalizada.
+
+Estado de la situación adversa: **Abierta / No resuelta** al momento de emisión del informe (7 de abril de 2026). No se emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del servicio.
+
+Fuente (IDs): [958], [973], [974], [975], [976], [977], [1002], [1003], [1004], [1005], [1079], [1080], [1084], [1085]
+Fragmento de evidencia: "la Comisión de Control evidenció que al 6 de abril de 2026 la ODPE Cerro Colorado no ha concluido con la contratación de los servicios de transporte terrestre para el despliegue y repliegue electoral, tal como consta en los correos electrónicos de 6 de abril de 2026, considerando que, si bien se presentaron postores que cumplieron con los Términos de Referencia (TDR) y se cuenta con postores ganadores, a la fecha no se han registrado órdenes de servicio, las cuales, según lo señalado por la Coordinadora Administrativa, serían emitidas el 7 de abril de 2026, luego del perfeccionamiento de los contratos; cabe precisar que a la fecha de emisión de este informe, faltan cinco (5) días para la realización de las elecciones."
+Justificación: Esta variable recoge toda la situación adversa identificada en el Hito de Control N° 1. Es de tipo Seguimiento porque describe una condición que debe resolverse (formalización de los cuatro contratos) y tiene estado abierto al momento del informe. El detalle por ruta proviene del mismo cuadro conceptual (cuatro TDR para cuatro rutas) y de las mismas fuentes de evidencia (correos del 6 de abril).
+Ambigüedad: Los pedidos FM02-GAD/LOG tienen numeración BS-000024, BS-000025, BS-000026 y BS-000027; el documento no especifica a cuál pedido corresponde exactamente cada ruta, aunque nombra las cuatro rutas (Suroeste/Oeste, Noreste, Suroeste y Norte) en el mismo párrafo que los cuatro pedidos.
+
+---
+
+**Variable 2 — Desviaciones en los Términos de Referencia aprobados respecto del modelo GOECOR**
+
+Tipo: A — Seguimiento
+
+Valor global: Los TDR aprobados y aplicados por la ODPE Cerro Colorado presentan dos desviaciones respecto del modelo de TDR elaborado por la GOECOR: (1) requisito de licencia de conducir modificado, y (2) supresión del requisito de experiencia mínima de conductores. Adicionalmente se verifica una tercera desviación en el criterio de antigüedad de vehículos. La Coordinadora Administrativa justificó ambos cambios como medida para propiciar mayor pluralidad de postores.
+
+Detalle:
+- **Desviación 1 — Licencia de conducir:** El modelo GOECOR exige "Licencia de Conducir vigente (Clase A-II o Clase B-II)"; los TDR de la ODPE contemplan en su lugar "Los conductores deben contar con Licencia de Conducir vigente según el tipo de vehículo a conducir solicitado en el servicio". Estado: identificado, justificado por la ODPE (pluralidad de postores). Fuente: [942]
+- **Desviación 2 — Experiencia mínima de conductores:** El modelo GOECOR solicita un mínimo de 2 años de experiencia para los conductores; los TDR aprobados por la ODPE no requieren experiencia. Estado: identificado, justificado por la ODPE (pluralidad de postores). Fuente: [942]
+- **Desviación 3 — Antigüedad de vehículos:** El modelo GOECOR solicita que la antigüedad del vehículo no sea mayor a diez (10) años; los TDR de la ODPE señalan "Año de fabricación: no anterior al 2010 (desde el año 2010 hacia adelante)". Estado: identificado, justificado por la ODPE (mayor número de postores). Fuente: [946]
+
+Fuente (IDs): [942], [946]
+Fragmento de evidencia: "en cuanto al rubro 'De los Conductores' del item de 'Descripción técnica del servicio' del modelo de Términos de referencia del servicio, se solicita que los conductores cuenten con Licencia de Conducir vigente (Clase A-ll o Clase B-Il); no obstante, los términos de referencia (TDR) aprobados por la ODPE contemplan en su lugar 'Los conductores deben contar con Licencia de Conducir vigente según el tipo de vehículo a conducir solicitado en el servicio'. Igualmente, en el mismo rubro, del modelo de TDR del servicio, se solicita que los conductores cuentan con un mínimo de 2 años de experiencia; sin embargo, el TDR aprobado y aplicado por la ODPE, no requiere experiencia. Sobre el particular, la Coordinadora Administrativa refirió que los TDR se formularon así, con la finalidad de propiciar la pluralidad de postores." / "Respecto al rubro 'De los Vehículos' [...] se solicita que la antigüedad del vehículo no deberá ser mayor a diez (10) años y en los TDR de la ODPE, señala 'Año de fabricación: no anterior al 2010 (desde el año 2010 hacia adelante)'"
+Justificación: Estas desviaciones son observaciones sobre el contenido de los TDR de la ODPE respecto del modelo normativo de referencia (GOECOR). Se clasifican como Seguimiento porque representan una condición verificada que podría generar consecuencias (menor garantía técnica en los vehículos y conductores contratados) y que tiene estado abierto (no hay corrección documentada en el informe). Los tres ítems provienen de la misma sección de análisis de TDR y responden a la misma pregunta conceptual: ¿en qué difieren los TDR de la ODPE del modelo GOECOR?
+Ambigüedad: El documento describe estas desviaciones en la sección IV (Información respecto del Hito de Control) sin incorporarlas formalmente como parte de la situación adversa N° 1 de la sección V. Podrían ser observaciones complementarias o antecedentes contextuales. No obstante, son condiciones verificadas con impacto potencial sobre la calidad del servicio contratado y se mantienen como variable de seguimiento independiente.
+
+---
+
+**Variable 3 — Recepción del material electoral en la ODPE Cerro Colorado**
+
+Tipo: C — Estado
+
+Valor categórico: Recibido. El material electoral (cédulas de votación, ánforas, entre otros) destinado a los locales de votación llegó a la ODPE Cerro Colorado proveniente de la sede central el 1 de abril de 2026.
+
+Nota: La llegada del material electoral ocurrió dentro del período de evaluación del hito (26 de marzo al 6 de abril de 2026), pero corresponde a una tarea diferente a la contratación del servicio de transporte. Se menciona como dato de contexto sobre el estado operativo de la ODPE al momento de la evaluación.
+
+Fuente (IDs): [952]
+Fragmento de evidencia: "con relación al material electoral (cédulas de votación, ánforas, entre otros) destinado a utilizar en los locales de votación el domingo 12 de abril 2026, este llegó a la ODPE Cerro Colorado proveniente de la sede central el 1 de abril de 2026."
+Justificación: Se clasifica como Estado porque describe la condición del material electoral en un momento determinado: ya fue recibido en la ODPE. No es una variable de progreso (no hay meta numérica) ni de seguimiento (no tiene consecuencias adversas documentadas en el informe). Es una condición factual discreta.
+Ambigüedad: El documento no detalla cantidades ni verifica la integridad del material recibido. Solo constata la fecha de llegada.
+
+---
+
+**Variable 4 — Actores de la Comisión de Control**
+
+Tipo: D — Relacional
+
+Valor global: La Comisión de Control que ejecutó el servicio de Control Concurrente al Hito de Control N° 1 está integrada por tres personas con roles diferenciados.
+
+Detalle:
+- **Juan Diego Lino Prieto** — Jefe de Comisión, Comisión de Control. Firmó digitalmente el informe el 07-04-2026 a las 12:01:05. Fuente: [820], [1121], [1123], [1125]
+- **Dohry Karol Luque Escobedo** — Supervisora de la Comisión de Control. Firmó digitalmente el informe el 07-04-2026 a las 12:06:13. Fuente: [827], [1116], [1117], [1124]
+- **Marissa Alicia Chávez Chávez** — Gerente Regional de Control de Arequipa (e), Contraloría General de la República. Firmó digitalmente el informe el 07-04-2026 a las 12:20:37. También suscribió el Oficio N° 000711-2026-CG/GRAR de notificación al Jefe de la ODPE. Fuente: [865], [867], [1105], [1128], [1339]
+
+Fuente (IDs): [820], [827], [865], [867], [1105], [1116], [1117], [1121], [1123], [1124], [1125], [1128], [1339]
+Fragmento de evidencia: "Juan Diego Lino Prieto Jefe de Comisión Comisión de Control" / "Dohry Karol Luque Escobedo Supervisora Comisión de Control" / "Marissa Alicia Chavez Chavez Gerente Regional de Control de Arequipa(e) Contraloría General de la República"
+Justificación: Se trata de actores con roles distintos dentro del mismo órgano ejecutor del control concurrente. Se clasifican juntos como variable relacional por pertenecer a la misma estructura institucional (Comisión de Control) y aparecer como firmantes del mismo informe, respondiendo a la pregunta "¿quiénes ejecutaron el control?"
+Ambigüedad: ninguna.
+
+---
+
+**Variable 5 — Actores de la ODPE Cerro Colorado**
+
+Tipo: D — Relacional
+
+Valor global: La ODPE Cerro Colorado tiene dos actores institucionales identificados con roles diferenciados en el proceso evaluado.
+
+Detalle:
+- **Armando Juan Echevarría Cárdenas** — Jefe de la ODPE Cerro Colorado. Destinatario del Oficio N° 000711-2026-CG/GRAR de notificación del informe. Fuente: [609], [1324], [1325], [1326]
+- **Ruth Basilia Ripalto** — Coordinadora Administrativa de la ODPE Cerro Colorado. Interlocutora principal durante la inspección; presentó los informes de justificación al Jefe de la ODPE; formuló los TDR; remitió los correos electrónicos del 6 de abril de 2026 a la Comisión de Control. Fuente: [609], [939], [940], [942], [946], [1002], [1003], [1004], [1005]
+
+Fuente (IDs): [609], [939], [940], [942], [946], [1002], [1003], [1004], [1005], [1324], [1325], [1326]
+Fragmento de evidencia: "Armando Juan Echevarria Ruth Basilia Ripalto 3775057 Cárdenas" [Cuadro n.° 2 — Jefe y Coordinadora administrativa] / "la Comisión de Control se constituyó a las instalaciones de la ODPE Cerro Colorado, entrevistándose con la Coordinadora Administrativa de la ODPE"
+Justificación: Se clasifican como variable relacional separada de la Variable 4 porque pertenecen a una entidad diferente (la entidad controlada, no el órgano de control) y responden a la pregunta "¿quiénes son los responsables de la ODPE evaluada?"
+Ambigüedad: El Cuadro n.° 2 parece listar en una misma celda el nombre del Jefe y de la Coordinadora Administrativa junto con el presupuesto (3775057), lo que genera ambigüedad en la lectura del formato tabular escaneado. Se interpreta que 3775057 es el monto del presupuesto en soles (S/) y no parte de un nombre.
+
+---
+
+**Variable 6 — Presupuesto de la ODPE Cerro Colorado**
+
+Tipo: B — Progreso
+
+Valor observado: S/ 3,775,057 (presupuesto asignado a la ODPE Cerro Colorado para el proceso electoral). No se indica ejecución ni monto comprometido en este hito.
+
+Meta: S/ 3,775,057 (total presupuesto asignado)
+Valor estimado al Hito de Control N° 1: no indicado en el documento.
+
+Fuente (IDs): [605], [606], [607], [608], [609], [919]
+Fragmento de evidencia: "Presupuesto (SI) [...] 3775057" [Cuadro n.° 2 Información General de la ODPE Cerro Colorado] / "Fuente: Memorando n.° 000073-2026-OECOR/ONPE del 8 de enero del 2026"
+Justificación: El cuadro de información general incluye el presupuesto total asignado a la ODPE. Se clasifica como Progreso porque es un valor numérico orientado a una meta (el presupuesto total asignado) que podría compararse con la ejecución en hitos sucesivos. Sin embargo, en este primer hito solo se cuenta con el dato global sin desagregación de ejecución.
+Ambigüedad: El documento no detalla el desglose presupuestal por actividad ni indica cuánto se prevé comprometer específicamente para el servicio de despliegue y repliegue. El valor numérico surge de una celda de tabla con formato OCR ambiguo; se interpreta que "3775057" equivale a S/ 3,775,057 dado el encabezado de columna "Presupuesto (SI)".
+
+---
+
+**Variable 7 — Documentación del proceso de requerimiento y contratación (Apéndice N° 1)**
+
+Tipo: F — Verificación
+
+Valor booleano: Verdadero — La Comisión de Control obtuvo y revisó documentación de sustento vinculada al Hito de Control N° 1.
+
+Evidencia:
+1. Formato I "Requerimiento de los servicios de transporte para despliegue y repliegue", suscrito el 30 de marzo de 2026. Fuente: [622]
+2. Cuatro (4) correos electrónicos remitidos por la Coordinadora Administrativa de la ODPE Cerro Colorado a la Comisión de Control el 6 de abril de 2026 (uno por cada ruta: Noreste, Suroeste, Suroeste/Oeste y Norte). Fuente: [624], [1002], [1003], [1004], [1005]
+3. Cuatro (4) informes n.° 000071, 000072, 000073 y 000074-2026-RRI-ODPECERROCOLORADO2026/ONPE de 27 de marzo de 2026 (justificación de la contratación). Fuente: [940]
+4. Cuatro (4) formatos FM02-GAD/LOG "Pedido de servicio - ODPE Cerro Colorado" n.° BS-000024, BS-000025, BS-000026 y BS-000027 de 26 de marzo de 2026. Fuente: [941]
+5. Cuatro (4) formatos FM27-GAD/LOG — Términos de Referencia para contrataciones menores. Fuente: [941]
+
+Fuente (IDs): [619], [620], [621], [622], [623], [624], [940], [941], [1081], [1082], [1083], [1133]
+Fragmento de evidencia: "La información y documentación que la Comisión de Control ha revisado y analizado durante el desarrollo del servicio de Control Concurrente al Hito de Control n.° 1 'Contratación del servicio de Despliegue y repliegue', se encuentra detallada en el Apéndice n.° 1." / "Formato I. Requerimiento de los servicios de transporte para despliegue y repliegue, suscrito el 30 de marzo de 2026." / "Correos electrónicos remitidos por la Coordinadora Administrativa de la ODPE Cerro Colorado a la comisión de control el 6 de abril de 2026 (4)."
+Justificación: Esta variable verifica si la Comisión de Control contó con documentación de respaldo para sustentar la situación adversa identificada. Es de tipo Verificación porque la pregunta es booleana: ¿existe documentación de sustento? La respuesta es afirmativa y el Apéndice N° 1 detalla los documentos revisados.
+Ambigüedad: El Apéndice N° 1 del documento es breve y solo lista dos tipos de documentos explícitamente (Formato I y correos del 6 de abril). Los informes y pedidos FM02/FM27 se mencionan en la sección IV pero no se listan formalmente en el apéndice; se incluyen aquí por ser parte del acervo documentario revisado según [1083].
+
+---
+
+**Variable 8 — Narrativo: Recomendaciones de la Comisión de Control**
+
+Tipo: E — Narrativo
+
+Título: Recomendaciones al Jefe Nacional de la ONPE derivadas del Hito de Control N° 1
+
+Cuerpo del texto: La Comisión de Control formula dos recomendaciones dirigidas al Jefe Nacional de la ONPE:
+
+Primera recomendación: Hacer de conocimiento al Jefe Nacional de la ONPE el presente informe de Hito de Control, el cual contiene la situación adversa identificada como resultado del servicio de Control Concurrente al Hito de Control N° 1 "Contratación del servicio de Despliegue y Repliegue", con la finalidad de que se adopten las acciones preventivas y correctivas que correspondan, en el marco de sus competencias y obligaciones en la gestión institucional, con el objeto de asegurar el logro de los objetivos de las contrataciones de los Servicios de Transporte Terrestre para Despliegue y Repliegue de material electoral y equipos informáticos, en el marco de las Elecciones Generales 2026.
+
+Segunda recomendación: Hacer de conocimiento al Jefe Nacional de la ONPE que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a la situación adversa contenida en el presente informe, adjuntando la documentación de sustento respectiva.
+
+Fuente (IDs): [1094], [1095], [1112]
+Fragmento de evidencia: "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente informe de Hito de Control, el cual contiene la situación adversa identificada como resultado del servicio de Control Concurrente al Hito de Control n.° 1 'Contratación del servicio de Despliegue y Repliegue', con la finalidad que se adopten las acciones preventivas y correctivas que correspondan" / "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días habiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a la situación adversa contenida en el presente informe, adjuntando la documentación de sustento respectiva."
+Justificación: Las recomendaciones son texto estructurado con propósito normativo-comunicativo, lo que corresponde al tipo Narrativo. No son métricas de progreso ni estados categóricos; son instrucciones dirigidas al titular de la entidad controlada.
+Ambigüedad: ninguna.
+
+---
+
+**Variable 9 — Otros informes de Hito de Control N° 1 emitidos en el mismo proceso (contexto sistémico)**
+
+Tipo: E — Narrativo
+
+Título: Relación de ODPE con situaciones adversas identificadas en el Hito de Control N° 1 — Elecciones Generales 2026
+
+Cuerpo del texto: El Oficio N° 000157-2026-CG/OC3599 de 10 de abril de 2026, emitido por la Jefe del OCI de la ONPE, notifica al Jefe Nacional de la ONPE que se han identificado situaciones adversas en 33 ODPE en el marco del Hito de Control N° 1 "Contratación del Servicio de Despliegue y Repliegue". El informe de la ODPE Cerro Colorado (N° 5585-2026-CG/GRAR-SCC) es el número 6 de dicha relación. Las 33 ODPE con situaciones adversas identificadas son:
+
+1. ABANCAY — N° 5557-2026-CG/GRAP-SCC
+2. BAGUA — N° 5541-2026-CG/GRAM-SCC
+3. CAJAMARCA — N° 5533-2026-CG/GRCA-SCC
+4. CALLAO — N° 5510-2026-CG/GRCLL-SCC
+5. CASTILLA — N° 5573-2026-CG/GRPI-SCC
+6. CERRO COLORADO — N° 5585-2026-CG/GRAR-SCC
+7. CHANCHAMAYO — N° 5537-2026-CG/GRJU-SCC
+8. CHICLAYO — N° 5534-2026-CG/GRLA-SCC
+9. CORONEL PORTILLO — N° 5535-2026-CG/GRUC-SCC
+10. CUSCO — N° 5593-2026-CG/GRCU-SCC
+11. EL TAMBO — N° 2289-2026-CG/GRJU-SCC
+12. HUAMANGA — N° 5553-2026-CG/GRAY-SCC
+13. HUANTA — N° 5568-2026-CG/GRAY-SCC
+14. HUANUCO — N° 2290-2026-CG/GRHC-SCC
+15. HUAURA — N° 5547-2026-CG/GRLP-SCC
+16. ICA — N° 5558-2026-CG/GRIC-SCC
+17. JAEN — N° 5595-2026-CG/GRCA-SCC
+18. LA CONVENCION — N° 5594-2026-CG/GRCU-SCC
+19. LA ESPERANZA — N° 5580-2026-CG/GRLIB-SCC
+20. LEONCIO PRADO — N° 2288-2026-CG/GRHC-SCC
+21. MOYOBAMBA — N° 5596-2026-CG/GRSM-SCC
+22. PASCO — N° 5536-2026-CG/GRPA-SCC
+23. PUNO — N° 5531-2026-CG/GRPU-SCC
+24. SAN ROMAN — N° 5532-2026-CG/GRPU-SCC
+25. SANTA — N° 5549-2026-CG/GRAN-SCC
+26. SULLANA — N° 5574-2026-CG/GRPI-SCC
+27. TACNA — N° 5569-2026-CG/GRTA-SCC
+28. TAMBOPATA — N° 5516-2026-CG/GRMD-SCC
+29. TAYACAJA — N° 5566-2026-CG/GRHV-SCC
+30. TRUJILLO — N° 5581-2026-CG/GRLIB-SCC
+31. AREQUIPA — N° 5323-2026-CG/GRAR-SCC
+32. TUMBES — N° 5598-2026-CG/GRTB-SCC
+33. MARISCAL NIETO — N° 5529-2026-CG/GRMQ-SCC
+
+Fuente (IDs): [1163], [1164], [1165], [1166], [1171], [626], [627], [628], [629], [630], [631], [632], [633], [634], [635], [636], [637], [638], [639], [640], [641], [642], [643], [644], [645], [646], [647], [648], [649], [650], [651], [652], [653], [654], [655], [656], [657], [658], [659], [660], [661], [662], [663], [664], [665], [666], [667], [668], [669], [670], [671], [672], [673], [674], [675], [676], [677], [678], [679], [680], [681], [682], [683], [684], [685], [686], [687], [688], [689], [690], [691], [692], [693], [694], [695], [696], [697], [698], [699], [700], [701], [702], [703], [704], [705], [706], [707], [708], [709], [710], [711], [712], [713], [714], [715], [716], [717], [718], [719], [720], [721], [722], [723], [724], [725], [726], [727], [728], [1180]
+Fragmento de evidencia: "de la revisión de la información y documentación vinculada a la 'Contratación del Servicio de Despliegue y Repliegue' comunicamos que se han identificado las situaciones adversas contenidas en los siguientes Informes de Hito de Control, que se adjuntan al presente documento" / "solicitamos una vez adoptada las acciones que correspondan, estas sean informadas a la Comisión de Control correspondiente en un plazo no mayor de cinco (5) días hábiles contados desde la comunicación de los informes mencionados, adjuntando la documentación de sustento respectiva."
+Justificación: Esta variable es de tipo Narrativo porque se trata de texto estructurado (una tabla de 33 ODPE con sus respectivos números de informe) que contextualiza el presente informe dentro de un proceso sistémico de control a nivel nacional. No es una métrica de la ODPE Cerro Colorado en sí misma, sino el registro del universo de instancias con situaciones adversas similares en el mismo hito. Se incluye como variable narrativa porque aporta información estructurada relevante sobre el alcance del proceso de control concurrente en el que se inserta este informe.
+Ambigüedad: El oficio fue emitido el 10 de abril de 2026 (tres días después del informe), lo que sugiere que este documento de notificación masiva fue agregado al expediente del informe de la ODPE Cerro Colorado como adjunto del proceso de notificación. No forma parte del cuerpo analítico del informe de hito de control, pero sí del expediente documentario.

@@ -1,0 +1,15 @@
+metrica,valor
+total_documentos,17
+corpus_total_mb,320.9
+corpus_promedio_mb,18.9
+lineas_ocr_total,19466
+total_variables,179
+variables_promedio_doc,10.5
+verificadas_n1,168
+id_corregido_n2,7
+requiere_llm_n3,4
+tasa_verificacion_pct,97.8
+archivos_100pct,13
+ratio_compresion_promedio,685.0
+costo_estimado_total_usd,8.5
+costo_estimado_por_variable_usd,0.047

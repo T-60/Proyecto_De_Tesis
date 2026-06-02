@@ -1,0 +1,1011 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "ODPE (Oficina Descentralizada de Procesos Electorales)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_1",
+    "numero": 1,
+    "label": "Hito de Control N° 1 — Habilitación, acondicionamiento, y logística informática del centro de cómputo de la ODPE Cerro Colorado",
+    "filename": "Arequipa2.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 1544-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-18",
+      "periodo_inicio": "2026-03-05",
+      "periodo_fin": "2026-03-10",
+      "estado_notificacion": "Emitido y notificado. Notificado al Jefe de la ODPE Cerro Colorado mediante Oficio N° 000495-2026-CG/GRAR el 18 de marzo de 2026; y al Jefe Nacional de la ONPE mediante Oficio N° 000123-2026-CG/OC3599 el 23 de marzo de 2026, con Cédula de Notificación Electrónica N° 00000107-2026-CG/3599.",
+      "fuente_ids": [
+        2594,
+        2597,
+        2598,
+        2600,
+        2605,
+        2607,
+        2638,
+        2640,
+        4305,
+        4363,
+        4369,
+        4409,
+        4428,
+        4432,
+        4455
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM — Servicio de Control Simultáneo",
+        "establece": "Regula el servicio de control simultáneo (control concurrente), establece procedimientos y la obligación de comunicar situaciones adversas al titular de la entidad.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          2642,
+          4372,
+          4435
+        ]
+      },
+      {
+        "codigo": "Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Aprueba la Directiva N° 013-2022-CG/NORM 'Servicio de Control Simultáneo'.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          2642
+        ]
+      },
+      {
+        "codigo": "Ley N° 27785, artículo 8°",
+        "establece": "Establece las atribuciones del sistema de control gubernamental; referencia normativa para la comunicación de situaciones adversas al titular de la entidad.",
+        "fecha": null,
+        "fuente_ids": [
+          4371,
+          4434
+        ]
+      },
+      {
+        "codigo": "Ley N° 26487, artículo 24°",
+        "establece": "Las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales.",
+        "fecha": null,
+        "fuente_ids": [
+          2679
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859, artículos 39° y 49°",
+        "establece": "El Jefe de la ONPE determina el número, ubicación y organización de las ODPE; los Jefes y Coordinadores Administrativos son designados mediante concurso público.",
+        "fecha": null,
+        "fuente_ids": [
+          2680,
+          2687
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 039-2025-PCM",
+        "establece": "Convocó a Elecciones Generales el 12 de abril de 2026 para la elección de Presidente, Vicepresidentes, Congresistas y representantes ante el Parlamento Andino.",
+        "fecha": "2025-03-26",
+        "fuente_ids": [
+          2681
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprobó la conformación de 126 ODPE para las Elecciones Generales 2026, entre ellas la ODPE Cerro Colorado.",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          2684
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000165-2025-JN/ONPE",
+        "establece": "Dispuso la publicación de postulantes que aprobaron el proceso de selección para Jefes y Coordinadores Administrativos de ODPE para las EG 2026.",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          2693
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000175-2025-JN/ONPE",
+        "establece": "Designó a los Jefes y Coordinadores Administrativos titulares y accesitarios de la ODPE Cerro Colorado para las EG 2026.",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          2693
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) versión 03",
+        "establece": "Aprueba el Plan Operativo Electoral de las Elecciones Generales 2026. Establece el marco legal, electoral, estratégico, indicadores, presupuesto y actividades operativas. Fija la implementación de ODPE entre el 20 de enero y el 10 de marzo de 2026.",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          2701,
+          2727,
+          2787,
+          2835
+        ]
+      },
+      {
+        "codigo": "Contrato N° 217-2025-ONPE — SHALI EG 2026",
+        "establece": "Contrato suscrito entre la ONPE y el Consorcio 'ADMINISTRADOR DE PROCESOS ELECTORALES CSA' para el Servicio de habilitación, acondicionamiento y logística informática (SHALI) EG 2026. Monto total: S/ 144,306,000.00. Plazo hasta el 20 de mayo de 2026.",
+        "fecha": "2025-12-12",
+        "fuente_ids": [
+          3067,
+          3076,
+          3077
+        ]
+      },
+      {
+        "codigo": "Términos de Referencia del SHALI — EG 2026, versión 09",
+        "establece": "Establece los sub servicios, componentes, actividades, cronograma de entregables (Anexo N° 15A) y obligaciones del contratista para la habilitación, acondicionamiento y logística informática de los centros de cómputo.",
+        "fecha": "2026-01-27",
+        "fuente_ids": [
+          3004,
+          3062,
+          3063
+        ]
+      },
+      {
+        "codigo": "Acta de inicio del servicio para los centros de cómputo",
+        "establece": "Suscrita entre el Contratista y la ONPE el 2 de enero de 2026; habilita las fechas del cronograma del Anexo N° 15A de los TDR del SHALI.",
+        "fecha": "2026-01-02",
+        "fuente_ids": [
+          3079
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000367-2026-CG/GRAR",
+        "establece": "Emitido por la Gerencia Regional de Control de Arequipa; dispone la ejecución del presente control concurrente.",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          2642
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "actores_odpe_cerro_colorado",
+        "tipo": "D",
+        "label": "Actores institucionales de la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de ODPE",
+            "fuente_ids": [
+              1812
+            ]
+          },
+          {
+            "nombre": "Ruth Basilia Ripa Ito",
+            "rol": "Coordinadora Administrativa",
+            "fuente_ids": [
+              1813
+            ]
+          },
+          {
+            "nombre": "Obed Caleb Centeno Tupiño",
+            "rol": "Encargado de Centro de Cómputo",
+            "fuente_ids": [
+              1814
+            ]
+          },
+          {
+            "nombre": "Luis Alberto Huamán Mendoza",
+            "rol": "Asistente de Centro de Cómputo",
+            "fuente_ids": [
+              1815
+            ]
+          },
+          {
+            "nombre": "Richard Yana Coila",
+            "rol": "Asistente de Centro de Cómputo",
+            "fuente_ids": [
+              1815
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1812,
+          1813,
+          1814,
+          1815,
+          1816,
+          2922,
+          2923
+        ],
+        "fragmento_evidencia": "Armando Juan Echevarria Cardenas / Ruth Basilia Ripa Ito / Obed Caleb Centeno Tupiño / Luis Alberto Huaman Mendoza - Richard Yana Coila / 905,309.00",
+        "justificacion": "El Cuadro N° 4 presenta una tabla con datos homogéneos de los actores de la ODPE Cerro Colorado, con sus roles diferenciados. Se agrupan en una sola variable relacional porque responden a la misma pregunta conceptual: ¿quiénes integran la ODPE Cerro Colorado y en qué rol?",
+        "ambiguedad": "El presupuesto de S/ 905,309.00 coincide con el costo subtotal por ODPE/CC del Cuadro N° 7. Se consigna como dato asociado al actor colectivo."
+      },
+      {
+        "id": "actores_comision_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Juan Diego Lino Prieto",
+            "rol": "Jefe de Comisión, Comisión de Control",
+            "fuente_ids": [
+              4314
+            ]
+          },
+          {
+            "nombre": "Andrea Stephanie Benavides Benavides",
+            "rol": "Supervisora, Comisión de Control",
+            "fuente_ids": [
+              4313
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control de Arequipa (e), Contraloría General de la República",
+            "fuente_ids": [
+              4317
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4313,
+          4314,
+          4317
+        ],
+        "fragmento_evidencia": "Andrea Stephanie Benavides Benavides Supervisora Comisión de Control / Juan Diego Lino Prieto Jefe de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa (e) Contraloría General de la República",
+        "justificacion": "Los tres actores aparecen al cierre del informe con sus cargos explícitos y firmas digitales. Son actores del proceso de control con roles diferenciados.",
+        "ambiguedad": null
+      },
+      {
+        "id": "estructura_costos_shali_odpe",
+        "tipo": "B",
+        "label": "Estructura de costos del SHALI para la ODPE Cerro Colorado",
+        "valor": {
+          "observado": 905309.0,
+          "meta": null,
+          "estimado": null,
+          "unidad": "Soles (S/)"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Sub servicio de habilitación informática",
+            "previsto": 702666.0,
+            "real": null,
+            "fuente_ids": [
+              1952
+            ]
+          },
+          {
+            "subgrupo": "Sub servicio de acondicionamiento y logística informática",
+            "previsto": 99416.0,
+            "real": null,
+            "fuente_ids": [
+              1956
+            ]
+          },
+          {
+            "subgrupo": "Sub servicio de soporte técnico y supervisión informática",
+            "previsto": 67115.0,
+            "real": null,
+            "fuente_ids": [
+              1960
+            ]
+          },
+          {
+            "subgrupo": "Sub servicio de desmontaje de habilitación y acondicionamiento informático",
+            "previsto": 4224.0,
+            "real": null,
+            "fuente_ids": [
+              1964
+            ]
+          },
+          {
+            "subgrupo": "Sistema de gestión de la seguridad de la información",
+            "previsto": 1193.0,
+            "real": null,
+            "fuente_ids": [
+              1968
+            ]
+          },
+          {
+            "subgrupo": "Gestión del servicio",
+            "previsto": 30695.0,
+            "real": null,
+            "fuente_ids": [
+              1972
+            ]
+          },
+          {
+            "subgrupo": "Subtotal ODPE/CC",
+            "previsto": 905309.0,
+            "real": null,
+            "fuente_ids": [
+              1976
+            ]
+          },
+          {
+            "subgrupo": "Precio ofertado total del contrato",
+            "previsto": 144306000.0,
+            "real": null,
+            "fuente_ids": [
+              1984
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1947,
+          1948,
+          1949,
+          1950,
+          1951,
+          1952,
+          1953,
+          1954,
+          1955,
+          1956,
+          1957,
+          1958,
+          1959,
+          1960,
+          1961,
+          1962,
+          1963,
+          1964,
+          1965,
+          1966,
+          1967,
+          1968,
+          1969,
+          1970,
+          1971,
+          1972,
+          1973,
+          1974,
+          1975,
+          1976,
+          1977,
+          1978,
+          1979,
+          1980,
+          1981,
+          1982,
+          1983,
+          1984,
+          3073,
+          3076,
+          3077
+        ],
+        "fragmento_evidencia": "Costo Subtotal 905,309.00 [...] Precio Ofertado 144,306,000.00 (Ciento cuarenta y cuatro millones trescientos seis mil con 00/100 Soles)",
+        "justificacion": "El Cuadro N° 7 presenta la estructura de costos del SHALI, que es la referencia financiera del hito. Los valores son comparables por sub servicio y constituyen la meta presupuestal de la implementación.",
+        "ambiguedad": "El campo 'Cantidad Sedes' aparece con un valor parcialmente ilegible ('1408,94 0)'), posiblemente 140 sedes. La tabla también incluye columnas de costo para laboratorios de capacitación en Lima y centros de datos, que no corresponden directamente al ámbito de la ODPE Cerro Colorado."
+      },
+      {
+        "id": "sa1_falta_documentos_tecnicos_shali",
+        "tipo": "A",
+        "label": "Situación adversa 1: Falta de documentos técnicos que acrediten la ejecución de actividades del SHALI",
+        "valor": {
+          "texto": "El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con la totalidad de documentos técnicos establecidos en los TDR del SHALI que acrediten la correcta ejecución de las actividades. Durante la visita del 5 de marzo de 2026 —fecha posterior al vencimiento del plazo contractual del 4 de marzo de 2026— se constató la ausencia de 14 documentos/registros en 6 actividades distintas. Riesgo de afectar la operatividad del Centro de Cómputo durante el proceso electoral.",
+          "estado": "Abierta — identificada en este hito"
+        },
+        "detalle": [
+          {
+            "texto": "Actividad 1.1.2 (Tablero Eléctrico Intermedio) — Acta de Prueba de Aislamiento: no suscrita.",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              1991,
+              1992,
+              1993
+            ]
+          },
+          {
+            "texto": "Actividad 1.1.5 (UPS) — Acta de Entrega de Instalaciones Eléctricas con ficha técnica UPS: no suscrita.",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              1995,
+              1996,
+              1997
+            ]
+          },
+          {
+            "texto": "Actividad 1.1.6 (GE) — Acta de Entrega de Instalaciones Eléctricas con ficha técnica GE: no suscrita.",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              1998,
+              1999,
+              2000
+            ]
+          },
+          {
+            "texto": "Actividad 1.1.6 (GE) — Registro de horas de trabajo del GE con consumo de combustible: no existe registro ('aún no entró en funcionamiento').",
+            "estado": "No existe registro",
+            "desde_momento": null,
+            "fuente_ids": [
+              2001,
+              2002
+            ]
+          },
+          {
+            "texto": "Actividad 1.1.6 (GE) — Cartilla de Funcionamiento: no existe.",
+            "estado": "No existe",
+            "desde_momento": null,
+            "fuente_ids": [
+              2003,
+              2004
+            ]
+          },
+          {
+            "texto": "Actividad 1.2.1 (Cableado estructurado) — Acta de Certificación: no suscrita.",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              2007,
+              2008
+            ]
+          },
+          {
+            "texto": "Actividad 1.2.1 (Cableado estructurado) — Actas de Entrega de puntos de datos: no suscritas.",
+            "estado": "No suscritas",
+            "desde_momento": null,
+            "fuente_ids": [
+              2010,
+              2011
+            ]
+          },
+          {
+            "texto": "Actividad 1.3.3 (Equipos red administrativa y CC) — Constancia de operatividad y buen estado de equipos: no emitida ('No se encuentran instalados').",
+            "estado": "No emitida",
+            "desde_momento": null,
+            "fuente_ids": [
+              2014,
+              2015
+            ]
+          },
+          {
+            "texto": "Actividad 1.3.3 — Evidencia de configuración de contador de impresoras: no emitida.",
+            "estado": "No emitida",
+            "desde_momento": null,
+            "fuente_ids": [
+              2017,
+              2018
+            ]
+          },
+          {
+            "texto": "Actividad 1.3.3 — Reporte consolidado de páginas impresas por impresora: no emitido.",
+            "estado": "No emitido",
+            "desde_momento": null,
+            "fuente_ids": [
+              2020,
+              2021
+            ]
+          },
+          {
+            "texto": "Actividad 2.1.2 (Acondicionamiento CC) — Fotografías del CC (inicio, desarrollo, estado final): no tomadas.",
+            "estado": "No tomadas",
+            "desde_momento": null,
+            "fuente_ids": [
+              2023,
+              2024,
+              2025
+            ]
+          },
+          {
+            "texto": "Actividad 2.1.2 — Acta de Prueba de Operatividad e Instalación: no suscrita ('no se ha culminado con la instalación').",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              2027,
+              2028
+            ]
+          },
+          {
+            "texto": "Actividad 2.1.3 (Logística informática CC) — Acta de Entrega de útiles de escritorio y bienes de consumo: no suscrita.",
+            "estado": "No suscrita",
+            "desde_momento": null,
+            "fuente_ids": [
+              2031,
+              2032
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3096,
+          3099,
+          3100,
+          3105,
+          3106,
+          3107,
+          3108,
+          1987,
+          1988,
+          1989,
+          1990,
+          1991,
+          1992,
+          1993,
+          1994,
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027,
+          2028,
+          2029,
+          2030,
+          2031,
+          2032,
+          3376,
+          3384,
+          3482,
+          3484
+        ],
+        "fragmento_evidencia": "se ha identificado que no cuenta con la totalidad de los documentos técnicos, tales como; actas, certificados, constancia, reportes, fotografías, u otros registros que acrediten la ejecución de las actividades establecidas en los términos de referencia del SHALI",
+        "justificacion": "Esta es una situación adversa de seguimiento (Tipo A) porque documenta incumplimientos en la emisión de documentos técnicos obligatorios, con estado abierto al momento del hito. Los 13 ítems faltantes son homogéneos en estructura y provienen del mismo Cuadro N° 8.",
+        "ambiguedad": "Algunos ítems del Cuadro N° 8 podrían superponerse temáticamente con las situaciones adversas 2 y 3 (p. ej., el acta de entrega del GE aparece también en la SA2). Se mantienen aquí porque el Cuadro N° 8 es la fuente unificada de documentos faltantes."
+      },
+      {
+        "id": "sa2_deficiencias_fisicas_cc",
+        "tipo": "A",
+        "label": "Situación adversa 2: Deficiencias físicas en la instalación del Centro de Cómputo",
+        "valor": {
+          "texto": "El Centro de Cómputo de la ODPE Cerro Colorado presenta: (1) el grupo electrógeno sin la instalación del tubo de escape; (2) el sistema de aire acondicionado en cajas sin haber sido instalado ni puesto en funcionamiento; y (3) los tomacorrientes carecen de tapas de plástico. Situaciones constatadas el 5 de marzo de 2026, fecha posterior al vencimiento del plazo contractual del 4 de marzo de 2026. Riesgo de dispersión inadecuada de gases de combustión, elevación de la temperatura del ambiente y compromiso de la seguridad de los puntos eléctricos.",
+          "estado": "Abierta — identificada en este hito"
+        },
+        "detalle": [
+          {
+            "texto": "Grupo electrógeno (Actividad 1.1.6): sin tubo de escape instalado. El contratista debe instalar o extender el tubo de escape asegurándose que los gases emitidos no ingresen a los ambientes. Comentario en Acta Formato N° 1: 'No tiene instalado el tubo de escape'.",
+            "estado": "Sin tubo de escape instalado",
+            "desde_momento": null,
+            "fuente_ids": [
+              3595,
+              3628
+            ]
+          },
+          {
+            "texto": "Sistema de aire acondicionado (Actividad 1.1.4): se encuentra en cajas sin instalar, en azotea de la ODPE. Comentario en Acta: 'El sistema de aire acondicionado no está instalado, se encuentra en cajas'.",
+            "estado": "Sin instalar — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3506,
+              3615,
+              3616,
+              3617,
+              3618,
+              3619,
+              3620,
+              3621,
+              3622
+            ]
+          },
+          {
+            "texto": "Tomacorrientes (Actividad 1.1.1): sin tapas de plástico. Los TDR exigen tapa plástica con capacidad mínima de 10A y 220Vac. Comentario en Acta: respuesta 'NO' a la verificación de tapas.",
+            "estado": "Sin tapas de plástico",
+            "desde_momento": null,
+            "fuente_ids": [
+              3506,
+              3610,
+              3611,
+              3612,
+              3613
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3487,
+          3495,
+          3498,
+          3506,
+          3512,
+          3513,
+          3516,
+          3519,
+          3521,
+          3546,
+          3547,
+          3564,
+          3569,
+          3594,
+          3595,
+          3638,
+          3639,
+          3643,
+          3758,
+          2144,
+          2145,
+          2146,
+          2147,
+          2148,
+          2149,
+          2150,
+          2151,
+          2152,
+          2153,
+          2154,
+          2155,
+          2156,
+          2157,
+          2158,
+          2159
+        ],
+        "fragmento_evidencia": "se ha identificado que presenta el grupo electrógeno sin la instalación del tubo de escape, los tomacorrientes carecen de tapas de plástico, y el sistema de aire acondicionado se encuentran en cajas sin haber sido instalado ni puesto en funcionamiento, requerimientos establecidos en los términos de referencia del SHALI",
+        "justificacion": "Las tres deficiencias físicas son distintas entre sí pero forman parte de la misma situación adversa N° 2, identificada por el propio informe como una unidad. Se agrupan en una sola variable porque provienen de la misma verificación del 5 de marzo de 2026 y el informe las trata como un solo bloque con una sola consecuencia.",
+        "ambiguedad": null
+      },
+      {
+        "id": "sa3_equipos_informaticos_sin_instalar",
+        "tipo": "A",
+        "label": "Situación adversa 3: Equipos informáticos recibidos el mismo día de la visita, sin instalar ni en funcionamiento",
+        "valor": {
+          "texto": "El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con equipos informáticos instalados ni en funcionamiento para la mayoría de las estaciones. Solo se encontraban instalados los monitores y cableado. Los demás equipos fueron recibidos el 5 de marzo de 2026 a las 15:37 horas conforme a la Guía de Remisión Electrónica N° EG07-00000906 de 1 de marzo de 2026, entregada con Acta N° 001-CC-GRAR/ODPE-CC. Retrasaría la puesta en funcionamiento del Centro de Cómputo y afectaría su operatividad durante el proceso electoral.",
+          "estado": "Abierta — identificada en este hito"
+        },
+        "detalle": [
+          {
+            "texto": "Equipos instalados (sí presentes): monitores de estaciones de trabajo de digitalización (E2), administración y reportes (E2), estación de trabajo (E2), digitación (E1) y observadores (E1); además cableado (cable de poder y cable HDMI).",
+            "estado": "Instalados",
+            "desde_momento": null,
+            "fuente_ids": [
+              3777
+            ]
+          },
+          {
+            "texto": "Estación administrativa (E3): no instalada — en cajas.",
+            "estado": "No instalada — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Estaciones de trabajo LAPTOP (LPT1): no instaladas — en cajas.",
+            "estado": "No instaladas — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Servidor principal (S1): no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Servidor de respaldo (S1): no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Digitalización (E2) — equipo CPU: no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Administración y reportes (E2) — equipo CPU: no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Estación de trabajo (E2) — equipo CPU: no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Digitación (E1) — equipo CPU: no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Observadores (E1) — equipo CPU: no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Impresora electoral (I1): no instalada — en cajas.",
+            "estado": "No instalada — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Escáner electoral (ESC1): no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          },
+          {
+            "texto": "Switch (48 PUERTOS) (SW1): no instalado — en cajas.",
+            "estado": "No instalado — en cajas",
+            "desde_momento": null,
+            "fuente_ids": [
+              3778
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3763,
+          3769,
+          3770,
+          3776,
+          3777,
+          3778,
+          3783,
+          3806,
+          3807,
+          3812,
+          3857,
+          3877,
+          4020,
+          4023,
+          4032,
+          4037,
+          4095,
+          4097
+        ],
+        "fragmento_evidencia": "no se encontraron instalados ni en funcionamiento los equipos informáticos correspondientes a la estación administrativa (E3), estaciones de trabajo - LAPTOP (LPT1), servidor principal (S1), servidor de respaldo (S1), digitalización (E2), administración y reportes (E2), estación de trabajo (E2), digitación (E1), observadores (E1), impresora electoral (11), escáner electoral (ESC1), y switch (48 PUERTOS) (SW1); debido a que dichos equipos fueron recibidos por la ODPE el 5 de marzo de 2026 a las 15:37 horas, conforme consta en la Guía de Remisión Electrónica n.° EG07-00000906",
+        "justificacion": "Esta situación adversa N° 3 cubre de manera integral los equipos informáticos no instalados. La regla de integridad exige que el listado de equipos no instalados, la evidencia documental (guía de remisión) y la consecuencia se mantengan juntos en una sola variable.",
+        "ambiguedad": "Existe solapamiento entre la SA3 y SA4 respecto a los servidores y switches. La SA3 los menciona en su listado de equipos no instalados, pero la SA4 los trata con mayor profundidad como situación autónoma. Se mantienen mencionados aquí como parte del listado de la SA3 y desarrollados ampliamente en la SA4, siguiendo la estructura del propio informe."
+      },
+      {
+        "id": "sa4_servidores_switches_sin_instalar",
+        "tipo": "A",
+        "label": "Situación adversa 4: Servidores y switches sin instalar en el Centro de Cómputo",
+        "valor": {
+          "texto": "El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con los servidores instalados en el rack correspondiente, ni conexión a los switches y puntos de red implementados. Los switches destinados a la conectividad de la red del centro de cómputo tampoco se encontraban instalados. Ambos tipos de equipos fueron recibidos el 5 de marzo de 2026 a las 15:37 horas conforme a la Guía de Remisión Electrónica N° EG07-00000906 de 1 de marzo de 2026. Afectaría la operatividad de la red y de los servicios informáticos del Centro de Cómputo durante el proceso electoral.",
+          "estado": "Abierta — identificada en este hito"
+        },
+        "detalle": [
+          {
+            "texto": "Servidor principal (S1): no instalado en rack, sin conexión a switches ni puntos de red.",
+            "estado": "No instalado en rack",
+            "desde_momento": null,
+            "fuente_ids": [
+              4199
+            ]
+          },
+          {
+            "texto": "Servidor de respaldo (S1): no instalado.",
+            "estado": "No instalado",
+            "desde_momento": null,
+            "fuente_ids": [
+              4199
+            ]
+          },
+          {
+            "texto": "Switch (48 puertos) (SW1): no instalado; destinado a la conectividad de la red del CC.",
+            "estado": "No instalado",
+            "desde_momento": null,
+            "fuente_ids": [
+              4199
+            ]
+          },
+          {
+            "texto": "Switches de contingencia: no instalados.",
+            "estado": "No instalados",
+            "desde_momento": null,
+            "fuente_ids": [
+              4199
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4100,
+          4107,
+          4108,
+          4113,
+          4114,
+          4115,
+          4170,
+          4171,
+          4172,
+          4177,
+          4178,
+          4194,
+          4199,
+          4273,
+          4277
+        ],
+        "fragmento_evidencia": "se identificó que los switches destinados a la conectividad de la red del centro de cómputo y los servidores destinados al procesamiento de la información no se encontraban instalados, debido a que dichos equipos fueron recibidos por la ODPE el 5 de marzo de 2026 a las 15:37 horas, conforme consta en la Guía de Remisión Electrónica n.° EG07-00000906 de 1 de marzo de 2026",
+        "justificacion": "El informe trata esta como una situación adversa distinta (N° 4) de la SA3, con su propia condición, criterio y consecuencia, enfocada en los equipos de red e infraestructura de servidor, cuya ausencia tiene un impacto diferenciado (operatividad de red vs. puesta en funcionamiento general del CC).",
+        "ambiguedad": "Existe solapamiento con la SA3 en cuanto a los servidores y switches. La distinción radica en que la SA4 profundiza en la infraestructura de red (rack, conexiones, switches de contingencia) y tiene una consecuencia específica sobre la operatividad de la red."
+      },
+      {
+        "id": "conteo_situaciones_adversas_hito",
+        "tipo": "B",
+        "label": "Conteo total de situaciones adversas identificadas en el hito",
+        "valor": {
+          "observado": 4,
+          "meta": 0,
+          "estimado": null,
+          "unidad": "situaciones adversas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "SA1 — Falta de documentos técnicos que acrediten la ejecución de actividades del SHALI",
+            "previsto": 0,
+            "real": 1,
+            "fuente_ids": [
+              3096,
+              3099
+            ]
+          },
+          {
+            "subgrupo": "SA2 — GE sin tubo de escape, aire acondicionado en cajas sin instalar, tomacorrientes sin tapas",
+            "previsto": 0,
+            "real": 1,
+            "fuente_ids": [
+              3096,
+              3099
+            ]
+          },
+          {
+            "subgrupo": "SA3 — Equipos informáticos sin instalar ni en funcionamiento",
+            "previsto": 0,
+            "real": 1,
+            "fuente_ids": [
+              3096,
+              3099
+            ]
+          },
+          {
+            "subgrupo": "SA4 — Servidores y switches sin instalar",
+            "previsto": 0,
+            "real": 1,
+            "fuente_ids": [
+              3096,
+              3099
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3088,
+          3090
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 [...] se han identificado cuatro (4) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026",
+        "justificacion": "El número de situaciones adversas es un dato de progreso del hito: se espera que sea cero; el valor observado es cuatro. Es comparable entre hitos del mismo proceso de control concurrente.",
+        "ambiguedad": null
+      },
+      {
+        "id": "emision_reporte_avance_situaciones_adversas",
+        "tipo": "F",
+        "label": "Estado de reporte de avance ante situaciones adversas",
+        "valor": {
+          "booleano": false,
+          "evidencia": "La Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de Control Concurrente, conforme se declara explícitamente en la sección VII del informe."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de Reporte de Avance ante Situaciones Adversas durante la ejecución del servicio",
+            "cumple": false,
+            "fuente_ids": [
+              4292,
+              4293
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4292,
+          4293
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas.",
+        "justificacion": "Es una condición booleana verificable respaldada por declaración explícita del informe. Indica que las situaciones adversas no fueron comunicadas de manera anticipada durante la ejecución del hito, sino únicamente al cierre del mismo.",
+        "ambiguedad": null
+      },
+      {
+        "id": "situaciones_adversas_hitos_anteriores",
+        "tipo": "F",
+        "label": "Estado de situaciones adversas comunicadas en hitos anteriores",
+        "valor": {
+          "booleano": false,
+          "evidencia": "La sección VIII del informe indica expresamente 'No aplica', dado que este es el primer hito del proceso de control concurrente y no existen hitos anteriores con situaciones adversas pendientes."
+        },
+        "detalle": [
+          {
+            "criterio": "Existencia de situaciones adversas pendientes comunicadas en informes de hito de control anteriores",
+            "cumple": false,
+            "fuente_ids": [
+              4298,
+              4299
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4298,
+          4299
+        ],
+        "fragmento_evidencia": "VIII. INFORMACIÓN DE LAS SITUACIONES ADVERSAS COMUNICADAS EN INFORMES DE HITO DE CONTROL ANTERIORES / No aplica.",
+        "justificacion": "Es una condición booleana verificable: ¿existen situaciones adversas arrastradas de hitos anteriores? La respuesta es no. Relevante para establecer que todas las situaciones adversas son nuevas en este primer hito.",
+        "ambiguedad": null
+      },
+      {
+        "id": "cronograma_entregables_shali_hito1",
+        "tipo": "E",
+        "label": "Marco operativo del SHALI: cronograma de entregables relevantes para el hito",
+        "valor": {
+          "titulo": "Cronograma de entregables del SHALI relevantes para el Hito de Control N° 1 — Habilitación informática y acondicionamiento",
+          "cuerpo": "El Anexo N° 15A de los TDR del SHALI establece que a partir del día siguiente de la firma del acta de inicio del servicio (2 de enero de 2026) y hasta el 4 de marzo de 2026, el Contratista debía completar las siguientes actividades en los Centros de Cómputo: (1) 2.1. Instalaciones Eléctricas: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (2) 2.2. Instalaciones Redes de Datos: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (3) 2.3.g. Entrega, instalación y configuración de equipos en los CC: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (4) 2.5. Habilitación y puesta en Operación de todos los ambientes: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (5) 3.1.1. Acondicionamiento de los Centros de Cómputo: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (6) 3.1.2.a. Bienes de consumo, útiles de escritorio: desde el día siguiente al acta de inicio → fecha fin: 04/03/2026. (7) 4. Soporte Técnico: vigencia del 05/03/2026 al 08/05/2026. Nota: El plazo de ejecución total del contrato para las EG 2026 es desde el día siguiente del acta de inicio hasta el 20/05/2026."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3010,
+          3011,
+          3012,
+          3048,
+          3049,
+          3050,
+          3051,
+          3052,
+          3053,
+          3054,
+          3055,
+          3056,
+          3057,
+          3058,
+          3059,
+          3060,
+          3061,
+          3062,
+          3063,
+          1848,
+          1849,
+          1850,
+          1944
+        ],
+        "fragmento_evidencia": "la habilitación informática, que comprende: (i) instalaciones eléctricas, (ii) instalación de redes de datos, (iii) entrega, instalación y configuración de equipos en los centros de cómputo, (iv) habilitación y puesta en operación de todos los ambientes, así como el acondicionamiento y logística informática de los centros de cómputo, es a partir del día siguiente de la firma del acta de inicio del servicio hasta el 4 de marzo de 2026, plazo que tiene el proveedor para completar tales actividades",
+        "justificacion": "Esta variable narrativa consolida el cronograma de referencia del hito, que es el estándar normativo contra el que se evalúan todas las situaciones adversas. Es la especificación operativa concreta del cronograma aplicable a este hito.",
+        "ambiguedad": "Algunos plazos dependen de fechas variables (p. ej., 'a partir del día siguiente de la comunicación de la ONPE') y pueden no coincidir exactamente con el calendario fijo."
+      }
+    ]
+  }
+}

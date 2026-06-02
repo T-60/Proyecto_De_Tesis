@@ -52,9 +52,15 @@ def cargar_prompt(path):
 
 
 def extraer_json(texto):
-   
+    """
+    Extrae y parsea el JSON de la respuesta de Claude.
+    Si el JSON tiene comillas sin escapar dentro de valores string
+    (patron tipico: n.° X "Titulo del Hito"), intenta arreglarlas
+    automaticamente hasta 30 veces antes de rendirse.
+    """
     texto = texto.strip()
 
+    # Quitar fences de markdown (```json ... ```)
     if texto.startswith("```"):
         primera_llave = texto.find("{")
         ultima_llave = texto.rfind("}")
@@ -66,7 +72,61 @@ def extraer_json(texto):
         if primera_llave != -1 and ultima_llave != -1:
             texto = texto[primera_llave:ultima_llave + 1]
 
-    return json.loads(texto)
+    # Intento 1: parsear directamente
+    try:
+        return json.loads(texto)
+    except json.JSONDecodeError:
+        pass
+
+    # Intento 2: arreglar comillas sin escapar.
+    # Recorremos linea por linea. Dentro de un valor string JSON,
+    # si encontramos comillas que NO son el cierre del valor, las
+    # reemplazamos por comillas simples.
+    lines = texto.split('\n')
+    fixed_lines = []
+    for line in lines:
+        stripped = line.lstrip()
+
+        # Solo procesar lineas que son valores string JSON
+        # (patron: "clave": "valor con comillas internas")
+        if '": "' not in stripped:
+            fixed_lines.append(line)
+            continue
+
+        # Encontrar donde empieza el valor string
+        idx_val = line.index('": "') + 4  # posicion justo despues de ': "'
+        prefix = line[:idx_val]
+
+        # Encontrar donde termina: la ultima comilla de la linea que cierra el valor
+        rest = line[idx_val:]
+
+        # El cierre del valor string es la ultima comilla seguida de , o nada o }
+        # Buscar desde el final
+        close_pos = len(rest) - 1
+        while close_pos >= 0:
+            if rest[close_pos] == '"':
+                # Verificar que es el cierre (seguido de , o nada significativa)
+                after = rest[close_pos + 1:].strip()
+                if after == '' or after.startswith(',') or after.startswith('}') or after.startswith(']'):
+                    break
+            close_pos -= 1
+
+        if close_pos < 0:
+            fixed_lines.append(line)
+            continue
+
+        # Todo entre idx_val y close_pos es el contenido del string
+        # Reemplazar comillas dobles internas por simples
+        content = rest[:close_pos]
+        suffix = rest[close_pos:]  # incluye la comilla de cierre + , etc.
+
+        content_fixed = content.replace('"', "'")
+        fixed_lines.append(prefix + content_fixed + suffix)
+
+    fixed = '\n'.join(fixed_lines)
+
+    # Ultimo intento con el texto arreglado
+    return json.loads(fixed)
 
 
 

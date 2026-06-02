@@ -1,0 +1,692 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "ODPE (Oficina Descentralizada de Procesos Electorales)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_1",
+    "numero": 1,
+    "label": "Hito de Control N° 1 — Acondicionamiento del local de la ODPE",
+    "filename": "SE_INYECTA_EN_CODIGO",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 145-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-02-05",
+      "periodo_inicio": "2026-01-26",
+      "periodo_fin": "2026-01-30",
+      "estado_notificacion": "Notificado al Jefe de la ODPE Cerro Colorado mediante Oficio N° 000145-2026-CG/GRAR de 05 de febrero de 2026, y al Jefe Nacional de la ONPE mediante Oficio N° 000026-2026-CG/OC3599 de 06 de febrero de 2026, por casilla electrónica N° 20291973851",
+      "fuente_ids": [
+        2564,
+        2575,
+        2598,
+        2567,
+        2577,
+        2600,
+        2568,
+        2612,
+        2570,
+        3520,
+        4317,
+        4364,
+        4403,
+        4443
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORN — Servicio de Control Simultáneo",
+        "establece": "Marco normativo que regula el servicio de Control Simultáneo, incluyendo la comunicación al Titular de la entidad respecto de situaciones adversas",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          2602,
+          4327,
+          4372
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000072-2026-CG/GRAR",
+        "establece": "Dispone la ejecución del control concurrente; registrado en el SCG con orden de servicio N° 02-L470-2026-011",
+        "fecha": "2026-01-26",
+        "fuente_ids": [
+          2602,
+          4288
+        ]
+      },
+      {
+        "codigo": "Ley N° 26487 — Ley Orgánica de la ONPE, artículo 24",
+        "establece": "Las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales",
+        "fecha": null,
+        "fuente_ids": [
+          2619
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859 — Ley Orgánica de Elecciones (LOE), artículos 39° y 49°",
+        "establece": "El Jefe de la ONPE determina el número, ubicación y organización de las ODPE; el Jefe Nacional designa por concurso público a los Jefes y Coordinadores Administrativos",
+        "fecha": null,
+        "fuente_ids": [
+          2623,
+          2636
+        ]
+      },
+      {
+        "codigo": "ROF de la ONPE — Resolución Jefatural N° 000125-2024-JN/ONPE, artículos 116° y 104°",
+        "establece": "Regula las atribuciones del Jefe de la ONPE sobre las ODPE y las funciones de la GOECOR",
+        "fecha": "2024-06-27",
+        "fuente_ids": [
+          2623,
+          2629,
+          2709
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para las Elecciones Generales 2026",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          2635
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000165-2025-JN/ONPE",
+        "establece": "Dispone la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir vacantes de Jefes y Coordinadores Administrativos de ODPE para EG 2026",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          2637
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000175-2025-JN/ONPE",
+        "establece": "Designa a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE para EG 2026",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          2638
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) Versión 03",
+        "establece": "Aprueba el Plan Operativo Electoral para las Elecciones Generales 2026 con actividades operativas y tareas de cumplimiento obligatorio por cada unidad orgánica de la ONPE, incluyendo las ODPE",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          2639,
+          2677,
+          3048
+        ]
+      },
+      {
+        "codigo": "Memorando N° 000073-2026-GOECOR/ONPE",
+        "establece": "Reformula el presupuesto analítico de cada ODPE; el total asciende a S/ 350'999,235.52",
+        "fecha": "2026-01-08",
+        "fuente_ids": [
+          2698
+        ]
+      },
+      {
+        "codigo": "Resolución General N° 000049-2025-GOECOR/ONPE",
+        "establece": "Fuente de la información general de la ODPE Cerro Colorado",
+        "fecha": "2025-11-12",
+        "fuente_ids": [
+          2705
+        ]
+      },
+      {
+        "codigo": "Instructivo IN01-GOECOR/IMO — Habilitación de la ODPE y Oficinas Distritales y/o de Centros Poblados, Versión 2",
+        "establece": "Establece las tareas para la habilitación de los locales de la ODPE incluyendo implementación de áreas, señalización, rotulado, control de acceso al centro de cómputo e identificación de ambientes no alquilados",
+        "fecha": "2022-07-19",
+        "fuente_ids": [
+          2716,
+          2914,
+          3077,
+          3184,
+          3268
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR01-GOECOR/IMO — Implementación de la ODPE, Versión 17",
+        "establece": "Precisa las actividades para la implementación de la sede de la ODPE, desde la consolidación de la propuesta del local hasta el inicio de las actividades",
+        "fecha": null,
+        "fuente_ids": [
+          2716,
+          3224
+        ]
+      },
+      {
+        "codigo": "Manual de Administración de Almacenes para el Sector Público Nacional — Resolución Jefatural N° 335-90-INAP/DNA",
+        "establece": "Establece condiciones para la selección y organización del local de almacén, incluyendo seguridad ante agentes atmosféricos",
+        "fecha": "1990-09-09",
+        "fuente_ids": [
+          2860,
+          2866
+        ]
+      },
+      {
+        "codigo": "Norma Técnica EM.030 — Instalaciones de Ventilación del Reglamento Nacional de Edificaciones",
+        "establece": "Define ventilación y establece que la ventilación mecánica en baños públicos debe descargar al exterior de la edificación",
+        "fecha": null,
+        "fuente_ids": [
+          2867,
+          2873
+        ]
+      },
+      {
+        "codigo": "Términos de Referencia — Informe N° 002-2025-CA-ODPE Cerro Colorado-GOECOR/ONPE",
+        "establece": "Establece la obligación del arrendatario de efectuar los pagos de electricidad y agua correspondientes al periodo de arrendamiento",
+        "fecha": "2025-12-15",
+        "fuente_ids": [
+          2980,
+          2989
+        ]
+      },
+      {
+        "codigo": "Contrato N° 001-2025-ODPE/CERRO COLORADO — Cláusula Sexta",
+        "establece": "Establece como obligación de la ONPE efectuar los pagos de electricidad y agua",
+        "fecha": "2025-12-19",
+        "fuente_ids": [
+          3012,
+          3013
+        ]
+      },
+      {
+        "codigo": "Resolución Ministerial N° 065-2017-VIVIENDA",
+        "establece": "Aprueba la Guía para la identificación y estandarización de Especificaciones Técnicas de los Medidores de Agua Potable; los medidores permiten la facturación basada en lectura mensual",
+        "fecha": "2017-02-27",
+        "fuente_ids": [
+          3004
+        ]
+      },
+      {
+        "codigo": "Ley N° 29973 — Ley General de la Persona con Discapacidad, artículos 15, 17 y 81",
+        "establece": "Establece el derecho a la accesibilidad, las condiciones de edificaciones públicas y privadas, e infracciones",
+        "fecha": "2012-12-13",
+        "fuente_ids": [
+          3417,
+          3432,
+          3433
+        ]
+      },
+      {
+        "codigo": "Norma Técnica A.120 — Accesibilidad Universal en Edificaciones del RNE — Resolución Ministerial N° 072-2019-VIVIENDA",
+        "establece": "Establece condiciones de accesibilidad, anchos mínimos de puertas, tratamiento de desniveles, espacios para sillas de ruedas y condiciones de servicios higiénicos accesibles",
+        "fecha": "2019-02-27",
+        "fuente_ids": [
+          3436,
+          3438,
+          3444
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 007-2020-PCM, artículo 11",
+        "establece": "Establece disposiciones para la gestión de reclamos en entidades de la Administración Pública y regula la difusión del Libro de Reclamaciones",
+        "fecha": null,
+        "fuente_ids": [
+          3231
+        ]
+      },
+      {
+        "codigo": "Ley N° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, artículo 8°",
+        "establece": "Regula el marco general del servicio de control",
+        "fecha": null,
+        "fuente_ids": [
+          4326,
+          4371
+        ]
+      },
+      {
+        "codigo": "Informe Técnico N° 015-2025/SENAMHI-DMA-SPC — Escenario Probabilístico de lluvias verano 2026",
+        "establece": "Sustenta que las lluvias son más frecuentes en los primeros meses del año en la zona",
+        "fecha": null,
+        "fuente_ids": [
+          2851
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situaciones_adversas_hito_1",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control N° 1",
+        "valor": {
+          "texto": "Se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026",
+          "estado": "Abierta / Pendiente de corrección"
+        },
+        "detalle": [
+          {
+            "texto": "Almacén electoral con ductos de ventilación de servicios higiénicos: El almacén electoral ubicado en el cuarto nivel del inmueble recibe los ductos de ventilación provenientes de los servicios higiénicos del segundo y tercer nivel, contaminando el aire y pudiendo transferir humedad al interior del almacén. En el pasadizo contiguo existe una abertura de aproximadamente 0.70 m x 0.40 m de ingreso a la azotea sin protección contra lluvias. Riesgo de deterioro e inutilización del material electoral almacenado.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              2728,
+              2729,
+              2730,
+              2770,
+              2788,
+              2819,
+              2858,
+              2882
+            ]
+          },
+          {
+            "texto": "Falta de tópico de salud y ambiente de atención al público implementado: La ODPE no cuenta con tópico de salud (constatado en el formato SCC del 26 de enero de 2026, sección II, numeral 14 con respuesta en blanco). El espacio destinado a atención al público será compartido con personal de seguridad y auxiliar técnico. Riesgo para la salud de personas ante falta de atención primaria y servicios al público no garantizados.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              2885,
+              2890,
+              2897,
+              2907,
+              2937
+            ]
+          },
+          {
+            "texto": "Medidor único de agua potable compartido con otro arrendatario: El inmueble cuenta con un único medidor de agua potable compartido entre la ODPE y la tienda KAYENCORP (que ocupa un área de aprox. 103 m² del primer nivel con 2 SS.HH.), sin certeza del consumo real de cada arrendatario. Riesgo de pago de consumos de agua no realizados por la ODPE, afectando el correcto uso de recursos públicos.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              2938,
+              2939,
+              2940,
+              2973,
+              3014,
+              3015
+            ]
+          },
+          {
+            "texto": "Falta de alquiler de mobiliario y equipos de cómputo no operativos: A la fecha de evaluación la ODPE no había contratado servicios de alquiler de mobiliario. De 36 equipos de cómputo presentes, solo 6 fueron instalados al 29 de enero de 2026, pese a que el POE establecía el 29 de enero como plazo máximo de habilitación. Podría limitar las actividades y servicios de la ODPE para el cumplimiento de actividades programadas en EG 2026.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              3016,
+              3018,
+              3022,
+              3027,
+              3084,
+              3085
+            ]
+          },
+          {
+            "texto": "Falta de rotulado, señalización, croquis de distribución y enlace al libro de reclamaciones: El frontis no cuenta con rótulo o cartel con línea gráfica del proceso electoral; la ODPE no concluyó el croquis de distribución administrativa con zonas de seguridad y rutas de evacuación ni lo remitió a la GOECOR; las áreas de Capacitación, Cómputo y Almacén Electoral no están rotuladas; tres ambientes del primer piso no alquilados no están identificados como ambientes no alquilados; el frontis no tiene aviso con enlace al libro de reclamaciones virtual.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              3086,
+              3087,
+              3088,
+              3116,
+              3118,
+              3119,
+              3153,
+              3181,
+              3243,
+              3248,
+              3252,
+              3261,
+              3262
+            ]
+          },
+          {
+            "texto": "Centro de cómputo sin control de ingreso y salida de equipos y visitantes: El centro de cómputo no cuenta con cuaderno o registro de ingreso y salida de equipos y visitantes que permita cautelar la información y equipos de trabajo (constatado en entrevista del 26 de enero de 2026). Riesgo de no poder cautelar la data, información y equipos que administra la ODPE.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              3263,
+              3264,
+              3265,
+              3267,
+              3277,
+              3280
+            ]
+          },
+          {
+            "texto": "Instalaciones no aptas para personas con discapacidad: Desnivel de aprox. 0.35 m entre vereda y piso de ingreso con 2 peldaños y sin rampa; desnivel de aprox. 0.25 m entre hall de ingreso y área de capacitación sin rampa; único SS.HH. del primer piso a 34 m de recorrido del hall de ingreso con área interna de aprox. 2.50 m² y puerta de 0.70 m (no cumple diámetro mínimo de 1.50 m para giro de silla de ruedas); área de recepción sin espacio señalizado de 0.90 m x 1.20 m para sillas de ruedas. Al 29 de enero de 2026 el Jefe de ODPE aún no había definido el lugar para atención de personas con discapacidad.",
+            "estado": "Abierta / Pendiente de corrección",
+            "desde_momento": null,
+            "fuente_ids": [
+              3291,
+              3292,
+              3293,
+              3308,
+              3377,
+              3400,
+              3480,
+              3481
+            ]
+          }
+        ],
+        "fuente_ids": [
+          2726,
+          2727,
+          3485,
+          3486
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026",
+        "justificacion": "El documento identifica explícitamente 7 situaciones adversas en la sección V, todas derivadas de la inspección del Hito de Control N° 1. Cada una tiene estructura interna homogénea (condición / criterio / consecuencia) y proviene de la misma sección estructurada, por lo que se agrupan en una sola variable de tipo A con detalle de 7 ítems. Al ser el primer hito de control documentado, no existe comparación con momento anterior.",
+        "ambiguedad": "El documento no consigna explícitamente si alguna de las situaciones fue corregida durante el período de evaluación (26-30 enero 2026). El formato SCC del apéndice recoge algunas respuestas que sugieren procesos en marcha ('en proceso de implementación'), pero no se indica resolución formal de ninguna situación."
+      },
+      {
+        "id": "presupuesto_analitico_odpe",
+        "tipo": "B",
+        "label": "Presupuesto analítico asignado a la ODPE Cerro Colorado",
+        "valor": {
+          "observado": 2528807.7,
+          "meta": null,
+          "estimado": null,
+          "unidad": "soles (S/)"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Total presupuesto analítico todas las ODPE",
+            "previsto": 350999235.52,
+            "real": null,
+            "fuente_ids": [
+              2698
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1820,
+          2698,
+          2705
+        ],
+        "fragmento_evidencia": "Presupuesto Analitico (S/) ... 2,528,807.70",
+        "justificacion": "El Cuadro N° 2 del documento consigna el presupuesto analítico asignado específicamente a la ODPE Cerro Colorado. Es un valor numérico de referencia para el seguimiento de la instancia en momentos sucesivos.",
+        "ambiguedad": "No se indica el nivel de ejecución del presupuesto a la fecha de evaluación, solo el monto asignado."
+      },
+      {
+        "id": "estado_habilitacion_local_odpe",
+        "tipo": "C",
+        "label": "Estado de habilitación del local de la ODPE (resultado del formato SCC)",
+        "valor": {
+          "categoria": "En proceso de implementación / Con deficiencias identificadas",
+          "nota": "El local no cumple la totalidad de condiciones requeridas al 26-29 de enero de 2026, fecha límite del POE (29 de enero de 2026). Cumple condiciones básicas de infraestructura en áreas administrativas, operaciones y capacitación, pero carece de tópico, mobiliario contratado, equipos operativos, señalización completa y condiciones de accesibilidad para personas con discapacidad."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1910,
+          1915,
+          1919,
+          1925,
+          1934,
+          1938,
+          1969,
+          1973,
+          1978,
+          1982,
+          1985,
+          1988,
+          1991,
+          1996,
+          2003,
+          2006,
+          2009,
+          2012,
+          2015,
+          2018,
+          2024,
+          2028,
+          2031,
+          2034,
+          2037,
+          2045,
+          2049,
+          2052,
+          2055,
+          2059,
+          2063,
+          2067,
+          2070,
+          2073,
+          2076,
+          2079,
+          2080,
+          2094,
+          2098,
+          2101,
+          2103,
+          2107,
+          2113,
+          2124,
+          2138,
+          2182,
+          2187,
+          2222,
+          2235,
+          2240,
+          2244,
+          2251,
+          2256,
+          2259,
+          2265,
+          2271,
+          2281,
+          2285,
+          2288,
+          2291,
+          2296,
+          2300,
+          2304,
+          2308,
+          2312,
+          2315
+        ],
+        "fragmento_evidencia": "de acuerdo al Plan Operativo Electoral, versión 03, el plazo máximo para la habilitación de las ODPE era el 29 de enero del 2026.",
+        "justificacion": "El formato SCC recoge sistemáticamente el estado de habilitación del local en múltiples dimensiones al momento de la inspección. La variable resume la condición global del local en este hito, comparable con hitos futuros.",
+        "ambiguedad": "El formato SCC incluye campos con respuestas parcialmente ilegibles (texto manuscrito digitalizado). Algunas respuestas de la sección de muebles no tienen valor numérico claro por estar 'en proceso de licitación'."
+      },
+      {
+        "id": "actores_odpe_cerro_colorado",
+        "tipo": "D",
+        "label": "Actores de la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de ODPE Cerro Colorado (DNI: 22246404)",
+            "fuente_ids": [
+              1818,
+              4207,
+              4319
+            ]
+          },
+          {
+            "nombre": "Ruth Basilia Ripa Ito",
+            "rol": "Coordinadora Administrativa de la ODPE Cerro Colorado (DNI: 29622972)",
+            "fuente_ids": [
+              1819,
+              4222,
+              4261
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1813,
+          1814,
+          1818,
+          1819
+        ],
+        "fragmento_evidencia": "Jefe de ODPE ... Armando Juan Echevarría Cárdenas ... Coordinador administrativo ... Ruth Basilia Ripa Ito",
+        "justificacion": "El Cuadro N° 2 del documento identifica a los dos funcionarios responsables de la ODPE Cerro Colorado, que son los actores primarios de la instancia controlada.",
+        "ambiguedad": "El DNI de Ruth Basilia Ripa Ito aparece como '29622972' en el acta y como '22622912' en otro punto del documento; probable error tipográfico en uno de los registros."
+      },
+      {
+        "id": "actores_comision_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Vania Neisé Díaz Arroyo",
+            "rol": "Jefa de Comisión de Control",
+            "fuente_ids": [
+              3521,
+              2334
+            ]
+          },
+          {
+            "nombre": "Marleni Mamani Cachi",
+            "rol": "Supervisora de Comisión de Control (DNI: 45732723)",
+            "fuente_ids": [
+              3520,
+              4213,
+              4258
+            ]
+          },
+          {
+            "nombre": "Nelson Humberto Márquez Huamán",
+            "rol": "Integrante de la Comisión de Control (DNI: 42916050)",
+            "fuente_ids": [
+              4225,
+              4231,
+              4300
+            ]
+          },
+          {
+            "nombre": "Alejandra Elizabeth Huamán Hidalgo",
+            "rol": "Gerente Regional de Control II, Gerencia Regional de Control de Arequipa — aprobadora del informe",
+            "fuente_ids": [
+              3525,
+              4333
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3520,
+          3521,
+          3525
+        ],
+        "fragmento_evidencia": "Marleni Mamani Cachi Supervisor Comisión de Control ... Vania Neisé Díaz Arroyo Jefe de Comisión Comisión de Control ... Alejandra Elizabeth Huaman Hidalgo Gerente Regional de Control lI Gerencia Regional de Control de Arequipa",
+        "justificacion": "El documento identifica a los integrantes de la comisión de control que realizaron la inspección y suscribieron el informe. Son actores institucionales del proceso de control concurrente.",
+        "ambiguedad": "El DNI de Vania Díaz Arroyo no aparece claramente en el cuerpo principal del informe; se lee parcialmente en el acta de visita complementaria."
+      },
+      {
+        "id": "recomendaciones_informe_hito_1",
+        "tipo": "E",
+        "label": "Recomendaciones del Informe de Hito de Control N° 145-2026-CG/GRAR-SCC dirigidas al Jefe Nacional de la ONPE",
+        "valor": {
+          "titulo": "Recomendaciones del Informe de Hito de Control N° 145-2026-CG/GRAR-SCC dirigidas al Jefe Nacional de la ONPE",
+          "cuerpo": "El informe formula dos recomendaciones. La primera solicita hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', para que se adopten las acciones preventivas y correctivas en el marco de sus competencias, con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales 2026. La segunda solicita que el Jefe Nacional de la ONPE comunique a la Comisión de Control, en el plazo de cinco (5) días hábiles desde la comunicación del informe, las acciones preventivas o correctivas adoptadas o por adoptar respecto a las situaciones adversas, adjuntando la documentación de sustento respectiva."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3487,
+          3489,
+          3490,
+          3499
+        ],
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE'",
+        "justificacion": "La sección VIII del documento contiene las recomendaciones institucionales formales que la Contraloría dirige al Titular de la entidad controlada. Es información narrativa estructurada con contenido propio del hito.",
+        "ambiguedad": null
+      },
+      {
+        "id": "notificacion_jefe_odpe",
+        "tipo": "F",
+        "label": "Notificación del informe al Jefe de la ODPE Cerro Colorado",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Mediante Oficio N° 000145-2026-CG/GRAR de 05 de febrero de 2026, la Gerenta Regional de Control de Arequipa notificó al Jefe de la ODPE Cerro Colorado, Armando Juan Echevarría Cárdenas, el Informe de Hito de Control N° 145-2026-CG/GRAR-SCC, solicitando que las acciones adoptadas sean informadas en un plazo no mayor de cinco (5) días hábiles."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de oficio de notificación al Jefe de ODPE",
+            "cumple": true,
+            "fuente_ids": [
+              4317,
+              4318
+            ]
+          },
+          {
+            "criterio": "Identificación del destinatario (Armando Juan Echevarría Cárdenas, Jefe de ODPE Cerro Colorado)",
+            "cumple": true,
+            "fuente_ids": [
+              4319
+            ]
+          },
+          {
+            "criterio": "Solicitud de respuesta en plazo de cinco días hábiles con documentación de sustento",
+            "cumple": true,
+            "fuente_ids": [
+              4323,
+              4324
+            ]
+          },
+          {
+            "criterio": "Firma de la Gerenta Regional de Control de Arequipa",
+            "cumple": true,
+            "fuente_ids": [
+              4330
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4317,
+          4318,
+          4319,
+          4323,
+          4324,
+          4330
+        ],
+        "fragmento_evidencia": "OFICIO N° 000145-2026-CG/GRAR ... Asunto : Notificación de Informe de Hito de Control n.° 145-2026-CG/GRAR-SCC.",
+        "justificacion": "La existencia del oficio de notificación y su contenido confirman que el informe fue formalmente comunicado al responsable de la ODPE. Es una condición verificable con documento de respaldo.",
+        "ambiguedad": null
+      },
+      {
+        "id": "notificacion_jefe_nacional_onpe",
+        "tipo": "F",
+        "label": "Notificación del informe al Jefe Nacional de la ONPE",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Mediante Oficio N° 000026-2026-CG/OC3599 de 06 de febrero de 2026, la Jefa del OCI de la ONPE notificó a Piero Alessandro Corvetto Salinas, Jefe Nacional de la ONPE, los informes de hito de control de 10 ODPE (incluyendo ODPE Cerro Colorado N° 145-2026-CG/GRAR-SCC), depositados en Casilla Electrónica N° 20291973851, Cédula N° 00000011-2026-CG/3599."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de oficio de notificación al Jefe Nacional de la ONPE",
+            "cumple": true,
+            "fuente_ids": [
+              4364,
+              4365
+            ]
+          },
+          {
+            "criterio": "Identificación del destinatario (Piero Alessandro Corvetto Salinas, Jefe Nacional de la ONPE)",
+            "cumple": true,
+            "fuente_ids": [
+              4366
+            ]
+          },
+          {
+            "criterio": "Inclusión del informe de la ODPE Cerro Colorado en la notificación",
+            "cumple": true,
+            "fuente_ids": [
+              4403,
+              4407
+            ]
+          },
+          {
+            "criterio": "Notificación mediante casilla electrónica con cédula de notificación",
+            "cumple": true,
+            "fuente_ids": [
+              4413,
+              4420
+            ]
+          }
+        ],
+        "fuente_ids": [
+          4364,
+          4365,
+          4366,
+          4374,
+          4376,
+          4403,
+          4407,
+          4413,
+          4420
+        ],
+        "fragmento_evidencia": "OFICIO N° 000026-2026-CG/OC3599 ... Notificación de Informes de Hitos de Control ... ODPECerroColorado[F]",
+        "justificacion": "El oficio de notificación, la constancia de notificación electrónica y la cédula de notificación acreditan que el informe de la ODPE Cerro Colorado fue formalmente comunicado al titular de la entidad controlada (ONPE) a través del sistema eCasilla CGR.",
+        "ambiguedad": null
+      }
+    ]
+  }
+}

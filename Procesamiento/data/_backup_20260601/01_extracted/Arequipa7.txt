@@ -1,0 +1,426 @@
+# Análisis del Documento: Arequipa7.pdf
+
+---
+
+## 1. Vocabulario del Dominio
+
+**Instancia:** "Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las Elecciones Generales - 2026". La entidad que se sigue es la **ODPE Arequipa** (Oficina Descentralizada de Procesos Electorales Arequipa), en el contexto del servicio de Control Concurrente ejecutado por la Gerencia Regional de Control de Arequipa.
+
+**Momento:** "Hito de Control". El documento corresponde específicamente al **Hito de Control N° 1**, denominado "Distribución de material electoral y equipos informáticos para capacitación electoral a cargo de la ODPE". Cada hito representa un punto de evaluación dentro del proceso de control concurrente.
+
+---
+
+## 2. Metadata del Momento
+
+- **Identificador del documento:** Informe de Hito de Control N° 294-2026-CG/GRAR-SCC
+  Fuente (IDs): [1286], [1297], [1318], [1597]
+  Fragmento: "INFORME DE HITO DE CONTROL N° 294-2026-CG/GRAR-SCC"
+
+- **Momento al que corresponde:** Hito de Control N° 1 — "Distribución de material electoral y equipos informáticos para capacitación electoral a cargo de la ODPE"
+  Fuente (IDs): [1289], [1299], [1320]
+  Fragmento: "HITO DE CONTROL N° 1: 'DISTRIBUCIÓN DE MATERIAL ELECTORAL Y EQUIPOS INFORMÁTICOS PARA CAPACITACIÓN ELECTORAL A CARGO DE LA ODPE'"
+
+- **Período de evaluación del hito:** Del 16 al 18 de febrero de 2026
+  Fuente (IDs): [1290], [1346]
+  Fragmento: "PERÍODO DE EVALUACIÓN DEL HITO DE CONTROL: DEL 16 AL 18 DE FEBRERO DE 2026" / "ha sido ejecutado del 16 al 18 de febrero de 2026"
+
+- **Fecha de emisión del documento:** 25 de febrero de 2026
+  Fuente (IDs): [1292], [1478]
+  Fragmento: "AREQUIPA, 25 DE FEBRERO DE 2026" / "Arequipa, 25 de febrero de 2026."
+
+- **Estado de notificación:** El informe fue notificado a la Jefa de la ODPE Arequipa mediante Oficio N° 000261-2026-CG/GRAR de fecha 25 de febrero de 2026, y al Jefe Nacional de la ONPE mediante Oficio N° 000062-2026-CG/OC3599 de fecha 2 de marzo de 2026, con depósito en casilla electrónica N° 20291973851 acreditado mediante Constancia de Notificación Electrónica.
+  Fuente (IDs): [1794], [1800], [1829], [1831], [1846], [1853], [1873], [1906], [1920]
+  Fragmento: "OFICIO N° 000261-2026-CG/GRAR [...] Asunto: Remisión de Informe de Hito de Control n.° 294-2026-CG/GRAR-SCC" / "Estado: EMITIDO" / "CÉDULA DE NOTIFICACIÓN ELECTRÓNICA N° 00000046-2026-CG/3599"
+
+- **Nombre del archivo:** Arequipa7.pdf
+  Fuente (IDs): (encabezado del documento)
+  Fragmento: "# Arequipa7.pdf"
+
+- **Identificador de la instancia / caso:** Orden de servicio N° 02-L470-2026-034, registrada en el Sistema de Control Gubernamental (SCG)
+  Fuente (IDs): [1322]
+  Fragmento: "registrado en el Sistema de Control Gubernamental - SCG con la orden de servicio n.° 02-L470-2026-034"
+
+- **ODPE objeto del control:** ODPE Arequipa, ubicada en Calle Universidad N° 215, Urb. La Victoria, Cercado de Arequipa, distrito y provincia de Arequipa, departamento de Arequipa
+  Fuente (IDs): [1346], [636], [638], [640], [642]
+  Fragmento: "en las oficinas de la ODPE Arequipa, ubicado en Calle Universidad n.° 215, Urb. La Victoria, cercado de Arequipa, distrito y provincia de Arequipa"
+
+- **Tomo:** Tomo I de (el total no se especifica con claridad)
+  Fuente (IDs): [1291]
+  Fragmento: "TOMO I DE"
+
+---
+
+## 3. Marco General del Proceso
+
+- **Ley N° 27785** — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República y sus modificatorias. Establece las facultades y atribuciones del sistema de control gubernamental, en particular el artículo 8° que regula la comunicación al titular de la entidad sobre situaciones adversas.
+  Fecha: No indicada en el documento (norma vigente).
+  Fuente (IDs): [1802], [1855]
+  Fragmento: "Artículo 8° de la Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, y sus modificatorias"
+
+- **Directiva N° 013-2022-CG/NORM** — "Servicio de Control Simultáneo", aprobada mediante Resolución de Contraloría N° 218-2022-CG. Establece el marco normativo que regula el servicio de Control Simultáneo, incluyendo las modalidades de hitos de control y la comunicación de situaciones adversas al titular o responsable de la entidad.
+  Fecha: 30 de mayo de 2022 (y modificatorias).
+  Fuente (IDs): [1322], [1803], [1856]
+  Fragmento: "Directiva n.° 013-2022-CG/NORM 'Servicio de Control Simultáneo', aprobada mediante Resolución de Contraloría n.° 218-2022-CG de 30 de mayo de 2022 y modificatorias"
+
+- **Decreto Supremo N° 039-2025-PCM** — Convoca las Elecciones Generales 2026 para el domingo 12 de abril de 2026, en las que se elegirá a Presidente, Vicepresidentes, Senadores, Diputados y representantes ante el Parlamento Andino, conforme al artículo 80° de la Ley N° 26859.
+  Fecha: 2025 (fecha exacta no especificada en el documento).
+  Fuente (IDs): [1359]
+  Fragmento: "Dicho proceso fue convocado según Decreto Supremo n.° 039-2025-PCM, y de acuerdo con lo establecido en el artículo 80° de la Ley n.° 26859, Ley Orgánica de Elecciones"
+
+- **Ley N° 26859** — Ley Orgánica de Elecciones. Establece el marco legal electoral; su artículo 80° es la base para la convocatoria de las Elecciones Generales 2026.
+  Fecha: No indicada (norma vigente).
+  Fuente (IDs): [1359]
+  Fragmento: "de acuerdo con lo establecido en el artículo 80° de la Ley n.° 26859, Ley Orgánica de Elecciones"
+
+- **Resolución Jefatural N° 000127-2025-JN/ONPE** — Aprueba la conformación de 126 Oficinas Descentralizadas de Procesos Electorales (ODPE) encargadas de la organización y ejecución de las Elecciones Generales 2026.
+  Fecha: 4 de agosto de 2025.
+  Fuente (IDs): [1360]
+  Fragmento: "mediante Resolución Jefatural n.° 000127-2025-JN/ONPE de 4 de agosto de 2025, se aprobó la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales"
+
+- **Resolución Jefatural N° 000175-2025-JN/ONPE** — Designa a los Jefes y coordinadores administrativos, titulares y accesitarios, de las ODPE para las Elecciones Generales 2026.
+  Fecha: 4 de noviembre de 2025.
+  Fuente (IDs): [1360]
+  Fragmento: "mediante Resolución Jefatural n.° 000175-2025-JN/ONPE de 4 de noviembre del 2025, se designó a los Jefes y coordinadores administrativos, titulares y accesitarios, de las ODPE"
+
+- **Resolución Jefatural N° 000204-2025-JN/ONPE** — Aprueba el Plan Operativo Electoral (POE) Versión N° 03 para las Elecciones Generales 2026. Establece el marco legal, electoral y estratégico, así como las actividades operativas y tareas de cumplimiento obligatorio de las unidades orgánicas de la ONPE, incluyendo la tarea de distribución de material y equipos a las ODPE programada del 5 al 8 de febrero de 2026 (luego reprogramada).
+  Fecha: 31 de diciembre de 2025.
+  Fuente (IDs): [1361], [1383], [1412]
+  Fragmento: "mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025, se aprobó el Plan Operativo Electoral de la Elección del Presidente de la República [...] versión n.° 03, (en adelante POE)"
+
+- **Instructivo IN01-GOECOR/CPO, Versión N° 17** — "Talleres de capacitación presencial para el personal de la ODPE/ORC o PF". Establece los procedimientos para el requerimiento de materiales, equipos y ambientes de capacitación (apartado 5.1.2), incluyendo la obligación del Coordinador de Capacitación de entregar la lista de requerimientos (numeral 1), la verificación de conformidad de materiales recibidos (numeral 3), y la recepción de formatos e información por correo electrónico desde la JACE (numeral 7).
+  Fecha: No indicada explícitamente (norma vigente al momento del control).
+  Fuente (IDs): [662], [740], [897], [922], [1001], [1158]
+  Fragmento: "Instructivo IN01-GOECOR/CPO, versión N° 17, 'Talleres de capacitación presencial para el personal de la ODPE/ORC o PF,' numeral 1 del apartado 5.1.2 Requerimiento de materiales, equipos y ambiente de capacitación, de la sección 5.1"
+
+- **Oficio N° 000211-2026-CG/GRAR** — Emitido por la Gerencia Regional de Control de Arequipa el 16 de febrero de 2026. Dispone la realización del servicio de Control Concurrente al Hito de Control N° 1 de la ODPE Arequipa.
+  Fecha: 16 de febrero de 2026.
+  Fuente (IDs): [1322]
+  Fragmento: "en mérito a lo dispuesto por la Gerencia Regional de Control de Arequipa de la Contraloría General de la República, mediante Oficio n.° 000211-2026-CG/GRAR de 16 de febrero de 2026"
+
+- **Oficio N° 000031-2026-CG/OC3599** — Recibido por la ONPE el 16 de febrero de 2026. Vincula el alcance del control concurrente con la ONPE como entidad sujeta.
+  Fecha: 16 de febrero de 2026.
+  Fuente (IDs): [1353]
+  Fragmento: "Al amparo de lo establecido en el Oficio n.° 000031-2026-CG/OC3599 de 16 de febrero de 2026, recibido en la misma fecha por mesa de partes virtual de la Oficina Nacional de Procesos Electorales"
+
+- **Memorando N° 281-2026-GGE/ONPE** — Emitido por el Gerente de la Gerencia de Gestión Electoral el 29 de enero de 2026. Informó al OCI de la ONPE que el despliegue de material para capacitación, originalmente programado del 5 al 8 de febrero de 2026, fue reprogramado para ejecutarse del 12 al 15 de febrero de 2026.
+  Fecha: 29 de enero de 2026.
+  Fuente (IDs): [1415]
+  Fragmento: "el Gerente de la Gerencia de Gestión Electoral mediante memorando n.° 281-2026-GGE/ONPE de 29 de enero de 2026, informó al Órgano de Control Institucional de la ONPE que el despliegue del material para la capacitación al personal de las ODPE [...] ha sido reprogramado para ejecutarse del 12 al 15 de febrero de 2026"
+
+- **Contrato N° 124-2026-ONPE** — Contrato suscrito el 10 de febrero de 2026. Norma aplicable para verificar la conformidad del kit de capacitación convencional (paquetes de útiles, instalación, escrutinio) y del kit de equipo informático, según se menciona en el Formato I del apéndice.
+  Fecha: 10 de febrero de 2026.
+  Fuente (IDs): [836], [849], [859], [1097], [1110], [1120]
+  Fragmento: "Norma aplicable: Guía de despacho y Contrato N° 124-2026-ONPE de 10 de febrero de 2026"
+
+- **Formato FM10-GGE-GME, Versión 02** — Formato institucional de Control Concurrente aplicado en campo para el registro del requerimiento y distribución de material electoral y equipos informáticos. Aprobado el 27 de agosto de 2025.
+  Fecha de aprobación: 27 de agosto de 2025.
+  Fuente (IDs): [1561], [1706]
+  Fragmento: "CODIGO: FM10-GGE-GME VERSION: 02 Fecha de Aprobación: 27/08/2025"
+
+---
+
+## 4. Variables del Momento
+
+---
+
+**Variable 1 — Actores institucionales del proceso: Comisión de Control**
+
+Tipo: D — Relacional
+
+Valor global: La Comisión de Control que ejecutó el Control Concurrente al Hito N° 1 está integrada por tres personas de la Gerencia Regional de Control de Arequipa.
+
+Detalle:
+- Sonia Alejandra Cárdenas Gallegos — Jefe de Comisión de la Comisión de Control. Fuente: [1484], [1539], [1685]
+- Marleni Mamani Cachi — Supervisora de la Comisión de Control. Fuente: [1484], [1506]
+- Marissa Alicia Chávez Chávez — Gerente Regional de Control / Gerencia Regional de Control de Arequipa (e), Contraloría General de la República. Emitió el Oficio N° 000261-2026-CG/GRAR de notificación. Fuente: [1488], [1808], [1809]
+
+Fuente (IDs): [1484], [1488], [1539], [1685], [1808]
+Fragmento de evidencia: "Marleni Mamani Cachi Supervisor Comisión de Control Sonia Alejandra Cárdenas Gallegos Jefe de Comisión Comisión de Control" / "Marissa Alicia Chávez Chávez Gerente Regional de Control Gerencia Regional de Control de Arequipa Contraloría General de la República"
+Justificación: Estas tres personas conforman los roles institucionales de la comisión ejecutora del control concurrente en este hito. Son actores distintos con roles definidos dentro de la misma comisión.
+Ambigüedad: El documento indica "(e)" junto al cargo de Chávez Chávez en la notificación, lo que sugiere que ejerce el cargo de manera encargada, no titular.
+
+---
+
+**Variable 2 — Actores institucionales del proceso: Personal de la ODPE Arequipa**
+
+Tipo: D — Relacional
+
+Valor global: La ODPE Arequipa cuenta con Jefa y dos Coordinadoras de Capacitación identificadas en el documento, quienes participan directamente en el hito evaluado.
+
+Detalle:
+- Marina Victoria Milagros Reyes Marchena — Jefa de la ODPE Arequipa. Destinataria del Oficio de notificación. Fuente: [615], [623], [645], [1573], [1656], [1795]
+- Nancy Victoria Ripa Ito — Coordinadora de Capacitación de la ODPE Arequipa. Fuente: [649], [660], [1547], [1692]
+- Rosa Gregoria Chacón Rosas — Coordinadora de Capacitación de la ODPE Arequipa. Fuente: [649], [1557], [1701]
+
+Fuente (IDs): [623], [645], [649], [1441], [1547], [1557], [1656], [1692], [1701]
+Fragmento de evidencia: "JEFE ODPE: REYES MARCHENA MARINA VICTORIA MILAGROS" / "DATOS DEL COORDINADOR DE CAPACITACIÓN DE LA ODPE: Ripa Ilo Muniy Uictenía 1 Chacón Rosas Posa Girgorra" / "Nombres y Apellidos: Nancy Victoria Ripa Ito Cargo: Coordinador de Capacitación" / "Rosa Gregoria Chacon Rosas CARGO: Cordinadora de Capacitación"
+Justificación: Estos tres actores son los representantes de la ODPE Arequipa en el hito evaluado, con roles diferenciados: conducción de la ODPE (jefa) y ejecución operativa de la capacitación (coordinadoras).
+Ambigüedad: La transcripción del nombre de las coordinadoras en el Cuadro N° 2 aparece parcialmente ilegible; se usa la información del apéndice para precisar los nombres.
+
+---
+
+**Variable 3 — Actores institucionales del proceso: Personal de la ONPE vinculado a la distribución**
+
+Tipo: D — Relacional
+
+Valor global: Dos funcionarios de la ONPE aparecen en la Guía de Despacho como responsables del envío del material a la ODPE Arequipa.
+
+Detalle:
+- Rocío Melissa Romainville Yancan — Especialista 1 de la ONPE, aparece en la Guía de Despacho como responsable de la remisión del material. Fuente: [1608], [1754]
+- David Fabián Ruiz Ñunuri — Personal de la ONPE, aparece en la Guía de Despacho junto a la especialista. Fuente: [1609], [1755]
+- Rodney Pablo Figueroa del Castillo — Comisionado de GGE (Gerencia de Gestión Electoral), responsable del seguimiento en campo de la distribución. Fuente: [1627], [1772]
+- Pedro Manuel Zegarra Valencia — Responsable de CSDN en la Guía de Despacho. Fuente: [1626], [1771]
+
+Fuente (IDs): [1607], [1608], [1609], [1626], [1627], [1753], [1754], [1755], [1771], [1772]
+Fragmento de evidencia: "ROCIÓ MELISSA ROMAINVILLE YANCAN ESPECIALISTA 1" / "DAVID FABIAN RUIZ NUNUR!" / "COMISIONADO DE GGE NOMBRE: RODNEY PABLO FIGUEROA DEL CASTILLO" / "RESPONSABLE DE CSDN PEDRO MANUEL ZEGARRA VALENCIA"
+Justificación: Estos actores son los responsables del lado de la ONPE en el proceso de despacho y seguimiento del material electoral hacia la ODPE Arequipa. Se identifican en la Guía de Despacho EG2026-0007.
+Ambigüedad: El rol exacto de "CSDN" no se desarrolla en el documento.
+
+---
+
+**Variable 4 — Actores institucionales del proceso: OCI de la ONPE y autoridades notificadas**
+
+Tipo: D — Relacional
+
+Valor global: La notificación de los informes de hitos de control al nivel central de la ONPE fue gestionada por el OCI de la ONPE y dirigida al Jefe Nacional.
+
+Detalle:
+- Maria Bertilda Idrogo Diaz — Jefe del Órgano de Control Institucional (OCI) de la ONPE / Contraloría General de la República. Emitió el Oficio N° 000062-2026-CG/OC3599 y la Cédula de Notificación Electrónica N° 00000046-2026-CG/3599. Fuente: [1863], [1877], [1911], [1929]
+- Piero Alessandro Corvetto Salinas — Jefe Nacional de la ONPE. Destinatario del Oficio N° 000062-2026-CG/OC3599. Fuente: [1848], [1879], [1913]
+
+Fuente (IDs): [1848], [1863], [1877], [1879], [1911], [1913], [1929]
+Fragmento de evidencia: "Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe" / "Maria Bertilda Idrogo Diaz Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe Contraloría General de la República"
+Justificación: Son los actores del nivel central ONPE/CGR implicados en la comunicación formal del informe al titular de la entidad sujeta a control.
+Ambigüedad: Ninguna.
+
+---
+
+**Variable 5 — Presupuesto asignado a la ODPE Arequipa**
+
+Tipo: C — Estado
+
+Valor global: La ODPE Arequipa tiene asignado un presupuesto de S/ 113,480.00 para la ejecución de las actividades operativas contempladas en el POE, incluyendo la distribución de material electoral y equipos informáticos para capacitación.
+
+Nota: El presupuesto está asociado a la ODPE Arequipa específicamente; el documento no detalla el desglose de ese monto por actividad ni lo compara con otras ODPE en el informe de Arequipa. Se refiere al total asignado a esta ODPE.
+
+Fuente (IDs): [617], [625], [1419], [1427], [1435]
+Fragmento de evidencia: "PRESUPUESTO: SI 113 480,00" / "Fuente: Informe n.° 000061-2026-SGOE-GOECOR/ONPE de 8 de enero de 2026"
+Justificación: El valor categórico es el monto presupuestal asignado a la ODPE en este momento del proceso. No es una métrica de avance (no hay meta de gasto medida en este hito), sino una condición financiera del estado de la instancia.
+Ambigüedad: No se indica si el monto cubre exclusivamente la distribución o el ciclo completo de capacitación.
+
+---
+
+**Variable 6 — Programación y reprogramación de la tarea de distribución de material**
+
+Tipo: C — Estado
+
+Valor global: La tarea operativa 2.3.4.5 del POE ("Distribuir material y equipos informáticos electorales a las ODPE para talleres de capacitación de personal ODPE") fue reprogramada. La fecha original era del 5 al 8 de febrero de 2026; fue reprogramada para ejecutarse del 12 al 15 de febrero de 2026.
+
+Nota: La Guía de Despacho EG2026-0007 registra fecha de salida del material el 12 de febrero de 2026 y fecha de recepción en la ODPE Arequipa el 14 de febrero de 2026, lo que confirma que la distribución se efectuó dentro del período reprogramado.
+
+Detalle interno de la tarea según el POE Versión 03:
+- Proceso: II. Procesos Operativos
+- Proceso Operativo: 2.3 Capacitación Electoral
+- Actividad Operativa: 2.3.4 Despliegue de material electoral de capacitación y equipos informáticos electorales de capacitación (Prioridad 17)
+- Tarea: 2.3.4.5 Distribuir material y equipos informáticos electorales a las ODPE para talleres de capacitación de personal ODPE (CPO)
+- Fecha inicio original: 05/02/2026 — Fecha fin original: 08/02/2026
+- Meta física anual: 1 / Programación física: 1
+- Reprogramación comunicada: 12/02/2026 al 15/02/2026 (Memorando N° 281-2026-GGE/ONPE, 29 enero 2026)
+- Fecha de salida del material: 12/02/2026
+- Fecha de recepción en ODPE Arequipa: 14/02/2026
+
+Fuente (IDs): [591], [592], [593], [594], [595], [596], [597], [598], [599], [600], [601], [602], [603], [604], [605], [606], [607], [608], [609], [1369], [1383], [1415], [1635], [1637], [1638]
+Fragmento de evidencia: "2.3.4.5 Distribuir material y equipos informáticos electorales a las ODPE para talleres de capacitación de personal ODPE (CPO), según corresponda. 05/02/26 08/02/26 1 1" / "ha sido reprogramado para ejecutarse del 12 al 15 de febrero de 2026" / "Fecha de Salida: 12/02/2026" / "Fecha: 14/02/26 Hora: 08:43"
+Justificación: Esta variable describe el estado de la programación de la tarea clave del hito: fue modificada antes de la ejecución del control concurrente, y la ejecución real se verificó como efectuada dentro de la reprogramación.
+Ambigüedad: El documento no indica explícitamente si la reprogramación fue aprobada formalmente mediante resolución o si bastó el memorando comunicativo.
+
+---
+
+**Variable 7 — Recepción y disponibilidad del material electoral para talleres de capacitación**
+
+Tipo: F — Verificación
+
+Valor global: VERDADERO. La ODPE Arequipa cuenta con la totalidad del material electoral para talleres de capacitación del personal, recibido conforme a la Guía de Despacho N° EG2026-0007 con fecha de recepción 14 de febrero de 2026, y los materiales se encuentran custodiados y almacenados adecuadamente.
+
+Evidencia documental: Guía de Despacho N° EG2026-0007, con fecha de recepción 14 de febrero de 2026, firmada por la Jefa de ODPE Arequipa (Reyes Marchena Marina Victoria Milagros), el Comisionado de GGE (Rodney Pablo Figueroa del Castillo) y el Responsable de CSDN (Pedro Manuel Zegarra Valencia). Los materiales recibidos son:
+
+— Material Electoral:
+  - Kit para capacitación convencional (sin manual, incluye paq. útiles, paq. instalación, paq. escrutinio): 199 unidades
+  - Paquete del Coordinador del Local de Votación – Convencional: 19 unidades
+  - Kit del Facilitador – Convencional: 22 unidades
+  - Ánforas plegadas: 199 unidades
+
+— Cartillas:
+  - Manual de instrucciones para miembros de mesa convencional provincias: 610 unidades
+
+— Datos físicos del despacho:
+  - Peso total: 424.80 Kg.
+  - Volumen total: 1.011 m³
+  - Fecha de estiba: 10/02/2026
+  - Fecha de salida: 12/02/2026; Hora de salida: 09:00
+  - Fecha de recepción: 14/02/2026; Hora: 08:43
+  - Transportista: Servicios Generales Galaga S.A.C.
+
+Fuente (IDs): [1442], [1574], [1575], [1576], [1577], [1578], [1579], [1580], [1581], [1582], [1583], [1584], [1585], [1586], [1587], [1588], [1589], [1590], [1591], [1592], [1593], [1594], [1595], [1596], [1597], [1598], [1599], [1600], [1601], [1607], [1619], [1627], [1635], [1637], [1638], [1641]
+Fragmento de evidencia: "se verificó que la ODPE Arequipa conforme a la Guía de Despacho n.° EG2026-0007, con fecha de recepción de 14 de febrero de 2026, cuenta con la totalidad de material electoral para talleres de capacitación al personal [...] dichos materiales vienen siendo custodiados y almacenados adecuadamente en las instalaciones de la citada ODPE"
+Justificación: La verificación es booleana (¿cuenta con la totalidad del material?), respaldada por la Guía de Despacho como evidencia documental formal y ratificada por la visita de la Comisión de Control el 16 de febrero de 2026.
+Ambigüedad: El documento registra que los kits STAE y los equipos informáticos no aplican para esta ODPE (aplican solo para Lima Metropolitana y Callao), por lo que la verificación de totalidad se refiere exclusivamente al material convencional. Los campos de kits STAE y equipos informáticos aparecen con guión (no aplica).
+
+---
+
+**Variable 8 — Requerimiento de materiales de capacitación por los Coordinadores de Capacitación**
+
+Tipo: F — Verificación
+
+Valor global: VERDADERO. Los dos Coordinadores de Capacitación de la ODPE Arequipa cumplieron con elaborar y entregar al Jefe de la ODPE la lista de requerimientos de materiales para participantes y facilitadores de los talleres de capacitación, conforme lo establece el numeral 1 del apartado 5.1.2 del Instructivo IN01-GOECOR/CPO versión N° 17.
+
+Evidencia documental: Informe N° 01-2026-ODPE AREQUIPA-EG 2026-GOECOR/ONPE, de fecha 23 de enero de 2026, emitido por los Coordinadores de Capacitación al Jefe de la ODPE, solicitando la lista de materiales para el taller de capacitación presencial del 17 de febrero de 2026 dirigido a 15 participantes (grupo de capacitadores). La Comisión de Control recibió copia simple de dicho informe (3 folios).
+
+Fuente (IDs): [664], [665], [925], [926], [1441], [1529], [1675]
+Fragmento de evidencia: "se evidenció que esta cuenta con dos (2) Coordinadores de Capacitación, los cuales han cumplido con realizar el requerimiento de materiales a través del Informe n.° 01-2026-ODPE AREQUIPA-EG 2026GOECOR/ONPE de 23 de enero de 2026 al Jefe de la ODPE, solicitando la lista de materiales para los participantes y facilitadores para el taller de capacitación presencial a realizarse el 17 de febrero de 2026 al grupo de capacitadores (15 participantes)"
+Justificación: La pregunta 1 del Formato I fue respondida afirmativamente (Sí) y está respaldada por el informe de requerimiento, lo que convierte esta verificación en booleana con evidencia documental sólida.
+Ambigüedad: Ninguna.
+
+---
+
+**Variable 9 — Recepción de materiales de trabajo (útiles de oficina y materiales de facilitación) solicitados**
+
+Tipo: C — Estado
+
+Valor global: La ODPE Arequipa recibió la mayoría de los materiales solicitados para participantes y facilitadores. Se registra al menos un ítem no recibido (hojas bond A4 para práctica de soluciones tecnológicas) y algunos ítems con observaciones de sustitución o ausencia de especificación.
+
+Detalle por ítem (pregunta 2 del Formato I, respondida afirmativamente salvo indicación):
+
+Para participantes:
+  - Cuaderno: Sí — cantidad: ~89 unidades aprox. [669, 671, 929, 932]
+  - Lapicero: Sí — cantidad: 164 unidades [674, 676, 935, 937]
+  - Lápiz: Sí — sin especificación de cantidad [678, 680, 939, 941]
+  - Tajador / Regla: Sí — 169 unidades [683, 685, 944, 946]
+  - Hojas bond tamaño A4 para práctica de soluciones tecnológicas: No — se requirió pero no se recibió [688, 689, 949, 950]
+  - Credencial (solapín, sujetador y tarjeta): Sí — 169 unidades [692, 694, 953, 955]
+  - Fotocopias de pruebas de entrada/salida, encuestas: Sí — de acuerdo a necesidad [697, 699, 957, 959]
+
+Para facilitadores:
+  - Papelógrafo: Sí — 1000 unidades [704, 706, 965, 968]
+  - Tarjetas de cartulina A5 (varios colores): Sí — solo cartulina blanca (observación de sustitución de color) [714, 716, 975, 977]
+  - Cinta maskingtape: Sí — 200 unidades [719, 721, 980, 982]
+  - Plumones N° 47 de colores para papelógrafo: Sí — Negro 150 / Rojo/Azul 150 / Verde 150 [724, 727, 985, 988]
+  - Plumones para pizarra acrílica: Sin respuesta registrada [730, 732, 991, 993]
+  - Mota: Sí — 50 unidades [736, 738, 997, 999]
+  - Cajas de cartón: Sin respuesta registrada [742, 744, 1002, 1004]
+  - Papel lustre de diferentes colores: Sí — Verde 200 / Rojo 200 / Marrón 200 / Plomo 200 [748, 749, 1007, 1010]
+  - Tijeras para papel: Sí — 20 unidades [751, 753, 1012, 1014]
+  - Cinta de embalaje: Sí — 200 unidades [756, 758, 1017, 1019]
+  - Goma: Sí — 3 unidades (goma en barra) [761, 763, 1022, 1024]
+  - Equipos informáticos para STAE: No aplica (guión) — no corresponde a esta ODPE [766, 768, 1026, 1029]
+
+Fuente (IDs): [666], [668], [669], [670], [671], [674], [676], [678], [680], [683], [685], [688], [689], [692], [694], [697], [699], [704], [706], [714], [716], [719], [721], [724], [727], [730], [732], [736], [738], [742], [744], [748], [749], [751], [753], [756], [758], [761], [763], [766], [768]
+Fragmento de evidencia: "¿Recibió los materiales del coordinador administrativo verificó conformidad mediante la comparación del cargo con la lista de requerimientos solicitados? [...] Norma aplicable: Instructivo IN01-GOECOR/CPO, versión N° [...] numeral 3 del apartado 5.1.2" / "Hojas bond tamaño A4, para la práctica de las tecnológicas soluciones — No — Se requirió." / "Tarjetas de cartulina A5 (de varios colores) — Si — Solo cartulina blanca"
+Justificación: Esta variable registra el estado de recepción de cada ítem de material de trabajo solicitado, derivado directamente de la pregunta 2 del Formato I. Es un estado compuesto (lista de ítems con respuesta sí/no/observación) que responde a una sola pregunta operativa del hito.
+Ambigüedad: Algunos ítems (plumones para pizarra acrílica, cajas de cartón) no tienen respuesta registrada en el formato; puede tratarse de omisión de llenado o de no aplicabilidad no marcada explícitamente.
+
+---
+
+**Variable 10 — Disponibilidad del material electoral convencional (por tipo de kit)**
+
+Tipo: C — Estado
+
+Valor global: La ODPE Arequipa dispone del material electoral convencional completo para los talleres de capacitación, conforme a la Guía de Despacho EG2026-0007 y el Contrato N° 124-2026-ONPE. Aplica solo para departamentos y distritos (no Lima/Callao). Los kits STAE no aplican a esta ODPE.
+
+Detalle por tipo de material (pregunta 3 del Formato I):
+
+Material STAE (Lima Metropolitana y Callao — NO APLICA a esta ODPE):
+  - Kit de capacitación - Stae: N/A [780, 782]
+  - Paquete de Coordinador - Stae: N/A [783, 785]
+  - Kit del Facilitador - Stae: N/A [787, 789]
+  - Manual de instrucción de miembros de mesa a granel - Stae: N/A [791, 793]
+  - Material de contingencia - Stae: N/A [795, 797]
+  - Ánforas plegadas - convencional y Stae: N/A [799, 801]
+
+Material Convencional (APLICA — Departamentos y Distritos):
+  - Kit de capacitación – Convencional: Sí — 199 unidades [804, 806]
+  - Paquete de Coordinador – Convencional: Sí — 19 unidades [807, 809, 810]
+  - Kit del Facilitador – Convencional: Sí — 22 unidades [811, 813]
+  - Manual de instrucción de miembros de mesa a granel – Convencional: Sí — 610 unidades (4 cajas de 50 + restos) [815, 817]
+
+Contenido del Kit de capacitación convencional (pregunta 5 del Formato I, conforme Contrato N° 124-2026-ONPE):
+  - Paquetes de útiles: Sí — Tampones / 3 lapiceros / Cinta. Conforme Anexo 1. [840, 842, 843]
+  - Paquetes de instalación: Sí — Conforme Contrato N° 124-2026-ONPE [846, 848]
+  - Paquetes de escrutinio: Sí — Conforme Anexo 1 [851, 853, 854]
+
+Equipos informáticos (pregunta 6 del Formato I):
+  - Kit Stae: No aplica (guión) [857, 862]
+  - Kit Inversor: No aplica (guión) [860, 862]
+  - Laptops (Kit Stae): No aplica [866, 868]
+  - Impresoras (Kit Stae): No aplica [869, 871]
+  - Inversores (Kit Inversor): No aplica [877, 879]
+  - Tintas adicionales: No aplica [882, 884]
+
+Fuente (IDs): [779], [780], [783], [787], [791], [795], [799], [803], [804], [806], [807], [809], [810], [811], [813], [815], [817], [836], [840], [842], [843], [846], [848], [851], [853], [854], [857], [860], [862], [866], [868], [869], [871], [877], [879], [882], [884]
+Fragmento de evidencia: "• Kit de capacitación - Convencional: Indicar cantidad: 199/" / "• Paquete de Coordinador - Convencional: Si, Indicar cantidad: 19/" / "• Kit del Facilitador - Convencional: Indicar cantidad: 22/" / "• Manual de instrucción de miembros de mesa a granel - Convencional: Indicar cantidad: 610" / "¿Kit de capacitación - Convencional cuenta con los materiales siguientes? 5.1 Paquetes de útiles: Si — Tampos /3 lapicero / CinTa Conforme Anexo 1"
+Justificación: Esta variable consolida el estado del inventario de material electoral recibido por tipo y cantidad, respondiendo a la pregunta conceptual central del hito: ¿la ODPE tiene el material electoral completo para los talleres? Los ítems provienen de la misma sección estructurada del Formato I (preguntas 3 y 5).
+Ambigüedad: El Kit de capacitación STAE aparece también consultado en la pregunta 4 con sus subcomponentes (paquetes de útiles, instalación, escrutinio STAE), todos sin respuesta, consistente con la no aplicabilidad para esta ODPE.
+
+---
+
+**Variable 11 — Recepción de formatos e información metodológica por correo electrónico desde la JACE**
+
+Tipo: C — Estado
+
+Valor global: La ODPE Arequipa recibió la información y formatos metodológicos enviados por el responsable del seguimiento y monitoreo de la Jefatura del Área de Capacitación Electoral (JACE) a través de correo electrónico. El documento indica que los materiales fueron reenviados por correo electrónico. La solicitud de fotocopiado estaba en proceso a la fecha del control.
+
+Detalle por ítem (pregunta 7 del Formato I — Norma aplicable: Instructivo IN01-GOECOR/CPO versión N° 17, numeral 7 del apartado 5.1.2):
+  - 7.1 Guía metodológica taller/reunión/reforzamiento/jornada de entrenamiento: Sí — se reenvió por correo electrónico [887, 889, 1148, 1150]
+  - 7.2 Formato FM01-GOECOR/CPO: Registro de asistencia del personal ODPE/ORC y ONPE: Sí [891, 1152]
+  - 7.3 Formato FM02-GOECOR/CPO: Instrumentos de evaluación (prueba entrada/salida), por grupo ocupacional y solucionarios: Sí [895, 1156]
+  - 7.4 Formato FM03-GOECOR/CPO: Encuesta de opinión: Sí [899, 1160]
+  - 7.5 Formato FM04-GOECOR/CPO: Registro de notas de los participantes: Sí [903, 1164]
+  - 7.6 Formato FM05-GOECOR/CPO: Cargo de entrega del material de capacitación para el personal de la ODPE/ORC y ONPE: Sí [907, 1168]
+  - Formato FM06-GOECOR/CPO: Informe del taller de capacitación: Sí [909, 1170]
+
+Pregunta 8 — Solicitud de fotocopiado de la guía metodológica, instrumentos de evaluación y encuesta:
+  - Estado: En proceso. Se reenvió por correo electrónico [912, 914, 1173, 1175]
+
+Fuente (IDs): [886], [887], [889], [891], [895], [899], [903], [907], [909], [912], [914], [1147], [1148], [1150], [1152], [1156], [1160], [1164], [1168], [1170], [1173], [1175]
+Fragmento de evidencia: "¿Recibió, a través del correo electrónico, la siguiente información remitida por el responsable del seguimiento y monitoreo de la Jefatura del área de capacitación electoral - JACE? [...] 7.1 [...] Se reenvió por correo electrónico" / "¿Solicitó al jefe de la ODPE, el fotocopiado de la guía metodológica, de los instrumentos de evaluación y de la encuesta de opinión? — En proceso. Se reenvió como correo electrónico."
+Justificación: Esta variable agrupa todos los ítems de la pregunta 7 del Formato I, que responden a una misma pregunta conceptual (¿recibió los formatos metodológicos por correo?), más la pregunta 8 que es consecuencia directa (solicitud de fotocopiado). Son homogéneos en estructura y provienen de la misma sección del formato.
+Ambigüedad: Las respuestas Sí/No para los ítems 7.2 a 7.6 no tienen comentario adicional del auditor en el formato; se infiere afirmativo de la estructura del documento, aunque la transcripción no siempre es clara para cada ítem individual. La pregunta 8 queda parcialmente pendiente ("en proceso").
+
+---
+
+**Variable 12 — Existencia de situaciones adversas**
+
+Tipo: F — Verificación
+
+Valor global: FALSO. No se identificaron situaciones adversas que afecten o pudieran afectar la continuidad del proceso, el resultado o el logro de los objetivos de la "Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las Elecciones Generales 2026".
+
+Evidencia documental: Sección V "Situación Adversa" del Informe, Sección VIII "Conclusión" y Sección IX "Recomendación". Adicionalmente, se indica que no se emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del servicio (Sección VII).
+
+Fuente (IDs): [1443], [1444], [1456], [1474], [1475], [1476], [1477]
+Fragmento de evidencia: "De la revisión y análisis efectuada a la información y documentación vinculada al Hito de Control n.° 1 [...] no se han identificado situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la 'Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las elecciones generales 2026'." / "Durante la ejecución del presente servicio de control concurrente, la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas."
+Justificación: La verificación es explícita y directa: el informe concluye sin situaciones adversas. El valor booleano es Falso en el sentido de "no existen situaciones adversas". Corresponde al indicador central del hito de control.
+Ambigüedad: Ninguna. La ausencia de situaciones adversas es afirmada de manera consistente en tres secciones distintas del informe (V, VII y VIII).
+
+---
+
+**Variable 13 — Documentación revisada vinculada al hito de control**
+
+Tipo: E — Narrativo
+
+Título: Documentación vinculada al Hito de Control N° 1 — Apéndice N° 1
+
+Cuerpo del texto: El Apéndice N° 1 del informe lista la documentación que la Comisión de Control revisó y analizó durante la ejecución del Control Concurrente. Incluye:
+
+1. Formato "Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las elecciones generales - EG 2026", Hito N° 1: Distribución de material electoral y equipos informáticos para capacitación electoral a cargo de la ODPE.
+
+2. Guía de Despacho N° EG2026-0007, con fecha de recepción de 14 de febrero de 2026.
+
+Adicionalmente, los comentarios de la Comisión de Control en el formato (sección de comentarios del apéndice) precisan:
+- Se proporcionó Copia Simple de la Guía de Remisión (despacho) de recepción 14/02/2026 (1 folio).
+- Se proporcionó Copia Simple del Informe N° 001-2026-ODPE-Arequipa-EG 2026-GOECOR/ONPE (3 folios).
+- Se remitió por correo electrónico el sustento de la pregunta 7.
+
+Fuente (IDs): [627], [628], [629], [630], [631], [632], [1450], [1493], [1527], [1528], [1529], [1675]
+Fragmento de evidencia: "APÉNDICE N° 1 — DOCUMENTACIÓN VINCULADA AL HITO DE CONTROL" / "Formato: 'Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las elecciones generales - EG 2026' Hito N° 1: Distribución de material electoral y equipos informáticos para capacitación electoral a cargo de la ODPE." / "Guía de Despacho N° Guía: EG2026-0007 con fecha de recepción de 14 de febrero" / "De proporciona Copia Simple de Guía de Remisión (despacho) de Recepción 14/02/2026 (1) folio - de proporciona Copia Simple de Informe N° 001-2026-ODPE-Arequipa-EG 2026-GOECOR/ONPE (3) folios - se remitió por correo electrónico el sustento de la pregunta 7"
+Justificación: Esta variable documenta el conjunto de evidencias que fundamentan el informe. Es narrativa porque consolida el catálogo de documentos revisados con sus respectivas notas del auditor, que no se reducen a un valor numérico o categórico simple.
+Ambigüedad: El apéndice parece incompleto en su listado (solo 2 ítems numerados), pero los comentarios amplían la documentación de sustento. No es posible determinar si hay más documentos no listados en el apéndice formal.

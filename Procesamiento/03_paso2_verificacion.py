@@ -25,12 +25,12 @@ import unicodedata
 from pathlib import Path
 
 # Proporcion de pedazos del fragmento que deben encontrarse para dar por
-# verificada una variable. 0.7 = 70%. No bajar de 0.6.
+# verificada una variable. 0.7 = 70%.
 UMBRAL_PEDAZOS = 0.7
 
 # Proporcion de palabras significativas (5+ letras) que deben existir en
 # los IDs para verificar texto reordenado (ej: tablas con columnas separadas
-# por OCR). 0.9 = 90%. No bajar de 0.85.
+# por OCR). 0.9 = 90%.
 UMBRAL_PALABRAS = 0.9
 
 INPUT_JSON_DIR = Path("data/02_structured")
@@ -175,7 +175,7 @@ def procesar_archivo(nombre_archivo):
             print("  [WARN N2] '%s' encontrado en otros IDs." % var['id'])
             continue
 
-        # NIVEL 3 (reconsulta al modelo): NO implementado todavia.
+        # NIVEL 3 reconsulta al modelo , NO LO USAMOS
         var["estado_verificacion"] = "requiere_verificacion_llm"
         c_pendiente += 1
         print("  [ALERTA] '%s' marcada para verificacion LLM posterior." % var['id'])

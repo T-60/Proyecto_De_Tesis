@@ -1,0 +1,500 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_3",
+    "numero": 3,
+    "label": "Hito N° 3 — Ejecución, supervisión y seguimiento de la capacitación de los actores electorales",
+    "filename": "Arequipa18.pdf",
+    "metadata": {
+      "identificador": "Informe de Control Concurrente N° 5550-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-04-01",
+      "periodo_inicio": "2026-03-25",
+      "periodo_fin": "2026-03-31",
+      "estado_notificacion": "Notificado. Informe notificado al Jefe de la ODPE Cerro Colorado mediante Oficio N° 000699-2026-CG/GRAR de 06 de abril de 2026, recibido por Mesa de Partes Virtual de ONPE el 6 de abril de 2026 a las 15:42:19, con expediente N° 2026-000174028. Notificado adicionalmente al Jefe Nacional de ONPE mediante Oficio N° 000184-2026-CG/OC3599 de 17 de abril de 2026, con Cédula de Notificación Electrónica N° 00000163-2026-CG/ONPE a la casilla electrónica N° 20291973851.",
+      "fuente_ids": [
+        901,
+        911,
+        937,
+        947,
+        1472,
+        1478,
+        1505,
+        1506,
+        1358,
+        1391,
+        1401
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Decreto Supremo n.° 039-2025-PCM",
+        "establece": "Convocó las Elecciones Generales 2026 para el domingo 12 de abril de 2026",
+        "fecha": null,
+        "fuente_ids": [
+          958
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26859 — Ley Orgánica de Elecciones, artículo 80°",
+        "establece": "Establece el marco legal para la convocatoria y organización de elecciones generales",
+        "fecha": null,
+        "fuente_ids": [
+          958
+        ]
+      },
+      {
+        "codigo": "Ley n.° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, artículo 8°",
+        "establece": "Regula el servicio de control gubernamental y la comunicación al titular de la entidad respecto de situaciones adversas",
+        "fecha": null,
+        "fuente_ids": [
+          1364,
+          1480
+        ]
+      },
+      {
+        "codigo": "Directiva n.° 013-2022-CG/NORM — Servicio de Control Simultáneo, aprobada por Resolución de Contraloría n.° 218-2022-CG",
+        "establece": "Regula el servicio de Control Simultáneo y establece la comunicación al titular de la entidad respecto a situaciones adversas",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          940,
+          1365,
+          1481
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000127-2025-JN/ONPE",
+        "establece": "Aprobó la conformación de 126 Oficinas Descentralizadas de Procesos Electorales encargadas de la organización y ejecución de las Elecciones Generales 2026",
+        "fecha": "2025-08-04",
+        "fuente_ids": [
+          974
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000175-2025-JN/ONPE",
+        "establece": "Designó a los Jefes y coordinadores administrativos, titulares y accesitarios, de las ODPE",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          974
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) versión 03",
+        "establece": "Aprueba el Plan Operativo Electoral de las Elecciones Generales 2026; establece marco legal, actividades operativas, metas de producción física, indicadores y presupuesto por ODPE",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          975,
+          1026,
+          1047,
+          1073,
+          1108,
+          1120,
+          1133,
+          1152,
+          1252
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000212-2026-CG/GRAR",
+        "establece": "Dispuso la ejecución del presente Control Concurrente por la Gerencia Regional de Control de Arequipa",
+        "fecha": null,
+        "fuente_ids": [
+          940
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000031-2025-OC3599",
+        "establece": "Amparo bajo el cual se actúa ante la ONPE en el marco del Control Concurrente",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          966
+        ]
+      },
+      {
+        "codigo": "Memorando n.° 281-2026-GGÉ/ONPE",
+        "establece": "Informó al OCI de la ONPE la reprogramación del despliegue de material para capacitación al personal ODPE y actores electorales, del período 5-8 de febrero al 12-15 de febrero de 2026",
+        "fecha": "2026-01-29",
+        "fuente_ids": [
+          1050
+        ]
+      },
+      {
+        "codigo": "Memorando n.° 699-2026-GOECOR/ONPE",
+        "establece": "Fuente de la información general de la ODPE Cerro Colorado, incluyendo presupuesto asignado",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          1176
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "avance_capacitacion_miembros_de_mesa",
+        "tipo": "B",
+        "label": "Avance de capacitación de miembros de mesa (ODPE Cerro Colorado)",
+        "valor": {
+          "observado": 3725,
+          "meta": 6797,
+          "estimado": null,
+          "unidad": "miembros de mesa capacitados"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Total miembros de mesa en ODPE Cerro Colorado",
+            "previsto": 11925,
+            "real": 11925,
+            "fuente_ids": [
+              1193,
+              1194
+            ]
+          },
+          {
+            "subgrupo": "Meta programada (57% del total)",
+            "previsto": 6797,
+            "real": null,
+            "fuente_ids": [
+              1203,
+              1252
+            ]
+          },
+          {
+            "subgrupo": "Capacitados al 30/03/2026 — Estrategia Taller (T)",
+            "previsto": null,
+            "real": 2550,
+            "fuente_ids": [
+              1238,
+              1241
+            ]
+          },
+          {
+            "subgrupo": "Capacitados al 30/03/2026 — Estrategia Personalizada (P)",
+            "previsto": null,
+            "real": 630,
+            "fuente_ids": [
+              1242,
+              1243
+            ]
+          },
+          {
+            "subgrupo": "Capacitados al 30/03/2026 — Estrategia Reunión (R)",
+            "previsto": null,
+            "real": 51,
+            "fuente_ids": [
+              1244,
+              1245
+            ]
+          },
+          {
+            "subgrupo": "Capacitados al 30/03/2026 — Primera Jornada (J1)",
+            "previsto": null,
+            "real": 423,
+            "fuente_ids": [
+              1246,
+              1247
+            ]
+          },
+          {
+            "subgrupo": "Total acumulado capacitados al 30/03/2026",
+            "previsto": 6797,
+            "real": 3725,
+            "fuente_ids": [
+              1229,
+              1230,
+              1231,
+              1232
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1193,
+          1194,
+          1203,
+          1224,
+          1225,
+          1229,
+          1230,
+          1231,
+          1232,
+          1234,
+          1235,
+          1236,
+          1238,
+          1241,
+          1242,
+          1243,
+          1244,
+          1245,
+          1246,
+          1247,
+          1248,
+          1249,
+          1153,
+          1154,
+          1155
+        ],
+        "fragmento_evidencia": "el porcentaje de miembros de mesa capacitados es inferior a la meta programada. [...] la cantidad total de miembros de mesa es de once mil novecientos veinticinco (11 925) y la meta programada es de 57%; es decir, seis mil setecientos noventa y siete (6 797) miembros de mesa capacitados [...] quedó evidenciado que se ha capacitado a tres mil setecientos veinticinco (3725) miembros de mesa, que viene hacer el 31% del total de los mismos; es decir, aún faltaría capacitar al 26% para llegar a la meta programada.",
+        "justificacion": "Esta es la métrica central del hito de control. Reúne el total de miembros de mesa, la meta programada, el valor observado a la fecha de corte, la brecha y el detalle por estrategia de capacitación, todo proveniente del cuadro de seguimiento SIGCAE. Responde a la pregunta conceptual: ¿cuánto se ha avanzado hacia la meta de capacitación?",
+        "ambiguedad": "El desglose exacto de las estrategias (T, P, R, J1, J2, V) en el cuadro tiene valores parcialmente ilegibles por la calidad del OCR, pero los totales de 3725 y 2550 son consistentes con el texto narrativo. No se cuenta con dato de hito anterior explícito para comparación directa en este documento.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "situacion_adversa_incumplimiento_meta_capacitacion",
+        "tipo": "A",
+        "label": "Situación adversa identificada: incumplimiento de meta de capacitación",
+        "valor": {
+          "texto": "Se ha identificado 1 (una) situación adversa activa: el porcentaje de miembros de mesa capacitados (31%) es inferior a la meta programada (57%), con una brecha de 26 puntos porcentuales al 30 de marzo de 2026, situación que podría limitar el correcto desarrollo de la jornada electoral del 12 de abril de 2026.",
+          "estado": "Abierta / Activa. No resuelta a la fecha del informe (31/03/2026)."
+        },
+        "detalle": [
+          {
+            "texto": "CAPACITACIONES EJECUTADAS A CARGO DE LA ODPE NO COBERTURA LA META PROGRAMADA, SITUACIÓN QUE PODRÍA LIMITAR EL CORRECTO DESARROLLO DE LAS ACTIVIDADES PROGRAMADAS PARA EL DÍA DE LA JORNADA ELECTORAL, EN EL MARCO DEL PROCESO DE ELECCIONES GENERALES 2026 Y EN CONSECUENCIA GENERAR RETRASOS DURANTE EL REFERIDO PROCESO.",
+            "estado": "Abierta / Activa",
+            "desde_momento": null,
+            "fuente_ids": [
+              1250,
+              1251,
+              1252
+            ]
+          },
+          {
+            "texto": "Condición: El porcentaje de miembros de mesa capacitados (31%) es inferior a la meta programada (57%), con una brecha de 26 puntos porcentuales al 30 de marzo de 2026.",
+            "estado": "Verificada",
+            "desde_momento": null,
+            "fuente_ids": [
+              1193,
+              1203,
+              1229
+            ]
+          },
+          {
+            "texto": "Criterio normativo vulnerado: POE versión 03 (RJ n.° 000204-2025-JN/ONPE), indicador estratégico N° 2 'Porcentaje de miembros de mesa capacitados' con meta de 57%.",
+            "estado": "Incumplido",
+            "desde_momento": null,
+            "fuente_ids": [
+              1252,
+              1283,
+              1284
+            ]
+          },
+          {
+            "texto": "Consecuencia potencial: Limitaría el correcto desarrollo de las actividades de la jornada electoral y generaría retrasos.",
+            "estado": "Riesgo latente",
+            "desde_momento": null,
+            "fuente_ids": [
+              1289,
+              1290,
+              1291
+            ]
+          },
+          {
+            "texto": "Situación adversa del hito anterior: Se indica que se han adoptado acciones preventivas y correctivas respecto a la situación adversa contenida en el Informe de Hito de Control anterior, sin detallar su contenido ni resolución.",
+            "estado": "Referenciada sin detalle",
+            "desde_momento": "hito_anterior",
+            "fuente_ids": [
+              1293
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1190,
+          1191,
+          1192,
+          1193,
+          1203,
+          1250,
+          1251,
+          1252,
+          1283,
+          1284,
+          1289,
+          1290,
+          1291,
+          1293,
+          736
+        ],
+        "fragmento_evidencia": "De la revisión efectuada a la ejecución, supervisión y seguimiento de los actores electorales, se ha identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026 / La situación expuesta podría limitar el correcto desarrollo de las actividades programadas para el día de la jornada electoral en el marco del proceso de Elecciones Generales 2026, y en consecuencia, generar retrasos durante el referido proceso. / De la información remitida por la Entidad, se advierte que se han adoptado acciones preventivas y correctivas respecto a la situación adversa contenida en el Informe de Hito de Control anterior.",
+        "justificacion": "Esta variable de seguimiento consolida la denominación, condición, criterio, consecuencia, estado actual y referencia al hito anterior de la situación adversa. Es la variable de seguimiento central del control concurrente, que persiste o se resuelve entre hitos.",
+        "ambiguedad": "La sección VIII menciona acciones correctivas sobre la situación adversa del hito anterior, pero no especifica cuál fue esa situación ni en qué consistieron las acciones. Esa información correspondería al hito anterior y no está desarrollada en este documento.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "actores_comision_de_control",
+        "tipo": "D",
+        "label": "Actores institucionales de la comisión de control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisora de la Comisión de Control",
+            "fuente_ids": [
+              1323
+            ]
+          },
+          {
+            "nombre": "Cynthia Soledad Vilca Vilca",
+            "rol": "Jefa de Comisión de la Comisión de Control",
+            "fuente_ids": [
+              1324
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control de Arequipa, Contraloría General de la República",
+            "fuente_ids": [
+              1327
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1323,
+          1324,
+          1327
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisora Comisión de Control / Cynthia Soledad Vilca Vilca Jefa de Comisión Comisión de Control / Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa Contraloría General de la República",
+        "justificacion": "Los tres firmantes del informe tienen roles distintos dentro de la comisión de control. Son actores del proceso de control y sus roles son relevantes para entender la cadena de responsabilidad institucional del servicio de control.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_odpe_cerro_colorado",
+        "tipo": "D",
+        "label": "Actores institucionales de la ODPE Cerro Colorado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de la ODPE Cerro Colorado",
+            "fuente_ids": [
+              709,
+              1474
+            ]
+          }
+        ],
+        "fuente_ids": [
+          709,
+          1474,
+          1166
+        ],
+        "fragmento_evidencia": "JEFE ODPE: ECHEVARRÍA CÁRDENAS ARMANDO JUAN / Armando Juan Echevarria Cardenas Jefe Oficina Descentralizada de Procesos Electorales - ODPE Cerro Colorado",
+        "justificacion": "El jefe de la ODPE es el responsable de la ejecución de las tareas operativas evaluadas y el destinatario de la notificación del informe. Se registra como variable relacional separada de la comisión de control por pertenecer a la entidad controlada.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "actor_jefe_oci_onpe",
+        "tipo": "D",
+        "label": "Actor institucional notificador: Jefe del OCI de ONPE",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "María Bertilda Idrogo Díaz",
+            "rol": "Jefe del Órgano de Control Institucional (OCI) de la ONPE",
+            "fuente_ids": [
+              1379,
+              1395,
+              1460
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1379,
+          1395,
+          1460
+        ],
+        "fragmento_evidencia": "María Bertilda Idrogo Díaz Contraloría General de la República Jefe del Organo de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe",
+        "justificacion": "Esta persona cumple un rol específico en la cadena de comunicación institucional: firma y notifica el Oficio N° 000184-2026-CG/OC3599 al Jefe Nacional de ONPE. Su rol es distinto al de la comisión de control y al del jefe de ODPE.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "presupuesto_asignado_odpe_cerro_colorado",
+        "tipo": "B",
+        "label": "Presupuesto asignado a la ODPE Cerro Colorado",
+        "valor": {
+          "observado": 141055.0,
+          "meta": null,
+          "estimado": null,
+          "unidad": "soles (S/)"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Monto asignado — ODPE Cerro Colorado (Arequipa / Arequipa / Cerro Colorado)",
+            "previsto": 141055.0,
+            "real": null,
+            "fuente_ids": [
+              1166,
+              1176
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1166,
+          696,
+          697,
+          698,
+          699,
+          700,
+          701,
+          702,
+          703,
+          704,
+          705,
+          706,
+          707,
+          708,
+          709,
+          710,
+          711,
+          1176
+        ],
+        "fragmento_evidencia": "Cuadro n.°6 Información General de la ODPE Cerro Colorado [...] CERRO COLORADO | AREQUIPA | AREQUIPA | CERRO COLORADO | ECHEVARRÍA CÁRDENAS ARMANDO JUAN | AV. PUMACAHUA L-13 SAN FELIPE | 141,055.00 / Fuente: Memorando 699-2026-GOECOR/ONPE de 16 de febrero de 2026.",
+        "justificacion": "El POE contempla asignación presupuestaria específica por ODPE. Este valor numérico (monto asignado) puede compararse con ejecución en hitos futuros. Se clasifica como Tipo B porque representa una asignación con potencial de seguimiento entre momentos, aunque en este hito solo se registra el monto programado sin dato de ejecución.",
+        "ambiguedad": "El documento no registra el nivel de ejecución presupuestal a la fecha del hito, solo el monto asignado. Por tanto, no hay valor real de ejecución que contrastar.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "recomendaciones_comision_de_control",
+        "tipo": "E",
+        "label": "Recomendaciones emitidas por la comisión de control",
+        "valor": {
+          "titulo": "Recomendaciones al Jefe Nacional de la ONPE — Hito N° 3",
+          "cuerpo": "Recomendación 1 — Adopción de acciones preventivas y correctivas: Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE el presente Informe de Control Concurrente, que contiene la situación adversa identificada como resultado del Control Concurrente a la ejecución, supervisión y seguimiento de la capacitación de los actores electorales, con la finalidad de que se adopten las acciones preventivas y correctivas correspondientes en el marco de sus competencias y obligaciones, con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales - EG 2026. || Recomendación 2 — Comunicación de acciones al OCI en plazo de 5 días hábiles: Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, que debe comunicar al Órgano de Control Institucional (OCI) de la ONPE, en el plazo de cinco (5) días hábiles desde la comunicación del presente informe, las acciones preventivas o correctivas adoptadas y por adoptar respecto a las situaciones adversas, adjuntando la documentación de sustento respectiva."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1294,
+          1298,
+          1303
+        ],
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, el presente Informe de Control Concurrente [...] con la finalidad que se adopten las acciones preventivas y correctivas que correspondan [...] con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales- EG 2026. / Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales - ONPE, que debe comunicar al Órgano de Control Institucional (OCI) de la ONPE, en el plazo de cinco (5) días hábiles desde la comunicación del presente informe, las acciones preventivas o correctivas adoptadas y por adoptar...",
+        "justificacion": "Las recomendaciones son texto estructurado con propósito institucional. Se clasifican como Tipo E porque constituyen mandatos textuales con desarrollo argumentativo que deben trasladarse íntegramente. Son dos recomendaciones diferenciadas pero pertenecen a la misma sección y responden a la misma pregunta conceptual.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "estado_reporte_avance_situaciones_adversas",
+        "tipo": "C",
+        "label": "Estado del reporte de avance ante situaciones adversas",
+        "valor": {
+          "categoria": "No aplica",
+          "nota": "La sección VII del informe indica explícitamente que no aplica para el presente hito, lo que significa que no se ha recibido o no corresponde un reporte de avance de la entidad controlada en este momento del proceso."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1288,
+          1289
+        ],
+        "fragmento_evidencia": "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS. No aplica.",
+        "justificacion": "Esta condición de estado determina si la entidad ya ha respondido con acciones correctivas a situaciones adversas previas. El valor 'No aplica' es un estado categórico rastreable entre momentos que puede cambiar a 'En proceso' o 'Recibido' en hitos subsiguientes.",
+        "ambiguedad": "El documento no aclara si 'no aplica' significa que no había situaciones adversas previas que requirieran reporte, o que el plazo aún no venció. La sección VIII contradice parcialmente esto al indicar que sí se adoptaron acciones correctivas respecto al hito anterior.",
+        "estado_verificacion": "verificado"
+      }
+    ]
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Hito de Control n.° 2 — Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Cerro Colorado y Sede Central",
+    "filename": "Arequipa19.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control n.° 5635-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-04-10",
+      "periodo_inicio": "2026-03-30",
+      "periodo_fin": "2026-04-06",
+      "estado_notificacion": "Notificado al Jefe de ODPE Armando Juan Echevarria Cardenas mediante Oficio n.° 000746-2026-CG/GRAR el 10 de abril de 2026, expediente n.° 2026-000180419. Notificado al Jefe Nacional de la ONPE mediante Oficio n.° 000180-2026-CG/OC3599 del 17 de abril de 2026 y Cédula de Notificación Electrónica n.° 00000167-2026-CG/3599.",
+      "fuente_ids": [
+        1218,
+        1229,
+        1263,
+        1221,
+        1231,
+        1265,
+        1222,
+        1287,
+        1224,
+        1807,
+        2040,
+        2047,
+        2075,
+        1885,
+        1919
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Oficio n.° 000367-2026-CG/GRAR",
+        "establece": "Dispone la ejecución del control concurrente por parte de la Gerencia Regional de Control de Arequipa",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          1267
+        ]
+      },
+      {
+        "codigo": "Directiva n.° 013-2022-CG/NORM — Resolución de Contraloría n.° 218-2022-CG",
+        "establece": "Establece el marco normativo del servicio de control simultáneo (concurrente), incluyendo la comunicación de situaciones adversas al titular de la entidad",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1267,
+          1892,
+          2050
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26487, artículo 24 — Ley Orgánica de la ONPE",
+        "establece": "Las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales",
+        "fecha": null,
+        "fuente_ids": [
+          1297
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26859, artículos 39 y 49 — Ley Orgánica de Elecciones (LOE)",
+        "establece": "El Jefe de la ONPE establece número, ubicación y organización de las ODPE (art. 39); designa a Jefes y Coordinadores Administrativos de ODPE mediante concurso público (art. 49)",
+        "fecha": null,
+        "fuente_ids": [
+          1298,
+          1307
+        ]
+      },
+      {
+        "codigo": "Ley n.° 27785, artículo 8° — Ley Orgánica del Sistema Nacional de Control",
+        "establece": "Establece las competencias del sistema nacional de control y de la Contraloría General de la República",
+        "fecha": null,
+        "fuente_ids": [
+          1891,
+          2049
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo n.° 039-2025-PCM",
+        "establece": "Convoca a Elecciones Generales el 12 de abril de 2026 para la elección del Presidente, Vicepresidentes, senadores, diputados y representantes ante el Parlamento Andino",
+        "fecha": "2025-03-26",
+        "fuente_ids": [
+          1299
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para la organización y ejecución de las EG-2026",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1303
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000165-2025-JN/ONPE",
+        "establece": "Dispone la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para Jefes y Coordinadores Administrativos de ODPE EG-2026",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          1311
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000175-2025-JN/ONPE",
+        "establece": "Designa en el cargo de Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE en el marco de las EG-2026",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          1311
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) versión 03",
+        "establece": "Aprueba el Plan Operativo Electoral EG-2026 versión 03. Establece el marco legal, electoral, estratégico, indicadores, presupuesto y formulación de actividades operativas, incluyendo la línea de tiempo de hitos y las tareas operativas de GOECOR (2.8.1.7), ODPE (2.8.1.8) y GITE (3.2.3.10)",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1317,
+          1344,
+          1346,
+          1364,
+          1373,
+          1389
+        ]
+      },
+      {
+        "codigo": "Contrato n.° 217-2025-ONPE — Servicio de Habilitación, Acondicionamiento y Logística Informática (SHALI) EG-2026",
+        "establece": "Suscrito el 12 de diciembre de 2025 entre la ONPE y el Consorcio 'ADMINISTRADOR DE PROCESOS ELECTORALES CSA'. Monto: S/ 144 306 000,00. Regula los sub servicios de habilitación informática, acondicionamiento y logística informática, soporte técnico, desmontaje, sistema de gestión de seguridad de la información y gestión del servicio",
+        "fecha": "2025-12-12",
+        "fuente_ids": [
+          1395,
+          1410
+        ]
+      },
+      {
+        "codigo": "Procedimiento PRO2-GOECOR/SCE versión 09 — Procesamiento de documentos electorales y entrega de resultados en la ODPE/ORC",
+        "establece": "Establece las actividades a desarrollarse durante el Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo, incluyendo formatos, roles responsables y la obligación de registrar observaciones e incidencias en el acta de simulacro",
+        "fecha": null,
+        "fuente_ids": [
+          1420,
+          1437,
+          1481,
+          1755
+        ]
+      },
+      {
+        "codigo": "Instructivo INO1-GOECOR/SCE versión 06 — Procesamiento de actas en el centro de cómputo",
+        "establece": "Establece las tareas para el procesamiento de Actas Electorales en el centro de cómputo de la ODPE/ORC",
+        "fecha": null,
+        "fuente_ids": [
+          1481
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR03-GITE/TI versión 07 — Contingencia en el centro de cómputo de la ODPE",
+        "establece": "Presenta las actividades de recuperación ante la inoperatividad de equipos y servicios del centro de cómputo de la ODPE durante el procesamiento de actas electorales y transmisión de información",
+        "fecha": null,
+        "fuente_ids": [
+          1481
+        ]
+      },
+      {
+        "codigo": "Documento OD02-GITE/SCE versión 03 — Guía de operación del centro de monitoreo de resultados electorales",
+        "establece": "Establece pautas y mecanismos del Centro de Monitoreo de Resultados Electorales para el seguimiento de la consolidación de resultados electorales en Sede Central",
+        "fecha": null,
+        "fuente_ids": [
+          1492
+        ]
+      },
+      {
+        "codigo": "Memorando múltiple n.° 000112-2026-GOECOR-EG-2026/ONPE",
+        "establece": "Comunicó a los Jefes de las ODPE las indicaciones para el Simulacro del Sistema de Cómputo Electoral del 5 de abril de 2026, incluyendo cronograma de pruebas, generalidades y recomendaciones",
+        "fecha": "2026-03-29",
+        "fuente_ids": [
+          1443,
+          1527,
+          1479,
+          1664,
+          1665
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000736-2026-CG/GRAR",
+        "establece": "Reconforma la comisión de control",
+        "fecha": "2026-04-09",
+        "fuente_ids": [
+          1290
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situacion_adversa_hito_2",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control n.° 2",
+        "valor": {
+          "texto": "Se identificó una (1) situación adversa nueva en este hito de control, relacionada con la falla operativa del grupo electrógeno durante las pruebas de contingencia del simulacro",
+          "estado": "Abierta / advertida"
+        },
+        "detalle": [
+          {
+            "texto": "FALLA OPERATIVA DEL GRUPO ELECTRÓGENO DURANTE PRUEBAS DE CONTINGENCIA REALIZADAS EN EL SIMULACRO DEL SISTEMA DE CÓMPUTO DE LA ODPE, PODRÍA AFECTAR LA GESTIÓN Y OPERACIÓN DEL PROCESAMIENTO DE DOCUMENTOS ELECTORALES Y ENTREGA DE RESULTADOS DE LA JORNADA ELECTORAL EN LA JURISDICCIÓN DE LA ODPE. El 5 de abril de 2026, durante las pruebas de contingencia del simulacro, el grupo electrógeno presentó deficiencias al no mantenerse activado de manera continua. El ECD registró en el Formato FM07-GITE/TI cuatro (4) pruebas con apagones de 8, 12, 3 y 24 minutos respectivamente. El informe n.° 000027-2026-OCTDPECERROCOLORADO2026/ONPE del ECD señaló que las pruebas se realizaron de manera no exitosa porque el grupo electrógeno se apagó en tres (3) oportunidades. Se reprogramó la realización de otras pruebas para el 7 de abril de 2026. Adicionalmente, el Formato FM02-GOECOR/SCE (Acta de Simulacro) no registró observaciones ni dejó constancia de la reprogramación, incumpliendo la nota 12 del PRO2-GOECOR/SCE versión 09. Del mismo modo, el informe del simulacro omitió las incidencias del grupo electrógeno.",
+            "estado": "Abierta / advertida",
+            "desde_momento": null,
+            "fuente_ids": [
+              1658,
+              1663,
+              1664,
+              1670,
+              1671,
+              1705,
+              1774,
+              1775
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1654,
+          1658,
+          1663,
+          1664,
+          1670,
+          1671,
+          1705,
+          1737,
+          1774,
+          1796,
+          1798
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 [...] se ha identificado una situación adversa que afecta o podría afectar la continuidad del proceso [...] FALLA OPERATIVA DEL GRUPO ELECTRÓGENO DURANTE PRUEBAS DE CONTINGENCIA REALIZADAS EN EL SIMULACRO DEL SISTEMA DE COMPUTO DE LA ODPE [...] Durante la ejecución de las pruebas antes mencionadas, se constató que el grupo electrógeno [...] presentó deficiencias en su operatividad, al no mantenerse activado de manera continua [...] el ECD consignó en el Formato FM07-GITE/TI [...] cuatro (4) pruebas de contingencia, observándose que el grupo electrógeno presentó apagones de 8, 12, 3 y 24 minutos en cada prueba; reprogramándose realizar otras pruebas de contingencia el 7 de abril de 2026",
+        "justificacion": "Es una situación adversa nueva identificada en este hito, con estado abierto, consecuencia definida y evidencia documental (Formato FM07, informe del ECD, Acta de Simulacro sin observaciones). Constituye una variable de seguimiento porque debe resolverse o persistir en hitos posteriores.",
+        "ambiguedad": "El informe refiere 'cuatro (4) pruebas' en un fragmento y 'tres (3) oportunidades' de apagón en otro. Esto podría deberse a que en una de las cuatro pruebas el equipo funcionó correctamente, o a una discrepancia entre los formatos. No se puede resolver con el texto disponible.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "situaciones_adversas_hito_1_seguimiento",
+        "tipo": "A",
+        "label": "Estado de las situaciones adversas comunicadas en el Hito de Control n.° 1",
+        "valor": {
+          "texto": "Del Hito de Control anterior (Informe n.° 1544-2026-CG/GRAR-SCC) se identificaron 4 situaciones adversas. En este Hito 2, subsisten 3 y 1 ha sido corregida.",
+          "estado": "3 situaciones con acciones / 1 situación corregida"
+        },
+        "detalle": [
+          {
+            "texto": "Centro de Cómputo de la ODPE Cerro Colorado no cuenta con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del Centro de Cómputo, establecidos en los Términos de Referencia del SHALI; situación que genera riesgo de afectar la operatividad del Centro de Cómputo durante el proceso electoral.",
+            "estado": "Con Acciones",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1009,
+              1010
+            ]
+          },
+          {
+            "texto": "Centro de Cómputo de la ODPE Cerro Colorado presenta grupo electrógeno sin tubo de escape, sistema de aire acondicionado en cajas sin instalar y tomacorrientes sin tapas; situaciones que generan riesgo de dispersión inadecuada de gases de combustión, elevación de la temperatura del ambiente, así como comprometer la seguridad de los puntos eléctricos; y con ello afectar la operatividad del Centro de Cómputo durante el proceso electoral.",
+            "estado": "Con Acciones",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1012,
+              1013
+            ]
+          },
+          {
+            "texto": "Centro de Cómputo de la ODPE Cerro Colorado presenta equipos informáticos sin instalar ni en operación; situación que retrasaría la puesta en funcionamiento de los servicios informáticos del Centro de Cómputo durante el proceso electoral.",
+            "estado": "Con Acciones",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1014,
+              1015,
+              1016
+            ]
+          },
+          {
+            "texto": "Cuarta situación adversa del Hito 1 (texto parcialmente ilegible en la digitalización del documento).",
+            "estado": "Corregida",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1017,
+              1018,
+              1019
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1793,
+          1855,
+          1856,
+          1857,
+          1858,
+          1005,
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014,
+          1015,
+          1016,
+          1017,
+          1018,
+          1019
+        ],
+        "fragmento_evidencia": "Informe de Hito de Control n.° 1544-2026-CG/GRAR-SCC — Número de situaciones adversas identificadas: 4 — Número de situaciones adversas que subsisten: 3 — Relación de situaciones adversas que subsisten: [tabla con tres situaciones 'Con Acciones' y una 'Corregida']",
+        "justificacion": "Es la métrica de seguimiento de situaciones adversas previas, que registra su estado (persistente con acciones, o corregida) al llegar a un nuevo hito. Todo el bloque del Apéndice n.° 2 corresponde a esta misma variable de seguimiento longitudinal.",
+        "ambiguedad": "La cuarta situación adversa del Hito 1 (marcada como 'Corregida') tiene su texto cortado en la digitalización del documento; los IDs [1015] a [1019] parecen pertenecer a la misma fila pero con texto partido entre dos celdas de la tabla.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "emision_reporte_avance_hito_2",
+        "tipo": "F",
+        "label": "Emisión de reporte de avance ante situaciones adversas durante el Hito 2",
+        "valor": {
+          "booleano": false,
+          "evidencia": "La Comisión de Control no emitió reporte de avance ante situaciones adversas durante la ejecución del Hito de Control n.° 2, conforme se declara explícitamente en la sección VII del informe."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de reporte de avance ante situaciones adversas",
+            "cumple": false,
+            "fuente_ids": [
+              1787
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1787
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente Hito de Control n.° 2 - 'Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo de la ODPE Cerro Colorado y Sede Central', la Comisión de Control no emitió reporte de avance ante situaciones adversas.",
+        "justificacion": "La sección VII reporta explícitamente la no emisión del reporte de avance, lo que representa una condición booleana verificable con referencia documental directa (ausencia constatada, no solo inferida).",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "invitaciones_simulacro_emitidas",
+        "tipo": "F",
+        "label": "Verificación de invitaciones para el simulacro",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La ODPE Cerro Colorado emitió oportunamente las invitaciones para presenciar el Simulacro del Sistema de Cómputo Electoral mediante oficios de fecha 2 de abril de 2026, los cuales contienen la información necesaria (fecha, hora, lugar y dirección del evento)."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión oportuna de invitaciones con información necesaria (fecha, hora, lugar y dirección del evento)",
+            "cumple": true,
+            "fuente_ids": [
+              1531
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1531
+        ],
+        "fragmento_evidencia": "Se verificó que la ODPE Cerro Colorado emitió oportunamente las invitaciones para presenciar el Simulacro del Sistema de Cómputo Electoral, a través de oficios de fecha 2 de abril de 2026, los cuales contienen la información necesaria para su adecuada convocatoria, tales como fecha, hora, lugar y dirección del evento.",
+        "justificacion": "La comisión constata el cumplimiento de la obligación de emitir invitaciones oportunas, verificando tanto la existencia de los documentos como su contenido mínimo requerido.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "personal_participante_designado_capacitado",
+        "tipo": "F",
+        "label": "Verificación del personal participante del simulacro",
+        "valor": {
+          "booleano": true,
+          "evidencia": "El personal participante en el Simulacro del Sistema de Cómputo Electoral se encontró debidamente designado, capacitado y acreditado, conforme a los roles establecidos en los procedimientos operativos del sistema de cómputo electoral."
+        },
+        "detalle": [
+          {
+            "criterio": "Personal debidamente designado, capacitado y acreditado conforme a roles de los procedimientos operativos",
+            "cumple": true,
+            "fuente_ids": [
+              1533
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1533
+        ],
+        "fragmento_evidencia": "Se verificó que el personal participante en el Simulacro del Sistema de Cómputo Electoral se encuentre debidamente designado, capacitado y acreditado, conforme a los roles establecidos en los procedimientos operativos del sistema de cómputo electoral.",
+        "justificacion": "La Comisión verifica el cumplimiento de tres condiciones simultáneas (designación, capacitación, acreditación) que en conjunto representan una condición booleana de conformidad del personal.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "ingreso_personeros_simulacro",
+        "tipo": "F",
+        "label": "Verificación del ingreso de personeros al simulacro",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La ODPE invitó al menos a un personero (condición verificada). Los protocolos de seguridad, registro, identificación y restricciones de acceso no pudieron ser verificados en la práctica dado que no asistió ningún personero al evento."
+        },
+        "detalle": [
+          {
+            "criterio": "Invitación de al menos un personero al simulacro",
+            "cumple": true,
+            "fuente_ids": [
+              1538
+            ]
+          },
+          {
+            "criterio": "Verificación de protocolos de seguridad y control de accesos (registro, identificación y restricciones aplicables)",
+            "cumple": false,
+            "fuente_ids": [
+              1538
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1538
+        ],
+        "fragmento_evidencia": "Se verificó que se haya invitado al menos a un personero al Simulacro del Sistema de Cómputo Electoral, aunque no pudo validarse los protocolos de seguridad y control de accesos establecidos, incluyendo registro, identificación y restricciones aplicables, dado que no asistió ninguno al evento.",
+        "justificacion": "Esta condición tiene dos dimensiones: la invitación (verdadera) y la verificación de protocolos de acceso (no verificable por ausencia de personeros). El booleano refleja el cumplimiento de la obligación principal (invitar), con detalle que captura la subcondición indeterminada.",
+        "ambiguedad": "La condición booleana es parcialmente indeterminada: la obligación de invitar fue cumplida, pero el cumplimiento de los protocolos de acceso no pudo ser evaluado por ausencia de personeros.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "hora_inicio_simulacro_conforme",
+        "tipo": "F",
+        "label": "Verificación de la hora de inicio del simulacro conforme al horario programado",
+        "valor": {
+          "booleano": true,
+          "evidencia": "El simulacro se inició a las 09:29 a. m. el 5 de abril de 2026, conforme al horario programado (09:30 horas), según consta en el Formato FM02-GOECOR/SCE — Acta de Simulacro del Sistema de Cómputo Electoral."
+        },
+        "detalle": [
+          {
+            "criterio": "Inicio del simulacro conforme al horario programado (09:30 horas)",
+            "cumple": true,
+            "fuente_ids": [
+              1539,
+              1737
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1539,
+          1737
+        ],
+        "fragmento_evidencia": "Se verificó que el inicio del Simulacro del Sistema de Cómputo Electoral se dio a las 09:29 a.m. el 5 de abril de 2026, de acuerdo consta en el FM02-GOECOR/SCE - Acta de Simulacro del Sistema de Cómputo Electoral, conforme al horario programado. / Siendo las 09:29 horas del día 05 del mes de abril del año 2026 se dieron cita en las instalaciones de la Oficina Descentralizada de Procesos Electorales - ODPE CERRO COLORADO",
+        "justificacion": "La condición es booleana: el inicio fue o no fue conforme al cronograma. La Comisión verifica el cumplimiento y lo respalda con el acta firmada. El horario programado era las 09:30 y el inicio ocurrió a las 09:29, lo que se interpreta como conforme.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "version_software_electoral_verificada",
+        "tipo": "F",
+        "label": "Verificación de la versión del software electoral",
+        "valor": {
+          "booleano": true,
+          "evidencia": "El código de versión del software electoral del servidor principal fue verificado con resultado 'IGUALES'. Fecha de auditoría de versión: 11 de marzo de 2026 a las 13:17. Fecha de auditoría del equipo: 5 de abril de 2026 a las 09:48. Centro de Cómputo C59017-CERRO COLORADO. Código de versión del Software Electoral: 7fef35335d771b1ec44ef4ad1f2f3ed83233718b368fe00331f1d5d2dff4758b. Código de versión del Asistente Automatizado: 4c610ea69c3de0bb9d12625a9d912ce26ec631eb752bada56f23f19ba2a9a176."
+        },
+        "detalle": [
+          {
+            "criterio": "Verificación de versión del software electoral en servidor principal — resultado IGUALES",
+            "cumple": true,
+            "fuente_ids": [
+              1544,
+              1545,
+              1546,
+              1548,
+              1549
+            ]
+          },
+          {
+            "criterio": "Verificación de versión del Asistente Automatizado",
+            "cumple": true,
+            "fuente_ids": [
+              1550,
+              1551,
+              1552,
+              1553
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1544,
+          1545,
+          1546,
+          1548,
+          1549,
+          1550,
+          1551,
+          1552,
+          1553,
+          1554,
+          1555,
+          1556,
+          1557,
+          1558,
+          1559,
+          1560,
+          1561,
+          1562,
+          1565,
+          1566,
+          1568,
+          1569,
+          1570,
+          1571,
+          1572,
+          1577
+        ],
+        "fragmento_evidencia": "Se verificó el código de versión de Software electoral, teniendo la 'Fecha de Auditoria de Versión' el 11 de marzo de 2026 a las 13:17 y una 'Fecha de auditoría del equipo' el 5 de abril de 2026 a las 9:48 a. m., conforme al formato Verificación de Versión de Servidor Principal / Estado: IGUALES",
+        "justificacion": "El reporte de verificación de versión emite un resultado categórico ('IGUALES') que indica que la versión del software instalado en el equipo coincide con la versión auditada. Esto es una condición booleana de conformidad técnica.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "progreso_procesamiento_actas_simulacro",
+        "tipo": "B",
+        "label": "Progreso del procesamiento de actas electorales durante la prueba funcional",
+        "valor": {
+          "observado": 50,
+          "meta": 6625,
+          "estimado": null,
+          "unidad": "actas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Presidente y Vicepresidentes",
+            "previsto": 1375,
+            "real": 10,
+            "fuente_ids": [
+              1610,
+              1611,
+              1612,
+              1614
+            ]
+          },
+          {
+            "subgrupo": "Parlamento Andino",
+            "previsto": 1325,
+            "real": 0,
+            "fuente_ids": [
+              1613,
+              1617,
+              1618
+            ]
+          },
+          {
+            "subgrupo": "Diputados",
+            "previsto": 1325,
+            "real": 2,
+            "fuente_ids": [
+              1619,
+              1620,
+              1621,
+              1622
+            ]
+          },
+          {
+            "subgrupo": "Senadores Distrito Múltiple",
+            "previsto": 1325,
+            "real": null,
+            "fuente_ids": [
+              1623,
+              1624,
+              1625
+            ]
+          },
+          {
+            "subgrupo": "Senadores Distrito Único",
+            "previsto": 1325,
+            "real": null,
+            "fuente_ids": [
+              1626,
+              1627,
+              1628
+            ]
+          },
+          {
+            "subgrupo": "Total",
+            "previsto": 6625,
+            "real": 50,
+            "fuente_ids": [
+              1629,
+              1630,
+              1631,
+              1632
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1584,
+          1585,
+          1589,
+          1592,
+          1593,
+          1594,
+          1595,
+          1596,
+          1597,
+          1598,
+          1599,
+          1601,
+          1602,
+          1606,
+          1607,
+          1608,
+          1609,
+          1610,
+          1611,
+          1612,
+          1613,
+          1614,
+          1617,
+          1618,
+          1619,
+          1620,
+          1621,
+          1622,
+          1623,
+          1624,
+          1625,
+          1626,
+          1627,
+          1628,
+          1629,
+          1630,
+          1631,
+          1632,
+          1633
+        ],
+        "fragmento_evidencia": "Se comprobó que el procesamiento de resultados durante la prueba funcional se haya ejecutado, verificando tiempos de procesamiento, consistencia de datos y funcionamiento del sistema, de acuerdo al reporte Resumen del Estado de Actas siguiente: [...] RESUMEN DEL ESTADO DE ACTAS [...] ODPE: J59017 - CERRO COLORADO [...] Total A procesar: 6625 / Pendientes: 6575 / [Procesadas:] 50",
+        "justificacion": "El reporte de estado de actas muestra el avance cuantitativo del procesamiento de documentos electorales durante la prueba funcional del simulacro, con meta (total a procesar) y valor observado (procesadas), desglosado por tipo de elección. Es la métrica central de progreso del hito. El corte del reporte es a las 11:34 horas, mientras que el simulacro culminó a las 13:00 horas.",
+        "ambiguedad": "La distribución de las 50 actas procesadas entre los cinco tipos de elección no es completamente legible en la digitalización del documento. El total (50) está confirmado, pero los subtotales por fila presentan inconsistencias aparentes en los IDs individuales, posiblemente por artefactos del OCR. Adicionalmente, el reporte es un corte parcial (11:34 h), no el resultado final del simulacro.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "reportes_sistema_computo_generados",
+        "tipo": "F",
+        "label": "Verificación de la generación de reportes del sistema de cómputo electoral",
+        "valor": {
+          "booleano": true,
+          "evidencia": "Los reportes generados por el sistema de cómputo electoral fueron emitidos de manera íntegra y consistente con la información procesada, conforme a los formatos establecidos."
+        },
+        "detalle": [
+          {
+            "criterio": "Reportes del sistema de cómputo electoral emitidos de manera íntegra y consistente conforme a formatos establecidos",
+            "cumple": true,
+            "fuente_ids": [
+              1634,
+              1635
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1634,
+          1635
+        ],
+        "fragmento_evidencia": "Se verificó que los reportes generados por el sistema de cómputo electoral sean emitidos de manera integra y consistente con la información procesada, conforme a los formatos establecidos.",
+        "justificacion": "La Comisión verifica el cumplimiento de la obligación de generación de reportes según los formatos previstos en el PRO2-GOECOR/SCE. La condición es booleana: los reportes se generaron conformemente o no.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "acta_e_informe_simulacro_conformidad",
+        "tipo": "F",
+        "label": "Verificación del acta de simulacro y el informe del simulacro (conformidad y omisiones)",
+        "valor": {
+          "booleano": false,
+          "evidencia": "El Acta de Simulacro (FM02-GOECOR/SCE) fue elaborada y suscrita el 5 de abril de 2026 a las 13:00 horas, y el informe del simulacro (n.° 000027-2026-OCTDPECERROCOLORADO2026/ONPE) fue emitido conforme a lineamientos; sin embargo, ambos documentos omitieron las incidencias del Grupo Electrógeno, incumpliendo la nota 12 del PRO2-GOECOR/SCE versión 09. El campo 'OBSERVACIONES' del acta aparece vacío."
+        },
+        "detalle": [
+          {
+            "criterio": "Elaboración y suscripción del acta del simulacro con detalle de actividades realizadas y conformidad de responsables",
+            "cumple": true,
+            "fuente_ids": [
+              1737,
+              1738,
+              1739,
+              1740
+            ]
+          },
+          {
+            "criterio": "Registro de observaciones e incidencias en el acta del simulacro conforme a la nota 12 del PRO2-GOECOR/SCE versión 09",
+            "cumple": false,
+            "fuente_ids": [
+              1741,
+              1744,
+              1745
+            ]
+          },
+          {
+            "criterio": "Elaboración y emisión del informe del simulacro conforme a lineamientos establecidos (resultados, recomendaciones)",
+            "cumple": true,
+            "fuente_ids": [
+              1718,
+              1719
+            ]
+          },
+          {
+            "criterio": "Registro de incidencias del grupo electrógeno en el informe del simulacro",
+            "cumple": false,
+            "fuente_ids": [
+              1705,
+              1748
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1641,
+          1644,
+          1718,
+          1719,
+          1737,
+          1738,
+          1739,
+          1740,
+          1741,
+          1744,
+          1745,
+          1748,
+          1705
+        ],
+        "fragmento_evidencia": "Se verificó la elaboración y suscripción del acta del simulacro, comprobando que contenga el detalle de actividades realizadas y conformidad de los responsables, aunque se omitieron las incidencias identificadas (Grupo Electrógeno). / Se comprobó que el informe del simulacro haya sido elaborado y emitido conforme a los lineamientos establecidos, incluyendo resultados, recomendaciones, aunque se omitieron las incidencias identificadas (Grupo Electrógeno). / [En el acta:] OBSERVACIONES: [campo vacío]",
+        "justificacion": "La elaboración y suscripción del acta, y la emisión del informe, son condiciones booleanas de cumplimiento documental. El incumplimiento específico es la omisión de las incidencias del grupo electrógeno en ambos documentos, lo que constituye la evidencia que respalda la situación adversa identificada en la variable de situaciones adversas del Hito 2. El booleano global es falso porque no se cumplió la condición completa de conformidad.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "control_entrega_registros_reportes",
+        "tipo": "F",
+        "label": "Verificación del control de entrega de registros y reportes",
+        "valor": {
+          "booleano": true,
+          "evidencia": "La entrega de registros y reportes generados durante el simulacro fue debidamente controlada, registrada y recepcionada por los responsables correspondientes."
+        },
+        "detalle": [
+          {
+            "criterio": "Entrega de registros y reportes del simulacro debidamente controlada, registrada y recepcionada por los responsables",
+            "cumple": true,
+            "fuente_ids": [
+              1642,
+              1643
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1642,
+          1643
+        ],
+        "fragmento_evidencia": "Se verificó que la entrega de registros y reportes generados durante el simulacro haya sido debidamente controlada, registrada y recepcionada por los responsables correspondientes.",
+        "justificacion": "El control de entrega de registros (mediante el Formato FM04-GOECOR/SCE) es una obligación procedimental booleana: se realizó o no se realizó conforme a lo establecido.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_simulacro_odpe",
+        "tipo": "D",
+        "label": "Actores participantes en el Simulacro del Sistema de Cómputo Electoral (ODPE Cerro Colorado)",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Armando Juan Echevarria Cardenas",
+            "rol": "Jefe de la ODPE Cerro Colorado",
+            "fuente_ids": [
+              1527,
+              1737
+            ]
+          },
+          {
+            "nombre": "Obed Caleb Centeno Tupiño",
+            "rol": "Encargado de Cómputo Descentralizado (ECD) de la ODPE Cerro Colorado",
+            "fuente_ids": [
+              1737,
+              1671
+            ]
+          },
+          {
+            "nombre": "Yanira Mery Guitton Tuaman",
+            "rol": "Presidente del JEE Arequipa 2 (invitada al simulacro)",
+            "fuente_ids": [
+              1737
+            ]
+          },
+          {
+            "nombre": "Edilberto Carlos Temoche Sanchez",
+            "rol": "Fiscalizador de Tecnología Aplicada del JEE Arequipa 2 (invitado al simulacro)",
+            "fuente_ids": [
+              1737
+            ]
+          },
+          {
+            "nombre": "Gerente de la GOECOR (no nombrado individualmente)",
+            "rol": "Emisor de las indicaciones del simulacro mediante memorando múltiple n.° 000112-2026-GOECOR-EG-2026/ONPE",
+            "fuente_ids": [
+              1443,
+              1527
+            ]
+          },
+          {
+            "nombre": "Consorcio ADMINISTRADOR DE PROCESOS ELECTORALES CSA (AI INVERSIONES PALO ALTO II S.A.C., SONDA DEL PERU S.A. y ALFIL CONSULTORÍA & COMUNICACIONES S.A.C.)",
+            "rol": "Proveedor del Servicio de Habilitación, Acondicionamiento y Logística Informática (SHALI) EG-2026",
+            "fuente_ids": [
+              1395
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1737,
+          1527,
+          1443,
+          1395
+        ],
+        "fragmento_evidencia": "el Sr. Armando Juan Echevarria Cardenas, Jefe de la Oficina Descentralizada de Procesos Electorales; el Sr. Obed Caleb Centeno Tupiño, Encargado de Cómputo Descentralizado; la Sra. Yanira Mery Guitton Tuaman, Presidente - JEE Arequipa 2 y el Sr. Edilberto Carlos Temoche Sanchez, Fiscalizador de Tecnología Aplicada - JEE Arequipa 2 con la finalidad de dar cumplimiento al Simulacro del Sistema de Cómputo Electoral",
+        "justificacion": "El Acta de Simulacro FM02-GOECOR/SCE lista a los cuatro actores presentes en el acto con sus roles institucionales. Los demás actores (Gerente GOECOR, Consorcio) son identificados en otras secciones del documento con roles relevantes para el proceso.",
+        "ambiguedad": "El nombre del Gerente de la GOECOR no está consignado en el documento. La participación del Consorcio es contractual/operativa, no presencial en el simulacro.",
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_comision_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marissa Alicia Chavez Chavez",
+            "rol": "Gerente Regional de Control (e), Gerencia Regional de Control Arequipa, Contraloría General de la República",
+            "fuente_ids": [
+              1821,
+              1256,
+              2057
+            ]
+          },
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisor de la Comisión de Control",
+            "fuente_ids": [
+              1817,
+              1247
+            ]
+          },
+          {
+            "nombre": "Juan Diego Lino Prieto",
+            "rol": "Jefe de Comisión, Comisión de Control",
+            "fuente_ids": [
+              1818,
+              1239
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1817,
+          1818,
+          1821,
+          1239,
+          1247,
+          1256
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisor Comisión de Control / Juan Diego Lino Prieto Jefe de Comisión Comisión de Control / Marissa Alicia Chavez Chavez Gerente Regional de Control (e) Gerencia Regional de Control Arequipa Contraloría General de la República",
+        "justificacion": "Son los actores de la Contraloría a cargo del control concurrente de este hito, identificados con nombre y rol en la sección de firmas del informe.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado"
+      },
+      {
+        "id": "actores_notificacion_nivel_nacional",
+        "tipo": "D",
+        "label": "Actores de notificación a nivel nacional",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Maria Bertilda Idrogo Diaz",
+            "rol": "Jefe del Órgano de Control Institucional de la ONPE, Contraloría General de la República — Emisora del Oficio n.° 000180-2026-CG/OC3599",
+            "fuente_ids": [
+              1907,
+              1908,
+              1923,
+              1983,
+              2028
+            ]
+          },
+          {
+            "nombre": "Piero Alessandro Corvetto Salinas",
+            "rol": "Jefe Nacional de la Oficina Nacional de Procesos Electorales (ONPE) — Destinatario del Oficio n.° 000180-2026-CG/OC3599",
+            "fuente_ids": [
+              1887,
+              1925,
+              1985
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1887,
+          1907,
+          1908,
+          1925,
+          1983,
+          2028
+        ],
+        "fragmento_evidencia": "Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe / Maria Bertilda Idrogo Diaz — Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe Contraloria General de la República",
+        "justificacion": "Son los actores de la cadena de notificación a nivel central (OCI-ONPE → Jefe Nacional ONPE), distintos de los actores locales (Comisión de Control Arequipa → Jefe ODPE). Sus roles son diferentes y su participación ocurre el 17 de abril de 2026.",
+        "ambiguedad": null,
+        "estado_verificacion": "requiere_verificacion_llm"
+      },
+      {
+        "id": "marco_operativo_simulacro_narrativo",
+        "tipo": "E",
+        "label": "Descripción narrativa del proceso de implementación del Centro de Cómputo y del Simulacro",
+        "valor": {
+          "titulo": "Marco operativo del Simulacro del Sistema de Cómputo Electoral en la ODPE Cerro Colorado — Hito de Control n.° 2",
+          "cuerpo": "La ONPE como autoridad máxima en la organización y ejecución de los procesos electorales conformó 126 ODPE para las EG-2026. El Simulacro del Sistema de Cómputo Electoral es un hito obligatorio del Plan Operativo Electoral (POE) versión 03, establecido mediante tarea 2.8.1.7 de GOECOR y tarea 2.8.1.8 de las ODPE. La implementación del Centro de Cómputo de la ODPE Cerro Colorado es ejecutada en el marco del Contrato n.° 217-2025-ONPE (SHALI EG-2026) suscrito con el Consorcio 'ADMINISTRADOR DE PROCESOS ELECTORALES CSA' por S/ 144 306 000,00. Las actividades del simulacro se organizan según el procedimiento PRO2-GOECOR/SCE versión 09 en cinco fases: (i) Organización del simulacro del sistema de cómputo electoral, (ii) Bienvenida al evento de simulacro, (iii) Verificación de versión del sistema de cómputo electoral, (iv) Ejecución de la puesta a cero, y (v) Procesamiento de actas electorales de prueba. Adicionalmente se realizan pruebas de contingencia ante dos escenarios: inoperatividad del Servidor Principal e indisponibilidad del suministro eléctrico comercial. El cronograma del simulacro programó inicio a las 09:30 horas en el centro de cómputo el 5 de abril de 2026. La jurisdicción de la ODPE Cerro Colorado integra la STAE en 200 locales de votación. Las actividades del Centro de Monitoreo de Resultados Electorales en la Sede Central se rigen por el documento OD02-GITE/SCE versión 03. El memorando múltiple n.° 000112-2026-GOECOR-EG-2026/ONPE de 29 de marzo de 2026 comunicó a los Jefes de las ODPE las indicaciones para la realización del simulacro, incluyendo pruebas internas del 30 de marzo al 4 de abril de 2026, el simulacro propiamente dicho el 5 de abril de 2026 y pruebas finales del 6 al 11 de abril de 2026."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1295,
+          1296,
+          1297,
+          1298,
+          1299,
+          1303,
+          1314,
+          1317,
+          1346,
+          1366,
+          1375,
+          1395,
+          1412,
+          1417,
+          1420,
+          1437,
+          1443,
+          1481,
+          1488,
+          1492,
+          1495,
+          1523,
+          1527
+        ],
+        "fragmento_evidencia": "La Oficina Nacional de Procesos Electorales (en adelante la ONPE) como la autoridad máxima en la organización y ejecución de los procesos electorales [...] La ONPE mediante procedimiento PR02-GOECOR/SCE [...] establece las actividades a desarrollarse durante el Simulacro del Sistema de Cómputo Electoral en el Centro de Cómputo organizados en: (i) Organización del simulacro del sistema de cómputo electoral, (ii) Bienvenida al evento de simulacro, (iii) Verificación de versión del sistema de cómputo electoral, (iv) Ejecución de la puesta a cero, y (v) Procesamiento de actas electorales de prueba",
+        "justificacion": "La Sección IV del informe contiene un bloque narrativo extenso que contextualiza el hito de control dentro del proceso electoral más amplio. Incluye hechos específicos verificados en el hito (organización, cronograma, integración STAE), no solo referencias normativas, constituyendo la descripción estructurada del proceso que da sentido a las demás variables.",
+        "ambiguedad": "La línea entre marco general y narrativo del momento es delgada en esta sección; se optó por incluir aquí únicamente los hechos descriptivos del proceso (qué se hizo, cómo se organizó) y reservar en el Marco General las fuentes normativas y documentos rectores.",
+        "estado_verificacion": "requiere_verificacion_llm"
+      }
+    ]
+  }
+}

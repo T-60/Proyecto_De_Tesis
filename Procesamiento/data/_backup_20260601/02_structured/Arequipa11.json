@@ -1,0 +1,821 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_1",
+    "numero": 1,
+    "label": "Acondicionamiento del local de la ODPE",
+    "filename": "Arequipa11.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 141-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-02-05",
+      "periodo_inicio": "2026-01-26",
+      "periodo_fin": "2026-01-30",
+      "estado_notificacion": "Emitido y notificado electrónicamente el 5 de febrero de 2026 mediante Oficio N° 000144-2026-CG/GRAR (a la Jefa de ODPE Arequipa) y Oficio N° 000023-2026-CG/OC3599 (al Jefe Nacional de ONPE)",
+      "fuente_ids": [
+        1773,
+        1784,
+        1813,
+        1776,
+        1786,
+        1815,
+        1777,
+        1826,
+        1779,
+        3077,
+        3161,
+        3146,
+        3183,
+        3197
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva n.° 013-2022-CG/NORM aprobada por Resolución de Contraloría n.° 218-2022-CG",
+        "establece": "Marco normativo que regula el servicio de Control Simultáneo, incluyendo la comunicación al titular de la entidad sobre situaciones adversas y el procedimiento del Control Concurrente",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1817,
+          3154,
+          3204
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26487 — Ley Orgánica de la ONPE, artículo 24°",
+        "establece": "Las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales",
+        "fecha": null,
+        "fuente_ids": [
+          1834
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26859 — Ley Orgánica de Elecciones (LOE), artículos 39° y 49°",
+        "establece": "El Jefe de la ONPE determina el número, ubicación y organización de las ODPE; el proceso de designación de Jefes y Coordinadores Administrativos de las ODPE mediante concurso público",
+        "fecha": null,
+        "fuente_ids": [
+          1848,
+          1859
+        ]
+      },
+      {
+        "codigo": "Ley n.° 27785 — Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República, artículo 8°",
+        "establece": "Fundamenta la comunicación del informe al titular de la entidad",
+        "fecha": null,
+        "fuente_ids": [
+          3153,
+          3203
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de 126 ODPE para las Elecciones Generales 2026",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1858
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000165-2025-JN/ONPE",
+        "establece": "Dispone la publicación de la relación de postulantes titulares y accesitarios aprobados para cubrir vacantes de Jefes y Coordinadores Administrativos de ODPE",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          1860
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000175-2025-JN/ONPE",
+        "establece": "Designa a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE para las Elecciones Generales 2026",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          1861
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) EG 2026, Versión 03",
+        "establece": "Aprueba el Plan Operativo Electoral que establece el marco legal, electoral, estratégico e indicadores, así como la programación de actividades operativas y tareas de las unidades orgánicas de la ONPE, incluyendo las ODPE, con plazos para implementación de sedes ODPE",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1862,
+          1907,
+          1918,
+          2457
+        ]
+      },
+      {
+        "codigo": "Memorando n.° 000073-2026-GOECOR/ONPE",
+        "establece": "Reformula el presupuesto analítico de cada ODPE; total general asciende a S/ 350'999,235.52",
+        "fecha": "2026-01-08",
+        "fuente_ids": [
+          1919,
+          1938
+        ]
+      },
+      {
+        "codigo": "ROF de la ONPE adecuado por Resolución Jefatural n.° 000125-2024-JN/ONPE, artículos 104° y 116°",
+        "establece": "Establece las funciones de la GOECOR respecto a las ODPE y regula la organización de las ODPE",
+        "fecha": "2024-06-27",
+        "fuente_ids": [
+          1848,
+          1950,
+          1975
+        ]
+      },
+      {
+        "codigo": "Instructivo IN01-GOECOR/IMO 'Habilitación de la ODPE y Oficinas Distritales y/o de Centros Poblados', versión 2",
+        "establece": "Establece las tareas para la habilitación de locales de ODPE, implementación de áreas, suscripción del acta de recepción/entrega de bien inmueble, señalización de ambientes y verificación del estado del inmueble",
+        "fecha": "2022-07-19",
+        "fuente_ids": [
+          1951,
+          2174,
+          2626,
+          2726
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR01-GOECOR/IMO 'Implementación de la ODPE', versión 17",
+        "establece": "Precisa las actividades para la implementación de la sede de la ODPE, desde la consolidación de la propuesta del local hasta el inicio de actividades",
+        "fecha": null,
+        "fuente_ids": [
+          1951
+        ]
+      },
+      {
+        "codigo": "Formato FM10-GAD/FIN 'Acta de Recepción/Entrega de Bien Inmueble', versión 02",
+        "establece": "Formato institucional para dejar constancia del estado del inmueble al recibirlo y al devolverlo",
+        "fecha": null,
+        "fuente_ids": [
+          1434,
+          1445,
+          2209
+        ]
+      },
+      {
+        "codigo": "Norma Técnica E.040 Vidrio del Reglamento Nacional de Edificaciones (RNE)",
+        "establece": "Las superficies acristaladas deben estar constituidas por vidrios de seguridad (laminados o templados) en áreas con riesgo de impacto",
+        "fecha": null,
+        "fuente_ids": [
+          2141,
+          2163
+        ]
+      },
+      {
+        "codigo": "Ley n.° 29973 — Ley General de la Persona con Discapacidad",
+        "establece": "Establece el derecho de accesibilidad de las personas con discapacidad al entorno físico y los servicios públicos, y las condiciones que deben cumplir las edificaciones públicas y privadas",
+        "fecha": "2012-12-13",
+        "fuente_ids": [
+          2867
+        ]
+      },
+      {
+        "codigo": "Norma Técnica A.120 'Accesibilidad Universal en Edificaciones' del RNE modificada por Resolución Ministerial n.° 072-2019-VIVIENDA",
+        "establece": "Establece condiciones de accesibilidad para personas con discapacidad, incluyendo anchos mínimos de vanos de puertas, circulaciones, zonas de espera con espacio para sillas de ruedas y dimensiones de servicios higiénicos",
+        "fecha": "2019-02-27",
+        "fuente_ids": [
+          2880
+        ]
+      },
+      {
+        "codigo": "Directiva n.° 0004-2021-EF/54.01 aprobada por Resolución Directoral n.° 0011-2021-EF/54.01",
+        "establece": "Establece criterios para la selección del local del almacén, su espacio físico y equipamiento mínimo",
+        "fecha": "2021-07-28",
+        "fuente_ids": [
+          3041
+        ]
+      },
+      {
+        "codigo": "Oficio n.° 000002-2026-CG/OC3599",
+        "establece": "Ampara la ejecución del presente servicio de control concurrente, recibido por mesa de parte virtual de la ONPE",
+        "fecha": "2026-01-26",
+        "fuente_ids": [
+          1852
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "informacion_general_odpe_arequipa",
+        "tipo": "C",
+        "label": "Información general de la ODPE Arequipa",
+        "valor": {
+          "categoria": "Operativa",
+          "nota": "La ODPE Arequipa opera en Calle Universidad 215, Urb. La Victoria, Cercado de Arequipa, con presupuesto analítico asignado de S/ 3'488,830.71 y con personal directivo designado"
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1924,
+          1925,
+          1418,
+          1419,
+          1420,
+          1421,
+          1422,
+          1423,
+          1424,
+          1425,
+          1938
+        ],
+        "fragmento_evidencia": "Cuadro n.° 2 Información General de la ODPE Arequipa — Departamento: Arequipa — Dirección: Calle Universidad 215, Urb. La Victoria, Cercado de Arequipa — Jefe de ODPE: Marina Victoria / Coordinador administrativo: Nancy Elena Reyes Marchena / Ruffren Villegas — Presupuesto Analítico (S/): 3'488,830.71",
+        "justificacion": "El cuadro n.° 2 agrupa de forma estructurada y homogénea todos los datos identificadores y operativos de la ODPE en este momento de control. Son datos de estado que describen la condición organizativa y presupuestal de la instancia en el hito evaluado.",
+        "ambiguedad": "Los nombres 'Marina Victoria' y 'Nancy Elena Reyes Marchena / Ruffren Villegas' aparecen distribuidos en celdas adyacentes; se interpreta que Marina Victoria Reyes Marchena es la Jefa de ODPE y Nancy Elena Ruffren Villegas es la Coordinadora Administrativa, conforme al orden de columnas del cuadro y la confirmación del oficio de notificación [3147]."
+      },
+      {
+        "id": "situaciones_adversas_hito_1",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas en el Hito de Control N° 1",
+        "valor": {
+          "texto": "Se identificaron 6 situaciones adversas que afectan o podrían afectar la continuidad del proceso electoral EG 2026",
+          "estado": "Abierto — sin reporte de avance de la entidad al momento de emisión del informe"
+        },
+        "detalle": [
+          {
+            "texto": "El Acta de Recepción/Entrega de bien inmueble de 29 de diciembre de 2025 indica que los pisos son de cerámico, pero la verificación física constató que los pisos del 1°, 2° y 5° piso son de cemento pulido. El acta señala que las puertas están en buen estado, pero el área de conservación de cédulas del 1° piso carece de puerta (solo tiene cortina plástica). Las mamparas del 2° piso no cumplen la Norma Técnica E.040 (sin vidrio templado ni laminado). Consecuencia: podría generar conflictos con el propietario y disputas contractuales al momento de la devolución del local.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              1955,
+              1956,
+              1957,
+              1962,
+              1963,
+              1964,
+              1965,
+              1971,
+              2089,
+              2090,
+              2091,
+              2094,
+              2141,
+              2157,
+              2215,
+              2216
+            ]
+          },
+          {
+            "texto": "Al 26 y 30 de enero de 2026, la implementación de los ambientes se encontraba en proceso: trabajos del servicio SHALI en instalación de red de datos, red eléctrica y cámaras de videovigilancia. Falta tabiquería en pisos 1, 2 y 5. El 1° piso tiene desmonte y herramientas en el almacén de cédulas; el 2° piso tiene baños sin vidrios y sin privacidad; el 5° piso tiene el Centro de Cómputo con calaminón en instalación. El plazo máximo del POE para gestionar la implementación de áreas era el 17 de enero de 2026. Consecuencia: podría afectar el desarrollo de actividades y/o la salud de las personas que participan en la organización de las EG 2026.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              2217,
+              2218,
+              2219,
+              2220,
+              2225,
+              2226,
+              2286,
+              2287,
+              2323,
+              2346,
+              2374,
+              2376,
+              2448,
+              2449,
+              2506,
+              2507
+            ]
+          },
+          {
+            "texto": "Al 26 de enero de 2026, no se habían contratado los servicios de alquiler de mobiliario, equipamiento e impresoras. Al 30 de enero, la adquisición de mobiliario aún estaba en proceso de contratación. La ODPE opera con mobiliario prestado por la ORC Arequipa (escritorios, mesas, sillas y libreros). El plazo del POE para habilitación de ODPE era el 29 de enero de 2026. Consecuencia: podría limitar las actividades y los servicios de la ODPE Arequipa en la organización del proceso electoral.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              2508,
+              2509,
+              2510,
+              2511,
+              2530,
+              2541,
+              2542,
+              2543,
+              2605,
+              2606,
+              2633,
+              2635
+            ]
+          },
+          {
+            "texto": "Al 26 y 30 de enero de 2026, las áreas de almacén del 1° piso y otros ambientes no cuentan con señalización (carteles o rótulos identificativos). Los rótulos existen pero no han sido colocados porque los trabajos de pintura y conexión de sedes aún están pendientes. Consecuencia: podría limitar la identificación de las áreas por personal externo a la ODPE.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              2639,
+              2642,
+              2644,
+              2655,
+              2666,
+              2677,
+              2690,
+              2706,
+              2709,
+              2761,
+              2762
+            ]
+          },
+          {
+            "texto": "El baño del 1° piso tiene ancho de 78 cm (insuficiente para sillas de ruedas; la norma exige diámetro de giro de 1.50 m). No se ha habilitado ni señalizado espacio reservado para sillas de ruedas en la zona de espera (0.90 m × 1.20 m requerido). No hay señalización de accesibilidad. El área de atención al público en el 1° piso aún no está habilitada. Consecuencia: afecta el derecho de accesibilidad de personas con discapacidad que asisten a la ODPE para acceder a servicios públicos en el marco de las EG 2026.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              2763,
+              2764,
+              2765,
+              2766,
+              2767,
+              2791,
+              2793,
+              2802,
+              2840,
+              2846,
+              2919,
+              2920
+            ]
+          },
+          {
+            "texto": "El área de conservación de cédulas (1° piso) no tiene puerta instalada (solo cortina plástica), pese a que el plano proyectado contempla marcador biométrico y cámara de seguridad. Existe una ventana corrediza de vidrio entre el área de cédulas y el área de ordenamiento de material que no asegura protección del ambiente. Hay un tragaluz/abertura que conecta desde el 3° y 4° piso directamente al almacén de actas del 1° piso, sin protección ante lluvia, en plena temporada de lluvias según SENAMHI. Consecuencia: genera riesgo en la seguridad de la información que será conservada en el almacén de la ODPE Arequipa.",
+            "estado": "Abierto",
+            "desde_momento": null,
+            "fuente_ids": [
+              2921,
+              2922,
+              2924,
+              2928,
+              2977,
+              2997,
+              3026,
+              3049,
+              3050
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1953,
+          1954,
+          3060,
+          3064
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han identificado seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso electoral Elecciones Generales 2026",
+        "justificacion": "Las seis situaciones adversas comparten exactamente la misma estructura semántica (condición / criterio / consecuencia), provienen de la misma sección del informe, responden a la misma pregunta conceptual (¿qué condiciones adversas se detectaron en el hito?) y son el núcleo de seguimiento del control concurrente: en hitos posteriores se verificará si fueron resueltas o persisten.",
+        "ambiguedad": null
+      },
+      {
+        "id": "avance_tareas_poe_hito_1",
+        "tipo": "B",
+        "label": "Avance de tareas operativas del POE para la ODPE Arequipa en el Hito N° 1",
+        "valor": {
+          "observado": null,
+          "meta": null,
+          "estimado": null,
+          "unidad": "tareas del POE"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Tarea 2.2.1.1 — Supervisar y/o verificar la habilitación informática y acondicionamiento logístico del área administrativa de las ODPE (Inicio: 05/01/2026 — Fin: 29/01/2026 — Meta física anual: 126 ODPE)",
+            "previsto": 126,
+            "real": null,
+            "fuente_ids": [
+              1345,
+              1346,
+              1347
+            ]
+          },
+          {
+            "subgrupo": "Tarea 2.2.1.2 — Supervisar el acondicionamiento y logística informática de los centros de cómputo y centros de cómputo de contingencia (Inicio: 05/01/2026 — Fin: 10/03/2026 — Meta física anual: 126 ODPE)",
+            "previsto": 126,
+            "real": null,
+            "fuente_ids": [
+              1359,
+              1360,
+              1361
+            ]
+          },
+          {
+            "subgrupo": "Tarea 2.2.1.3 — Gestionar la implementación de las áreas de la sede ODPE (Inicio: 05/01/2026 — Fin: 17/01/2026 — Meta física: 1) — Estado: Incumplida al 26 y 30 de enero de 2026",
+            "previsto": 1,
+            "real": 0,
+            "fuente_ids": [
+              1363,
+              1364,
+              1365
+            ]
+          },
+          {
+            "subgrupo": "Tarea 2.2.1.4 — Efectuar el inicio de actividades y ceremonia de instalación de la sede ODPE (Inicio: 20/01/2026 — Fin: 29/01/2026 — Meta física: 1)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              1366,
+              1367
+            ]
+          },
+          {
+            "subgrupo": "Tarea 2.9.4.1 — Entregar documentación y/o bienes del JODPE y CAODPE para conformidades (Inicio: 10/05/2026 — Fin: 20/05/2026 — Meta física: 1)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              1371,
+              1372,
+              1373
+            ]
+          },
+          {
+            "subgrupo": "Tarea 3.1.1.4 — Seleccionar y contratar bajo modalidad de locación de servicios en la ODPE (Inicio: 05/01/2026 — Fin: 05/04/2026 — Meta física: 1)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              1376,
+              1377,
+              1378
+            ]
+          },
+          {
+            "subgrupo": "Tarea 3.1.1.6 — Preparar la planilla y realizar el pago de retribuciones a locadores de servicios en la ODPE (Inicio: 13/01/2026 — Fin: 20/05/2026 — Meta física: 11)",
+            "previsto": 11,
+            "real": null,
+            "fuente_ids": [
+              1385,
+              1386,
+              1387
+            ]
+          },
+          {
+            "subgrupo": "Tarea 3.1.1.10 — Seleccionar y contratar a los Coordinadores de Local de Votación de la ODPE (Inicio: 01/02/2026 — Fin: 31/03/2026 — Meta física: 2)",
+            "previsto": 2,
+            "real": null,
+            "fuente_ids": [
+              1388,
+              1389,
+              1390
+            ]
+          },
+          {
+            "subgrupo": "Tarea 3.6.1.10 — Efectuar la ejecución de gastos y presentar rendiciones de cuenta (Inicio: 20/01/2026 — Fin: 20/05/2026 — Meta física: 1)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              1396,
+              1397,
+              1398
+            ]
+          },
+          {
+            "subgrupo": "Tarea 3.6.2.8 — Gestionar y contratar bienes y servicios menor o igual a 8 UIT (Inicio: 20/01/2026 — Fin: 20/05/2026 — Meta física: 1)",
+            "previsto": 1,
+            "real": null,
+            "fuente_ids": [
+              1414,
+              1415,
+              1416
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1867,
+          1330,
+          1331,
+          1332,
+          1333,
+          1334,
+          1335,
+          1336,
+          1337,
+          1338,
+          1339,
+          1340,
+          1341,
+          1342,
+          1343,
+          1344,
+          1345,
+          1346,
+          1347,
+          1349,
+          1350,
+          1351,
+          1352,
+          1353,
+          1354,
+          1355,
+          1356,
+          1357,
+          1358,
+          1359,
+          1360,
+          1361,
+          1362,
+          1363,
+          1364,
+          1365,
+          1366,
+          1367,
+          1368,
+          1369,
+          1370,
+          1371,
+          1372,
+          1373,
+          1374,
+          1375,
+          1376,
+          1377,
+          1378,
+          1379,
+          1380,
+          1381,
+          1382,
+          1383,
+          1384,
+          1385,
+          1386,
+          1387,
+          1388,
+          1389,
+          1390,
+          1391,
+          1392,
+          1393,
+          1394,
+          1395,
+          1396,
+          1397,
+          1398,
+          1401,
+          1402,
+          1403,
+          1404,
+          1405,
+          1406,
+          1407,
+          1408,
+          1409,
+          1410,
+          1411,
+          1412,
+          1413,
+          1414,
+          1415,
+          1416,
+          1907,
+          1908
+        ],
+        "fragmento_evidencia": "Cuadro n.°1 Actividades Operativas según el POE Vs 03 — 2.2.1.3 Gestionar la implementación de las áreas de la sede ODPE. 05/01/26 17/01/26 — 2.2.1.4 Efectuar el inicio de actividades y ceremonia de instalación de la sede ODPE. 20/01/26 29/01/26",
+        "justificacion": "Estos datos son de progreso: muestran la programación (meta y plazo) vs. el avance observado durante el hito. Los items son homogéneos (misma tabla POE, misma estructura). El estado de incumplimiento se infiere del cruce entre la fecha fin programada y las condiciones adversas verificadas en el mismo informe.",
+        "ambiguedad": "El documento no proporciona un porcentaje de avance cuantitativo por tarea; el estado de incumplimiento se deduce del cruce entre la fecha fin programada y las situaciones adversas verificadas. Solo las tareas con fecha fin dentro o anterior al período del hito (hasta 30/01/2026) son evaluables en este momento."
+      },
+      {
+        "id": "actores_comision_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control a cargo del servicio",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Dohry Karol Luque Escobedo",
+            "rol": "Supervisor de la Comisión de Control",
+            "fuente_ids": [
+              3079,
+              3085
+            ]
+          },
+          {
+            "nombre": "César José Martín Lema Soncco",
+            "rol": "Jefe de Comisión de la Comisión de Control",
+            "fuente_ids": [
+              3086,
+              1793
+            ]
+          },
+          {
+            "nombre": "Alejandra Elizabeth Huamán Hidalgo",
+            "rol": "Gerente Regional de Control (e) — Gerencia Regional de Control Arequipa",
+            "fuente_ids": [
+              3089,
+              3160
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3079,
+          3083,
+          3085,
+          3086,
+          3088,
+          3089,
+          3160
+        ],
+        "fragmento_evidencia": "Dohry Karol Luque Escobedo Supervisor Comisión de Control — César José Martín Lema Soncco Jefe de Comisión Comisión de Control — Alejandra Elizabeth Huamán Hidalgo Gerente Regional de Control (e) Gerencia Regional de Control Arequipa",
+        "justificacion": "Estos actores tienen roles distintos y claramente diferenciados dentro del proceso de control. Son datos relacionales que identifican quiénes ejecutaron el control y en qué capacidad, lo cual es relevante para el seguimiento entre momentos.",
+        "ambiguedad": null
+      },
+      {
+        "id": "actores_odpe_arequipa",
+        "tipo": "D",
+        "label": "Actores de la ODPE Arequipa responsables del proceso controlado",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marina Victoria Reyes Marchena",
+            "rol": "Jefa de ODPE Arequipa",
+            "fuente_ids": [
+              1420,
+              1424,
+              3147
+            ]
+          },
+          {
+            "nombre": "Nancy Elena Ruffren Villegas",
+            "rol": "Coordinadora Administrativa de ODPE Arequipa",
+            "fuente_ids": [
+              1420,
+              1424
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1420,
+          1424,
+          1925,
+          3147
+        ],
+        "fragmento_evidencia": "Jefe de ODPE: Marina Victoria / Coordinador administrativo: Nancy Elena Reyes Marchena / Ruffren Villegas",
+        "justificacion": "Son actores institucionales de la entidad controlada, con roles específicos y distintos. Se separan de la variable de Comisión de Control porque pertenecen a la entidad controlada y su sección de origen es el Cuadro n.° 2.",
+        "ambiguedad": "La distribución de nombres en celdas del cuadro es ambigua; se interpreta a partir del orden lógico de columnas (Jefe / Coordinador Administrativo) y confirmación por el Oficio de notificación [3147] que dirige el informe a 'Marina Victoria Milagros Reyes Marchena' como Jefa de la ODPE."
+      },
+      {
+        "id": "actores_institucionales_onpe",
+        "tipo": "D",
+        "label": "Actores institucionales de la ONPE involucrados en el proceso",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Piero Alessandro Corvetto Salinas",
+            "rol": "Jefe Nacional de la ONPE (destinatario de las recomendaciones)",
+            "fuente_ids": [
+              3199,
+              3075
+            ]
+          },
+          {
+            "nombre": "Maria Bertilda Idrogo Diaz",
+            "rol": "Jefe del Órgano de Control Institucional (OCI) de la ONPE",
+            "fuente_ids": [
+              3218,
+              3232
+            ]
+          },
+          {
+            "nombre": "Ramona Karent Asca Balaguer",
+            "rol": "Subgerente de Operaciones Electorales (firma los planos de distribución de ambientes)",
+            "fuente_ids": [
+              2235
+            ]
+          },
+          {
+            "nombre": "Henry Josué Orna Robladillo",
+            "rol": "Subgerente de Organización y Ejecución Electoral (cofirma los planos de distribución de ambientes)",
+            "fuente_ids": [
+              2235
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3075,
+          3199,
+          3218,
+          3232,
+          2235
+        ],
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe / Piero Alessandro Corvetto Salinas Jefe Nacional Oficina Nacional de Procesos Electorales - Onpe / Maria Bertilda Idrogo Diaz Jefe del Órgano de Control Institucional de la Oficina Nacional De Procesos Electorales - Onpe",
+        "justificacion": "Son actores con roles diferenciados en el proceso y distintos a los de la ODPE y la Comisión de Control. Pertenecen a la sede central de la ONPE y tienen roles normativos, directivos o de control institucional distintos.",
+        "ambiguedad": null
+      },
+      {
+        "id": "notificacion_informe_odpe_onpe",
+        "tipo": "F",
+        "label": "Estado de notificación del informe a la ODPE y a la ONPE",
+        "valor": {
+          "booleano": true,
+          "evidencia": "El informe fue notificado formalmente tanto a la Jefa de ODPE Arequipa como al Jefe Nacional de la ONPE el 5 de febrero de 2026, mediante oficios con constancias electrónicas de depósito"
+        },
+        "detalle": [
+          {
+            "criterio": "Notificación a la Jefa de ODPE Arequipa mediante Oficio N° 000144-2026-CG/GRAR",
+            "cumple": true,
+            "fuente_ids": [
+              3146,
+              3147,
+              3160,
+              3183
+            ]
+          },
+          {
+            "criterio": "Notificación al Jefe Nacional de ONPE mediante Oficio N° 000023-2026-CG/OC3599 con Cédula de Notificación Electrónica N° 00000008-2026-CG/3599",
+            "cumple": true,
+            "fuente_ids": [
+              3197,
+              3228,
+              3246,
+              3284
+            ]
+          },
+          {
+            "criterio": "Plazo de respuesta de 5 días hábiles comunicado a la entidad",
+            "cumple": true,
+            "fuente_ids": [
+              3076,
+              3157,
+              3208
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3146,
+          3147,
+          3151,
+          3155,
+          3156,
+          3160,
+          3161,
+          3183,
+          3197,
+          3228,
+          3229,
+          3230,
+          3238,
+          3243,
+          3268,
+          3269,
+          3280,
+          3282
+        ],
+        "fragmento_evidencia": "Estado: EMITIDO / OFICIO N° 000144-2026-CG/GRAR — Asunto: Notificación de Informe de Hito de Control n.° 141-2026-CG/GRAR-SCC / Se ha realizado la notificación con el depósito de los siguientes documentos en la CASILLA ELECTRÓNICA N° 20291973851",
+        "justificacion": "El documento incluye los oficios de notificación y las constancias electrónicas que confirman que el informe fue efectivamente comunicado a los destinatarios institucionales. Es una condición booleana respaldada por evidencia documental explícita.",
+        "ambiguedad": "El listado de adjuntos en algunos documentos indica 'HITO 1 - ODPE AREQUIPA[E]' y en otros '[F]'; la letra entre corchetes parece referir al estado del documento adjunto en el sistema. No afecta la interpretación de la notificación como efectivamente realizada."
+      },
+      {
+        "id": "conclusion_hito_1",
+        "tipo": "E",
+        "label": "Conclusión general del Hito de Control N° 1",
+        "valor": {
+          "titulo": "Conclusión del Hito de Control N° 1 'Acondicionamiento del local de la ODPE'",
+          "cuerpo": "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han advertido seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones Generales - EG 2026, las cuales han sido detalladas en el presente informe."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3060,
+          3064
+        ],
+        "fragmento_evidencia": "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', se han advertido seis (6) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones Generales- EG 2026, las cuales han sido detalladas en el presente informe.",
+        "justificacion": "La sección VIII del informe constituye un texto estructurado con título y contenido que sintetiza el resultado del hito. Es información narrativa que se producirá en cada momento sucesivo y cuya evolución entre hitos es relevante para el seguimiento del proceso.",
+        "ambiguedad": null
+      },
+      {
+        "id": "recomendaciones_hito_1",
+        "tipo": "E",
+        "label": "Recomendaciones emitidas al término del Hito de Control N° 1",
+        "valor": {
+          "titulo": "Recomendaciones del Hito de Control N° 1",
+          "cuerpo": "(1) Hacer de conocimiento al Jefe Nacional de la ONPE el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente, con la finalidad que se adopten las acciones preventivas y correctivas que correspondan, en el marco de sus competencias y obligaciones en la gestión institucional, con el objeto de asegurar la continuidad del proceso, el resultado o el logro de los objetivos de las Elecciones Generales - EG 2026. (2) Hacer de conocimiento al Jefe Nacional de la ONPE que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar respecto a las situaciones adversas contenidas en el presente informe, adjuntando la documentación de sustento respectiva."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          3074,
+          3075,
+          3076
+        ],
+        "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 'Acondicionamiento del local de la ODPE', con la finalidad que se adopten las acciones preventivas y correctivas que correspondan... Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, que debe comunicar a la Comisión de Control, en el plazo de cinco (5) días hábiles, las acciones preventivas o correctivas adoptadas o por adoptar",
+        "justificacion": "Las recomendaciones constituyen un texto estructurado propio del momento de control que será relevante en hitos sucesivos para verificar si fueron atendidas. Se distingue de la variable de conclusión porque tiene propósito directivo diferente.",
+        "ambiguedad": null
+      },
+      {
+        "id": "reporte_avance_situaciones_adversas",
+        "tipo": "F",
+        "label": "Reporte de avance ante situaciones adversas",
+        "valor": {
+          "booleano": false,
+          "evidencia": "La sección VII del informe indica expresamente 'No aplica', lo que significa que al momento de emisión del informe (5 de febrero de 2026) no se había recibido ni registrado respuesta de la entidad ante las situaciones adversas identificadas"
+        },
+        "detalle": [
+          {
+            "criterio": "Existencia de reporte de avance ante situaciones adversas registrado en el informe",
+            "cumple": false,
+            "fuente_ids": [
+              3058,
+              3059
+            ]
+          }
+        ],
+        "fuente_ids": [
+          3058,
+          3059
+        ],
+        "fragmento_evidencia": "VII. INFORMACIÓN DEL REPORTE DE AVANCE ANTE SITUACIONES ADVERSAS — No aplica.",
+        "justificacion": "Es una condición booleana verificable: ¿existe reporte de avance ante situaciones adversas en este hito? La respuesta es negativa, lo cual es relevante para el seguimiento en hitos posteriores donde se esperará que la entidad haya reportado las acciones adoptadas.",
+        "ambiguedad": null
+      }
+    ]
+  }
+}

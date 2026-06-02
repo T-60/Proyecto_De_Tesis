@@ -1,0 +1,1061 @@
+{
+  "instancia": {
+    "id": "odpe_cerro_colorado",
+    "label": "ODPE Cerro Colorado",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Hito de Control N° 2 — Contratación del personal y desarrollo de actividades en la ODPE",
+    "filename": "Arequipa3.pdf",
+    "metadata": {
+      "identificador": "Informe de Hito de Control N° 399-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-05",
+      "periodo_inicio": "2026-02-23",
+      "periodo_fin": "2026-02-27",
+      "estado_notificacion": "Notificado electrónicamente al Jefe de ODPE Cerro Colorado mediante Oficio N° 000373-2026-CG/GRAR de 5 de marzo de 2026; y al Jefe Nacional de la ONPE (Piero Alessandro Corvetto Salinas) mediante Cédula de Notificación Electrónica N° 00000065-2026-CG/3599 vía Oficio N° 081-2026-CG/OC3599, con depósito en Casilla Electrónica N° 20291973851",
+      "fuente_ids": [
+        1063,
+        1073,
+        1098,
+        1066,
+        1075,
+        1100,
+        1067,
+        1116,
+        1069,
+        1342,
+        1595,
+        1603,
+        1636,
+        1752,
+        1765
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Ley N° 26487, artículo 24°",
+        "establece": "Las ODPE se conformarán para cada proceso electoral de acuerdo con las circunscripciones electorales y tipo de distrito electoral",
+        "fecha": null,
+        "fuente_ids": [
+          1122
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859 (LOE), artículos 39° y 49°",
+        "establece": "El artículo 39° establece que el Jefe Nacional de la ONPE determina la cantidad, ubicación y organización de las ODPE; el artículo 49° establece que el Jefe Nacional designa mediante concurso público a los Jefes y Coordinadores Administrativos de las ODPE",
+        "fecha": null,
+        "fuente_ids": [
+          1128,
+          1134
+        ]
+      },
+      {
+        "codigo": "ROF de la ONPE, artículos 116° y 104°",
+        "establece": "El artículo 116° establece que la Jefatura Nacional fija la cantidad, ubicación y organización de las ODPE; el artículo 104° define las funciones de la GOECOR incluyendo organizar, dirigir y monitorear el funcionamiento de las ODPE",
+        "fecha": null,
+        "fuente_ids": [
+          1128,
+          1187
+        ]
+      },
+      {
+        "codigo": "Ley N° 27785, artículo 8°",
+        "establece": "Regula el servicio de Control Simultáneo y la comunicación al titular de la entidad respecto de situaciones adversas",
+        "fecha": null,
+        "fuente_ids": [
+          1605
+        ]
+      },
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM 'Servicio de Control Simultáneo', aprobada por Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Marco normativo que regula el servicio de Control Concurrente y sus hitos de control",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1102,
+          1606
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprobó la conformación de 126 ODPE para dirigir, coordinar, organizar y ejecutar las acciones necesarias para el desarrollo de las Elecciones Generales 2026",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1133
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000165-2025-JN/ONPE",
+        "establece": "Dispuso la publicación de la relación de postulantes titulares y accesitarios que aprobaron el proceso de selección para cubrir vacantes de Jefes y Coordinadores Administrativos de ODPE para las EG 2026",
+        "fecha": "2025-10-16",
+        "fuente_ids": [
+          1135
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000175-2025-JN/ONPE",
+        "establece": "Designó a los Jefes y Coordinadores Administrativos titulares y accesitarios de ODPE para las EG 2026, incluyendo el Jefe de la ODPE Cerro Colorado",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          1136
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE — Plan Operativo Electoral (POE) Versión 03",
+        "establece": "Aprobó el Plan Operativo Electoral para las Elecciones Generales 2026 (Versión 03), que establece el marco legal, electoral, estratégico, indicadores y actividades operativas de cumplimiento obligatorio para cada unidad orgánica de la ONPE, incluyendo las tareas de contratación de personal ODPE",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1137,
+          1156,
+          1175
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000014-2026-GOECOR-EG2026/ONPE",
+        "establece": "Reformuló la Matriz de personal en el marco de las EG 2026 según Ficha Técnica versión 04; adjuntó cronograma de contratación de personal ODPE, la matriz de personal y los perfiles de cargos ocupacionales",
+        "fecha": "2026-01-23",
+        "fuente_ids": [
+          1176,
+          1180
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000043-2026-GOECOR-EG-2026/ONPE",
+        "establece": "Reformuló la matriz de personal según Ficha Técnica versión 05",
+        "fecha": "2026-02-13",
+        "fuente_ids": [
+          1181
+        ]
+      },
+      {
+        "codigo": "Memorando Múltiple N° 000045-2026-GOECOR-EG-2026/ONPE",
+        "establece": "Actualizó la matriz de personal respecto de la contratación del cargo ocupacional Capacitador Convencional/STAE/CCPP",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          1181,
+          1235
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR15-GRH/RRHH 'Selección y Contratación Descentralizada bajo la modalidad de Locación de Servicios (ODPE, ORC o Punto Focal)', versión 12",
+        "establece": "Establece el proceso de selección y contratación descentralizada del personal para las ODPE, incluyendo la verificación de requisitos del perfil (sección 6.3)",
+        "fecha": null,
+        "fuente_ids": [
+          1189,
+          1310,
+          1311,
+          1312
+        ]
+      },
+      {
+        "codigo": "Procedimiento PR07-GRH/RRHH 'Selección y Contratación Centralizada bajo la modalidad de Locación de Servicios', versión 12",
+        "establece": "Regula la contratación centralizada de locadores",
+        "fecha": null,
+        "fuente_ids": [
+          1189
+        ]
+      },
+      {
+        "codigo": "Ley N° 31419, artículo 3° literal c) y su Reglamento artículo 3° literal e); e Informe Técnico N° 002204-2025-SERVIR-GPGSC de SERVIR",
+        "establece": "Define 'experiencia laboral general' como el tiempo laborado desde el egreso de formación universitaria o técnica completa, bajo cualquier régimen, incluyendo prácticas",
+        "fecha": "2025-10-31",
+        "fuente_ids": [
+          1270,
+          1274,
+          1275,
+          1276,
+          1277,
+          1278,
+          1279,
+          1280
+        ]
+      },
+      {
+        "codigo": "Ley N° 31060, artículos 4° y 5°",
+        "establece": "Establece el alcance y requisitos para el ejercicio profesional del Licenciado en Administración",
+        "fecha": null,
+        "fuente_ids": [
+          1305
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "avance_contratacion_personal_grupo_ocupacional",
+        "tipo": "B",
+        "label": "Avance en la contratación de personal por grupo ocupacional",
+        "valor": {
+          "observado": 65,
+          "meta": 201,
+          "estimado": null,
+          "unidad": "personas contratadas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Auxiliar Técnico Diurno ODPE",
+            "previsto": 1,
+            "real": 0,
+            "fuente_ids": [
+              765,
+              766,
+              767,
+              768
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Técnico Nocturno ODPE",
+            "previsto": null,
+            "real": 0,
+            "fuente_ids": [
+              767,
+              768
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Oficina T1",
+            "previsto": 1,
+            "real": 1,
+            "fuente_ids": [
+              769,
+              770,
+              771
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Administrativo T1",
+            "previsto": 4,
+            "real": 4,
+            "fuente_ids": [
+              772,
+              773,
+              774
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Operaciones",
+            "previsto": 1,
+            "real": 1,
+            "fuente_ids": [
+              775,
+              776,
+              777
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Operaciones T1",
+            "previsto": 5,
+            "real": 5,
+            "fuente_ids": [
+              778,
+              779,
+              780
+            ]
+          },
+          {
+            "subgrupo": "Coordinador Distrital",
+            "previsto": 18,
+            "real": 18,
+            "fuente_ids": [
+              781,
+              782,
+              783
+            ]
+          },
+          {
+            "subgrupo": "Coordinador Distrital STAE",
+            "previsto": null,
+            "real": 0,
+            "fuente_ids": [
+              784,
+              785
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Centro Poblado",
+            "previsto": 1,
+            "real": 1,
+            "fuente_ids": [
+              786,
+              787,
+              788
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Oficina T2",
+            "previsto": 4,
+            "real": 4,
+            "fuente_ids": [
+              789,
+              790,
+              791
+            ]
+          },
+          {
+            "subgrupo": "Asistente de Finanzas",
+            "previsto": 1,
+            "real": 1,
+            "fuente_ids": [
+              793,
+              794,
+              795
+            ]
+          },
+          {
+            "subgrupo": "Asistente Legal",
+            "previsto": 1,
+            "real": 1,
+            "fuente_ids": [
+              796,
+              797,
+              798
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Técnico Diurno Distrital STAE",
+            "previsto": null,
+            "real": 0,
+            "fuente_ids": [
+              808,
+              809
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar Técnico Nocturno Distrital STAE",
+            "previsto": null,
+            "real": 0,
+            "fuente_ids": [
+              811,
+              812
+            ]
+          },
+          {
+            "subgrupo": "Capacitadores Convencional/STAE/CCPP",
+            "previsto": 17,
+            "real": 17,
+            "fuente_ids": [
+              814,
+              815,
+              816,
+              817
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Recursos Humanos T1",
+            "previsto": 4,
+            "real": 4,
+            "fuente_ids": [
+              818,
+              819,
+              820
+            ]
+          },
+          {
+            "subgrupo": "Auxiliar de Recursos Humanos T2",
+            "previsto": 4,
+            "real": 4,
+            "fuente_ids": [
+              821,
+              822,
+              823
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Local de Votación",
+            "previsto": 138,
+            "real": 0,
+            "fuente_ids": [
+              825,
+              826,
+              827,
+              828
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1198,
+          1202,
+          1185,
+          1215,
+          1447,
+          693,
+          694,
+          695,
+          696,
+          759,
+          760,
+          761,
+          762,
+          763,
+          764,
+          765,
+          766,
+          767,
+          768,
+          769,
+          770,
+          771,
+          772,
+          773,
+          774,
+          775,
+          776,
+          777,
+          778,
+          779,
+          780,
+          781,
+          782,
+          783,
+          784,
+          785,
+          786,
+          787,
+          788,
+          789,
+          790,
+          791,
+          793,
+          794,
+          795,
+          796,
+          797,
+          798,
+          808,
+          809,
+          811,
+          812,
+          814,
+          815,
+          816,
+          817,
+          818,
+          819,
+          820,
+          821,
+          822,
+          823,
+          825,
+          826,
+          827,
+          828
+        ],
+        "fragmento_evidencia": "del total de personal previsto para contratación, actualmente se cuenta con 65 personas que han suscrito contrato y vienen desempeñando funciones respecto a sus términos de referencia. Dicho personal se encuentra distribuido en diversos cargos y ocupaciones / Coordinador de local de votación: 138 / 0 — A LA FECHA NO Se CONTRATO",
+        "justificacion": "Esta variable reúne la progresión de contratación hacia la meta total de la matriz de personal. El Cuadro N°3 del informe y el Formato I del Apéndice son homogéneos (misma estructura: grupo ocupacional / previsto / contratado / diferencia) y responden a la misma pregunta: ¿cuánto del personal previsto ha sido contratado a la fecha del hito?",
+        "ambiguedad": "El Cuadro N°3 menciona '19°' para Capacitadores (frente a 17 en la matriz), lo que parece ser una nota de actualización posterior a la Ficha Técnica V05. El dato del Auxiliar Logístico T1 no tiene valores claramente legibles en el Formato I."
+      },
+      {
+        "id": "situacion_adversa_discordancia_expediente_auxiliar_administrativo",
+        "tipo": "A",
+        "label": "Situación adversa identificada en el hito: discordancia en documentos del expediente de contratación de Auxiliar Administrativo T1",
+        "valor": {
+          "texto": "Uno de los cuatro locadores contratados para el cargo de Auxiliar Administrativo T1 presentó un Certificado de Trabajo que consigna el cargo de 'Administrador de Empresas', mientras que su CV declara haber desempeñado el cargo de 'Asistente/Auxiliar Administrativo' en la misma empresa y período. La discordancia no fue advertida por el Analista Descentralizado de Recursos Humanos III, quien validó el cumplimiento del requisito de experiencia general.",
+          "estado": "Abierta — identificada en este hito, comunicada al Jefe Nacional de la ONPE para adopción de acciones preventivas y correctivas en un plazo de 5 días hábiles"
+        },
+        "detalle": [
+          {
+            "texto": "De una muestra de 4 expedientes de contratación, 1 presenta discordancia entre el Certificado de Trabajo (cargo: 'Administrador de Empresas') y el CV (cargo: 'Asistente/Auxiliar Administrativo'), ambos para el mismo período y empresa (IEEP - Instituto de Especialización Empresarial Pacífico, enero 2019 a diciembre 2023). El locador obtuvo el grado de 'Bachiller en Administración de Empresas' el 26 de marzo de 2024, posterior al período laboral declarado.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              1228,
+              1229,
+              1234,
+              1241,
+              1269,
+              1284,
+              1291,
+              1296
+            ]
+          },
+          {
+            "texto": "Criterio normativo infringido: Procedimiento PR15-GRH/RRHH v.12 sección 6.3 exige verificar cumplimiento de requisitos del Formato FM32-GRH/RRHH. Los Términos de Referencia del cargo exigen 'experiencia general mínima de un (1) año en el sector público y/o privado en temas administrativos'. La Ley N°31060 artículos 4° y 5° establece requisitos para el ejercicio profesional del Licenciado en Administración.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              1303,
+              1305,
+              1310,
+              1311,
+              1312
+            ]
+          },
+          {
+            "texto": "Posición de la ODPE: El Jefe de la ODPE y el Analista de RRHH sostienen que la comisión incurre en una interpretación restrictiva, argumentando que los Términos de Referencia solicitan 'experiencia general en temas administrativos' y que según SERVIR la experiencia general contabiliza todo desempeño laboral lícito sin exigir título profesional; señalan que el certificado acreditaría funciones propias de un perfil administrativo.",
+            "estado": "En disputa técnica",
+            "desde_momento": null,
+            "fuente_ids": [
+              1492,
+              1493,
+              1494
+            ]
+          },
+          {
+            "texto": "Consecuencia identificada: Riesgo en el control de calidad de la selección de personal contratado y posible afectación a la adecuada organización del proceso electoral dentro de la jurisdicción de la ODPE Cerro Colorado.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              1313,
+              1314
+            ]
+          },
+          {
+            "texto": "Respuesta de la comisión en Formato II.B., pregunta 1.6 (¿Cuenta con experiencia general de un año?): Locador 1 = SI; Locador 2 = NO.",
+            "estado": "Verificado — NO para Locador 2",
+            "desde_momento": null,
+            "fuente_ids": [
+              883,
+              884
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1218,
+          1223,
+          1228,
+          1229,
+          1234,
+          1241,
+          1242,
+          1265,
+          1269,
+          1284,
+          1288,
+          1291,
+          1296,
+          1303,
+          1305,
+          1310,
+          1311,
+          1312,
+          1313,
+          1314,
+          1492,
+          1493,
+          1494,
+          883,
+          884
+        ],
+        "fragmento_evidencia": "uno (1) de los locadores contratados para el grupo ocupacional Auxiliar Administrativo T1 [...] para acreditar la experiencia general en temas administrativos, el locador contratado presentó el 'Certificado de trabajo' de 9 de febrero de 2024, de cuyo contenido se evidencia que se desempeñó en el cargo de 'Administrador de Empresas' / De la comparación efectuada entre el Certificado de Trabajo de 9 de febrero de 2024 y lo declarado en la 'Experiencia Laboral' del CV, respecto al cargo que desempeñó, se evidencia que los cargos consignados en ambos documentos no coinciden al existir una diferencia entre desempeñarse 'Administrador de Empresas' y 'Asistente/Auxiliar Administrativo'",
+        "justificacion": "Esta variable concentra toda la información de la situación adversa identificada en el presente hito: condición observada, criterio normativo, consecuencia potencial y posición de la ODPE. Es una variable de seguimiento porque tiene texto descriptivo, estado (abierta) y generará consecuencias a monitorear en hitos posteriores.",
+        "ambiguedad": "El nombre del locador afectado aparece parcialmente redactado en el documento (datos personales protegidos). La ODPE presenta una posición contraria a la interpretación de la comisión, lo que podría derivar en una discusión técnica sobre si efectivamente se incumple el requisito; este debate permanece abierto al cierre del informe."
+      },
+      {
+        "id": "situaciones_adversas_hito1_pendientes_subsanacion",
+        "tipo": "A",
+        "label": "Situaciones adversas del Hito N°1 pendientes de subsanación",
+        "valor": {
+          "texto": "Del Informe de Hito de Control N° 145-2026-CG/GRAR-SCC de 5 de febrero de 2026 (Hito N°1 'Acondicionamiento del local de la ODPE'), se identificaron 7 situaciones adversas, y al momento del presente hito (N°2), las 7 continúan subsistiendo sin que la entidad haya adoptado ni comunicado acciones preventivas o correctivas a la Comisión de Control.",
+          "estado": "Las 7 situaciones persisten abiertas — arrastradas desde el Hito N°1 sin resolución reportada"
+        },
+        "detalle": [
+          {
+            "texto": "Almacén electoral de la ODPE ubicado en un ambiente donde desfogan los ductos de ventilación de los servicios higiénicos, lo cual podría afectar las condiciones de trabajo y la salud de las personas usuarias.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1388
+            ]
+          },
+          {
+            "texto": "La ODPE Cerro Colorado no cuenta con tópicos ni ambiente de atención al público implementado, lo que pone en riesgo la salud de las personas ante la falta de atención primaria en caso de accidente, y no garantiza un servicio óptimo al público.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1389
+            ]
+          },
+          {
+            "texto": "La ODPE Cerro Colorado y/u otro arrendatario del inmueble comparten el suministro de agua potable mediante único medidor, generando el riesgo de pagar consumos que no le corresponden, afectando el uso de los recursos públicos.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1394
+            ]
+          },
+          {
+            "texto": "La ODPE Cerro Colorado no ha alquilado mobiliario, situación que podría limitar las actividades que desarrolla y los servicios que brinda en el marco de la organización de las Elecciones Generales 2026.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1397
+            ]
+          },
+          {
+            "texto": "El frontis de la ODPE Cerro Colorado no cuenta con línea gráfica del proceso electoral; las áreas administrativas y ambientes alquilados no están rotulados; el frontis no cuenta con el enlace web de acceso al libro de reclamaciones.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1401
+            ]
+          },
+          {
+            "texto": "El centro de cómputo no tiene control de ingreso y salida de equipos y visitantes, lo cual podría dificultar el acceso de los usuarios y limitar el alcance de sus servicios.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1405
+            ]
+          },
+          {
+            "texto": "Las instalaciones de la ODPE Cerro Colorado no reúnen las condiciones necesarias para la atención de personas con discapacidad, lo cual afectaría su derecho de accesibilidad a los servicios públicos en el marco de las Elecciones Generales 2026.",
+            "estado": "Subsiste sin resolución",
+            "desde_momento": "hito_1",
+            "fuente_ids": [
+              1408
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1383,
+          1384,
+          1385,
+          1386,
+          1387,
+          1388,
+          1389,
+          1394,
+          1397,
+          1401,
+          1405,
+          1408,
+          1326
+        ],
+        "fragmento_evidencia": "Informe de Hito de Control n.° 145-2026-CG/GRAR-SCC de 5 de febrero de 2026, correspondiente al Hito de Control n.° 1: 'Acondicionamiento del local de la ODPE'. Número de situaciones adversas identificadas: 7. Número de situaciones adversas que subsisten: 7 / Las situaciones adversas comunicadas en el Informe de Hito de Control anterior respecto de las cuales la entidad aún no ha adoptado las acciones preventivas y correctivas, o estas aún no han sido comunicadas a la Comisión de Control, se detallan en el Apéndice n.° 2",
+        "justificacion": "Esta variable recoge el seguimiento de las situaciones adversas del hito anterior. El documento las lista explícitamente como 'situaciones que subsisten' del Hito N°1, vinculando la evolución entre momentos sucesivos.",
+        "ambiguedad": "El documento no proporciona explicación de la ODPE sobre por qué no se han adoptado acciones; solo se indica que 'aún no han sido comunicadas a la Comisión de Control'."
+      },
+      {
+        "id": "emision_reporte_avance_situaciones_adversas",
+        "tipo": "F",
+        "label": "Emisión de Reporte de Avance ante Situaciones Adversas durante el hito",
+        "valor": {
+          "booleano": false,
+          "evidencia": "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no ha emitido Reporte de Avance ante Situaciones Adversas."
+        },
+        "detalle": [
+          {
+            "criterio": "Emisión de Reporte de Avance ante Situaciones Adversas durante la ejecución del Hito N°2",
+            "cumple": false,
+            "fuente_ids": [
+              1318,
+              1320,
+              1322
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1318,
+          1320,
+          1322
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente servicio del Control Concurrente, la Comisión de Control no ha emitido Reporte de Avance ante Situaciones Adversas.",
+        "justificacion": "El documento afirma explícitamente la no emisión de dicho reporte en la sección estructural del informe dedicada a ese propósito (Sección VII), lo que constituye una condición booleana verificable.",
+        "ambiguedad": null
+      },
+      {
+        "id": "verificacion_cumplimiento_contractual_auxiliar_administrativo_t1",
+        "tipo": "F",
+        "label": "Verificación del cumplimiento de actividades del personal contratado respecto de los términos contractuales (Auxiliar Administrativo T1, muestra de 2 locadores)",
+        "valor": {
+          "booleano": false,
+          "evidencia": "Para los dos locadores de la muestra revisada en el Formato II.B., el cumplimiento es mayoritariamente verificado (SI), con la excepción del requisito de experiencia general en temas administrativos del Locador 2 (respuesta: NO), que origina la situación adversa identificada en el hito."
+        },
+        "detalle": [
+          {
+            "criterio": "1.3 ¿Las actividades a desarrollar son las establecidas en el Memorando Múltiple N°000014-2026-GOECOR-EG-2026/ONPE? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              865,
+              866,
+              867
+            ]
+          },
+          {
+            "criterio": "1.4 ¿Los requisitos mínimos del perfil son los establecidos en el Memorando Múltiple N°000014-2026-GOECOR-EG-2026/ONPE? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              870,
+              871,
+              872
+            ]
+          },
+          {
+            "criterio": "1.5 ¿Cuenta con estudios universitarios o técnicos mínimo un ciclo aprobado? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              875,
+              876,
+              877,
+              878
+            ]
+          },
+          {
+            "criterio": "1.6 ¿Cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos? — Locador 1: SI / Locador 2: NO",
+            "cumple": false,
+            "fuente_ids": [
+              881,
+              882,
+              883,
+              884
+            ]
+          },
+          {
+            "criterio": "1.7 ¿Cuenta con capacitación acreditada sobre temas contables, administración, tributación y/o informática? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              886,
+              887,
+              888,
+              889
+            ]
+          },
+          {
+            "criterio": "1.8 ¿Cuenta con contrato vigente? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              899,
+              900,
+              901,
+              902
+            ]
+          },
+          {
+            "criterio": "1.9 ¿Se señala como órgano que otorgará la conformidad a la ODPE? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              905,
+              906,
+              907
+            ]
+          },
+          {
+            "criterio": "1.10 ¿Se encuentra visado y suscrito por el locador? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              910,
+              911,
+              912
+            ]
+          },
+          {
+            "criterio": "1.11 ¿Se encuentra visado y suscrito por el jefe por delegación (JODPE/CAODPE)? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              915,
+              916,
+              917
+            ]
+          },
+          {
+            "criterio": "1.12 ¿Presentó el informe de actividades realizadas correspondiente al mes de enero? — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              920,
+              921,
+              922,
+              923
+            ]
+          },
+          {
+            "criterio": "1.13 Actividad: Apoyar en la recepción, revisión y verificación de cuentas del personal — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              926,
+              927,
+              928,
+              929
+            ]
+          },
+          {
+            "criterio": "1.14 Actividad: Apoyar en la habilitación y pago de honorarios del personal de la ODPE — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              932,
+              933,
+              934
+            ]
+          },
+          {
+            "criterio": "1.15 Actividad: Apoyar en la recepción, clasificación, registro, distribución, archivo y rotulación de documentación administrativa — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              936,
+              938,
+              939
+            ]
+          },
+          {
+            "criterio": "1.16 Actividad: Apoyar en el ingreso de la información al SIGEA — Locador 1: SI / Locador 2: SI",
+            "cumple": true,
+            "fuente_ids": [
+              941,
+              942
+            ]
+          }
+        ],
+        "fuente_ids": [
+          847,
+          848,
+          849,
+          850,
+          851,
+          852,
+          853,
+          854,
+          855,
+          856,
+          857,
+          858,
+          859,
+          860,
+          861,
+          862,
+          863,
+          864,
+          865,
+          866,
+          867,
+          868,
+          869,
+          870,
+          871,
+          872,
+          873,
+          874,
+          875,
+          876,
+          877,
+          878,
+          879,
+          880,
+          881,
+          882,
+          883,
+          884,
+          885,
+          886,
+          887,
+          888,
+          889,
+          890,
+          891,
+          892,
+          893,
+          894,
+          895,
+          896,
+          897,
+          898,
+          899,
+          900,
+          901,
+          902,
+          903,
+          904,
+          905,
+          906,
+          907,
+          908,
+          909,
+          910,
+          911,
+          912,
+          913,
+          914,
+          915,
+          916,
+          917,
+          918,
+          919,
+          920,
+          921,
+          922,
+          923,
+          924,
+          925,
+          926,
+          927,
+          928,
+          929,
+          930,
+          931,
+          932,
+          933,
+          934,
+          935,
+          936,
+          937,
+          938,
+          939,
+          940,
+          941,
+          942,
+          1486,
+          1492
+        ],
+        "fragmento_evidencia": "II.B. CONTRATACIÓN DEL AUXILIAR ADMINISTRATIVO T1 [...] 1.6 ¿Cuenta con experiencia general de un (01) año en el sector público y/o privado en temas administrativos? SI / NO → [Locador 1] SI / [Locador 2] NO",
+        "justificacion": "Esta variable recoge la verificación sistemática del cumplimiento contractual realizada mediante el Formato II.B. Es una variable de verificación porque cada ítem responde con SI/NO respaldado por la revisión documental del expediente. El ítem 1.6 del Locador 2 es el único que arroja resultado negativo y constituye la evidencia de la situación adversa documentada.",
+        "ambiguedad": "El Locador 1 se identifica como Jenny Marleny Zuniga Salcedo y el Locador 2 como Alexander Santiago Fernandez Alvarado, aunque en la situación adversa el locador con discordancia es referenciado por su DNI (70915477) sin confirmación explícita del nombre asociado. Algunos ítems de las columnas del Locador 2 presentan ligera dificultad de lectura en el documento digitalizado."
+      },
+      {
+        "id": "actores_comision_control_y_odpe",
+        "tipo": "D",
+        "label": "Actores participantes en la comisión de control y en la ODPE",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Jackeline Fani Pelinco Quispe",
+            "rol": "Jefe de Comisión — Comisión de Control, Gerencia Regional de Control de Arequipa, Contraloría General de la República",
+            "fuente_ids": [
+              1350,
+              1434,
+              1503
+            ]
+          },
+          {
+            "nombre": "Marleni Mamani Cachi",
+            "rol": "Supervisora de la Comisión de Control, Gerencia Regional de Control de Arequipa, Contraloría General de la República",
+            "fuente_ids": [
+              1349,
+              1471,
+              1516
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control II, Gerencia Regional de Control de Arequipa, Contraloría General de la República — firma el informe y el oficio de notificación",
+            "fuente_ids": [
+              1353,
+              1612
+            ]
+          },
+          {
+            "nombre": "Armando Juan Echevarría Cárdenas",
+            "rol": "Jefe de ODPE Cerro Colorado",
+            "fuente_ids": [
+              1460,
+              1462,
+              690,
+              947
+            ]
+          },
+          {
+            "nombre": "Christian Champi Quispe",
+            "rol": "Analista Descentralizado de Recursos Humanos II/III de la ODPE Cerro Colorado",
+            "fuente_ids": [
+              1472,
+              949,
+              950,
+              1296
+            ]
+          },
+          {
+            "nombre": "María Bertilda Idrogo Díaz",
+            "rol": "Jefe de OCI de la Oficina Nacional de Procesos Electorales — ONPE, Órgano de Control Institucional (emisora de la cédula de notificación al Jefe Nacional)",
+            "fuente_ids": [
+              1652,
+              1756
+            ]
+          },
+          {
+            "nombre": "Piero Alessandro Corvetto Salinas",
+            "rol": "Jefe Nacional de la ONPE — destinatario de la notificación del informe",
+            "fuente_ids": [
+              1654,
+              1705
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1349,
+          1350,
+          1353,
+          1434,
+          1460,
+          1462,
+          1471,
+          1472,
+          1503,
+          1516,
+          1612,
+          1652,
+          1654,
+          690,
+          947,
+          949,
+          950,
+          1296,
+          1756,
+          1705
+        ],
+        "fragmento_evidencia": "Jackeline Fani Pelinco Quispe — Jefe de Comisión Comisión de Control / Marleni Mamani Cachi — Supervisor Comisión de Control / Marissa Chávez Chávez — Gerente Regional de Control II Gerencia Regional de Control de Arequipa / Armando Juan Echevarria Cardenas — Jefe de ODPE Cerro Colorado / Christian Champi Quispe — Analista Descentralizado de Recursos Humanos / MARIA BERTILDA IDROGO DIAZ - JEFE DE OCI - OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE / PIERO ALESSANDRO CORVETTO SALINAS como destinatario",
+        "justificacion": "Los actores tienen roles claramente diferenciados y aparecen en secciones distintas del documento (firmas del informe, acta de visita, oficio de notificación, cédula electrónica). Se agrupan en una sola variable relacional porque todos responden a la pregunta '¿quiénes participan en este hito y con qué rol?'.",
+        "ambiguedad": "El Analista de RRHH es designado como 'II' en algunos fragmentos y como 'III' en otros. Podría tratarse de una inconsistencia tipográfica del documento o de dos personas distintas; sin embargo, el nombre Christian Champi Quispe aparece consistentemente asociado a ese rol."
+      },
+      {
+        "id": "actividades_operativas_poe_contratacion_personal_odpe",
+        "tipo": "E",
+        "label": "Actividades operativas del POE programadas para el período de contratación de personal ODPE",
+        "valor": {
+          "titulo": "Tareas operativas del Plan Operativo Electoral (POE) versión 03 relacionadas con la contratación de personal ODPE para las Elecciones Generales 2026",
+          "cuerpo": "El POE (aprobado por Resolución Jefatural N°000204-2025-JN/ONPE de 31/12/2025) establece dentro del proceso 'III. Procesos de soporte / 3.1 Gestión de los recursos humanos / 3.1.1 Gestión de recursos humanos' las siguientes tareas operativas con sus períodos de ejecución y metas: Tarea 3.1.1.3: 'Invitar, seleccionar y contratar a los locadores de forma centralizada y descentralizada' — Período: 05/01/2026 al 31/05/2026 — Programación física mensual: 1 (enero), 1 (febrero), 1 (marzo), 1 (abril) — Meta física anual: 5 — Prioridad AO: 36. Tarea (sin número específico legible): 'Gestionar el pago de locadores centralizada y descentralizado' — Período: 05/01/2026 al 31/05/2026 — Meta: 5. Tarea 3.1.1.9: 'Monitorear la selección y contratación de los locadores en las ODPEs' — Período: 05/01/2026 al 31/05/2026 — Programación física mensual: 1 (enero), 1 (febrero), 1 (marzo), 1 (abril) — Meta física anual: 5. Asimismo, el Memorando Múltiple N°000014-2026-GOECOR-EG2026/ONPE de 23/01/2026 reformuló la Matriz de personal con cronograma de contratación, perfiles y cargos ocupacionales (Ficha Técnica v04); posteriormente actualizada por el Memorando Múltiple N°000043-2026 (v05, 13/02/2026) y N°000045-2026 (16/02/2026) para el cargo de Capacitador Convencional/STAE/CCPP."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1142,
+          1154,
+          1156,
+          1157,
+          1176,
+          1180,
+          1181,
+          645,
+          646,
+          647,
+          648,
+          649,
+          650,
+          651,
+          652,
+          653,
+          654,
+          655,
+          656,
+          657,
+          658,
+          659,
+          660,
+          661,
+          662,
+          663,
+          664,
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675,
+          676,
+          677,
+          678,
+          679,
+          680,
+          681,
+          682
+        ],
+        "fragmento_evidencia": "dentro del Plan Operativo Electoral se establecen tareas operativas a ser realizadas por las ODPE, como la de 'Seleccionar y contratar bajo la modalidad de locación de servicios en la ODPE' cuyo periodo de ejecución está comprendido del 05 de enero al 29 de abril; tal como se detalla en el siguiente cuadro / Cuadro n.°1 Actividades Operativas según el POE Vs 03",
+        "justificacion": "Esta variable recoge el marco de programación operativa específica de contratación de personal que sirve de referencia para evaluar el avance del hito. A diferencia del marco general, este cuadro es una métrica narrativa del momento porque describe el plan concreto de tareas con sus metas temporales que se están ejecutando durante el período evaluado.",
+        "ambiguedad": "Algunas celdas del Cuadro N°1 tienen valores numéricos que no están totalmente claros en la digitalización (por ejemplo, la columna MAYO y la columna Meta Física Anual). El número '36' para la prioridad AO de la Tarea 3.1.1.3 podría corresponder a otro campo."
+      }
+    ]
+  }
+}

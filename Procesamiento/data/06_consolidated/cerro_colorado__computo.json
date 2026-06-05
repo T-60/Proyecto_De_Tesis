@@ -1756,6 +1756,7 @@
         {
           "orden": 1,
           "doc": "Arequipa2",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta / Identificada",
           "estado": "Abierta",
           "texto": "El Centro de Cómputo de la ODPE Cerro Colorado no cuenta con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática establecidos en los TDR del SHALI. Se identificaron 13 documentos faltantes entre los cuales se incluyen actas de prueba de aislamiento, actas de entrega de instalaciones eléctricas, registro de horas del GE, actas de certificación de cableado, constancias de operatividad de equipos, entre otros. El plazo para la entrega venció el 4 de marzo de 2026.",
@@ -1776,6 +1777,7 @@
         {
           "orden": 2,
           "doc": "Arequipa19",
+          "hito_id": "hito_2",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
           "texto": "Centro de Cómputo de la ODPE Cerro Colorado no cuenta con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del Centro de Cómputo, establecidos en los Términos de Referencia del SHALI; situación que genera riesgo de afectar la operatividad del Centro de Cómputo durante el proceso electoral.",
@@ -1798,6 +1800,7 @@
         {
           "orden": 1,
           "doc": "Arequipa2",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta / Identificada",
           "estado": "Abierta",
           "texto": "El Centro de Cómputo presenta grupo electrógeno sin tubo de escape, sistema de aire acondicionado (tipo minisplit) encontrado en cajas en azotea sin haber sido instalado ni puesto en funcionamiento, y tomacorrientes sin tapas de plástico. El plazo para la culminación del componente de instalaciones eléctricas y acondicionamiento venció el 4 de marzo de 2026.",
@@ -1819,6 +1822,7 @@
         {
           "orden": 2,
           "doc": "Arequipa19",
+          "hito_id": "hito_2",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
           "texto": "Centro de Cómputo de la ODPE Cerro Colorado presenta grupo electrógeno sin tubo de escape, sistema de aire acondicionado en cajas sin instalar y tomacorrientes sin tapas; situaciones que generan riesgo de dispersión inadecuada de gases de combustión, elevación de temperatura, y comprometer la seguridad de los puntos eléctricos; y con ello afectar la operatividad del Centro de Cómputo durante el proceso electoral.",
@@ -1841,6 +1845,7 @@
         {
           "orden": 1,
           "doc": "Arequipa2",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta / Identificada",
           "estado": "Abierta",
           "texto": "El Centro de Cómputo presenta equipos informáticos sin instalar ni en operación, recibidos el 5 de marzo de 2026 a las 15:37 h mediante Guía de Remisión Electrónica N° EG07-00000906. Los equipos no instalados incluyen estación administrativa, laptops, servidores principal y de respaldo, equipos de digitalización, administración y reportes, digitación, observadores, impresora electoral, escáner electoral y switch 48 puertos. Solo se encontraban instalados monitores y cableado. El plazo del componente venció el 4 de marzo de 2026.",
@@ -1863,6 +1868,7 @@
         {
           "orden": 2,
           "doc": "Arequipa19",
+          "hito_id": "hito_2",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
           "texto": "Centro de Cómputo de la ODPE Cerro Colorado presenta equipos informáticos sin instalar ni en operación; situación que retrasaría la puesta en funcionamiento de los servicios informáticos del Centro de Cómputo durante el proceso electoral.",
@@ -1885,6 +1891,7 @@
         {
           "orden": 1,
           "doc": "Arequipa2",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta / Identificada",
           "estado": "Abierta",
           "texto": "El Centro de Cómputo no cuenta con servidores ni switches instalados; no hay conexión al rack ni a los puntos de red implementados. Los equipos fueron recibidos el 5 de marzo de 2026 a las 15:37 h mediante Guía de Remisión Electrónica N° EG07-00000906. El plazo del componente de dotación, clonación, configuración, despliegue e instalación de equipos venció el 4 de marzo de 2026.",
@@ -1913,6 +1920,7 @@
         {
           "orden": 2,
           "doc": "Arequipa19",
+          "hito_id": "hito_2",
           "estado_raw": "Abierta - identificada en este hito, sin reporte de acciones correctivas adoptadas al momento de emisión",
           "estado": "Abierta",
           "texto": "FALLA OPERATIVA DEL GRUPO ELECTRÓGENO DURANTE PRUEBAS DE CONTINGENCIA REALIZADAS EN EL SIMULACRO DEL SISTEMA DE CÓMPUTO DE LA ODPE, PODRÍA AFECTAR LA GESTIÓN Y OPERACIÓN DEL PROCESAMIENTO DE DOCUMENTOS ELECTORALES Y ENTREGA DE RESULTADOS DE LA JORNADA ELECTORAL EN LA JURISDICCIÓN DE LA ODPE. El 5 de abril de 2026, durante las pruebas de contingencia del simulacro, el grupo electrógeno presentó deficiencias de operatividad al no mantenerse activado de manera continua. Se realizaron cuatro (4) pruebas con apagones de 8, 12, 3 y 24 minutos. El Formato FM02-GOECOR/SCE no registró observaciones ni dejó constancia de la reprogramación de las pruebas de contingencia. Las pruebas fueron reprogramadas para el 7 de abril de 2026 a las 15:00 horas.",
@@ -1942,6 +1950,7 @@
         {
           "orden": 2,
           "doc": "Arequipa19",
+          "hito_id": "hito_2",
           "estado_raw": "Corregida",
           "estado": "Corregida",
           "texto": "Cuarta situación adversa identificada en el Hito de Control N° 1. Descripción no completamente visible en el documento.",

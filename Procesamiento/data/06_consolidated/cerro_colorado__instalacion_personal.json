@@ -2784,6 +2784,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-1: Almacén electoral con ductos de ventilación de servicios higiénicos desembocando en su interior y abertura sin protección contra lluvia en pasadizo colindante",
@@ -2805,6 +2806,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "Almacén electoral ubicado en ambiente donde desfogan ductos de ventilación de los servicios higiénicos, lo que podría afectar las condiciones de trabajo y la salud de las personas.",
@@ -2826,6 +2828,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-2: Ausencia de tópico de salud y ambiente de atención al público no implementado adecuadamente",
@@ -2843,6 +2846,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "La ODPE Cerro Colorado no cuenta con tópico ni ambiente de atención al público implementado, lo que podría poner en riesgo la salud de las personas ante la ausencia de atención primaria en caso de accidente y no garantiza un servicio óptimo al público.",
@@ -2856,6 +2860,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
           "texto": "Del Informe N° 145-2026-CG/GRAR-SCC — Situación N° 2: La ODPE Cerro Colorado no cuenta con tópicos ni ambiente de atención al público implementado. Acciones adoptadas: se indicó que disponen de un botiquín de primeros auxilios debidamente equipado con elementos básicos para brindar atención primaria",
@@ -2881,6 +2886,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-3: Suministro de agua potable compartido con arrendatario (tienda KAYENCORP) mediante único medidor, sin posibilidad de identificar consumo real de cada parte",
@@ -2900,6 +2906,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "La ODPE Cerro Colorado y/u otro arrendatario del inmueble comparten el suministro de agua potable mediante único medidor, generando el riesgo de pagar consumos que no le corresponden y afectando el uso de los recursos públicos.",
@@ -2921,6 +2928,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-4: Ausencia de contratación de alquiler de mobiliario y solo 6 de 36 equipos de cómputo instalados al 29 de enero de 2026, pese a que el plazo máximo de habilitación según el POE era esa fecha",
@@ -2947,6 +2955,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-5: Frontis sin línea gráfica del proceso electoral; croquis de distribución no concluido ni remitido a GOECOR; áreas de Capacitación, Cómputo y Almacén sin rótulos; tres ambientes del primer piso no alquilados sin identificar; ausencia de aviso de enlace al libro de reclamaciones virtual en frontis",
@@ -2973,6 +2982,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "El frontis de la ODPE no cuenta con línea gráfica del proceso electoral; las áreas administrativas y ambientes alquilados no están rotulados; el frontis no cuenta con el enlace web de acceso al libro de reclamaciones.",
@@ -2986,6 +2996,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Con Acciones (parcial en lo referente al enlace web)",
           "estado": "Con acciones",
           "texto": "Del Informe N° 145-2026-CG/GRAR-SCC — Situación N° 5: El frontis de la ODPE no cuenta con línea gráfica del proceso electoral, áreas no están rotuladas, y el frontis no cuenta con enlace web de acceso al libro de reclamaciones. Acciones adoptadas: se colocaron banners identificadores del proceso electoral y se procedió al rótulo de áreas; no se efectuaron comentarios sobre el enlace web del libro de reclamaciones",
@@ -3011,6 +3022,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-6: Centro de cómputo sin cuaderno o registro de ingreso y salida de equipos y visitantes",
@@ -3028,6 +3040,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "El centro de cómputo no tiene control de ingreso y salida de equipos y visitantes, lo que podría dificultar el acceso de los usuarios y limitar el alcance de sus servicios.",
@@ -3041,6 +3054,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
           "texto": "Del Informe N° 145-2026-CG/GRAR-SCC — Situación N° 6: El centro de cómputo no tiene control de ingreso y salida de equipos y visitantes. Acciones adoptadas: se informó que actualmente se encuentra en etapa de implementación",
@@ -3066,6 +3080,7 @@
         {
           "orden": 1,
           "doc": "Arequipa10",
+          "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "SA-7: Instalaciones sin condiciones necesarias para la atención de personas con discapacidad: desnivel de ~0.35 m en ingreso principal sin rampa, desnivel de ~0.25 m entre hall y área de capacitación sin rampa, único baño en primer piso sin dimensiones para giro de silla de ruedas de 360° y a ~34 m del hall de ingreso, sin espacio señalizado para sillas de ruedas",
@@ -3085,6 +3100,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "Las instalaciones de la ODPE Cerro Colorado no reúnen las condiciones necesarias para la atención de personas con discapacidad, lo que afectaría su derecho de accesibilidad a los servicios públicos brindados en el marco de las EG 2026.",
@@ -3106,6 +3122,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Personal contratado por la ODPE Cerro Colorado, bajo la modalidad de locación de servicios para el cargo de Auxiliar Administrativo T1, presentó certificado de trabajo con datos que no guardan relación con lo declarado en su Currículum Vitae. Específicamente, de la revisión de expedientes de contratación realizada los días 23 y 25 de febrero de 2025, se identificó que uno de los locadores contratados presentó un Certificado de Trabajo de fecha 9 de febrero de 2024 que lo acredita en el cargo de 'Administrador de Empresas', mientras que en su CV declaró haberse desempeñado como 'Asistente/Auxiliar Administrativo' para el mismo empleador y período (enero 2019 – diciembre 2023). Adicionalmente, su grado de Bachiller en Administración fue obtenido el 26 de marzo de 2024, fecha posterior al período certificado. Esta discrepancia no fue advertida por el Analista Descentralizado de Recursos Humanos III durante la revisión del expediente de contratación, quien dio por válido el cumplimiento del requisito de experiencia general en temas administrativos. Ante esta situación, la ODPE sostuvo en sus comentarios que la comisión realiza una interpretación restrictiva, argumentando que los criterios de SERVIR y el TDR contabilizan todo desempeño laboral lícito sin exigir que el cargo sea específico, y que el locador cumple con los requisitos; no obstante, dicha posición no resuelve la falta de concordancia entre los documentos presentados. La situación expuesta pondría en riesgo el control de calidad de la selección de personal contratado y, en consecuencia, afectaría la adecuada organización del proceso electoral dentro de la jurisdicción de la ODPE Cerro Colorado, así como el correcto funcionamiento de la administración pública.",
@@ -3136,6 +3153,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Con Acciones (subsanación aún pendiente de completarse según lo declarado por el propio locador)",
           "estado": "Con acciones",
           "texto": "Del Informe N° 399-2026-CG/GRAR-SCC — Situación N° 1: Personal contratado bajo locación de servicios para el cargo de auxiliar administrativo presentó certificado de trabajo con datos que no guardan relación con su currículum vitae. Acciones adoptadas: mediante correo electrónico se notificó al locador solicitando subsanación documentaria; el locador remitió copia de título profesional e indicó que el certificado de trabajo estaba 'con pendiente a regularizar'",
@@ -3161,6 +3179,7 @@
         {
           "orden": 2,
           "doc": "Arequipa3",
+          "hito_id": "hito_2",
           "estado_raw": "Persiste",
           "estado": "Persiste",
           "texto": "La ODPE Cerro Colorado no ha alquilado mobiliario, situación que podría limitar las actividades que desarrolla y los servicios que brinda en el marco de las EG 2026.",
@@ -3183,6 +3202,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Planilla de pagos de remuneración a locadores de servicio no es suscrita por el analista descentralizado de recursos humanos. De la revisión de una muestra de cinco (05) expedientes de pago (N°s 00047, 00048, 00052, 00055 y 00057-EG-2026), se identificó que las planillas de pago de los vouchers por remuneraciones a locadores contienen únicamente la firma del Jefe de la ODPE y la Coordinadora Administrativa, sin contar con la firma del analista de recursos humanos, incumpliendo el Instructivo IN01-GAD/FIN versión 06. El monto total de la planilla del mes de febrero de 2026 revisada es de S/ 126,700.02",
@@ -3209,6 +3229,7 @@
         {
           "orden": 3,
           "doc": "Arequipa8",
+          "hito_id": "hito_uso_fondos_encargo_odpe",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Sustento de pago con Declaración Jurada de Gastos empleada para el pago fraccionado de servicio público de agua y desagüe del local alquilado para la ODPE Cerro Colorado no contiene adjunto su recibo de pago suscrito por el propietario. Durante arqueo inopinado al fondo de caja chica realizado el 23 de marzo de 2026, se verificó que la Declaración Jurada de Gastos FM03-GAD/FIN de 12 de marzo de 2026 por concepto de pago del 80% del suministro de agua potable (S/ 106,00), correspondiente al período 19/01/2026 al 18/02/2026, no adjunta el recibo de pago suscrito por el propietario, incumpliendo el Instructivo IN01-GAD/FIN versión 06",

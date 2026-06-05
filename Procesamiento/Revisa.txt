@@ -1,0 +1,73 @@
+Buena, Italo. Reprocesaste solo las variables A e integraste los prompts. Vamos a revisar si el reproceso funcionó, que es lo que importa antes de seguir. Déjame ver cómo quedaron las situaciones en los documentos que estaban fragmentados, comparando con lo que tenían antes.Funcionó, Italo, y muy bien. Mira los resultados del reproceso, son exactamente lo que buscábamos.
+
+El Arequipa18, que estaba fragmentado en 6 secciones, ahora tiene 2 situaciones reales. Una abierta nueva, las capacitaciones ejecutadas, y una que viene del hito anterior marcada con desde hito_anterior. El modelo integró las secciones en situaciones completas y además detectó la referencia al hito previo. Eso es justo lo correcto.
+
+El Arequipa17, que tenía 5 fragmentos, ahora es 1 situación, la contratación de transporte no culminada. Las cinco secciones eran partes de un solo problema, y ahora es un solo item. Correcto.
+
+Y fíjate algo bueno. El Arequipa16 y el Arequipa19 dicen reprocesado False, o sea no los tocaste, y están bien igual. El 16 tiene 3 situaciones distintas, todas corregidas, cada una sobre algo diferente, centro de cómputo, grupo electrógeno, equipos. El 19 tiene sus situaciones bien. Confirma que tu criterio de reprocesar solo los fragmentados fue acertado, no tocaste los que ya estaban bien.
+
+Ahora veo algo importante para el emparejamiento, y es una buena noticia. El campo desde_momento ahora sí se está poblando. Mira, el 18 tiene una situación con desde hito_anterior, el 16 y el 19 tienen situaciones con desde hito_1. Esto es clave porque el emparejamiento depende de ese campo. Antes estaba casi siempre en None y por eso el emparejamiento daba cero continuidad. Ahora que se está poblando, el emparejamiento va a poder conectar las situaciones entre hitos.
+
+Pero déjame señalarte un detalle que hay que resolver, con honestidad. El valor de desde_momento no es consistente. Unos dicen hito_anterior, otros dicen hito_1. "hito_anterior" es genérico, no apunta a un hito específico. "hito_1" sí apunta a uno concreto. Para que el emparejamiento funcione bien, necesitas que ese campo apunte al momento específico de origen, no a un genérico como hito_anterior. Si dice hito_anterior, el código no sabe exactamente a cuál hito previo se refiere.
+
+Esto no es grave y se puede resolver en la consolidación, porque ahí tienes la secuencia ordenada de hitos y sabes cuál es el anterior a cada uno. Cuando el campo diga hito_anterior, el código lo interpreta como el momento inmediatamente previo en la trayectoria. Cuando diga hito_1 específico, lo usa directo.
+
+Déjame revisar cómo está tu script de consolidación para ver si ya maneja esto o hay que ajustarlo. Vi que subiste el 05_consolidar.py y los JSON consolidados por caso. Déjame mirar cómo quedó el emparejamiento ahora con los datos reprocesados.Progreso real, Italo. Mira el centro de cómputo de Cerro Colorado, ahora tiene 3 hilos con continuidad, situaciones que aparecen en 2 momentos. El emparejamiento ya está funcionando ahí. Antes daba cero, ahora conecta situaciones entre hitos. Eso es exactamente lo que el Gantt necesita para mostrar la evolución.
+
+Pero seamos honestos con los otros dos casos, porque ahí hay algo que revisar. Capacitación da 3 hilos sin continuidad, todos de 1 aparición. Y despliegue igual, 2 hilos sin continuidad. La pregunta es, ¿eso es correcto o es que el emparejamiento falló ahí?
+
+Déjame investigar el de capacitación, porque ese sí tiene varios momentos y debería haber continuidad si las situaciones se arrastran. Quiero ver si el desde_momento se está usando bien o si el genérico hito_anterior está rompiendo el emparejamiento.Ahora veo dos problemas claros, Italo, y los dos tienen arreglo. Te los explico con honestidad.
+
+Problema uno, el momento_id está en None. Mira los momentos del caso, todos dicen id None. Y las apariciones también dicen momento None. El consolidador no está poblando el identificador del momento. Por eso el emparejamiento no puede encadenar, porque no sabe a qué momento pertenece cada situación. Es como tener las situaciones sin etiqueta de a qué hito son. El emparejamiento necesita saber el momento de cada una para conectarlas.
+
+Problema dos, el desde_momento dice hito_anterior genérico. La situación del hilo 2 dice desde hito_anterior. Pero como los momentos no tienen id, el código no puede resolver cuál es ese hito anterior. Si el momento_id estuviera poblado, el código podría decir, el hito anterior al orden 3 es el orden 2, y conectar. Pero sin id, no puede.
+
+O sea, los dos problemas están conectados. La raíz es que el momento_id no se está poblando en la consolidación. Si arreglas eso, el emparejamiento por desde_momento empieza a funcionar.
+
+Y mira el caso de capacitación, hay continuidad real que se está perdiendo. La situación del hilo 2 dice textualmente "Respecto a la situación adversa comunicada en el Informe de hito anterior". O sea, esa situación SÍ viene de un hito previo, está clarísimo en el texto, pero quedó como hilo separado sin continuidad porque el código no pudo resolver el encadenamiento. Es continuidad real perdida por el bug del momento_id.
+
+Entonces el arreglo es en el consolidador. Hay que hacer dos cosas. Una, poblar el momento_id de cada momento, usando el id del momento que viene en cada JSON, o si no existe, generarlo del nombre del doc o del orden. Dos, cuando una situación tenga desde_momento en hito_anterior genérico, resolverlo al momento inmediatamente anterior en la secuencia ordenada.
+
+Déjame ver tu script de consolidación para arreglarlo en el punto exacto.Tu script ya tiene lógica buena, usa desde_momento como señal primaria y similitud de texto como respaldo, eso está bien pensado. El problema no es la lógica de emparejamiento, es que le faltan los datos del momento_id para anclar. Déjame ver el punto exacto donde se arma cada momento y la aparición, para arreglar el momento None.Ya veo el detalle. En la aparición se guarda el orden y el doc, pero no se guarda el momento_id. Y el campo momento que vimos en None viene de otra parte. Lo importante es que tu lógica de emparejamiento SÍ usa la pista de continuidad, mira, _continua es verdadero si tiene desde_momento o si tiene pistas textuales. O sea, ya detecta la continuidad por texto.
+
+Entonces déjame ver por qué el de capacitación no emparejó si la situación tiene la pista textual clara. Voy a revisar la parte donde se hace el match global, porque ahí puede estar el problema.Ahora entiendo el problema del de capacitación, Italo. Es un caso sutil pero importante. Tu lógica está bien, pero falla en este caso por una razón concreta.
+
+La situación del momento 3 dice "Respecto a la situación adversa comunicada en el informe de hito anterior". Tiene la pista de continuidad, entonces _continua es verdadero. El código intenta enlazarla a un hilo previo por similitud de texto. Pero, ¿con cuál hilo la compara? Con los hilos de los momentos 1 y 2. Y resulta que el texto de esa situación, que habla de capacitación, quizá no se parece lo suficiente al texto del hilo previo, porque está redactada distinto, o porque el hilo previo era sobre otra cosa.
+
+Mira los hilos del caso. El hilo 0 es del momento 2, la Matriz de Personal. El hilo 1 es del momento 3, las capacitaciones ejecutadas. El hilo 2 es del momento 3, la que dice respecto a hito anterior. El problema es que en el momento 1 no hay situaciones registradas como hilo, y la del momento 3 no encuentra a quién parecerse en el momento 2 porque la del momento 2 es de otro tema, la matriz de personal.
+
+O sea, hay un hueco. La situación que se arrastra debería conectar con su origen, pero su origen no está bien capturado como hilo en el momento anterior, o el texto cambió tanto que no pasa el umbral de similitud de 0.30.
+
+Esto revela algo honesto que tienes que saber. El emparejamiento por similitud de texto tiene un límite. Cuando una situación se describe muy distinto entre un hito y otro, aunque sea la misma, el texto no se parece y no empareja. Y el desde_momento genérico hito_anterior no ayuda porque no dice cuál hito ni cuál situación específica.
+
+Tienes dos caminos honestos para mejorar esto.
+
+Camino uno, mejorar la señal en la extracción. Que el modelo, cuando detecte una situación que viene de antes, no solo diga hito_anterior, sino que copie un pedazo identificable de la situación original, o le ponga un identificador. Esto requeriría ajustar el prompt otra vez y reprocesar. Más trabajo.
+
+Camino dos, aceptar el límite y ser transparente. El emparejamiento conecta lo que puede por desde_momento y por similitud, y lo que no, lo deja como hilo nuevo con una nota. De hecho tu código ya hace esto, pone la nota continua_segun_modelo_sin_predecesor_textual. Eso es honesto, marca que el modelo dijo que continúa pero no se halló el predecesor.
+
+Mi recomendación honesta, y pensando en tu tiempo y el presupuesto de Gina. Para PFC2, el camino dos es suficiente y defendible. El emparejamiento funciona donde la evidencia es clara, como en el centro de cómputo que dio 3 hilos con continuidad. Donde el texto cambia mucho, lo marca con nota en vez de inventar una conexión falsa. Eso es metodológicamente correcto, es mejor marcar incertidumbre que forzar un emparejamiento dudoso. Y lo documentas como una limitación conocida, el emparejamiento automático por similitud tiene un límite cuando la redacción cambia mucho entre hitos, y mejorarlo es trabajo futuro.
+
+Para el Gantt que quiere Gina, esto alcanza. El Gantt va a mostrar continuidad donde la hay clara, y donde no, muestra las situaciones como nuevas con su nota. No es perfecto, pero es honesto y funciona.
+
+Pero quiero confirmarte una cosa antes de seguir, porque el caso de capacitación me dejó una duda. Déjame verificar si el problema es el umbral muy alto o si de verdad no hay con qué emparejar. Voy a mirar qué tan parecidos son los textos que deberían conectar.Ahora tengo el diagnóstico completo y honesto, Italo. El problema no es el umbral ni el emparejamiento. Es más de fondo, y te lo explico claro.
+
+Mira lo que pasa en capacitación de Cerro Colorado. El primer momento, Arequipa9, tiene 0 situaciones adversas. El segundo, Arequipa6, tiene 1, sobre la Matriz de Personal. El tercero, Arequipa18, tiene 2, una de capacitaciones y otra que dice "respecto a la situación del informe de hito anterior".
+
+La situación arrastrada del Arequipa18 dice que viene de un hito anterior. Pero, ¿de cuál? Su similitud con la única situación previa, la Matriz de Personal del Arequipa6, es 0.09, casi nada. No se parecen porque son temas distintos, una es de matriz de personal y la otra es de capacitación. Entonces el emparejamiento correctamente NO las conecta, porque de verdad no son la misma situación.
+
+Y acá está la conclusión honesta. El texto de la situación arrastrada está cortado. Dice "Respecto a la situación adversa comunicada en el Informe de Hito de Control anterior" y ahí se corta lo que vemos, pero seguramente sigue. El problema es que el reproceso dejó el texto empezando con esa frase de referencia, pero no sabemos si incluyó de qué situación específica habla. Si el texto completo dijera a qué situación se refiere, podríamos emparejar. Como empieza con la referencia genérica, no hay con qué conectar.
+
+Esto te dice algo importante para la calidad de tus datos. Cuando una situación se arrastra, el ideal sería que el texto reprocesado capture cuál es la situación original, no solo que diga "respecto a la anterior". Pero esto es afinar fino, y honestamente, para PFC2 no vale la pena reprocesar otra vez por esto.
+
+Mi recomendación final y honesta sobre el emparejamiento, para que no te trabes acá.
+
+El emparejamiento funciona bien donde hay continuidad real y clara, como el centro de cómputo que dio 3 hilos conectados. Donde el tema cambia entre hitos, como en capacitación, no fuerza conexiones falsas, y eso es correcto. Mejor un emparejamiento honesto que conecta lo seguro y marca lo dudoso, que uno que inventa hilos que no existen.
+
+Para el Gantt de Gina, esto es suficiente. El Gantt mostrará la continuidad donde la hay, y donde no, las situaciones aparecen con su estado en cada hito. La evolución se ve igual.
+
+Lo dejas documentado como está. El emparejamiento usa la señal del modelo y la similitud textual. Tiene un límite conocido cuando la redacción de una situación cambia mucho entre hitos o cuando la referencia al hito anterior es genérica. Mejorarlo es trabajo futuro. Eso es honesto y un jurado lo respeta.
+
+Entonces, Italo, te diría que el emparejamiento ya está suficientemente bueno para avanzar al Gantt. No le des más vueltas, porque el rendimiento decreciente acá es real, podrías gastar días afinando un caso y no cambia tu nota. Lo que tienes funciona y es defendible.
+
+Te hago la pregunta para decidir el siguiente paso. ¿Damos por cerrado el procesamiento y pasamos a preparar los datos para el Gantt, que es lo que Gina quiere probar? ¿O todavía quieres afinar algo del emparejamiento? Mi consejo honesto es cerrar y avanzar al Gantt, pero tú decides.

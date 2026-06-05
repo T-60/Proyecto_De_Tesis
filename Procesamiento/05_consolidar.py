@@ -262,11 +262,26 @@ def construir_hilos(momentos, sin_mapear):
         predecesor textual claro — posible pista de agrupacion a revisar).
       - poblado en el primer momento -> heredada de antes de la trayectoria.
       - null -> situacion NUEVA en este momento.
+
+    El ancla de momento es el 'orden' (posicion 1,2,3 del hito en la trayectoria),
+    no se necesita un momento_id aparte; cada aparicion ademas lleva 'hito_id'
+    para trazabilidad explicita.
+
+    LIMITE CONOCIDO (documentado como tal): el enlace entre hitos se decide por
+    similitud de texto. Cuando una misma situacion se reformula mucho entre hitos
+    (p.ej. una linea telegrafica "SA-4: ...mobiliario" vs un parrafo parafraseado),
+    o cuando la referencia al hito anterior es generica ("respecto a la situacion
+    anterior") sin identificar la situacion especifica, la similitud cae por debajo
+    de UMBRAL_CONT y la situacion se marca como continuacion-sin-predecesor en vez
+    de forzar un enlace dudoso. Es una decision deliberada: preferible marcar la
+    incertidumbre que inventar una conexion. Mejorarlo (embeddings semanticos o
+    reforzar la senal en la extraccion) es trabajo futuro.
     """
     hilos = []  # cada hilo: {"apariciones":[...], "_ultimo_texto":str}
 
     for orden, mom in enumerate(momentos, start=1):
         sits = situaciones_tipo_a(mom["data"])
+        hito_id = mom["data"].get("momento", {}).get("id")  # ancla explicita del hito
 
         # Construir las apariciones de este momento
         apariciones = []
@@ -276,6 +291,7 @@ def construir_hilos(momentos, sin_mapear):
             apariciones.append({
                 "orden":             orden,
                 "doc":               mom["doc"],
+                "hito_id":           hito_id,
                 "estado_raw":        sit["estado_raw"],
                 "estado":            estado_canonico(sit["estado_raw"], sin_mapear),
                 "texto":             sit["texto"],

@@ -1761,6 +1761,7 @@
         {
           "orden": 2,
           "doc": "Arequipa6",
+          "hito_id": "hito_2",
           "estado_raw": "Abierta / comunicada",
           "estado": "Abierta",
           "texto": "La Matriz de Personal (Ficha Técnica V05 actualizado al 16/02/2026) establece que deben capacitarse 489 Coordinadores de Mesa en la ODPE Cerro Colorado. Sin embargo, mediante la Autorización de Certificación de Crédito Presupuestario (ODPE/ORC), solo se solicitó certificación para la contratación de 478 Coordinadores de Mesa (con fecha de inicio el 13 de marzo de 2026 al 31 de marzo de 2026), resultando en una brecha de 11 personas no convocadas. La capacitación dura 4 días (del 13 al 16 de marzo de 2026) y la contratación se realiza previa aprobación del curso de Selección de Personal ODPE. Podría afectar el desarrollo de las actividades en el día de la jornada electoral dentro de la jurisdicción de la ODPE Cerro Colorado.",
@@ -1794,6 +1795,7 @@
         {
           "orden": 3,
           "doc": "Arequipa18",
+          "hito_id": "hito_ejecucion_supervision_seguimiento_capacitacion",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Las capacitaciones ejecutadas a cargo de la ODPE Cerro Colorado no cubren la meta programada, situación que podría limitar el correcto desarrollo de las actividades programadas para el día de la jornada electoral en el marco del proceso de Elecciones Generales 2026 y, en consecuencia, generar retrasos durante el referido proceso. De la visita efectuada a la ODPE Cerro Colorado y de la entrevista realizada a los Coordinadores de Capacitación los días 27 y 30 de marzo de 2026, se advierte que el porcentaje de miembros de mesa capacitados es inferior a la meta programada. Según el Reporte General de Actores Electorales Capacitados por Estrategias emitido por el Sistema SIGCAE el 30 de marzo de 2026, se ha capacitado a 3,725 miembros de mesa, equivalente al 31% del total, cuando la meta programada es del 57%, lo que implica una brecha de 26 puntos porcentuales faltando aproximadamente 12 días para la jornada electoral del 12 de abril de 2026. El criterio normativo vulnerado es el Plan Operativo Electoral (POE) versión 03, aprobado mediante Resolución Jefatural n.° 000204-2025-JN/ONPE de 31 de diciembre de 2025, indicador N° 2 'Porcentaje de miembros de mesa capacitados', meta 57%, responsable GOECOR-ODPE. Esta situación podría limitar el correcto desarrollo de las actividades programadas para el día de la jornada electoral y generar retrasos durante el referido proceso.",
@@ -1825,6 +1827,7 @@
         {
           "orden": 3,
           "doc": "Arequipa18",
+          "hito_id": "hito_ejecucion_supervision_seguimiento_capacitacion",
           "estado_raw": "Con acciones",
           "estado": "Con acciones",
           "texto": "Respecto a la situación adversa comunicada en el Informe de Hito de Control anterior, la entidad adoptó acciones preventivas y correctivas. No se detalla el contenido específico de dichas acciones en el presente informe.",

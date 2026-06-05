@@ -2484,6 +2484,7 @@
         {
           "orden": 2,
           "doc": "Arequipa",
+          "hito_id": "hito_2",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "La Coordinadora de Capacitación de la ODPE Arequipa no viene remitiendo a la Jefatura del Área de Capacitación Electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional Coordinador de Local de Votación, situación que podría afectar el seguimiento y monitoreo y no permitiría establecer la cantidad de capacitados. Específicamente: (1) no remitió el formato FM01-GOECOR/CPO (Registro de asistencia del personal de la ODPE, ORC y ONPE) ni el reporte al responsable de seguimiento y monitoreo de la JACE; (2) no entregó el material de capacitación con la firma correspondiente en el formato FM05-GOECOR/CPO (Cargo de entrega del material de capacitación); (3) no remitió el formato FM03-GOECOR/CPO (Encuesta de opinión) en versión física a la JACE; (4) respecto al formato FM04-GOECOR/CPO (Registro de notas de los participantes), no subió el archivo en formato PDF ni lo remitió a la JACE; (5) no elaboró ni remitió el informe del taller de capacitación presencial en el formato FM06-GOECOR/CPO dentro del plazo de dos días posteriores a la conclusión del taller (que finalizó el 6 de marzo de 2026), transcurriendo más de una semana sin cumplir con ello, sin entrega al jefe de la ODPE ni remisión de la versión digital a la JACE; (6) no registró información en el formato FM09-GOECOR/CPO (Informe final del coordinador de capacitación), ni lo entregó al jefe de la ODPE, ni lo remitió escaneado con sello de recibido a la JACE-SGCFE-GOECOR. Esta situación quedó evidenciada en el Formato II 'Ejecución de la capacitación del personal de la ODPE' y el Acta de Visita Complementaria, ambos de 16 de marzo de 2026. La consecuencia es que podría afectar el seguimiento y monitoreo y no permitiría establecer con certeza la cantidad de personas capacitadas mediante los talleres de capacitación presencial para el personal de la ODPE.",
@@ -2533,6 +2534,7 @@
         {
           "orden": 3,
           "doc": "Arequipa13",
+          "hito_id": "hito_ejecucion_supervision_capacitacion_actores",
           "estado_raw": "Corregida",
           "estado": "Corregida",
           "texto": "Coordinadora de capacitación no venía remitiendo a la jefatura de área de capacitación electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional coordinador de local de votación. Acción adoptada: la ODPE Arequipa puso a disposición de la JACE los formatos FM01, FM03, FM04 y FM06 a través del repositorio digital institucional el 8 de marzo de 2026, documentado mediante Informe N° 000055-2026-ODPEAREQUIPAEG2026/ONPE de 6 de abril de 2026.",
@@ -2564,6 +2566,7 @@
         {
           "orden": 3,
           "doc": "Arequipa13",
+          "hito_id": "hito_ejecucion_supervision_capacitacion_actores",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Coordinadores de capacitación no vienen solicitando al coordinador distrital o al capacitador electoral, mediante correo electrónico o mensaje de WhatsApp, las fotografías o videos sobre las actividades de los miembros de mesa realizando la encuesta y el cuestionario, y debidamente desarrollados. Criterio vulnerado: Instructivo IN03-GOECOR/CAE versión 10, tarea 5.3.1 y POE versión 03 objetivo 4.2. Consecuencia: podría afectar el seguimiento y desarrollo de las actividades a realizar por los actores electorales el día de la jornada electoral.",
@@ -2594,6 +2597,7 @@
         {
           "orden": 3,
           "doc": "Arequipa13",
+          "hito_id": "hito_ejecucion_supervision_capacitacion_actores",
           "estado_raw": "Abierta",
           "estado": "Abierta",
           "texto": "Coordinadoras de capacitación en sus actividades de supervisión y seguimiento de la capacitación a los actores electorales no aplican los formatos FM13-GOECOR/CAE y FM14-GOECOR/CAE. Criterio vulnerado: Instructivo IN03-GOECOR/CAE versión 10, tarea 5.3.2 y POE versión 03 objetivo 4.2. Consecuencia: afectaría la retroalimentación y limitaría brindar recomendaciones a los hallazgos resultantes de la aplicación de los formatos en las actividades de capacitación.",

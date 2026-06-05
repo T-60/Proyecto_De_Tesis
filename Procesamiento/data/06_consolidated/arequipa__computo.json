@@ -1643,6 +1643,7 @@
         {
           "orden": 1,
           "doc": "Arequipa5",
+          "hito_id": "hito_control_1",
           "estado_raw": "Abierta / activa al momento del informe",
           "estado": "Abierta",
           "texto": "Falta de documentos técnicos que acrediten la ejecución de actividades de habilitación, acondicionamiento y logística informática. Al momento de la verificación (5 y 6 de marzo de 2026), transcurridos 2 días calendario desde el vencimiento del plazo (4 de marzo de 2026), el CC de la ODPE Arequipa no contaba con 12 documentos técnicos (actas, certificados, constancias, reportes y fotografías) establecidos en los TDR del SHALI.",
@@ -1663,6 +1664,7 @@
         {
           "orden": 2,
           "doc": "Arequipa16",
+          "hito_id": "hito_2",
           "estado_raw": "Corregida",
           "estado": "Corregida",
           "texto": "El centro de cómputo de la ODPE Arequipa no contaba con la totalidad de documentos técnicos que acrediten la correcta ejecución de las actividades de habilitación, acondicionamiento y logística informática del centro de cómputo, establecidos en los términos de referencia del SHALI; situación que afectaría la operatividad del centro de cómputo durante el proceso electoral.",
@@ -1686,6 +1688,7 @@
         {
           "orden": 1,
           "doc": "Arequipa5",
+          "hito_id": "hito_control_1",
           "estado_raw": "Abierta / activa al momento del informe",
           "estado": "Abierta",
           "texto": "Grupo electrógeno no instalado, no conectado al tablero eléctrico y sin tubo de escape direccionado a exteriores. Verificado los días 5 y 6 de marzo de 2026, con 2 días calendario transcurridos desde el vencimiento del plazo (4 de marzo de 2026). El personal señaló que se encontraba en proceso de instalación.",
@@ -1707,6 +1710,7 @@
         {
           "orden": 2,
           "doc": "Arequipa16",
+          "hito_id": "hito_2",
           "estado_raw": "Corregida",
           "estado": "Corregida",
           "texto": "El grupo electrógeno de la ODPE Arequipa no se encontraba instalado ni conectado al tablero eléctrico del local, y no contaba con tubo de escape direccionado a exteriores; situación que generaba el riesgo de no contar con un sistema eléctrico de respaldo que proporcione continuidad en el suministro de energía eléctrica, lo cual afectaría la operatividad del centro de cómputo durante el proceso electoral.",
@@ -1730,6 +1734,7 @@
         {
           "orden": 1,
           "doc": "Arequipa5",
+          "hito_id": "hito_control_1",
           "estado_raw": "Abierta / activa al momento del informe",
           "estado": "Abierta",
           "texto": "Equipos de cómputo y dispositivos en cajas, no instalados ni conectados. Los distintos ambientes del Centro de Cómputo presentaban residuos de material de trabajos de acondicionamiento. La encargada del CC manifestó que se tenía prevista la culminación al 9 de marzo de 2026.",
@@ -1751,6 +1756,7 @@
         {
           "orden": 2,
           "doc": "Arequipa16",
+          "hito_id": "hito_2",
           "estado_raw": "Corregida",
           "estado": "Corregida",
           "texto": "El centro de cómputo de la ODPE Arequipa presentaba equipos de cómputo y otros dispositivos en cajas, no instalados; situación que afectaría el funcionamiento de los equipos y pone en riesgo la operatividad del centro de cómputo para el proceso.",

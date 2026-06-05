@@ -1,7 +1,7 @@
 """
 Paso 1 completo: extraccion (1A) + estructuracion a JSON (1C).
 
-Por cada documento MD en data/simplified/:
+Por cada documento MD en data/00_simplified/:
   1A) Llama al LLM con el prompt de extraccion -> razonamiento en prosa
   1C) Llama al LLM con el prompt de estructuracion -> JSON parcial
   Inyecta el filename real y guarda el JSON.
@@ -12,11 +12,11 @@ Requiere:
   - ANTHROPIC_API_KEY en el entorno
   - prompts/prompt_1A_extraccion.txt
   - prompts/prompt_1C_estructuracion.txt
-  - data/simplified/*.md
+  - data/00_simplified/*.md
 
 Salidas:
-  - data/extracted/<nombre>.txt   (razonamiento del 1A)
-  - data/structured/<nombre>.json (JSON parcial del 1C)
+  - data/01_extracted/<nombre>.txt   (razonamiento del 1A)
+  - data/02_structured/<nombre>.json (JSON parcial del 1C)
 """
 
 import anthropic

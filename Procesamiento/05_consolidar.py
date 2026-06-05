@@ -32,7 +32,6 @@ Uso:
 
 import json
 import re
-import sys
 import unicodedata
 from pathlib import Path
 

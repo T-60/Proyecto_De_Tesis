@@ -1,0 +1,326 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa",
+    "vocabulario": {
+      "instancia": "ODPE Arequipa",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_de_control",
+    "numero": null,
+    "label": "Ejecución, supervisión y seguimiento de la capacitación de los actores electorales",
+    "filename": "Arequipa13.pdf",
+    "metadata": {
+      "identificador": "N° 5670-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-04-10",
+      "periodo_inicio": "2026-03-25",
+      "periodo_fin": "2026-03-31",
+      "estado_notificacion": "Notificado",
+      "fuente_ids": [
+        718,
+        728,
+        756,
+        1231
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Directiva n.° 013-2022-CG/NORM",
+        "establece": "Regula el Servicio de Control Simultáneo, aprobada mediante Resolución de Contraloría n.° 218-2022-CG y sus modificatorias.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          759,
+          1233
+        ]
+      },
+      {
+        "codigo": "Resolución de Contraloría n.° 218-2022-CG",
+        "establece": "Aprueba la Directiva n.° 013-2022-CG/NORM \"Servicio de Control Simultáneo\" y sus modificatorias.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          759,
+          1233
+        ]
+      },
+      {
+        "codigo": "Ley n.° 26859, Ley Orgánica de Elecciones",
+        "establece": "Marco legal para la convocatoria de Elecciones Generales.",
+        "fecha": null,
+        "fuente_ids": [
+          793
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo n.° 039-2025-PCM",
+        "establece": "Convocatoria de las Elecciones Generales 2026.",
+        "fecha": "2025-01-01",
+        "fuente_ids": [
+          793
+        ]
+      },
+      {
+        "codigo": "Ley n.° 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República",
+        "establece": "Marco normativo para el servicio de control concurrente, incluyendo la comunicación de situaciones adversas.",
+        "fecha": null,
+        "fuente_ids": [
+          1232
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000127-2025-JN/ONPE",
+        "establece": "Aprobó la conformación de ciento veintiséis (126) Oficinas Descentralizadas de Procesos Electorales (ODPE).",
+        "fecha": "2025-08-04",
+        "fuente_ids": [
+          794
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural n.° 000175-2025-JN/ONPE",
+        "establece": "Designó a los Jefes y coordinadores administrativos, titulares y accesitarios, de las ODPE.",
+        "fecha": "2025-11-04",
+        "fuente_ids": [
+          794
+        ]
+      },
+      {
+        "codigo": "Plan Operativo Electoral (POE) versión n.° 03",
+        "establece": "Establece el marco legal, electoral y estratégico, así como las actividades operativas y tareas de cumplimiento obligatorio para las Elecciones Generales 2026. Es la base para diversas metas y programaciones de actividades.",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          795,
+          861,
+          890,
+          911,
+          939,
+          962,
+          972,
+          987,
+          1040,
+          1095
+        ]
+      },
+      {
+        "codigo": "Instructivo: IN03-GOECOR/CAE, versión 10",
+        "establece": "Guía para el seguimiento y supervisión de la capacitación de actores electorales, incluyendo la solicitud de evidencias fotográficas/videos y la aplicación de formatos de supervisión.",
+        "fecha": null,
+        "fuente_ids": [
+          1047,
+          1028,
+          1112,
+          613,
+          622,
+          626
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "situaciones_adversas_identificadas",
+        "tipo": "A",
+        "label": "Situaciones adversas identificadas",
+        "valor": {
+          "texto": "Se han identificado dos (2) situaciones adversas.",
+          "estado": "Identificada"
+        },
+        "detalle": [
+          {
+            "texto": "Coordinadores de capacitación no solicitan fotografías o videos sobre las actividades de los miembros de mesa, realizando la encuesta y el cuestionario, y debidamente desarrollados.",
+            "estado": "Identificada",
+            "desde_momento": null,
+            "fuente_ids": [
+              1018,
+              1026,
+              1028,
+              1029,
+              1034,
+              1035,
+              1036,
+              1037,
+              1038,
+              1039,
+              1040,
+              1042,
+              1043,
+              1047,
+              1050,
+              609,
+              610,
+              611,
+              612,
+              613,
+              614,
+              1075,
+              1076,
+              1168,
+              629,
+              630,
+              631,
+              632
+            ]
+          },
+          {
+            "texto": "Coordinadoras de capacitación no aplican los formatos FM13-GOECOR/CAE y FM14-GOECOR/CAE en sus actividades de supervisión y seguimiento de la capacitación a los actores electorales.",
+            "estado": "Identificada",
+            "desde_momento": null,
+            "fuente_ids": [
+              1077,
+              1078,
+              1081,
+              1089,
+              1093,
+              1095,
+              1101,
+              1103,
+              1106,
+              1107,
+              1112,
+              1113,
+              618,
+              619,
+              620,
+              621,
+              622,
+              623,
+              624,
+              625,
+              626,
+              627,
+              1115,
+              1116,
+              1170,
+              634,
+              635,
+              636,
+              637
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1014,
+          1146
+        ],
+        "fragmento_evidencia": "se ha identificado dos (2) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la \"Capacitación de personal de la ODPE Arequipa y actores electorales en el marco de las elecciones generales 2026\".",
+        "justificacion": "Se identifican dos situaciones problemáticas que afectan el proceso en curso, las cuales tienen texto descriptivo, condición, criterio, consecuencia y un estado implícito de \"identificada\" o \"abierta\". La agrupación de las dos situaciones en una sola variable Tipo A se debe a su naturaleza homogénea de \"situación adversa\".",
+        "ambiguedad": null
+      },
+      {
+        "id": "estado_reporte_avance_situaciones_adversas",
+        "tipo": "C",
+        "label": "Estado de reporte de avance de situaciones adversas",
+        "valor": {
+          "categoria": "No emitido",
+          "nota": "La Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas que requieran la adopción inmediata de acciones por parte de la Entidad. Por lo tanto, no amerita la presentación de avance."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1134
+        ],
+        "fragmento_evidencia": "Durante la ejecución del presente servicio de control concurrente, la Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas que requieran la adopción inmediata de acciones por parte de la Entidad; por lo que no amerita la presentación de avance ante situaciones adversas.",
+        "justificacion": "Se describe la condición del reporte de avance en este momento de control. Es una categoría \"No emitido\".",
+        "ambiguedad": null
+      },
+      {
+        "id": "situaciones_adversas_anteriores",
+        "tipo": "A",
+        "label": "Seguimiento de situaciones adversas anteriores",
+        "valor": {
+          "texto": "Una situación adversa de informes de hito de control anteriores ha sido corregida.",
+          "estado": "Corregida"
+        },
+        "detalle": [
+          {
+            "texto": "Coordinadora capacitación no viene remitiendo a la jefatura de área de capacitación electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional coordinador de local de votación, situación que podría afectar el seguimiento y monitoreo; y no permitiria establecer la cantidad de capacitados.",
+            "estado": "Corregida",
+            "desde_momento": null,
+            "fuente_ids": [
+              1192,
+              639,
+              640,
+              641,
+              642,
+              643,
+              644,
+              645,
+              646,
+              647,
+              648
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1140,
+          1191
+        ],
+        "fragmento_evidencia": "De la información remitida por la Entidad, se advierte que se han adoptado acciones preventivas y correctivas respecto de las situaciones adversas contenidas en los Informes de Hitos de Control anteriores detalladas en el Apéndice n.° 2 del presente Informe.",
+        "justificacion": "Se detalla el seguimiento de una situación adversa proveniente de un informe anterior, indicando las acciones tomadas y su estado actual.",
+        "ambiguedad": null
+      },
+      {
+        "id": "presupuesto_odpe_arequipa",
+        "tipo": "C",
+        "label": "Presupuesto asignado a la ODPE Arequipa",
+        "valor": {
+          "categoria": "S/ 113 480,00",
+          "nota": "Presupuesto asignado a la ODPE Arequipa para el proceso de control concurrente."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          1003,
+          1004,
+          599,
+          607,
+          1009
+        ],
+        "fragmento_evidencia": "en el siguiente cuadro se detalla el presupuesto de la ODPE, objeto del presente servicio de Control Concurrente: S/ 113 480,00",
+        "justificacion": "Es un monto único asignado, no un valor que avanza hacia una meta, por lo tanto, se clasifica como Tipo C.",
+        "ambiguedad": null
+      },
+      {
+        "id": "jefe_odpe_arequipa",
+        "tipo": "D",
+        "label": "Jefe de la ODPE Arequipa",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "REYES MARCHENA MARINA VICTORIA MILAGROS",
+            "rol": "JEFE ODPE",
+            "fuente_ids": [
+              605,
+              1225
+            ]
+          }
+        ],
+        "fuente_ids": [
+          597,
+          605
+        ],
+        "fragmento_evidencia": "JEFE ODPE REYES MARCHENA MARINA VICTORIA MILAGROS",
+        "justificacion": "Identifica un actor clave del proceso y su rol.",
+        "ambiguedad": null
+      },
+      {
+        "id": "miembros_comision_control",
+        "tipo": "D",
+        "label": "Miembros de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Pedro Luis Fernando Oviedo Vazques",
+            "rol": "Supervisor Comisión de Control",
+            "fuente_ids": [
+              1157
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1157
+        ],
+        "fragmento_evidencia": "",
+        "justificacion": "Identifica un actor clave del proceso y su rol.",
+        "ambiguedad": null
+      }
+    ]
+  }
+}

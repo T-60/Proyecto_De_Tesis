@@ -1,0 +1,92 @@
+{
+  "n_casos": 7,
+  "casos": [
+    {
+      "caso_id": "arequipa__instalacion_personal",
+      "odpe": "ODPE Arequipa",
+      "tema": "Instalación y personal",
+      "n_momentos": 2,
+      "docs": [
+        "Arequipa11",
+        "Arequipa4"
+      ],
+      "total_situaciones": 7,
+      "situaciones_con_continuidad": 2
+    },
+    {
+      "caso_id": "cerro_colorado__instalacion_personal",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Instalación y personal",
+      "n_momentos": 3,
+      "docs": [
+        "Arequipa10",
+        "Arequipa3",
+        "Arequipa8"
+      ],
+      "total_situaciones": 11,
+      "situaciones_con_continuidad": 7
+    },
+    {
+      "caso_id": "arequipa__computo",
+      "odpe": "ODPE Arequipa",
+      "tema": "Centro de cómputo",
+      "n_momentos": 2,
+      "docs": [
+        "Arequipa5",
+        "Arequipa16"
+      ],
+      "total_situaciones": 3,
+      "situaciones_con_continuidad": 3
+    },
+    {
+      "caso_id": "cerro_colorado__computo",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Centro de cómputo",
+      "n_momentos": 2,
+      "docs": [
+        "Arequipa2",
+        "Arequipa19"
+      ],
+      "total_situaciones": 6,
+      "situaciones_con_continuidad": 3
+    },
+    {
+      "caso_id": "arequipa__capacitacion",
+      "odpe": "ODPE Arequipa",
+      "tema": "Capacitación electoral",
+      "n_momentos": 3,
+      "docs": [
+        "Arequipa7",
+        "Arequipa",
+        "Arequipa13"
+      ],
+      "total_situaciones": 3,
+      "situaciones_con_continuidad": 1
+    },
+    {
+      "caso_id": "cerro_colorado__capacitacion",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Capacitación electoral",
+      "n_momentos": 3,
+      "docs": [
+        "Arequipa9",
+        "Arequipa6",
+        "Arequipa18"
+      ],
+      "total_situaciones": 3,
+      "situaciones_con_continuidad": 0
+    },
+    {
+      "caso_id": "cerro_colorado__despliegue",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Despliegue de material",
+      "n_momentos": 2,
+      "docs": [
+        "Arequipa17",
+        "Arequipa12"
+      ],
+      "total_situaciones": 2,
+      "situaciones_con_continuidad": 0
+    }
+  ]
+}

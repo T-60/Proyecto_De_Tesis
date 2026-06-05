@@ -1,0 +1,993 @@
+{
+  "instancia": {
+    "id": "odpe_arequipa",
+    "label": "ODPE Arequipa",
+    "vocabulario": {
+      "instancia": "Oficina Descentralizada de Procesos Electorales (ODPE)",
+      "momento": "Hito de Control"
+    }
+  },
+  "momento": {
+    "id": "hito_2",
+    "numero": 2,
+    "label": "Ejecución de la Capacitación del Personal de la ODPE",
+    "filename": "Arequipa.pdf",
+    "metadata": {
+      "identificador": "2231-2026-CG/GRAR-SCC",
+      "fecha_emision": "2026-03-26",
+      "periodo_inicio": "2026-03-16",
+      "periodo_fin": "2026-03-20",
+      "estado_notificacion": "Notificado mediante Oficio N° 000610-2026-CG/GRAR a la Jefa de la ODPE Arequipa el 26 de marzo de 2026, y mediante Oficio N° 000133-2026-CG/OC3599 al Jefe Nacional de la ONPE el 27 de marzo de 2026",
+      "fuente_ids": [
+        1030,
+        1033,
+        1034,
+        1036,
+        1041,
+        1071,
+        1073,
+        1557,
+        1564,
+        1635,
+        1640
+      ]
+    },
+    "marco_general": [
+      {
+        "codigo": "Ley N° 27785",
+        "establece": "Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República. Regula el servicio de Control Simultáneo y establece la comunicación al Titular de la entidad sobre situaciones adversas.",
+        "fecha": null,
+        "fuente_ids": [
+          1566,
+          1642
+        ]
+      },
+      {
+        "codigo": "Directiva N° 013-2022-CG/NORM - Resolución de Contraloría N° 218-2022-CG",
+        "establece": "Establece el marco normativo del servicio de Control Simultáneo, incluyendo la emisión de informes de hito de control y la comunicación de situaciones adversas.",
+        "fecha": "2022-05-30",
+        "fuente_ids": [
+          1075,
+          1567,
+          1643
+        ]
+      },
+      {
+        "codigo": "Oficio N° 00067-2026-CG/GRAR",
+        "establece": "Dispone la ejecución del servicio de Control Concurrente, registrado con orden de servicio N° 02-L470-2026-052.",
+        "fecha": "2026-03-05",
+        "fuente_ids": [
+          1075
+        ]
+      },
+      {
+        "codigo": "Decreto Supremo N° 039-2025-PCM",
+        "establece": "Convoca las Elecciones Generales 2026.",
+        "fecha": null,
+        "fuente_ids": [
+          1104
+        ]
+      },
+      {
+        "codigo": "Ley N° 26859 - Ley Orgánica de Elecciones",
+        "establece": "Establece el marco legal electoral, incluyendo el artículo 49° sobre designación de jefes y coordinadores de ODPE, y el artículo 80° sobre convocatoria de elecciones.",
+        "fecha": null,
+        "fuente_ids": [
+          1104,
+          1106
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000127-2025-JN/ONPE",
+        "establece": "Aprueba la conformación de ciento veintiséis (126) ODPE para las Elecciones Generales 2026, entre ellas la ODPE Arequipa.",
+        "fecha": "2025-08-01",
+        "fuente_ids": [
+          1105
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000132-2025-JN/ONPE",
+        "establece": "Dispone la publicación de la relación de postulantes titulares y accesitarios aprobados en el proceso de selección para 28 Jefes y 28 Coordinadores Administrativos de ODPE para las EG 2026.",
+        "fecha": "2025-08-12",
+        "fuente_ids": [
+          1107
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000141-2025-JN/ONPE",
+        "establece": "Conforma 14 ODPE para las Elecciones Primarias de las EG 2026, incluyendo la ODPE Arequipa, y designa su jefa y coordinadora administrativa.",
+        "fecha": "2025-09-08",
+        "fuente_ids": [
+          1108
+        ]
+      },
+      {
+        "codigo": "Resolución Jefatural N° 000204-2025-JN/ONPE - Plan Operativo Electoral versión N° 03",
+        "establece": "Aprueba el Plan Operativo Electoral de las Elecciones Generales 2026, que establece el marco legal, electoral y estratégico, así como las actividades operativas y tareas de cumplimiento obligatorio para las unidades orgánicas de la ONPE, incluyendo la capacitación del personal ODPE.",
+        "fecha": "2025-12-31",
+        "fuente_ids": [
+          1111,
+          1135,
+          1152
+        ]
+      },
+      {
+        "codigo": "Memorando N° 699-2026-GOECOR/ONPE",
+        "establece": "Fuente de la información general sobre la ODPE Arequipa, incluyendo presupuesto asignado.",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          1160
+        ]
+      },
+      {
+        "codigo": "Instructivo IN 01-GOECOR/CPO versión N° 17",
+        "establece": "Establece los procedimientos para la generación de informes de talleres de capacitación presencial, en particular el numeral 5.3 sobre las tareas del Coordinador de Capacitación respecto a formatos FM01, FM03, FM04, FM05, FM06 y FM09.",
+        "fecha": null,
+        "fuente_ids": [
+          1283,
+          1289,
+          705,
+          706,
+          707,
+          708,
+          709,
+          710,
+          711,
+          712,
+          713,
+          714,
+          715,
+          717,
+          718,
+          719,
+          720,
+          721,
+          722,
+          723,
+          724,
+          725
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000031-2025-OC3599",
+        "establece": "Ampara la conformación inicial de la Comisión de Control.",
+        "fecha": "2026-02-16",
+        "fuente_ids": [
+          1099
+        ]
+      },
+      {
+        "codigo": "Oficio N° 000452-2026-CG/GRAR",
+        "establece": "Reconforma la Comisión de Control.",
+        "fecha": "2026-03-16",
+        "fuente_ids": [
+          1099
+        ]
+      }
+    ],
+    "variables": [
+      {
+        "id": "personal_contratado_por_grupo_ocupacional",
+        "tipo": "B",
+        "label": "Personal contratado por grupo ocupacional en la ODPE Arequipa",
+        "valor": {
+          "observado": 579,
+          "meta": 579,
+          "estimado": null,
+          "unidad": "personas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Coordinador de Local de Votación (CLV)",
+            "previsto": 120,
+            "real": 120,
+            "fuente_ids": [
+              763,
+              764,
+              765,
+              766,
+              1502
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Mesa",
+            "previsto": 459,
+            "real": 459,
+            "fuente_ids": [
+              767,
+              768,
+              769,
+              770,
+              1503
+            ]
+          },
+          {
+            "subgrupo": "Coordinador Técnico de Mesa STAE",
+            "previsto": null,
+            "real": null,
+            "fuente_ids": [
+              771,
+              772,
+              773,
+              774
+            ]
+          }
+        ],
+        "fuente_ids": [
+          755,
+          761,
+          762,
+          763,
+          764,
+          765,
+          766,
+          767,
+          768,
+          769,
+          770,
+          771,
+          772,
+          773,
+          774,
+          1502,
+          1503
+        ],
+        "fragmento_evidencia": "¿Se contrató al personal siguiente? Grupo ocupacional Coordinador de Loca de Votación STINO 31 indicar cantidad de personal: 120 Coordinador de Mesa SINO 8! Indicar cantidad de personal: 459",
+        "justificacion": "El Formato II registra las cantidades de personal contratado por grupo ocupacional. La cifra 120 corresponde a Coordinadores de Local de Votación y 459 a Coordinadores de Mesa. El detalle 64 CLV + 56 RLV proviene del Acta de Visita Complementaria. El POE establece que se prevé capacitar a la totalidad del personal contratado, haciendo que el número contratado funcione como meta de referencia para el avance de capacitación.",
+        "ambiguedad": "El documento no establece explícitamente una meta de contratación diferente a las cantidades efectivamente contratadas; los 120 y 459 son simultáneamente el observado y el referente para la capacitación.",
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "pct_avance": {
+            "valor": 100.0,
+            "_formula": "observado(579) / meta(579) * 100 = 100.0%"
+          },
+          "brecha": {
+            "valor": 0,
+            "_formula": "meta(579) - observado(579) = 0 personas"
+          },
+          "diffs_subgrupos": {
+            "valor": [
+              {
+                "subgrupo": "Coordinador de Local de Votación (CLV)",
+                "diferencia": 0,
+                "_formula": "real(120) - previsto(120) = 0 personas"
+              },
+              {
+                "subgrupo": "Coordinador de Mesa",
+                "diferencia": 0,
+                "_formula": "real(459) - previsto(459) = 0 personas"
+              }
+            ],
+            "_formula": "real - previsto por cada subgrupo del detalle"
+          }
+        }
+      },
+      {
+        "id": "avance_capacitacion_por_grupo_ocupacional",
+        "tipo": "B",
+        "label": "Avance de capacitación por grupo ocupacional",
+        "valor": {
+          "observado": 120,
+          "meta": 579,
+          "estimado": null,
+          "unidad": "personas capacitadas"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Coordinador de Local de Votación - capacitación concluida (4, 5 y 6 de marzo de 2026)",
+            "previsto": 120,
+            "real": 120,
+            "fuente_ids": [
+              776,
+              778,
+              779,
+              780,
+              1505
+            ]
+          },
+          {
+            "subgrupo": "Coordinador de Mesa - en proceso al momento de la visita (13, 14, 15 y 16 de marzo de 2026)",
+            "previsto": 459,
+            "real": null,
+            "fuente_ids": [
+              781,
+              782,
+              783,
+              1503,
+              1505
+            ]
+          },
+          {
+            "subgrupo": "Coordinador Técnico de Mesa STAE - No aplica",
+            "previsto": null,
+            "real": null,
+            "fuente_ids": [
+              784,
+              785,
+              786,
+              787
+            ]
+          }
+        ],
+        "fuente_ids": [
+          776,
+          777,
+          778,
+          779,
+          780,
+          781,
+          782,
+          783,
+          784,
+          785,
+          786,
+          787,
+          1503,
+          1505
+        ],
+        "fragmento_evidencia": "¿Se viene capacitando actualmente al personal de la ODPE? Grupo ocupacional Coordinador de Local de Votación S1/0104 No Indicar cantidad: 120 Coordinador de Mesa SÍ/NO Indicar cantidad: 459",
+        "justificacion": "La pregunta 2 del Formato II indaga si se está capacitando actualmente. La respuesta 'No' para CLV indica que ya concluyó; la respuesta afirmativa para Coordinadores de Mesa indica que está en curso. El Acta de Visita Complementaria precisa las fechas de cada capacitación. La meta es la totalidad del personal contratado (120 y 459 respectivamente).",
+        "ambiguedad": "La respuesta 'No' para CLV en la columna '¿Se viene capacitando actualmente?' es ambigua en el formato escaneado, pero el Acta de Visita aclara que ya concluyó.",
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "pct_avance": {
+            "valor": 20.73,
+            "_formula": "observado(120) / meta(579) * 100 = 20.73%"
+          },
+          "brecha": {
+            "valor": 459,
+            "_formula": "meta(579) - observado(120) = 459 personas capacitadas"
+          },
+          "diffs_subgrupos": {
+            "valor": [
+              {
+                "subgrupo": "Coordinador de Local de Votación - capacitación concluida (4, 5 y 6 de marzo de 2026)",
+                "diferencia": 0,
+                "_formula": "real(120) - previsto(120) = 0 personas capacitadas"
+              }
+            ],
+            "_formula": "real - previsto por cada subgrupo del detalle"
+          }
+        }
+      },
+      {
+        "id": "presupuesto_asignado_odpe_arequipa",
+        "tipo": "C",
+        "label": "Presupuesto asignado a la ODPE Arequipa para capacitación",
+        "valor": {
+          "categoria": "S/ 113,480.00",
+          "nota": "Monto asignado a la ODPE Arequipa para garantizar la ejecución de las actividades operativas de capacitación según el POE. Es un presupuesto fijo asignado, no una cifra de avance contra una meta mayor."
+        },
+        "detalle": [],
+        "fuente_ids": [
+          695,
+          696,
+          697,
+          698,
+          699,
+          700,
+          701,
+          702,
+          703,
+          1157,
+          1158,
+          1160
+        ],
+        "fragmento_evidencia": "MONTO SI 40 AREQUIPA AREQUIPA AREQUIPA AREQUIPA REYES MARCHENA MARINA VICTORIA MILAGROS CALLE UNIVERSIDAD 215 URB. LA VICTORIA -CERCADO DE AREQUIPA 113 480,00",
+        "justificacion": "El Cuadro N° 2 'Información General de la ODPE Arequipa' registra el monto asignado específicamente a esta ODPE para garantizar la ejecución de las actividades operativas de capacitación, según el POE. Es un presupuesto asignado fijo, no una cifra de avance contra una meta mayor, por lo que se clasifica como Tipo C.",
+        "ambiguedad": "El documento menciona que el POE contempla presupuesto específico por ODPE pero no muestra el total del presupuesto global del programa; solo se dispone del monto de esta ODPE.",
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "tiene_categoria": {
+            "valor": true,
+            "_formula": "bool(valor.categoria) — presente: 'S/ 113,480.00'"
+          },
+          "tiene_nota_explicativa": {
+            "valor": true,
+            "_formula": "bool(valor.nota) — presente (201 chars)"
+          }
+        }
+      },
+      {
+        "id": "situacion_adversa_remision_documentacion_taller_clv",
+        "tipo": "A",
+        "label": "Situación adversa: incumplimiento de remisión de documentación del taller de capacitación del grupo Coordinador de Local de Votación a la JACE",
+        "valor": {
+          "texto": "La Coordinadora de Capacitación de la ODPE Arequipa no remitió a la Jefatura del Área de Capacitación Electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional Coordinador de Local de Votación, incumpliendo el numeral 5.3 del Instructivo IN 01-GOECOR/CPO versión 17. Esto podría afectar el seguimiento y monitoreo y no permitiría establecer con certeza la cantidad de personas capacitadas.",
+          "estado": "Abierta / no resuelta al momento de emisión del informe"
+        },
+        "detalle": [
+          {
+            "texto": "La Coordinadora de Capacitación de la ODPE Arequipa no viene remitiendo a la Jefatura del Área de Capacitación Electoral (JACE) la documentación generada en el taller de capacitación del grupo ocupacional Coordinador de Local de Votación, situación que podría afectar el seguimiento y monitoreo y no permitiría establecer la cantidad de capacitados. Específicamente: (1) no remitió el formato FM01-GOECOR/CPO (Registro de asistencia del personal de la ODPE, ORC y ONPE) ni el reporte al responsable de seguimiento y monitoreo de la JACE; (2) no entregó el material de capacitación con la firma correspondiente en el formato FM05-GOECOR/CPO (Cargo de entrega del material de capacitación); (3) no remitió el formato FM03-GOECOR/CPO (Encuesta de opinión) en versión física a la JACE; (4) respecto al formato FM04-GOECOR/CPO (Registro de notas de los participantes), no subió el archivo en formato PDF ni lo remitió a la JACE; (5) no elaboró ni remitió el informe del taller de capacitación presencial en el formato FM06-GOECOR/CPO dentro del plazo de dos días posteriores a la conclusión del taller (que finalizó el 6 de marzo de 2026), transcurriendo más de una semana sin cumplir con ello, sin entrega al jefe de la ODPE ni remisión de la versión digital a la JACE; (6) no registró información en el formato FM09-GOECOR/CPO (Informe final del coordinador de capacitación), ni lo entregó al jefe de la ODPE, ni lo remitió escaneado con sello de recibido a la JACE-SGCFE-GOECOR. Esta situación quedó evidenciada en el Formato II 'Ejecución de la capacitación del personal de la ODPE' y el Acta de Visita Complementaria, ambos de 16 de marzo de 2026. La consecuencia es que podría afectar el seguimiento y monitoreo y no permitiría establecer con certeza la cantidad de personas capacitadas mediante los talleres de capacitación presencial para el personal de la ODPE.",
+            "estado": "Abierta",
+            "desde_momento": null,
+            "fuente_ids": [
+              727,
+              728,
+              729,
+              730,
+              731,
+              732,
+              789,
+              790,
+              791,
+              793,
+              794,
+              795,
+              796,
+              802,
+              803,
+              808,
+              809,
+              812,
+              813,
+              814,
+              819,
+              820,
+              821,
+              1163,
+              1167,
+              1171,
+              1173,
+              1176,
+              1184,
+              1229,
+              1231,
+              1236,
+              1240,
+              1319,
+              1320,
+              1333,
+              1339
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1163,
+          1167,
+          1171,
+          1173,
+          1176,
+          1184,
+          1229,
+          1231,
+          1236,
+          1240,
+          1319,
+          1320,
+          1333,
+          1339,
+          727,
+          728,
+          729,
+          730,
+          731,
+          732
+        ],
+        "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026",
+        "justificacion": "El documento identifica formalmente una situación adversa única, la describe mediante condición, criterio y consecuencia, y la respalda con dos documentos de evidencia (Acta-Formato II de 16 de marzo de 2026 y Acta de Visita Complementaria de 16 de marzo de 2026). Todos los ítems de incumplimiento corresponden a la misma métrica de seguimiento: el estado de remisión de documentación del taller CLV a la JACE.",
+        "ambiguedad": "Algunos fragmentos del Acta de Visita Complementaria están en texto manuscrito/escaneado con legibilidad parcial ([1520], [1521], [1525]); el contenido sustancial está confirmado por el cuerpo del informe.",
+        "estado_verificacion": "verificado",
+        "_reprocesado_tipoA": true,
+        "calculado": {
+          "total_items": {
+            "valor": 1,
+            "_formula": "len(detalle) = 1"
+          },
+          "nuevos": {
+            "valor": 1,
+            "_formula": "count(desde_momento == null) = 1 de 1"
+          },
+          "arrastrados": {
+            "valor": 0,
+            "_formula": "count(desde_momento != null) = 0 de 1"
+          },
+          "distribucion_por_estado": {
+            "valor": {
+              "Abierta": 1
+            },
+            "_formula": "group_by(estado) sobre detalle — base del diagrama Sankey"
+          }
+        }
+      },
+      {
+        "id": "actores_odpe_arequipa",
+        "tipo": "D",
+        "label": "Actores de la ODPE Arequipa",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Marina Victoria Milagros Reyes Marchena",
+            "rol": "Jefa de la ODPE Arequipa",
+            "fuente_ids": [
+              693,
+              701,
+              744,
+              745
+            ]
+          },
+          {
+            "nombre": "Nancy Victoria Ripa Ito",
+            "rol": "Coordinadora de Capacitación de la ODPE Arequipa",
+            "fuente_ids": [
+              747,
+              748,
+              829,
+              830
+            ]
+          }
+        ],
+        "fuente_ids": [
+          743,
+          744,
+          745,
+          746,
+          747,
+          748
+        ],
+        "fragmento_evidencia": "DATOS DEL JEFE DE LA ODPE\nNOMBRES Y APELLIDOS\nMARINA VICTORIA MILAGROS REYES MARCHENA\nDATOS DEL COORDINADOR DE CAPACITACIÓN DE LA ODPE\nNOMBRES Y APELLIDOS\nNANCY VICTORIA RIPA 1TO",
+        "justificacion": "El Formato II del Hito de Control identifica explícitamente dos actores de la ODPE con sus cargos, que son los roles clave en el proceso evaluado: la jefa de la ODPE y la coordinadora de capacitación directamente involucrada en la situación adversa.",
+        "ambiguedad": "El apellido 'Ripa Ito' aparece con una variación de grafía en algunos fragmentos del acta; se toma la forma más legible confirmada por múltiples apariciones.",
+        "estado_verificacion": "verificado_n3",
+        "fragmento_evidencia_original": "DATOS DEL JEFE DE LA ODPE NOMBRES Y APELLIDOS MARINA VICTORIA MILAGROS REYES MARCHENA DATOS DEL COORDINADOR DE CAPACITACIÓN DE LA ODPE NOMBRES Y APELLIDOS NANCY VICTORIA RIPA 1TO",
+        "fuente_ids_original": [
+          693,
+          701,
+          744,
+          745,
+          747,
+          748,
+          827,
+          828,
+          829,
+          830
+        ],
+        "calculado": {
+          "total_actores": {
+            "valor": 2,
+            "_formula": "len(detalle) = 2 actores"
+          }
+        }
+      },
+      {
+        "id": "actores_comision_control",
+        "tipo": "D",
+        "label": "Actores de la Comisión de Control",
+        "valor": null,
+        "detalle": [
+          {
+            "nombre": "Juan Diego Lino Prieto",
+            "rol": "Jefe de Comisión, Comisión de Control",
+            "fuente_ids": [
+              751,
+              752,
+              837,
+              838
+            ]
+          },
+          {
+            "nombre": "Marleni Mamani Cachi",
+            "rol": "Supervisora, Comisión de Control",
+            "fuente_ids": [
+              835,
+              836,
+              1357
+            ]
+          },
+          {
+            "nombre": "Marissa Alicia Chávez Chávez",
+            "rol": "Gerente Regional de Control de Arequipa, Contraloría General de la República (aprueba el informe)",
+            "fuente_ids": [
+              1361,
+              1573
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1354,
+          1357,
+          1358,
+          1361
+        ],
+        "fragmento_evidencia": "Marleni Mamani Cachi Supervisor Comisión de Control Juan Diego Lino Prieto Jefe de Comisión Comisión de Control Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa Contraloria General de la República",
+        "justificacion": "El cierre del informe identifica a los tres funcionarios de control con sus roles específicos. Son actores distintos a los de la ODPE y pertenecen a la instancia auditora, por lo que constituyen una variable relacional separada.",
+        "ambiguedad": null,
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "total_actores": {
+            "valor": 3,
+            "_formula": "len(detalle) = 3 actores"
+          }
+        }
+      },
+      {
+        "id": "actividades_operativas_capacitacion_poe",
+        "tipo": "B",
+        "label": "Actividades operativas de capacitación programadas en el POE para la ODPE",
+        "valor": {
+          "observado": 0,
+          "meta": 39,
+          "estimado": null,
+          "unidad": "talleres/monitoreos"
+        },
+        "detalle": [
+          {
+            "subgrupo": "Tarea 2.3.5.3 - Talleres de capacitación presencial, reuniones de reforzamiento, jornada personal ODPE y taller de evaluación con CC (05/01/2026 al 27/04/2026)",
+            "previsto": 39,
+            "real": null,
+            "fuente_ids": [
+              674,
+              675,
+              676,
+              677,
+              678,
+              679,
+              680
+            ]
+          },
+          {
+            "subgrupo": "Tarea 2.3.5.4 - Monitoreo de talleres, reuniones, jornada de reforzamiento y entrenamiento del personal ODPE (05/01/2026 al 17/04/2026)",
+            "previsto": 38,
+            "real": null,
+            "fuente_ids": [
+              681,
+              682,
+              683,
+              684,
+              685,
+              686
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1117,
+          657,
+          658,
+          659,
+          660,
+          661,
+          662,
+          663,
+          664,
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675,
+          676,
+          677,
+          678,
+          679,
+          680,
+          681,
+          682,
+          683,
+          684,
+          685,
+          686
+        ],
+        "fragmento_evidencia": "2.3.5.3 Realizar los talleres de capacitación presencial, reuniones de reforzamiento, jornada personal ODPE y taller de evaluación con CC. 05/01/26 27/04/26 9 10 10 10 39",
+        "justificacion": "El Cuadro N° 1 presenta dos tareas del POE con sus metas físicas anuales y la programación por mes. Constituyen variables de progreso porque tienen un valor de avance esperado por período y una meta anual explícita. El documento no registra avance ejecutado a la fecha del hito; solo la programación.",
+        "ambiguedad": "El documento no registra cuántas unidades se han ejecutado efectivamente a la fecha del hito; solo presenta la programación del POE. El valor observado de avance real no está cuantificado en este informe para estas tareas agregadas.",
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "pct_avance": {
+            "valor": 0.0,
+            "_formula": "observado(0) / meta(39) * 100 = 0.0%"
+          },
+          "brecha": {
+            "valor": 39,
+            "_formula": "meta(39) - observado(0) = 39 talleres/monitoreos"
+          }
+        }
+      },
+      {
+        "id": "cumplimiento_procedimientos_registro_remision_taller",
+        "tipo": "F",
+        "label": "Cumplimiento de procedimientos de registro y remisión durante el taller (Formato II)",
+        "valor": {
+          "booleano": false,
+          "evidencia": "De 13 ítems verificados en el Formato II, 5 resultaron incumplidos (No), correspondientes principalmente a la no remisión de documentación del taller CLV a la JACE. Los ítems de contratación y capacitación en curso resultaron afirmativos."
+        },
+        "detalle": [
+          {
+            "criterio": "Contratación de personal Coordinador de Local de Votación (120 personas)",
+            "cumple": true,
+            "fuente_ids": [
+              763,
+              764,
+              765,
+              766
+            ]
+          },
+          {
+            "criterio": "Contratación de personal Coordinador de Mesa (459 personas)",
+            "cumple": true,
+            "fuente_ids": [
+              767,
+              768,
+              769,
+              770
+            ]
+          },
+          {
+            "criterio": "Capacitación en curso CLV (ya concluyó al momento de la visita)",
+            "cumple": false,
+            "fuente_ids": [
+              777,
+              778,
+              779,
+              780
+            ]
+          },
+          {
+            "criterio": "Capacitación en curso Coordinador de Mesa (en proceso al momento de la visita)",
+            "cumple": true,
+            "fuente_ids": [
+              781,
+              782,
+              783
+            ]
+          },
+          {
+            "criterio": "Registro de asistencia FM01 y remisión a JACE en versión digital PDF",
+            "cumple": false,
+            "fuente_ids": [
+              789,
+              790,
+              791
+            ]
+          },
+          {
+            "criterio": "Entrega de material FM05 (acceso al módulo de capacitación)",
+            "cumple": false,
+            "fuente_ids": [
+              793,
+              794,
+              795,
+              796
+            ]
+          },
+          {
+            "criterio": "Aplicación prueba de entrada FM02 y publicación FM04",
+            "cumple": true,
+            "fuente_ids": [
+              798,
+              799
+            ]
+          },
+          {
+            "criterio": "Aplicación FM03 Encuesta de opinión",
+            "cumple": true,
+            "fuente_ids": [
+              802,
+              803
+            ]
+          },
+          {
+            "criterio": "Aplicación prueba de salida FM02",
+            "cumple": true,
+            "fuente_ids": [
+              804,
+              805,
+              806
+            ]
+          },
+          {
+            "criterio": "Calificación y publicación pruebas de salida FM04",
+            "cumple": true,
+            "fuente_ids": [
+              808,
+              809
+            ]
+          },
+          {
+            "criterio": "Elaboración de FM06 (informe del taller) en plazo de 2 días y remisión a JACE",
+            "cumple": false,
+            "fuente_ids": [
+              812,
+              813,
+              814
+            ]
+          },
+          {
+            "criterio": "Remisión de documentación completa por correo/courier a JACE (FM01, FM03, FM04, FM05)",
+            "cumple": false,
+            "fuente_ids": [
+              815,
+              816,
+              817
+            ]
+          },
+          {
+            "criterio": "Registro en FM09 (informe final) y entrega a jefe de ODPE y JACE",
+            "cumple": false,
+            "fuente_ids": [
+              819,
+              820,
+              821
+            ]
+          }
+        ],
+        "fuente_ids": [
+          756,
+          757,
+          758,
+          759,
+          760,
+          761,
+          762,
+          763,
+          764,
+          765,
+          766,
+          767,
+          768,
+          769,
+          770,
+          771,
+          772,
+          773,
+          774,
+          789,
+          790,
+          791,
+          793,
+          794,
+          795,
+          796,
+          798,
+          799,
+          804,
+          805,
+          806,
+          808,
+          809,
+          812,
+          813,
+          814,
+          815,
+          816,
+          817,
+          819,
+          820,
+          821
+        ],
+        "fragmento_evidencia": "¿El coordinador de capacitación elaboró el informe del taller de capacitación presencial dentro del plazo de dos dias posteriores a la conclusión del taller, utilizando el formato FM06-GOECOR/CPO (Informe del taller de capacitación presencial); entregó una copia al jefe de la ODPE o por mesa de partes y remitió la versión digital en formato PDF (escaneada con el sello de recepción de la ODPE) y en formato Word editable) al responsable del seguimiento y monitoreo de SI/NO (formato FM06- GOECOR/CPO, cargo del documento u otros), No",
+        "justificacion": "El Formato II es un instrumento estructurado de verificación booleana (SÍ/NO) aplicado durante la visita de control. Cada ítem es una condición verificable respaldada por el Acta de Visita. Al provenir todos del mismo cuadro-formato con idéntica estructura de pregunta/respuesta, se agrupan como detalle interno de una sola variable de verificación.",
+        "ambiguedad": "Algunos ítems del formato presentan legibilidad parcial por ser documentos escaneados. Las respuestas afirmativas para ítems de pruebas FM02, FM03, FM04 tienen matices en el Acta de Visita Complementaria respecto a si se remitieron correctamente o solo se ejecutaron localmente.",
+        "estado_verificacion": "verificado",
+        "calculado": {
+          "cumple_global": {
+            "valor": false,
+            "_formula": "valor.booleano — asignado por LLM a partir del fragmento verificado"
+          },
+          "total_criterios": {
+            "valor": 13,
+            "_formula": "len(detalle) = 13"
+          },
+          "criterios_cumplidos": {
+            "valor": 7,
+            "_formula": "count(detalle[i].cumple == true) = 7"
+          },
+          "criterios_no_cumplidos": {
+            "valor": 6,
+            "_formula": "count(detalle[i].cumple == false) = 6"
+          },
+          "tasa_cumplimiento": {
+            "valor": 53.85,
+            "_formula": "criterios_cumplidos(7) / total_criterios(13) * 100 = 53.85%"
+          }
+        }
+      },
+      {
+        "id": "notificacion_informe_entidad",
+        "tipo": "F",
+        "label": "Notificación del informe a la entidad y comunicación de acciones correctivas",
+        "valor": {
+          "booleano": true,
+          "evidencia": "El informe fue notificado mediante Oficio N° 000610-2026-CG/GRAR a la Jefa de la ODPE Arequipa el 26 de marzo de 2026, y mediante Oficio N° 000133-2026-CG/OC3599 al Jefe Nacional de la ONPE el 27 de marzo de 2026. Se requirió respuesta en un plazo de 5 días hábiles."
+        },
+        "detalle": [
+          {
+            "criterio": "Notificación a la Jefa de la ODPE Arequipa mediante Oficio N° 000610-2026-CG/GRAR (26 de marzo de 2026)",
+            "cumple": true,
+            "fuente_ids": [
+              1557,
+              1564,
+              1565
+            ]
+          },
+          {
+            "criterio": "Notificación al Jefe Nacional de la ONPE mediante Oficio N° 000133-2026-CG/OC3599 (27 de marzo de 2026)",
+            "cumple": true,
+            "fuente_ids": [
+              1635,
+              1640,
+              1657,
+              1658
+            ]
+          },
+          {
+            "criterio": "Requerimiento de informe de acciones correctivas en plazo de 5 días hábiles",
+            "cumple": true,
+            "fuente_ids": [
+              1350,
+              1570,
+              1655
+            ]
+          }
+        ],
+        "fuente_ids": [
+          1557,
+          1563,
+          1564
+        ],
+        "fragmento_evidencia": "OFICIO N° 000610-2026-CG/GRAR\nAsunto\n: Notificación de Informe de Hito de Control n.° 2231-2026-CG/GRAR-SCC.",
+        "justificacion": "El documento incluye los oficios de notificación y las constancias de notificación electrónica, lo que permite verificar el hecho de la comunicación formal. La verificación es booleana: el informe fue o no notificado. La evidencia documental respalda que sí fue notificado a ambos destinatarios y que se estableció un plazo de respuesta.",
+        "ambiguedad": "No se documenta en este expediente si la entidad dio respuesta dentro del plazo de 5 días hábiles; ese dato correspondería a un momento posterior.",
+        "estado_verificacion": "verificado_n3",
+        "fragmento_evidencia_original": "OFICIO N° 000610-2026-CG/GRAR Asunto : Notificación de Informe de Hito de Control n.° 2231-2026-CG/GRAR-SCC.",
+        "fuente_ids_original": [
+          1557,
+          1564,
+          1565,
+          1570,
+          1635,
+          1640,
+          1655,
+          1657,
+          1658,
+          1669,
+          1727,
+          1728
+        ],
+        "calculado": {
+          "cumple_global": {
+            "valor": true,
+            "_formula": "valor.booleano — asignado por LLM a partir del fragmento verificado"
+          },
+          "total_criterios": {
+            "valor": 3,
+            "_formula": "len(detalle) = 3"
+          },
+          "criterios_cumplidos": {
+            "valor": 3,
+            "_formula": "count(detalle[i].cumple == true) = 3"
+          },
+          "criterios_no_cumplidos": {
+            "valor": 0,
+            "_formula": "count(detalle[i].cumple == false) = 0"
+          },
+          "tasa_cumplimiento": {
+            "valor": 100.0,
+            "_formula": "criterios_cumplidos(3) / total_criterios(3) * 100 = 100.0%"
+          }
+        }
+      }
+    ],
+    "resumen_verificacion": {
+      "verificado_n1_codigo": 7,
+      "corregido_n2_ids": 0,
+      "verificado_n3_llm": 2,
+      "pendientes_sin_verificar": 0,
+      "omitido_sin_evidencia": 0
+    },
+    "calculado": {
+      "duracion_periodo_dias": {
+        "valor": 5,
+        "_formula": "(periodo_fin(2026-03-20) - periodo_inicio(2026-03-16)).days + 1 = 5 dias (inclusivo)"
+      },
+      "dias_hasta_emision": {
+        "valor": 6,
+        "_formula": "fecha_emision(2026-03-26) - periodo_fin(2026-03-20) = 6 dias"
+      }
+    }
+  }
+}

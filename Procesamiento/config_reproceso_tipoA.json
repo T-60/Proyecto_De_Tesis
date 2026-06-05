@@ -1,0 +1,11 @@
+{
+  "_nota": "Variables tipo A marcadas como FRAGMENTADAS (una situacion partida en secciones). Diagnostico: 2 agentes independientes + revision humana (Italo). Solo estas variables se re-extraen; el resto del documento y las demas variables quedan INTACTAS. En Arequipa3 hay dos variables tipo A: solo se reprocesa 'situacion_adversa_hito_2'; 'situaciones_adversas_hito_1_subsistentes' (7 situaciones reales) NO se toca.",
+  "_decision_arequipa": "El doc 'Arequipa' (6 formatos FM01/FM03/...) se decidio tratar como fragmentado por criterio de dominio; el LLM re-evaluara cuantos problemas reales hay con la regla anti-fragmentacion.",
+  "documentos": {
+    "Arequipa":   ["situacion_adversa_remision_documentacion_taller_clv"],
+    "Arequipa3":  ["situacion_adversa_hito_2"],
+    "Arequipa12": ["situacion_adversa_vehiculos_conductores_no_autorizados"],
+    "Arequipa17": ["situacion_adversa_contratacion_transporte"],
+    "Arequipa18": ["situacion_adversa_incumplimiento_meta_capacitacion"]
+  }
+}

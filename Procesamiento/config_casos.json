@@ -1,0 +1,48 @@
+{
+  "_criterio_agrupamiento": "Mapeo declarado del caso de estudio (ground truth). Un CASO es una ODPE; una TRAYECTORIA es un proceso electoral controlado dentro de esa ODPE. La asignación de cada informe de hito a su proceso se declara con base en conocimiento del dominio electoral, porque el proceso supervisado no es inferible de forma confiable ni del instancia.id ni del label (p.ej. 'Uso de fondos' no comparte vocabulario con 'Acondicionamiento del local', pero ambos pertenecen al proceso de instalacion). El ORDEN dentro de cada trayectoria NO se declara: se deriva automaticamente por periodo_inicio (la fecha del periodo de evaluacion), lo que coincide con el numero de hito ascendente donde existe y ubica correctamente los hitos sin numero.",
+  "_trabajo_futuro": "Para escalar a los 333 documentos (PFC3), la clasificacion automatica del proceso por un LLM que lea el informe es una linea de trabajo futuro. Para PFC2 (17 documentos) el mapeo declarado es la opcion metodologicamente correcta y defendible.",
+  "casos": [
+    {
+      "caso_id": "arequipa__instalacion_personal",
+      "odpe": "ODPE Arequipa",
+      "tema": "Instalación y personal",
+      "docs": ["Arequipa11", "Arequipa4"]
+    },
+    {
+      "caso_id": "cerro_colorado__instalacion_personal",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Instalación y personal",
+      "docs": ["Arequipa10", "Arequipa3", "Arequipa8"]
+    },
+    {
+      "caso_id": "arequipa__computo",
+      "odpe": "ODPE Arequipa",
+      "tema": "Centro de cómputo",
+      "docs": ["Arequipa5", "Arequipa16"]
+    },
+    {
+      "caso_id": "cerro_colorado__computo",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Centro de cómputo",
+      "docs": ["Arequipa2", "Arequipa19"]
+    },
+    {
+      "caso_id": "arequipa__capacitacion",
+      "odpe": "ODPE Arequipa",
+      "tema": "Capacitación electoral",
+      "docs": ["Arequipa7", "Arequipa", "Arequipa13"]
+    },
+    {
+      "caso_id": "cerro_colorado__capacitacion",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Capacitación electoral",
+      "docs": ["Arequipa9", "Arequipa6", "Arequipa18"]
+    },
+    {
+      "caso_id": "cerro_colorado__despliegue",
+      "odpe": "ODPE Cerro Colorado",
+      "tema": "Despliegue de material",
+      "docs": ["Arequipa17", "Arequipa12"]
+    }
+  ]
+}

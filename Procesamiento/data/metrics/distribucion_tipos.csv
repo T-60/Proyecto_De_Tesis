@@ -1,0 +1,7 @@
+tipo,descripcion_completa,cantidad,porcentaje
+A,Seguimiento de situaciones adversas,20,11.8
+B,Progreso y presupuesto (valores numericos),13,7.7
+C,Estado y condicion (categorico),35,20.7
+D,Actores y roles relacionales,41,24.3
+E,Narrativo (conclusiones y recomendaciones),21,12.4
+F,Verificacion documental (booleano),39,23.1

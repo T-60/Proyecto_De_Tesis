@@ -54,85 +54,78 @@ def cargar_prompt(path):
 def extraer_json(texto):
     """
     Extrae y parsea el JSON de la respuesta de Claude.
-    Si el JSON tiene comillas sin escapar dentro de valores string
-    (patron tipico: n.° X "Titulo del Hito"), intenta arreglarlas
-    automaticamente hasta 30 veces antes de rendirse.
+    Aplica tres pasos de reparacion en orden:
+      1. Parseo directo.
+      2. Escapar comillas dobles internas en valores string (patron comun del LLM).
+      3. Corregir backslashes invalidos (p.ej. \d, \p que no son escapes JSON validos).
     """
+    import re as _re
+
     texto = texto.strip()
 
-    # Quitar fences de markdown (```json ... ```)
-    if texto.startswith("```"):
-        primera_llave = texto.find("{")
-        ultima_llave = texto.rfind("}")
-        if primera_llave != -1 and ultima_llave != -1:
-            texto = texto[primera_llave:ultima_llave + 1]
-    else:
-        primera_llave = texto.find("{")
-        ultima_llave = texto.rfind("}")
-        if primera_llave != -1 and ultima_llave != -1:
-            texto = texto[primera_llave:ultima_llave + 1]
+    # Quitar fences de markdown
+    primera_llave = texto.find("{")
+    ultima_llave  = texto.rfind("}")
+    if primera_llave != -1 and ultima_llave != -1:
+        texto = texto[primera_llave:ultima_llave + 1]
 
-    # Intento 1: parsear directamente
+    # ── Intento 1: parseo directo ────────────────────────────────────────
     try:
         return json.loads(texto)
     except json.JSONDecodeError:
         pass
 
-    # Intento 2: arreglar comillas sin escapar.
-    # Recorremos linea por linea. Dentro de un valor string JSON,
-    # si encontramos comillas que NO son el cierre del valor, las
-    # reemplazamos por comillas simples.
-    lines = texto.split('\n')
-    fixed_lines = []
-    for line in lines:
-        stripped = line.lstrip()
+    # ── Intento 2: escapar comillas internas en valores string ───────────
+    def fix_quotes(text):
+        lines = text.split('\n')
+        out = []
+        for line in lines:
+            if '": "' not in line:
+                out.append(line)
+                continue
+            idx_val = line.index('": "') + 4
+            prefix  = line[:idx_val]
+            rest    = line[idx_val:]
+            # Buscar cierre del string desde el final
+            close = len(rest) - 1
+            while close >= 0:
+                if rest[close] == '"':
+                    after = rest[close + 1:].strip()
+                    if after in ('', ',') or after[0] in ('}', ']', ','):
+                        break
+                close -= 1
+            if close < 0:
+                out.append(line)
+                continue
+            content = rest[:close]
+            suffix  = rest[close:]
+            # Escapar comillas no precedidas por backslash
+            content_fixed = _re.sub(r'(?<!\\)"', r'\\"', content)
+            out.append(prefix + content_fixed + suffix)
+        return '\n'.join(out)
 
-        # Solo procesar lineas que son valores string JSON
-        # (patron: "clave": "valor con comillas internas")
-        if '": "' not in stripped:
-            fixed_lines.append(line)
-            continue
+    fixed = fix_quotes(texto)
+    try:
+        return json.loads(fixed)
+    except json.JSONDecodeError:
+        pass
 
-        # Encontrar donde empieza el valor string
-        idx_val = line.index('": "') + 4  # posicion justo despues de ': "'
-        prefix = line[:idx_val]
-
-        # Encontrar donde termina: la ultima comilla de la linea que cierra el valor
-        rest = line[idx_val:]
-
-        # El cierre del valor string es la ultima comilla seguida de , o nada o }
-        # Buscar desde el final
-        close_pos = len(rest) - 1
-        while close_pos >= 0:
-            if rest[close_pos] == '"':
-                # Verificar que es el cierre (seguido de , o nada significativa)
-                after = rest[close_pos + 1:].strip()
-                if after == '' or after.startswith(',') or after.startswith('}') or after.startswith(']'):
-                    break
-            close_pos -= 1
-
-        if close_pos < 0:
-            fixed_lines.append(line)
-            continue
-
-        # Todo entre idx_val y close_pos es el contenido del string
-        # Reemplazar comillas dobles internas por simples
-        content = rest[:close_pos]
-        suffix = rest[close_pos:]  # incluye la comilla de cierre + , etc.
-
-        content_fixed = content.replace('"', "'")
-        fixed_lines.append(prefix + content_fixed + suffix)
-
-    fixed = '\n'.join(fixed_lines)
-
-    # Ultimo intento con el texto arreglado
-    return json.loads(fixed)
+    # ── Intento 3: corregir backslashes invalidos (\d \p \: etc.) ────────
+    VALID_ESCAPES = set('"\\/ bfnrtu')
+    chars = list(fixed)
+    i = 0
+    while i < len(chars) - 1:
+        if chars[i] == '\\' and chars[i + 1] not in VALID_ESCAPES:
+            chars[i] = ' '   # quitar el backslash invalido
+        i += 1
+    fixed2 = ''.join(chars)
+    return json.loads(fixed2)
 
 
 
 
 def paso_1a(client, prompt_sistema, contenido_md):
-   
+
     mensaje_usuario = (
         "DOCUMENTO:\n\n"
         f"{contenido_md}\n\n"

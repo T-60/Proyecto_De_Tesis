@@ -1,6 +1,10 @@
 """
-06_reprocesar_tipoA.py - Re-extrae SOLO las variables tipo A marcadas como
-fragmentadas, rearmandolas como situaciones completas (1 item = 1 situacion).
+util_reprocesar_tipoA.py - UTILIDAD (no es una etapa del pipeline 00-05).
+
+Re-extrae SOLO las variables tipo A marcadas como fragmentadas, rearmandolas
+como situaciones completas (1 item = 1 situacion). Es un paso de reparacion
+puntual que ya se aplico al corpus; se conserva por reproducibilidad y por si
+entra un documento nuevo fragmentado.
 
 Es BARATO: al modelo solo se le pasan los fragmentos (fuente_ids) de la variable,
 no el documento completo (~7x menos tokens de entrada).
@@ -26,8 +30,8 @@ Mejoras frente a la version inicial (revision de agente):
 Requisitos: pip install anthropic ; ANTHROPIC_API_KEY en el entorno.
 
 Uso:
-  python 06_reprocesar_tipoA.py            # todos los del config
-  python 06_reprocesar_tipoA.py Arequipa18 # solo uno del config
+  python util_reprocesar_tipoA.py            # todos los del config
+  python util_reprocesar_tipoA.py Arequipa18 # solo uno del config
 """
 
 import anthropic

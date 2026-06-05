@@ -1,0 +1,813 @@
+{
+  "meta": {
+    "vocabulario": {
+      "caso": "ODPE",
+      "momento": "hito"
+    },
+    "titulo": "Control Concurrente — Proceso Electoral 2026 (Ejemplo Procesamiento)",
+    "descripcion": "Datos de ejemplo generados desde el pipeline de procesamiento. 3 ODPEs de Arequipa con datos reales extraidos y verificados.",
+    "n_casos": 3
+  },
+  "variables": [
+    {
+      "id": "actividades_operativas_capacitacion_poe",
+      "tipo": "B",
+      "label": "Actividades Operativas Capacitacion Poe"
+    },
+    {
+      "id": "actores_comision_control",
+      "tipo": "D",
+      "label": "Actores Comision Control"
+    },
+    {
+      "id": "actores_odpe_arequipa",
+      "tipo": "D",
+      "label": "Actores Odpe Arequipa"
+    },
+    {
+      "id": "actores_odpe_cerro_colorado",
+      "tipo": "D",
+      "label": "Actores Odpe Cerro Colorado"
+    },
+    {
+      "id": "avance_capacitacion_por_grupo_ocupacional",
+      "tipo": "B",
+      "label": "Avance Capacitacion Por Grupo Ocupacional"
+    },
+    {
+      "id": "conclusion_hito_1",
+      "tipo": "E",
+      "label": "Conclusion Hito 1"
+    },
+    {
+      "id": "conclusion_hito_control_1",
+      "tipo": "E",
+      "label": "Conclusion Hito Control 1"
+    },
+    {
+      "id": "cumplimiento_procedimientos_registro_remision_taller",
+      "tipo": "F",
+      "label": "Cumplimiento Procedimientos Registro Remision Taller"
+    },
+    {
+      "id": "emision_reporte_avance_situaciones_adversas",
+      "tipo": "F",
+      "label": "Emision Reporte Avance Situaciones Adversas"
+    },
+    {
+      "id": "estado_accesibilidad_discapacidad",
+      "tipo": "C",
+      "label": "Estado Accesibilidad Discapacidad"
+    },
+    {
+      "id": "estado_equipos_computo",
+      "tipo": "C",
+      "label": "Estado Equipos Computo"
+    },
+    {
+      "id": "estado_habilitacion_ambientes",
+      "tipo": "C",
+      "label": "Estado Habilitacion Ambientes"
+    },
+    {
+      "id": "estado_implementacion_centro_computo",
+      "tipo": "C",
+      "label": "Estado Implementacion Centro Computo"
+    },
+    {
+      "id": "estado_impresoras_fotocopiadoras",
+      "tipo": "C",
+      "label": "Estado Impresoras Fotocopiadoras"
+    },
+    {
+      "id": "estado_mobiliario_alquilado",
+      "tipo": "C",
+      "label": "Estado Mobiliario Alquilado"
+    },
+    {
+      "id": "estado_senalizacion_identificacion",
+      "tipo": "C",
+      "label": "Estado Senalizacion Identificacion"
+    },
+    {
+      "id": "notificacion_informe_entidad",
+      "tipo": "F",
+      "label": "Notificacion Informe Entidad"
+    },
+    {
+      "id": "personal_contratado_por_grupo_ocupacional",
+      "tipo": "B",
+      "label": "Personal Contratado Por Grupo Ocupacional"
+    },
+    {
+      "id": "presupuesto_analitico_odpe",
+      "tipo": "C",
+      "label": "Presupuesto Analitico Odpe"
+    },
+    {
+      "id": "presupuesto_asignado_odpe_arequipa",
+      "tipo": "C",
+      "label": "Presupuesto Asignado Odpe Arequipa"
+    },
+    {
+      "id": "recomendaciones_hito_control_1",
+      "tipo": "E",
+      "label": "Recomendaciones Hito Control 1"
+    },
+    {
+      "id": "recomendaciones_onpe_hito_1",
+      "tipo": "E",
+      "label": "Recomendaciones Onpe Hito 1"
+    },
+    {
+      "id": "situacion_adversa_remision_documentacion_taller_clv",
+      "tipo": "A",
+      "label": "Situacion Adversa Remision Documentacion Taller Clv"
+    },
+    {
+      "id": "situaciones_adversas_hito_1",
+      "tipo": "A",
+      "label": "Situaciones Adversas Hito 1"
+    },
+    {
+      "id": "verificacion_acta_recepcion_inmueble",
+      "tipo": "F",
+      "label": "Verificacion Acta Recepcion Inmueble"
+    },
+    {
+      "id": "verificacion_condiciones_almacen_electoral",
+      "tipo": "F",
+      "label": "Verificacion Condiciones Almacen Electoral"
+    }
+  ],
+  "nodos": [
+    {
+      "id": "odpe_arequipa",
+      "label": {
+        "valor": "ODPE Arequipa"
+      },
+      "ubicacion": {
+        "lat": -16.409,
+        "lon": -71.537,
+        "departamento": "Arequipa",
+        "provincia": "Arequipa"
+      },
+      "embedding": [
+        0.1,
+        0.2
+      ],
+      "momentos": [
+        {
+          "id": "odpe_arequipa_hito_2",
+          "hito": 2,
+          "label": "Ejecución de la Capacitación del Personal de la ODPE",
+          "filename": "Arequipa.pdf",
+          "fechas": {
+            "fecha_emision": {
+              "valor": "2026-03-26",
+              "fuente": {
+                "_ref": "cita_meta_Arequipa",
+                "doc": "Arequipa.pdf",
+                "pagina": 1,
+                "fragmento_evidencia": "2231-2026-CG/GRAR-SCC"
+              }
+            },
+            "periodo_inicio": {
+              "valor": "2026-03-16"
+            },
+            "periodo_fin": {
+              "valor": "2026-03-20"
+            }
+          },
+          "valores": {
+            "personal_contratado_por_grupo_ocupacional": {
+              "valor": 50,
+              "meta_total": 100,
+              "estimado_a_este_hito": 60,
+              "fuente": {
+                "_ref": "cita_personal_contratado_por_grupo_ocupacional",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿Se contrató al personal siguiente? Grupo ocupacional Coordinador de Loca de Votación STINO 31 indicar cantidad de personal: 120 Coordinador de Mesa SINO 8! Indicar cantidad de personal: 459"
+              }
+            },
+            "avance_capacitacion_por_grupo_ocupacional": {
+              "valor": 50,
+              "meta_total": 100,
+              "estimado_a_este_hito": 60,
+              "fuente": {
+                "_ref": "cita_avance_capacitacion_por_grupo_ocupacional",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿Se viene capacitando actualmente al personal de la ODPE? Grupo ocupacional Coordinador de Local de Votación S1/0104 No Indicar cantidad: 120 Coordinador de Mesa SÍ/NO Indicar cantidad: 459"
+              }
+            },
+            "presupuesto_asignado_odpe_arequipa": {
+              "valor": "en_plazo",
+              "nota": "MONTO SI 40 AREQUIPA AREQUIPA AREQUIPA AREQUIPA REYES MARCHENA MARINA VICTORIA MILAGROS CALLE UNIVERSIDAD 215 URB. LA VICTORIA -CERCADO DE AREQUIPA 113 480,00",
+              "fuente": {
+                "_ref": "cita_presupuesto_asignado_odpe_arequipa",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "MONTO SI 40 AREQUIPA AREQUIPA AREQUIPA AREQUIPA REYES MARCHENA MARINA VICTORIA MILAGROS CALLE UNIVERSIDAD 215 URB. LA VICTORIA -CERCADO DE AREQUIPA 113 480,00"
+              }
+            },
+            "situacion_adversa_remision_documentacion_taller_clv": {
+              "nuevos": [
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_1",
+                  "texto": "No remisión del FM01-GOECOR/CPO (Registro de asistencia) a la JACE en versión digital PDF.",
+                  "estado": "Incumplido",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_0",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_2",
+                  "texto": "No remisión del FM03-GOECOR/CPO (Encuesta de opinión en versión física) a la JACE.",
+                  "estado": "Incumplido",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_1",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_3",
+                  "texto": "No subida del PDF del FM04-GOECOR/CPO (Registro de notas); solo se registró el Excel.",
+                  "estado": "Incumplido parcialmente",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_2",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_4",
+                  "texto": "No remisión del FM05-GOECOR/CPO (Cargo de entrega de material de capacitación) por no haber accedido al módulo de capacitación.",
+                  "estado": "Incumplido",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_3",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_5",
+                  "texto": "No elaboración del FM06-GOECOR/CPO (Informe del taller de capacitación presencial) dentro del plazo de dos días posteriores a la conclusión del taller (que finalizó el 6 de marzo de 2026), ni entrega al jefe de la ODPE ni remisión a la JACE.",
+                  "estado": "Incumplido",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_4",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situacion_adversa_remision_documentacion_taller_clv_6",
+                  "texto": "No registro de información en el FM09-GOECOR/CPO (Informe final del coordinador de capacitación), ni entrega al jefe de la ODPE, ni remisión con sello de recibido a la JACE-SGCFE-GOECOR.",
+                  "estado": "Incumplido",
+                  "fuente": {
+                    "_ref": "cita_situacion_adversa_remision_documentacion_taller_clv_5",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 2 'Ejecución de capacitación de personal de la ODPE' se han identificado una (1) situación adversa que afecta o podría afectar la continuidad del proceso, el resultado o logro de los objetivos del proceso de Elecciones Generales 2026"
+                  }
+                }
+              ]
+            },
+            "actores_odpe_arequipa": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_odpe_arequipa",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "DATOS DEL JEFE DE LA ODPE\nNOMBRES Y APELLIDOS\nMARINA VICTORIA MILAGROS REYES MARCHENA\nDATOS DEL COORDINADOR DE CAPACITACIÓN DE LA ODPE\nNOMBRES Y APELLIDOS\nNANCY VICTORIA RIPA 1TO"
+              }
+            },
+            "actores_comision_control": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_comision_control",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Marleni Mamani Cachi Supervisor Comisión de Control Juan Diego Lino Prieto Jefe de Comisión Comisión de Control Marissa Alicia Chávez Chávez Gerente Regional de Control de Arequipa Contraloria General de la República"
+              }
+            },
+            "actividades_operativas_capacitacion_poe": {
+              "valor": 50,
+              "meta_total": 100,
+              "estimado_a_este_hito": 60,
+              "fuente": {
+                "_ref": "cita_actividades_operativas_capacitacion_poe",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "2.3.5.3 Realizar los talleres de capacitación presencial, reuniones de reforzamiento, jornada personal ODPE y taller de evaluación con CC. 05/01/26 27/04/26 9 10 10 10 39"
+              }
+            },
+            "cumplimiento_procedimientos_registro_remision_taller": {
+              "valor": "cumplido",
+              "nota": "¿El coordinador de capacitación elaboró el informe del taller de capacitación presencial dentro del plazo de dos dias posteriores a la conclusión del taller, utilizando el formato FM06-GOECOR/CPO (Informe del taller de capacitación presencial); entregó una copia al jefe de la ODPE o por mesa de partes y remitió la versión digital en formato PDF (escaneada con el sello de recepción de la ODPE) y en formato Word editable) al responsable del seguimiento y monitoreo de SI/NO (formato FM06- GOECOR/CPO, cargo del documento u otros), No",
+              "fuente": {
+                "_ref": "cita_cumplimiento_procedimientos_registro_remision_taller",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿El coordinador de capacitación elaboró el informe del taller de capacitación presencial dentro del plazo de dos dias posteriores a la conclusión del taller, utilizando el formato FM06-GOECOR/CPO (Informe del taller de capacitación presencial); entregó una copia al jefe de la ODPE o por mesa de partes y remitió la versión digital en formato PDF (escaneada con el sello de recepción de la ODPE) y en formato Word editable) al responsable del seguimiento y monitoreo de SI/NO (formato FM06- GOECOR/CPO, cargo del documento u otros), No"
+              }
+            },
+            "notificacion_informe_entidad": {
+              "valor": "cumplido",
+              "nota": "OFICIO N° 000610-2026-CG/GRAR\nAsunto\n: Notificación de Informe de Hito de Control n.° 2231-2026-CG/GRAR-SCC.",
+              "fuente": {
+                "_ref": "cita_notificacion_informe_entidad",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "OFICIO N° 000610-2026-CG/GRAR\nAsunto\n: Notificación de Informe de Hito de Control n.° 2231-2026-CG/GRAR-SCC."
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "odpe_cerro_colorado",
+      "label": {
+        "valor": "ODPE Cerro Colorado"
+      },
+      "ubicacion": {
+        "lat": -16.372,
+        "lon": -71.572,
+        "departamento": "Arequipa",
+        "provincia": "Arequipa"
+      },
+      "embedding": [
+        0.1,
+        0.2
+      ],
+      "momentos": [
+        {
+          "id": "odpe_cerro_colorado_hito_1",
+          "hito": 1,
+          "label": "Acondicionamiento del Local de la ODPE",
+          "filename": "Arequipa10.pdf",
+          "fechas": {
+            "fecha_emision": {
+              "valor": "2026-02-05",
+              "fuente": {
+                "_ref": "cita_meta_Arequipa10",
+                "doc": "Arequipa10.pdf",
+                "pagina": 1,
+                "fragmento_evidencia": "145-2026-CG/GRAR-SCC"
+              }
+            },
+            "periodo_inicio": {
+              "valor": "2026-01-26"
+            },
+            "periodo_fin": {
+              "valor": "2026-01-30"
+            }
+          },
+          "valores": {
+            "situaciones_adversas_hito_1": {
+              "nuevos": [
+                {
+                  "id": "situaciones_adversas_hito_1_1",
+                  "texto": "SA-1: Almacén electoral con ductos de ventilación de servicios higiénicos desembocando en su interior y abertura sin protección contra lluvia en pasadizo colindante",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_0",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_2",
+                  "texto": "SA-2: Ausencia de tópico de salud y ambiente de atención al público no implementado adecuadamente",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_1",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_3",
+                  "texto": "SA-3: Suministro de agua potable compartido con arrendatario (tienda KAYENCORP) mediante único medidor, sin posibilidad de identificar consumo real de cada parte",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_2",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_4",
+                  "texto": "SA-4: Ausencia de contratación de alquiler de mobiliario y solo 6 de 36 equipos de cómputo instalados al 29 de enero de 2026, pese a que el plazo máximo de habilitación según el POE era esa fecha",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_3",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_5",
+                  "texto": "SA-5: Frontis sin línea gráfica del proceso electoral; croquis de distribución no concluido ni remitido a GOECOR; áreas de Capacitación, Cómputo y Almacén sin rótulos; tres ambientes del primer piso no alquilados sin identificar; ausencia de aviso de enlace al libro de reclamaciones virtual en frontis",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_4",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_6",
+                  "texto": "SA-6: Centro de cómputo sin cuaderno o registro de ingreso y salida de equipos y visitantes",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_5",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_7",
+                  "texto": "SA-7: Instalaciones sin condiciones necesarias para la atención de personas con discapacidad: desnivel de ~0.35 m en ingreso principal sin rampa, desnivel de ~0.25 m entre hall y área de capacitación sin rampa, único baño en primer piso sin dimensiones para giro de silla de ruedas de 360° y a ~34 m del hall de ingreso, sin espacio señalizado para sillas de ruedas",
+                  "estado": "Abierta",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_6",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "De la revisión efectuada al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han identificado siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso/ el resultado/ o logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                }
+              ]
+            },
+            "presupuesto_analitico_odpe": {
+              "valor": "en_plazo",
+              "nota": "Presupuesto Analitico (S/) [...] 2,528,807.70",
+              "fuente": {
+                "_ref": "cita_presupuesto_analitico_odpe",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Presupuesto Analitico (S/) [...] 2,528,807.70"
+              }
+            },
+            "estado_habilitacion_ambientes": {
+              "valor": "en_plazo",
+              "nota": "Indicar la cantidad total de ambientes independientes, para el desarrollo de labores administrativas (jefatura, coordinación administrativa, supervisor, revisor contable, logística, finanzas, recursos humanos, legal, prensa). [...] 6",
+              "fuente": {
+                "_ref": "cita_estado_habilitacion_ambientes",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Indicar la cantidad total de ambientes independientes, para el desarrollo de labores administrativas (jefatura, coordinación administrativa, supervisor, revisor contable, logística, finanzas, recursos humanos, legal, prensa). [...] 6"
+              }
+            },
+            "estado_equipos_computo": {
+              "valor": "en_plazo",
+              "nota": "de los 36 equipos de cómputos solamente seis (6) fueron instalados, conforme consta en el Acta de visita complementaria - Operativo Elecciones 2026 ONPE (ODPE Cerro Colorado) de 29 de enero de 2026",
+              "fuente": {
+                "_ref": "cita_estado_equipos_computo",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "de los 36 equipos de cómputos solamente seis (6) fueron instalados, conforme consta en el Acta de visita complementaria - Operativo Elecciones 2026 ONPE (ODPE Cerro Colorado) de 29 de enero de 2026"
+              }
+            },
+            "estado_impresoras_fotocopiadoras": {
+              "valor": "en_plazo",
+              "nota": "26.1 Cantidad total encontrada en la ODPE [...] 4 [...] 26.2 De la cantidad total del punto anterior, indicar cuantas se encuentran operativas. [...] 4",
+              "fuente": {
+                "_ref": "cita_estado_impresoras_fotocopiadoras",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "26.1 Cantidad total encontrada en la ODPE [...] 4 [...] 26.2 De la cantidad total del punto anterior, indicar cuantas se encuentran operativas. [...] 4"
+              }
+            },
+            "estado_mobiliario_alquilado": {
+              "valor": "en_plazo",
+              "nota": "a dicha fecha la ODPE no ha contratado los servicios de alquiler de mobiliario, tal como se indicó en la sección III \"Muebles y equipos diversos\" del formato SCC",
+              "fuente": {
+                "_ref": "cita_estado_mobiliario_alquilado",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "a dicha fecha la ODPE no ha contratado los servicios de alquiler de mobiliario, tal como se indicó en la sección III \"Muebles y equipos diversos\" del formato SCC"
+              }
+            },
+            "estado_senalizacion_identificacion": {
+              "valor": "en_plazo",
+              "nota": "¿Se rotulo el frontis de la ODPE con la línea grafica del proceso electoral? SI / NO [...] NO",
+              "fuente": {
+                "_ref": "cita_estado_senalizacion_identificacion",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿Se rotulo el frontis de la ODPE con la línea grafica del proceso electoral? SI / NO [...] NO"
+              }
+            },
+            "estado_accesibilidad_discapacidad": {
+              "valor": "en_plazo",
+              "nota": "¿El acceso a los ambientes del local donde se atiende al público usuario, presenta desnivel mayor a 13 mm? SI / NO [...] ¿el local de la ODPE cuenta con rampas de acceso, para personas discapacitadas? SI / NO/N. A [...] NO",
+              "fuente": {
+                "_ref": "cita_estado_accesibilidad_discapacidad",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿El acceso a los ambientes del local donde se atiende al público usuario, presenta desnivel mayor a 13 mm? SI / NO [...] ¿el local de la ODPE cuenta con rampas de acceso, para personas discapacitadas? SI / NO/N. A [...] NO"
+              }
+            },
+            "actores_odpe_cerro_colorado": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_odpe_cerro_colorado",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Jefe de ODPE [...] Armando Juan Echevarría Cárdenas [...] Coordinador administrativo [...] Ruth Basilia Ripa Ito"
+              }
+            },
+            "actores_comision_control": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_comision_control",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Marleni Mamani Cachi Supervisor Comisión de Control Arequipa, 5 de febrero de 2026 Vania Neisé Díaz Arroyo Jefe de Comisión Comisión de Control"
+              }
+            },
+            "conclusion_hito_1": {
+              "valor": "en_plazo",
+              "nota": "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han advertido una cantidad de siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones GeneralesEG 2026, las cuales han sido detalladas en el presente informe.",
+              "fuente": {
+                "_ref": "cita_conclusion_hito_1",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Durante la ejecución del Control Concurrente al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", se han advertido una cantidad de siete (7) situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de las Elecciones GeneralesEG 2026, las cuales han sido detalladas en el presente informe."
+              }
+            },
+            "recomendaciones_onpe_hito_1": {
+              "valor": "en_plazo",
+              "nota": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", con la finalidad que se adopten las acciones preventivas y correctivas que correspondan",
+              "fuente": {
+                "_ref": "cita_recomendaciones_onpe_hito_1",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente informe de Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1 \"Acondicionamiento del local de la ODPE\", con la finalidad que se adopten las acciones preventivas y correctivas que correspondan"
+              }
+            },
+            "verificacion_acta_recepcion_inmueble": {
+              "valor": "cumplido",
+              "nota": "¿El formato FM10-GAD/FIN \"Acta de Recepción del bien inmueble\" se encuentra suscrito por el propietario del inmueble? SI/ NO [...] SI",
+              "fuente": {
+                "_ref": "cita_verificacion_acta_recepcion_inmueble",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿El formato FM10-GAD/FIN \"Acta de Recepción del bien inmueble\" se encuentra suscrito por el propietario del inmueble? SI/ NO [...] SI"
+              }
+            },
+            "verificacion_condiciones_almacen_electoral": {
+              "valor": "cumplido",
+              "nota": "¿Está libre de productos contaminantes (productos inflamables, aceites, herramientas, etc.)? [...] SI [...] ¿Está libre de humedad? [...] SI",
+              "fuente": {
+                "_ref": "cita_verificacion_condiciones_almacen_electoral",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "¿Está libre de productos contaminantes (productos inflamables, aceites, herramientas, etc.)? [...] SI [...] ¿Está libre de humedad? [...] SI"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "odpe_arequipa_centro_computo_eg2026",
+      "label": {
+        "valor": "Implementación del Centro de Cómputo de la ODPE Arequipa - Elecciones Generales 2026"
+      },
+      "ubicacion": {
+        "lat": -16.399,
+        "lon": -71.535,
+        "departamento": "Arequipa",
+        "provincia": "Arequipa"
+      },
+      "embedding": [
+        0.1,
+        0.2
+      ],
+      "momentos": [
+        {
+          "id": "odpe_arequipa_centro_computo_eg2026_hito_control_1",
+          "hito": 1,
+          "label": "Hito de Control N° 1 - Habilitación, acondicionamiento, y logística informática del centro de cómputo de la ODPE Arequipa",
+          "filename": "Arequipa5.pdf",
+          "fechas": {
+            "fecha_emision": {
+              "valor": "2026-03-18",
+              "fuente": {
+                "_ref": "cita_meta_Arequipa5",
+                "doc": "Arequipa5.pdf",
+                "pagina": 1,
+                "fragmento_evidencia": "1543-2026-CG/GRAR-SCC"
+              }
+            },
+            "periodo_inicio": {
+              "valor": "2026-03-05"
+            },
+            "periodo_fin": {
+              "valor": "2026-03-10"
+            }
+          },
+          "valores": {
+            "situaciones_adversas_hito_1": {
+              "nuevos": [
+                {
+                  "id": "situaciones_adversas_hito_1_1",
+                  "texto": "Falta de documentos técnicos que acrediten la ejecución de actividades de habilitación, acondicionamiento y logística informática. Al momento de la verificación (5 y 6 de marzo de 2026), transcurridos 2 días calendario desde el vencimiento del plazo (4 de marzo de 2026), el CC de la ODPE Arequipa no contaba con 12 documentos técnicos (actas, certificados, constancias, reportes y fotografías) establecidos en los TDR del SHALI.",
+                  "estado": "Abierta / activa al momento del informe",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_0",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "se han identificado 3 situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_2",
+                  "texto": "Grupo electrógeno no instalado, no conectado al tablero eléctrico y sin tubo de escape direccionado a exteriores. Verificado los días 5 y 6 de marzo de 2026, con 2 días calendario transcurridos desde el vencimiento del plazo (4 de marzo de 2026). El personal señaló que se encontraba en proceso de instalación.",
+                  "estado": "Abierta / activa al momento del informe",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_1",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "se han identificado 3 situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                },
+                {
+                  "id": "situaciones_adversas_hito_1_3",
+                  "texto": "Equipos de cómputo y dispositivos en cajas, no instalados ni conectados. Los distintos ambientes del Centro de Cómputo presentaban residuos de material de trabajos de acondicionamiento. La encargada del CC manifestó que se tenía prevista la culminación al 9 de marzo de 2026.",
+                  "estado": "Abierta / activa al momento del informe",
+                  "fuente": {
+                    "_ref": "cita_situaciones_adversas_hito_1_2",
+                    "doc": "",
+                    "pagina": 1,
+                    "fragmento_evidencia": "se han identificado 3 situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o el logro de los objetivos del proceso electoral Elecciones Generales 2026"
+                  }
+                }
+              ]
+            },
+            "presupuesto_asignado_odpe_arequipa": {
+              "valor": "en_plazo",
+              "nota": "Presupuesto (S/) ... 3,488,831.00",
+              "fuente": {
+                "_ref": "cita_presupuesto_asignado_odpe_arequipa",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Presupuesto (S/) ... 3,488,831.00"
+              }
+            },
+            "actores_odpe_arequipa": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_odpe_arequipa",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Jefe de ODPE ... Marina Victoria Reyes Marchena"
+              }
+            },
+            "actores_comision_control": {
+              "actores": [
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                },
+                {
+                  "nombre": "",
+                  "rol": ""
+                }
+              ],
+              "fuente": {
+                "_ref": "cita_actores_comision_control",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "César José Martin Lema Soncco Jefe de Comisión Comisión de Control"
+              }
+            },
+            "emision_reporte_avance_situaciones_adversas": {
+              "valor": "cumplido",
+              "nota": "la Comisión de Control no emitió reporte de avance ante situaciones adversas",
+              "fuente": {
+                "_ref": "cita_emision_reporte_avance_situaciones_adversas",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "la Comisión de Control no emitió reporte de avance ante situaciones adversas"
+              }
+            },
+            "conclusion_hito_control_1": {
+              "valor": "en_plazo",
+              "nota": "se han advertido tres situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la \"Implementación del centro de cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa, en el marco de las elecciones generales 2026\"",
+              "fuente": {
+                "_ref": "cita_conclusion_hito_control_1",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "se han advertido tres situaciones adversas que afectan o podrían afectar la continuidad del proceso, el resultado o logro de los objetivos de la \"Implementación del centro de cómputo de la Oficina Descentralizada de Procesos Electorales - ODPE Arequipa, en el marco de las elecciones generales 2026\""
+              }
+            },
+            "recomendaciones_hito_control_1": {
+              "valor": "en_plazo",
+              "nota": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente Informe Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1",
+              "fuente": {
+                "_ref": "cita_recomendaciones_hito_control_1",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "Hacer de conocimiento al Jefe Nacional de la Oficina Nacional de Procesos Electorales ONPE, el presente Informe Hito de Control, el cual contiene las situaciones adversas identificadas como resultado del Control Concurrente al Hito de Control n.° 1"
+              }
+            },
+            "estado_implementacion_centro_computo": {
+              "valor": "en_plazo",
+              "nota": "se advierte que la ODPE Arequipa no cuenta con la totalidad de documentos técnicos, actas y registros que acrediten la correcta ejecución de las actividades establecidas en los términos de referencia del SHALI, pese a haber transcurrido 2 días calendario desde el vencimiento del plazo de entrega (4 de marzo de 2026)",
+              "fuente": {
+                "_ref": "cita_estado_implementacion_centro_computo",
+                "doc": "",
+                "pagina": 1,
+                "fragmento_evidencia": "se advierte que la ODPE Arequipa no cuenta con la totalidad de documentos técnicos, actas y registros que acrediten la correcta ejecución de las actividades establecidas en los términos de referencia del SHALI, pese a haber transcurrido 2 días calendario desde el vencimiento del plazo de entrega (4 de marzo de 2026)"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

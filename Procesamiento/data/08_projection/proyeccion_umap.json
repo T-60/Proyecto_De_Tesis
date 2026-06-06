@@ -1,0 +1,81 @@
+{
+  "casos": [
+    {
+      "caso_id": "arequipa__capacitacion",
+      "x": 12.678849220275879,
+      "y": 1.9954302310943604,
+      "componente_numerico": [
+        0.25,
+        0.44146,
+        0.8095238095238095,
+        19
+      ]
+    },
+    {
+      "caso_id": "arequipa__computo",
+      "x": 13.406678199768066,
+      "y": 3.6661713123321533,
+      "componente_numerico": [
+        0.5,
+        0.008,
+        0.9565217391304348,
+        12
+      ]
+    },
+    {
+      "caso_id": "arequipa__instalacion_personal",
+      "x": 12.70218563079834,
+      "y": 4.3229660987854,
+      "componente_numerico": [
+        0.0,
+        0.04650000000000001,
+        1.0,
+        12
+      ]
+    },
+    {
+      "caso_id": "cerro_colorado__capacitacion",
+      "x": 11.892478942871094,
+      "y": 2.7653615474700928,
+      "componente_numerico": [
+        0.0,
+        0.76275,
+        0.8571428571428571,
+        20
+      ]
+    },
+    {
+      "caso_id": "cerro_colorado__computo",
+      "x": 13.612289428710938,
+      "y": 2.584603786468506,
+      "componente_numerico": [
+        0.1111111111111111,
+        0.0069,
+        0.8571428571428571,
+        19
+      ]
+    },
+    {
+      "caso_id": "cerro_colorado__despliegue",
+      "x": 11.531713485717773,
+      "y": 1.932753562927246,
+      "componente_numerico": [
+        0.0,
+        1.0,
+        0.6666666666666666,
+        17
+      ]
+    },
+    {
+      "caso_id": "cerro_colorado__instalacion_personal",
+      "x": 11.726938247680664,
+      "y": 3.87272047996521,
+      "componente_numerico": [
+        0.0,
+        0.3234,
+        0.8636363636363636,
+        16
+      ]
+    }
+  ]
+}

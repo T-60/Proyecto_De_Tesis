@@ -7,3 +7,4 @@ Procesamiento/venv/
 Procesamiento/backups/
 graphify-out/
 .claude/
+.DS_Store

@@ -29,7 +29,7 @@ PDF_DIR        = Path("data/pdfs")
 MD_DIR         = Path("data/00_simplified")
 EXTRACTED_DIR  = Path("data/01_extracted")
 STRUCTURED_DIR = Path("data/02_structured")
-VERIFIED_DIR   = Path("data/03_pre_verified")
+VERIFIED_DIR   = Path("data/04_verified")
 CALCULATED_DIR = Path("data/05_calculated")
 METRICS_DIR    = Path("data/metrics")
 

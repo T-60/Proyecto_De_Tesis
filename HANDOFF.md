@@ -63,12 +63,14 @@ Todos los scripts viven en `Procesamiento/`. Cada uno lee de una carpeta
 ### El vector de características (lo que define la vista de similitud)
 Dos bloques concatenados, **balanceados por √(nº columnas)** para que ninguno
 domine (decisión metodológica clave, defendible ante jurado — documentar en tesis):
-- **Componente numérico** (4 dims, en `componente_numerico` del JSON de proyección):
-  1. `prop_a` — proporción de situaciones adversas **cerradas** (estado canónico
-     "Corregida" = cerrada; contado sobre estados normalizados, no sobre crudo)
-  2. `prom_b` — promedio de `pct_avance` (escala 0..1)
-  3. `prop_f` — proporción de criterios documentales cumplidos
-  4. `actores` — nº de actores
+- **Componente numérico** (5 dims, en `componente_numerico` del JSON de proyección):
+  1. `prop_a` — proporción de apariciones **resueltas** (estado canónico
+     "Corregida" = cerrada; binario estricto; sobre estados normalizados, no crudo)
+  2. `prop_enprog` — proporción de apariciones **en progreso** ("Con acciones");
+     dimensión añadida (decisión §5.1) para no ocultar lo pendiente
+  3. `prom_b` — promedio de `pct_avance` (escala 0..1)
+  4. `prop_f` — proporción de criterios documentales cumplidos
+  5. `actores` — nº de actores
 - **Componente semántico**: embedding SBERT del texto narrativo (tipo E).
 
 UMAP: `n_neighbors=min(5, n-1)`, `min_dist=0.3` (ajustable; ver §5).
@@ -104,12 +106,18 @@ reprocesar otra vez por esto en PFC2.**
 
 Tres dudas resueltas en conversación; falta decidir/implementar la #1:
 
-1. **Definición de "cerrada"** (la más importante, conceptual). Hoy: solo
-   "Corregida" cuenta como cerrada; "Con acciones" NO cuenta. Recomendación:
-   mantener estricto (cerrada = resuelta del todo) PERO **añadir una métrica
-   aparte de "en progreso"** para las "Con acciones" → distinguir 3 estados
-   (resueltas / en progreso / abiertas) en vez del binario actual. Enriquece el
-   Sankey y el vector. **← DECISIÓN PENDIENTE DE ITALO: ¿3 estados o binario?**
+1. **Definición de "cerrada"** → ✅ **RESUELTO (Opción B, 3 estados, 2026-06-07)**.
+   "Cerrada" se mantiene estricta (solo "Corregida" = resuelta); "Con acciones"
+   se mide aparte como **en progreso**; el resto sin resolver es **abierta**.
+   Implementado 100% en código (post-procesamiento, sin re-extracción ni API):
+   - `05_consolidar.py`: mapa `MACROESTADO` (resuelta/en_progreso/abierta) sobre
+     el estado canónico; cada aparición lleva `macroestado`; `resumen_situaciones`
+     trae `por_estado_final` (cuenta hilos por estado final).
+   - `07_vector_y_umap.py`: nueva dimensión `prop_enprog` → vector numérico de 5.
+   - Mapeo: Corregida→resuelta; Con acciones→en_progreso; Abierta/Persiste/
+     Incumplido→abierta; No aplica/Sin estado→None (excluidos).
+   - Nota: el vector cuenta a nivel de **aparición**; `por_estado_final` a nivel
+     de **hilo** (su última aparición). Dos lentes distintas, ambas válidas.
 2. **Balance por √dimensiones** → ✅ correcto, ya implementado. Solo documentarlo.
 3. **UMAP amontonado con 7 casos** → cosmético. Bajar `n_neighbors` a 3-4 y subir
    `min_dist` a 0.5 mejora legibilidad, pero con 7 puntos no hay milagros. No

@@ -29,30 +29,37 @@ INPUT_DIR = Path("data/06_consolidated")
 OUTPUT_DIR = Path("data/08_projection")
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
-# Estado CANONICO que cuenta como hallazgo cerrado/resuelto.
-# (Se compara contra el estado ya normalizado en 'situaciones_adversas', no
-#  contra el detalle crudo, que trae textos como "no subsanado" que con un
-#  match por substring darian falsos positivos.)
+# Estados CANONICOS del ciclo de vida (se comparan contra el estado ya
+# normalizado en 'situaciones_adversas', no contra el detalle crudo, que trae
+# textos como "no subsanado" que con un match por substring darian falsos
+# positivos). Decision metodologica (tesis): "cerrada" se mantiene ESTRICTA =
+# solo 'Corregida'; 'Con acciones' es un estado intermedio propio que se mide
+# aparte como "en progreso", para no ocultar lo que sigue pendiente.
 ESTADOS_CERRADOS = {"corregida"}
+ESTADOS_EN_PROGRESO = {"con acciones"}
 
 
 def componente_numerico(data):
-    """Las 4 metricas numericas del caso.
+    """Las 5 metricas numericas del caso.
 
     Tipo A (cerradas): proporcion de apariciones en estado CANONICO cerrado,
       contadas sobre 'situaciones_adversas' (estados ya normalizados), no sobre
-      el detalle crudo. 'Corregida' = cerrada.
+      el detalle crudo. 'Corregida' = cerrada (binario estricto).
+    Tipo A (en progreso): proporcion de apariciones 'Con acciones' (estado
+      intermedio). Dimension aparte para no ocultar lo que sigue pendiente.
     Tipo B (avance): pct_avance es SIEMPRE un porcentaje 0-100 (la formula hace
       *100). Por eso se divide /100 para llevarlo a 0..1. Valores como 0.8 son
       avances reales bajos (0.8%), no un error de escala.
     Tipo F: proporcion de criterios cumplidos. Tipo D: numero de actores.
     """
-    # --- Tipo A: cerradas sobre estados canonicos ---
+    # --- Tipo A: cerradas / en progreso sobre estados canonicos ---
     apariciones = [a for h in data.get("situaciones_adversas", [])
                    for a in h.get("apariciones", [])]
     total_a = len(apariciones)
     cerrados_a = sum(1 for a in apariciones
                      if (a.get("estado") or "").strip().lower() in ESTADOS_CERRADOS)
+    enprog_a = sum(1 for a in apariciones
+                   if (a.get("estado") or "").strip().lower() in ESTADOS_EN_PROGRESO)
 
     # --- Tipos B, D, F desde las variables de cada momento ---
     avances = []
@@ -74,9 +81,10 @@ def componente_numerico(data):
                 actores += len(v.get("detalle") or [])
 
     prop_a = cerrados_a / total_a if total_a else 0.0
+    prop_enprog = enprog_a / total_a if total_a else 0.0
     prom_b = (sum(avances) / len(avances) / 100) if avances else 0.0  # pct 0-100 -> 0..1
     prop_f = ok_f / total_f if total_f else 0.0
-    return [prop_a, prom_b, prop_f, actores]
+    return [prop_a, prop_enprog, prom_b, prop_f, actores]
 
 
 def texto_conclusiones(data):

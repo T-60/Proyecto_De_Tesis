@@ -1746,7 +1746,13 @@
     "total_hilos": 2,
     "con_continuidad": 0,
     "solo_un_momento": 2,
-    "continuidad_inferida_por_texto": 0
+    "continuidad_inferida_por_texto": 0,
+    "por_estado_final": {
+      "resuelta": 0,
+      "en_progreso": 0,
+      "abierta": 2,
+      "sin_clasificar": 0
+    }
   },
   "situaciones_adversas": [
     {
@@ -1761,6 +1767,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierta",
           "estado": "Abierta",
+          "macroestado": "abierta",
           "texto": "La ODPE Cerro Colorado no ha culminado la contratación de los servicios de transporte terrestre para el despliegue y repliegue electoral, documentos electorales y personal responsable de la ODPE, en el marco de las Elecciones Generales 2026. Durante la inspección realizada el 30 de marzo de 2026, la Comisión de Control evidenció que la ODPE contaba con cuatro (4) Términos de Referencia (FM27-GAD/LOG) para contratar los servicios de transporte terrestre en las rutas: Suroeste/Oeste, Noreste, Suroeste y Norte (pedidos de servicio BS-000024, BS-000025, BS-000026 y BS-000027 de 26 de marzo de 2026). Al 6 de abril de 2026, si bien se presentaron postores que cumplieron con los TDR y se cuenta con postores ganadores, no se habían registrado órdenes de servicio; la Coordinadora Administrativa señaló que estas serían emitidas el 7 de abril de 2026, luego del perfeccionamiento de los contratos. A la fecha de emisión del informe faltaban cinco (5) días para la realización de las elecciones. Adicionalmente, se identificaron desviaciones en los TDR aprobados por la ODPE respecto al modelo institucional: en el rubro 'De los Conductores', el modelo exige Licencia de Conducir vigente Clase A-II o B-II y mínimo 2 años de experiencia, mientras que el TDR aprobado establece 'Licencia según el tipo de vehículo a conducir' y no requiere experiencia alguna; en el rubro 'De los Vehículos', el modelo exige antigüedad no mayor a diez (10) años, mientras que el TDR aprobado indica 'Año de fabricación no anterior al 2010'. La Coordinadora Administrativa justificó estos cambios con la finalidad de propiciar la pluralidad de postores. Esta situación afectaría el proceso de las Elecciones Generales 2026, comprometiendo el desarrollo de la jornada electoral en los locales de votación de la jurisdicción de la ODPE Cerro Colorado. La Comisión de Control no emitió Reporte de Avance ante Situaciones Adversas durante la ejecución del presente servicio de control concurrente.",
           "fuente_ids": [
             941,
@@ -1792,6 +1799,7 @@
           "hito_id": "hito_2",
           "estado_raw": "Incumplido",
           "estado": "Incumplido",
+          "macroestado": "abierta",
           "texto": "Contratistas efectuaron el servicio de despliegue y repliegue del material electoral con vehículos y conductores diferentes a los presentados en la propuesta inicial para la suscripción del contrato, lo que afectaría el otorgamiento de conformidad a los servicios contratados en el marco de las Elecciones Generales 2026. El 10 de abril de 2026, cuatro contratistas (Zegarra Transportes, Servicios y Representaciones S.A.C.; Andina Travel Service & Adventures S.R.L.; Mosam Transtuserv S.R.L.; y Gloria Rocío Herrera Nieto) presentaron solicitudes de cambio de vehículos y conductores, indicando que los reemplazantes cumplían los Términos de Referencia y mantenían las mismas condiciones técnicas, operativas y de seguridad. Sin embargo, la ODPE Cerro Colorado no dio respuesta a dichas solicitudes, es decir, no autorizó formalmente el reemplazo, situación que quedó consignada en el formato I de 'Verificación de las unidades de transporte del servicio de despliegue y repliegue'. Adicionalmente, durante las visitas de inspección realizadas los días 11 y 12 de abril a diez locales de votación, se evidenció que el conductor de iniciales WVP, quien ejecutó el servicio en la ruta Noreste (ruta 14, Cayma Zona 2A), no figuraba ni en la relación inicial de conductores propuestos ni en la solicitud de reemplazo presentada por el contratista, lo que significa que dicho cambio no fue comunicado a la ODPE. El Asistente Logístico señaló que le tomaron datos al conductor WVP durante el servicio del 11 de abril validando su participación, pero confirmó que no existe solicitud formal en el expediente de la empresa ni autorización expresa de la ODPE Cerro Colorado. Los Términos de Referencia y el Contrato n.° 013-2026-ODPE CERRO COLORADO/EG 2026 establecen que el reemplazo de vehículos requiere autorización previa de la ODPE, inspección física y análisis de documentación, con un plazo máximo de 24 horas antes del inicio del servicio. La consecuencia de esta situación es que afectaría el otorgamiento de conformidad a los servicios contratados.",
           "fuente_ids": [
             804,

@@ -1599,7 +1599,13 @@
     "total_hilos": 7,
     "con_continuidad": 2,
     "solo_un_momento": 5,
-    "continuidad_inferida_por_texto": 0
+    "continuidad_inferida_por_texto": 0,
+    "por_estado_final": {
+      "resuelta": 0,
+      "en_progreso": 3,
+      "abierta": 4,
+      "sin_clasificar": 0
+    }
   },
   "situaciones_adversas": [
     {
@@ -1614,6 +1620,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — no se reporta corrección al 30 de enero de 2026",
           "estado": "Persiste",
+          "macroestado": "abierta",
           "texto": "SA1 — Acta de Recepción de Inmueble (FM10-GAD/FIN, 29 de diciembre de 2025) registra datos incorrectos: indica pisos de cerámico cuando son de cemento pulido (pisos 1, 2 y 5), indica que todas las puertas están en buen estado cuando el área de conservación de cédulas del primer piso no tiene puerta sino solo cortina plástica. Adicionalmente, las mamparas del segundo piso no cumplen la Norma Técnica E.040 (no son vidrio templado ni laminado). Riesgo: posibles conflictos con el propietario al momento de devolución del inmueble.",
           "fuente_ids": [
             1955,
@@ -1645,6 +1652,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — en proceso de ejecución al 30 de enero de 2026",
           "estado": "Con acciones",
+          "macroestado": "en_progreso",
           "texto": "SA2 — Los ambientes del local de la ODPE Arequipa no se encuentran habilitados conforme a la normativa. Al 26 y 30 de enero de 2026, el plazo máximo según el POE era el 17 de enero de 2026. Trabajos del servicio SHALI aún en ejecución (instalación de red de datos, red eléctrica, red de vigilancia). Falta tabiquería en pisos 1, 2 y 5; sin red eléctrica ni red de datos en diversas áreas; baños del 2.° piso sin vidrios ni privacidad; equipos de cómputo almacenados sin instalar; cámaras de vigilancia sin instalar; trabajos de acondicionamiento del Centro de Cómputo del 5.° piso aún en ejecución. Riesgo: podría afectar el desarrollo de actividades y la salud del personal.",
           "fuente_ids": [
             2217,
@@ -1674,6 +1682,7 @@
           "hito_id": "hito_2",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
+          "macroestado": "en_progreso",
           "texto": "Los ambientes del local en el cual viene operando la ODPE Arequipa, no se encuentran habilitados de conformidad a lo establecido en la normativa, situación que podría afectar el desarrollo de las actividades y/o la salud de las personas que vienen participando en la ODPE.",
           "fuente_ids": [
             2145,
@@ -1699,6 +1708,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — proceso de contratación en curso al 30 de enero de 2026",
           "estado": "Con acciones",
+          "macroestado": "en_progreso",
           "texto": "SA3 — La ODPE Arequipa no ha contratado el alquiler de mobiliario, equipamiento e impresoras. Al 26 de enero de 2026, el mobiliario se registra como 'prestado' en el Formato III. Al 30 de enero, la contratación aún está en proceso. El mobiliario en uso proviene de la ORC Arequipa (escritorios, mesas, sillas y libreros prestados). Pisos 1, 2, 3, 4 y 5 sin mobiliario propio. Riesgo: podría limitar actividades y servicios de la ODPE.",
           "fuente_ids": [
             2508,
@@ -1730,6 +1740,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — rótulos sin instalar al 30 de enero de 2026",
           "estado": "Persiste",
+          "macroestado": "abierta",
           "texto": "SA4 — Las áreas de la ODPE Arequipa no están señalizadas conforme a la normativa. En el primer piso, las áreas de almacén no tienen identificación. Los rótulos están disponibles físicamente pero no han sido colocados, según el Acta n.° 002 de 30 de enero de 2026, porque se espera finalizar trabajos de pintura y conexión de sedes. Riesgo: podría limitar la identificación de áreas por personal externo.",
           "fuente_ids": [
             2639,
@@ -1758,6 +1769,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — no subsanado al 30 de enero de 2026",
           "estado": "Abierta",
+          "macroestado": "abierta",
           "texto": "SA5 — Los ambientes del local de la ODPE Arequipa no están acondicionados para la atención de personas con discapacidad. El baño del primer piso tiene un ancho de 78 cm (insuficiente; la norma exige mínimo 90 cm para interiores y giro de 1.50 m). No se ha habilitado ni señalizado espacio de espera para sillas de ruedas. El área de atención al público del primer piso aún no está habilitada. Riesgo: afectación del derecho de accesibilidad de personas con discapacidad.",
           "fuente_ids": [
             2763,
@@ -1782,6 +1794,7 @@
           "hito_id": "hito_2",
           "estado_raw": "Con Acciones",
           "estado": "Con acciones",
+          "macroestado": "en_progreso",
           "texto": "Los ambientes del local de la ODPE Arequipa no vienen siendo acondicionados para la atención de personas con discapacidad, lo cual estaría afectando su derecho de accesibilidad a los servicios públicos que se brindan en el marco de las elecciones generales 2026.",
           "fuente_ids": [
             2147,
@@ -1807,6 +1820,7 @@
           "hito_id": "hito_1",
           "estado_raw": "Abierto — no subsanado al 30 de enero de 2026",
           "estado": "Abierta",
+          "macroestado": "abierta",
           "texto": "SA6 — El almacén de la ODPE Arequipa no cuenta con infraestructura adecuada de seguridad. El área de conservación de cédulas no tiene puerta instalada (solo cortina plástica), no tiene cámara de seguridad ni marcador biométrico instalados. Existe una ventana corrediza de vidrio entre las áreas de almacén que no asegura protección del ambiente. Existe una abertura (tragaluz) que conecta desde el 3.° y 4.° piso directamente al almacén del 1.° piso, sin protección ante lluvias, representando riesgo de deterioro del material electoral en temporada de lluvias según SENAMHI. Riesgo: seguridad de la información conservada en el almacén.",
           "fuente_ids": [
             2921,
@@ -1836,6 +1850,7 @@
           "hito_id": "hito_2",
           "estado_raw": "Abierta",
           "estado": "Abierta",
+          "macroestado": "abierta",
           "texto": "Algunas personas contratadas bajo la modalidad de locación de servicios no vienen realizando todas las funciones establecidas en los términos de referencia de su contratación, situación que afectaría el objetivo de su contratación y con ello la gestión administrativa de la ODPE en el contexto de la organización de las Elecciones Generales 2026. Afecta a 6 personas de 4 grupos ocupacionales: Asistente de Oficina T1 (contrato LS-EG2026-000001), 3 Auxiliares Administrativos T1 (contratos LS-EG2026-000006, 000007, 000011), Coordinador de Operaciones (contrato LS-EG2026-000003) y Asistente de Finanzas (contrato LS-EG2026-000012).",
           "fuente_ids": [
             1523,

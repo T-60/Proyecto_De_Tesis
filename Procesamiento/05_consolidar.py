@@ -130,6 +130,23 @@ NORMALIZAR_ESTADO = {
 }
 
 
+# Macro-estado del CICLO DE VIDA (3 categorias), sobre el estado YA canonico.
+# Decision metodologica (tesis): "cerrada" se mantiene estricta = resuelta del
+# todo (solo 'Corregida'). 'Con acciones' es un estado INTERMEDIO propio
+# ('en_progreso'), no se cuenta como cerrada para no ocultar lo que sigue
+# pendiente. Lo demas sin resolver es 'abierta'. 'No aplica'/'Sin estado' no
+# son parte del ciclo -> None (se excluyen de las proporciones por estado).
+MACROESTADO = {
+    "Corregida":    "resuelta",
+    "Con acciones": "en_progreso",
+    "Abierta":      "abierta",
+    "Persiste":     "abierta",
+    "Incumplido":   "abierta",
+    "No aplica":    None,
+    "Sin estado":   None,
+}
+
+
 # ============================================================
 # UTILIDADES
 # ============================================================
@@ -202,6 +219,11 @@ def estado_canonico(estado_crudo, sin_mapear):
         return NORMALIZAR_ESTADO[estado_crudo]
     sin_mapear.add(estado_crudo)
     return estado_crudo  # se deja crudo para que sea visible que falta mapearlo
+
+
+def macroestado(estado_canon):
+    """Macro-estado del ciclo de vida (resuelta/en_progreso/abierta) o None."""
+    return MACROESTADO.get(estado_canon)
 
 
 # --- Pistas textuales de continuidad (enfoque hibrido) ---
@@ -288,12 +310,14 @@ def construir_hilos(momentos, sin_mapear):
         for sit in sits:
             pistas = sit.get("pista_continuidad") or []
             tiene_dm = sit["desde_momento"] not in (None, "", [])
+            est_canon = estado_canonico(sit["estado_raw"], sin_mapear)
             apariciones.append({
                 "orden":             orden,
                 "doc":               mom["doc"],
                 "hito_id":           hito_id,
                 "estado_raw":        sit["estado_raw"],
-                "estado":            estado_canonico(sit["estado_raw"], sin_mapear),
+                "estado":            est_canon,
+                "macroestado":       macroestado(est_canon),
                 "texto":             sit["texto"],
                 "fuente_ids":        sit["fuente_ids"],
                 "desde_momento":     sit["desde_momento"],
@@ -611,6 +635,12 @@ def procesar_caso(caso, sin_mapear):
     # Continuidad inferida por pista textual (cuando desde_momento estaba en None)
     n_por_pista = sum(1 for h in hilos for a in h["apariciones"]
                       if a.get("pista_continuidad") and a.get("desde_momento") in (None, "", []))
+    # Estado FINAL de cada hilo = macro-estado de su ultima aparicion (status
+    # actual de la situacion). Base para el binario estricto + "en progreso".
+    por_estado_final = {"resuelta": 0, "en_progreso": 0, "abierta": 0, "sin_clasificar": 0}
+    for h in hilos:
+        macro = h["apariciones"][-1].get("macroestado")
+        por_estado_final[macro if macro in por_estado_final else "sin_clasificar"] += 1
     return {
         "caso_id": caso["caso_id"],
         "odpe": caso["odpe"],
@@ -623,6 +653,8 @@ def procesar_caso(caso, sin_mapear):
             "con_continuidad": n_cont,
             "solo_un_momento": n_sit - n_cont,
             "continuidad_inferida_por_texto": n_por_pista,
+            # 3 estados por estado final del hilo (resuelta/en_progreso/abierta)
+            "por_estado_final": por_estado_final,
         },
         "situaciones_adversas": hilos,
         "sankey": sankey,
